@@ -22,9 +22,8 @@
     <meta name="twitter:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub.">
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
-    <!-- Favicon - adapts to color scheme -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/png" href="assets/app-icon-light.png" media="(prefers-color-scheme: light)">
+    <!-- Favicon - dynamically updated by JavaScript for theme changes -->
+    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
     <link rel="apple-touch-icon" href="assets/app-icon.png">
 
     <!-- Fonts -->
@@ -118,63 +117,96 @@
             overflow-x: hidden;
         }
 
-        /* Background Grid */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image:
-                linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
-            background-size: 50px 50px;
-            pointer-events: none;
-            z-index: -1;
-        }
+        /* Background - grid removed for cleaner look matching app */
 
-        /* Floating Orbs */
+        /* Floating Orbs - matched to app's atmospheric background */
         .orb {
             position: fixed;
             border-radius: 50%;
             filter: blur(100px);
             pointer-events: none;
             z-index: -1;
-            opacity: 0.5;
         }
 
+        /* Large purple orb - top right */
         .orb-1 {
-            width: 600px;
-            height: 600px;
+            width: 350px;
+            height: 350px;
             background: var(--purple-dark);
-            top: -200px;
-            right: -200px;
-            animation: float 20s ease-in-out infinite;
+            top: -100px;
+            right: -100px;
+            opacity: 0.5;
+            animation: float1 4s ease-in-out infinite;
         }
 
+        [data-theme="light"] .orb-1 {
+            opacity: 0.25;
+        }
+
+        /* Medium cyan orb - bottom left */
         .orb-2 {
-            width: 400px;
-            height: 400px;
+            width: 280px;
+            height: 280px;
             background: var(--cyan);
-            bottom: 20%;
-            left: -100px;
-            animation: float 25s ease-in-out infinite reverse;
+            bottom: 30%;
+            left: -80px;
+            opacity: 0.4;
+            animation: float2 5s ease-in-out infinite;
         }
 
+        [data-theme="light"] .orb-2 {
+            opacity: 0.2;
+        }
+
+        /* Small green orb - center right */
         .orb-3 {
-            width: 300px;
-            height: 300px;
+            width: 200px;
+            height: 200px;
             background: var(--green);
-            bottom: -100px;
-            right: 20%;
-            animation: float 18s ease-in-out infinite;
+            bottom: 20%;
+            right: 10%;
+            opacity: 0.35;
+            animation: float3 3.5s ease-in-out infinite;
         }
 
-        @keyframes float {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(30px, -30px) scale(1.05); }
-            66% { transform: translate(-20px, 20px) scale(0.95); }
+        [data-theme="light"] .orb-3 {
+            opacity: 0.18;
+        }
+
+        /* Extra accent orb - top left (purple light) */
+        .orb-4 {
+            width: 150px;
+            height: 150px;
+            background: var(--purple-light);
+            top: 15%;
+            left: 10%;
+            opacity: 0.3;
+            filter: blur(50px);
+            animation: float4 4.5s ease-in-out infinite;
+        }
+
+        [data-theme="light"] .orb-4 {
+            opacity: 0.15;
+        }
+
+        @keyframes float1 {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(40px, -30px); }
+        }
+
+        @keyframes float2 {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(-30px, 25px); }
+        }
+
+        @keyframes float3 {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(25px, -20px); }
+        }
+
+        @keyframes float4 {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(-20px, 15px); }
         }
 
         /* Navigation */
@@ -311,14 +343,21 @@
             align-items: center;
             gap: var(--space-sm);
             padding: var(--space-xs) var(--space-md);
-            background: var(--bg-card);
-            border: 1px solid var(--border);
+            background: rgba(22, 22, 31, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 100px;
             font-family: var(--font-mono);
             font-size: 0.8rem;
             color: var(--text-secondary);
             margin-bottom: var(--space-lg);
             animation: fadeInUp 0.8s ease forwards;
+        }
+
+        [data-theme="light"] .hero-badge {
+            background: rgba(255, 255, 255, 0.6);
+            border-color: rgba(255, 255, 255, 0.3);
         }
 
         .badge-dot {
@@ -565,13 +604,20 @@
             width: 280px;
             height: 580px;
             margin: 0 auto;
-            background: var(--bg-secondary);
+            background: rgba(18, 18, 26, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             border-radius: 40px;
-            border: 4px solid var(--bg-tertiary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             box-shadow:
-                0 50px 100px rgba(0, 0, 0, 0.3),
-                inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+                0 50px 100px rgba(0, 0, 0, 0.4),
+                inset 0 0 0 2px rgba(255, 255, 255, 0.05);
             overflow: hidden;
+        }
+
+        [data-theme="light"] .phone-mockup {
+            background: rgba(255, 255, 255, 0.8);
+            border-color: rgba(255, 255, 255, 0.5);
         }
 
         .phone-notch {
@@ -662,8 +708,10 @@
 
         .demo-step {
             padding: var(--space-lg);
-            background: var(--bg-card);
-            border: 1px solid var(--border);
+            background: rgba(22, 22, 31, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 16px;
             cursor: pointer;
             transition: var(--transition-base);
@@ -671,7 +719,12 @@
             overflow: hidden;
         }
 
-        .demo-step::before {
+        [data-theme="light"] .demo-step {
+            background: rgba(255, 255, 255, 0.6);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .demo-step::after {
             content: '';
             position: absolute;
             left: 0;
@@ -683,16 +736,20 @@
         }
 
         .demo-step.active {
-            border-color: var(--purple-light);
-            background: var(--bg-tertiary);
+            background: rgba(26, 26, 36, 0.7);
+            border-color: rgba(129, 140, 248, 0.3);
         }
 
-        .demo-step.active::before {
+        [data-theme="light"] .demo-step.active {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .demo-step.active::after {
             background: linear-gradient(180deg, var(--purple-light), var(--cyan));
         }
 
         .demo-step:hover:not(.active) {
-            border-color: var(--text-tertiary);
+            border-color: rgba(255, 255, 255, 0.15);
         }
 
         .step-header {
@@ -754,18 +811,57 @@
 
         .feature-card {
             padding: var(--space-xl);
-            background: var(--bg-card);
-            border: 1px solid var(--border);
+            background: rgba(22, 22, 31, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid transparent;
             border-radius: 20px;
             transition: var(--transition-base);
             position: relative;
             overflow: hidden;
         }
 
+        /* Gradient border effect using pseudo-element */
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 20px;
+            padding: 1px;
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.15) 0%,
+                rgba(255, 255, 255, 0.05) 100%
+            );
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+
+        [data-theme="light"] .feature-card {
+            background: rgba(255, 255, 255, 0.7);
+        }
+
+        [data-theme="light"] .feature-card::before {
+            background: linear-gradient(
+                135deg,
+                rgba(255, 255, 255, 0.4) 0%,
+                rgba(255, 255, 255, 0.1) 100%
+            );
+        }
+
         .feature-card:hover {
             transform: translateY(-4px);
-            border-color: var(--purple-light);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-card:hover::before {
+            background: linear-gradient(
+                135deg,
+                rgba(129, 140, 248, 0.4) 0%,
+                rgba(129, 140, 248, 0.1) 100%
+            );
         }
 
         .feature-icon {
@@ -868,11 +964,18 @@
             max-width: 700px;
             margin: 0 auto;
             padding: var(--space-xl);
-            background: linear-gradient(135deg, var(--bg-card), var(--bg-tertiary));
-            border: 1px solid var(--border);
+            background: rgba(22, 22, 31, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 24px;
             position: relative;
             overflow: hidden;
+        }
+
+        [data-theme="light"] .cta-card {
+            background: rgba(255, 255, 255, 0.7);
+            border-color: rgba(255, 255, 255, 0.4);
         }
 
         .cta-card::before {
@@ -883,8 +986,27 @@
             width: 200%;
             height: 200%;
             background: radial-gradient(circle, var(--glow) 0%, transparent 70%);
-            opacity: 0.3;
+            opacity: 0.4;
             animation: rotate 20s linear infinite;
+        }
+
+        /* Gradient border for CTA */
+        .cta-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 24px;
+            padding: 1px;
+            background: linear-gradient(
+                135deg,
+                rgba(129, 140, 248, 0.3) 0%,
+                rgba(34, 211, 238, 0.2) 50%,
+                rgba(129, 140, 248, 0.1) 100%
+            );
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
         }
 
         @keyframes rotate {
@@ -1060,10 +1182,11 @@
     </style>
 </head>
 <body>
-    <!-- Background Orbs -->
+    <!-- Background Orbs - matching app's atmospheric background -->
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
     <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
 
     <!-- Navigation -->
     <nav>
@@ -1495,7 +1618,7 @@
                 <a href="mailto:support@gitfocus.app">Contact</a>
             </div>
             <div class="footer-copy">
-                © 2025 gitfocus. Made with ☕ and git commits.
+                © 2025 gitfocus. Made with focus and git commits.
             </div>
         </div>
     </footer>
@@ -1510,10 +1633,18 @@
     <script>
         // Theme Toggle
         function updateFavicon(theme) {
-            const favicon = document.querySelector('link[rel="icon"]');
-            if (favicon) {
-                favicon.href = theme === 'dark' ? 'assets/app-icon.png' : 'assets/app-icon-light.png';
+            const oldFavicon = document.getElementById('favicon');
+            if (oldFavicon) {
+                // Remove old favicon to force Safari to update
+                oldFavicon.remove();
             }
+            // Create new favicon link with cache-busting parameter
+            const newFavicon = document.createElement('link');
+            newFavicon.id = 'favicon';
+            newFavicon.rel = 'icon';
+            newFavicon.type = 'image/png';
+            newFavicon.href = (theme === 'dark' ? 'assets/app-icon.png' : 'assets/app-icon-light.png') + '?v=' + Date.now();
+            document.head.appendChild(newFavicon);
         }
 
         function toggleTheme() {
