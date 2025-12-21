@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Node (if using any build tools)
+node_modules/
+dist/
+.cache/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+_site/
+.jekyll-cache/
