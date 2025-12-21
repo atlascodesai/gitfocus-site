@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - GitFocus</title>
+    <meta name="description" content="GitFocus Privacy Policy. We don't collect your data. Everything stays on your device.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gitfocus.app/privacy">
+    <meta property="og:title" content="Privacy Policy - GitFocus">
+    <meta property="og:description" content="GitFocus Privacy Policy. We don't collect your data.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <link rel="apple-touch-icon" href="assets/app-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --purple-dark: #6366f1;
+            --purple-light: #818cf8;
+            --cyan: #22d3ee;
+            --green: #10b981;
+            --red: #ef4444;
+            --orange: #f59e0b;
+
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-tertiary: #1a1a24;
+            --bg-card: #16161f;
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a0b0;
+            --text-tertiary: #606070;
+            --border: #2a2a3a;
+            --glow: rgba(99, 102, 241, 0.4);
+
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 2rem;
+            --space-xl: 4rem;
+            --space-2xl: 8rem;
+
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-display: 'Space Grotesk', sans-serif;
+
+            --transition-fast: 150ms ease;
+            --transition-base: 300ms ease;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #fafafa;
+            --bg-secondary: #f0f0f5;
+            --bg-tertiary: #e8e8f0;
+            --bg-card: #ffffff;
+            --text-primary: #0a0a0f;
+            --text-secondary: #505060;
+            --text-tertiary: #808090;
+            --border: #d0d0e0;
+            --glow: rgba(99, 102, 241, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-display);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        /* Background Grid */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: var(--space-md) var(--space-lg);
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        [data-theme="light"] nav {
+            background: rgba(250, 250, 250, 0.8);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            text-decoration: none;
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .logo img {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+        }
+
+        .logo-text {
+            background: linear-gradient(135deg, var(--purple-light), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: var(--transition-fast);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--text-primary);
+        }
+
+        .theme-toggle {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: var(--space-xs) var(--space-sm);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            font-size: 1rem;
+            transition: var(--transition-fast);
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--purple-light);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: calc(80px + var(--space-xl)) var(--space-lg) var(--space-2xl);
+        }
+
+        .page-header {
+            margin-bottom: var(--space-xl);
+        }
+
+        .page-label {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--purple-light);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: var(--space-sm);
+        }
+
+        .page-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: var(--space-md);
+        }
+
+        .page-subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .last-updated {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--text-tertiary);
+            margin-top: var(--space-md);
+        }
+
+        /* Content Sections */
+        .content-section {
+            margin-bottom: var(--space-xl);
+        }
+
+        .content-section h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: var(--space-md);
+            padding-bottom: var(--space-sm);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .content-section h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: var(--space-lg) 0 var(--space-sm);
+            color: var(--purple-light);
+        }
+
+        .content-section p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-md);
+        }
+
+        .content-section ul {
+            list-style: none;
+            margin-bottom: var(--space-md);
+        }
+
+        .content-section li {
+            color: var(--text-secondary);
+            padding-left: var(--space-lg);
+            position: relative;
+            margin-bottom: var(--space-sm);
+        }
+
+        .content-section li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--green);
+            font-family: var(--font-mono);
+        }
+
+        /* Highlight Box */
+        .highlight-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: var(--space-lg);
+            margin: var(--space-lg) 0;
+        }
+
+        .highlight-box.green {
+            border-color: var(--green);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .highlight-box h3 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .highlight-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* TL;DR Section */
+        .tldr {
+            background: linear-gradient(135deg, var(--bg-card), var(--bg-tertiary));
+            border: 1px solid var(--purple-light);
+            border-radius: 20px;
+            padding: var(--space-xl);
+            margin-bottom: var(--space-xl);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tldr::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--purple-dark), var(--cyan));
+        }
+
+        .tldr-title {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--purple-light);
+            margin-bottom: var(--space-md);
+        }
+
+        .tldr-content {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .tldr-list {
+            margin-top: var(--space-md);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-md);
+        }
+
+        .tldr-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            font-size: 0.95rem;
+        }
+
+        .tldr-item .icon {
+            font-size: 1.25rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: var(--space-xl) var(--space-lg);
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: var(--space-lg);
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: var(--transition-fast);
+        }
+
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .footer-copy {
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+            font-family: var(--font-mono);
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            nav {
+                padding: var(--space-sm) var(--space-md);
+            }
+
+            .nav-links a:not(.theme-toggle) {
+                display: none;
+            }
+
+            main {
+                padding: calc(80px + var(--space-lg)) var(--space-md) var(--space-xl);
+            }
+
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="assets/app-icon.png" alt="GitFocus">
+                <span class="logo-text">GitFocus</span>
+            </a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="privacy.html" class="active">Privacy</a>
+                <a href="support.html">Support</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="page-header">
+            <p class="page-label">// Privacy Policy</p>
+            <h1 class="page-title">Your data stays yours</h1>
+            <p class="page-subtitle">
+                We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.
+            </p>
+            <p class="last-updated">Last updated: December 2024</p>
+        </header>
+
+        <!-- TL;DR -->
+        <div class="tldr">
+            <p class="tldr-title">// TL;DR</p>
+            <p class="tldr-content">We don't collect your data. Period.</p>
+            <div class="tldr-list">
+                <div class="tldr-item">
+                    <span class="icon">🚫</span>
+                    <span>No accounts required</span>
+                </div>
+                <div class="tldr-item">
+                    <span class="icon">📱</span>
+                    <span>Everything on-device</span>
+                </div>
+                <div class="tldr-item">
+                    <span class="icon">🔒</span>
+                    <span>No tracking or analytics</span>
+                </div>
+                <div class="tldr-item">
+                    <span class="icon">📡</span>
+                    <span>Works offline</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data We Collect -->
+        <section class="content-section">
+            <h2>Data We Collect</h2>
+            <p>
+                <strong>None.</strong> GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.
+            </p>
+            <p>
+                Everything the app needs to function is stored locally on your device:
+            </p>
+            <ul>
+                <li>Your GitHub username (to check public commits)</li>
+                <li>Your app selection preferences</li>
+                <li>Your focus session history</li>
+                <li>Your earned time and streak data</li>
+            </ul>
+        </section>
+
+        <!-- GitHub Integration -->
+        <section class="content-section">
+            <h2>GitHub Integration</h2>
+            <p>
+                GitFocus reads your public GitHub contribution data to determine when you've made commits. Here's how it works:
+            </p>
+
+            <h3>What We Access</h3>
+            <ul>
+                <li>Your public GitHub profile page</li>
+                <li>Your public contribution graph (the green squares)</li>
+                <li>Commit counts per day (not commit contents)</li>
+            </ul>
+
+            <h3>What We Don't Access</h3>
+            <ul>
+                <li>Private repositories</li>
+                <li>Commit messages or code</li>
+                <li>Your GitHub password or tokens</li>
+                <li>Any GitHub API with authentication</li>
+            </ul>
+
+            <div class="highlight-box green">
+                <h3>✅ No OAuth Required</h3>
+                <p>
+                    We intentionally designed GitFocus to work without GitHub authentication. We only read publicly available information that anyone can see by visiting your GitHub profile.
+                </p>
+            </div>
+        </section>
+
+        <!-- Screen Time -->
+        <section class="content-section">
+            <h2>Screen Time & App Blocking</h2>
+            <p>
+                GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.
+            </p>
+
+            <h3>How It Works</h3>
+            <ul>
+                <li>App blocking is handled entirely by iOS, not our code</li>
+                <li>We never see which apps you use or for how long</li>
+                <li>Apple's privacy protections apply to all Screen Time data</li>
+                <li>We only receive anonymized "tokens" that represent apps</li>
+            </ul>
+
+            <h3>What We Can't See</h3>
+            <ul>
+                <li>Your app usage statistics</li>
+                <li>When you open or close apps</li>
+                <li>How long you spend in any app</li>
+                <li>The actual names of apps you select (only tokens)</li>
+            </ul>
+        </section>
+
+        <!-- Local Storage -->
+        <section class="content-section">
+            <h2>Local Data Storage</h2>
+            <p>
+                All your data is stored on your device using Apple's secure storage mechanisms:
+            </p>
+            <ul>
+                <li><strong>UserDefaults</strong> — Settings and preferences</li>
+                <li><strong>Keychain</strong> — Your GitHub username (for persistence across reinstalls)</li>
+                <li><strong>App Group</strong> — Shared data between app and extensions</li>
+            </ul>
+            <p>
+                This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.
+            </p>
+        </section>
+
+        <!-- Third Parties -->
+        <section class="content-section">
+            <h2>Third-Party Services</h2>
+            <p>
+                GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:
+            </p>
+            <ul>
+                <li>Google Analytics</li>
+                <li>Firebase</li>
+                <li>Crashlytics</li>
+                <li>Facebook SDK</li>
+                <li>Any advertising networks</li>
+                <li>Any user tracking services</li>
+            </ul>
+            <p>
+                The only external service we communicate with is github.com to fetch your public contribution data.
+            </p>
+        </section>
+
+        <!-- Your Rights -->
+        <section class="content-section">
+            <h2>Your Rights</h2>
+            <p>
+                Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:
+            </p>
+            <ul>
+                <li><strong>Delete all data</strong> — Simply delete the app from your device</li>
+                <li><strong>Export data</strong> — Your data lives on your device; you own it</li>
+                <li><strong>Change settings</strong> — All preferences can be modified in the app</li>
+            </ul>
+        </section>
+
+        <!-- Children -->
+        <section class="content-section">
+            <h2>Children's Privacy</h2>
+            <p>
+                GitFocus is not directed at children under 13. We don't knowingly collect information from children. The app requires Screen Time permissions which are controlled by the device owner.
+            </p>
+        </section>
+
+        <!-- Changes -->
+        <section class="content-section">
+            <h2>Changes to This Policy</h2>
+            <p>
+                If we ever change our privacy practices, we'll update this page with a new "Last Updated" date. Given our no-data-collection approach, significant changes are unlikely.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section class="content-section">
+            <h2>Contact</h2>
+            <p>
+                Questions about privacy? We're happy to explain anything in more detail.
+            </p>
+            <p>
+                <strong>Email:</strong> <a href="mailto:support@gitfocus.app" style="color: var(--purple-light);">support@gitfocus.app</a>
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="/">Home</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="support.html">Support</a>
+            </div>
+            <div class="footer-copy">
+                © 2024 GitFocus
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            document.querySelector('.theme-icon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+        }
+
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+    </script>
+</body>
+</html>

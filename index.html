@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitFocus - Block Apps Until You Commit</title>
+    <meta name="description" content="GitFocus blocks distracting apps until you push code to GitHub. Turn commits into focus time. Available for iOS.">
+    <meta name="keywords" content="productivity, focus app, github, ios app, screen time, app blocker, developer tools">
+    <meta name="author" content="GitFocus">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gitfocus.app/">
+    <meta property="og:title" content="GitFocus - Block Apps Until You Commit">
+    <meta property="og:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub.">
+    <meta property="og:image" content="https://gitfocus.app/assets/app-icon.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GitFocus - Block Apps Until You Commit">
+    <meta name="twitter:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <link rel="apple-touch-icon" href="assets/app-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "GitFocus",
+        "operatingSystem": "iOS",
+        "applicationCategory": "ProductivityApplication",
+        "description": "Block distracting apps until you push code to GitHub. Turn commits into focus time.",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
+    <style>
+        :root {
+            /* Brand Colors */
+            --purple-dark: #6366f1;
+            --purple-light: #818cf8;
+            --cyan: #22d3ee;
+            --green: #10b981;
+            --red: #ef4444;
+            --orange: #f59e0b;
+
+            /* Dark Theme (default) */
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-tertiary: #1a1a24;
+            --bg-card: #16161f;
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a0b0;
+            --text-tertiary: #606070;
+            --border: #2a2a3a;
+            --glow: rgba(99, 102, 241, 0.4);
+
+            /* Spacing */
+            --space-xs: 0.25rem;
+            --space-sm: 0.5rem;
+            --space-md: 1rem;
+            --space-lg: 2rem;
+            --space-xl: 4rem;
+            --space-2xl: 8rem;
+
+            /* Typography */
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-display: 'Space Grotesk', sans-serif;
+
+            /* Transitions */
+            --transition-fast: 150ms ease;
+            --transition-base: 300ms ease;
+            --transition-slow: 500ms ease;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #fafafa;
+            --bg-secondary: #f0f0f5;
+            --bg-tertiary: #e8e8f0;
+            --bg-card: #ffffff;
+            --text-primary: #0a0a0f;
+            --text-secondary: #505060;
+            --text-tertiary: #808090;
+            --border: #d0d0e0;
+            --glow: rgba(99, 102, 241, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-display);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background Grid */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Floating Orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(100px);
+            pointer-events: none;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .orb-1 {
+            width: 600px;
+            height: 600px;
+            background: var(--purple-dark);
+            top: -200px;
+            right: -200px;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: var(--cyan);
+            bottom: 20%;
+            left: -100px;
+            animation: float 25s ease-in-out infinite reverse;
+        }
+
+        .orb-3 {
+            width: 300px;
+            height: 300px;
+            background: var(--green);
+            bottom: -100px;
+            right: 20%;
+            animation: float 18s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -30px) scale(1.05); }
+            66% { transform: translate(-20px, 20px) scale(0.95); }
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: var(--space-md) var(--space-lg);
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            transition: var(--transition-base);
+        }
+
+        [data-theme="light"] nav {
+            background: rgba(250, 250, 250, 0.8);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            text-decoration: none;
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .logo img {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+        }
+
+        .logo-text {
+            background: linear-gradient(135deg, var(--purple-light), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: var(--space-lg);
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: var(--transition-fast);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--purple-light);
+            transition: var(--transition-fast);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .theme-toggle {
+            background: var(--bg-tertiary);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: var(--space-xs) var(--space-sm);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: var(--space-xs);
+            font-size: 1rem;
+            transition: var(--transition-fast);
+        }
+
+        .theme-toggle:hover {
+            border-color: var(--purple-light);
+        }
+
+        .theme-icon {
+            transition: var(--transition-fast);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: var(--space-2xl) var(--space-lg);
+            position: relative;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-xs) var(--space-md);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: var(--space-lg);
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--green);
+            border-radius: 50%;
+            animation: pulse 2s ease infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+        }
+
+        .hero-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            margin-bottom: var(--space-lg);
+            box-shadow:
+                0 0 60px var(--glow),
+                0 20px 40px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 0.8s ease 0.1s forwards, iconFloat 4s ease-in-out infinite;
+            opacity: 0;
+        }
+
+        @keyframes iconFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 8vw, 5rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: var(--space-md);
+            animation: fadeInUp 0.8s ease 0.2s forwards;
+            opacity: 0;
+        }
+
+        .hero h1 .gradient {
+            background: linear-gradient(135deg, var(--purple-light), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.25rem);
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-bottom: var(--space-xl);
+            animation: fadeInUp 0.8s ease 0.3s forwards;
+            opacity: 0;
+        }
+
+        .hero-cta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-md);
+            justify-content: center;
+            animation: fadeInUp 0.8s ease 0.4s forwards;
+            opacity: 0;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-md) var(--space-lg);
+            border-radius: 12px;
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: var(--transition-base);
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--purple-dark), var(--purple-light));
+            color: white;
+            box-shadow: 0 4px 20px var(--glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px var(--glow);
+        }
+
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--purple-light);
+            background: var(--bg-tertiary);
+        }
+
+        /* Terminal Command */
+        .terminal-cmd {
+            margin-top: var(--space-xl);
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--text-tertiary);
+            animation: fadeInUp 0.8s ease 0.5s forwards;
+            opacity: 0;
+        }
+
+        .terminal-cmd code {
+            background: var(--bg-card);
+            padding: var(--space-sm) var(--space-md);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .terminal-cmd .prompt {
+            color: var(--green);
+        }
+
+        .terminal-cmd .command {
+            color: var(--text-primary);
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 16px;
+            background: var(--purple-light);
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: absolute;
+            bottom: var(--space-xl);
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-sm);
+            color: var(--text-tertiary);
+            font-size: 0.8rem;
+            animation: fadeInUp 0.8s ease 0.6s forwards, bounce 2s ease infinite;
+            opacity: 0;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+
+        .scroll-indicator svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* How It Works Section */
+        .how-it-works {
+            padding: var(--space-2xl) var(--space-lg);
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-xl);
+        }
+
+        .section-label {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--purple-light);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: var(--space-sm);
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: var(--space-md);
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Interactive Demo */
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-xl);
+            align-items: center;
+        }
+
+        @media (max-width: 900px) {
+            .demo-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Phone Mockup */
+        .phone-mockup {
+            position: relative;
+            width: 280px;
+            height: 580px;
+            margin: 0 auto;
+            background: var(--bg-secondary);
+            border-radius: 40px;
+            border: 4px solid var(--bg-tertiary);
+            box-shadow:
+                0 50px 100px rgba(0, 0, 0, 0.3),
+                inset 0 0 0 2px rgba(255, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        .phone-notch {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 30px;
+            background: var(--bg-primary);
+            border-radius: 0 0 20px 20px;
+            z-index: 10;
+        }
+
+        .phone-screen {
+            width: 100%;
+            height: 100%;
+            padding: 40px 16px 16px;
+            overflow: hidden;
+        }
+
+        /* App Screens */
+        .app-screen {
+            display: none;
+            height: 100%;
+            flex-direction: column;
+            animation: screenFade 0.5s ease;
+        }
+
+        .app-screen.active {
+            display: flex;
+        }
+
+        @keyframes screenFade {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        .screen-icon {
+            font-size: 3rem;
+            margin-bottom: var(--space-md);
+            text-align: center;
+        }
+
+        .screen-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: var(--space-sm);
+        }
+
+        .screen-desc {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: var(--space-lg);
+        }
+
+        /* Progress Bar in Phone */
+        .progress-dots {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-sm);
+            margin-top: auto;
+            padding-bottom: var(--space-md);
+        }
+
+        .progress-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--border);
+            transition: var(--transition-base);
+        }
+
+        .progress-dot.active {
+            background: var(--purple-light);
+            width: 24px;
+            border-radius: 4px;
+        }
+
+        /* Demo Steps */
+        .demo-steps {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-md);
+        }
+
+        .demo-step {
+            padding: var(--space-lg);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            cursor: pointer;
+            transition: var(--transition-base);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .demo-step::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--border);
+            transition: var(--transition-base);
+        }
+
+        .demo-step.active {
+            border-color: var(--purple-light);
+            background: var(--bg-tertiary);
+        }
+
+        .demo-step.active::before {
+            background: linear-gradient(180deg, var(--purple-light), var(--cyan));
+        }
+
+        .demo-step:hover:not(.active) {
+            border-color: var(--text-tertiary);
+        }
+
+        .step-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-sm);
+        }
+
+        .step-number {
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--purple-light);
+        }
+
+        .step-title {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .step-desc {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-left: calc(32px + var(--space-md));
+        }
+
+        /* Features Section */
+        .features {
+            padding: var(--space-2xl) var(--space-lg);
+            background: var(--bg-secondary);
+            position: relative;
+        }
+
+        .features::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border), transparent);
+        }
+
+        .features-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--space-lg);
+        }
+
+        .feature-card {
+            padding: var(--space-xl);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            transition: var(--transition-base);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-4px);
+            border-color: var(--purple-light);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            font-size: 1.5rem;
+            margin-bottom: var(--space-md);
+        }
+
+        .feature-icon.purple { background: rgba(99, 102, 241, 0.2); }
+        .feature-icon.green { background: rgba(16, 185, 129, 0.2); }
+        .feature-icon.orange { background: rgba(245, 158, 11, 0.2); }
+        .feature-icon.cyan { background: rgba(34, 211, 238, 0.2); }
+        .feature-icon.red { background: rgba(239, 68, 68, 0.2); }
+
+        .feature-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: var(--space-sm);
+        }
+
+        .feature-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: var(--space-md);
+        }
+
+        .feature-stat {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--text-tertiary);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+
+        .feature-stat .value {
+            color: var(--purple-light);
+            font-weight: 600;
+        }
+
+        /* Animated Counter */
+        .counter-display {
+            font-family: var(--font-mono);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--green);
+            display: flex;
+            align-items: baseline;
+            gap: var(--space-xs);
+        }
+
+        .counter-display .unit {
+            font-size: 1rem;
+            color: var(--text-secondary);
+        }
+
+        /* Streak Milestones */
+        .milestones {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+
+        .milestone {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            padding: var(--space-sm) var(--space-md);
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            font-size: 0.85rem;
+        }
+
+        .milestone-badge {
+            padding: var(--space-xs) var(--space-sm);
+            border-radius: 6px;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .milestone-badge.red { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+        .milestone-badge.blue { background: rgba(34, 211, 238, 0.2); color: var(--cyan); }
+        .milestone-badge.purple { background: rgba(129, 140, 248, 0.2); color: var(--purple-light); }
+
+        /* CTA Section */
+        .cta-section {
+            padding: var(--space-2xl) var(--space-lg);
+            text-align: center;
+            position: relative;
+        }
+
+        .cta-card {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, var(--bg-card), var(--bg-tertiary));
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, var(--glow) 0%, transparent 70%);
+            opacity: 0.3;
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-title {
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-weight: 700;
+            margin-bottom: var(--space-md);
+        }
+
+        .cta-subtitle {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-lg);
+        }
+
+        /* Footer */
+        footer {
+            padding: var(--space-xl) var(--space-lg);
+            border-top: 1px solid var(--border);
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: var(--space-lg);
+        }
+
+        .footer-links {
+            display: flex;
+            gap: var(--space-lg);
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: var(--transition-fast);
+        }
+
+        .footer-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .footer-copy {
+            color: var(--text-tertiary);
+            font-size: 0.85rem;
+            font-family: var(--font-mono);
+        }
+
+        /* GitHub Corner */
+        .github-corner {
+            position: fixed;
+            bottom: var(--space-lg);
+            right: var(--space-lg);
+            width: 50px;
+            height: 50px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: var(--transition-base);
+            z-index: 100;
+        }
+
+        .github-corner:hover {
+            border-color: var(--purple-light);
+            transform: scale(1.1);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: var(--space-sm) var(--space-md);
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: var(--space-xl) var(--space-md);
+            }
+
+            .hero-icon {
+                width: 80px;
+                height: 80px;
+            }
+
+            .phone-mockup {
+                width: 240px;
+                height: 500px;
+            }
+
+            .demo-container {
+                padding: 0 var(--space-md);
+            }
+
+            .features-grid {
+                padding: 0 var(--space-md);
+            }
+
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* Scroll Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: var(--transition-slow);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Interactive Elements */
+        .interactive-commit {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            padding: var(--space-md);
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            margin-top: var(--space-md);
+        }
+
+        .commit-graph {
+            display: flex;
+            gap: 3px;
+        }
+
+        .commit-day {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+            background: var(--border);
+            transition: var(--transition-fast);
+        }
+
+        .commit-day.filled {
+            background: var(--green);
+        }
+
+        .commit-day.active {
+            animation: commitPop 0.3s ease forwards;
+        }
+
+        @keyframes commitPop {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); background: var(--cyan); }
+            100% { transform: scale(1); background: var(--green); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <img src="assets/app-icon.png" alt="GitFocus">
+                <span class="logo-text">GitFocus</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="privacy.html">Privacy</a>
+                <a href="support.html">Support</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Now available for iOS</span>
+        </div>
+
+        <img src="assets/app-icon.png" alt="GitFocus App Icon" class="hero-icon">
+
+        <h1>
+            Block apps until you<br>
+            <span class="gradient">git push</span>
+        </h1>
+
+        <p class="hero-subtitle">
+            GitFocus gamifies your coding habits. Commit code → unlock your distracting apps.
+            It's that simple. No willpower required.
+        </p>
+
+        <div class="hero-cta">
+            <a href="#" class="btn btn-primary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 17 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                </svg>
+                Download for iOS
+            </a>
+            <a href="#how-it-works" class="btn btn-secondary">
+                See how it works
+            </a>
+        </div>
+
+        <div class="terminal-cmd">
+            <code>
+                <span class="prompt">$</span>
+                <span class="command">git commit -m "unlock apps"</span>
+                <span class="cursor"></span>
+            </code>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-header reveal">
+            <p class="section-label">// How it works</p>
+            <h2 class="section-title">Turn commits into freedom</h2>
+            <p class="section-subtitle">
+                Setup takes 2 minutes. Then let your code do the talking.
+            </p>
+        </div>
+
+        <div class="demo-container">
+            <!-- Phone Mockup -->
+            <div class="phone-mockup reveal">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                    <!-- Screen 1: Welcome -->
+                    <div class="app-screen active" data-screen="0">
+                        <div class="screen-icon">👋</div>
+                        <h3 class="screen-title">Welcome to GitFocus</h3>
+                        <p class="screen-desc">Block distracting apps until you push code to GitHub</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 12px;">
+                            <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 12px; text-align: left;">
+                                <div style="font-size: 0.7rem; color: var(--text-tertiary); margin-bottom: 4px;">💻 Commit code</div>
+                                <div style="font-size: 0.8rem;">Each push earns unlock time</div>
+                            </div>
+                            <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 12px; text-align: left;">
+                                <div style="font-size: 0.7rem; color: var(--text-tertiary); margin-bottom: 4px;">🔒 Apps blocked</div>
+                                <div style="font-size: 0.8rem;">Until you do real work</div>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 2: GitHub -->
+                    <div class="app-screen" data-screen="1">
+                        <div class="screen-icon">🐙</div>
+                        <h3 class="screen-title">Connect GitHub</h3>
+                        <p class="screen-desc">Just enter your username. No auth needed.</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+                            <div style="background: var(--bg-tertiary); padding: 16px; border-radius: 12px; border: 1px solid var(--border);">
+                                <div style="font-size: 0.7rem; color: var(--text-tertiary); margin-bottom: 8px;">GitHub Username</div>
+                                <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--purple-light);">@yourname<span class="cursor" style="height: 14px;"></span></div>
+                            </div>
+                            <div style="margin-top: 12px; font-size: 0.7rem; color: var(--green); text-align: center;">✓ We only read public commits</div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 3: Apps -->
+                    <div class="app-screen" data-screen="2">
+                        <div class="screen-icon">📱</div>
+                        <h3 class="screen-title">Select Apps</h3>
+                        <p class="screen-desc">Choose which apps to block</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; gap: 8px; justify-content: center;">
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: var(--bg-tertiary); border-radius: 10px;">
+                                <span style="font-size: 1.5rem;">📸</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Instagram</span>
+                                <span style="color: var(--red);">🔒</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: var(--bg-tertiary); border-radius: 10px;">
+                                <span style="font-size: 1.5rem;">🐦</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Twitter / X</span>
+                                <span style="color: var(--red);">🔒</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: var(--bg-tertiary); border-radius: 10px;">
+                                <span style="font-size: 1.5rem;">▶️</span>
+                                <span style="flex: 1; font-size: 0.85rem;">YouTube</span>
+                                <span style="color: var(--red);">🔒</span>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 4: Commit -->
+                    <div class="app-screen" data-screen="3">
+                        <div class="screen-icon">⌨️</div>
+                        <h3 class="screen-title">Push Code</h3>
+                        <p class="screen-desc">Each commit = 5 min unlock time</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+                            <div style="background: #1a1a24; padding: 12px; border-radius: 10px; font-family: var(--font-mono); font-size: 0.7rem;">
+                                <div style="color: var(--text-tertiary);">$ git push origin main</div>
+                                <div style="color: var(--green); margin-top: 8px;">✓ 2 commits pushed</div>
+                                <div style="color: var(--cyan); margin-top: 4px;">+10 minutes earned!</div>
+                            </div>
+                            <div style="margin-top: 16px; text-align: center;">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--green);">10:00</div>
+                                <div style="font-size: 0.75rem; color: var(--text-tertiary);">minutes available</div>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 5: Unlocked -->
+                    <div class="app-screen" data-screen="4">
+                        <div class="screen-icon">🎉</div>
+                        <h3 class="screen-title">Apps Unlocked!</h3>
+                        <p class="screen-desc">You earned your break. Enjoy!</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; gap: 8px; justify-content: center;">
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: rgba(16, 185, 129, 0.1); border-radius: 10px; border: 1px solid var(--green);">
+                                <span style="font-size: 1.5rem;">📸</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Instagram</span>
+                                <span style="color: var(--green);">✓</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: rgba(16, 185, 129, 0.1); border-radius: 10px; border: 1px solid var(--green);">
+                                <span style="font-size: 1.5rem;">🐦</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Twitter / X</span>
+                                <span style="color: var(--green);">✓</span>
+                            </div>
+                            <div style="text-align: center; margin-top: 8px; font-size: 0.75rem; color: var(--text-tertiary);">
+                                Time remaining: <span style="color: var(--cyan);">9:45</span>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Demo Steps -->
+            <div class="demo-steps reveal">
+                <div class="demo-step active" data-step="0">
+                    <div class="step-header">
+                        <div class="step-number">01</div>
+                        <div class="step-title">Welcome</div>
+                    </div>
+                    <p class="step-desc">Quick onboarding explains the concept</p>
+                </div>
+                <div class="demo-step" data-step="1">
+                    <div class="step-header">
+                        <div class="step-number">02</div>
+                        <div class="step-title">Connect GitHub</div>
+                    </div>
+                    <p class="step-desc">Just your username - no OAuth needed</p>
+                </div>
+                <div class="demo-step" data-step="2">
+                    <div class="step-header">
+                        <div class="step-number">03</div>
+                        <div class="step-title">Choose Apps</div>
+                    </div>
+                    <p class="step-desc">Select which apps to block</p>
+                </div>
+                <div class="demo-step" data-step="3">
+                    <div class="step-header">
+                        <div class="step-number">04</div>
+                        <div class="step-title">Push Code</div>
+                    </div>
+                    <p class="step-desc">Each commit earns 5 minutes of unlock time</p>
+                </div>
+                <div class="demo-step" data-step="4">
+                    <div class="step-header">
+                        <div class="step-number">05</div>
+                        <div class="step-title">Enjoy Freedom</div>
+                    </div>
+                    <p class="step-desc">Your apps are unlocked. You earned it!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-header reveal">
+            <p class="section-label">// Features</p>
+            <h2 class="section-title">Everything you need to stay focused</h2>
+            <p class="section-subtitle">
+                Not just another app blocker. GitFocus gamifies productivity.
+            </p>
+        </div>
+
+        <div class="features-grid">
+            <!-- Feature 1: Earn Time -->
+            <div class="feature-card reveal">
+                <div class="feature-icon green">⏱️</div>
+                <h3 class="feature-title">Earn Time</h3>
+                <p class="feature-desc">
+                    Every commit you push to GitHub earns you unlock time.
+                    More productive code = more freedom.
+                </p>
+                <div class="counter-display">
+                    <span id="time-counter">5</span>
+                    <span class="unit">min / commit</span>
+                </div>
+                <div class="interactive-commit">
+                    <div class="commit-graph" id="commit-graph">
+                        <div class="commit-day"></div>
+                        <div class="commit-day"></div>
+                        <div class="commit-day"></div>
+                        <div class="commit-day"></div>
+                        <div class="commit-day"></div>
+                        <div class="commit-day"></div>
+                        <div class="commit-day"></div>
+                    </div>
+                    <button class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.8rem;" onclick="simulateCommit()">
+                        Simulate commit
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature 2: Lives System -->
+            <div class="feature-card reveal">
+                <div class="feature-icon red">❤️</div>
+                <h3 class="feature-title">Lives System</h3>
+                <p class="feature-desc">
+                    Need emergency access? Use a life to unlock apps until midnight.
+                    You start with 1 free life.
+                </p>
+                <div style="display: flex; gap: 8px; margin: 16px 0;">
+                    <span style="font-size: 1.5rem;">❤️</span>
+                    <span style="font-size: 1.5rem; opacity: 0.3;">🖤</span>
+                    <span style="font-size: 1.5rem; opacity: 0.3;">🖤</span>
+                    <span style="font-size: 1.5rem; opacity: 0.3;">🖤</span>
+                    <span style="font-size: 1.5rem; opacity: 0.3;">🖤</span>
+                </div>
+                <p class="feature-stat">
+                    Earn more through <span class="value">streaks</span>
+                </p>
+            </div>
+
+            <!-- Feature 3: Borrow Time -->
+            <div class="feature-card reveal">
+                <div class="feature-icon orange">💳</div>
+                <h3 class="feature-title">Borrow Time</h3>
+                <p class="feature-desc">
+                    Need to finish a message? Borrow up to 5 minutes.
+                    Future commits will pay it back.
+                </p>
+                <div style="background: var(--bg-secondary); padding: 16px; border-radius: 12px; margin-top: 16px;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 8px;">
+                        <span style="color: var(--text-tertiary);">Current debt:</span>
+                        <span style="color: var(--orange); font-family: var(--font-mono);">0 min</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+                        <span style="color: var(--text-tertiary);">Max borrow:</span>
+                        <span style="color: var(--text-primary); font-family: var(--font-mono);">5 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 4: Discipline Bank -->
+            <div class="feature-card reveal">
+                <div class="feature-icon cyan">🏦</div>
+                <h3 class="feature-title">Discipline Bank</h3>
+                <p class="feature-desc">
+                    Time you earn but don't use is saved. It's a measure of your self-control.
+                </p>
+                <div style="text-align: center; margin: 16px 0;">
+                    <div style="font-size: 2.5rem; font-weight: 700; color: var(--cyan);">0</div>
+                    <div style="font-size: 0.8rem; color: var(--text-tertiary);">minutes banked</div>
+                </div>
+                <p class="feature-stat" style="justify-content: center;">
+                    Challenge: Bank <span class="value">1000 min</span> this year
+                </p>
+            </div>
+
+            <!-- Feature 5: Streak Milestones -->
+            <div class="feature-card reveal">
+                <div class="feature-icon purple">🔥</div>
+                <h3 class="feature-title">Streak Milestones</h3>
+                <p class="feature-desc">
+                    Build your streak to unlock permanent rewards.
+                </p>
+                <div class="milestones">
+                    <div class="milestone">
+                        <span class="milestone-badge red">14d</span>
+                        <span>+1 extra life</span>
+                    </div>
+                    <div class="milestone">
+                        <span class="milestone-badge blue">30d</span>
+                        <span>Weekly time bank</span>
+                    </div>
+                    <div class="milestone">
+                        <span class="milestone-badge purple">90d</span>
+                        <span>Time never expires</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 6: Privacy First -->
+            <div class="feature-card reveal">
+                <div class="feature-icon green">🔒</div>
+                <h3 class="feature-title">Privacy First</h3>
+                <p class="feature-desc">
+                    No account needed. No data collection. Everything stays on your device.
+                </p>
+                <div style="margin-top: 16px; font-family: var(--font-mono); font-size: 0.8rem;">
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                        <span style="color: var(--green);">✓</span>
+                        <span>Works offline</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                        <span style="color: var(--green);">✓</span>
+                        <span>No tracking</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <span style="color: var(--green);">✓</span>
+                        <span>Open source friendly</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-card reveal">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to ship more code?</h2>
+                <p class="cta-subtitle">
+                    Join developers who've turned procrastination into productivity.
+                </p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 17 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                        </svg>
+                        Download for iOS
+                    </a>
+                </div>
+                <p style="margin-top: var(--space-lg); font-size: 0.85rem; color: var(--text-tertiary);">
+                    Free to use. No subscription required.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="support.html">Support</a>
+                <a href="mailto:support@gitfocus.app">Contact</a>
+            </div>
+            <div class="footer-copy">
+                © 2024 GitFocus. Made with ☕ and git commits.
+            </div>
+        </div>
+    </footer>
+
+    <!-- GitHub Corner -->
+    <a href="https://github.com" class="github-corner" aria-label="View on GitHub" target="_blank" rel="noopener">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Theme Toggle
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+
+            // Update icon
+            const icon = document.querySelector('.theme-icon');
+            icon.textContent = newTheme === 'dark' ? '🌙' : '☀️';
+        }
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+
+        // Interactive Demo
+        const demoSteps = document.querySelectorAll('.demo-step');
+        const appScreens = document.querySelectorAll('.app-screen');
+        let currentStep = 0;
+
+        function setActiveStep(index) {
+            demoSteps.forEach((step, i) => {
+                step.classList.toggle('active', i === index);
+            });
+            appScreens.forEach((screen, i) => {
+                screen.classList.toggle('active', i === index);
+            });
+            currentStep = index;
+        }
+
+        demoSteps.forEach((step, index) => {
+            step.addEventListener('click', () => setActiveStep(index));
+        });
+
+        // Auto-advance demo
+        let demoInterval = setInterval(() => {
+            const nextStep = (currentStep + 1) % demoSteps.length;
+            setActiveStep(nextStep);
+        }, 4000);
+
+        // Pause on hover
+        const demoContainer = document.querySelector('.demo-container');
+        demoContainer.addEventListener('mouseenter', () => clearInterval(demoInterval));
+        demoContainer.addEventListener('mouseleave', () => {
+            demoInterval = setInterval(() => {
+                const nextStep = (currentStep + 1) % demoSteps.length;
+                setActiveStep(nextStep);
+            }, 4000);
+        });
+
+        // Commit Graph Simulation
+        let commitIndex = 0;
+        function simulateCommit() {
+            const days = document.querySelectorAll('.commit-day');
+            if (commitIndex < days.length) {
+                days[commitIndex].classList.add('filled', 'active');
+                setTimeout(() => days[commitIndex - 1]?.classList.remove('active'), 300);
+                commitIndex++;
+
+                // Update counter
+                const counter = document.getElementById('time-counter');
+                counter.textContent = parseInt(counter.textContent) + 5;
+            } else {
+                // Reset
+                days.forEach(day => {
+                    day.classList.remove('filled', 'active');
+                });
+                commitIndex = 0;
+                document.getElementById('time-counter').textContent = '5';
+            }
+        }
+
+        // Scroll Reveal Animation
+        const reveals = document.querySelectorAll('.reveal');
+
+        function checkReveal() {
+            reveals.forEach(el => {
+                const windowHeight = window.innerHeight;
+                const elementTop = el.getBoundingClientRect().top;
+                const revealPoint = 150;
+
+                if (elementTop < windowHeight - revealPoint) {
+                    el.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkReveal);
+        checkReveal(); // Initial check
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
