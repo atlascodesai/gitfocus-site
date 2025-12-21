@@ -142,6 +142,18 @@
             border-radius: 8px;
         }
 
+        .logo-light {
+            display: none;
+        }
+
+        [data-theme="light"] .logo-dark {
+            display: none;
+        }
+
+        [data-theme="light"] .logo-light {
+            display: block;
+        }
+
         .logo-text {
             background: linear-gradient(135deg, var(--purple-light), var(--cyan));
             -webkit-background-clip: text;
@@ -408,7 +420,8 @@
     <nav>
         <div class="nav-container">
             <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="GitFocus">
+                <img src="assets/app-icon.png" alt="GitFocus" class="logo-dark">
+                <img src="assets/app-icon-light.png" alt="GitFocus" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
@@ -612,7 +625,7 @@
                 <a href="support.html">Support</a>
             </div>
             <div class="footer-copy">
-                © 2024 GitFocus
+                © 2025 GitFocus
             </div>
         </div>
     </footer>

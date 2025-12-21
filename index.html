@@ -218,6 +218,18 @@
             border-radius: 8px;
         }
 
+        .logo-light {
+            display: none;
+        }
+
+        [data-theme="light"] .logo-dark {
+            display: none;
+        }
+
+        [data-theme="light"] .logo-light {
+            display: block;
+        }
+
         .logo-text {
             background: linear-gradient(135deg, var(--purple-light), var(--cyan));
             -webkit-background-clip: text;
@@ -1043,7 +1055,8 @@
     <nav>
         <div class="nav-container">
             <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="GitFocus">
+                <img src="assets/app-icon.png" alt="GitFocus" class="logo-dark">
+                <img src="assets/app-icon-light.png" alt="GitFocus" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
@@ -1061,7 +1074,7 @@
     <section class="hero">
         <div class="hero-badge">
             <span class="badge-dot"></span>
-            <span>Now available for iOS</span>
+            <span>Coming soon to iOS</span>
         </div>
 
         <img src="assets/app-icon.png" alt="GitFocus App Icon" class="hero-icon">
@@ -1077,11 +1090,11 @@
         </p>
 
         <div class="hero-cta">
-            <a href="#" class="btn btn-primary">
+            <a href="#notify" class="btn btn-primary">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 17 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                    <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/>
                 </svg>
-                Download for iOS
+                Notify Me
             </a>
             <a href="#how-it-works" class="btn btn-secondary">
                 See how it works
@@ -1444,11 +1457,11 @@
                     Join developers who've turned procrastination into productivity.
                 </p>
                 <div class="hero-cta">
-                    <a href="#" class="btn btn-primary">
+                    <a href="#notify" class="btn btn-primary">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.1 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 17 2.94 12.45 4.7 9.39C5.57 7.87 7.13 6.91 8.82 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/>
+                            <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/>
                         </svg>
-                        Download for iOS
+                        Notify Me
                     </a>
                 </div>
                 <p style="margin-top: var(--space-lg); font-size: 0.85rem; color: var(--text-tertiary);">
@@ -1467,7 +1480,7 @@
                 <a href="mailto:support@gitfocus.app">Contact</a>
             </div>
             <div class="footer-copy">
-                © 2024 GitFocus. Made with ☕ and git commits.
+                © 2025 GitFocus. Made with ☕ and git commits.
             </div>
         </div>
     </footer>
