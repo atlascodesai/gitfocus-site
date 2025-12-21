@@ -1070,6 +1070,84 @@
             font-family: var(--font-mono);
         }
 
+        /* Notify Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-md);
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: rgba(22, 22, 31, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: var(--space-xl);
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+            animation: modalIn 0.3s ease;
+        }
+
+        [data-theme="light"] .modal-content {
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        @keyframes modalIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .modal-close {
+            position: absolute;
+            top: var(--space-md);
+            right: var(--space-md);
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            line-height: 1;
+        }
+
+        .modal-close:hover {
+            color: var(--text-primary);
+        }
+
+        .modal-icon {
+            font-size: 3rem;
+            margin-bottom: var(--space-md);
+        }
+
+        .modal-content h3 {
+            font-size: 1.5rem;
+            margin-bottom: var(--space-sm);
+        }
+
+        .modal-content p {
+            color: var(--text-secondary);
+            margin-bottom: var(--space-lg);
+        }
+
         /* Mobile Responsive */
         @media (max-width: 768px) {
             nav {
@@ -1206,12 +1284,12 @@
         </p>
 
         <div class="hero-cta">
-            <a href="#notify" class="btn btn-primary">
+            <button onclick="openNotifyModal()" class="btn btn-primary">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/>
                 </svg>
                 Notify Me
-            </a>
+            </button>
             <a href="#how-it-works" class="btn btn-secondary">
                 See how it works
             </a>
@@ -1573,12 +1651,12 @@
                     Join developers who've turned procrastination into productivity.
                 </p>
                 <div class="hero-cta">
-                    <a href="#notify" class="btn btn-primary">
+                    <button onclick="openNotifyModal()" class="btn btn-primary">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/>
                         </svg>
                         Notify Me
-                    </a>
+                    </button>
                 </div>
                 <p style="margin-top: var(--space-lg); font-size: 0.85rem; color: var(--text-tertiary);">
                     Free to use. No subscription required.
@@ -1600,6 +1678,19 @@
             </div>
         </div>
     </footer>
+
+    <!-- Notify Me Modal -->
+    <div id="notify-modal" class="modal" onclick="closeNotifyModal(event)">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeNotifyModal()">&times;</button>
+            <div class="modal-icon">💬</div>
+            <h3>Want to be notified?</h3>
+            <p>Drop us a message in the chat bubble (bottom right) and we'll let you know when gitfocus launches!</p>
+            <button class="btn btn-primary" onclick="closeNotifyModal(); if(window.$chatwoot) window.$chatwoot.toggle('open');">
+                Open Chat
+            </button>
+        </div>
+    </div>
 
     <!-- Chatwoot Live Chat Widget -->
     <script>
@@ -1741,6 +1832,23 @@
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
+        });
+
+        // Notify Modal
+        function openNotifyModal() {
+            document.getElementById('notify-modal').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeNotifyModal(event) {
+            if (event && event.target !== event.currentTarget) return;
+            document.getElementById('notify-modal').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeNotifyModal();
         });
     </script>
 </body>
