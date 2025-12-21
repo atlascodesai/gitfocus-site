@@ -18,9 +18,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
-    <!-- Favicon - adapts to color scheme -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" media="(prefers-color-scheme: dark)">
-    <link rel="icon" type="image/png" href="assets/app-icon-light.png" media="(prefers-color-scheme: light)">
+    <!-- Favicon - dynamically updated by JavaScript for theme changes -->
+    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
     <link rel="apple-touch-icon" href="assets/app-icon.png">
 
     <!-- Fonts -->
@@ -865,10 +864,18 @@
     <script>
         // Theme Toggle
         function updateFavicon(theme) {
-            const favicon = document.querySelector('link[rel="icon"]');
-            if (favicon) {
-                favicon.href = theme === 'dark' ? 'assets/app-icon.png' : 'assets/app-icon-light.png';
+            const oldFavicon = document.getElementById('favicon');
+            if (oldFavicon) {
+                // Remove old favicon to force Safari to update
+                oldFavicon.remove();
             }
+            // Create new favicon link with cache-busting parameter
+            const newFavicon = document.createElement('link');
+            newFavicon.id = 'favicon';
+            newFavicon.rel = 'icon';
+            newFavicon.type = 'image/png';
+            newFavicon.href = (theme === 'dark' ? 'assets/app-icon.png' : 'assets/app-icon-light.png') + '?v=' + Date.now();
+            document.head.appendChild(newFavicon);
         }
 
         function toggleTheme() {
