@@ -18,8 +18,9 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <!-- Favicon - adapts to color scheme -->
+    <link rel="icon" type="image/png" href="assets/app-icon.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" href="assets/app-icon-light.png" media="(prefers-color-scheme: light)">
     <link rel="apple-touch-icon" href="assets/app-icon.png">
 
     <!-- Fonts -->
@@ -863,6 +864,13 @@
 
     <script>
         // Theme Toggle
+        function updateFavicon(theme) {
+            const favicon = document.querySelector('link[rel="icon"]');
+            if (favicon) {
+                favicon.href = theme === 'dark' ? 'assets/app-icon.png' : 'assets/app-icon-light.png';
+            }
+        }
+
         function toggleTheme() {
             const html = document.documentElement;
             const currentTheme = html.getAttribute('data-theme');
@@ -870,11 +878,13 @@
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
             document.querySelector('.theme-icon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+            updateFavicon(newTheme);
         }
 
         const savedTheme = localStorage.getItem('theme') || 'dark';
         document.documentElement.setAttribute('data-theme', savedTheme);
         document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+        updateFavicon(savedTheme);
 
         // FAQ Accordion
         document.querySelectorAll('.faq-question').forEach(button => {

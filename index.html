@@ -22,8 +22,9 @@
     <meta name="twitter:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub.">
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <!-- Favicon - adapts to color scheme -->
+    <link rel="icon" type="image/png" href="assets/app-icon.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" href="assets/app-icon-light.png" media="(prefers-color-scheme: light)">
     <link rel="apple-touch-icon" href="assets/app-icon.png">
 
     <!-- Fonts -->
@@ -343,6 +344,18 @@
                 0 20px 40px rgba(0, 0, 0, 0.3);
             animation: fadeInUp 0.8s ease 0.1s forwards, iconFloat 4s ease-in-out infinite;
             opacity: 0;
+        }
+
+        .hero-icon-light {
+            display: none;
+        }
+
+        [data-theme="light"] .hero-icon-dark {
+            display: none;
+        }
+
+        [data-theme="light"] .hero-icon-light {
+            display: block;
         }
 
         @keyframes iconFloat {
@@ -1078,7 +1091,8 @@
             <span>Coming soon to iOS</span>
         </div>
 
-        <img src="assets/app-icon.png" alt="gitfocus App Icon" class="hero-icon">
+        <img src="assets/app-icon.png" alt="gitfocus App Icon" class="hero-icon hero-icon-dark">
+        <img src="assets/app-icon-light.png" alt="gitfocus App Icon" class="hero-icon hero-icon-light">
 
         <h1>
             Block apps until you<br>
@@ -1495,6 +1509,13 @@
 
     <script>
         // Theme Toggle
+        function updateFavicon(theme) {
+            const favicon = document.querySelector('link[rel="icon"]');
+            if (favicon) {
+                favicon.href = theme === 'dark' ? 'assets/app-icon.png' : 'assets/app-icon-light.png';
+            }
+        }
+
         function toggleTheme() {
             const html = document.documentElement;
             const currentTheme = html.getAttribute('data-theme');
@@ -1502,15 +1523,19 @@
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
 
-            // Update icon
+            // Update toggle icon
             const icon = document.querySelector('.theme-icon');
             icon.textContent = newTheme === 'dark' ? '🌙' : '☀️';
+
+            // Update favicon
+            updateFavicon(newTheme);
         }
 
         // Load saved theme
         const savedTheme = localStorage.getItem('theme') || 'dark';
         document.documentElement.setAttribute('data-theme', savedTheme);
         document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+        updateFavicon(savedTheme);
 
         // Interactive Demo
         const demoSteps = document.querySelectorAll('.demo-step');
