@@ -1927,6 +1927,9 @@
         // Screenshot Carousel
         let currentScreenshot = 0;
         const totalScreenshots = 5;
+        let screenshotInterval = null;
+        let sectionIsVisible = false;
+        let hasEnteredView = false;
 
         function setScreenshot(index) {
             currentScreenshot = index;
@@ -1956,25 +1959,86 @@
             setScreenshot((currentScreenshot - 1 + totalScreenshots) % totalScreenshots);
         }
 
+        function startAutoplay() {
+            if (screenshotInterval) return; // Already playing
+            screenshotInterval = setInterval(() => {
+                nextScreenshot();
+            }, 4000);
+        }
+
+        function stopAutoplay() {
+            if (screenshotInterval) {
+                clearInterval(screenshotInterval);
+                screenshotInterval = null;
+            }
+        }
+
         // Screenshot step click handlers
         document.querySelectorAll('.screenshot-step').forEach((step, index) => {
             step.addEventListener('click', () => setScreenshot(index));
         });
 
-        // Auto-advance screenshots
-        let screenshotInterval = setInterval(() => {
-            nextScreenshot();
-        }, 4000);
+        // Intersection Observer to detect when how-it-works section is visible
+        const howItWorksSection = document.querySelector('#how-it-works');
+        if (howItWorksSection) {
+            const sectionObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    sectionIsVisible = entry.isIntersecting;
 
-        // Pause on hover
+                    if (entry.isIntersecting) {
+                        // Reset to first screenshot when section comes into view
+                        if (!hasEnteredView || currentScreenshot !== 0) {
+                            setScreenshot(0);
+                        }
+                        hasEnteredView = true;
+                        startAutoplay();
+                    } else {
+                        stopAutoplay();
+                    }
+                });
+            }, {
+                threshold: 0.2 // Trigger when 20% of section is visible
+            });
+
+            sectionObserver.observe(howItWorksSection);
+        }
+
+        // Pause autoplay on hover
         const screenshotContainer = document.querySelector('.demo-container');
         if (screenshotContainer) {
-            screenshotContainer.addEventListener('mouseenter', () => clearInterval(screenshotInterval));
+            screenshotContainer.addEventListener('mouseenter', () => stopAutoplay());
             screenshotContainer.addEventListener('mouseleave', () => {
-                screenshotInterval = setInterval(() => {
-                    nextScreenshot();
-                }, 4000);
+                if (sectionIsVisible) startAutoplay();
             });
+        }
+
+        // Simulate Commit Feature
+        let commitCount = 0;
+        function simulateCommit() {
+            const commitDays = document.querySelectorAll('#commit-graph .commit-day');
+            const timeCounter = document.getElementById('time-counter');
+
+            if (commitCount < commitDays.length) {
+                const day = commitDays[commitCount];
+                day.classList.add('active', 'filled');
+                commitCount++;
+
+                // Update time counter
+                const currentTime = parseInt(timeCounter.textContent);
+                timeCounter.textContent = currentTime + 5;
+
+                // Remove active animation class after animation completes
+                setTimeout(() => {
+                    day.classList.remove('active');
+                }, 300);
+            } else {
+                // Reset if all days are filled
+                commitDays.forEach(day => {
+                    day.classList.remove('filled', 'active');
+                });
+                commitCount = 0;
+                timeCounter.textContent = '5';
+            }
         }
     </script>
 </body>
