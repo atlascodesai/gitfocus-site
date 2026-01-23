@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitFocus - Block Apps Until You Commit</title>
+    <title>GitFocus - Staging</title>
     <meta name="description" content="GitFocus blocks distracting apps until you push code to GitHub. Turn commits into focus time. Available for iOS.">
     <meta name="keywords" content="productivity, focus app, github, ios app, screen time, app blocker, developer tools">
     <meta name="author" content="GitFocus">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, nofollow">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -1522,8 +1522,198 @@
             </p>
         </div>
 
-        <!-- App Screenshots -->
-        <div class="demo-container">
+        <!-- View Mode Toggle -->
+        <div class="view-toggle-container reveal">
+            <div class="view-toggle">
+                <button class="view-toggle-btn active" data-mode="simulated" onclick="setViewMode('simulated')">
+                    <span>🎭</span> Interactive Demo
+                </button>
+                <button class="view-toggle-btn" data-mode="screenshots" onclick="setViewMode('screenshots')">
+                    <span>📱</span> App Screenshots
+                </button>
+            </div>
+        </div>
+
+        <!-- Simulated Demo Mode (Original) -->
+        <div class="demo-container demo-mode-simulated active">
+            <!-- Phone Mockup -->
+            <div class="phone-mockup reveal">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                    <!-- Screen 1: Welcome -->
+                    <div class="app-screen active" data-screen="0">
+                        <div class="screen-icon">👋</div>
+                        <h3 class="screen-title">Welcome to GitFocus</h3>
+                        <p class="screen-desc">Block distracting apps until you push code to GitHub</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 12px;">
+                            <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 12px; text-align: left;">
+                                <div style="font-size: 0.7rem; color: var(--text-tertiary); margin-bottom: 4px;">💻 Commit code</div>
+                                <div style="font-size: 0.8rem;">Each push earns unlock time</div>
+                            </div>
+                            <div style="background: var(--bg-tertiary); padding: 12px; border-radius: 12px; text-align: left;">
+                                <div style="font-size: 0.7rem; color: var(--text-tertiary); margin-bottom: 4px;">🔒 Apps blocked</div>
+                                <div style="font-size: 0.8rem;">Until you do real work</div>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 2: GitHub -->
+                    <div class="app-screen" data-screen="1">
+                        <div class="screen-icon">🐙</div>
+                        <h3 class="screen-title">Connect GitHub</h3>
+                        <p class="screen-desc">Just enter your username. No auth needed.</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+                            <div style="background: var(--bg-tertiary); padding: 16px; border-radius: 12px; border: 1px solid var(--purple-light);">
+                                <div style="font-size: 0.7rem; color: var(--text-tertiary); margin-bottom: 8px;">GitHub Username</div>
+                                <div style="font-family: var(--font-mono); font-size: 0.9rem; color: var(--purple-light); display: flex; align-items: center;">@yourname<span class="cursor-block"></span></div>
+                            </div>
+                            <div style="margin-top: 12px; font-size: 0.7rem; color: var(--green); text-align: center;">✓ We only read public commits</div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 3: Apps -->
+                    <div class="app-screen" data-screen="2">
+                        <div class="screen-icon">📱</div>
+                        <h3 class="screen-title">Select Apps</h3>
+                        <p class="screen-desc">Choose which apps to block</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; gap: 8px; justify-content: center;">
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: var(--bg-tertiary); border-radius: 10px;">
+                                <span style="font-size: 1.5rem;">📸</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Instagram</span>
+                                <span style="color: var(--red);">🔒</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: var(--bg-tertiary); border-radius: 10px;">
+                                <span style="font-size: 1.5rem;">🐦</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Twitter / X</span>
+                                <span style="color: var(--red);">🔒</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: var(--bg-tertiary); border-radius: 10px;">
+                                <span style="font-size: 1.5rem;">▶️</span>
+                                <span style="flex: 1; font-size: 0.85rem;">YouTube</span>
+                                <span style="color: var(--red);">🔒</span>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 4: Commit -->
+                    <div class="app-screen" data-screen="3">
+                        <div class="screen-icon">⌨️</div>
+                        <h3 class="screen-title">Push Code</h3>
+                        <p class="screen-desc">Each commit = 5 min unlock time</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
+                            <div style="background: #1a1a24; padding: 12px; border-radius: 10px; font-family: var(--font-mono); font-size: 0.7rem;">
+                                <div style="color: var(--text-tertiary);">$ git push origin main</div>
+                                <div style="color: var(--green); margin-top: 8px;">✓ 2 commits pushed</div>
+                                <div style="color: var(--cyan); margin-top: 4px;">+10 minutes earned!</div>
+                            </div>
+                            <div style="margin-top: 16px; text-align: center;">
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--green);">10:00</div>
+                                <div style="font-size: 0.75rem; color: var(--text-tertiary);">minutes available</div>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                            <div class="progress-dot"></div>
+                        </div>
+                    </div>
+
+                    <!-- Screen 5: Unlocked -->
+                    <div class="app-screen" data-screen="4">
+                        <div class="screen-icon">🎉</div>
+                        <h3 class="screen-title">Apps Unlocked!</h3>
+                        <p class="screen-desc">You earned your break. Enjoy!</p>
+                        <div style="flex: 1; display: flex; flex-direction: column; gap: 8px; justify-content: center;">
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: rgba(16, 185, 129, 0.1); border-radius: 10px; border: 1px solid var(--green);">
+                                <span style="font-size: 1.5rem;">📸</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Instagram</span>
+                                <span style="color: var(--green);">✓</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px; padding: 10px; background: rgba(16, 185, 129, 0.1); border-radius: 10px; border: 1px solid var(--green);">
+                                <span style="font-size: 1.5rem;">🐦</span>
+                                <span style="flex: 1; font-size: 0.85rem;">Twitter / X</span>
+                                <span style="color: var(--green);">✓</span>
+                            </div>
+                            <div style="text-align: center; margin-top: 8px; font-size: 0.75rem; color: var(--text-tertiary);">
+                                Time remaining: <span style="color: var(--cyan);">9:45</span>
+                            </div>
+                        </div>
+                        <div class="progress-dots">
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot"></div>
+                            <div class="progress-dot active"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Demo Steps -->
+            <div class="demo-steps reveal">
+                <div class="demo-step active" data-step="0">
+                    <div class="step-header">
+                        <div class="step-number">01</div>
+                        <div class="step-title">Welcome</div>
+                    </div>
+                    <p class="step-desc">Quick onboarding explains the concept</p>
+                </div>
+                <div class="demo-step" data-step="1">
+                    <div class="step-header">
+                        <div class="step-number">02</div>
+                        <div class="step-title">Connect GitHub</div>
+                    </div>
+                    <p class="step-desc">Just your username - no OAuth needed</p>
+                </div>
+                <div class="demo-step" data-step="2">
+                    <div class="step-header">
+                        <div class="step-number">03</div>
+                        <div class="step-title">Choose Apps</div>
+                    </div>
+                    <p class="step-desc">Select which apps to block</p>
+                </div>
+                <div class="demo-step" data-step="3">
+                    <div class="step-header">
+                        <div class="step-number">04</div>
+                        <div class="step-title">Push Code</div>
+                    </div>
+                    <p class="step-desc">Each commit earns 5 minutes of unlock time</p>
+                </div>
+                <div class="demo-step" data-step="4">
+                    <div class="step-header">
+                        <div class="step-number">05</div>
+                        <div class="step-title">Enjoy Freedom</div>
+                    </div>
+                    <p class="step-desc">Your apps are unlocked. You earned it!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Screenshot Mode (App Store Screenshots) -->
+        <div class="demo-container demo-mode-screenshots">
             <!-- Screenshot Phone -->
             <div class="screenshot-phone reveal">
                 <div class="screenshot-frame">
@@ -1844,6 +2034,63 @@
         document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
         updateFavicon(savedTheme);
 
+        // Interactive Demo
+        const demoSteps = document.querySelectorAll('.demo-step');
+        const appScreens = document.querySelectorAll('.app-screen');
+        let currentStep = 0;
+
+        function setActiveStep(index) {
+            demoSteps.forEach((step, i) => {
+                step.classList.toggle('active', i === index);
+            });
+            appScreens.forEach((screen, i) => {
+                screen.classList.toggle('active', i === index);
+            });
+            currentStep = index;
+        }
+
+        demoSteps.forEach((step, index) => {
+            step.addEventListener('click', () => setActiveStep(index));
+        });
+
+        // Auto-advance demo
+        let demoInterval = setInterval(() => {
+            const nextStep = (currentStep + 1) % demoSteps.length;
+            setActiveStep(nextStep);
+        }, 4000);
+
+        // Pause on hover
+        const demoContainer = document.querySelector('.demo-container');
+        demoContainer.addEventListener('mouseenter', () => clearInterval(demoInterval));
+        demoContainer.addEventListener('mouseleave', () => {
+            demoInterval = setInterval(() => {
+                const nextStep = (currentStep + 1) % demoSteps.length;
+                setActiveStep(nextStep);
+            }, 4000);
+        });
+
+        // Commit Graph Simulation
+        let commitIndex = 0;
+        function simulateCommit() {
+            const days = document.querySelectorAll('.commit-day');
+            if (commitIndex < days.length) {
+                days[commitIndex].classList.add('filled', 'active');
+                setTimeout(() => days[commitIndex - 1]?.classList.remove('active'), 300);
+                commitIndex++;
+
+                // Update counter
+                const counter = document.getElementById('time-counter');
+                counter.textContent = parseInt(counter.textContent) + 5;
+            } else {
+                // Reset
+                days.forEach(day => {
+                    day.classList.remove('filled', 'active');
+                });
+                commitIndex = 0;
+                document.getElementById('time-counter').textContent = '5';
+            }
+        }
+
         // Scroll Reveal Animation
         const reveals = document.querySelectorAll('.reveal');
 
@@ -1890,6 +2137,27 @@
             if (e.key === 'Escape') closeNotifyModal();
         });
 
+        // View Mode Toggle
+        let currentViewMode = 'simulated';
+
+        function setViewMode(mode) {
+            currentViewMode = mode;
+
+            // Update toggle buttons
+            document.querySelectorAll('.view-toggle-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.mode === mode);
+            });
+
+            // Update containers
+            document.querySelector('.demo-mode-simulated').classList.toggle('active', mode === 'simulated');
+            document.querySelector('.demo-mode-screenshots').classList.toggle('active', mode === 'screenshots');
+
+            // Reset screenshot carousel when switching to screenshots
+            if (mode === 'screenshots') {
+                setScreenshot(0);
+            }
+        }
+
         // Screenshot Carousel
         let currentScreenshot = 0;
         const totalScreenshots = 5;
@@ -1927,21 +2195,37 @@
             step.addEventListener('click', () => setScreenshot(index));
         });
 
-        // Auto-advance screenshots
-        let screenshotInterval = setInterval(() => {
-            nextScreenshot();
-        }, 4000);
+        // Auto-advance screenshots when in screenshot mode
+        let screenshotInterval;
 
-        // Pause on hover
-        const screenshotContainer = document.querySelector('.demo-container');
-        if (screenshotContainer) {
-            screenshotContainer.addEventListener('mouseenter', () => clearInterval(screenshotInterval));
-            screenshotContainer.addEventListener('mouseleave', () => {
+        function startScreenshotAutoplay() {
+            if (currentViewMode === 'screenshots') {
                 screenshotInterval = setInterval(() => {
                     nextScreenshot();
                 }, 4000);
-            });
+            }
         }
+
+        function stopScreenshotAutoplay() {
+            clearInterval(screenshotInterval);
+        }
+
+        // Handle hover on screenshot container
+        const screenshotContainer = document.querySelector('.demo-mode-screenshots');
+        if (screenshotContainer) {
+            screenshotContainer.addEventListener('mouseenter', stopScreenshotAutoplay);
+            screenshotContainer.addEventListener('mouseleave', startScreenshotAutoplay);
+        }
+
+        // Start autoplay when switching to screenshots
+        const originalSetViewMode = setViewMode;
+        setViewMode = function(mode) {
+            stopScreenshotAutoplay();
+            originalSetViewMode(mode);
+            if (mode === 'screenshots') {
+                startScreenshotAutoplay();
+            }
+        };
     </script>
 </body>
 </html>
