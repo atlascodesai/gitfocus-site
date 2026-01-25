@@ -576,7 +576,48 @@
                 <li>Any user tracking services</li>
             </ul>
             <p>
-                The only external service we communicate with is github.com to fetch your public contribution data.
+                The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).
+            </p>
+        </section>
+
+        <!-- Customer Support -->
+        <section class="content-section">
+            <h2>Customer Support & Live Chat</h2>
+            <p>
+                <strong>Contacting support is entirely optional and only happens when you choose to reach out for help.</strong>
+            </p>
+            <p>
+                GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.
+            </p>
+
+            <h3>How it works</h3>
+            <ul>
+                <li><strong>Session Persistence:</strong> Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations</li>
+                <li><strong>Anonymous by Default:</strong> You can chat with support without providing any personal information - the session is tracked via browser cookies only</li>
+                <li><strong>Optional Email:</strong> You may optionally provide your email address if you want to receive follow-up responses</li>
+            </ul>
+
+            <h3>What's Collected</h3>
+            <p>When you use the chat feature, Chatwoot may collect:</p>
+            <ul>
+                <li>Your chat messages and conversation history</li>
+                <li>Browser cookies for session persistence</li>
+                <li>Email address (only if you choose to provide it)</li>
+                <li>Basic technical information (browser type, timestamp)</li>
+            </ul>
+
+            <div class="highlight-box green">
+                <h3>✅ No Access to App Data</h3>
+                <p>
+                    The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.
+                </p>
+            </div>
+
+            <p>
+                Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit <a href="https://www.chatwoot.com/privacy-policy" target="_blank" rel="noopener noreferrer" style="color: var(--purple-light);">chatwoot.com/privacy-policy</a>.
+            </p>
+            <p>
+                You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.
             </p>
         </section>
 
@@ -666,5 +707,8 @@
         document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
         updateFavicon(savedTheme);
     </script>
+
+    <!-- Cookie Consent & Chatwoot Widget -->
+    <script src="js/cookie-consent.js"></script>
 </body>
 </html>
