@@ -1352,7 +1352,35 @@
 
         @media (max-width: 768px) {
             .screenshot-phone {
-                width: 240px;
+                width: min(92vw, 320px);
+            }
+
+            .screenshot-frame {
+                border-radius: 28px;
+                touch-action: pan-y;
+            }
+
+            .screenshot-frame img {
+                max-height: 70vh;
+                object-fit: contain;
+            }
+
+            .screenshot-nav {
+                margin-top: var(--space-md);
+            }
+
+            .screenshot-steps {
+                width: min(92vw, 360px);
+                margin: 0 auto;
+            }
+
+            .screenshot-step {
+                display: none;
+                padding: var(--space-md);
+            }
+
+            .screenshot-step.active {
+                display: block;
             }
         }
 
@@ -1869,6 +1897,35 @@
         document.querySelectorAll('.screenshot-step').forEach((step, index) => {
             step.addEventListener('click', () => setScreenshot(index));
         });
+
+        // Swipe support for screenshots (mobile)
+        (function setupScreenshotSwipe() {
+            let touchStartX = 0;
+            let touchStartY = 0;
+            const swipeThreshold = 40;
+
+            document.querySelectorAll('.screenshot-frame').forEach((frame) => {
+                frame.addEventListener('touchstart', (event) => {
+                    const touch = event.changedTouches[0];
+                    touchStartX = touch.clientX;
+                    touchStartY = touch.clientY;
+                }, { passive: true });
+
+                frame.addEventListener('touchend', (event) => {
+                    const touch = event.changedTouches[0];
+                    const deltaX = touch.clientX - touchStartX;
+                    const deltaY = touch.clientY - touchStartY;
+
+                    if (Math.abs(deltaX) > swipeThreshold && Math.abs(deltaX) > Math.abs(deltaY)) {
+                        if (deltaX < 0) {
+                            nextScreenshot();
+                        } else {
+                            prevScreenshot();
+                        }
+                    }
+                });
+            });
+        })();
 
         // Intersection Observer to detect when how-it-works section is visible
         const howItWorksSection = document.querySelector('#how-it-works');
