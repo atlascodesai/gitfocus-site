@@ -90,6 +90,36 @@
             --transition-slow: 500ms ease;
         }
 
+        /* Skip Navigation Link */
+        .skip-link {
+            position: absolute;
+            top: -50px;
+            left: var(--space-md);
+            background: var(--purple-dark);
+            color: white;
+            padding: var(--space-sm) var(--space-md);
+            border-radius: 0 0 8px 8px;
+            z-index: 10000;
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: top 0.2s ease;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Focus Indicators */
+        :focus-visible {
+            outline: 2px solid var(--purple-light);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+        :focus:not(:focus-visible) {
+            outline: none;
+        }
+
         [data-theme="light"] {
             --bg-primary: #fafafa;
             --bg-secondary: #f0f0f5;
@@ -100,6 +130,7 @@
             --text-tertiary: #808090;
             --border: #d0d0e0;
             --glow: rgba(99, 102, 241, 0.2);
+            --purple-light: #6366f1;
         }
 
         * {
@@ -117,7 +148,7 @@
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
-            overflow-x: hidden;
+            overflow-x: clip;
         }
 
         /* Background - grid removed for cleaner look matching app */
@@ -129,6 +160,8 @@
             filter: blur(100px);
             pointer-events: none;
             z-index: -1;
+            will-change: transform;
+            contain: strict;
         }
 
         /* Large purple orb - top right */
@@ -224,6 +257,7 @@
             backdrop-filter: blur(20px);
             border-bottom: 1px solid var(--border);
             transition: var(--transition-base);
+            will-change: transform;
         }
 
         [data-theme="light"] nav {
@@ -566,7 +600,7 @@
             flex-direction: column;
             align-items: center;
             gap: var(--space-sm);
-            color: var(--text-tertiary);
+            color: var(--text-secondary);
             font-size: 0.8rem;
             animation: fadeInUp 0.8s ease 0.6s forwards, bounce 2s ease infinite;
             opacity: 0;
@@ -586,6 +620,7 @@
         .how-it-works {
             padding: var(--space-2xl) var(--space-lg);
             position: relative;
+            contain: layout style;
         }
 
         .section-header {
@@ -821,6 +856,7 @@
             padding: var(--space-2xl) var(--space-lg);
             background: var(--bg-secondary);
             position: relative;
+            contain: layout style;
         }
 
         .features::before {
@@ -990,6 +1026,7 @@
             padding: var(--space-2xl) var(--space-lg);
             text-align: center;
             position: relative;
+            contain: layout style;
         }
 
         .cta-card {
@@ -1095,7 +1132,7 @@
         }
 
         .footer-copy {
-            color: var(--text-tertiary);
+            color: var(--text-secondary);
             font-size: 0.85rem;
             font-family: var(--font-mono);
         }
@@ -1384,6 +1421,31 @@
             }
         }
 
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            html {
+                scroll-behavior: auto;
+            }
+            .orb {
+                animation: none !important;
+            }
+            .hero-icon {
+                opacity: 1;
+            }
+            .hero h1, .hero-subtitle, .hero-cta, .terminal-cmd, .scroll-indicator {
+                opacity: 1;
+            }
+            .reveal {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
         /* Scroll Animations */
         .reveal {
             opacity: 0;
@@ -1436,6 +1498,8 @@
     </style>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Background Orbs - matching app's atmospheric background -->
     <div class="orb orb-1"></div>
     <div class="orb orb-2"></div>
@@ -1446,8 +1510,8 @@
     <nav>
         <div class="nav-container">
             <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="GitFocus" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="GitFocus" class="logo-light">
+                <img src="assets/app-icon.png" alt="" class="logo-dark">
+                <img src="assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
@@ -1461,6 +1525,7 @@
         </div>
     </nav>
 
+    <main id="main-content">
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-badge">
@@ -1758,6 +1823,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -1810,8 +1876,9 @@
             updateFavicon(newTheme);
         }
 
-        // Load saved theme
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        // Load saved theme (respect system preference on first visit)
+        const savedTheme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', savedTheme);
         document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
         updateFavicon(savedTheme);
@@ -1851,6 +1918,9 @@
         let screenshotInterval = null;
         let sectionIsVisible = false;
         let hasEnteredView = false;
+        let autoplayDisabled = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        let autoplayStartTime = null;
+        const AUTOPLAY_MAX_DURATION = 60000; // Stop autoplay after 60 seconds
 
         function setScreenshot(index) {
             currentScreenshot = index;
@@ -1873,6 +1943,11 @@
         }
 
         function nextScreenshot() {
+            // Check if autoplay has exceeded max duration
+            if (autoplayStartTime && Date.now() - autoplayStartTime > AUTOPLAY_MAX_DURATION) {
+                disableAutoplay();
+                return;
+            }
             setScreenshot((currentScreenshot + 1) % totalScreenshots);
         }
 
@@ -1880,8 +1955,14 @@
             setScreenshot((currentScreenshot - 1 + totalScreenshots) % totalScreenshots);
         }
 
+        function disableAutoplay() {
+            autoplayDisabled = true;
+            stopAutoplay();
+        }
+
         function startAutoplay() {
-            if (screenshotInterval) return; // Already playing
+            if (screenshotInterval || autoplayDisabled) return;
+            if (!autoplayStartTime) autoplayStartTime = Date.now();
             screenshotInterval = setInterval(() => {
                 nextScreenshot();
             }, 4000);
@@ -1894,9 +1975,25 @@
             }
         }
 
+        // User interaction stops autoplay permanently
+        function onUserInteraction() {
+            disableAutoplay();
+        }
+
         // Screenshot step click handlers
         document.querySelectorAll('.screenshot-step').forEach((step, index) => {
-            step.addEventListener('click', () => setScreenshot(index));
+            step.addEventListener('click', () => {
+                onUserInteraction();
+                setScreenshot(index);
+            });
+        });
+
+        // Screenshot dot and nav button click handlers
+        document.querySelectorAll('.screenshot-dot').forEach((dot) => {
+            dot.addEventListener('click', onUserInteraction);
+        });
+        document.querySelectorAll('.screenshot-nav-btn').forEach((btn) => {
+            btn.addEventListener('click', onUserInteraction);
         });
 
         // Swipe support for screenshots (mobile)
@@ -1918,6 +2015,7 @@
                     const deltaY = touch.clientY - touchStartY;
 
                     if (Math.abs(deltaX) > swipeThreshold && Math.abs(deltaX) > Math.abs(deltaY)) {
+                        onUserInteraction();
                         if (deltaX < 0) {
                             nextScreenshot();
                         } else {
@@ -1953,12 +2051,12 @@
             sectionObserver.observe(howItWorksSection);
         }
 
-        // Pause autoplay on hover
+        // Pause autoplay on hover (resumes on leave unless permanently disabled)
         const screenshotContainer = document.querySelector('.demo-container');
         if (screenshotContainer) {
             screenshotContainer.addEventListener('mouseenter', () => stopAutoplay());
             screenshotContainer.addEventListener('mouseleave', () => {
-                if (sectionIsVisible) startAutoplay();
+                if (sectionIsVisible && !autoplayDisabled) startAutoplay();
             });
         }
 

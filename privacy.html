@@ -60,6 +60,48 @@
             --transition-base: 300ms ease;
         }
 
+        /* Skip Navigation Link */
+        .skip-link {
+            position: absolute;
+            top: -50px;
+            left: var(--space-md);
+            background: var(--purple-dark);
+            color: white;
+            padding: var(--space-sm) var(--space-md);
+            border-radius: 0 0 8px 8px;
+            z-index: 10000;
+            font-family: var(--font-display);
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: top 0.2s ease;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Focus Indicators */
+        :focus-visible {
+            outline: 2px solid var(--purple-light);
+            outline-offset: 2px;
+            border-radius: 4px;
+        }
+        :focus:not(:focus-visible) {
+            outline: none;
+        }
+
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            html {
+                scroll-behavior: auto;
+            }
+        }
+
         [data-theme="light"] {
             --bg-primary: #fafafa;
             --bg-secondary: #f0f0f5;
@@ -70,6 +112,7 @@
             --text-tertiary: #808090;
             --border: #d0d0e0;
             --glow: rgba(99, 102, 241, 0.2);
+            --purple-light: #6366f1;
         }
 
         * {
@@ -236,7 +279,7 @@
         .last-updated {
             font-family: var(--font-mono);
             font-size: 0.8rem;
-            color: var(--text-tertiary);
+            color: var(--text-secondary);
             margin-top: var(--space-md);
         }
 
@@ -394,7 +437,7 @@
         }
 
         .footer-copy {
-            color: var(--text-tertiary);
+            color: var(--text-secondary);
             font-size: 0.85rem;
             font-family: var(--font-mono);
         }
@@ -421,12 +464,14 @@
     </style>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
             <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="GitFocus" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="GitFocus" class="logo-light">
+                <img src="assets/app-icon.png" alt="" class="logo-dark">
+                <img src="assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
@@ -440,7 +485,7 @@
         </div>
     </nav>
 
-    <main>
+    <main id="main-content">
         <header class="page-header">
             <p class="page-label">// Privacy Policy</p>
             <h1 class="page-title">Your data stays yours</h1>
@@ -714,7 +759,8 @@
             updateFavicon(newTheme);
         }
 
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', savedTheme);
         document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
         updateFavicon(savedTheme);

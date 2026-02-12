@@ -307,7 +307,7 @@
             }
 
             .cookie-banner-text a {
-                color: #818cf8;
+                color: var(--purple-light, #818cf8);
                 text-decoration: underline;
                 font-size: 0.9rem;
                 transition: color 0.2s;
@@ -462,7 +462,7 @@
         privacyLink.href = 'https://gitfocus.app/privacy.html';
         privacyLink.target = '_blank';
         privacyLink.rel = 'noopener noreferrer';
-        privacyLink.style.color = '#818cf8';
+        privacyLink.style.color = 'var(--purple-light, #818cf8)';
         privacyLink.style.textDecoration = 'underline';
         privacyLink.textContent = 'View Privacy Policy';
         p2.appendChild(privacyLink);
