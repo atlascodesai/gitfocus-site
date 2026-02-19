@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Clawd! - GitFocus</title>
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="assets/app-icon.png">
+
+    <style>
+        :root {
+            --purple-dark: #6366f1;
+            --purple-light: #818cf8;
+            --cyan: #22d3ee;
+            --green: #10b981;
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #16161f;
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a0b0;
+            --text-tertiary: #606070;
+            --border: #2a2a3a;
+            --glow: rgba(99, 102, 241, 0.4);
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-display: 'Space Grotesk', sans-serif;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #fafafa;
+            --bg-secondary: #f0f0f5;
+            --bg-card: #ffffff;
+            --text-primary: #0a0a0f;
+            --text-secondary: #505060;
+            --text-tertiary: #808090;
+            --border: #d0d0e0;
+            --glow: rgba(99, 102, 241, 0.2);
+            --purple-light: #6366f1;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-display);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        h1 .gradient {
+            background: linear-gradient(135deg, var(--purple-light), var(--cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .video-wrapper {
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow:
+                0 0 60px var(--glow),
+                0 20px 60px rgba(0, 0, 0, 0.4);
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+        }
+
+        video {
+            width: 100%;
+            display: block;
+            border-radius: 16px;
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--text-tertiary);
+        }
+
+        .footer-note a {
+            color: var(--purple-light);
+            text-decoration: none;
+        }
+
+        .footer-note a:hover {
+            text-decoration: underline;
+        }
+
+        @media (prefers-color-scheme: light) {
+            html:not([data-theme="dark"]) {
+                --bg-primary: #fafafa;
+                --bg-secondary: #f0f0f5;
+                --bg-card: #ffffff;
+                --text-primary: #0a0a0f;
+                --text-secondary: #505060;
+                --text-tertiary: #808090;
+                --border: #d0d0e0;
+                --glow: rgba(99, 102, 241, 0.2);
+                --purple-light: #6366f1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="gradient">Happy Birthday, Clawd!</span></h1>
+        <p class="subtitle">GitFocus Demo</p>
+
+        <div class="video-wrapper">
+            <video controls playsinline preload="metadata">
+                <source src="https://github.com/atlascodesai/gitfocus-site/releases/download/demo-assets/gitfocus-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <p class="footer-note">
+            <a href="/">GitFocus</a> — Block apps until you commit
+        </p>
+    </div>
+</body>
+</html>
