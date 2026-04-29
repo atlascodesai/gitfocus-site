@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitFocus - Block Apps Until You Commit</title>
-    <meta name="description" content="GitFocus blocks distracting apps until you push code to GitHub. Turn commits into focus time. Available for iOS.">
+    <meta name="description" content="GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS.">
     <meta name="keywords" content="productivity, focus app, github, ios app, screen time, app blocker, developer tools">
     <meta name="author" content="GitFocus">
     <meta name="robots" content="index, follow">
@@ -14,7 +14,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gitfocus.app/">
     <meta property="og:title" content="GitFocus - Block Apps Until You Commit">
-    <meta property="og:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub.">
+    <meta property="og:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub, with support for multiple GitHub accounts.">
     <meta property="og:image" content="https://gitfocus.app/assets/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -22,7 +22,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="GitFocus - Block Apps Until You Commit">
-    <meta name="twitter:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub.">
+    <meta name="twitter:description" content="Turn commits into focus time. Block distracting apps until you push code to GitHub, with support for multiple GitHub accounts.">
     <meta name="twitter:image" content="https://gitfocus.app/assets/og-image.png">
 
     <!-- Favicon - dynamically updated by JavaScript for theme changes -->
@@ -42,7 +42,7 @@
         "name": "GitFocus",
         "operatingSystem": "iOS",
         "applicationCategory": "ProductivityApplication",
-        "description": "Block distracting apps until you push code to GitHub. Turn commits into focus time.",
+        "description": "Block distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time.",
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -1542,8 +1542,8 @@
         </h1>
 
         <p class="hero-subtitle">
-            GitFocus gamifies your coding habits. Commit code → unlock your distracting apps.
-            It's that simple. No willpower required.
+            GitFocus gamifies your coding habits. Commit from one GitHub account or many,
+            then unlock your distracting apps. It's that simple.
         </p>
 
         <div class="hero-cta">
@@ -1587,13 +1587,13 @@
             <div class="screenshot-phone reveal">
                 <div class="screenshot-frame">
                     <!-- Dark mode screenshots (default) -->
-                    <img src="assets/screenshots-web/dark/01-github.png" alt="GitHub Username Setup" data-screenshot="0" class="screenshot-dark active">
+                    <img src="assets/screenshots-web/dark/01-github.png" alt="GitHub Accounts Setup" data-screenshot="0" class="screenshot-dark active">
                     <img src="assets/screenshots-web/dark/02-dashboard.png" alt="Home Dashboard" data-screenshot="1" class="screenshot-dark">
                     <img src="assets/screenshots-web/dark/03-focus-stats.png" alt="Focus Statistics" data-screenshot="2" class="screenshot-dark">
                     <img src="assets/screenshots-web/dark/04-contributions.png" alt="Contribution Statistics" data-screenshot="3" class="screenshot-dark">
                     <img src="assets/screenshots-web/dark/05-timer.png" alt="Focus Timer" data-screenshot="4" class="screenshot-dark">
                     <!-- Light mode screenshots -->
-                    <img src="assets/screenshots-web/light/01-github.png" alt="GitHub Username Setup" data-screenshot="0" class="screenshot-light active">
+                    <img src="assets/screenshots-web/light/01-github.png" alt="GitHub Accounts Setup" data-screenshot="0" class="screenshot-light active">
                     <img src="assets/screenshots-web/light/02-dashboard.png" alt="Home Dashboard" data-screenshot="1" class="screenshot-light">
                     <img src="assets/screenshots-web/light/03-focus-stats.png" alt="Focus Statistics" data-screenshot="2" class="screenshot-light">
                     <img src="assets/screenshots-web/light/04-contributions.png" alt="Contribution Statistics" data-screenshot="3" class="screenshot-light">
@@ -1625,23 +1625,23 @@
                 <div class="screenshot-step active" data-screenshot="0">
                     <div class="step-header">
                         <div class="step-number">01</div>
-                        <div class="step-title">Link GitHub</div>
+                        <div class="step-title">Add GitHub accounts</div>
                     </div>
-                    <p class="step-desc">Enter your username and see your contribution graph instantly</p>
+                    <p class="step-desc">Track one account or aggregate work, personal, and open-source profiles</p>
                 </div>
                 <div class="screenshot-step" data-screenshot="1">
                     <div class="step-header">
                         <div class="step-number">02</div>
                         <div class="step-title">Dashboard</div>
                     </div>
-                    <p class="step-desc">Track your streak, score, and app lock status at a glance</p>
+                    <p class="step-desc">Track your streak, daily score, and app lock status at a glance</p>
                 </div>
                 <div class="screenshot-step" data-screenshot="2">
                     <div class="step-header">
                         <div class="step-number">03</div>
                         <div class="step-title">Focus Stats</div>
                     </div>
-                    <p class="step-desc">Track your focus sessions and see how your productivity grows</p>
+                    <p class="step-desc">Start at 100 each day and see blocked-app time and unlocks burn it down</p>
                 </div>
                 <div class="screenshot-step" data-screenshot="3">
                     <div class="step-header">
@@ -1677,8 +1677,8 @@
                 <div class="feature-icon green">⏱️</div>
                 <h3 class="feature-title">Earn Time</h3>
                 <p class="feature-desc">
-                    Every commit you push to GitHub earns you unlock time.
-                    More productive code = more freedom.
+                    Every commit from your included GitHub accounts earns unlock time.
+                    Keep work, personal, and open-source activity together.
                 </p>
                 <div class="counter-display">
                     <span id="time-counter">5</span>
@@ -1784,7 +1784,7 @@
                 <div class="feature-icon green">🔒</div>
                 <h3 class="feature-title">Privacy First</h3>
                 <p class="feature-desc">
-                    No account needed. No data collection. Everything stays on your device.
+                    No GitFocus account. No GitHub login. Everything stays on your device.
                 </p>
                 <div style="margin-top: 16px; font-family: var(--font-mono); font-size: 0.8rem;">
                     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
