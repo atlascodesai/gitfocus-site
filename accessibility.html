@@ -635,8 +635,8 @@
             <p class="page-label">// Accessibility</p>
             <h1 class="page-title">Built for everyone</h1>
             <p class="page-subtitle">
-                GitFocus is designed to be fully accessible. Every screen is tested
-                with assistive technologies and verified against accessibility standards.
+                GitFocus is designed for assistive technologies. Accessibility claims are
+                rechecked for each release with automated tests and a human device checklist.
             </p>
         </header>
 
@@ -650,56 +650,56 @@
                     <div class="feature-icon">&#128483;&#65039;</div>
                     <div class="feature-name">VoiceOver</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Every element has descriptive labels. VoiceOver reading order is verified top-to-bottom on all key screens.</p>
+                    <p class="feature-desc">Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128264;</div>
                     <div class="feature-name">Voice Control</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">All interactive elements are labeled and tappable by name. Navigate the entire app with voice commands.</p>
+                    <p class="feature-desc">Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128289;</div>
                     <div class="feature-name">Larger Text</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">All text uses semantic Dynamic Type. Verified at the five largest accessibility sizes (AX1 through AX5) with zero crashes.</p>
+                    <p class="feature-desc">App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127761;</div>
                     <div class="feature-name">Dark Interface</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Full dark mode with WCAG 2.1 AA contrast ratios verified across all 25 screens.</p>
+                    <p class="feature-desc">The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127912;</div>
                     <div class="feature-name">Differentiate Without Color</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">All states use text labels and icons alongside color. No information is conveyed by color alone.</p>
+                    <p class="feature-desc">Release review checks that important states use labels, shapes, or icons alongside color.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9680;</div>
                     <div class="feature-name">Sufficient Contrast</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Color pairings meet WCAG 2.1 AA contrast ratios. Tested with automated audits on every screen in both light and dark mode.</p>
+                    <p class="feature-desc">Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9208;&#65039;</div>
                     <div class="feature-name">Reduced Motion</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Respects the Reduce Motion system preference. Animations are disabled or replaced with static alternatives.</p>
+                    <p class="feature-desc">The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9000;&#65039;</div>
                     <div class="feature-name">Full Keyboard Access</div>
                     <span class="feature-status">Supported</span>
-                    <p class="feature-desc">All interactive elements are reachable via keyboard navigation, including custom gesture alternatives for swipe actions.</p>
+                    <p class="feature-desc">Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.</p>
                 </div>
             </div>
         </section>
@@ -711,20 +711,20 @@
 
             <div class="stats-row">
                 <div class="stat-card">
-                    <div class="stat-number">81</div>
-                    <div class="stat-label">Automated Tests</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">25</div>
-                    <div class="stat-label">Screens Audited</div>
-                </div>
-                <div class="stat-card">
                     <div class="stat-number">3</div>
                     <div class="stat-label">Test Suites</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">100%</div>
-                    <div class="stat-label">Pass Rate</div>
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Appearances</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">AX Text Sizes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Release Gate</div>
                 </div>
             </div>
 
@@ -732,14 +732,14 @@
                 <div class="suite-item">
                     <div class="suite-info">
                         <div class="suite-name">Screen Accessibility Audits</div>
-                        <div class="suite-desc">Every screen is launched in both light and dark mode and tested with iOS native accessibility audits for element descriptions, hit regions, Dynamic Type support, and contrast.</div>
+                        <div class="suite-desc">Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.</div>
                     </div>
                     <span class="suite-badge">26 tests</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
                         <div class="suite-name">Accessibility Size Tests</div>
-                        <div class="suite-desc">All 25 screens are rendered at the two largest accessibility text sizes (AX3 and AX5) and verified for crash-free rendering and accessible element presence.</div>
+                        <div class="suite-desc">Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.</div>
                     </div>
                     <span class="suite-badge">50 tests</span>
                 </div>
@@ -761,7 +761,7 @@
             <ul class="methodology-list">
                 <li>
                     <span class="method-icon">1</span>
-                    <p class="method-text"><strong>iOS native audits</strong> &mdash; Apple's built-in <code>performAccessibilityAudit</code> API runs on every screen to catch missing labels, undersized touch targets, and Dynamic Type issues.</p>
+                    <p class="method-text"><strong>iOS native audits</strong> &mdash; Apple's built-in <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
                 </li>
                 <li>
                     <span class="method-icon">2</span>
@@ -773,11 +773,11 @@
                 </li>
                 <li>
                     <span class="method-icon">4</span>
-                    <p class="method-text"><strong>Contrast verification</strong> &mdash; WCAG 2.1 AA contrast ratios are checked across all screenshot pairs in both light and dark mode.</p>
+                    <p class="method-text"><strong>Contrast verification</strong> &mdash; WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.</p>
                 </li>
                 <li>
                     <span class="method-icon">5</span>
-                    <p class="method-text"><strong>Continuous integration</strong> &mdash; All accessibility tests run as part of our CI pipeline. Regressions are caught before they ship.</p>
+                    <p class="method-text"><strong>Release integration</strong> &mdash; The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.</p>
                 </li>
             </ul>
         </section>
@@ -786,7 +786,7 @@
         <div class="standards-card">
             <h3 class="standards-title">Standards We Follow</h3>
             <ul class="standards-list">
-                <li>WCAG 2.1 Level AA contrast ratios for all text and interactive elements</li>
+                <li>WCAG 2.1 Level AA contrast targets for text and interactive elements</li>
                 <li>Apple Human Interface Guidelines for accessibility</li>
                 <li>Minimum 44pt touch targets for all interactive elements</li>
                 <li>Semantic Dynamic Type fonts throughout (no hardcoded font sizes)</li>
