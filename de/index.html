@@ -26,8 +26,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/og-image.png">
 
     <!-- Favicon - dynamically updated by JavaScript for theme changes -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -314,54 +314,109 @@
             gap: var(--space-lg);
         }
 
-        /* Language switcher. A compact pill group at the right of the nav.
-           Deliberately rendered as a div, not a nav: this stylesheet has an
-           unscoped `nav { position: fixed }` and a nested nav inherits it,
-           which pins the switcher to the viewport corner over the real header. */
+        /* Language switcher. Rendered by Expresslane into the marker in the nav.
+           A <details> disclosure: opens, closes and takes keyboard focus with no
+           JavaScript, and every destination is a real link so the translations
+           stay crawlable. Deliberately a div inside, never a nested <nav> --
+           this stylesheet has an unscoped `nav { position: fixed }` that a
+           nested nav would inherit, pinning it over the header. */
         .expresslane-lang {
-            display: inline-flex;
-            align-items: center;
-            gap: 2px;
-            padding: 2px;
-            border-radius: 999px;
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid var(--border);
+            position: relative;
         }
 
-        .expresslane-lang a.expresslane-lang-link {
+        .expresslane-lang-trigger {
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            min-width: 30px;
-            padding: 3px 8px;
+            gap: 5px;
+            padding: 5px 10px;
             border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.04);
             color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.7rem;
+            font-size: 0.72rem;
             font-weight: 600;
-            letter-spacing: 0.04em;
-            line-height: 1.4;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            user-select: none;
+            list-style: none;
             transition: color 0.18s ease, background 0.18s ease;
         }
 
-        .expresslane-lang a.expresslane-lang-link::after { content: none; }
+        .expresslane-lang-trigger::-webkit-details-marker { display: none; }
 
-        .expresslane-lang a.expresslane-lang-link:hover {
+        .expresslane-lang-trigger::after {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-right: 1.5px solid currentColor;
+            border-bottom: 1.5px solid currentColor;
+            transform: translateY(-1px) rotate(45deg);
+            transition: transform 0.18s ease;
+        }
+
+        .expresslane-lang[open] .expresslane-lang-trigger::after {
+            transform: translateY(1px) rotate(-135deg);
+        }
+
+        .expresslane-lang-trigger:hover,
+        .expresslane-lang[open] .expresslane-lang-trigger {
             color: var(--text-primary);
-            background: rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.08);
         }
 
-        .expresslane-lang a.expresslane-lang-link:focus-visible {
-            outline: 2px solid var(--accent, #7c8cff);
-            outline-offset: 1px;
+        .expresslane-lang-trigger:focus-visible {
+            outline: 2px solid #7c8cff;
+            outline-offset: 2px;
         }
 
-        .expresslane-lang a.expresslane-lang-link[aria-current="true"] {
+        .expresslane-lang-menu {
+            position: absolute;
+            top: calc(100% + 8px);
+            inset-inline-end: 0;
+            z-index: 1200;
+            min-width: 190px;
+            max-height: 320px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 6px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background: rgba(16, 16, 22, 0.98);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+        }
+
+        .expresslane-lang-menu a.expresslane-lang-item {
+            display: block;
+            padding: 7px 10px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 500;
+            white-space: nowrap;
+            transition: color 0.15s ease, background 0.15s ease;
+        }
+
+        .expresslane-lang-menu a.expresslane-lang-item::after { content: none; }
+
+        .expresslane-lang-menu a.expresslane-lang-item:hover,
+        .expresslane-lang-menu a.expresslane-lang-item:focus-visible {
             color: var(--text-primary);
-            background: rgba(255, 255, 255, 0.10);
+            background: rgba(255, 255, 255, 0.07);
         }
 
-        .nav-links a {
+        .expresslane-lang-menu a.expresslane-lang-item[aria-current="true"] {
+            color: var(--text-primary);
+            background: rgba(124, 140, 255, 0.16);
+        }
+
+        /* RTL locales flip the whole document; the menu follows via the logical
+           inset above, and text alignment needs no override. */
+        [dir="rtl"] .expresslane-lang-menu { text-align: right; }
+
+        .nav-links a {        .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
             font-size: 0.9rem;
@@ -1544,9 +1599,23 @@
         }
     </style>
 <!-- expresslane:hreflang -->
+<link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/index.html">
 <link rel="alternate" hreflang="de-DE" href="https://gitfocus.app/de/index.html">
+<link rel="alternate" hreflang="el" href="https://gitfocus.app/el/index.html">
 <link rel="alternate" hreflang="en-US" href="https://gitfocus.app/index.html">
+<link rel="alternate" hreflang="es-ES" href="https://gitfocus.app/es/index.html">
+<link rel="alternate" hreflang="fr-FR" href="https://gitfocus.app/fr/index.html">
+<link rel="alternate" hreflang="it" href="https://gitfocus.app/it/index.html">
 <link rel="alternate" hreflang="ja" href="https://gitfocus.app/ja/index.html">
+<link rel="alternate" hreflang="ko" href="https://gitfocus.app/ko/index.html">
+<link rel="alternate" hreflang="nl-NL" href="https://gitfocus.app/nl/index.html">
+<link rel="alternate" hreflang="pt-BR" href="https://gitfocus.app/pt-br/index.html">
+<link rel="alternate" hreflang="ru" href="https://gitfocus.app/ru/index.html">
+<link rel="alternate" hreflang="sk" href="https://gitfocus.app/sk/index.html">
+<link rel="alternate" hreflang="sr" href="https://gitfocus.app/sr/index.html">
+<link rel="alternate" hreflang="sr-Latn" href="https://gitfocus.app/sr-latn/index.html">
+<link rel="alternate" hreflang="uk" href="https://gitfocus.app/uk/index.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://gitfocus.app/zh/index.html">
 <link rel="alternate" hreflang="x-default" href="https://gitfocus.app/index.html">
 <!-- /expresslane:hreflang -->
 </head>
@@ -1563,22 +1632,41 @@
     <nav>
         <div class="nav-container">
             <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
                 <a href="#features">Funktionen</a>
-                <a href="privacy.html">Datenschutz</a>
-                <a href="support.html">Support</a>
+                <a href="/privacy.html">Datenschutz</a>
+                <a href="/support.html">Support</a>
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
                     <span class="theme-icon">🌙</span>
                 </button>
-                <div class="expresslane-lang" role="navigation" aria-label="Language">
-  <a class="expresslane-lang-link" hreflang="de-DE" lang="de-DE" href="/de/" title="Deutsch" aria-label="Deutsch" aria-current="true">DE</a>
-  <a class="expresslane-lang-link" hreflang="en-US" lang="en-US" href="/" title="English" aria-label="English">EN</a>
-  <a class="expresslane-lang-link" hreflang="ja" lang="ja" href="/ja/" title="日本語" aria-label="日本語">JA</a>
-</div>
+                <details class="expresslane-lang">
+  <summary class="expresslane-lang-trigger" title="Deutsch" aria-label="Language: Deutsch">
+    <span aria-hidden="true">DE</span>
+  </summary>
+  <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
+    <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/" aria-current="true">Deutsch</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/">English</a>
+    <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/">Español</a>
+    <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/">Français</a>
+    <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/">Italiano</a>
+    <a class="expresslane-lang-item" hreflang="nl-NL" lang="nl-NL" href="/nl/">Nederlands</a>
+    <a class="expresslane-lang-item" hreflang="pt-BR" lang="pt-BR" href="/pt-br/">Português (Brasil)</a>
+    <a class="expresslane-lang-item" hreflang="sk" lang="sk" href="/sk/">Slovenčina</a>
+    <a class="expresslane-lang-item" hreflang="sr-Latn" lang="sr-Latn" href="/sr-latn/">Srpski</a>
+    <a class="expresslane-lang-item" hreflang="el" lang="el" href="/el/">Ελληνικά</a>
+    <a class="expresslane-lang-item" hreflang="ru" lang="ru" href="/ru/">Русский</a>
+    <a class="expresslane-lang-item" hreflang="sr" lang="sr" href="/sr/">Српски</a>
+    <a class="expresslane-lang-item" hreflang="uk" lang="uk" href="/uk/">Українська</a>
+    <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/">العربية</a>
+    <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/">日本語</a>
+    <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/">简体中文</a>
+    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/">한국어</a>
+  </div>
+</details>
             </div>
         </div>
     </nav>
@@ -1591,8 +1679,8 @@
             <span>Jetzt im App Store</span>
         </div>
 
-        <img src="assets/app-icon.png" alt="GitFocus App Icon" class="hero-icon hero-icon-dark">
-        <img src="assets/app-icon-light.png" alt="GitFocus App Icon" class="hero-icon hero-icon-light">
+        <img src="/assets/app-icon.png" alt="GitFocus App Icon" class="hero-icon hero-icon-dark">
+        <img src="/assets/app-icon-light.png" alt="GitFocus App Icon" class="hero-icon hero-icon-light">
 
         <h1>
             Apps bleiben gesperrt, bis du<br>
@@ -1605,7 +1693,7 @@
 
         <div class="hero-cta">
             <a class="app-store-badge" href="https://apps.apple.com/app/gitfocus/id6756835707" target="_blank" rel="noopener">
-                <img src="assets/app-store-badge.svg" alt="Download on the App Store">
+                <img src="/assets/app-store-badge.svg" alt="Download on the App Store">
             </a>
             <a href="#how-it-works" class="btn btn-secondary">
                 So funktioniert's
@@ -1644,17 +1732,17 @@
             <div class="screenshot-phone reveal">
                 <div class="screenshot-frame">
                     <!-- Dark mode screenshots (default) -->
-                    <img src="assets/screenshots-web/dark/01-github.png" alt="GitHub Accounts Setup" data-screenshot="0" class="screenshot-dark active">
-                    <img src="assets/screenshots-web/dark/02-dashboard.png" alt="Home Dashboard" data-screenshot="1" class="screenshot-dark">
-                    <img src="assets/screenshots-web/dark/03-focus-stats.png" alt="Focus Statistics" data-screenshot="2" class="screenshot-dark">
-                    <img src="assets/screenshots-web/dark/04-contributions.png" alt="Contribution Statistics" data-screenshot="3" class="screenshot-dark">
-                    <img src="assets/screenshots-web/dark/05-timer.png" alt="Focus Timer" data-screenshot="4" class="screenshot-dark">
+                    <img src="/assets/screenshots-web/dark/01-github.png" alt="GitHub Accounts Setup" data-screenshot="0" class="screenshot-dark active">
+                    <img src="/assets/screenshots-web/dark/02-dashboard.png" alt="Home Dashboard" data-screenshot="1" class="screenshot-dark">
+                    <img src="/assets/screenshots-web/dark/03-focus-stats.png" alt="Focus Statistics" data-screenshot="2" class="screenshot-dark">
+                    <img src="/assets/screenshots-web/dark/04-contributions.png" alt="Contribution Statistics" data-screenshot="3" class="screenshot-dark">
+                    <img src="/assets/screenshots-web/dark/05-timer.png" alt="Focus Timer" data-screenshot="4" class="screenshot-dark">
                     <!-- Light mode screenshots -->
-                    <img src="assets/screenshots-web/light/01-github.png" alt="GitHub Accounts Setup" data-screenshot="0" class="screenshot-light active">
-                    <img src="assets/screenshots-web/light/02-dashboard.png" alt="Home Dashboard" data-screenshot="1" class="screenshot-light">
-                    <img src="assets/screenshots-web/light/03-focus-stats.png" alt="Focus Statistics" data-screenshot="2" class="screenshot-light">
-                    <img src="assets/screenshots-web/light/04-contributions.png" alt="Contribution Statistics" data-screenshot="3" class="screenshot-light">
-                    <img src="assets/screenshots-web/light/05-timer.png" alt="Focus Timer" data-screenshot="4" class="screenshot-light">
+                    <img src="/assets/screenshots-web/light/01-github.png" alt="GitHub Accounts Setup" data-screenshot="0" class="screenshot-light active">
+                    <img src="/assets/screenshots-web/light/02-dashboard.png" alt="Home Dashboard" data-screenshot="1" class="screenshot-light">
+                    <img src="/assets/screenshots-web/light/03-focus-stats.png" alt="Focus Statistics" data-screenshot="2" class="screenshot-light">
+                    <img src="/assets/screenshots-web/light/04-contributions.png" alt="Contribution Statistics" data-screenshot="3" class="screenshot-light">
+                    <img src="/assets/screenshots-web/light/05-timer.png" alt="Focus Timer" data-screenshot="4" class="screenshot-light">
                 </div>
                 <div class="screenshot-nav">
                     <button class="screenshot-nav-btn" onclick="prevScreenshot()" aria-label="Previous screenshot">
@@ -1868,7 +1956,7 @@
                 </p>
                 <div class="hero-cta">
                     <a class="app-store-badge" href="https://apps.apple.com/app/gitfocus/id6756835707" target="_blank" rel="noopener">
-                        <img src="assets/app-store-badge.svg" alt="Download on the App Store">
+                        <img src="/assets/app-store-badge.svg" alt="Download on the App Store">
                     </a>
                 </div>
                 <p style="margin-top: var(--space-lg); font-size: 0.85rem; color: var(--text-tertiary);">
@@ -1883,9 +1971,9 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="privacy.html">Datenschutzerklärung</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Barrierefreiheit</a>
+                <a href="/privacy.html">Datenschutzerklärung</a>
+                <a href="/support.html">Support</a>
+                <a href="/accessibility.html">Barrierefreiheit</a>
                 <a href="mailto:support@gitfocus.app">Kontakt</a>
             </div>
             <div class="footer-copy">
@@ -1896,7 +1984,7 @@
 
     <!-- Cookie Consent & Chatwoot Widget -->
     <!-- Chatwoot loads conditionally based on consent (GDPR-compliant) -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 
     <script>
         // Theme Toggle

@@ -314,54 +314,109 @@
             gap: var(--space-lg);
         }
 
-        /* Language switcher. A compact pill group at the right of the nav.
-           Deliberately rendered as a div, not a nav: this stylesheet has an
-           unscoped `nav { position: fixed }` and a nested nav inherits it,
-           which pins the switcher to the viewport corner over the real header. */
+        /* Language switcher. Rendered by Expresslane into the marker in the nav.
+           A <details> disclosure: opens, closes and takes keyboard focus with no
+           JavaScript, and every destination is a real link so the translations
+           stay crawlable. Deliberately a div inside, never a nested <nav> --
+           this stylesheet has an unscoped `nav { position: fixed }` that a
+           nested nav would inherit, pinning it over the header. */
         .expresslane-lang {
-            display: inline-flex;
-            align-items: center;
-            gap: 2px;
-            padding: 2px;
-            border-radius: 999px;
-            background: rgba(255, 255, 255, 0.04);
-            border: 1px solid var(--border);
+            position: relative;
         }
 
-        .expresslane-lang a.expresslane-lang-link {
+        .expresslane-lang-trigger {
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            min-width: 30px;
-            padding: 3px 8px;
+            gap: 5px;
+            padding: 5px 10px;
             border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.04);
             color: var(--text-secondary);
-            text-decoration: none;
-            font-size: 0.7rem;
+            font-size: 0.72rem;
             font-weight: 600;
-            letter-spacing: 0.04em;
-            line-height: 1.4;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            user-select: none;
+            list-style: none;
             transition: color 0.18s ease, background 0.18s ease;
         }
 
-        .expresslane-lang a.expresslane-lang-link::after { content: none; }
+        .expresslane-lang-trigger::-webkit-details-marker { display: none; }
 
-        .expresslane-lang a.expresslane-lang-link:hover {
+        .expresslane-lang-trigger::after {
+            content: "";
+            width: 5px;
+            height: 5px;
+            border-right: 1.5px solid currentColor;
+            border-bottom: 1.5px solid currentColor;
+            transform: translateY(-1px) rotate(45deg);
+            transition: transform 0.18s ease;
+        }
+
+        .expresslane-lang[open] .expresslane-lang-trigger::after {
+            transform: translateY(1px) rotate(-135deg);
+        }
+
+        .expresslane-lang-trigger:hover,
+        .expresslane-lang[open] .expresslane-lang-trigger {
             color: var(--text-primary);
-            background: rgba(255, 255, 255, 0.06);
+            background: rgba(255, 255, 255, 0.08);
         }
 
-        .expresslane-lang a.expresslane-lang-link:focus-visible {
-            outline: 2px solid var(--accent, #7c8cff);
-            outline-offset: 1px;
+        .expresslane-lang-trigger:focus-visible {
+            outline: 2px solid #7c8cff;
+            outline-offset: 2px;
         }
 
-        .expresslane-lang a.expresslane-lang-link[aria-current="true"] {
+        .expresslane-lang-menu {
+            position: absolute;
+            top: calc(100% + 8px);
+            inset-inline-end: 0;
+            z-index: 1200;
+            min-width: 190px;
+            max-height: 320px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 6px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background: rgba(16, 16, 22, 0.98);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+        }
+
+        .expresslane-lang-menu a.expresslane-lang-item {
+            display: block;
+            padding: 7px 10px;
+            border-radius: 8px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 500;
+            white-space: nowrap;
+            transition: color 0.15s ease, background 0.15s ease;
+        }
+
+        .expresslane-lang-menu a.expresslane-lang-item::after { content: none; }
+
+        .expresslane-lang-menu a.expresslane-lang-item:hover,
+        .expresslane-lang-menu a.expresslane-lang-item:focus-visible {
             color: var(--text-primary);
-            background: rgba(255, 255, 255, 0.10);
+            background: rgba(255, 255, 255, 0.07);
         }
 
-        .nav-links a {
+        .expresslane-lang-menu a.expresslane-lang-item[aria-current="true"] {
+            color: var(--text-primary);
+            background: rgba(124, 140, 255, 0.16);
+        }
+
+        /* RTL locales flip the whole document; the menu follows via the logical
+           inset above, and text alignment needs no override. */
+        [dir="rtl"] .expresslane-lang-menu { text-align: right; }
+
+        .nav-links a {        .nav-links a {
             color: var(--text-secondary);
             text-decoration: none;
             font-size: 0.9rem;
