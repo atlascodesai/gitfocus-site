@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html data-theme="dark" lang="ko" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessibility - GitFocus</title>
+    <title>접근성 - GitFocus</title>
     <meta name="description" content="GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.">
     <meta name="robots" content="index, follow">
 
@@ -19,8 +19,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -731,30 +731,30 @@
     <!-- /expresslane:hreflang -->
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">본문으로 건너뛰기</a>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+            <a href="/ko/" class="logo">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="support.html">Support</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <a href="/ko/">홈</a>
+                <a href="privacy.html">개인정보</a>
+                <a href="support.html">지원</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="테마 전환">
                     <span class="theme-icon">&#127769;</span>
                 </button>
                 <details class="expresslane-lang">
-  <summary class="expresslane-lang-trigger" title="English" aria-label="Language: English">
-    <span aria-hidden="true">EN</span>
+  <summary class="expresslane-lang-trigger" title="한국어" aria-label="Language: 한국어">
+    <span aria-hidden="true">KO</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
     <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/accessibility.html">Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/accessibility.html" aria-current="true">English</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/accessibility.html">English</a>
     <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/accessibility.html">Español</a>
     <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/accessibility.html">Français</a>
     <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/accessibility.html">Italiano</a>
@@ -769,7 +769,7 @@
     <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/accessibility.html">العربية</a>
     <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/accessibility.html">日本語</a>
     <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/accessibility.html">简体中文</a>
-    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/accessibility.html">한국어</a>
+    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/accessibility.html" aria-current="true">한국어</a>
   </div>
 </details>
             </div>
@@ -778,182 +778,182 @@
 
     <main id="main-content">
         <header class="page-header">
-            <p class="page-label">// Accessibility</p>
-            <h1 class="page-title">Built for everyone</h1>
+            <p class="page-label">// 접근성</p>
+            <h1 class="page-title">모두를 위한 설계</h1>
             <p class="page-subtitle">
-                GitFocus is designed for assistive technologies. Accessibility claims are
-                rechecked for each release with automated tests and a human device checklist.
+                GitFocus는 보조 기술을 위해 설계되었습니다. 접근성 주장은
+                각 릴리스마다 자동화된 테스트와 사람에 의한 기기 체크리스트로 재확인됩니다.
             </p>
         </header>
 
         <!-- Supported Features -->
         <section class="testing-section">
-            <p class="section-label">// Features</p>
-            <h2 class="section-title">Supported Accessibility Features</h2>
+            <p class="section-label">// 기능</p>
+            <h2 class="section-title">지원되는 접근성 기능</h2>
 
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">&#128483;&#65039;</div>
                     <div class="feature-name">VoiceOver</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.</p>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">주요 릴리스 경로는 설명적인 레이블, 특성 및 논리적인 읽기 순서를 사용합니다. 릴리스 게이트는 테스트된 경로와 기기를 기록합니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128264;</div>
                     <div class="feature-name">Voice Control</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.</p>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">대화형 컨트롤은 접근 가능한 이름을 사용합니다. 물리적 기기 체크리스트가 Voice Control을 사용한 중요한 릴리스 여정을 검증합니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128289;</div>
-                    <div class="feature-name">Larger Text</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.</p>
+                    <div class="feature-name">더 큰 텍스트</div>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">앱 텍스트는 Dynamic Type을 사용합니다. 이 주장이 승인되기 전에 자동화된 AX3 및 AX5 적용 범위와 사람에 의한 200% 텍스트 크기 확인이 필요합니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127761;</div>
-                    <div class="feature-name">Dark Interface</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.</p>
+                    <div class="feature-name">다크 인터페이스</div>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">앱은 라이트 및 다크 모드를 지원합니다. 둘 다 스크린샷 및 앱 접근성 릴리스 확인에 포함됩니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127912;</div>
-                    <div class="feature-name">Differentiate Without Color</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Release review checks that important states use labels, shapes, or icons alongside color.</p>
+                    <div class="feature-name">색상 없이 구분</div>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">릴리스 검토는 중요한 상태가 색상과 함께 레이블, 모양 또는 아이콘을 사용하는지 확인합니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9680;</div>
-                    <div class="feature-name">Sufficient Contrast</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.</p>
+                    <div class="feature-name">충분한 대비</div>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">자동화된 대비 확인은 라이트 및 다크 모드에서 후보 실패에 플래그를 지정합니다. 검토자는 승인 전에 실제 텍스트, 아이콘 및 배경을 확인합니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9208;&#65039;</div>
-                    <div class="feature-name">Reduced Motion</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.</p>
+                    <div class="feature-name">동작 줄이기</div>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">릴리스 체크리스트는 중요한 동작이 동작 줄이기 설정을 존중하거나 정적 대안을 갖추고 있는지 확인합니다.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9000;&#65039;</div>
-                    <div class="feature-name">Full Keyboard Access</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.</p>
+                    <div class="feature-name">전체 키보드 액세스</div>
+                    <span class="feature-status">지원됨</span>
+                    <p class="feature-desc">지원되는 흐름에는 키보드 액세스 가능한 컨트롤과 중요한 제스처 전용 작업에 대한 대안이 포함됩니다.</p>
                 </div>
             </div>
         </section>
 
         <!-- Testing Stats -->
         <section class="testing-section">
-            <p class="section-label">// Testing</p>
-            <h2 class="section-title">Automated Accessibility Testing</h2>
+            <p class="section-label">// 테스트</p>
+            <h2 class="section-title">자동화된 접근성 테스트</h2>
 
             <div class="stats-row">
                 <div class="stat-card">
                     <div class="stat-number">3</div>
-                    <div class="stat-label">Test Suites</div>
+                    <div class="stat-label">테스트 스위트</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">2</div>
-                    <div class="stat-label">Appearances</div>
+                    <div class="stat-label">외관</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">2</div>
-                    <div class="stat-label">AX Text Sizes</div>
+                    <div class="stat-label">AX 텍스트 크기</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">1</div>
-                    <div class="stat-label">Release Gate</div>
+                    <div class="stat-label">릴리스 게이트</div>
                 </div>
             </div>
 
             <div class="suite-list">
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">Screen Accessibility Audits</div>
-                        <div class="suite-desc">Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.</div>
+                        <div class="suite-name">화면 접근성 감사</div>
+                        <div class="suite-desc">선언된 릴리스 경로는 라이트 및 다크 모드에서 순차적으로 시작되고 iOS 네이티브 접근성 감사로 확인됩니다. 필수 감사 카테고리가 릴리스 게이트를 실패시킵니다.</div>
                     </div>
-                    <span class="suite-badge">26 tests</span>
+                    <span class="suite-badge">26개 테스트</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">Accessibility Size Tests</div>
-                        <div class="suite-desc">Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.</div>
+                        <div class="suite-name">접근성 크기 테스트</div>
+                        <div class="suite-desc">선언된 경로는 AX3 및 AX5에서 렌더링되고 충돌 없는 렌더링, 접근 가능한 요소 및 경로 완료가 확인됩니다.</div>
                     </div>
-                    <span class="suite-badge">50 tests</span>
+                    <span class="suite-badge">50개 테스트</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">VoiceOver Reading Order</div>
-                        <div class="suite-desc">Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.</div>
+                        <div class="suite-name">VoiceOver 읽기 순서</div>
+                        <div class="suite-desc">주요 화면은 VoiceOver 순회가 시스템 크롬 요소에 대한 허용 오차를 갖춘 논리적인 위에서 아래로의 순서를 따르는지 확인됩니다.</div>
                     </div>
-                    <span class="suite-badge">5 tests</span>
+                    <span class="suite-badge">5개 테스트</span>
                 </div>
             </div>
         </section>
 
         <!-- Methodology -->
         <section class="testing-section">
-            <p class="section-label">// Methodology</p>
-            <h2 class="section-title">How We Test</h2>
+            <p class="section-label">// 방법론</p>
+            <h2 class="section-title">테스트 방법</h2>
 
             <ul class="methodology-list">
                 <li>
                     <span class="method-icon">1</span>
-                    <p class="method-text"><strong>iOS native audits</strong> &mdash; Apple's built-in <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
+                    <p class="method-text"><strong>iOS 네이티브 감사</strong> — Apple 기본 제공 <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
                 </li>
                 <li>
                     <span class="method-icon">2</span>
-                    <p class="method-text"><strong>Extreme size rendering</strong> &mdash; Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.</p>
+                    <p class="method-text"><strong>극단적 크기 렌더링</strong> — 각 화면은 접근성 텍스트 크기 AX3 및 AX5에서 시작되어 충돌, 읽을 수 없게 잘림 또는 도달 불가능해지지 않는지 확인합니다.</p>
                 </li>
                 <li>
                     <span class="method-icon">3</span>
-                    <p class="method-text"><strong>Reading order validation</strong> &mdash; Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.</p>
+                    <p class="method-text"><strong>읽기 순서 검증</strong> — 자동화된 테스트는 VoiceOver가 주요 화면에서 논리적인 위에서 아래로의 순서로 요소를 순회하는지 확인합니다.</p>
                 </li>
                 <li>
                     <span class="method-icon">4</span>
-                    <p class="method-text"><strong>Contrast verification</strong> &mdash; WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.</p>
+                    <p class="method-text"><strong>대비 검증</strong> — WCAG 대비 증거는 렌더러 소유의 의미론적 영역에서 생성된 다음 실제 라이트 및 다크 아트워크와 비교하여 검토됩니다.</p>
                 </li>
                 <li>
                     <span class="method-icon">5</span>
-                    <p class="method-text"><strong>Release integration</strong> &mdash; The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.</p>
+                    <p class="method-text"><strong>릴리스 통합</strong> — 접근성 스위트는 스크린샷 또는 메타데이터 업로드 전에 실행되고 기계 판독 가능한 증거를 유지합니다.</p>
                 </li>
             </ul>
         </section>
 
         <!-- Standards -->
         <div class="standards-card">
-            <h3 class="standards-title">Standards We Follow</h3>
+            <h3 class="standards-title">준수하는 표준</h3>
             <ul class="standards-list">
-                <li>WCAG 2.1 Level AA contrast targets for text and interactive elements</li>
-                <li>Apple Human Interface Guidelines for accessibility</li>
-                <li>Minimum 44pt touch-target checks for interactive controls</li>
-                <li>Semantic Dynamic Type coverage at accessibility text sizes</li>
-                <li>VoiceOver-compatible labels and traits on every interactive element</li>
-                <li>Keyboard-accessible alternatives for all gesture-based interactions</li>
+                <li>텍스트 및 대화형 요소에 대한 WCAG 2.1 레벨 AA 대비 목표</li>
+                <li>접근성을 위한 Apple Human Interface Guidelines</li>
+                <li>대화형 컨트롤에 대한 최소 44pt 터치 타겟 확인</li>
+                <li>접근성 텍스트 크기에서의 의미론적 Dynamic Type 적용 범위</li>
+                <li>모든 대화형 요소에 대한 VoiceOver 호환 레이블 및 특성</li>
+                <li>모든 제스처 기반 상호 작용에 대한 키보드 액세스 가능한 대안</li>
             </ul>
         </div>
 
         <!-- Contact -->
         <section class="contact-section">
-            <h2 class="section-title">Feedback</h2>
+            <h2 class="section-title">피드백</h2>
             <p>
-                If you encounter any accessibility barriers while using GitFocus,
-                we want to hear about it so we can fix it.
+                GitFocus 사용 중 접근성 장벽이 발생하면
+                해결할 수 있도록 알려주시기 바랍니다.
             </p>
             <button onclick="openChatSupport()" class="contact-link" style="cursor: pointer;">
                 <span>&#128172;</span>
-                Chat with us
+                채팅으로 문의
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
-                or email us at
+                또는 이메일로 문의
                 <a href="mailto:support@gitfocus.app?subject=Accessibility Feedback" style="color: var(--purple-light); text-decoration: none;">support@gitfocus.app</a>
             </p>
         </section>
@@ -963,13 +963,13 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Accessibility</a>
+                <a href="/ko/">홈</a>
+                <a href="privacy.html">개인정보 처리방침</a>
+                <a href="support.html">지원</a>
+                <a href="accessibility.html">접근성</a>
             </div>
             <div class="footer-copy">
-                &copy; 2026 GitFocus
+                © 2026 GitFocus
             </div>
         </div>
     </footer>
@@ -1014,6 +1014,6 @@
     </script>
 
     <!-- Cookie Consent & Chatwoot Widget -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

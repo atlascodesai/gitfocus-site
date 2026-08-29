@@ -4,6 +4,282 @@
 (function() {
     'use strict';
 
+    // Banner/chat UI translations, keyed by the page's <html lang> value.
+    // The block between the i18n markers is GENERATED from the site's
+    // translation maps (scratch tooling, see gitfocus-site derive notes).
+    /* i18n:start */
+    const I18N = {
+        "__dirs": [
+            "de",
+            "es",
+            "fr",
+            "it",
+            "nl",
+            "pt-br",
+            "sk",
+            "sr-latn",
+            "el",
+            "ru",
+            "sr",
+            "uk",
+            "ar",
+            "ja",
+            "zh",
+            "ko"
+        ],
+        "de-DE": {
+            "Cookie consent": "Cookie-Zustimmung",
+            "We use cookies for customer support": "Wir verwenden Cookies für den Kundensupport",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Diese Website verwendet Chatwoot (einen Drittanbieter-Dienst) für Live-Chat-Support. Cookies helfen dabei, deine Chat-Sitzung über Besuche hinweg aufrechtzuerhalten, ohne dass eine E-Mail-Adresse geteilt werden muss.",
+            "View Privacy Policy": "Datenschutzerklärung ansehen",
+            "Accept cookies": "Cookies akzeptieren",
+            "Accept": "Akzeptieren",
+            "Reject cookies": "Cookies ablehnen",
+            "Reject": "Ablehnen",
+            "Chat disabled - click to enable cookies": "Chat deaktiviert - klicke, um Cookies zu aktivieren",
+            "Chat Disabled": "Chat deaktiviert",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Um unseren Live-Chat-Support zu nutzen, musst du Cookies aktivieren. Dies ermöglicht es uns, deine Chat-Sitzung aufrechtzuerhalten.",
+            "Enable Cookies": "Cookies aktivieren",
+            "Close": "Schließen"
+        },
+        "es-ES": {
+            "Cookie consent": "Consentimiento de cookies",
+            "We use cookies for customer support": "Utilizamos cookies para soporte al cliente",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Este sitio web utiliza Chatwoot (un servicio de terceros) para soporte de chat en vivo. Las cookies ayudan a mantener tu sesión de chat entre visitas sin necesidad de compartir una dirección de correo electrónico.",
+            "View Privacy Policy": "Ver Política de Privacidad",
+            "Accept cookies": "Aceptar cookies",
+            "Accept": "Aceptar",
+            "Reject cookies": "Rechazar cookies",
+            "Reject": "Rechazar",
+            "Chat disabled - click to enable cookies": "Chat desactivado - haz clic para habilitar cookies",
+            "Chat Disabled": "Chat Desactivado",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Para usar nuestro soporte de chat en vivo, necesitas habilitar cookies. Esto nos permite mantener tu sesión de chat.",
+            "Enable Cookies": "Habilitar Cookies",
+            "Close": "Cerrar"
+        },
+        "fr-FR": {
+            "Cookie consent": "Consentement aux cookies",
+            "We use cookies for customer support": "Nous utilisons des cookies pour le support client",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Ce site web utilise Chatwoot (un service tiers) pour le support par chat en direct. Les cookies aident à maintenir ta session de chat entre les visites sans avoir besoin de partager une adresse e-mail.",
+            "View Privacy Policy": "Voir la politique de confidentialité",
+            "Accept cookies": "Accepter les cookies",
+            "Accept": "Accepter",
+            "Reject cookies": "Refuser les cookies",
+            "Reject": "Refuser",
+            "Chat disabled - click to enable cookies": "Chat désactivé - clique pour activer les cookies",
+            "Chat Disabled": "Chat désactivé",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Pour utiliser notre support par chat en direct, tu dois activer les cookies. Cela nous permet de maintenir ta session de chat.",
+            "Enable Cookies": "Activer les cookies",
+            "Close": "Fermer"
+        },
+        "it": {
+            "Cookie consent": "Consenso cookie",
+            "We use cookies for customer support": "Utilizziamo i cookie per il supporto clienti",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Questo sito web utilizza Chatwoot (un servizio di terze parti) per il supporto tramite chat live. I cookie aiutano a mantenere la tua sessione di chat tra le visite senza la necessità di condividere un indirizzo email.",
+            "View Privacy Policy": "Visualizza informativa sulla privacy",
+            "Accept cookies": "Accetta i cookie",
+            "Accept": "Accetta",
+            "Reject cookies": "Rifiuta i cookie",
+            "Reject": "Rifiuta",
+            "Chat disabled - click to enable cookies": "Chat disabilitata - clicca per abilitare i cookie",
+            "Chat Disabled": "Chat disabilitata",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Per utilizzare il nostro supporto tramite chat live, devi abilitare i cookie. Questo ci consente di mantenere la tua sessione di chat.",
+            "Enable Cookies": "Abilita cookie",
+            "Close": "Chiudi"
+        },
+        "nl-NL": {
+            "Cookie consent": "Cookie-toestemming",
+            "We use cookies for customer support": "We gebruiken cookies voor klantenservice",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Deze website gebruikt Chatwoot (een dienst van derden) voor livechatsupport. Cookies helpen je chatsessie tussen bezoeken te behouden zonder dat je een e-mailadres hoeft te delen.",
+            "View Privacy Policy": "Bekijk privacybeleid",
+            "Accept cookies": "Cookies accepteren",
+            "Accept": "Accepteren",
+            "Reject cookies": "Cookies weigeren",
+            "Reject": "Weigeren",
+            "Chat disabled - click to enable cookies": "Chat uitgeschakeld - klik om cookies in te schakelen",
+            "Chat Disabled": "Chat uitgeschakeld",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Om onze livechatsupport te gebruiken, moet je cookies inschakelen. Dit stelt ons in staat om je chatsessie te behouden.",
+            "Enable Cookies": "Cookies inschakelen",
+            "Close": "Sluiten"
+        },
+        "pt-BR": {
+            "Cookie consent": "Consentimento de cookies",
+            "We use cookies for customer support": "Usamos cookies para suporte ao cliente",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Este site usa Chatwoot (um serviço de terceiros) para suporte de chat ao vivo. Os cookies ajudam a manter sua sessão de chat entre visitas sem a necessidade de compartilhar um endereço de e-mail.",
+            "View Privacy Policy": "Ver Política de Privacidade",
+            "Accept cookies": "Aceitar cookies",
+            "Accept": "Aceitar",
+            "Reject cookies": "Rejeitar cookies",
+            "Reject": "Rejeitar",
+            "Chat disabled - click to enable cookies": "Chat desativado - clique para habilitar cookies",
+            "Chat Disabled": "Chat Desativado",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Para usar nosso suporte de chat ao vivo, você precisa habilitar cookies. Isso nos permite manter sua sessão de chat.",
+            "Enable Cookies": "Habilitar Cookies",
+            "Close": "Fechar"
+        },
+        "sk": {
+            "Cookie consent": "Súhlas s cookies\\",
+            "We use cookies for customer support": "Používame cookies na zákaznícku podporu\\",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Táto webová stránka používa Chatwoot (službu tretej strany) na podporu živého chatu. Cookies pomáhajú udržiavať vašu chatovaciu reláciu medzi návštevami bez potreby zdieľania e-mailovej adresy.\\",
+            "View Privacy Policy": "Zobraziť zásady ochrany osobných údajov\\",
+            "Accept cookies": "Prijať cookies\\",
+            "Accept": "Prijať\\",
+            "Reject cookies": "Odmietnuť cookies\\",
+            "Reject": "Odmietnuť\\",
+            "Chat disabled - click to enable cookies": "Chat zakázaný - kliknite pre povolenie cookies\\",
+            "Chat Disabled": "Chat zakázaný\\",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Ak chcete používať našu podporu živého chatu, musíte povoliť cookies. To nám umožňuje udržiavať vašu chatovaciu reláciu.\\",
+            "Enable Cookies": "Povoliť cookies\\",
+            "Close": "Zavrieť\\"
+        },
+        "sr-Latn": {
+            "Cookie consent": "Saglasnost za cookies",
+            "We use cookies for customer support": "Koristimo cookies za korisničku podršku",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Ovaj veb-sajt koristi Chatwoot (servis treće strane) za podršku preko četa. Cookies pomažu da se održi vaša čet sesija između poseta bez potrebe za deljenjem adrese e-pošte.",
+            "View Privacy Policy": "Pogledaj politiku privatnosti",
+            "Accept cookies": "Prihvati cookies",
+            "Accept": "Prihvati",
+            "Reject cookies": "Odbij cookies",
+            "Reject": "Odbij",
+            "Chat disabled - click to enable cookies": "Čet je onemogućen - kliknite da omogućite cookies",
+            "Chat Disabled": "Čet onemogućen",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Da biste koristili našu podršku preko četa, treba da omogućite cookies. Ovo nam omogućava da održimo vašu čet sesiju.",
+            "Enable Cookies": "Omogući cookies",
+            "Close": "Zatvori"
+        },
+        "el": {
+            "Cookie consent": "Συγκατάθεση cookies",
+            "We use cookies for customer support": "Χρησιμοποιούμε cookies για υποστήριξη πελατών",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Αυτός ο ιστότοπος χρησιμοποιεί το Chatwoot (υπηρεσία τρίτου μέρους) για υποστήριξη ζωντανής συνομιλίας. Τα cookies βοηθούν στη διατήρηση της συνεδρίας συνομιλίας σας μεταξύ επισκέψεων χωρίς την ανάγκη κοινοποίησης διεύθυνσης email.",
+            "View Privacy Policy": "Προβολή Πολιτικής Απορρήτου",
+            "Accept cookies": "Αποδοχή cookies",
+            "Accept": "Αποδοχή",
+            "Reject cookies": "Απόρριψη cookies",
+            "Reject": "Απόρριψη",
+            "Chat disabled - click to enable cookies": "Συνομιλία απενεργοποιημένη - κάντε κλικ για ενεργοποίηση cookies",
+            "Chat Disabled": "Συνομιλία Απενεργοποιημένη",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Για να χρησιμοποιήσετε την υποστήριξη ζωντανής συνομιλίας μας, πρέπει να ενεργοποιήσετε τα cookies. Αυτό μας επιτρέπει να διατηρήσουμε τη συνεδρία συνομιλίας σας.",
+            "Enable Cookies": "Ενεργοποίηση Cookies",
+            "Close": "Κλείσιμο"
+        },
+        "ru": {
+            "Cookie consent": "Согласие на использование cookies",
+            "We use cookies for customer support": "Мы используем cookies для поддержки клиентов",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Этот веб-сайт использует Chatwoot (сторонний сервис) для поддержки через онлайн-чат. Cookies помогают поддерживать сеанс чата между посещениями без необходимости указывать адрес электронной почты.",
+            "View Privacy Policy": "Просмотреть политику конфиденциальности",
+            "Accept cookies": "Принять cookies",
+            "Accept": "Принять",
+            "Reject cookies": "Отклонить cookies",
+            "Reject": "Отклонить",
+            "Chat disabled - click to enable cookies": "Чат отключен - нажмите, чтобы включить cookies",
+            "Chat Disabled": "Чат отключен",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Чтобы использовать нашу поддержку через онлайн-чат, вам необходимо включить cookies. Это позволяет нам поддерживать ваш сеанс чата.",
+            "Enable Cookies": "Включить cookies",
+            "Close": "Закрыть"
+        },
+        "sr": {
+            "Cookie consent": "Сагласност за cookies",
+            "We use cookies for customer support": "Користимо cookies за корисничку подршку",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Овај веб-сајт користи Chatwoot (сервис треће стране) за подршку преко чета. Cookies помажу да се одржи ваша чет сесија између посета без потребе за дељењем адресе е-поште.",
+            "View Privacy Policy": "Погледај политику приватности",
+            "Accept cookies": "Прихвати cookies",
+            "Accept": "Прихвати",
+            "Reject cookies": "Одбиј cookies",
+            "Reject": "Одбиј",
+            "Chat disabled - click to enable cookies": "Чет је онемогућен - кликните да омогућите cookies",
+            "Chat Disabled": "Чет онемогућен",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Да бисте користили нашу подршку преко чета, треба да омогућите cookies. Ово нам омогућава да одржимо вашу чет сесију.",
+            "Enable Cookies": "Омогући cookies",
+            "Close": "Затвори"
+        },
+        "uk": {
+            "Cookie consent": "Згода на використання cookies",
+            "We use cookies for customer support": "Ми використовуємо cookies для підтримки клієнтів",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "Цей веб-сайт використовує Chatwoot (сторонній сервіс) для підтримки через онлайн-чат. Cookies допомагають підтримувати сеанс чату між відвідуваннями без необхідності вказувати адресу електронної пошти.",
+            "View Privacy Policy": "Переглянути політику конфіденційності",
+            "Accept cookies": "Прийняти cookies",
+            "Accept": "Прийняти",
+            "Reject cookies": "Відхилити cookies",
+            "Reject": "Відхилити",
+            "Chat disabled - click to enable cookies": "Чат вимкнено - натисніть, щоб увімкнути cookies",
+            "Chat Disabled": "Чат вимкнено",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "Щоб використовувати нашу підтримку через онлайн-чат, вам потрібно увімкнути cookies. Це дозволяє нам підтримувати ваш сеанс чату.",
+            "Enable Cookies": "Увімкнути cookies",
+            "Close": "Закрити"
+        },
+        "ar-SA": {
+            "Cookie consent": "موافقة ملفات تعريف الارتباط",
+            "We use cookies for customer support": "نستخدم ملفات تعريف الارتباط لدعم العملاء",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "يستخدم هذا الموقع Chatwoot (خدمة طرف ثالث) لدعم الدردشة المباشرة. تساعد ملفات تعريف الارتباط في الحفاظ على جلسة الدردشة عبر الزيارات دون الحاجة لمشاركة عنوان بريد إلكتروني.",
+            "View Privacy Policy": "عرض سياسة الخصوصية",
+            "Accept cookies": "قبول ملفات تعريف الارتباط",
+            "Accept": "قبول",
+            "Reject cookies": "رفض ملفات تعريف الارتباط",
+            "Reject": "رفض",
+            "Chat disabled - click to enable cookies": "الدردشة معطلة - انقر لتمكين ملفات تعريف الارتباط",
+            "Chat Disabled": "الدردشة معطلة",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "لاستخدام دعم الدردشة المباشرة، تحتاج إلى تمكين ملفات تعريف الارتباط. هذا يسمح لنا بالحفاظ على جلسة الدردشة الخاصة بك.",
+            "Enable Cookies": "تمكين ملفات تعريف الارتباط",
+            "Close": "إغلاق"
+        },
+        "ja": {
+            "Cookie consent": "クッキー同意",
+            "We use cookies for customer support": "カスタマーサポートのためにクッキーを使用します",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "このウェブサイトは、ライブチャットサポートのためにChatwoot（サードパーティサービス）を使用しています。クッキーは、メールアドレスを共有する必要なく、訪問間でチャットセッションを維持するのに役立ちます。",
+            "View Privacy Policy": "プライバシーポリシーを表示",
+            "Accept cookies": "クッキーを受け入れる",
+            "Accept": "受け入れる",
+            "Reject cookies": "クッキーを拒否",
+            "Reject": "拒否",
+            "Chat disabled - click to enable cookies": "チャット無効 - クリックしてクッキーを有効にする",
+            "Chat Disabled": "チャット無効",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "ライブチャットサポートを使用するには、クッキーを有効にする必要があります。これにより、チャットセッションを維持できます。",
+            "Enable Cookies": "クッキーを有効にする",
+            "Close": "閉じる"
+        },
+        "zh-Hans": {
+            "Cookie consent": "Cookie 同意",
+            "We use cookies for customer support": "我们使用 cookie 提供客户支持",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "本网站使用 Chatwoot（第三方服务）提供在线聊天支持。Cookie 有助于在访问之间维护您的聊天会话，而无需共享电子邮件地址。",
+            "View Privacy Policy": "查看隐私政策",
+            "Accept cookies": "接受 cookie",
+            "Accept": "接受",
+            "Reject cookies": "拒绝 cookie",
+            "Reject": "拒绝",
+            "Chat disabled - click to enable cookies": "聊天已禁用 - 点击以启用 cookie",
+            "Chat Disabled": "聊天已禁用",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "要使用我们的在线聊天支持，您需要启用 cookie。这使我们能够维护您的聊天会话。",
+            "Enable Cookies": "启用 Cookie",
+            "Close": "关闭"
+        },
+        "ko": {
+            "Cookie consent": "쿠키 동의",
+            "We use cookies for customer support": "고객 지원을 위해 쿠키를 사용합니다",
+            "This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.": "이 웹사이트는 실시간 채팅 지원을 위해 Chatwoot (타사 서비스)를 사용합니다. 쿠키는 이메일 주소를 공유할 필요 없이 방문 간 채팅 세션을 유지하는 데 도움이 됩니다.",
+            "View Privacy Policy": "개인정보 보호정책 보기",
+            "Accept cookies": "쿠키 수락",
+            "Accept": "수락",
+            "Reject cookies": "쿠키 거부",
+            "Reject": "거부",
+            "Chat disabled - click to enable cookies": "채팅 비활성화 - 클릭하여 쿠키 활성화",
+            "Chat Disabled": "채팅 비활성화",
+            "To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.": "실시간 채팅 지원을 사용하려면 쿠키를 활성화해야 합니다. 이를 통해 채팅 세션을 유지할 수 있습니다.",
+            "Enable Cookies": "쿠키 활성화",
+            "Close": "닫기"
+        }
+    };
+    /* i18n:end */
+    function t(s) {
+        const lang = document.documentElement.getAttribute('lang') || 'en-US';
+        return (I18N[lang] || {})[s] || s;
+    }
+    // Localized pages live in /<dir>/; the privacy link follows the page's locale.
+    function privacyHref() {
+        const seg = window.location.pathname.split('/')[1];
+        const dirs = I18N.__dirs || [];
+        return dirs.indexOf(seg) >= 0 ? '/' + seg + '/privacy.html' : '/privacy.html';
+    }
+
     const CONSENT_KEY = 'chatwoot-consent';
     const GEO_CACHE_KEY = 'geo-country-check';
     const CHATWOOT_CONFIG = {
@@ -182,7 +458,7 @@
         const banner = document.createElement('div');
         banner.id = 'cookie-consent-banner';
         banner.setAttribute('role', 'dialog');
-        banner.setAttribute('aria-label', 'Cookie consent');
+        banner.setAttribute('aria-label', t('Cookie consent'));
         banner.setAttribute('aria-live', 'polite');
 
         const content = document.createElement('div');
@@ -193,17 +469,17 @@
 
         const p1 = document.createElement('p');
         const strong = document.createElement('strong');
-        strong.textContent = 'We use cookies for customer support';
+        strong.textContent = t('We use cookies for customer support');
         p1.appendChild(strong);
 
         const p2 = document.createElement('p');
-        p2.textContent = 'This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.';
+        p2.textContent = t('This website uses Chatwoot (a third-party service) for live chat support. Cookies help maintain your chat session across visits without the need for sharing an email address.');
 
         const link = document.createElement('a');
-        link.href = 'https://gitfocus.app/privacy.html';
+        link.href = privacyHref();
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
-        link.textContent = 'View Privacy Policy';
+        link.textContent = t('View Privacy Policy');
 
         textDiv.appendChild(p1);
         textDiv.appendChild(p2);
@@ -215,14 +491,14 @@
         const acceptBtn = document.createElement('button');
         acceptBtn.id = 'cookie-accept';
         acceptBtn.className = 'cookie-btn cookie-btn-accept';
-        acceptBtn.setAttribute('aria-label', 'Accept cookies');
-        acceptBtn.textContent = 'Accept';
+        acceptBtn.setAttribute('aria-label', t('Accept cookies'));
+        acceptBtn.textContent = t('Accept');
 
         const rejectBtn = document.createElement('button');
         rejectBtn.id = 'cookie-reject';
         rejectBtn.className = 'cookie-btn cookie-btn-reject';
-        rejectBtn.setAttribute('aria-label', 'Reject cookies');
-        rejectBtn.textContent = 'Reject';
+        rejectBtn.setAttribute('aria-label', t('Reject cookies'));
+        rejectBtn.textContent = t('Reject');
 
         actionsDiv.appendChild(acceptBtn);
         actionsDiv.appendChild(rejectBtn);
@@ -441,7 +717,7 @@
         const placeholder = document.createElement('button');
         placeholder.id = 'chat-placeholder';
         placeholder.className = 'chat-placeholder show';
-        placeholder.setAttribute('aria-label', 'Chat disabled - click to enable cookies');
+        placeholder.setAttribute('aria-label', t('Chat disabled - click to enable cookies'));
         placeholder.textContent = '💬';
 
         // Create tooltip
@@ -450,21 +726,21 @@
         tooltip.className = 'chat-placeholder-tooltip';
 
         const h4 = document.createElement('h4');
-        h4.textContent = 'Chat Disabled';
+        h4.textContent = t('Chat Disabled');
 
         const p1 = document.createElement('p');
-        p1.textContent = 'To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.';
+        p1.textContent = t('To use our live chat support, you need to enable cookies. This allows us to maintain your chat session.');
 
         const p2 = document.createElement('p');
         p2.style.fontSize = '0.85rem';
         p2.style.marginBottom = '1rem';
         const privacyLink = document.createElement('a');
-        privacyLink.href = 'https://gitfocus.app/privacy.html';
+        privacyLink.href = privacyHref();
         privacyLink.target = '_blank';
         privacyLink.rel = 'noopener noreferrer';
         privacyLink.style.color = 'var(--purple-light, #818cf8)';
         privacyLink.style.textDecoration = 'underline';
-        privacyLink.textContent = 'View Privacy Policy';
+        privacyLink.textContent = t('View Privacy Policy');
         p2.appendChild(privacyLink);
 
         const actionsDiv = document.createElement('div');
@@ -472,11 +748,11 @@
 
         const enableBtn = document.createElement('button');
         enableBtn.className = 'btn-enable';
-        enableBtn.textContent = 'Enable Cookies';
+        enableBtn.textContent = t('Enable Cookies');
 
         const closeBtn = document.createElement('button');
         closeBtn.className = 'btn-close';
-        closeBtn.textContent = 'Close';
+        closeBtn.textContent = t('Close');
 
         actionsDiv.appendChild(enableBtn);
         actionsDiv.appendChild(closeBtn);

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html data-theme="dark" lang="fr-FR" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +19,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
     <!-- Favicon - dynamically updated by JavaScript for theme changes -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -725,32 +725,32 @@
     <!-- /expresslane:hreflang -->
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+            <a href="/fr/" class="logo">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="support.html" class="active">Support</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <a href="/fr/">Accueil</a>
+                <a href="privacy.html">Confidentialité</a>
+                <a href="support.html" class="active">Assistance</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer le thème">
                     <span class="theme-icon">🌙</span>
                 </button>
                 <details class="expresslane-lang">
-  <summary class="expresslane-lang-trigger" title="English" aria-label="Language: English">
-    <span aria-hidden="true">EN</span>
+  <summary class="expresslane-lang-trigger" title="Français" aria-label="Language: Français">
+    <span aria-hidden="true">FR</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
     <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/support.html">Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html" aria-current="true">English</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html">English</a>
     <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/support.html">Español</a>
-    <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/support.html">Français</a>
+    <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/support.html" aria-current="true">Français</a>
     <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/support.html">Italiano</a>
     <a class="expresslane-lang-item" hreflang="nl-NL" lang="nl-NL" href="/nl/support.html">Nederlands</a>
     <a class="expresslane-lang-item" hreflang="pt-BR" lang="pt-BR" href="/pt-br/support.html">Português (Brasil)</a>
@@ -773,77 +773,77 @@
     <main id="main-content">
         <header class="page-header">
             <p class="page-label">// Support</p>
-            <h1 class="page-title">How can we help?</h1>
+            <h1 class="page-title">Comment pouvons-nous t'aider ?</h1>
             <p class="page-subtitle">
-                Find answers to common questions or reach out directly.
-                We typically respond within 24 hours.
+                Trouve des réponses aux questions courantes ou contacte-nous directement.
+                Nous répondons généralement dans les 24 heures.
             </p>
         </header>
 
         <!-- Contact Card -->
         <div class="contact-card">
             <div class="contact-icon">💬</div>
-            <h2 class="contact-title">Get in Touch</h2>
+            <h2 class="contact-title">Nous contacter</h2>
             <p class="contact-desc">
-                Have a question, bug report, or feature request?<br>
-                We'd love to hear from you.
+                Tu as une question, un rapport de bug ou une demande de fonctionnalité ?<br>
+                Nous serions ravis d'avoir de tes nouvelles.
             </p>
             <button onclick="openChatSupport()" class="contact-email" style="cursor: pointer;">
                 <span>💬</span>
-                Chat with us
+                Chatte avec nous
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
-                or email us at
+                ou envoie-nous un e-mail à
                 <a href="mailto:support@gitfocus.app" style="color: var(--purple-light); text-decoration: none;">support@gitfocus.app</a>
             </p>
         </div>
 
         <!-- FAQ Section -->
         <section class="faq-section">
-            <h2 class="section-title">Frequently Asked Questions</h2>
+            <h2 class="section-title">Questions fréquemment posées</h2>
 
             <div class="faq-categories">
-                <button class="category-pill active" data-category="all">All</button>
-                <button class="category-pill" data-category="setup">Setup</button>
-                <button class="category-pill" data-category="features">Features</button>
-                <button class="category-pill" data-category="troubleshooting">Troubleshooting</button>
+                <button class="category-pill active" data-category="all">Tout</button>
+                <button class="category-pill" data-category="setup">Configuration</button>
+                <button class="category-pill" data-category="features">Fonctionnalités</button>
+                <button class="category-pill" data-category="troubleshooting">Dépannage</button>
             </div>
 
             <!-- Setup FAQs -->
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Do I need to connect my GitHub account?</span>
+                    <span>Dois-je connecter mon compte GitHub ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.</p>
-                        <p style="margin-top: 12px;">You can add multiple GitHub accounts and decide which ones count toward commit detection.</p>
+                        <p>Non ! GitFocus n'a besoin que du ou des noms d'utilisateur GitHub que tu choisis de suivre. Nous lisons les graphiques de contributions publiques (les carrés verts sur les profils) pour détecter les commits. Aucun OAuth, aucun jeton, aucun mot de passe requis.</p>
+                        <p style="margin-top: 12px;">Tu peux ajouter plusieurs comptes GitHub et décider lesquels comptent pour la détection de commits.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Why do you need Screen Time permissions?</span>
+                    <span>Pourquoi avez-vous besoin des autorisations Temps d'écran ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.</p>
+                        <p>GitFocus utilise l'API Temps d'écran d'Apple pour bloquer les applications. C'est le même système sécurisé qui alimente les contrôles parentaux intégrés d'Apple. Nous avons besoin d'une autorisation pour appliquer des restrictions d'application en ton nom.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Does GitFocus work with private repositories?</span>
+                    <span>GitFocus fonctionne-t-il avec les dépôts privés ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show "Private contributions," we'll see them.</p>
-                        <p style="margin-top: 12px;">Go to your GitHub profile → Contribution settings → Check "Private contributions"</p>
+                        <p>Oui ! GitHub compte tous les commits (publics et privés) dans ton graphique de contributions par défaut. Tant que tes paramètres de contribution sont configurés pour afficher "Contributions privées", nous les verrons.</p>
+                        <p style="margin-top: 12px;">Va sur ton profil GitHub → Paramètres de contribution → Coche "Contributions privées"</p>
                     </div>
                 </div>
             </div>
@@ -851,27 +851,27 @@
             <!-- Features FAQs -->
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>How much time does each commit earn?</span>
+                    <span>Combien de temps chaque commit rapporte-t-il ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Each commit earns you <strong>5 minutes</strong> of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉</p>
+                        <p>Chaque commit te rapporte <strong>5 minutes</strong> de temps de déverrouillage. Pusher 3 commits ? C'est 15 minutes pour scroller Twitter sans culpabilité. 🎉</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What are "Lives" and how do they work?</span>
+                    <span>Que sont les "Vies" et comment fonctionnent-elles ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:</p>
+                        <p>Les vies sont des déverrouillages d'urgence. Lorsque tu utilises une vie, toutes tes applications bloquées sont déverrouillées jusqu'à minuit. Tu commences avec 1 vie gratuite et peux en gagner davantage grâce aux séries :</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>14-day streak: +1 life</li>
-                            <li>Then +1 life every month you maintain the streak</li>
+                            <li>Série de 14 jours : +1 vie</li>
+                            <li>Puis +1 vie chaque mois où tu maintiens la série</li>
                         </ul>
                     </div>
                 </div>
@@ -879,42 +879,42 @@
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What is the "Borrow Time" feature?</span>
+                    <span>Qu'est-ce que la fonctionnalité "Emprunter du temps" ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates "debt" that gets paid back from your future commit earnings.</p>
-                        <p style="margin-top: 12px;">Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.</p>
+                        <p>Besoin de terminer un message rapide mais tu n'as pas de temps de déverrouillage ? Tu peux emprunter jusqu'à 5 minutes. Cela crée une "dette" qui sera remboursée à partir de tes futurs gains de commits.</p>
+                        <p style="margin-top: 12px;">Exemple : Tu empruntes 3 minutes. Ton prochain commit rapporte 5 minutes, mais 3 servent à rembourser la dette, te laissant 2 minutes.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What is the Discipline Bank?</span>
+                    <span>Qu'est-ce que la Banque de discipline ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.</p>
-                        <p style="margin-top: 12px;">Challenge yourself: How many minutes can you bank by the end of the year?</p>
+                        <p>La Banque de discipline suit le temps que tu as gagné mais que tu n'as pas utilisé. C'est une mesure de ta maîtrise de soi. Chaque minute que tu gagnes mais que tu ne dépenses pas en distractions va dans ta banque.</p>
+                        <p style="margin-top: 12px;">Lance-toi un défi : Combien de minutes peux-tu mettre en banque d'ici la fin de l'année ?</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What are the streak milestone rewards?</span>
+                    <span>Quelles sont les récompenses des jalons de série ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Building a streak unlocks permanent perks:</p>
+                        <p>Construire une série déverrouille des avantages permanents :</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li><strong>14 days:</strong> +1 extra life (then +1/month)</li>
-                            <li><strong>30 days:</strong> Weekly time bank (unused time resets weekly instead of daily)</li>
-                            <li><strong>90 days:</strong> Permanent time (earned time never expires)</li>
+                            <li><strong>14 jours :</strong> +1 vie supplémentaire (puis +1/mois)</li>
+                            <li><strong>30 jours :</strong> Banque de temps hebdomadaire (le temps non utilisé se réinitialise chaque semaine au lieu de chaque jour)</li>
+                            <li><strong>90 jours :</strong> Temps permanent (le temps gagné n'expire jamais)</li>
                         </ul>
                     </div>
                 </div>
@@ -923,18 +923,18 @@
             <!-- Troubleshooting FAQs -->
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>My commits aren't being detected</span>
+                    <span>Mes commits ne sont pas détectés</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Here are some things to check:</p>
+                        <p>Voici quelques points à vérifier :</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Make sure your GitHub username is entered correctly</li>
-                            <li>If you use multiple accounts, check that the right accounts are enabled for commit detection</li>
-                            <li>Check that your commits show up on your GitHub profile's contribution graph</li>
-                            <li>If using private repos, ensure "Private contributions" is enabled in GitHub settings</li>
-                            <li>Wait a few minutes — GitHub's contribution graph can take time to update</li>
+                            <li>Assure-toi que ton nom d'utilisateur GitHub est entré correctement</li>
+                            <li>Si tu utilises plusieurs comptes, vérifie que les bons comptes sont activés pour la détection de commits</li>
+                            <li>Vérifie que tes commits apparaissent sur le graphique de contributions de ton profil GitHub</li>
+                            <li>Si tu utilises des dépôts privés, assure-toi que "Contributions privées" est activé dans les paramètres GitHub</li>
+                            <li>Attends quelques minutes — le graphique de contributions de GitHub peut prendre du temps à se mettre à jour</li>
                         </ul>
                     </div>
                 </div>
@@ -942,35 +942,35 @@
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>Apps aren't being blocked</span>
+                    <span>Les applications ne sont pas bloquées</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Make sure you've:</p>
+                        <p>Assure-toi d'avoir :</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Granted Screen Time permissions during setup</li>
-                            <li>Selected at least one app or category to block</li>
-                            <li>Started a focus session from the main screen</li>
+                            <li>Accordé les autorisations Temps d'écran lors de la configuration</li>
+                            <li>Sélectionné au moins une application ou catégorie à bloquer</li>
+                            <li>Démarré une session de concentration depuis l'écran principal</li>
                         </ul>
-                        <p style="margin-top: 12px;">If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.</p>
+                        <p style="margin-top: 12px;">Si les problèmes persistent, essaie d'aller dans Réglages iOS → Temps d'écran et assure-toi que GitFocus dispose des autorisations nécessaires.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>The app crashed or is behaving unexpectedly</span>
+                    <span>L'application a planté ou se comporte de manière inattendue</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Try these steps:</p>
+                        <p>Essaie ces étapes :</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Force quit and reopen the app</li>
-                            <li>Restart your device</li>
-                            <li>Make sure you're on the latest version of GitFocus</li>
-                            <li>If the issue persists, email us at <a href="mailto:support@gitfocus.app">support@gitfocus.app</a> with details about what happened</li>
+                            <li>Force la fermeture et rouvre l'application</li>
+                            <li>Redémarre ton appareil</li>
+                            <li>Assure-toi d'avoir la dernière version de GitFocus</li>
+                            <li>Si le problème persiste, envoie-nous un e-mail à <a href="mailto:support@gitfocus.app">support@gitfocus.app</a> avec des détails sur ce qui s'est passé</li>
                         </ul>
                     </div>
                 </div>
@@ -978,18 +978,18 @@
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>How do I reset or start over?</span>
+                    <span>Comment réinitialiser ou recommencer ?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>To completely reset GitFocus:</p>
+                        <p>Pour réinitialiser complètement GitFocus :</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Delete the app from your device</li>
-                            <li>Reinstall from the App Store</li>
-                            <li>Go through the onboarding again</li>
+                            <li>Supprime l'application de ton appareil</li>
+                            <li>Réinstalle depuis l'App Store</li>
+                            <li>Passe à nouveau par l'intégration</li>
                         </ul>
-                        <p style="margin-top: 12px;">Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.</p>
+                        <p style="margin-top: 12px;">Remarque : Ton nom d'utilisateur GitHub ou ta liste de comptes est stocké de manière sécurisée pour plus de commodité, donc il peut être pré-rempli lorsque tu réinstalles.</p>
                     </div>
                 </div>
             </div>
@@ -997,29 +997,29 @@
 
         <!-- Quick Troubleshooting -->
         <section class="troubleshooting">
-            <h2 class="section-title">Quick Troubleshooting</h2>
+            <h2 class="section-title">Dépannage rapide</h2>
 
             <div class="trouble-item">
                 <div class="trouble-icon">🔄</div>
                 <div class="trouble-content">
-                    <h3>Force Refresh</h3>
-                    <p>Pull down on the main screen to manually refresh your commit data from GitHub.</p>
+                    <h3>Forcer l'actualisation</h3>
+                    <p>Tire vers le bas sur l'écran principal pour actualiser manuellement tes données de commit depuis GitHub.</p>
                 </div>
             </div>
 
             <div class="trouble-item">
                 <div class="trouble-icon">⚙️</div>
                 <div class="trouble-content">
-                    <h3>Check Permissions</h3>
-                    <p>Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.</p>
+                    <h3>Vérifier les autorisations</h3>
+                    <p>Va dans Réglages iOS → Temps d'écran → GitFocus pour vérifier que les autorisations sont accordées.</p>
                 </div>
             </div>
 
             <div class="trouble-item">
                 <div class="trouble-icon">🐙</div>
                 <div class="trouble-content">
-                    <h3>Verify GitHub</h3>
-                    <p>Visit github.com/[your-username] and check that your contribution graph shows recent commits.</p>
+                    <h3>Vérifier GitHub</h3>
+                    <p>Visite github.com/[ton-nom-utilisateur] et vérifie que ton graphique de contributions affiche les commits récents.</p>
                 </div>
             </div>
         </section>
@@ -1028,18 +1028,18 @@
         <div class="quick-links">
             <a href="privacy.html" class="quick-link">
                 <span class="quick-link-icon">🔒</span>
-                <span class="quick-link-title">Privacy Policy</span>
-                <span class="quick-link-desc">Learn how we protect your data</span>
+                <span class="quick-link-title">Politique de confidentialité</span>
+                <span class="quick-link-desc">Découvre comment nous protégeons tes données</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Bug Report" class="quick-link">
                 <span class="quick-link-icon">🐛</span>
-                <span class="quick-link-title">Report a Bug</span>
-                <span class="quick-link-desc">Help us improve GitFocus</span>
+                <span class="quick-link-title">Signaler un bug</span>
+                <span class="quick-link-desc">Aide-nous à améliorer GitFocus</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Feature Request" class="quick-link">
                 <span class="quick-link-icon">💡</span>
-                <span class="quick-link-title">Request a Feature</span>
-                <span class="quick-link-desc">Tell us what you'd like to see</span>
+                <span class="quick-link-title">Demander une fonctionnalité</span>
+                <span class="quick-link-desc">Dis-nous ce que tu aimerais voir</span>
             </a>
         </div>
     </main>
@@ -1048,10 +1048,10 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Accessibility</a>
+                <a href="/fr/">Accueil</a>
+                <a href="privacy.html">Politique de confidentialité</a>
+                <a href="support.html">Assistance</a>
+                <a href="accessibility.html">Accessibilité</a>
             </div>
             <div class="footer-copy">
                 © 2026 GitFocus
@@ -1142,6 +1142,6 @@
     </script>
 
     <!-- Cookie Consent & Chatwoot Widget -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

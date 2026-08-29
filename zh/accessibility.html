@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html data-theme="dark" lang="zh-Hans" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessibility - GitFocus</title>
+    <title>无障碍功能 - GitFocus</title>
     <meta name="description" content="GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.">
     <meta name="robots" content="index, follow">
 
@@ -19,8 +19,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -731,30 +731,30 @@
     <!-- /expresslane:hreflang -->
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">跳到主要内容</a>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+            <a href="/zh/" class="logo">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="support.html">Support</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <a href="/zh/">首页</a>
+                <a href="privacy.html">隐私</a>
+                <a href="support.html">支持</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="切换主题">
                     <span class="theme-icon">&#127769;</span>
                 </button>
                 <details class="expresslane-lang">
-  <summary class="expresslane-lang-trigger" title="English" aria-label="Language: English">
-    <span aria-hidden="true">EN</span>
+  <summary class="expresslane-lang-trigger" title="简体中文" aria-label="Language: 简体中文">
+    <span aria-hidden="true">ZH</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
     <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/accessibility.html">Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/accessibility.html" aria-current="true">English</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/accessibility.html">English</a>
     <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/accessibility.html">Español</a>
     <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/accessibility.html">Français</a>
     <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/accessibility.html">Italiano</a>
@@ -768,7 +768,7 @@
     <a class="expresslane-lang-item" hreflang="uk" lang="uk" href="/uk/accessibility.html">Українська</a>
     <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/accessibility.html">العربية</a>
     <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/accessibility.html">日本語</a>
-    <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/accessibility.html">简体中文</a>
+    <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/accessibility.html" aria-current="true">简体中文</a>
     <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/accessibility.html">한국어</a>
   </div>
 </details>
@@ -778,182 +778,181 @@
 
     <main id="main-content">
         <header class="page-header">
-            <p class="page-label">// Accessibility</p>
-            <h1 class="page-title">Built for everyone</h1>
+            <p class="page-label">// 无障碍功能</p>
+            <h1 class="page-title">为所有人打造</h1>
             <p class="page-subtitle">
-                GitFocus is designed for assistive technologies. Accessibility claims are
-                rechecked for each release with automated tests and a human device checklist.
+                GitFocus 专为辅助技术而设计。无障碍功能声明在每次发布时都会通过自动化测试和人工设备检查清单重新检查。
             </p>
         </header>
 
         <!-- Supported Features -->
         <section class="testing-section">
-            <p class="section-label">// Features</p>
-            <h2 class="section-title">Supported Accessibility Features</h2>
+            <p class="section-label">// 功能</p>
+            <h2 class="section-title">支持的无障碍功能</h2>
 
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">&#128483;&#65039;</div>
                     <div class="feature-name">VoiceOver</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.</p>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">关键发布路径使用描述性标签、特征和逻辑阅读顺序。发布门记录了测试的路径和设备。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128264;</div>
-                    <div class="feature-name">Voice Control</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.</p>
+                    <div class="feature-name">语音控制</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">交互控件使用可访问的名称。物理设备检查清单验证了使用语音控制的关键发布流程。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128289;</div>
-                    <div class="feature-name">Larger Text</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.</p>
+                    <div class="feature-name">更大文本</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">应用程序文本使用 Dynamic Type。在批准此声明之前，需要自动化 AX3 和 AX5 覆盖以及人工 200% 文本大小检查。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127761;</div>
-                    <div class="feature-name">Dark Interface</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.</p>
+                    <div class="feature-name">深色界面</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">应用程序支持浅色和深色外观。两者都包含在屏幕截图和应用程序无障碍功能发布检查中。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127912;</div>
-                    <div class="feature-name">Differentiate Without Color</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Release review checks that important states use labels, shapes, or icons alongside color.</p>
+                    <div class="feature-name">区分而不依赖颜色</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">发布审查检查重要状态是否使用标签、形状或图标以及颜色。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9680;</div>
-                    <div class="feature-name">Sufficient Contrast</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.</p>
+                    <div class="feature-name">充足对比度</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">自动对比度检查标记浅色和深色模式下的候选失败；审查员在批准前验证实际文本、图标和背景。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9208;&#65039;</div>
-                    <div class="feature-name">Reduced Motion</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.</p>
+                    <div class="feature-name">减少动态效果</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">发布检查清单验证重要动作是否尊重减少动态效果偏好或具有静态替代方案。</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9000;&#65039;</div>
-                    <div class="feature-name">Full Keyboard Access</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.</p>
+                    <div class="feature-name">完全键盘访问</div>
+                    <span class="feature-status">支持</span>
+                    <p class="feature-desc">支持的流程包括键盘可访问的控件和重要仅手势操作的替代方案。</p>
                 </div>
             </div>
         </section>
 
         <!-- Testing Stats -->
         <section class="testing-section">
-            <p class="section-label">// Testing</p>
-            <h2 class="section-title">Automated Accessibility Testing</h2>
+            <p class="section-label">// 测试</p>
+            <h2 class="section-title">自动化无障碍功能测试</h2>
 
             <div class="stats-row">
                 <div class="stat-card">
                     <div class="stat-number">3</div>
-                    <div class="stat-label">Test Suites</div>
+                    <div class="stat-label">测试套件</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">2</div>
-                    <div class="stat-label">Appearances</div>
+                    <div class="stat-label">外观</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">2</div>
-                    <div class="stat-label">AX Text Sizes</div>
+                    <div class="stat-label">AX 文本大小</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">1</div>
-                    <div class="stat-label">Release Gate</div>
+                    <div class="stat-label">发布门</div>
                 </div>
             </div>
 
             <div class="suite-list">
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">Screen Accessibility Audits</div>
-                        <div class="suite-desc">Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.</div>
+                        <div class="suite-name">屏幕无障碍功能审计</div>
+                        <div class="suite-desc">声明的发布路径在浅色和深色模式下串行启动，并通过 iOS 原生无障碍功能审计进行检查。必需的审计类别会导致发布门失败。</div>
                     </div>
-                    <span class="suite-badge">26 tests</span>
+                    <span class="suite-badge">26项测试</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">Accessibility Size Tests</div>
-                        <div class="suite-desc">Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.</div>
+                        <div class="suite-name">无障碍功能大小测试</div>
+                        <div class="suite-desc">声明的路径在 AX3 和 AX5 下渲染，并检查无崩溃渲染、可访问元素和路径完成。</div>
                     </div>
-                    <span class="suite-badge">50 tests</span>
+                    <span class="suite-badge">50项测试</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">VoiceOver Reading Order</div>
-                        <div class="suite-desc">Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.</div>
+                        <div class="suite-name">VoiceOver 阅读顺序</div>
+                        <div class="suite-desc">检查关键屏幕以确保 VoiceOver 遍历遵循逻辑从上到下的顺序，对系统镶边元素具有容差。</div>
                     </div>
-                    <span class="suite-badge">5 tests</span>
+                    <span class="suite-badge">5项测试</span>
                 </div>
             </div>
         </section>
 
         <!-- Methodology -->
         <section class="testing-section">
-            <p class="section-label">// Methodology</p>
-            <h2 class="section-title">How We Test</h2>
+            <p class="section-label">// 方法论</p>
+            <h2 class="section-title">我们如何测试</h2>
 
             <ul class="methodology-list">
                 <li>
                     <span class="method-icon">1</span>
-                    <p class="method-text"><strong>iOS native audits</strong> &mdash; Apple's built-in <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
+                    <p class="method-text"><strong>iOS 原生审计</strong> — Apple 内置的 <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
                 </li>
                 <li>
                     <span class="method-icon">2</span>
-                    <p class="method-text"><strong>Extreme size rendering</strong> &mdash; Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.</p>
+                    <p class="method-text"><strong>极端大小渲染</strong> — 每个屏幕在无障碍功能文本大小 AX3 和 AX5 下启动，以验证没有崩溃、不可读的截断或变得无法访问的情况。</p>
                 </li>
                 <li>
                     <span class="method-icon">3</span>
-                    <p class="method-text"><strong>Reading order validation</strong> &mdash; Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.</p>
+                    <p class="method-text"><strong>阅读顺序验证</strong> — 自动化测试验证 VoiceOver 在关键屏幕上按逻辑从上到下的顺序遍历元素。</p>
                 </li>
                 <li>
                     <span class="method-icon">4</span>
-                    <p class="method-text"><strong>Contrast verification</strong> &mdash; WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.</p>
+                    <p class="method-text"><strong>对比度验证</strong> — WCAG 对比度证据从渲染器拥有的语义区域生成，然后对照实际的浅色和深色图稿进行审查。</p>
                 </li>
                 <li>
                     <span class="method-icon">5</span>
-                    <p class="method-text"><strong>Release integration</strong> &mdash; The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.</p>
+                    <p class="method-text"><strong>发布集成</strong> — 无障碍功能套件在屏幕截图或元数据上传之前运行，并保留机器可读的证据。</p>
                 </li>
             </ul>
         </section>
 
         <!-- Standards -->
         <div class="standards-card">
-            <h3 class="standards-title">Standards We Follow</h3>
+            <h3 class="standards-title">我们遵循的标准</h3>
             <ul class="standards-list">
-                <li>WCAG 2.1 Level AA contrast targets for text and interactive elements</li>
-                <li>Apple Human Interface Guidelines for accessibility</li>
-                <li>Minimum 44pt touch-target checks for interactive controls</li>
-                <li>Semantic Dynamic Type coverage at accessibility text sizes</li>
-                <li>VoiceOver-compatible labels and traits on every interactive element</li>
-                <li>Keyboard-accessible alternatives for all gesture-based interactions</li>
+                <li>文本和交互元素的 WCAG 2.1 AA 级对比度目标</li>
+                <li>Apple 人机界面指南的无障碍功能</li>
+                <li>交互控件的最小 44pt 触摸目标检查</li>
+                <li>无障碍功能文本大小下的语义 Dynamic Type 覆盖</li>
+                <li>每个交互元素上的 VoiceOver 兼容标签和特征</li>
+                <li>所有基于手势的交互的键盘可访问替代方案</li>
             </ul>
         </div>
 
         <!-- Contact -->
         <section class="contact-section">
-            <h2 class="section-title">Feedback</h2>
+            <h2 class="section-title">反馈</h2>
             <p>
-                If you encounter any accessibility barriers while using GitFocus,
-                we want to hear about it so we can fix it.
+                如果您在使用 GitFocus 时遇到任何无障碍功能障碍，
+                我们希望听到您的意见以便我们修复它。
             </p>
             <button onclick="openChatSupport()" class="contact-link" style="cursor: pointer;">
                 <span>&#128172;</span>
-                Chat with us
+                与我们聊天
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
-                or email us at
+                或发送电子邮件至
                 <a href="mailto:support@gitfocus.app?subject=Accessibility Feedback" style="color: var(--purple-light); text-decoration: none;">support@gitfocus.app</a>
             </p>
         </section>
@@ -963,13 +962,13 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Accessibility</a>
+                <a href="/zh/">首页</a>
+                <a href="privacy.html">隐私政策</a>
+                <a href="support.html">支持</a>
+                <a href="accessibility.html">无障碍</a>
             </div>
             <div class="footer-copy">
-                &copy; 2026 GitFocus
+                © 2026 GitFocus
             </div>
         </div>
     </footer>
@@ -1014,6 +1013,6 @@
     </script>
 
     <!-- Cookie Consent & Chatwoot Widget -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

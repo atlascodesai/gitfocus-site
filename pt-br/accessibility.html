@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html data-theme="dark" lang="pt-BR" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessibility - GitFocus</title>
+    <title>Acessibilidade - GitFocus</title>
     <meta name="description" content="GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.">
     <meta name="robots" content="index, follow">
 
@@ -19,8 +19,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -731,35 +731,35 @@
     <!-- /expresslane:hreflang -->
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">Ir para o conteúdo principal</a>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+            <a href="/pt-br/" class="logo">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="support.html">Support</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <a href="/pt-br/">Início</a>
+                <a href="privacy.html">Privacidade</a>
+                <a href="support.html">Suporte</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Alternar tema">
                     <span class="theme-icon">&#127769;</span>
                 </button>
                 <details class="expresslane-lang">
-  <summary class="expresslane-lang-trigger" title="English" aria-label="Language: English">
-    <span aria-hidden="true">EN</span>
+  <summary class="expresslane-lang-trigger" title="Português (Brasil)" aria-label="Language: Português (Brasil)">
+    <span aria-hidden="true">PT</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
     <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/accessibility.html">Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/accessibility.html" aria-current="true">English</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/accessibility.html">English</a>
     <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/accessibility.html">Español</a>
     <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/accessibility.html">Français</a>
     <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/accessibility.html">Italiano</a>
     <a class="expresslane-lang-item" hreflang="nl-NL" lang="nl-NL" href="/nl/accessibility.html">Nederlands</a>
-    <a class="expresslane-lang-item" hreflang="pt-BR" lang="pt-BR" href="/pt-br/accessibility.html">Português (Brasil)</a>
+    <a class="expresslane-lang-item" hreflang="pt-BR" lang="pt-BR" href="/pt-br/accessibility.html" aria-current="true">Português (Brasil)</a>
     <a class="expresslane-lang-item" hreflang="sk" lang="sk" href="/sk/accessibility.html">Slovenčina</a>
     <a class="expresslane-lang-item" hreflang="sr-Latn" lang="sr-Latn" href="/sr-latn/accessibility.html">Srpski</a>
     <a class="expresslane-lang-item" hreflang="el" lang="el" href="/el/accessibility.html">Ελληνικά</a>
@@ -778,166 +778,166 @@
 
     <main id="main-content">
         <header class="page-header">
-            <p class="page-label">// Accessibility</p>
-            <h1 class="page-title">Built for everyone</h1>
+            <p class="page-label">// Acessibilidade</p>
+            <h1 class="page-title">Criado para todos</h1>
             <p class="page-subtitle">
-                GitFocus is designed for assistive technologies. Accessibility claims are
-                rechecked for each release with automated tests and a human device checklist.
+                O GitFocus é projetado para tecnologias assistivas. As declarações de acessibilidade são
+                verificadas novamente para cada lançamento com testes automatizados e uma lista de verificação manual em dispositivo.
             </p>
         </header>
 
         <!-- Supported Features -->
         <section class="testing-section">
-            <p class="section-label">// Features</p>
-            <h2 class="section-title">Supported Accessibility Features</h2>
+            <p class="section-label">// Recursos</p>
+            <h2 class="section-title">Recursos de Acessibilidade Suportados</h2>
 
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">&#128483;&#65039;</div>
                     <div class="feature-name">VoiceOver</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.</p>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">As rotas principais de lançamento usam rótulos descritivos, características e uma ordem de leitura lógica. A validação de lançamento registra as rotas testadas e o dispositivo.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128264;</div>
-                    <div class="feature-name">Voice Control</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.</p>
+                    <div class="feature-name">Controle por Voz</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">Os controles interativos usam nomes acessíveis. Uma lista de verificação em dispositivo físico verifica a jornada crítica de lançamento com Controle por Voz.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#128289;</div>
-                    <div class="feature-name">Larger Text</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.</p>
+                    <div class="feature-name">Texto Maior</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">O texto do app usa Tipo Dinâmico. Cobertura automatizada AX3 e AX5 mais uma verificação manual de tamanho de texto de 200% são necessárias antes desta afirmação ser aprovada.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127761;</div>
-                    <div class="feature-name">Dark Interface</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.</p>
+                    <div class="feature-name">Interface Escura</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">O app suporta aparências claras e escuras. Ambas estão incluídas nas verificações de lançamento de acessibilidade de capturas de tela e app.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#127912;</div>
-                    <div class="feature-name">Differentiate Without Color</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Release review checks that important states use labels, shapes, or icons alongside color.</p>
+                    <div class="feature-name">Diferenciar Sem Cor</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">A revisão de lançamento verifica se estados importantes usam rótulos, formas ou ícones junto com a cor.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9680;</div>
-                    <div class="feature-name">Sufficient Contrast</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.</p>
+                    <div class="feature-name">Contraste Suficiente</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">As verificações automatizadas de contraste sinalizam possíveis falhas nos modos claro e escuro; um revisor verifica o texto, ícones e fundos reais antes da aprovação.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9208;&#65039;</div>
-                    <div class="feature-name">Reduced Motion</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.</p>
+                    <div class="feature-name">Movimento Reduzido</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">A lista de verificação de lançamento verifica se o movimento importante respeita a preferência de Reduzir Movimento ou tem uma alternativa estática.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">&#9000;&#65039;</div>
-                    <div class="feature-name">Full Keyboard Access</div>
-                    <span class="feature-status">Supported</span>
-                    <p class="feature-desc">Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.</p>
+                    <div class="feature-name">Acesso Completo por Teclado</div>
+                    <span class="feature-status">Suportado</span>
+                    <p class="feature-desc">Os fluxos suportados incluem controles acessíveis por teclado e alternativas para ações importantes que são apenas por gestos.</p>
                 </div>
             </div>
         </section>
 
         <!-- Testing Stats -->
         <section class="testing-section">
-            <p class="section-label">// Testing</p>
-            <h2 class="section-title">Automated Accessibility Testing</h2>
+            <p class="section-label">// Testes</p>
+            <h2 class="section-title">Testes Automatizados de Acessibilidade</h2>
 
             <div class="stats-row">
                 <div class="stat-card">
                     <div class="stat-number">3</div>
-                    <div class="stat-label">Test Suites</div>
+                    <div class="stat-label">Conjuntos de Testes</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">2</div>
-                    <div class="stat-label">Appearances</div>
+                    <div class="stat-label">Aparências</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">2</div>
-                    <div class="stat-label">AX Text Sizes</div>
+                    <div class="stat-label">Tamanhos de Texto AX</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">1</div>
-                    <div class="stat-label">Release Gate</div>
+                    <div class="stat-label">Validação de Lançamento</div>
                 </div>
             </div>
 
             <div class="suite-list">
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">Screen Accessibility Audits</div>
-                        <div class="suite-desc">Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.</div>
+                        <div class="suite-name">Auditorias de Acessibilidade de Telas</div>
+                        <div class="suite-desc">As rotas de lançamento declaradas são lançadas em série nos modos claro e escuro e verificadas com auditorias de acessibilidade nativas do iOS. Categorias de auditoria obrigatórias reprovam a validação de lançamento.</div>
                     </div>
-                    <span class="suite-badge">26 tests</span>
+                    <span class="suite-badge">26 testes</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">Accessibility Size Tests</div>
-                        <div class="suite-desc">Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.</div>
+                        <div class="suite-name">Testes de Tamanho de Acessibilidade</div>
+                        <div class="suite-desc">As rotas declaradas são renderizadas em AX3 e AX5 e verificadas quanto a renderização sem travamentos, elementos acessíveis e conclusão de rota.</div>
                     </div>
-                    <span class="suite-badge">50 tests</span>
+                    <span class="suite-badge">50 testes</span>
                 </div>
                 <div class="suite-item">
                     <div class="suite-info">
-                        <div class="suite-name">VoiceOver Reading Order</div>
-                        <div class="suite-desc">Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.</div>
+                        <div class="suite-name">Ordem de Leitura do VoiceOver</div>
+                        <div class="suite-desc">As telas principais são verificadas para garantir que a navegação do VoiceOver siga uma ordem lógica de cima para baixo, com tolerância para elementos do sistema.</div>
                     </div>
-                    <span class="suite-badge">5 tests</span>
+                    <span class="suite-badge">5 testes</span>
                 </div>
             </div>
         </section>
 
         <!-- Methodology -->
         <section class="testing-section">
-            <p class="section-label">// Methodology</p>
-            <h2 class="section-title">How We Test</h2>
+            <p class="section-label">// Metodologia</p>
+            <h2 class="section-title">Como Testamos</h2>
 
             <ul class="methodology-list">
                 <li>
                     <span class="method-icon">1</span>
-                    <p class="method-text"><strong>iOS native audits</strong> &mdash; Apple's built-in <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
+                    <p class="method-text"><strong>Auditorias nativas do iOS</strong> — Integradas da Apple <code>performAccessibilityAudit</code> API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.</p>
                 </li>
                 <li>
                     <span class="method-icon">2</span>
-                    <p class="method-text"><strong>Extreme size rendering</strong> &mdash; Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.</p>
+                    <p class="method-text"><strong>Renderização de tamanho extremo</strong> — Cada tela é lançada em tamanhos de texto de acessibilidade AX3 e AX5 para verificar se nada trava, trunca ilegível ou se torna inacessível.</p>
                 </li>
                 <li>
                     <span class="method-icon">3</span>
-                    <p class="method-text"><strong>Reading order validation</strong> &mdash; Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.</p>
+                    <p class="method-text"><strong>Validação de ordem de leitura</strong> — Os testes automatizados verificam se o VoiceOver percorre os elementos em ordem lógica de cima para baixo nas telas principais.</p>
                 </li>
                 <li>
                     <span class="method-icon">4</span>
-                    <p class="method-text"><strong>Contrast verification</strong> &mdash; WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.</p>
+                    <p class="method-text"><strong>Verificação de contraste</strong> — Evidência de contraste WCAG é gerada a partir de regiões semânticas do renderizador, depois revisada contra o design real claro e escuro.</p>
                 </li>
                 <li>
                     <span class="method-icon">5</span>
-                    <p class="method-text"><strong>Release integration</strong> &mdash; The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.</p>
+                    <p class="method-text"><strong>Integração de lançamento</strong> — Os conjuntos de acessibilidade são executados antes do upload de capturas de tela ou metadados e retêm evidências legíveis por máquina.</p>
                 </li>
             </ul>
         </section>
 
         <!-- Standards -->
         <div class="standards-card">
-            <h3 class="standards-title">Standards We Follow</h3>
+            <h3 class="standards-title">Padrões Que Seguimos</h3>
             <ul class="standards-list">
-                <li>WCAG 2.1 Level AA contrast targets for text and interactive elements</li>
-                <li>Apple Human Interface Guidelines for accessibility</li>
-                <li>Minimum 44pt touch-target checks for interactive controls</li>
-                <li>Semantic Dynamic Type coverage at accessibility text sizes</li>
-                <li>VoiceOver-compatible labels and traits on every interactive element</li>
-                <li>Keyboard-accessible alternatives for all gesture-based interactions</li>
+                <li>Objetivos de contraste WCAG 2.1 Nível AA para texto e elementos interativos</li>
+                <li>Diretrizes de Interface Humana da Apple para acessibilidade</li>
+                <li>Verificações de alvo de toque mínimo de 44pt para controles interativos</li>
+                <li>Cobertura semântica de Tipo Dinâmico em tamanhos de texto de acessibilidade</li>
+                <li>Rótulos e características compatíveis com VoiceOver em cada elemento interativo</li>
+                <li>Alternativas acessíveis por teclado para todas as interações baseadas em gestos</li>
             </ul>
         </div>
 
@@ -945,15 +945,15 @@
         <section class="contact-section">
             <h2 class="section-title">Feedback</h2>
             <p>
-                If you encounter any accessibility barriers while using GitFocus,
-                we want to hear about it so we can fix it.
+                Se você encontrar alguma barreira de acessibilidade ao usar o GitFocus,
+                queremos saber para que possamos corrigir.
             </p>
             <button onclick="openChatSupport()" class="contact-link" style="cursor: pointer;">
                 <span>&#128172;</span>
-                Chat with us
+                Converse conosco
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
-                or email us at
+                ou envie e-mail para
                 <a href="mailto:support@gitfocus.app?subject=Accessibility Feedback" style="color: var(--purple-light); text-decoration: none;">support@gitfocus.app</a>
             </p>
         </section>
@@ -963,13 +963,13 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Accessibility</a>
+                <a href="/pt-br/">Início</a>
+                <a href="privacy.html">Política de Privacidade</a>
+                <a href="support.html">Suporte</a>
+                <a href="accessibility.html">Acessibilidade</a>
             </div>
             <div class="footer-copy">
-                &copy; 2026 GitFocus
+                © 2026 GitFocus
             </div>
         </div>
     </footer>
@@ -1014,6 +1014,6 @@
     </script>
 
     <!-- Cookie Consent & Chatwoot Widget -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

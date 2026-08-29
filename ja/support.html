@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html data-theme="dark" lang="ja" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support - GitFocus</title>
+    <title>サポート - GitFocus</title>
     <meta name="description" content="Get help with GitFocus. FAQs, troubleshooting, and contact information.">
     <meta name="robots" content="index, follow">
 
@@ -19,8 +19,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
     <!-- Favicon - dynamically updated by JavaScript for theme changes -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -725,30 +725,30 @@
     <!-- /expresslane:hreflang -->
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+            <a href="/ja/" class="logo">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="support.html" class="active">Support</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <a href="/ja/">ホーム</a>
+                <a href="privacy.html">プライバシー</a>
+                <a href="support.html" class="active">サポート</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="テーマの切り替え">
                     <span class="theme-icon">🌙</span>
                 </button>
                 <details class="expresslane-lang">
-  <summary class="expresslane-lang-trigger" title="English" aria-label="Language: English">
-    <span aria-hidden="true">EN</span>
+  <summary class="expresslane-lang-trigger" title="日本語" aria-label="Language: 日本語">
+    <span aria-hidden="true">JA</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
     <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/support.html">Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html" aria-current="true">English</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html">English</a>
     <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/support.html">Español</a>
     <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/support.html">Français</a>
     <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/support.html">Italiano</a>
@@ -761,7 +761,7 @@
     <a class="expresslane-lang-item" hreflang="sr" lang="sr" href="/sr/support.html">Српски</a>
     <a class="expresslane-lang-item" hreflang="uk" lang="uk" href="/uk/support.html">Українська</a>
     <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/support.html">العربية</a>
-    <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/support.html">日本語</a>
+    <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/support.html" aria-current="true">日本語</a>
     <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/support.html">简体中文</a>
     <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/support.html">한국어</a>
   </div>
@@ -772,78 +772,78 @@
 
     <main id="main-content">
         <header class="page-header">
-            <p class="page-label">// Support</p>
-            <h1 class="page-title">How can we help?</h1>
+            <p class="page-label">// サポート</p>
+            <h1 class="page-title">どのようにお手伝いできますか？</h1>
             <p class="page-subtitle">
-                Find answers to common questions or reach out directly.
-                We typically respond within 24 hours.
+                よくある質問への回答を確認するか、直接お問い合わせください。
+                通常24時間以内にご返信いたします。
             </p>
         </header>
 
         <!-- Contact Card -->
         <div class="contact-card">
             <div class="contact-icon">💬</div>
-            <h2 class="contact-title">Get in Touch</h2>
+            <h2 class="contact-title">お問い合わせ</h2>
             <p class="contact-desc">
-                Have a question, bug report, or feature request?<br>
-                We'd love to hear from you.
+                ご質問、バグ報告、機能リクエストがありますか？<br>
+                お気軽にご連絡ください。
             </p>
             <button onclick="openChatSupport()" class="contact-email" style="cursor: pointer;">
                 <span>💬</span>
-                Chat with us
+                チャットで問い合わせ
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
-                or email us at
+                またはメールでお問い合わせ
                 <a href="mailto:support@gitfocus.app" style="color: var(--purple-light); text-decoration: none;">support@gitfocus.app</a>
             </p>
         </div>
 
         <!-- FAQ Section -->
         <section class="faq-section">
-            <h2 class="section-title">Frequently Asked Questions</h2>
+            <h2 class="section-title">よくある質問</h2>
 
             <div class="faq-categories">
-                <button class="category-pill active" data-category="all">All</button>
-                <button class="category-pill" data-category="setup">Setup</button>
-                <button class="category-pill" data-category="features">Features</button>
-                <button class="category-pill" data-category="troubleshooting">Troubleshooting</button>
+                <button class="category-pill active" data-category="all">すべて</button>
+                <button class="category-pill" data-category="setup">セットアップ</button>
+                <button class="category-pill" data-category="features">機能</button>
+                <button class="category-pill" data-category="troubleshooting">トラブルシューティング</button>
             </div>
 
             <!-- Setup FAQs -->
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Do I need to connect my GitHub account?</span>
+                    <span>GitHubアカウントの接続は必要ですか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.</p>
-                        <p style="margin-top: 12px;">You can add multiple GitHub accounts and decide which ones count toward commit detection.</p>
+                        <p>いいえ！GitFocusは追跡したいGitHubユーザー名のみが必要です。公開コントリビューショングラフ（プロフィールの緑の四角）を読み取ってコミットを検出します。OAuth、トークン、パスワードは一切不要です。</p>
+                        <p style="margin-top: 12px;">複数のGitHubアカウントを追加し、どのアカウントをコミット検出の対象にするかを決定できます。</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Why do you need Screen Time permissions?</span>
+                    <span>Screen Timeの許可が必要な理由は？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.</p>
+                        <p>GitFocusはAppleのScreen Time APIを使用してアプリをブロックします。これはApple標準のペアレンタルコントロールと同じセキュアなシステムです。お客様に代わってアプリの制限を適用するには許可が必要です。</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Does GitFocus work with private repositories?</span>
+                    <span>GitFocusはプライベートリポジトリで機能しますか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show "Private contributions," we'll see them.</p>
-                        <p style="margin-top: 12px;">Go to your GitHub profile → Contribution settings → Check "Private contributions"</p>
+                        <p>はい！GitHubはデフォルトで、コントリビューショングラフにすべてのコミット（公開とプライベート）をカウントします。コントリビューション設定で「プライベートコントリビューション」の表示が有効になっていれば、それらを確認できます。</p>
+                        <p style="margin-top: 12px;">GitHubプロフィール → コントリビューション設定 → 「プライベートコントリビューション」にチェック</p>
                     </div>
                 </div>
             </div>
@@ -851,27 +851,27 @@
             <!-- Features FAQs -->
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>How much time does each commit earn?</span>
+                    <span>各コミットでどれだけの時間を獲得できますか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Each commit earns you <strong>5 minutes</strong> of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉</p>
+                        <p>各コミットで獲得できるのは <strong>5分</strong> のロック解除時間です。3つのコミットをプッシュすると？Twitterを15分間、罪悪感なくスクロールできます。🎉</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What are "Lives" and how do they work?</span>
+                    <span>「ライフ」とは何ですか？どのように機能しますか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:</p>
+                        <p>ライフは緊急ロック解除です。ライフを使用すると、ブロックされたすべてのアプリが深夜までロック解除されます。1つの無料ライフから始まり、ストリークを通じてさらに獲得できます:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>14-day streak: +1 life</li>
-                            <li>Then +1 life every month you maintain the streak</li>
+                            <li>14日ストリーク: ライフ+1</li>
+                            <li>その後、ストリークを維持するごとに毎月ライフ+1</li>
                         </ul>
                     </div>
                 </div>
@@ -879,42 +879,42 @@
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What is the "Borrow Time" feature?</span>
+                    <span>「時間借用」機能とは何ですか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates "debt" that gets paid back from your future commit earnings.</p>
-                        <p style="margin-top: 12px;">Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.</p>
+                        <p>短いメッセージを送る必要があるのにロック解除時間がない？最大5分まで借用できます。これにより「負債」が発生し、今後のコミット獲得時間から返済されます。</p>
+                        <p style="margin-top: 12px;">例: 3分借用します。次のコミットで5分獲得しますが、3分が負債返済に充てられ、残り2分となります。</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What is the Discipline Bank?</span>
+                    <span>Discipline Bankとは何ですか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.</p>
-                        <p style="margin-top: 12px;">Challenge yourself: How many minutes can you bank by the end of the year?</p>
+                        <p>Discipline Bankは獲得したが使用していない時間を追跡します。これは自制心の尺度です。獲得したが気晴らしに使わなかった各分が銀行に預けられます。</p>
+                        <p style="margin-top: 12px;">チャレンジしてみましょう: 年末までに何分貯められますか？</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What are the streak milestone rewards?</span>
+                    <span>ストリークマイルストーン報酬とは何ですか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Building a streak unlocks permanent perks:</p>
+                        <p>ストリークを構築すると、永続的な特典がアンロックされます:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li><strong>14 days:</strong> +1 extra life (then +1/month)</li>
-                            <li><strong>30 days:</strong> Weekly time bank (unused time resets weekly instead of daily)</li>
-                            <li><strong>90 days:</strong> Permanent time (earned time never expires)</li>
+                            <li><strong>14日:</strong> 追加ライフ+1（その後毎月+1）</li>
+                            <li><strong>30日:</strong> 週次タイムバンク（未使用時間が毎日ではなく毎週リセット）</li>
+                            <li><strong>90日:</strong> 永続時間（獲得時間が期限切れにならない）</li>
                         </ul>
                     </div>
                 </div>
@@ -923,18 +923,18 @@
             <!-- Troubleshooting FAQs -->
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>My commits aren't being detected</span>
+                    <span>コミットが検出されません</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Here are some things to check:</p>
+                        <p>確認すべき点:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Make sure your GitHub username is entered correctly</li>
-                            <li>If you use multiple accounts, check that the right accounts are enabled for commit detection</li>
-                            <li>Check that your commits show up on your GitHub profile's contribution graph</li>
-                            <li>If using private repos, ensure "Private contributions" is enabled in GitHub settings</li>
-                            <li>Wait a few minutes — GitHub's contribution graph can take time to update</li>
+                            <li>GitHubユーザー名が正しく入力されているか確認してください</li>
+                            <li>複数のアカウントを使用している場合、コミット検出に正しいアカウントが有効になっているか確認してください</li>
+                            <li>GitHubプロフィールのコントリビューショングラフにコミットが表示されているか確認してください</li>
+                            <li>プライベートリポジトリを使用している場合、GitHub設定で「プライベートコントリビューション」が有効になっているか確認してください</li>
+                            <li>数分待ってください — GitHubのコントリビューショングラフの更新には時間がかかることがあります</li>
                         </ul>
                     </div>
                 </div>
@@ -942,35 +942,35 @@
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>Apps aren't being blocked</span>
+                    <span>アプリがブロックされません</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Make sure you've:</p>
+                        <p>以下を確認してください:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Granted Screen Time permissions during setup</li>
-                            <li>Selected at least one app or category to block</li>
-                            <li>Started a focus session from the main screen</li>
+                            <li>セットアップ時にScreen Timeの許可を付与した</li>
+                            <li>ブロックするアプリまたはカテゴリを少なくとも1つ選択した</li>
+                            <li>メイン画面から集中セッションを開始した</li>
                         </ul>
-                        <p style="margin-top: 12px;">If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.</p>
+                        <p style="margin-top: 12px;">問題が続く場合は、iOS設定 → Screen Timeに移動し、GitFocusに必要な許可があることを確認してください。</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>The app crashed or is behaving unexpectedly</span>
+                    <span>アプリがクラッシュする、または予期しない動作をします</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Try these steps:</p>
+                        <p>以下の手順を試してください:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Force quit and reopen the app</li>
-                            <li>Restart your device</li>
-                            <li>Make sure you're on the latest version of GitFocus</li>
-                            <li>If the issue persists, email us at <a href="mailto:support@gitfocus.app">support@gitfocus.app</a> with details about what happened</li>
+                            <li>アプリを強制終了して再起動</li>
+                            <li>デバイスを再起動</li>
+                            <li>GitFocusの最新バージョンを使用しているか確認</li>
+                            <li>問題が続く場合は、以下のメールアドレスにお問い合わせください <a href="mailto:support@gitfocus.app">support@gitfocus.app</a> 何が起こったかの詳細とともに</li>
                         </ul>
                     </div>
                 </div>
@@ -978,18 +978,18 @@
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>How do I reset or start over?</span>
+                    <span>リセットまたはやり直すにはどうすればよいですか？</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>To completely reset GitFocus:</p>
+                        <p>GitFocusを完全にリセットするには:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Delete the app from your device</li>
-                            <li>Reinstall from the App Store</li>
-                            <li>Go through the onboarding again</li>
+                            <li>デバイスからアプリを削除</li>
+                            <li>App Storeから再インストール</li>
+                            <li>オンボーディングを再度実行</li>
                         </ul>
-                        <p style="margin-top: 12px;">Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.</p>
+                        <p style="margin-top: 12px;">注: GitHubユーザー名またはアカウントリストは利便性のためセキュアに保存されているため、再インストール時に事前入力される場合があります。</p>
                     </div>
                 </div>
             </div>
@@ -997,29 +997,29 @@
 
         <!-- Quick Troubleshooting -->
         <section class="troubleshooting">
-            <h2 class="section-title">Quick Troubleshooting</h2>
+            <h2 class="section-title">クイックトラブルシューティング</h2>
 
             <div class="trouble-item">
                 <div class="trouble-icon">🔄</div>
                 <div class="trouble-content">
-                    <h3>Force Refresh</h3>
-                    <p>Pull down on the main screen to manually refresh your commit data from GitHub.</p>
+                    <h3>強制更新</h3>
+                    <p>メイン画面で下にプルして、GitHubからコミットデータを手動で更新します。</p>
                 </div>
             </div>
 
             <div class="trouble-item">
                 <div class="trouble-icon">⚙️</div>
                 <div class="trouble-content">
-                    <h3>Check Permissions</h3>
-                    <p>Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.</p>
+                    <h3>許可の確認</h3>
+                    <p>iOS設定 → Screen Time → GitFocusに移動し、許可が付与されていることを確認します。</p>
                 </div>
             </div>
 
             <div class="trouble-item">
                 <div class="trouble-icon">🐙</div>
                 <div class="trouble-content">
-                    <h3>Verify GitHub</h3>
-                    <p>Visit github.com/[your-username] and check that your contribution graph shows recent commits.</p>
+                    <h3>GitHubの確認</h3>
+                    <p>github.com/[あなたのユーザー名]にアクセスし、コントリビューショングラフに最近のコミットが表示されていることを確認します。</p>
                 </div>
             </div>
         </section>
@@ -1028,18 +1028,18 @@
         <div class="quick-links">
             <a href="privacy.html" class="quick-link">
                 <span class="quick-link-icon">🔒</span>
-                <span class="quick-link-title">Privacy Policy</span>
-                <span class="quick-link-desc">Learn how we protect your data</span>
+                <span class="quick-link-title">プライバシーポリシー</span>
+                <span class="quick-link-desc">データ保護の詳細を確認</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Bug Report" class="quick-link">
                 <span class="quick-link-icon">🐛</span>
-                <span class="quick-link-title">Report a Bug</span>
-                <span class="quick-link-desc">Help us improve GitFocus</span>
+                <span class="quick-link-title">バグを報告</span>
+                <span class="quick-link-desc">GitFocusの改善にご協力ください</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Feature Request" class="quick-link">
                 <span class="quick-link-icon">💡</span>
-                <span class="quick-link-title">Request a Feature</span>
-                <span class="quick-link-desc">Tell us what you'd like to see</span>
+                <span class="quick-link-title">機能をリクエスト</span>
+                <span class="quick-link-desc">実装してほしい機能をお聞かせください</span>
             </a>
         </div>
     </main>
@@ -1048,10 +1048,10 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Accessibility</a>
+                <a href="/ja/">ホーム</a>
+                <a href="privacy.html">プライバシーポリシー</a>
+                <a href="support.html">サポート</a>
+                <a href="accessibility.html">アクセシビリティ</a>
             </div>
             <div class="footer-copy">
                 © 2026 GitFocus
@@ -1142,6 +1142,6 @@
     </script>
 
     <!-- Cookie Consent & Chatwoot Widget -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>

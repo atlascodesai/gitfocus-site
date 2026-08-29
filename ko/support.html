@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html data-theme="dark" lang="ko" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support - GitFocus</title>
+    <title>지원 - GitFocus</title>
     <meta name="description" content="Get help with GitFocus. FAQs, troubleshooting, and contact information.">
     <meta name="robots" content="index, follow">
 
@@ -19,8 +19,8 @@
     <meta name="twitter:image" content="https://gitfocus.app/assets/app-icon.png">
 
     <!-- Favicon - dynamically updated by JavaScript for theme changes -->
-    <link rel="icon" type="image/png" href="assets/app-icon.png" id="favicon">
-    <link rel="apple-touch-icon" href="assets/app-icon.png">
+    <link rel="icon" type="image/png" href="/assets/app-icon.png" id="favicon">
+    <link rel="apple-touch-icon" href="/assets/app-icon.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -725,30 +725,30 @@
     <!-- /expresslane:hreflang -->
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link">본문으로 건너뛰기</a>
 
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo">
-                <img src="assets/app-icon.png" alt="" class="logo-dark">
-                <img src="assets/app-icon-light.png" alt="" class="logo-light">
+            <a href="/ko/" class="logo">
+                <img src="/assets/app-icon.png" alt="" class="logo-dark">
+                <img src="/assets/app-icon-light.png" alt="" class="logo-light">
                 <span class="logo-text">GitFocus</span>
             </a>
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy</a>
-                <a href="support.html" class="active">Support</a>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                <a href="/ko/">홈</a>
+                <a href="privacy.html">개인정보</a>
+                <a href="support.html" class="active">지원</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="테마 전환">
                     <span class="theme-icon">🌙</span>
                 </button>
                 <details class="expresslane-lang">
-  <summary class="expresslane-lang-trigger" title="English" aria-label="Language: English">
-    <span aria-hidden="true">EN</span>
+  <summary class="expresslane-lang-trigger" title="한국어" aria-label="Language: 한국어">
+    <span aria-hidden="true">KO</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
     <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/support.html">Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html" aria-current="true">English</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html">English</a>
     <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/support.html">Español</a>
     <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/support.html">Français</a>
     <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/support.html">Italiano</a>
@@ -763,7 +763,7 @@
     <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/support.html">العربية</a>
     <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/support.html">日本語</a>
     <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/support.html">简体中文</a>
-    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/support.html">한국어</a>
+    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/support.html" aria-current="true">한국어</a>
   </div>
 </details>
             </div>
@@ -772,78 +772,78 @@
 
     <main id="main-content">
         <header class="page-header">
-            <p class="page-label">// Support</p>
-            <h1 class="page-title">How can we help?</h1>
+            <p class="page-label">// 지원</p>
+            <h1 class="page-title">어떻게 도와드릴까요?</h1>
             <p class="page-subtitle">
-                Find answers to common questions or reach out directly.
-                We typically respond within 24 hours.
+                자주 묻는 질문에 대한 답변을 찾거나 직접 문의하세요.
+                일반적으로 24시간 이내에 응답합니다.
             </p>
         </header>
 
         <!-- Contact Card -->
         <div class="contact-card">
             <div class="contact-icon">💬</div>
-            <h2 class="contact-title">Get in Touch</h2>
+            <h2 class="contact-title">문의하기</h2>
             <p class="contact-desc">
-                Have a question, bug report, or feature request?<br>
-                We'd love to hear from you.
+                질문, 버그 보고 또는 기능 요청이 있으신가요?<br>
+                언제든지 연락해 주세요.
             </p>
             <button onclick="openChatSupport()" class="contact-email" style="cursor: pointer;">
                 <span>💬</span>
-                Chat with us
+                채팅으로 문의
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
-                or email us at
+                또는 이메일로 문의
                 <a href="mailto:support@gitfocus.app" style="color: var(--purple-light); text-decoration: none;">support@gitfocus.app</a>
             </p>
         </div>
 
         <!-- FAQ Section -->
         <section class="faq-section">
-            <h2 class="section-title">Frequently Asked Questions</h2>
+            <h2 class="section-title">자주 묻는 질문</h2>
 
             <div class="faq-categories">
-                <button class="category-pill active" data-category="all">All</button>
-                <button class="category-pill" data-category="setup">Setup</button>
-                <button class="category-pill" data-category="features">Features</button>
-                <button class="category-pill" data-category="troubleshooting">Troubleshooting</button>
+                <button class="category-pill active" data-category="all">전체</button>
+                <button class="category-pill" data-category="setup">설정</button>
+                <button class="category-pill" data-category="features">기능</button>
+                <button class="category-pill" data-category="troubleshooting">문제 해결</button>
             </div>
 
             <!-- Setup FAQs -->
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Do I need to connect my GitHub account?</span>
+                    <span>GitHub 계정을 연결해야 하나요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.</p>
-                        <p style="margin-top: 12px;">You can add multiple GitHub accounts and decide which ones count toward commit detection.</p>
+                        <p>아니요! GitFocus는 추적하려는 GitHub 사용자 이름만 필요합니다. 공개 기여 그래프 (프로필의 녹색 사각형)를 읽어 커밋을 감지합니다. OAuth, 토큰, 비밀번호가 필요하지 않습니다.</p>
+                        <p style="margin-top: 12px;">여러 GitHub 계정을 추가하고 커밋 감지에 포함할 계정을 결정할 수 있습니다.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Why do you need Screen Time permissions?</span>
+                    <span>Screen Time 권한이 필요한 이유는 무엇인가요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.</p>
+                        <p>GitFocus는 Apple의 Screen Time API를 사용하여 앱을 차단합니다. 이는 Apple 기본 자녀 보호 기능과 동일한 보안 시스템입니다. 대신 앱 제한을 적용하려면 권한이 필요합니다.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="setup">
                 <button class="faq-question">
-                    <span>Does GitFocus work with private repositories?</span>
+                    <span>GitFocus는 비공개 저장소에서 작동하나요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show "Private contributions," we'll see them.</p>
-                        <p style="margin-top: 12px;">Go to your GitHub profile → Contribution settings → Check "Private contributions"</p>
+                        <p>네! GitHub는 기본적으로 기여 그래프에 모든 커밋 (공개 및 비공개)을 계산합니다. 기여 설정에서 "비공개 기여"를 표시하도록 설정되어 있으면 확인할 수 있습니다.</p>
+                        <p style="margin-top: 12px;">GitHub 프로필 → 기여 설정 → "비공개 기여"에 체크</p>
                     </div>
                 </div>
             </div>
@@ -851,27 +851,27 @@
             <!-- Features FAQs -->
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>How much time does each commit earn?</span>
+                    <span>각 커밋으로 얼마나 많은 시간을 얻을 수 있나요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Each commit earns you <strong>5 minutes</strong> of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉</p>
+                        <p>각 커밋으로 얻는 것은 <strong>5분</strong> 의 잠금 해제 시간입니다. 3개의 커밋을 푸시하면? 죄책감 없이 15분 동안 Twitter를 스크롤할 수 있습니다. 🎉</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What are "Lives" and how do they work?</span>
+                    <span>"라이프"란 무엇이며 어떻게 작동하나요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:</p>
+                        <p>라이프는 긴급 잠금 해제입니다. 라이프를 사용하면 차단된 모든 앱이 자정까지 잠금 해제됩니다. 1개의 무료 라이프로 시작하며 연속 기록을 통해 더 많이 얻을 수 있습니다:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>14-day streak: +1 life</li>
-                            <li>Then +1 life every month you maintain the streak</li>
+                            <li>14일 연속: 라이프 +1</li>
+                            <li>그 후 연속 기록을 유지하면 매월 라이프 +1</li>
                         </ul>
                     </div>
                 </div>
@@ -879,42 +879,42 @@
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What is the "Borrow Time" feature?</span>
+                    <span>"시간 빌리기" 기능이란 무엇인가요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates "debt" that gets paid back from your future commit earnings.</p>
-                        <p style="margin-top: 12px;">Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.</p>
+                        <p>빠른 메시지를 마무리해야 하는데 잠금 해제 시간이 없나요? 최대 5분까지 빌릴 수 있습니다. 이는 향후 커밋 수익에서 상환되는 "부채"를 생성합니다.</p>
+                        <p style="margin-top: 12px;">예: 3분을 빌립니다. 다음 커밋으로 5분을 얻지만 3분이 부채 상환에 사용되어 2분이 남습니다.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What is the Discipline Bank?</span>
+                    <span>Discipline Bank란 무엇인가요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.</p>
-                        <p style="margin-top: 12px;">Challenge yourself: How many minutes can you bank by the end of the year?</p>
+                        <p>Discipline Bank는 획득했지만 사용하지 않은 시간을 추적합니다. 이는 자제력의 척도입니다. 획득했지만 방해 요소에 소비하지 않은 각 분이 은행에 저축됩니다.</p>
+                        <p style="margin-top: 12px;">도전해 보세요: 연말까지 몇 분을 저축할 수 있나요?</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="features">
                 <button class="faq-question">
-                    <span>What are the streak milestone rewards?</span>
+                    <span>연속 기록 마일스톤 보상은 무엇인가요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Building a streak unlocks permanent perks:</p>
+                        <p>연속 기록을 쌓으면 영구 혜택이 잠금 해제됩니다:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li><strong>14 days:</strong> +1 extra life (then +1/month)</li>
-                            <li><strong>30 days:</strong> Weekly time bank (unused time resets weekly instead of daily)</li>
-                            <li><strong>90 days:</strong> Permanent time (earned time never expires)</li>
+                            <li><strong>14일:</strong> 추가 라이프 +1 (이후 매월 +1)</li>
+                            <li><strong>30일:</strong> 주간 타임 뱅크 (미사용 시간이 매일 대신 매주 리셋)</li>
+                            <li><strong>90일:</strong> 영구 시간 (획득 시간이 만료되지 않음)</li>
                         </ul>
                     </div>
                 </div>
@@ -923,18 +923,18 @@
             <!-- Troubleshooting FAQs -->
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>My commits aren't being detected</span>
+                    <span>커밋이 감지되지 않습니다</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Here are some things to check:</p>
+                        <p>확인할 사항:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Make sure your GitHub username is entered correctly</li>
-                            <li>If you use multiple accounts, check that the right accounts are enabled for commit detection</li>
-                            <li>Check that your commits show up on your GitHub profile's contribution graph</li>
-                            <li>If using private repos, ensure "Private contributions" is enabled in GitHub settings</li>
-                            <li>Wait a few minutes — GitHub's contribution graph can take time to update</li>
+                            <li>GitHub 사용자 이름이 올바르게 입력되었는지 확인하세요</li>
+                            <li>여러 계정을 사용하는 경우 커밋 감지에 올바른 계정이 활성화되어 있는지 확인하세요</li>
+                            <li>GitHub 프로필의 기여 그래프에 커밋이 표시되는지 확인하세요</li>
+                            <li>비공개 저장소를 사용하는 경우 GitHub 설정에서 "비공개 기여"가 활성화되어 있는지 확인하세요</li>
+                            <li>몇 분 기다려 보세요 — GitHub의 기여 그래프는 업데이트하는 데 시간이 걸릴 수 있습니다</li>
                         </ul>
                     </div>
                 </div>
@@ -942,35 +942,35 @@
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>Apps aren't being blocked</span>
+                    <span>앱이 차단되지 않습니다</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Make sure you've:</p>
+                        <p>다음을 확인하세요:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Granted Screen Time permissions during setup</li>
-                            <li>Selected at least one app or category to block</li>
-                            <li>Started a focus session from the main screen</li>
+                            <li>설정 중 Screen Time 권한을 부여했는지</li>
+                            <li>차단할 앱 또는 카테고리를 하나 이상 선택했는지</li>
+                            <li>메인 화면에서 집중 세션을 시작했는지</li>
                         </ul>
-                        <p style="margin-top: 12px;">If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.</p>
+                        <p style="margin-top: 12px;">문제가 계속되면 iOS 설정 → Screen Time으로 이동하여 GitFocus에 필요한 권한이 있는지 확인하세요.</p>
                     </div>
                 </div>
             </div>
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>The app crashed or is behaving unexpectedly</span>
+                    <span>앱이 충돌하거나 예기치 않게 작동합니다</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Try these steps:</p>
+                        <p>다음 단계를 시도하세요:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Force quit and reopen the app</li>
-                            <li>Restart your device</li>
-                            <li>Make sure you're on the latest version of GitFocus</li>
-                            <li>If the issue persists, email us at <a href="mailto:support@gitfocus.app">support@gitfocus.app</a> with details about what happened</li>
+                            <li>앱을 강제 종료하고 다시 열기</li>
+                            <li>기기 재시작</li>
+                            <li>GitFocus의 최신 버전을 사용하고 있는지 확인</li>
+                            <li>문제가 계속되면 다음 이메일로 문의하세요 <a href="mailto:support@gitfocus.app">support@gitfocus.app</a> 무슨 일이 있었는지 자세한 내용과 함께</li>
                         </ul>
                     </div>
                 </div>
@@ -978,18 +978,18 @@
 
             <div class="faq-item" data-category="troubleshooting">
                 <button class="faq-question">
-                    <span>How do I reset or start over?</span>
+                    <span>재설정하거나 처음부터 다시 시작하려면 어떻게 하나요?</span>
                     <span class="faq-icon">+</span>
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>To completely reset GitFocus:</p>
+                        <p>GitFocus를 완전히 재설정하려면:</p>
                         <ul style="margin-top: 12px; margin-left: 20px;">
-                            <li>Delete the app from your device</li>
-                            <li>Reinstall from the App Store</li>
-                            <li>Go through the onboarding again</li>
+                            <li>기기에서 앱 삭제</li>
+                            <li>App Store에서 재설치</li>
+                            <li>온보딩 다시 진행</li>
                         </ul>
-                        <p style="margin-top: 12px;">Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.</p>
+                        <p style="margin-top: 12px;">참고: GitHub 사용자 이름 또는 계정 목록은 편의를 위해 안전하게 저장되므로 재설치 시 미리 채워질 수 있습니다.</p>
                     </div>
                 </div>
             </div>
@@ -997,29 +997,29 @@
 
         <!-- Quick Troubleshooting -->
         <section class="troubleshooting">
-            <h2 class="section-title">Quick Troubleshooting</h2>
+            <h2 class="section-title">빠른 문제 해결</h2>
 
             <div class="trouble-item">
                 <div class="trouble-icon">🔄</div>
                 <div class="trouble-content">
-                    <h3>Force Refresh</h3>
-                    <p>Pull down on the main screen to manually refresh your commit data from GitHub.</p>
+                    <h3>강제 새로고침</h3>
+                    <p>메인 화면에서 아래로 당겨 GitHub에서 커밋 데이터를 수동으로 새로고침합니다.</p>
                 </div>
             </div>
 
             <div class="trouble-item">
                 <div class="trouble-icon">⚙️</div>
                 <div class="trouble-content">
-                    <h3>Check Permissions</h3>
-                    <p>Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.</p>
+                    <h3>권한 확인</h3>
+                    <p>iOS 설정 → Screen Time → GitFocus로 이동하여 권한이 부여되었는지 확인합니다.</p>
                 </div>
             </div>
 
             <div class="trouble-item">
                 <div class="trouble-icon">🐙</div>
                 <div class="trouble-content">
-                    <h3>Verify GitHub</h3>
-                    <p>Visit github.com/[your-username] and check that your contribution graph shows recent commits.</p>
+                    <h3>GitHub 확인</h3>
+                    <p>github.com/[귀하의-사용자이름]을 방문하여 기여 그래프에 최근 커밋이 표시되는지 확인합니다.</p>
                 </div>
             </div>
         </section>
@@ -1028,18 +1028,18 @@
         <div class="quick-links">
             <a href="privacy.html" class="quick-link">
                 <span class="quick-link-icon">🔒</span>
-                <span class="quick-link-title">Privacy Policy</span>
-                <span class="quick-link-desc">Learn how we protect your data</span>
+                <span class="quick-link-title">개인정보 처리방침</span>
+                <span class="quick-link-desc">데이터 보호 방법 알아보기</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Bug Report" class="quick-link">
                 <span class="quick-link-icon">🐛</span>
-                <span class="quick-link-title">Report a Bug</span>
-                <span class="quick-link-desc">Help us improve GitFocus</span>
+                <span class="quick-link-title">버그 신고</span>
+                <span class="quick-link-desc">GitFocus 개선에 도움주기</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Feature Request" class="quick-link">
                 <span class="quick-link-icon">💡</span>
-                <span class="quick-link-title">Request a Feature</span>
-                <span class="quick-link-desc">Tell us what you'd like to see</span>
+                <span class="quick-link-title">기능 요청</span>
+                <span class="quick-link-desc">원하는 기능 알려주기</span>
             </a>
         </div>
     </main>
@@ -1048,10 +1048,10 @@
     <footer>
         <div class="footer-container">
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="support.html">Support</a>
-                <a href="accessibility.html">Accessibility</a>
+                <a href="/ko/">홈</a>
+                <a href="privacy.html">개인정보 처리방침</a>
+                <a href="support.html">지원</a>
+                <a href="accessibility.html">접근성</a>
             </div>
             <div class="footer-copy">
                 © 2026 GitFocus
@@ -1142,6 +1142,6 @@
     </script>
 
     <!-- Cookie Consent & Chatwoot Widget -->
-    <script src="js/cookie-consent.js"></script>
+    <script src="/js/cookie-consent.js"></script>
 </body>
 </html>
