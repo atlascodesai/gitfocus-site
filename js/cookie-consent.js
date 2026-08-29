@@ -270,8 +270,17 @@
     };
     /* i18n:end */
     function t(s) {
+        // Index pages carry short lang codes ("ar"), secondary pages full ones
+        // ("ar-SA"); match exact first, then by primary subtag.
         const lang = document.documentElement.getAttribute('lang') || 'en-US';
-        return (I18N[lang] || {})[s] || s;
+        let table = I18N[lang];
+        if (!table) {
+            const primary = lang.split('-')[0].toLowerCase();
+            for (const key of Object.keys(I18N)) {
+                if (key.split('-')[0].toLowerCase() === primary) { table = I18N[key]; break; }
+            }
+        }
+        return (table || {})[s] || s;
     }
     // Localized pages live in /<dir>/; the privacy link follows the page's locale.
     function privacyHref() {
