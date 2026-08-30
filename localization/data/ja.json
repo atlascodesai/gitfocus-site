@@ -1,7 +1,7 @@
 {
  "locale": "ja",
  "label": "日本語",
- "generated": "2026-08-30T02:24:44Z",
+ "generated": "2026-08-30T02:43:01Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4845,8 +4845,8 @@
    "id": "site.support.050",
    "kind": "site",
    "section": "support",
-   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
-   "value": "のロック解除時間です。3つのコミットをプッシュすると？Twitterを15分間、罪悪感なくスクロールできます。🎉"
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
+   "value": "のロック解除時間です。3つのコミットをプッシュすると？Twitterを15分間、罪悪感なくスクロールできます。"
   },
   {
    "id": "site.support.051",
@@ -5685,8 +5685,8 @@
    "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No OAuth Required",
-   "value": "✅ OAuth不要"
+   "en": "No OAuth Required",
+   "value": "OAuth不要"
   },
   {
    "id": "site.privacy.055",
@@ -6021,8 +6021,8 @@
    "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No Access to App Data",
-   "value": "✅ アプリデータへのアクセスなし"
+   "en": "No Access to App Data",
+   "value": "アプリデータへのアクセスなし"
   },
   {
    "id": "site.privacy.103",

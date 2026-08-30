@@ -1,7 +1,7 @@
 {
  "locale": "ar",
  "label": "العربية",
- "generated": "2026-08-30T02:24:44Z",
+ "generated": "2026-08-30T02:43:01Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4845,8 +4845,8 @@
    "id": "site.support.050",
    "kind": "site",
    "section": "support",
-   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
-   "value": "من وقت إلغاء القفل. دفع 3 التزامات؟ هذا 15 دقيقة لتصفح Twitter بدون شعور بالذنب. 🎉"
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
+   "value": "من وقت إلغاء القفل. دفع 3 التزامات؟ هذا 15 دقيقة لتصفح Twitter بدون شعور بالذنب."
   },
   {
    "id": "site.support.051",
@@ -5685,8 +5685,8 @@
    "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No OAuth Required",
-   "value": "✅ لا حاجة لـ OAuth"
+   "en": "No OAuth Required",
+   "value": "لا حاجة لـ OAuth"
   },
   {
    "id": "site.privacy.055",
@@ -6021,8 +6021,8 @@
    "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No Access to App Data",
-   "value": "✅ لا وصول لبيانات التطبيق"
+   "en": "No Access to App Data",
+   "value": "لا وصول لبيانات التطبيق"
   },
   {
    "id": "site.privacy.103",

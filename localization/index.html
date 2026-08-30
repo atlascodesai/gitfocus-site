@@ -164,7 +164,8 @@
             font-family: var(--font-display); font-size: .88rem; font-weight: 600;
             border-radius: 10px; padding: .55rem 1rem; cursor: pointer; border: 1px solid var(--border);
         }
-        #clearSel { background: var(--bg-card); color: var(--text-secondary); }
+        #clearSel, #emailSubmit { background: var(--bg-card); color: var(--text-secondary); }
+    #emailSubmit { color: var(--text-primary); }
         #submit {
             background: var(--purple-dark); color: #fff; border-color: transparent;
             box-shadow: 0 4px 18px var(--glow);
@@ -217,8 +218,8 @@
 
 <div class="submitbar" id="bar">
     <span class="n" id="selCount"></span>
-    <span class="publicnote">Submitting opens a public GitHub issue prefilled with the
-    selected strings and your notes — nothing is sent until you post it there.</span>
+    <span class="publicnote">Nothing is sent until you finish it yourself — as a public
+    GitHub issue, or by plain email (no account needed).</span>
     <span class="grow"></span>
     <label class="toggle" for="creditMe">
         <input type="checkbox" id="creditMe"> credit me
@@ -226,6 +227,7 @@
     <input type="text" id="creditName" placeholder="name or @handle" hidden
            aria-label="Name to credit" style="width:11rem">
     <button id="clearSel">Clear</button>
+    <button id="emailSubmit">Send by email</button>
     <button id="submit">Submit on GitHub</button>
 </div>
 
@@ -234,6 +236,7 @@
     'use strict';
     var REPO = 'atlascodesai/gitfocus-site';
     var LABELS = 'localization';
+    var EMAIL = 'support@gitfocus.app';
     var RTL = { ar: true };
     var MAX_URL = 7500;
 
@@ -439,26 +442,52 @@
         return parts.join('\n');
     }
 
+    function feedbackTitle(n) {
+        return 'Localization feedback: ' + state.locale + ' (' + n
+            + (n === 1 ? ' string' : ' strings') + ')';
+    }
+
+    function openWithClipboardFallback(url, base, body, note) {
+        if (url.length <= MAX_URL) {
+            window.open(url, '_blank');
+            return;
+        }
+        var copied = navigator.clipboard && navigator.clipboard.writeText
+            ? navigator.clipboard.writeText(body) : Promise.reject();
+        Promise.resolve(copied).catch(function () {}).then(function () {
+            window.open(base + encodeURIComponent(note), '_blank');
+        });
+    }
+
     function submit() {
         var n = Object.keys(state.sel).length;
         if (!n) return;
-        var title = 'Localization feedback: ' + state.locale + ' (' + n
-            + (n === 1 ? ' string' : ' strings') + ')';
         var body = issueBody();
         var base = 'https://github.com/' + REPO + '/issues/new?labels=' + encodeURIComponent(LABELS)
-            + '&title=' + encodeURIComponent(title) + '&body=';
+            + '&title=' + encodeURIComponent(feedbackTitle(n)) + '&body=';
+        openWithClipboardFallback(base + encodeURIComponent(body), base, body,
+            '<!-- The full feedback was too long for a prefilled link. '
+            + 'It was copied to your clipboard — paste it here. -->');
+    }
+
+    function submitEmail() {
+        var n = Object.keys(state.sel).length;
+        if (!n) return;
+        var body = issueBody();
+        var base = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(feedbackTitle(n)) + '&body=';
+        // mailto URLs break past ~2000 chars in several clients
         var url = base + encodeURIComponent(body);
-        if (url.length > MAX_URL) {
-            var copied = navigator.clipboard && navigator.clipboard.writeText
-                ? navigator.clipboard.writeText(body) : Promise.reject();
-            Promise.resolve(copied).catch(function () {}).then(function () {
-                window.open(base + encodeURIComponent(
-                    '<!-- The full feedback was too long for a prefilled link. '
-                    + 'It was copied to your clipboard — paste it here. -->'), '_blank');
-            });
+        if (url.length <= 1900) {
+            window.location.href = url;
             return;
         }
-        window.open(url, '_blank');
+        var copied = navigator.clipboard && navigator.clipboard.writeText
+            ? navigator.clipboard.writeText(body) : Promise.reject();
+        Promise.resolve(copied).catch(function () {}).then(function () {
+            window.location.href = base + encodeURIComponent(
+                'The full feedback was too long for a prefilled draft. '
+                + 'It was copied to your clipboard - please paste it here.');
+        });
     }
 
     fetch('data/meta.json').then(function (r) { return r.json(); }).then(function (meta) {
@@ -500,6 +529,7 @@
     });
     $('clearSel').addEventListener('click', function () { state.sel = {}; render(); });
     $('submit').addEventListener('click', submit);
+    $('emailSubmit').addEventListener('click', submitEmail);
 })();
 </script>
 </body>

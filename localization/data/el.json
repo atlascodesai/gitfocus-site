@@ -1,7 +1,7 @@
 {
  "locale": "el",
  "label": "Ελληνικά",
- "generated": "2026-08-30T02:24:44Z",
+ "generated": "2026-08-30T02:43:01Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4845,8 +4845,8 @@
    "id": "site.support.050",
    "kind": "site",
    "section": "support",
-   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
-   "value": "χρόνου ξεκλειδώματος. Ανεβάζετε 3 commits; Αυτά είναι 15 λεπτά για να κάνετε scroll στο Twitter χωρίς ενοχές. 🎉"
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
+   "value": "χρόνου ξεκλειδώματος. Ανεβάζετε 3 commits; Αυτά είναι 15 λεπτά για να κάνετε scroll στο Twitter χωρίς ενοχές."
   },
   {
    "id": "site.support.051",
@@ -5685,8 +5685,8 @@
    "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No OAuth Required",
-   "value": "✅ Δεν Απαιτείται OAuth"
+   "en": "No OAuth Required",
+   "value": "Δεν Απαιτείται OAuth"
   },
   {
    "id": "site.privacy.055",
@@ -6021,8 +6021,8 @@
    "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No Access to App Data",
-   "value": "✅ Δεν Υπάρχει Πρόσβαση στα Δεδομένα της Εφαρμογής"
+   "en": "No Access to App Data",
+   "value": "Δεν Υπάρχει Πρόσβαση στα Δεδομένα της Εφαρμογής"
   },
   {
    "id": "site.privacy.103",

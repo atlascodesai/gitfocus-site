@@ -1,7 +1,7 @@
 {
  "locale": "ko",
  "label": "한국어",
- "generated": "2026-08-30T02:24:44Z",
+ "generated": "2026-08-30T02:43:01Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4838,8 +4838,8 @@
    "id": "site.support.049",
    "kind": "site",
    "section": "support",
-   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
-   "value": "의 잠금 해제 시간입니다. 3개의 커밋을 푸시하면? 죄책감 없이 15분 동안 Twitter를 스크롤할 수 있습니다. 🎉"
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
+   "value": "의 잠금 해제 시간입니다. 3개의 커밋을 푸시하면? 죄책감 없이 15분 동안 Twitter를 스크롤할 수 있습니다."
   },
   {
    "id": "site.support.050",
@@ -5664,8 +5664,8 @@
    "id": "site.privacy.053",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No OAuth Required",
-   "value": "✅ OAuth 불필요"
+   "en": "No OAuth Required",
+   "value": "OAuth 불필요"
   },
   {
    "id": "site.privacy.054",
@@ -6000,8 +6000,8 @@
    "id": "site.privacy.101",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No Access to App Data",
-   "value": "✅ 앱 데이터 액세스 없음"
+   "en": "No Access to App Data",
+   "value": "앱 데이터 액세스 없음"
   },
   {
    "id": "site.privacy.102",

@@ -1,7 +1,7 @@
 {
  "locale": "fr",
  "label": "Français",
- "generated": "2026-08-30T02:24:44Z",
+ "generated": "2026-08-30T02:43:01Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4845,8 +4845,8 @@
    "id": "site.support.050",
    "kind": "site",
    "section": "support",
-   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
-   "value": "de temps de déverrouillage. Pusher 3 commits ? C'est 15 minutes pour scroller Twitter sans culpabilité. 🎉"
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
+   "value": "de temps de déverrouillage. Pusher 3 commits ? C'est 15 minutes pour scroller Twitter sans culpabilité."
   },
   {
    "id": "site.support.051",
@@ -5685,8 +5685,8 @@
    "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No OAuth Required",
-   "value": "✅ Aucun OAuth requis"
+   "en": "No OAuth Required",
+   "value": "Aucun OAuth requis"
   },
   {
    "id": "site.privacy.055",
@@ -6021,8 +6021,8 @@
    "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
-   "en": "✅ No Access to App Data",
-   "value": "✅ Aucun accès aux données de l'application"
+   "en": "No Access to App Data",
+   "value": "Aucun accès aux données de l'application"
   },
   {
    "id": "site.privacy.103",

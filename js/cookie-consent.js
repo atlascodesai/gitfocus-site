@@ -286,7 +286,7 @@
     function privacyHref() {
         const seg = window.location.pathname.split('/')[1];
         const dirs = I18N.__dirs || [];
-        return dirs.indexOf(seg) >= 0 ? '/' + seg + '/privacy.html' : '/privacy.html';
+        return dirs.indexOf(seg) >= 0 ? '/' + seg + '/privacy' : '/privacy';
     }
 
     const CONSENT_KEY = 'chatwoot-consent';

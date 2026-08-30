@@ -47,13 +47,13 @@
 
     // The same document in another locale. Only pages that exist in every
     // locale are linked; anything else falls back to that locale's home.
-    var LOCALIZED_PAGES = ['index.html', 'privacy.html', 'support.html', 'accessibility.html'];
+    var LOCALIZED_PAGES = ['privacy', 'support', 'accessibility'];
     function pathIn(dir) {
         var parts = window.location.pathname.split('/').filter(Boolean);
         if (parts[0] && Object.prototype.hasOwnProperty.call(LOCALES, parts[0])) parts.shift();
-        var page = parts.join('/') || '';
+        var page = (parts.join('/') || '').replace(/\.html$/, '');
+        if (page === 'index') page = '';
         if (page && LOCALIZED_PAGES.indexOf(page) < 0) page = '';
-        if (page === 'index.html') page = '';
         return '/' + (dir ? dir + '/' : '') + page;
     }
 

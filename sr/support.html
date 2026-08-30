@@ -500,13 +500,16 @@
 
         /* Quick Links */
         .quick-links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: var(--space-md);
             margin-top: var(--space-xl);
         }
 
         .quick-link {
+            flex: 1 1 240px;
+            max-width: 300px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -716,24 +719,24 @@
         .quick-link-icon, .trouble-icon, .contact-icon, .tldr-item .icon { color: var(--purple-light); }
     </style>
   <!-- expresslane:hreflang -->
-    <link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/support.html">
-    <link rel="alternate" hreflang="de-DE" href="https://gitfocus.app/de/support.html">
-    <link rel="alternate" hreflang="el" href="https://gitfocus.app/el/support.html">
-    <link rel="alternate" hreflang="en-US" href="https://gitfocus.app/support.html">
-    <link rel="alternate" hreflang="es-ES" href="https://gitfocus.app/es/support.html">
-    <link rel="alternate" hreflang="fr-FR" href="https://gitfocus.app/fr/support.html">
-    <link rel="alternate" hreflang="it" href="https://gitfocus.app/it/support.html">
-    <link rel="alternate" hreflang="ja" href="https://gitfocus.app/ja/support.html">
-    <link rel="alternate" hreflang="ko" href="https://gitfocus.app/ko/support.html">
-    <link rel="alternate" hreflang="nl-NL" href="https://gitfocus.app/nl/support.html">
-    <link rel="alternate" hreflang="pt-BR" href="https://gitfocus.app/pt-br/support.html">
-    <link rel="alternate" hreflang="ru" href="https://gitfocus.app/ru/support.html">
-    <link rel="alternate" hreflang="sk" href="https://gitfocus.app/sk/support.html">
-    <link rel="alternate" hreflang="sr" href="https://gitfocus.app/sr/support.html">
-    <link rel="alternate" hreflang="sr-Latn" href="https://gitfocus.app/sr-latn/support.html">
-    <link rel="alternate" hreflang="uk" href="https://gitfocus.app/uk/support.html">
-    <link rel="alternate" hreflang="zh-Hans" href="https://gitfocus.app/zh/support.html">
-    <link rel="alternate" hreflang="x-default" href="https://gitfocus.app/support.html">
+    <link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/support">
+    <link rel="alternate" hreflang="de-DE" href="https://gitfocus.app/de/support">
+    <link rel="alternate" hreflang="el" href="https://gitfocus.app/el/support">
+    <link rel="alternate" hreflang="en-US" href="https://gitfocus.app/support">
+    <link rel="alternate" hreflang="es-ES" href="https://gitfocus.app/es/support">
+    <link rel="alternate" hreflang="fr-FR" href="https://gitfocus.app/fr/support">
+    <link rel="alternate" hreflang="it" href="https://gitfocus.app/it/support">
+    <link rel="alternate" hreflang="ja" href="https://gitfocus.app/ja/support">
+    <link rel="alternate" hreflang="ko" href="https://gitfocus.app/ko/support">
+    <link rel="alternate" hreflang="nl-NL" href="https://gitfocus.app/nl/support">
+    <link rel="alternate" hreflang="pt-BR" href="https://gitfocus.app/pt-br/support">
+    <link rel="alternate" hreflang="ru" href="https://gitfocus.app/ru/support">
+    <link rel="alternate" hreflang="sk" href="https://gitfocus.app/sk/support">
+    <link rel="alternate" hreflang="sr" href="https://gitfocus.app/sr/support">
+    <link rel="alternate" hreflang="sr-Latn" href="https://gitfocus.app/sr-latn/support">
+    <link rel="alternate" hreflang="uk" href="https://gitfocus.app/uk/support">
+    <link rel="alternate" hreflang="zh-Hans" href="https://gitfocus.app/zh/support">
+    <link rel="alternate" hreflang="x-default" href="https://gitfocus.app/support">
     <!-- /expresslane:hreflang -->
 </head>
 <body>
@@ -749,8 +752,8 @@
             </a>
             <div class="nav-links">
                 <a href="/sr/">Почетна</a>
-                <a href="privacy.html">Приватност</a>
-                <a href="support.html" class="active">Подршка</a>
+                <a href="privacy">Приватност</a>
+                <a href="support" class="active">Подршка</a>
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Промени тему">
                     <span class="theme-icon"><svg class="gf-i gf-moon" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="gf-i gf-sun" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg></span>
                 </button>
@@ -759,23 +762,23 @@
     <span aria-hidden="true">🇷🇸 СР</span>
   </summary>
   <div class="expresslane-lang-menu" role="navigation" aria-label="Language">
-    <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/support.html"><span aria-hidden="true">🇩🇪</span> Deutsch</a>
-    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support.html"><span aria-hidden="true">🇬🇧</span> English</a>
-    <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/support.html"><span aria-hidden="true">🇲🇽</span> Español</a>
-    <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/support.html"><span aria-hidden="true">🇫🇷</span> Français</a>
-    <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/support.html"><span aria-hidden="true">🇮🇹</span> Italiano</a>
-    <a class="expresslane-lang-item" hreflang="nl-NL" lang="nl-NL" href="/nl/support.html"><span aria-hidden="true">🇳🇱</span> Nederlands</a>
-    <a class="expresslane-lang-item" hreflang="pt-BR" lang="pt-BR" href="/pt-br/support.html"><span aria-hidden="true">🇧🇷</span> Português (Brasil)</a>
-    <a class="expresslane-lang-item" hreflang="sk" lang="sk" href="/sk/support.html"><span aria-hidden="true">🇸🇰</span> Slovenčina</a>
-    <a class="expresslane-lang-item" hreflang="sr-Latn" lang="sr-Latn" href="/sr-latn/support.html"><span aria-hidden="true">🇷🇸</span> Srpski</a>
-    <a class="expresslane-lang-item" hreflang="el" lang="el" href="/el/support.html"><span aria-hidden="true">🇬🇷</span> Ελληνικά</a>
-    <a class="expresslane-lang-item" hreflang="ru" lang="ru" href="/ru/support.html"><span aria-hidden="true">🇷🇺</span> Русский</a>
-    <a class="expresslane-lang-item" hreflang="sr" lang="sr" href="/sr/support.html" aria-current="true"><span aria-hidden="true">🇷🇸</span> Српски</a>
-    <a class="expresslane-lang-item" hreflang="uk" lang="uk" href="/uk/support.html"><span aria-hidden="true">🇺🇦</span> Українська</a>
-    <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/support.html"><span aria-hidden="true">🇸🇦</span> العربية</a>
-    <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/support.html"><span aria-hidden="true">🇯🇵</span> 日本語</a>
-    <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/support.html"><span aria-hidden="true">🇨🇳</span> 简体中文</a>
-    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/support.html"><span aria-hidden="true">🇰🇷</span> 한국어</a>
+    <a class="expresslane-lang-item" hreflang="de-DE" lang="de-DE" href="/de/support"><span aria-hidden="true">🇩🇪</span> Deutsch</a>
+    <a class="expresslane-lang-item" hreflang="en-US" lang="en-US" href="/support"><span aria-hidden="true">🇬🇧</span> English</a>
+    <a class="expresslane-lang-item" hreflang="es-ES" lang="es-ES" href="/es/support"><span aria-hidden="true">🇲🇽</span> Español</a>
+    <a class="expresslane-lang-item" hreflang="fr-FR" lang="fr-FR" href="/fr/support"><span aria-hidden="true">🇫🇷</span> Français</a>
+    <a class="expresslane-lang-item" hreflang="it" lang="it" href="/it/support"><span aria-hidden="true">🇮🇹</span> Italiano</a>
+    <a class="expresslane-lang-item" hreflang="nl-NL" lang="nl-NL" href="/nl/support"><span aria-hidden="true">🇳🇱</span> Nederlands</a>
+    <a class="expresslane-lang-item" hreflang="pt-BR" lang="pt-BR" href="/pt-br/support"><span aria-hidden="true">🇧🇷</span> Português (Brasil)</a>
+    <a class="expresslane-lang-item" hreflang="sk" lang="sk" href="/sk/support"><span aria-hidden="true">🇸🇰</span> Slovenčina</a>
+    <a class="expresslane-lang-item" hreflang="sr-Latn" lang="sr-Latn" href="/sr-latn/support"><span aria-hidden="true">🇷🇸</span> Srpski</a>
+    <a class="expresslane-lang-item" hreflang="el" lang="el" href="/el/support"><span aria-hidden="true">🇬🇷</span> Ελληνικά</a>
+    <a class="expresslane-lang-item" hreflang="ru" lang="ru" href="/ru/support"><span aria-hidden="true">🇷🇺</span> Русский</a>
+    <a class="expresslane-lang-item" hreflang="sr" lang="sr" href="/sr/support" aria-current="true"><span aria-hidden="true">🇷🇸</span> Српски</a>
+    <a class="expresslane-lang-item" hreflang="uk" lang="uk" href="/uk/support"><span aria-hidden="true">🇺🇦</span> Українська</a>
+    <a class="expresslane-lang-item" hreflang="ar-SA" lang="ar-SA" href="/ar/support"><span aria-hidden="true">🇸🇦</span> العربية</a>
+    <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/support"><span aria-hidden="true">🇯🇵</span> 日本語</a>
+    <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/support"><span aria-hidden="true">🇨🇳</span> 简体中文</a>
+    <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/support"><span aria-hidden="true">🇰🇷</span> 한국어</a>
   </div>
 </details>
             </div>
@@ -1038,7 +1041,7 @@
 
         <!-- Quick Links -->
         <div class="quick-links">
-            <a href="privacy.html" class="quick-link">
+            <a href="privacy" class="quick-link">
                 <span class="quick-link-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
                 <span class="quick-link-title">Политика приватности</span>
                 <span class="quick-link-desc">Сазнајте како штитимо ваше податке</span>
@@ -1066,9 +1069,9 @@
         <div class="footer-container">
             <div class="footer-links">
                 <a href="/sr/">Почетна</a>
-                <a href="privacy.html">Политика приватности</a>
-                <a href="support.html">Подршка</a>
-                <a href="accessibility.html">Приступачност</a>
+                <a href="privacy">Политика приватности</a>
+                <a href="support">Подршка</a>
+                <a href="accessibility">Приступачност</a>
             </div>
             <div class="footer-copy">
                 © 2026 GitFocus
