@@ -1,0 +1,6945 @@
+{
+ "locale": "it",
+ "label": "Italiano",
+ "generated": "2026-08-30T01:56:34Z",
+ "rows": [
+  {
+   "id": "deviceactivityreport.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "App Usage",
+   "value": "Utilizzo dell'app"
+  },
+  {
+   "id": "deviceactivityreport.clear.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Clear All",
+   "value": "Cancella tutto"
+  },
+  {
+   "id": "deviceactivityreport.count.apps",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d apps",
+   "value": "%d app",
+   "comment": "App count label"
+  },
+  {
+   "id": "deviceactivityreport.count.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d device)",
+   "value": "(%d dispositivo)"
+  },
+  {
+   "id": "deviceactivityreport.count.devices",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d devices)",
+   "value": "(%d dispositivi)"
+  },
+  {
+   "id": "deviceactivityreport.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d pickups",
+   "value": "%d ritiri",
+   "comment": "Pickups count"
+  },
+  {
+   "id": "deviceactivityreport.double.tap.toggle.device.filter",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Double tap to toggle device filter",
+   "value": "Tocca due volte per attivare/disattivare il filtro del dispositivo"
+  },
+  {
+   "id": "deviceactivityreport.filter.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Filter by Device",
+   "value": "Filtra per dispositivo"
+  },
+  {
+   "id": "deviceactivityreport.no.app.usage.data.yet",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No app usage data yet",
+   "value": "Nessun dato sull'utilizzo dell'app ancora"
+  },
+  {
+   "id": "deviceactivityreport.no.usage.data.available",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No usage data available",
+   "value": "Nessun dato di utilizzo disponibile"
+  },
+  {
+   "id": "deviceactivityreport.not.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Not selected",
+   "value": "Non selezionato"
+  },
+  {
+   "id": "deviceactivityreport.screen.time.data.collected.privately.your.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Screen time data is collected privately on your device",
+   "value": "I dati sul tempo di utilizzo vengono raccolti privatamente sul tuo dispositivo"
+  },
+  {
+   "id": "deviceactivityreport.select.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select All",
+   "value": "Seleziona tutto"
+  },
+  {
+   "id": "deviceactivityreport.select.device.view.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select a device to view app usage",
+   "value": "Seleziona un dispositivo per visualizzare l'utilizzo dell'app"
+  },
+  {
+   "id": "deviceactivityreport.select.devices.view",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select devices to view",
+   "value": "Seleziona i dispositivi da visualizzare"
+  },
+  {
+   "id": "deviceactivityreport.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Selected",
+   "value": "Selezionato"
+  },
+  {
+   "id": "deviceactivityreport.text.used.text.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%@, used for %@, %d pickups",
+   "value": "%@, utilizzato per pickup %@, %d",
+   "comment": "Accessibility: app usage summary"
+  },
+  {
+   "id": "deviceactivityreport.today",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today",
+   "value": "Oggi",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "deviceactivityreport.todays.activity",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today's Activity",
+   "value": "L'attività di oggi"
+  },
+  {
+   "id": "deviceactivityreport.total.screen.time",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Total Screen Time",
+   "value": "Tempo totale sullo schermo"
+  },
+  {
+   "id": "deviceactivityreport.under.one.minute",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "< 1m",
+   "value": "< 1 m",
+   "comment": "Less than one minute"
+  },
+  {
+   "id": "deviceactivityreport.usage.level.count.percent",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Usage level: %d%%",
+   "value": "Livello di utilizzo: %d%%",
+   "comment": "Accessibility: usage percentage"
+  },
+  {
+   "id": "deviceactivityreport.use.some.apps.today.see.them.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use some apps today to see them here",
+   "value": "Utilizza alcune app oggi per vederle qui"
+  },
+  {
+   "id": "deviceactivityreport.use.your.selected.apps.see.screen.time.data.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use your selected apps to see screen time data here",
+   "value": "Utilizza le app selezionate per visualizzare i dati sul tempo di utilizzo qui"
+  },
+  {
+   "id": "deviceactivityreport.yesterday",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Yesterday",
+   "value": "Ieri",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.about",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "About",
+   "value": "Di"
+  },
+  {
+   "id": "gitfocus.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Account",
+   "value": "Account"
+  },
+  {
+   "id": "gitfocus.achievements",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Achievements",
+   "value": "Risultati"
+  },
+  {
+   "id": "gitfocus.active.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Active Days",
+   "value": "Giorni attivi"
+  },
+  {
+   "id": "gitfocus.add.more.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Add More Apps",
+   "value": "Aggiungi altre app"
+  },
+  {
+   "id": "gitfocus.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All",
+   "value": "Tutto"
+  },
+  {
+   "id": "gitfocus.all.settings.data.stored.locally.your.device.nothing.transmitted.external.servers",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All settings and data are stored locally on your device. Nothing is transmitted to external servers.",
+   "value": "Tutte le impostazioni e i dati vengono archiviati localmente sul tuo dispositivo. Nulla viene trasmesso a server esterni."
+  },
+  {
+   "id": "gitfocus.also.sorry.takes.while",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(also, sorry this takes a while)",
+   "value": "(inoltre, mi spiace, ci vuole un po' di tempo)"
+  },
+  {
+   "id": "gitfocus.analytics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Analytics",
+   "value": "Analitica"
+  },
+  {
+   "id": "gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App",
+   "value": "App",
+   "comment": "Fallback app name"
+  },
+  {
+   "id": "gitfocus.app.blocking.handled.entirely.ios.screen.time.we.dont.track.which.apps.you.use.how.long",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App blocking is handled entirely by iOS Screen Time. We don't track which apps you use or for how long.",
+   "value": "Il blocco delle app è gestito interamente da iOS Screen Time. Non teniamo traccia di quali app utilizzi o per quanto tempo."
+  },
+  {
+   "id": "gitfocus.app.launch",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Launch",
+   "value": "Lancio dell'app",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.app.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Permissions",
+   "value": "Autorizzazioni dell'app"
+  },
+  {
+   "id": "gitfocus.appearance",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Appearance",
+   "value": "Aspetto"
+  },
+  {
+   "id": "gitfocus.apply.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apply Reset Times",
+   "value": "Applica tempi di ripristino"
+  },
+  {
+   "id": "gitfocus.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps",
+   "value": "App"
+  },
+  {
+   "id": "gitfocus.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Blocked",
+   "value": "App bloccate"
+  },
+  {
+   "id": "gitfocus.apps.currently.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps are currently unlocked",
+   "value": "Le app sono attualmente sbloccate"
+  },
+  {
+   "id": "gitfocus.apps.hide.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps to Hide (%d)",
+   "value": "App da nascondere (%d)",
+   "comment": "Hidden apps section header with count"
+  },
+  {
+   "id": "gitfocus.apps.lock.times.daily",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps lock at these times daily",
+   "value": "Le app si bloccano ogni giorno a questi orari"
+  },
+  {
+   "id": "gitfocus.apps.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked",
+   "value": "App sbloccate"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked! 🔓",
+   "value": "App sbloccate! 🔓"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps unlocked until midnight",
+   "value": "App sbloccate fino a mezzanotte"
+  },
+  {
+   "id": "gitfocus.arabic",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Arabic",
+   "value": "arabo"
+  },
+  {
+   "id": "gitfocus.atmospheric.background",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Atmospheric Background",
+   "value": "Sfondo atmosferico"
+  },
+  {
+   "id": "gitfocus.automatically.hide.all.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Automatically hide all apps that are blocked",
+   "value": "Nascondi automaticamente tutte le app bloccate"
+  },
+  {
+   "id": "gitfocus.available.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Available life",
+   "value": "Vita disponibile"
+  },
+  {
+   "id": "gitfocus.available.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "available to unlock apps",
+   "value": "disponibile per sbloccare le app"
+  },
+  {
+   "id": "gitfocus.average.per.active.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Average per Active Day",
+   "value": "Media per giorno attivo"
+  },
+  {
+   "id": "gitfocus.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back",
+   "value": "Indietro"
+  },
+  {
+   "id": "gitfocus.back.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back to Settings",
+   "value": "Torna alle Impostazioni"
+  },
+  {
+   "id": "gitfocus.bank.all.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank All %d Minutes",
+   "value": "Banca Tutti %d Minuti",
+   "comment": "Bank all earned minutes button"
+  },
+  {
+   "id": "gitfocus.bank.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank 5 Minutes",
+   "value": "Banca 5 minuti"
+  },
+  {
+   "id": "gitfocus.before.you.delete.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Before you delete the app...",
+   "value": "Prima di eliminare l'app..."
+  },
+  {
+   "id": "gitfocus.block.distracting.apps.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Block distracting apps during focus sessions",
+   "value": "Blocca le app che distraggono durante le sessioni di concentrazione"
+  },
+  {
+   "id": "gitfocus.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps",
+   "value": "App bloccate"
+  },
+  {
+   "id": "gitfocus.blocked.apps.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps Usage",
+   "value": "Utilizzo delle app bloccate"
+  },
+  {
+   "id": "gitfocus.blurred.glass.effect",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blurred glass effect",
+   "value": "Effetto vetro sfocato"
+  },
+  {
+   "id": "gitfocus.borrow.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrow Time",
+   "value": "Prendi in prestito tempo"
+  },
+  {
+   "id": "gitfocus.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "Preso in prestito %d min. Ripagalo con i commit!"
+  },
+  {
+   "id": "gitfocus.borrowed.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed Time",
+   "value": "Tempo preso in prestito",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.borrowing.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing %d min",
+   "value": "Prestito %d min",
+   "comment": "Status pill when borrowing time"
+  },
+  {
+   "id": "gitfocus.borrowing.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing time",
+   "value": "Tempo di prestito",
+   "comment": "Accessibility label for borrowing time indicator"
+  },
+  {
+   "id": "gitfocus.build.your.streak.unlock.rewards",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Build your streak to unlock rewards",
+   "value": "Costruisci la tua serie di vittorie per sbloccare ricompense"
+  },
+  {
+   "id": "gitfocus.button.left.side.which.unusual",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "The button is on the left side which is unusual",
+   "value": "Il pulsante si trova sul lato sinistro, il che è insolito"
+  },
+  {
+   "id": "gitfocus.can.borrow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Can borrow",
+   "value": "Può prendere in prestito"
+  },
+  {
+   "id": "gitfocus.cancel",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Cancel",
+   "value": "Cancellare"
+  },
+  {
+   "id": "gitfocus.card.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Card Style",
+   "value": "Stile della carta"
+  },
+  {
+   "id": "gitfocus.cfbundledisplayname",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "CFBundleDisplayName",
+   "comment": "Bundle display name"
+  },
+  {
+   "id": "gitfocus.cfbundlename",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus",
+   "value": "CFBundleNome",
+   "comment": "Bundle name"
+  },
+  {
+   "id": "gitfocus.change.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Change Username",
+   "value": "Cambia nome utente"
+  },
+  {
+   "id": "gitfocus.check.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Username",
+   "value": "Controlla il nome utente"
+  },
+  {
+   "id": "gitfocus.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "Controlla i tuoi impegni GitHub! 💻",
+   "comment": "Shield notifications"
+  },
+  {
+   "id": "gitfocus.checking.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Checking GitHub...",
+   "value": "Controllo GitHub..."
+  },
+  {
+   "id": "gitfocus.chinese.simplified",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Chinese (Simplified)",
+   "value": "Cinese (semplificato)"
+  },
+  {
+   "id": "gitfocus.choose.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Choose Unlock Time",
+   "value": "Scegli Ora di sblocco"
+  },
+  {
+   "id": "gitfocus.clear",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear",
+   "value": "Chiaro"
+  },
+  {
+   "id": "gitfocus.clear.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All",
+   "value": "Cancella tutto"
+  },
+  {
+   "id": "gitfocus.clear.all.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History",
+   "value": "Cancella tutta la cronologia"
+  },
+  {
+   "id": "gitfocus.clear.all.history.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History?",
+   "value": "Cancella tutta la cronologia?"
+  },
+  {
+   "id": "gitfocus.clear.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear History",
+   "value": "Cancella cronologia"
+  },
+  {
+   "id": "gitfocus.clear.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear Selection",
+   "value": "Cancella selezione"
+  },
+  {
+   "id": "gitfocus.clear.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear username",
+   "value": "Cancella nome utente",
+   "comment": "Accessibility label for clearing username"
+  },
+  {
+   "id": "gitfocus.close",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Close",
+   "value": "Vicino",
+   "comment": "Accessibility label for close button"
+  },
+  {
+   "id": "gitfocus.code.more.scroll.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Code more. Scroll less.",
+   "value": "Codifica di più. Scorri di meno."
+  },
+  {
+   "id": "gitfocus.commit.detected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit Detected",
+   "value": "Impegno rilevato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.commit.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.commit.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "commit%@",
+   "value": "commit%@"
+  },
+  {
+   "id": "gitfocus.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits",
+   "value": "Si impegna"
+  },
+  {
+   "id": "gitfocus.commits.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits Required",
+   "value": "Commit obbligatori"
+  },
+  {
+   "id": "gitfocus.complete.focus.timer.see.your.history.here",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a focus timer to see your history here.",
+   "value": "Completa un timer di concentrazione per vedere la tua cronologia qui."
+  },
+  {
+   "id": "gitfocus.complete.timer.track.your.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a timer to track your focus time",
+   "value": "Completa un timer per tenere traccia del tempo di concentrazione"
+  },
+  {
+   "id": "gitfocus.completed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Completed",
+   "value": "Completato"
+  },
+  {
+   "id": "gitfocus.contact.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contact Support",
+   "value": "Contatta l'assistenza"
+  },
+  {
+   "id": "gitfocus.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue",
+   "value": "Continuare"
+  },
+  {
+   "id": "gitfocus.continue.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue focusing",
+   "value": "Continua a concentrarti"
+  },
+  {
+   "id": "gitfocus.continue.where.left.off",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": "Continua da dove avevo interrotto"
+  },
+  {
+   "id": "gitfocus.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution",
+   "value": "contributo"
+  },
+  {
+   "id": "gitfocus.contribution.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Activity",
+   "value": "Attività di contributo"
+  },
+  {
+   "id": "gitfocus.contribution.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution%@",
+   "value": "contributo%@"
+  },
+  {
+   "id": "gitfocus.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contributions",
+   "value": "Contributi"
+  },
+  {
+   "id": "gitfocus.count.apps.categories.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d apps/categories blocked",
+   "value": "%d app/categorie bloccate",
+   "comment": "Count of blocked apps and categories"
+  },
+  {
+   "id": "gitfocus.count.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%1$d commits",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.count.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution",
+   "value": "%d contributo",
+   "comment": "Contribution graph"
+  },
+  {
+   "id": "gitfocus.count.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution on %@",
+   "value": "%d contributo su %@"
+  },
+  {
+   "id": "gitfocus.count.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions",
+   "value": "%d contributi"
+  },
+  {
+   "id": "gitfocus.count.contributions.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions on %@",
+   "value": "%d contributi su %@"
+  },
+  {
+   "id": "gitfocus.count.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d of %d lives available",
+   "value": "%d di %d vite disponibili",
+   "comment": "Accessibility: lives available out of lives earned"
+  },
+  {
+   "id": "gitfocus.count.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d day streak",
+   "value": "%d giorni consecutivi",
+   "comment": "Accessibility: current streak days\nCurrent streak days label\nStreak days label"
+  },
+  {
+   "id": "gitfocus.count.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days",
+   "value": "%d giorni",
+   "comment": "Current streak days label"
+  },
+  {
+   "id": "gitfocus.count.days.until.next.life.day.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days until next life (day %d)",
+   "value": "%d giorni alla prossima vita (giorno %d)",
+   "comment": "Days until next life"
+  },
+  {
+   "id": "gitfocus.count.life.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d life available",
+   "value": "%d vita disponibile",
+   "comment": "Lives UI"
+  },
+  {
+   "id": "gitfocus.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d lives available",
+   "value": "%d vite disponibili"
+  },
+  {
+   "id": "gitfocus.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min",
+   "value": "%d min",
+   "comment": "Available unlock minutes\nMinutes value\nPomodoro session duration (minutes)"
+  },
+  {
+   "id": "gitfocus.count.min.ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min ago",
+   "value": "%d minuti fa",
+   "comment": "Relative time label in minutes"
+  },
+  {
+   "id": "gitfocus.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d minutes",
+   "value": "%d minuti",
+   "comment": "Debt minutes label\nEarned minutes label\nMinutes choice"
+  },
+  {
+   "id": "gitfocus.count.minutes.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "= %d minutes of unlock time",
+   "value": "= %d minuti di sblocco",
+   "comment": "First sync earned minutes explanation"
+  },
+  {
+   "id": "gitfocus.count.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+%d more",
+   "value": "+%d altro",
+   "comment": "More apps indicator"
+  },
+  {
+   "id": "gitfocus.count.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d selected",
+   "value": "%d selezionato",
+   "comment": "Selected apps count"
+  },
+  {
+   "id": "gitfocus.current.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Debt",
+   "value": "Debito corrente"
+  },
+  {
+   "id": "gitfocus.current.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Streak",
+   "value": "Serie attuale"
+  },
+  {
+   "id": "gitfocus.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Custom duration",
+   "value": "Durata personalizzata",
+   "comment": "Accessibility label for custom duration control"
+  },
+  {
+   "id": "gitfocus.daily.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset",
+   "value": "Ripristino giornaliero",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.daily.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset Times",
+   "value": "Tempi di ripristino giornalieri"
+  },
+  {
+   "id": "gitfocus.data.collection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Collection",
+   "value": "Raccolta dati"
+  },
+  {
+   "id": "gitfocus.data.storage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Storage",
+   "value": "Archiviazione dei dati"
+  },
+  {
+   "id": "gitfocus.date",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Date",
+   "value": "Data"
+  },
+  {
+   "id": "gitfocus.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day",
+   "value": "Giorno"
+  },
+  {
+   "id": "gitfocus.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "day streak",
+   "value": "serie di giorni"
+  },
+  {
+   "id": "gitfocus.debt.borrowed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Borrowed",
+   "value": "Debito preso in prestito",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "Limite del debito raggiunto ⚠️"
+  },
+  {
+   "id": "gitfocus.debt.paid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Paid",
+   "value": "Debito pagato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debug.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Log",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Logs",
+   "value": "Registri di debug"
+  },
+  {
+   "id": "gitfocus.delete.all.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Delete all sessions",
+   "value": "Elimina tutte le sessioni",
+   "comment": "Accessibility label for deleting all sessions"
+  },
+  {
+   "id": "gitfocus.demo.mode",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo Mode",
+   "value": "Modalità dimostrativa"
+  },
+  {
+   "id": "gitfocus.demo.mode.simulated.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo mode - simulated selection",
+   "value": "Modalità demo: selezione simulata"
+  },
+  {
+   "id": "gitfocus.developer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Developer",
+   "value": "Sviluppatore"
+  },
+  {
+   "id": "gitfocus.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Disabled",
+   "value": "Disabilitato"
+  },
+  {
+   "id": "gitfocus.discipline.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Discipline Bank",
+   "value": "Banca della disciplina"
+  },
+  {
+   "id": "gitfocus.discipline.bank.description",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use is a measure of your self-control",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.done",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Done",
+   "value": "Fatto"
+  },
+  {
+   "id": "gitfocus.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Duration",
+   "value": "Durata"
+  },
+  {
+   "id": "gitfocus.each.commit.earns.unlock.time.no.time.question.borrow.some.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit earns unlock time • No time? Borrow some • Future commits pay it back",
+   "value": "Ogni commit fa guadagnare tempo di sblocco • Non hai tempo? Prendine in prestito un po' • Gli impegni futuri ti restituiranno"
+  },
+  {
+   "id": "gitfocus.each.commit.you.push.github.earns.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit you push to GitHub earns you",
+   "value": "Ogni impegno che porti a GitHub ti fa guadagnare"
+  },
+  {
+   "id": "gitfocus.earn.more.lives.building.your.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn more lives by building your streak",
+   "value": "Guadagna più vite costruendo la tua serie di vittorie consecutive"
+  },
+  {
+   "id": "gitfocus.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn Time",
+   "value": "Guadagna tempo"
+  },
+  {
+   "id": "gitfocus.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned",
+   "value": "Guadagnato"
+  },
+  {
+   "id": "gitfocus.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned Time",
+   "value": "Tempo guadagnato"
+  },
+  {
+   "id": "gitfocus.edit.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Edit Selection",
+   "value": "Modifica selezione"
+  },
+  {
+   "id": "gitfocus.emergency",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency",
+   "value": "Emergenza"
+  },
+  {
+   "id": "gitfocus.emergency.override",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override",
+   "value": "Override di emergenza"
+  },
+  {
+   "id": "gitfocus.emergency.override.active",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override Active",
+   "value": "Override di emergenza attivo"
+  },
+  {
+   "id": "gitfocus.emergency.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "Sblocco di emergenza"
+  },
+  {
+   "id": "gitfocus.emergency.unlock.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "Sblocco di emergenza",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.enable.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable borrowing",
+   "value": "Abilita il prestito"
+  },
+  {
+   "id": "gitfocus.enable.permissions.gitfocus.work.properly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable permissions for GitFocus to work properly",
+   "value": "Abilita le autorizzazioni affinché GitFocus funzioni correttamente"
+  },
+  {
+   "id": "gitfocus.enable.screen.time.first",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable Screen Time First",
+   "value": "Abilita prima il tempo di utilizzo"
+  },
+  {
+   "id": "gitfocus.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enabled",
+   "value": "Abilitato"
+  },
+  {
+   "id": "gitfocus.end.override.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "End Override & Lock",
+   "value": "Termina l'override e il blocco"
+  },
+  {
+   "id": "gitfocus.english",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "English",
+   "value": "Inglese"
+  },
+  {
+   "id": "gitfocus.enter.your.github.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enter Your GitHub Username",
+   "value": "Inserisci il tuo nome utente GitHub"
+  },
+  {
+   "id": "gitfocus.estimated.based.usage.patterns",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Estimated based on usage patterns",
+   "value": "Stima basata sui modelli di utilizzo"
+  },
+  {
+   "id": "gitfocus.event.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Event Log",
+   "value": "Registro eventi"
+  },
+  {
+   "id": "gitfocus.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "events",
+   "value": "eventi"
+  },
+  {
+   "id": "gitfocus.export.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Export logs",
+   "value": "Esporta registri",
+   "comment": "Accessibility label for export logs action"
+  },
+  {
+   "id": "gitfocus.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Feedback",
+   "value": "Feedback",
+   "comment": "Accessibility label for feedback button"
+  },
+  {
+   "id": "gitfocus.feedback.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tell us what to improve",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.feedback.prompt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How is GitFocus working for you?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.first.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "First Reset",
+   "value": "Primo ripristino"
+  },
+  {
+   "id": "gitfocus.focus.rules",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Rules",
+   "value": "Regole di focalizzazione"
+  },
+  {
+   "id": "gitfocus.focus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUS SCORE",
+   "value": "PUNTEGGIO FOCUS"
+  },
+  {
+   "id": "gitfocus.focus.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Stats",
+   "value": "Statistiche di messa a fuoco"
+  },
+  {
+   "id": "gitfocus.focus.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Timer",
+   "value": "Temporizzatore della messa a fuoco"
+  },
+  {
+   "id": "gitfocus.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUSING",
+   "value": "CONCENTRAZIONE"
+  },
+  {
+   "id": "gitfocus.frosted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Frosted",
+   "value": "Glassato"
+  },
+  {
+   "id": "gitfocus.full.year.overview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Full Year Overview",
+   "value": "Panoramica dell'intero anno"
+  },
+  {
+   "id": "gitfocus.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future commits pay it back.",
+   "value": "Gli impegni futuri lo ripagaranno."
+  },
+  {
+   "id": "gitfocus.future.milestone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future milestone",
+   "value": "Traguardo futuro"
+  },
+  {
+   "id": "gitfocus.get.alerts.check.commits.when.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get alerts to check commits when apps are blocked",
+   "value": "Ricevi avvisi per controllare i commit quando le app vengono bloccate"
+  },
+  {
+   "id": "gitfocus.get.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get Started",
+   "value": "Inizia"
+  },
+  {
+   "id": "gitfocus.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "gitfocus.gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus.app",
+   "value": "gitfocus.app"
+  },
+  {
+   "id": "gitfocus.gitfocus.app.icon",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus app icon",
+   "value": "GitFocus icona dell'app",
+   "comment": "Accessibility label for app icon"
+  },
+  {
+   "id": "gitfocus.gitfocus.blocks.distracting.apps.until.you.push.code.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub",
+   "value": "GitFocus blocca le app che distraggono finché non invii il codice a GitHub"
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.collect.any.personal.data.your.github.username.stored.locally.your.device.using.ios.keychain.security",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not collect any personal data. Your GitHub username is stored locally on your device using iOS Keychain for security.",
+   "value": "GitFocus non raccoglie alcun dato personale. Il tuo nome utente GitHub è archiviato localmente sul tuo dispositivo utilizzando il portachiavi iOS per sicurezza."
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.use.any.analytics.tracking.services.your.usage.remains.completely.private",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not use any analytics or tracking services. Your usage remains completely private.",
+   "value": "GitFocus non utilizza alcun servizio di analisi o di tracciamento. Il tuo utilizzo rimane completamente privato."
+  },
+  {
+   "id": "gitfocus.gitfocus.open.source.you.can.review.our.code.github.verify.our.privacy.practices",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus is open source. You can review our code on GitHub to verify our privacy practices.",
+   "value": "GitFocus è open source. Puoi rivedere il nostro codice su GitHub per verificare le nostre pratiche sulla privacy."
+  },
+  {
+   "id": "gitfocus.gitfocus.reads.your.public.contribution.data.directly.githubs.website.no.authentication.needed.we.simply.check.same.information.thats.visible.your.profile.page.your.commits.already.public.so.we.can.track.them.without.accessing.your.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus reads your public contribution data directly from GitHub's website. No authentication needed - we simply check the same information that's visible on your profile page. Your commits are already public, so we can track them without accessing your account.",
+   "value": "GitFocus legge i dati del tuo contributo pubblico direttamente dal sito web di GitHub. Non è necessaria alcuna autenticazione: controlliamo semplicemente le stesse informazioni visibili nella pagina del tuo profilo. I tuoi impegni sono già pubblici, quindi possiamo monitorarli senza accedere al tuo account."
+  },
+  {
+   "id": "gitfocus.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub",
+   "value": "GitHub"
+  },
+  {
+   "id": "gitfocus.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Account",
+   "value": "GitHub Conto"
+  },
+  {
+   "id": "gitfocus.github.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Activity",
+   "value": "GitHub Attività"
+  },
+  {
+   "id": "gitfocus.github.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub contribution graph",
+   "value": "GitHub grafico dei contributi",
+   "comment": "Accessibility label for contribution graph"
+  },
+  {
+   "id": "gitfocus.github.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Contributions",
+   "value": "GitHub Contributi"
+  },
+  {
+   "id": "gitfocus.github.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Data",
+   "value": "GitHub Dati"
+  },
+  {
+   "id": "gitfocus.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile",
+   "value": "GitHub profilo"
+  },
+  {
+   "id": "gitfocus.github.profile.photo.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile photo for %@",
+   "value": "GitHub foto del profilo di %@",
+   "comment": "Accessibility: GitHub profile photo"
+  },
+  {
+   "id": "gitfocus.github.user.ready.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub user ready!",
+   "value": "GitHub pronto per l'utente!"
+  },
+  {
+   "id": "gitfocus.glass.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Glass Style",
+   "value": "Stile vetro"
+  },
+  {
+   "id": "gitfocus.got.it",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it",
+   "value": "Fatto"
+  },
+  {
+   "id": "gitfocus.got.it.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it!",
+   "value": "Fatto!"
+  },
+  {
+   "id": "gitfocus.great.choice.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Great Choice! 💪",
+   "value": "Ottima scelta! 💪"
+  },
+  {
+   "id": "gitfocus.group.as.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(group as 1)",
+   "value": "(gruppo come 1)"
+  },
+  {
+   "id": "gitfocus.grouped",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "grouped",
+   "value": "raggruppati"
+  },
+  {
+   "id": "gitfocus.grouped.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouped",
+   "value": "Raggruppato"
+  },
+  {
+   "id": "gitfocus.grouping.enabled.jumps.over.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouping enabled for jumps > 1",
+   "value": "Raggruppamento abilitato per salti > 1"
+  },
+  {
+   "id": "gitfocus.help.faq",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Help & FAQ",
+   "value": "Aiuto e domande frequenti"
+  },
+  {
+   "id": "gitfocus.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden Apps",
+   "value": "App nascoste"
+  },
+  {
+   "id": "gitfocus.hidden.apps.removed.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden apps are removed from your home screen during focus sessions. ",
+   "value": "Le app nascoste vengono rimosse dalla schermata iniziale durante le sessioni focus."
+  },
+  {
+   "id": "gitfocus.hide.all.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hide All Blocked Apps",
+   "value": "Nascondi tutte le app bloccate"
+  },
+  {
+   "id": "gitfocus.how.app.hiding.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How App Hiding Works",
+   "value": "Come funziona l'occultamento delle app"
+  },
+  {
+   "id": "gitfocus.how.it.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How it works",
+   "value": "Come funziona"
+  },
+  {
+   "id": "gitfocus.how.it.works.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How It Works",
+   "value": "Come funziona"
+  },
+  {
+   "id": "gitfocus.how.many.minutes.can.you.bank.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How many minutes can you bank?",
+   "value": "Quanti minuti puoi accumulare?"
+  },
+  {
+   "id": "gitfocus.how.strange",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How strange",
+   "value": "Che strano"
+  },
+  {
+   "id": "gitfocus.if.you.need.access.your.apps.right.now.were.about.uninstall.use.instead.wed.rather.you.stay.than.leave",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "If you need access to your apps right now and were about to uninstall, use this instead. We'd rather you stay than leave.",
+   "value": "Se hai bisogno di accedere alle tue app in questo momento e stai per disinstallarle, usa invece questo. Preferiamo che tu rimanga piuttosto che te ne vai."
+  },
+  {
+   "id": "gitfocus.initial",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(initial)",
+   "value": "(iniziale)"
+  },
+  {
+   "id": "gitfocus.interrupted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Interrupted",
+   "value": "Interrotto"
+  },
+  {
+   "id": "gitfocus.invalid.username.format",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Invalid username format",
+   "value": "Formato nome utente non valido",
+   "comment": "GitHub username validation error when the input fails basic format checks"
+  },
+  {
+   "id": "gitfocus.just.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Just now",
+   "value": "Proprio adesso",
+   "comment": "Relative time label when under 1 minute"
+  },
+  {
+   "id": "gitfocus.language",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Language",
+   "value": "Lingua",
+   "comment": "Language override (TestFlight/debug)"
+  },
+  {
+   "id": "gitfocus.last.updated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Last updated:",
+   "value": "Ultimo aggiornamento:"
+  },
+  {
+   "id": "gitfocus.lasted.text.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lasted %@ of %@",
+   "value": "Durata %@ di %@",
+   "comment": "Pomodoro session actual duration of target duration"
+  },
+  {
+   "id": "gitfocus.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Less",
+   "value": "Meno"
+  },
+  {
+   "id": "gitfocus.level",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level",
+   "value": "Livello"
+  },
+  {
+   "id": "gitfocus.level.reward.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.monthly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.up",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level Up",
+   "value": "Sali di livello"
+  },
+  {
+   "id": "gitfocus.lives",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives",
+   "value": "Vite"
+  },
+  {
+   "id": "gitfocus.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives\nAvailable",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.loading.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading app usage...",
+   "value": "Caricamento utilizzo dell'app..."
+  },
+  {
+   "id": "gitfocus.loading.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contribution graph...",
+   "value": "Caricamento del grafico dei contributi..."
+  },
+  {
+   "id": "gitfocus.loading.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contributions...",
+   "value": "Caricamento contributi..."
+  },
+  {
+   "id": "gitfocus.lock.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lock Now",
+   "value": "Blocca ora"
+  },
+  {
+   "id": "gitfocus.locked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Locked",
+   "value": "Bloccato",
+   "comment": "Accessibility label for locked status"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn time",
+   "value": "Impegnati per guadagnare tempo"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time",
+   "value": "Impegnati per guadagnare tempo di sblocco"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time!",
+   "value": "Impegnati per guadagnare tempo di sblocco!"
+  },
+  {
+   "id": "gitfocus.manage.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Blocked Apps",
+   "value": "Gestisci le app bloccate"
+  },
+  {
+   "id": "gitfocus.manage.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Hidden Apps",
+   "value": "Gestisci le app nascoste"
+  },
+  {
+   "id": "gitfocus.manual.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Lock",
+   "value": "Blocco manuale",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.manual.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Unlock",
+   "value": "Sblocco manuale",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.max.one.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Max in One Day",
+   "value": "Massimo in un giorno"
+  },
+  {
+   "id": "gitfocus.maximum.lives.earned.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Maximum lives earned!",
+   "value": "Il massimo delle vite guadagnate!"
+  },
+  {
+   "id": "gitfocus.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "min",
+   "value": "min"
+  },
+  {
+   "id": "gitfocus.mins",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "mins",
+   "value": "min"
+  },
+  {
+   "id": "gitfocus.minute",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minute",
+   "value": "minuto"
+  },
+  {
+   "id": "gitfocus.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minutes",
+   "value": "minuti"
+  },
+  {
+   "id": "gitfocus.minutes.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes",
+   "value": "Minuti"
+  },
+  {
+   "id": "gitfocus.minutes.banked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes\nBanked",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More",
+   "value": "Di più"
+  },
+  {
+   "id": "gitfocus.more.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More options",
+   "value": "Più opzioni",
+   "comment": "Accessibility label for more options button"
+  },
+  {
+   "id": "gitfocus.nearly.invisible",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Nearly invisible",
+   "value": "Quasi invisibile"
+  },
+  {
+   "id": "gitfocus.need.emergency.access.question.use.life.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need emergency access?\nUse a life to unlock apps until midnight.",
+   "value": "Hai bisogno di un accesso di emergenza?\nUsa una vita per sbloccare le app fino a mezzanotte."
+  },
+  {
+   "id": "gitfocus.need.finish.message.question.borrow.up.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need to finish a message?\nBorrow up to 5 minutes.",
+   "value": "Hai bisogno di completare un messaggio?\nPrendi in prestito fino a 5 minuti."
+  },
+  {
+   "id": "gitfocus.new.day.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "New day started",
+   "value": "Il nuovo giorno è iniziato"
+  },
+  {
+   "id": "gitfocus.no.account.needed.no.data.collection.works.offline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No account needed • No data collection • Works offline",
+   "value": "Nessun account necessario • Nessuna raccolta dati • Funziona offline"
+  },
+  {
+   "id": "gitfocus.no.apps.selected.blocking",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No apps selected for blocking",
+   "value": "Nessuna app selezionata per il blocco"
+  },
+  {
+   "id": "gitfocus.no.change",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No change",
+   "value": "Nessun cambiamento"
+  },
+  {
+   "id": "gitfocus.no.commits.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No commits yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.contribution.data.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No contribution data available",
+   "value": "Nessun dato sui contributi disponibile"
+  },
+  {
+   "id": "gitfocus.no.data.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No data yet",
+   "value": "Nessun dato ancora"
+  },
+  {
+   "id": "gitfocus.no.events.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events for this day",
+   "value": "Nessun evento per questo giorno"
+  },
+  {
+   "id": "gitfocus.no.events.recorded",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events recorded",
+   "value": "Nessun evento registrato"
+  },
+  {
+   "id": "gitfocus.no.focus.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No focus sessions yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No recent contributions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No sessions yet",
+   "value": "Nessuna sessione ancora"
+  },
+  {
+   "id": "gitfocus.no.sessions.yet.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sessions Yet",
+   "value": "Nessuna sessione ancora"
+  },
+  {
+   "id": "gitfocus.no.sign.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sign-In Required",
+   "value": "Nessun accesso richiesto"
+  },
+  {
+   "id": "gitfocus.no.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No, stay focused",
+   "value": "No, rimani concentrato"
+  },
+  {
+   "id": "gitfocus.no.unlock.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No unlock options",
+   "value": "Nessuna opzione di sblocco"
+  },
+  {
+   "id": "gitfocus.no.usage.recorded.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No usage recorded today",
+   "value": "Nessun utilizzo registrato oggi"
+  },
+  {
+   "id": "gitfocus.not.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not enabled",
+   "value": "Non abilitato"
+  },
+  {
+   "id": "gitfocus.not.enough.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not Enough Time Available",
+   "value": "Non abbastanza tempo a disposizione"
+  },
+  {
+   "id": "gitfocus.note.unlock.durations.track.active.app.usage.time.not.wall.clock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Note: Unlock durations track active app usage time, not wall clock time",
+   "value": "Nota: le durate di sblocco tengono traccia del tempo di utilizzo attivo dell'app, non del tempo dell'orologio"
+  },
+  {
+   "id": "gitfocus.notifications",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications",
+   "value": "Notifiche"
+  },
+  {
+   "id": "gitfocus.notifications.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Disabled",
+   "value": "Notifiche disattivate"
+  },
+  {
+   "id": "gitfocus.notifications.highly.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Highly Recommended",
+   "value": "Notifiche Altamente raccomandato"
+  },
+  {
+   "id": "gitfocus.nsfamilycontrolsusagedescription",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus needs Screen Time access to block distracting apps while you code. This helps you stay focused and productive.",
+   "value": "NSFamilyControlsUsageDescription"
+  },
+  {
+   "id": "gitfocus.number.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": "+1 vita"
+  },
+  {
+   "id": "gitfocus.ok",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "OK",
+   "value": "OK"
+  },
+  {
+   "id": "gitfocus.only.apps.already.your.blocked.list.can.hidden",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Only apps that are already in your blocked list can be hidden.",
+   "value": "Puoi nascondere solo le app già presenti nell'elenco bloccato."
+  },
+  {
+   "id": "gitfocus.opaque.frosted.glass",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Opaque frosted glass",
+   "value": "Vetro satinato opaco"
+  },
+  {
+   "id": "gitfocus.open.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus 📱",
+   "value": "Apri GitFocus 📱"
+  },
+  {
+   "id": "gitfocus.open.gitfocus.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus",
+   "value": "Apri GitFocus"
+  },
+  {
+   "id": "gitfocus.open.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Settings",
+   "value": "Apri Impostazioni"
+  },
+  {
+   "id": "gitfocus.open.source",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Source",
+   "value": "Open Source"
+  },
+  {
+   "id": "gitfocus.owed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Owed",
+   "value": "Dovuto"
+  },
+  {
+   "id": "gitfocus.paid.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Paid Debt",
+   "value": "Debito pagato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.pause.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pause timer",
+   "value": "Pausa timer"
+  },
+  {
+   "id": "gitfocus.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": "Permanente"
+  },
+  {
+   "id": "gitfocus.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permissions",
+   "value": "Autorizzazioni"
+  },
+  {
+   "id": "gitfocus.pomodoro.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pomodoro History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.portuguese.brazil",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Portuguese (Brazil)",
+   "value": "Portoghese (Brasile)"
+  },
+  {
+   "id": "gitfocus.preview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Preview",
+   "value": "Anteprima"
+  },
+  {
+   "id": "gitfocus.privacy.policy",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Privacy Policy",
+   "value": "politica sulla riservatezza"
+  },
+  {
+   "id": "gitfocus.proceed.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Proceed Anyway",
+   "value": "Procedi comunque"
+  },
+  {
+   "id": "gitfocus.quick.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Quick Settings",
+   "value": "Impostazioni rapide"
+  },
+  {
+   "id": "gitfocus.ready.focus.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to focus?",
+   "value": "Pronto a concentrarti?"
+  },
+  {
+   "id": "gitfocus.ready.go",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to go",
+   "value": "Pronti a partire"
+  },
+  {
+   "id": "gitfocus.recent.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Activity",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Contributions",
+   "value": "Contributi recenti"
+  },
+  {
+   "id": "gitfocus.recent.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Sessions",
+   "value": "Sessioni recenti"
+  },
+  {
+   "id": "gitfocus.recent.system.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent system events",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "RECOMMENDED",
+   "value": "RACCOMANDATO"
+  },
+  {
+   "id": "gitfocus.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Refresh History",
+   "value": "Aggiorna cronologia"
+  },
+  {
+   "id": "gitfocus.relocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Relocked",
+   "value": "Ribloccato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.remove.app.hide.list",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Remove app from hide list",
+   "value": "Rimuovi l'app dall'elenco nascosto",
+   "comment": "Accessibility label for removing a hidden app"
+  },
+  {
+   "id": "gitfocus.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "REQUIRED",
+   "value": "NECESSARIO"
+  },
+  {
+   "id": "gitfocus.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset",
+   "value": "Reset"
+  },
+  {
+   "id": "gitfocus.reset.all.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset All Settings",
+   "value": "Ripristina tutte le impostazioni"
+  },
+  {
+   "id": "gitfocus.reset.settings.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset Settings?",
+   "value": "Ripristinare le impostazioni?"
+  },
+  {
+   "id": "gitfocus.reset.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset timer",
+   "value": "Reimposta il timer",
+   "comment": "Accessibility label for reset timer button"
+  },
+  {
+   "id": "gitfocus.restart.app.apply.language.changes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart the app to apply language changes.",
+   "value": "Riavvia l'app per applicare le modifiche alla lingua."
+  },
+  {
+   "id": "gitfocus.restart.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart Required",
+   "value": "Riavvio richiesto"
+  },
+  {
+   "id": "gitfocus.restore.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restore Data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.found.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak and all saved progress.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.confirm",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.review",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review",
+   "value": "Revisione"
+  },
+  {
+   "id": "gitfocus.review.onboarding",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review Onboarding",
+   "value": "Rivedi l'onboarding"
+  },
+  {
+   "id": "gitfocus.review.your.settings.start.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review your settings and start focusing",
+   "value": "Rivedi le tue impostazioni e inizia a concentrarti"
+  },
+  {
+   "id": "gitfocus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "score",
+   "value": "punto"
+  },
+  {
+   "id": "gitfocus.screen.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Screen Time",
+   "value": "Tempo sullo schermo"
+  },
+  {
+   "id": "gitfocus.screen.time.bypassed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "• Screen Time bypassed",
+   "value": "• Tempo di utilizzo ignorato"
+  },
+  {
+   "id": "gitfocus.second.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Second Reset",
+   "value": "Secondo ripristino"
+  },
+  {
+   "id": "gitfocus.see.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See all",
+   "value": "Vedi tutto"
+  },
+  {
+   "id": "gitfocus.see.all.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See All",
+   "value": "Vedi tutto"
+  },
+  {
+   "id": "gitfocus.see.its.right.side.now.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See, it's on the right side now!",
+   "value": "Vedi, adesso è sul lato destro!"
+  },
+  {
+   "id": "gitfocus.select.apps.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Block",
+   "value": "Seleziona App da bloccare"
+  },
+  {
+   "id": "gitfocus.select.apps.block.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to block during focus sessions",
+   "value": "Seleziona le app da bloccare durante le sessioni focus"
+  },
+  {
+   "id": "gitfocus.select.apps.hide",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Hide",
+   "value": "Seleziona App da nascondere"
+  },
+  {
+   "id": "gitfocus.select.apps.hide.home.screen",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to hide from home screen",
+   "value": "Seleziona le app da nascondere dalla schermata principale"
+  },
+  {
+   "id": "gitfocus.select.apps.you.want.block.while.focusing.youll.need.make.commits.unlock.them",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps that you want to block while focusing. You'll need to make commits to unlock them.",
+   "value": "Seleziona le app che desideri bloccare durante la messa a fuoco. Dovrai effettuare dei commit per sbloccarli."
+  },
+  {
+   "id": "gitfocus.select.demo.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Demo Apps",
+   "value": "Seleziona App dimostrative"
+  },
+  {
+   "id": "gitfocus.select.least.one.app.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select at least one app to block",
+   "value": "Seleziona almeno un'app da bloccare"
+  },
+  {
+   "id": "gitfocus.select.specific.apps.your.blocked.list.hide.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select specific apps from your blocked list to hide during focus sessions.",
+   "value": "Seleziona app specifiche dall'elenco bloccato da nascondere durante le sessioni focus."
+  },
+  {
+   "id": "gitfocus.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected",
+   "value": "Selezionato",
+   "comment": "Accessibility label for selected state"
+  },
+  {
+   "id": "gitfocus.selected.apps.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected Apps (%d)",
+   "value": "App selezionate (%d)",
+   "comment": "Selected apps section title with count"
+  },
+  {
+   "id": "gitfocus.send.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Send Feedback",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.session.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Session History",
+   "value": "Cronologia delle sessioni"
+  },
+  {
+   "id": "gitfocus.set.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Custom Duration",
+   "value": "Imposta la durata personalizzata"
+  },
+  {
+   "id": "gitfocus.set.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Duration",
+   "value": "Imposta la durata"
+  },
+  {
+   "id": "gitfocus.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Settings",
+   "value": "Impostazioni",
+   "comment": "Accessibility label for settings button"
+  },
+  {
+   "id": "gitfocus.setup.takes.less.than.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Setup takes less than 2 minutes",
+   "value": "L'installazione richiede meno di 2 minuti"
+  },
+  {
+   "id": "gitfocus.shield.shown",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Shield Shown",
+   "value": "Scudo mostrato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.show.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Show less",
+   "value": "Mostra meno"
+  },
+  {
+   "id": "gitfocus.skip",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip",
+   "value": "Saltare"
+  },
+  {
+   "id": "gitfocus.skip.notifications.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip Notifications Anyway",
+   "value": "Salta comunque le notifiche"
+  },
+  {
+   "id": "gitfocus.skip.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip for now",
+   "value": "Salta per ora"
+  },
+  {
+   "id": "gitfocus.slide.all.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide for all-day",
+   "value": "Scivolo per tutto il giorno"
+  },
+  {
+   "id": "gitfocus.slide.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide to unlock",
+   "value": "Scorrere per sbloccare"
+  },
+  {
+   "id": "gitfocus.solid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Solid",
+   "value": "Solido"
+  },
+  {
+   "id": "gitfocus.spanish",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Spanish",
+   "value": "spagnolo"
+  },
+  {
+   "id": "gitfocus.splash.tagline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit to unlock distractions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.start.focus.session",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Focus Session",
+   "value": "Avvia la sessione focalizzata"
+  },
+  {
+   "id": "gitfocus.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": "Ricominciare da capo"
+  },
+  {
+   "id": "gitfocus.start.fresh.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh at 0",
+   "value": "Inizia da zero a 0"
+  },
+  {
+   "id": "gitfocus.start.fresh.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": "Ricominciare da capo?"
+  },
+  {
+   "id": "gitfocus.start.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start timer",
+   "value": "Avvia il timer"
+  },
+  {
+   "id": "gitfocus.start.using.gitfocus.see.your.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start using GitFocus to see your stats",
+   "value": "Inizia a utilizzare GitFocus per vedere le tue statistiche"
+  },
+  {
+   "id": "gitfocus.started.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Started %@",
+   "value": "Iniziato %@",
+   "comment": "Pomodoro session start time label"
+  },
+  {
+   "id": "gitfocus.starting",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Starting...",
+   "value": "Di partenza..."
+  },
+  {
+   "id": "gitfocus.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Statistics",
+   "value": "Statistiche"
+  },
+  {
+   "id": "gitfocus.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stay Focused",
+   "value": "Rimani concentrato"
+  },
+  {
+   "id": "gitfocus.stayed.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stayed Focused",
+   "value": "Rimasi concentrato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.staying.focused.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Staying Focused!",
+   "value": "Rimanere concentrati!"
+  },
+  {
+   "id": "gitfocus.stop.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stop timer",
+   "value": "Arresta il timer",
+   "comment": "Accessibility label for stop timer button"
+  },
+  {
+   "id": "gitfocus.stopped.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stopped %@",
+   "value": "Arrestato %@",
+   "comment": "Pomodoro session stopped time label"
+  },
+  {
+   "id": "gitfocus.subtle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Subtle",
+   "value": "Impercettibile"
+  },
+  {
+   "id": "gitfocus.summary",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Summary",
+   "value": "Riepilogo"
+  },
+  {
+   "id": "gitfocus.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "gitfocus.system.default",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "System Default",
+   "value": "Predefinito del sistema"
+  },
+  {
+   "id": "gitfocus.tap.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to continue",
+   "value": "Tocca per continuare",
+   "comment": "Core onboarding / settings / shield (zh-Hans)"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "Tocca per aprire GitFocus e controlla i nuovi impegni per guadagnare tempo di sblocco"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "Tocca per aprire GitFocus e sincronizzare i tuoi commit GitHub"
+  },
+  {
+   "id": "gitfocus.tap.view.detailed.contribution.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to view detailed contribution statistics",
+   "value": "Tocca per visualizzare le statistiche dettagliate sui contributi",
+   "comment": "Accessibility hint for viewing contribution statistics"
+  },
+  {
+   "id": "gitfocus.text.daily.avg",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%@ daily avg",
+   "value": "%@ media giornaliera",
+   "comment": "Average daily distraction time"
+  },
+  {
+   "id": "gitfocus.then.number.every.month",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": "poi +1 ogni mese"
+  },
+  {
+   "id": "gitfocus.time.balance.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Balance Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.balance.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn time with commits and spend it to unlock your apps.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Borrowing",
+   "value": "Prestito di tempo"
+  },
+  {
+   "id": "gitfocus.time.code.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to code!",
+   "value": "È ora di programmare!"
+  },
+  {
+   "id": "gitfocus.time.days_left_percent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dd left · %d%%",
+   "value": "%dd sinistra · %d%%",
+   "comment": "Year grid footer: days remaining and percent complete"
+  },
+  {
+   "id": "gitfocus.time.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Earned",
+   "value": "Tempo guadagnato",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.time.focus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to Focus!",
+   "value": "È ora di concentrarsi!",
+   "comment": "Shield UI"
+  },
+  {
+   "id": "gitfocus.time.hours_ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d h ago",
+   "value": "%d ore fa",
+   "comment": "Relative time label in hours"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "· %dm debt",
+   "value": "· %dm di debito",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm debt",
+   "value": "%dm di debito",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm duration",
+   "value": "%dm durata",
+   "comment": "Duration minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm earned",
+   "value": "%dm guadagnati",
+   "comment": "Earned minutes badge\nEarned minutes label"
+  },
+  {
+   "id": "gitfocus.time.never.expires",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time never expires",
+   "value": "il tempo non scade mai"
+  },
+  {
+   "id": "gitfocus.time.resets.weekly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time resets weekly",
+   "value": "l'ora si ripristina settimanalmente"
+  },
+  {
+   "id": "gitfocus.time.spent.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time spent today:",
+   "value": "Tempo trascorso oggi:"
+  },
+  {
+   "id": "gitfocus.time.spent.today.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Spent Today",
+   "value": "Tempo trascorso oggi"
+  },
+  {
+   "id": "gitfocus.time.you.earn.but.dont.use.measure.your.self.control",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use\nis a measure of your self-control",
+   "value": "Il tempo che guadagni ma non usi\nè una misura del tuo autocontrollo"
+  },
+  {
+   "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tip: Select individual apps rather than entire categories",
+   "value": "Suggerimento: seleziona singole app anziché intere categorie"
+  },
+  {
+   "id": "gitfocus.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today",
+   "value": "Oggi",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.todays.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's App Usage",
+   "value": "Utilizzo dell'app di oggi"
+  },
+  {
+   "id": "gitfocus.todays.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Commits",
+   "value": "Gli impegni di oggi"
+  },
+  {
+   "id": "gitfocus.todays.most.used.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Most Used Apps",
+   "value": "Le app più utilizzate di oggi"
+  },
+  {
+   "id": "gitfocus.todays.usage.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Usage Statistics",
+   "value": "Statistiche sull'utilizzo di oggi"
+  },
+  {
+   "id": "gitfocus.total.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Commits",
+   "value": "Impegni totali"
+  },
+  {
+   "id": "gitfocus.total.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Contributions",
+   "value": "Contributi totali"
+  },
+  {
+   "id": "gitfocus.total.refreshes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Refreshes",
+   "value": "Aggiornamenti totali"
+  },
+  {
+   "id": "gitfocus.total.today.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total today: %d minutes",
+   "value": "Totale oggi: %d minuti",
+   "comment": "Total usage minutes today"
+  },
+  {
+   "id": "gitfocus.transparent.edge.glow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Transparent with edge glow",
+   "value": "Trasparente con bordi luminosi"
+  },
+  {
+   "id": "gitfocus.turn.commits.into.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Turn Commits into Focus Time",
+   "value": "Trasforma i commit in momenti di concentrazione"
+  },
+  {
+   "id": "gitfocus.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock for:",
+   "value": "Sblocca per:"
+  },
+  {
+   "id": "gitfocus.unlock.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock App",
+   "value": "Sblocca l'app"
+  },
+  {
+   "id": "gitfocus.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock apps until midnight",
+   "value": "Sblocca le app fino a mezzanotte"
+  },
+  {
+   "id": "gitfocus.unlock.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Debt)",
+   "value": "Sblocco (debito)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Earned)",
+   "value": "Sblocca (guadagnato)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.failed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Failed",
+   "value": "Sblocco non riuscito",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 5 min",
+   "value": "Sblocca 5 minuti",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Mixed)",
+   "value": "Sblocca (misto)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 1 min",
+   "value": "Sblocca 1 minuto",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock %@",
+   "value": "Sblocca %@",
+   "comment": "Unlock app button title"
+  },
+  {
+   "id": "gitfocus.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time",
+   "value": "Sblocca il tempo"
+  },
+  {
+   "id": "gitfocus.unlock.time.remaining",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time Remaining",
+   "value": "Sblocca il tempo rimanente"
+  },
+  {
+   "id": "gitfocus.unlock.time.your.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "of unlock time for your blocked apps",
+   "value": "di tempo di sblocco per le tue app bloccate"
+  },
+  {
+   "id": "gitfocus.unlock.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Until Midnight",
+   "value": "Sblocca fino a mezzanotte"
+  },
+  {
+   "id": "gitfocus.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked",
+   "value": "Sbloccato"
+  },
+  {
+   "id": "gitfocus.unlocked.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked for %d min",
+   "value": "Sbloccato per %d min",
+   "comment": "Remaining unlock time label"
+  },
+  {
+   "id": "gitfocus.unlocked.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Debt)",
+   "value": "Sbloccato (debito)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Earned)",
+   "value": "Sbloccato (guadagnato)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 5 min",
+   "value": "Sbloccato 5 minuti",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Mixed)",
+   "value": "Sbloccato (misto)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 1 min",
+   "value": "Sbloccato 1 minuto",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocks",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "unlocks",
+   "value": "sblocca"
+  },
+  {
+   "id": "gitfocus.until.apps.re.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "until apps re-lock",
+   "value": "finché le app non si bloccano nuovamente"
+  },
+  {
+   "id": "gitfocus.use.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Earned Time",
+   "value": "Usa il tempo guadagnato"
+  },
+  {
+   "id": "gitfocus.use.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Life",
+   "value": "Usa la vita"
+  },
+  {
+   "id": "gitfocus.use.number.your.count.heart.unlock.apps.until.midnight.your.count.day.streak.will.preserved",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use 1 of your %d ❤️ to unlock apps until midnight.\n\nYour %d day streak will be preserved.",
+   "value": "Usa 1 dei tuoi %d ❤️ per sbloccare app fino a mezzanotte.\n\nLa tua serie di %d giorni verrà preservata.",
+   "comment": "Emergency override message when user has lives"
+  },
+  {
+   "id": "gitfocus.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "Ho utilizzato il tempo disponibile e preso in prestito extra. %d minimo totale."
+  },
+  {
+   "id": "gitfocus.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "Utilizzato %d minuti dal saldo disponibile. Il timer è iniziato!"
+  },
+  {
+   "id": "gitfocus.used.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used life",
+   "value": "Vita usata"
+  },
+  {
+   "id": "gitfocus.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "username",
+   "value": "nome utente"
+  },
+  {
+   "id": "gitfocus.username.cannot.empty",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username cannot be empty",
+   "value": "Il nome utente non può essere vuoto",
+   "comment": "GitHub username validation error when the input is empty"
+  },
+  {
+   "id": "gitfocus.username.validated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username validated",
+   "value": "Nome utente convalidato",
+   "comment": "Accessibility label for username validated status"
+  },
+  {
+   "id": "gitfocus.username.verified.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username verified!",
+   "value": "Nome utente verificato!"
+  },
+  {
+   "id": "gitfocus.uses.number.life.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Uses 1 life • Until midnight",
+   "value": "Utilizza 1 vita • Fino a mezzanotte"
+  },
+  {
+   "id": "gitfocus.using.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Using earned time",
+   "value": "Utilizzando il tempo guadagnato"
+  },
+  {
+   "id": "gitfocus.validate",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Validate",
+   "value": "Convalidare"
+  },
+  {
+   "id": "gitfocus.verify.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Verify Username",
+   "value": "Verifica nome utente"
+  },
+  {
+   "id": "gitfocus.version",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Version",
+   "value": "Versione"
+  },
+  {
+   "id": "gitfocus.view.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View All",
+   "value": "Visualizza tutto"
+  },
+  {
+   "id": "gitfocus.view.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Debug Logs",
+   "value": "Visualizza i registri di debug"
+  },
+  {
+   "id": "gitfocus.view.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Refresh History",
+   "value": "Visualizza la cronologia degli aggiornamenti"
+  },
+  {
+   "id": "gitfocus.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Warning",
+   "value": "Avvertimento",
+   "comment": "Accessibility label for warning indicator"
+  },
+  {
+   "id": "gitfocus.we.found.your.existing.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your existing commits",
+   "value": "Abbiamo trovato i tuoi commit esistenti"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account",
+   "value": "Abbiamo trovato il tuo account GitHub"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account.before",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account from before",
+   "value": "Abbiamo trovato il tuo account GitHub in precedenza"
+  },
+  {
+   "id": "gitfocus.we.found.your.previous.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": "Abbiamo trovato i tuoi dati precedenti"
+  },
+  {
+   "id": "gitfocus.we.only.access.publicly.available.contribution.data.github.no.authentication.private.data.access.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We only access publicly available contribution data from GitHub. No authentication or private data access is required.",
+   "value": "Accediamo solo ai dati sui contributi disponibili pubblicamente da GitHub. Non è richiesta alcuna autenticazione o accesso ai dati privati."
+  },
+  {
+   "id": "gitfocus.weekly.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Weekly bank",
+   "value": "Banca settimanale"
+  },
+  {
+   "id": "gitfocus.welcome",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome",
+   "value": "Benvenuto"
+  },
+  {
+   "id": "gitfocus.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": "Bentornato!"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back!",
+   "value": "Bentornato!"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation.your.github.data.ready",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back! Your GitHub data is ready.",
+   "value": "Bentornato! I tuoi dati GitHub sono pronti."
+  },
+  {
+   "id": "gitfocus.welcome.gitfocus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome to GitFocus!",
+   "value": "Benvenuto a GitFocus!"
+  },
+  {
+   "id": "gitfocus.well.track.your.public.commits.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll track your public commits to unlock apps",
+   "value": "Terremo traccia dei tuoi impegni pubblici per sbloccare le app"
+  },
+  {
+   "id": "gitfocus.well.use.track.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll use this to track your commits",
+   "value": "Lo useremo per tenere traccia dei tuoi impegni"
+  },
+  {
+   "id": "gitfocus.when.enabled.all.blocked.apps.will.hidden.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "When enabled, all blocked apps will be hidden from your home screen during focus sessions.",
+   "value": "Se abilitato, tutte le app bloccate verranno nascoste dalla schermata iniziale durante le sessioni focus."
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which Apps Distract You?",
+   "value": "Quali app ti distraggono?"
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which apps distract you?",
+   "value": "Quali app ti distraggono?"
+  },
+  {
+   "id": "gitfocus.why.no.sign.required.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Why no sign in required?",
+   "value": "Perché non è richiesto l'accesso?"
+  },
+  {
+   "id": "gitfocus.will.clear.your.streak.count.days.earned.time.all.saved.progress.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak (%d days), earned time, and all saved progress. This cannot be undone.",
+   "value": "Ciò cancellerà la serie di (%d giorni), il tempo guadagnato e tutti i progressi salvati. Questa operazione non può essere annullata.",
+   "comment": "Start fresh confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.count.session.records",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all %d session records.",
+   "value": "Questa operazione eliminerà definitivamente tutti i record della sessione %d.",
+   "comment": "Clear history confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.refresh.history.action.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all refresh history. This action cannot be undone.",
+   "value": "Ciò eliminerà definitivamente tutta la cronologia degli aggiornamenti. Questa azione non può essere annullata."
+  },
+  {
+   "id": "gitfocus.will.reset.all.settings.defaults.clear.your.github.username.youll.need.set.up.app.again",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will reset all settings to defaults and clear your GitHub username. You'll need to set up the app again.",
+   "value": "Ciò ripristinerà tutte le impostazioni ai valori predefiniti e cancellerà il tuo nome utente GitHub. Dovrai configurare nuovamente l'app."
+  },
+  {
+   "id": "gitfocus.will.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will unlock apps until midnight.",
+   "value": "Ciò sbloccherà le app fino a mezzanotte."
+  },
+  {
+   "id": "gitfocus.without.notifications.youll.need.manually.open.app.check.commits.when.requesting.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Without notifications, you'll need to manually open the app to check commits when requesting an unlock.",
+   "value": "Senza notifiche, dovrai aprire manualmente l'app per verificare i commit quando richiedi uno sblocco."
+  },
+  {
+   "id": "gitfocus.year",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "this year",
+   "value": "quest'anno"
+  },
+  {
+   "id": "gitfocus.year.end.challenge",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year-End Challenge",
+   "value": "Sfida di fine anno"
+  },
+  {
+   "id": "gitfocus.year.pixels",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year in Pixels",
+   "value": "Anno in pixel"
+  },
+  {
+   "id": "gitfocus.yes.need.more.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, I need more time",
+   "value": "Sì, ho bisogno di più tempo"
+  },
+  {
+   "id": "gitfocus.yes.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": "Sì, ricomincia da capo"
+  },
+  {
+   "id": "gitfocus.yesterday",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yesterday",
+   "value": "Ieri",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.you.dont.have.any.earned.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You don't have any earned time available.",
+   "value": "Non hai tempo guadagnato a disposizione."
+  },
+  {
+   "id": "gitfocus.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d min of usage time.",
+   "value": "Hai %d min di tempo di utilizzo."
+  },
+  {
+   "id": "gitfocus.you.have.count.minutes.earned.time.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d minutes of earned time from your commits.",
+   "value": "Hai %d minuti di tempo guadagnato dai tuoi impegni.",
+   "comment": "Earned time available message"
+  },
+  {
+   "id": "gitfocus.you.previously.denied.notifications.open.settings.enable.them.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You previously denied notifications. Open Settings to enable them for GitFocus.",
+   "value": "Hai negato le notifiche in precedenza. Apri Impostazioni per abilitarle per GitFocus."
+  },
+  {
+   "id": "gitfocus.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "Hai richiesto %d min ma hai solo %d min disponibili."
+  },
+  {
+   "id": "gitfocus.you.start.number.free.life.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You start with 1 free life!",
+   "value": "Inizi con 1 vita gratis!"
+  },
+  {
+   "id": "gitfocus.your.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitHub Profile",
+   "value": "Il tuo profilo GitHub"
+  },
+  {
+   "id": "gitfocus.your.privacy.matters",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your Privacy Matters",
+   "value": "La tua privacy è importante"
+  },
+  {
+   "id": "gitfocus.youre.all.set.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're All Set!",
+   "value": "Sei tutto pronto!"
+  },
+  {
+   "id": "gitfocus.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "Rimani concentrato. Continuate così!"
+  },
+  {
+   "id": "gitfocus.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "Stai tentando di aprire un'app bloccata.\nHai bisogno di più tempo per lavorare su questa cosa?"
+  },
+  {
+   "id": "gitfocus.youve.already.made.commits.today.would.you.like.start.time.begin.fresh.zero.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've already made commits today. Would you like to start with this time, or begin fresh at zero?",
+   "value": "Hai già preso degli impegni oggi. Ti piacerebbe iniziare con questo tempo o ricominciare da capo da zero?"
+  },
+  {
+   "id": "gitfocus.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "Hai esaurito il tuo debito (-5 min). Impegnati su GitHub per guadagnare tempo di sblocco!"
+  },
+  {
+   "id": "gitfocus.youve.used.all.count.lives.will.still.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've used all %d lives.\n\nThis will still unlock apps until midnight.",
+   "value": "Hai utilizzato tutte le %d vite.\n\n Le app verranno comunque sbloccate fino a mezzanotte.",
+   "comment": "Emergency override message when user has no lives"
+  },
+  {
+   "id": "pomodorowidget.count.min",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "%d min",
+   "value": "%d min",
+   "comment": "Total focus duration in minutes"
+  },
+  {
+   "id": "pomodorowidget.focus",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus",
+   "value": "Messa a fuoco",
+   "comment": "PomodoroWidget (zh-Hans)"
+  },
+  {
+   "id": "pomodorowidget.focus.timer",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus Timer",
+   "value": "Temporizzatore della messa a fuoco"
+  },
+  {
+   "id": "shieldaction.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Apps Unlocked! 🔓",
+   "value": "App sbloccate! 🔓"
+  },
+  {
+   "id": "shieldaction.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "Preso in prestito %d min. Ripagalo con i commit!",
+   "comment": "Unlock notification body (debt)"
+  },
+  {
+   "id": "shieldaction.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "Controlla i tuoi impegni GitHub! 💻"
+  },
+  {
+   "id": "shieldaction.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "Limite del debito raggiunto ⚠️"
+  },
+  {
+   "id": "shieldaction.great.choice.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Great Choice! 💪",
+   "value": "Ottima scelta! 💪"
+  },
+  {
+   "id": "shieldaction.not.enough.time.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Not Enough Time Available",
+   "value": "Non abbastanza tempo a disposizione"
+  },
+  {
+   "id": "shieldaction.open.gitfocus",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Open GitFocus 📱",
+   "value": "Apri GitFocus 📱"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "Tocca per aprire GitFocus e controlla i nuovi impegni per guadagnare tempo di sblocco"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "Tocca per aprire GitFocus e sincronizzare i tuoi commit GitHub"
+  },
+  {
+   "id": "shieldaction.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "Ho utilizzato il tempo disponibile e preso in prestito extra. %d minimo totale.",
+   "comment": "Unlock notification body (mixed)"
+  },
+  {
+   "id": "shieldaction.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "Utilizzato %d minuti dal saldo disponibile. Il timer è iniziato!",
+   "comment": "Unlock notification body (earned)"
+  },
+  {
+   "id": "shieldaction.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You have %d min of usage time.",
+   "value": "Hai %d min di tempo di utilizzo.",
+   "comment": "Unlock notification body (generic)"
+  },
+  {
+   "id": "shieldaction.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "Hai richiesto %d min ma hai solo %d min disponibili.",
+   "comment": "Insufficient time notification body"
+  },
+  {
+   "id": "shieldaction.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "Rimani concentrato. Continuate così!"
+  },
+  {
+   "id": "shieldaction.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "Hai esaurito il tuo debito (-5 min). Impegnati su GitHub per guadagnare tempo di sblocco!"
+  },
+  {
+   "id": "shieldconfiguration.choose.unlock.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Choose Unlock Time",
+   "value": "Scegli Ora di sblocco"
+  },
+  {
+   "id": "shieldconfiguration.continue.focusing",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Continue focusing",
+   "value": "Continua a concentrarti"
+  },
+  {
+   "id": "shieldconfiguration.no.stay.focused",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "No, stay focused",
+   "value": "No, rimani concentrato"
+  },
+  {
+   "id": "shieldconfiguration.open.gitfocus",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Open GitFocus",
+   "value": "Apri GitFocus"
+  },
+  {
+   "id": "shieldconfiguration.staying.focused.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Staying Focused!",
+   "value": "Rimanere concentrati!"
+  },
+  {
+   "id": "shieldconfiguration.time.focus.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Time to Focus!",
+   "value": "È ora di concentrarsi!"
+  },
+  {
+   "id": "shieldconfiguration.yes.need.more.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Yes, I need more time",
+   "value": "Sì, ho bisogno di più tempo"
+  },
+  {
+   "id": "shieldconfiguration.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "Stai tentando di aprire un'app bloccata.\nHai bisogno di più tempo per lavorare su questa cosa?"
+  },
+  {
+   "id": "asc.name",
+   "kind": "asc",
+   "section": "name",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "asc.subtitle",
+   "kind": "asc",
+   "section": "subtitle",
+   "en": "Turn Commits into Focus Time",
+   "value": "Commit in tempo di focus"
+  },
+  {
+   "id": "asc.promotional_text",
+   "kind": "asc",
+   "section": "promotional text",
+   "en": "Block distractions until you code. Track one or more GitHub accounts, and every new contribution earns unlock time.",
+   "value": "Blocca le distrazioni finché non programmi. Monitora uno o più account GitHub e guadagna tempo a ogni contributo."
+  },
+  {
+   "id": "asc.description",
+   "kind": "asc",
+   "section": "description",
+   "en": "GitFocus helps developers stay productive by rewarding coding with app access. Block distracting apps until you commit code to GitHub.\n\nHOW IT WORKS\n• Add one or more GitHub accounts (no sign-in required)\n• Select apps to block during focus sessions\n• Each new GitHub contribution earns you 5 minutes of unlock time\n• Need emergency access? Use a life to unlock until midnight\n\nKEY FEATURES\n\nCommit-Based Rewards\nEvery time your GitHub contribution graph increases, you earn unlock time for your blocked apps. The more you code, the more time you earn.\n\nSmart App Blocking\nUses iOS Screen Time to block apps you choose. No workarounds - the apps are truly blocked until you earn time or use a life.\n\nLives System\nStart with 1 free life. Use it for emergency access when you need to check something urgent. Earn more lives by building your coding streak.\n\nTime Borrowing\nNeed to quickly finish a message? Borrow up to 5 minutes. Your future commits will pay it back automatically.\n\nContribution Graph\nSee your GitHub activity at a glance. Watch your coding streak grow as you stay focused and productive.\n\nPrivacy First\nWe only read your public contribution graph (no access to your repositories or code). Your data is stored on your device, with optional iCloud sync for certain settings/statistics if iCloud is enabled.\n\nPERFECT FOR\n• Developers who want to reduce social media time\n• Students learning to code\n• Anyone building a coding habit\n• Teams doing focus sprints\n\nBreak the doom-scrolling cycle. Start coding, start earning.\n\nNote: Requires a public GitHub profile with visible contributions.",
+   "value": "GitFocus aiuta gli sviluppatori a rimanere produttivi premiando la codifica con l'accesso alle app. Blocca le app che ti distraggono finché non inserisci il codice in GitHub.\n\nCOME FUNZIONA\n• Aggiungi uno o più account GitHub (non è richiesto l’accesso)\n• Seleziona le app da bloccare durante le sessioni di focus\n• Ogni nuovo contributo GitHub ti fa guadagnare 5 minuti di tempo di sblocco\n• Hai bisogno di un accesso di emergenza? Usa una vita per sbloccare fino a mezzanotte\n\nCARATTERISTICHE PRINCIPALI\n\nPremi basati su impegno\nOgni volta che il grafico dei tuoi contributi GitHub aumenta, guadagni tempo di sblocco per le tue app bloccate. Più codifichi, più tempo guadagni.\n\nSmart App Blocking\nUtilizza iOS Screen Time per bloccare le app che scegli. Nessuna soluzione alternativa: le app sono veramente bloccate finché non guadagni tempo o utilizzi una vita.\n\nLives System\nInizia con 1 vita gratuita. Usalo per l'accesso di emergenza quando devi controllare qualcosa di urgente. Guadagna più vite costruendo la tua serie di codici.\n\nPrestito di tempo\nHai bisogno di completare rapidamente un messaggio? Prendi in prestito fino a 5 minuti. I tuoi impegni futuri lo ripagheranno automaticamente.\n\nGrafico dei contributi\nGuarda la tua attività GitHub a colpo d'occhio. Guarda crescere la tua serie di codici mentre rimani concentrato e produttivo.\n\nPrivacy First\nLeggiamo solo il grafico del tuo contributo pubblico (nessun accesso ai tuoi repository o al tuo codice). I tuoi dati vengono archiviati sul tuo dispositivo, con sincronizzazione iCloud opzionale per determinate impostazioni/statistiche se iCloud è abilitato.\n\nPERFETTO PER\n• Sviluppatori che desiderano ridurre il tempo dedicato ai social media\n• Studenti che imparano a programmare\n• Chiunque acquisisca un'abitudine alla programmazione\n• Team che eseguono sprint focalizzati\n\nRompi il ciclo del destino. Inizia a programmare, inizia a guadagnare.\n\nNota: richiede un profilo GitHub pubblico con contributi visibili."
+  },
+  {
+   "id": "asc.keywords",
+   "kind": "asc",
+   "section": "keywords",
+   "en": "timer,productivity,github,coding,developer,screen time,app blocker,habit,streak,pomodoro,deep work",
+   "value": "timer,produttività,github,codifica,sviluppatore,tempo schermo,blocco app,abitudine,pomodoro"
+  },
+  {
+   "id": "asc.release_notes",
+   "kind": "asc",
+   "section": "release notes",
+   "en": "What's New in 1.1.0:\n\nGitHub Accounts\n• Track multiple public GitHub accounts at once\n• Switch contribution views between all included accounts, one account, or a custom selection\n• Filter the contribution timeline by available years or show all years together\n\nRelease Prep\n• Updated App Store screenshots and website assets for the new multi-account flow\n• Localization coverage fixes for the new contribution filters",
+   "value": "Novità nella 1.1.0:\n\nAccount GitHub\n• Monitora più account GitHub pubblici contemporaneamente\n• Passa tra tutti gli account inclusi, un singolo account o una selezione personalizzata\n• Filtra la cronologia per anni disponibili o mostra tutti gli anni insieme\n\nPreparazione al rilascio\n• Screenshot App Store e risorse del sito aggiornati per il nuovo flusso multi-account\n• Correzioni di localizzazione per i nuovi filtri dei contributi"
+  },
+  {
+   "id": "site.index.000",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus - Block Apps Until You Commit",
+   "value": "GitFocus – App bloccate finché non fai commit"
+  },
+  {
+   "id": "site.index.001",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS.",
+   "value": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS."
+  },
+  {
+   "id": "site.index.002",
+   "kind": "site",
+   "section": "index",
+   "en": "Skip to main content",
+   "value": "Vai al contenuto principale"
+  },
+  {
+   "id": "site.index.003",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.index.004",
+   "kind": "site",
+   "section": "index",
+   "en": "Features",
+   "value": "Funzioni"
+  },
+  {
+   "id": "site.index.005",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy",
+   "value": "Privacy"
+  },
+  {
+   "id": "site.index.006",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.index.007",
+   "kind": "site",
+   "section": "index",
+   "en": "🇬🇧 EN",
+   "value": "🇮🇹 IT"
+  },
+  {
+   "id": "site.index.008",
+   "kind": "site",
+   "section": "index",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.index.009",
+   "kind": "site",
+   "section": "index",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.index.010",
+   "kind": "site",
+   "section": "index",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.index.011",
+   "kind": "site",
+   "section": "index",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.index.012",
+   "kind": "site",
+   "section": "index",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.index.013",
+   "kind": "site",
+   "section": "index",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.index.014",
+   "kind": "site",
+   "section": "index",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.index.015",
+   "kind": "site",
+   "section": "index",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.index.016",
+   "kind": "site",
+   "section": "index",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.index.017",
+   "kind": "site",
+   "section": "index",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.index.018",
+   "kind": "site",
+   "section": "index",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.index.019",
+   "kind": "site",
+   "section": "index",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.index.020",
+   "kind": "site",
+   "section": "index",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.index.021",
+   "kind": "site",
+   "section": "index",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.index.022",
+   "kind": "site",
+   "section": "index",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.index.023",
+   "kind": "site",
+   "section": "index",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.index.024",
+   "kind": "site",
+   "section": "index",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.index.025",
+   "kind": "site",
+   "section": "index",
+   "en": "Now on the App Store",
+   "value": "Ora su App Store"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
+   "en": "Block apps until you",
+   "value": "Le app restano bloccate finché non fai"
+  },
+  {
+   "id": "site.index.027",
+   "kind": "site",
+   "section": "index",
+   "en": "git push",
+   "value": "git push"
+  },
+  {
+   "id": "site.index.028",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
+   "value": "GitFocus trasforma in gioco le tue abitudini di programmazione. Fai commit da uno o più account GitHub e sblocca le app che ti distraggono. Tutto qui."
+  },
+  {
+   "id": "site.index.029",
+   "kind": "site",
+   "section": "index",
+   "en": "See how it works",
+   "value": "Scopri come funziona"
+  },
+  {
+   "id": "site.index.030",
+   "kind": "site",
+   "section": "index",
+   "en": "git commit -m \"unlock apps\"",
+   "value": "git commit -m \"unlock apps\""
+  },
+  {
+   "id": "site.index.031",
+   "kind": "site",
+   "section": "index",
+   "en": "Scroll to explore",
+   "value": "Scorri per esplorare"
+  },
+  {
+   "id": "site.index.032",
+   "kind": "site",
+   "section": "index",
+   "en": "// How it works",
+   "value": "// Come funziona"
+  },
+  {
+   "id": "site.index.033",
+   "kind": "site",
+   "section": "index",
+   "en": "Turn commits into freedom",
+   "value": "Trasforma i commit in tempo libero"
+  },
+  {
+   "id": "site.index.034",
+   "kind": "site",
+   "section": "index",
+   "en": "Setup takes 2 minutes. Then let your code do the talking.",
+   "value": "La configurazione richiede 2 minuti. Poi lascia parlare il tuo codice."
+  },
+  {
+   "id": "site.index.035",
+   "kind": "site",
+   "section": "index",
+   "en": "Add GitHub accounts",
+   "value": "Aggiungi account GitHub"
+  },
+  {
+   "id": "site.index.036",
+   "kind": "site",
+   "section": "index",
+   "en": "Track one account or aggregate work, personal, and open-source profiles",
+   "value": "Segui un account oppure unisci profili di lavoro, personali e open source"
+  },
+  {
+   "id": "site.index.037",
+   "kind": "site",
+   "section": "index",
+   "en": "Dashboard",
+   "value": "Dashboard"
+  },
+  {
+   "id": "site.index.038",
+   "kind": "site",
+   "section": "index",
+   "en": "Track your streak, daily score, and app lock status at a glance",
+   "value": "Serie, punteggio giornaliero e stato del blocco a colpo d'occhio"
+  },
+  {
+   "id": "site.index.039",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Stats",
+   "value": "Statistiche di concentrazione"
+  },
+  {
+   "id": "site.index.040",
+   "kind": "site",
+   "section": "index",
+   "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
+   "value": "Parti da 100 ogni giorno e guarda tempo bloccato e sblocchi consumarlo"
+  },
+  {
+   "id": "site.index.041",
+   "kind": "site",
+   "section": "index",
+   "en": "Contribution Stats",
+   "value": "Statistiche dei contributi"
+  },
+  {
+   "id": "site.index.042",
+   "kind": "site",
+   "section": "index",
+   "en": "Deep dive into your GitHub activity with detailed statistics",
+   "value": "Analizza a fondo la tua attività su GitHub con statistiche dettagliate"
+  },
+  {
+   "id": "site.index.043",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Timer",
+   "value": "Timer di concentrazione"
+  },
+  {
+   "id": "site.index.044",
+   "kind": "site",
+   "section": "index",
+   "en": "Built-in Pomodoro timer to maximize your productivity sessions",
+   "value": "Timer Pomodoro integrato per sessioni davvero produttive"
+  },
+  {
+   "id": "site.index.045",
+   "kind": "site",
+   "section": "index",
+   "en": "// Features",
+   "value": "// Funzioni"
+  },
+  {
+   "id": "site.index.046",
+   "kind": "site",
+   "section": "index",
+   "en": "Everything you need to stay focused",
+   "value": "Tutto ciò che serve per restare concentrato"
+  },
+  {
+   "id": "site.index.047",
+   "kind": "site",
+   "section": "index",
+   "en": "Not just another app blocker. GitFocus gamifies productivity.",
+   "value": "Non il solito blocca-app. GitFocus rende la produttività un gioco."
+  },
+  {
+   "id": "site.index.048",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn Time",
+   "value": "Guadagna tempo"
+  },
+  {
+   "id": "site.index.049",
+   "kind": "site",
+   "section": "index",
+   "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
+   "value": "Ogni commit dai tuoi account GitHub inclusi ti fa guadagnare tempo di sblocco. Tieni insieme lavoro, vita privata e open source."
+  },
+  {
+   "id": "site.index.050",
+   "kind": "site",
+   "section": "index",
+   "en": "mins unlocked",
+   "value": "min sbloccati"
+  },
+  {
+   "id": "site.index.051",
+   "kind": "site",
+   "section": "index",
+   "en": "Simulate commit",
+   "value": "Simula un commit"
+  },
+  {
+   "id": "site.index.052",
+   "kind": "site",
+   "section": "index",
+   "en": "Lives System",
+   "value": "Sistema di vite"
+  },
+  {
+   "id": "site.index.053",
+   "kind": "site",
+   "section": "index",
+   "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
+   "value": "Ti serve un accesso d'emergenza? Usa una vita per sbloccare le app fino a mezzanotte. Parti con 1 vita gratuita."
+  },
+  {
+   "id": "site.index.054",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn more through",
+   "value": "Guadagnane altre con le"
+  },
+  {
+   "id": "site.index.055",
+   "kind": "site",
+   "section": "index",
+   "en": "streaks",
+   "value": "serie"
+  },
+  {
+   "id": "site.index.056",
+   "kind": "site",
+   "section": "index",
+   "en": "Borrow Time",
+   "value": "Prendi tempo in prestito"
+  },
+  {
+   "id": "site.index.057",
+   "kind": "site",
+   "section": "index",
+   "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
+   "value": "Devi finire un messaggio? Prendi in prestito fino a 5 minuti. I prossimi commit lo restituiranno."
+  },
+  {
+   "id": "site.index.058",
+   "kind": "site",
+   "section": "index",
+   "en": "Current debt:",
+   "value": "Debito attuale:"
+  },
+  {
+   "id": "site.index.059",
+   "kind": "site",
+   "section": "index",
+   "en": "0 min",
+   "value": "0 min"
+  },
+  {
+   "id": "site.index.060",
+   "kind": "site",
+   "section": "index",
+   "en": "Max borrow:",
+   "value": "Prestito max:"
+  },
+  {
+   "id": "site.index.061",
+   "kind": "site",
+   "section": "index",
+   "en": "5 min",
+   "value": "5 min"
+  },
+  {
+   "id": "site.index.062",
+   "kind": "site",
+   "section": "index",
+   "en": "Discipline Bank",
+   "value": "Banca della disciplina"
+  },
+  {
+   "id": "site.index.063",
+   "kind": "site",
+   "section": "index",
+   "en": "(Coming Soon)",
+   "value": "(Prossimamente)"
+  },
+  {
+   "id": "site.index.064",
+   "kind": "site",
+   "section": "index",
+   "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
+   "value": "Il tempo che guadagni ma non usi viene messo da parte. È una misura del tuo autocontrollo."
+  },
+  {
+   "id": "site.index.065",
+   "kind": "site",
+   "section": "index",
+   "en": "minutes banked",
+   "value": "minuti accumulati"
+  },
+  {
+   "id": "site.index.066",
+   "kind": "site",
+   "section": "index",
+   "en": "Challenge: Bank",
+   "value": "Sfida: accumula"
+  },
+  {
+   "id": "site.index.067",
+   "kind": "site",
+   "section": "index",
+   "en": "1000 min",
+   "value": "1000 min"
+  },
+  {
+   "id": "site.index.068",
+   "kind": "site",
+   "section": "index",
+   "en": "this year",
+   "value": "quest'anno"
+  },
+  {
+   "id": "site.index.069",
+   "kind": "site",
+   "section": "index",
+   "en": "Streak Milestones",
+   "value": "Traguardi della serie"
+  },
+  {
+   "id": "site.index.070",
+   "kind": "site",
+   "section": "index",
+   "en": "Build your streak to unlock permanent rewards.",
+   "value": "Allunga la serie per sbloccare ricompense permanenti."
+  },
+  {
+   "id": "site.index.071",
+   "kind": "site",
+   "section": "index",
+   "en": "14d",
+   "value": "14 g"
+  },
+  {
+   "id": "site.index.072",
+   "kind": "site",
+   "section": "index",
+   "en": "+1 extra life",
+   "value": "+1 vita extra"
+  },
+  {
+   "id": "site.index.073",
+   "kind": "site",
+   "section": "index",
+   "en": "30d",
+   "value": "30 g"
+  },
+  {
+   "id": "site.index.074",
+   "kind": "site",
+   "section": "index",
+   "en": "Weekly time bank",
+   "value": "Banca del tempo settimanale"
+  },
+  {
+   "id": "site.index.075",
+   "kind": "site",
+   "section": "index",
+   "en": "90d",
+   "value": "90 g"
+  },
+  {
+   "id": "site.index.076",
+   "kind": "site",
+   "section": "index",
+   "en": "Time never expires",
+   "value": "Il tempo non scade mai"
+  },
+  {
+   "id": "site.index.077",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy First",
+   "value": "Prima la privacy"
+  },
+  {
+   "id": "site.index.078",
+   "kind": "site",
+   "section": "index",
+   "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
+   "value": "Nessun account GitFocus. Nessun accesso GitHub. Tutto resta sul tuo dispositivo."
+  },
+  {
+   "id": "site.index.079",
+   "kind": "site",
+   "section": "index",
+   "en": "Works offline",
+   "value": "Funziona offline"
+  },
+  {
+   "id": "site.index.080",
+   "kind": "site",
+   "section": "index",
+   "en": "No tracking",
+   "value": "Nessun tracciamento"
+  },
+  {
+   "id": "site.index.081",
+   "kind": "site",
+   "section": "index",
+   "en": "Open source friendly",
+   "value": "Amico dell'open source"
+  },
+  {
+   "id": "site.index.082",
+   "kind": "site",
+   "section": "index",
+   "en": "Ready to ship more code?",
+   "value": "Pronto a rilasciare più codice?"
+  },
+  {
+   "id": "site.index.083",
+   "kind": "site",
+   "section": "index",
+   "en": "Join developers who've turned procrastination into productivity.",
+   "value": "Unisciti agli sviluppatori che hanno trasformato la procrastinazione in produttività."
+  },
+  {
+   "id": "site.index.084",
+   "kind": "site",
+   "section": "index",
+   "en": "Free to use. No subscription required.",
+   "value": "Gratis. Nessun abbonamento."
+  },
+  {
+   "id": "site.index.085",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy Policy",
+   "value": "Informativa sulla privacy"
+  },
+  {
+   "id": "site.index.086",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.index.087",
+   "kind": "site",
+   "section": "index",
+   "en": "Accessibility",
+   "value": "Accessibilità"
+  },
+  {
+   "id": "site.index.088",
+   "kind": "site",
+   "section": "index",
+   "en": "Contact",
+   "value": "Contatti"
+  },
+  {
+   "id": "site.index.089",
+   "kind": "site",
+   "section": "index",
+   "en": "© 2026 GitFocus. Made with git and focus.",
+   "value": "© 2026 GitFocus. Fatto con git e concentrazione."
+  },
+  {
+   "id": "site.support.000",
+   "kind": "site",
+   "section": "support",
+   "en": "Support - GitFocus",
+   "value": "Supporto - GitFocus"
+  },
+  {
+   "id": "site.support.001",
+   "kind": "site",
+   "section": "support",
+   "en": "Get help with GitFocus. FAQs, troubleshooting, and contact information.",
+   "value": "Get help with GitFocus. FAQs, troubleshooting, and contact information."
+  },
+  {
+   "id": "site.support.002",
+   "kind": "site",
+   "section": "support",
+   "en": "Skip to main content",
+   "value": "Vai al contenuto principale"
+  },
+  {
+   "id": "site.support.003",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.support.004",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "Home"
+  },
+  {
+   "id": "site.support.005",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy",
+   "value": "Privacy"
+  },
+  {
+   "id": "site.support.006",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.support.007",
+   "kind": "site",
+   "section": "support",
+   "en": "🇬🇧 EN",
+   "value": "🇮🇹 IT"
+  },
+  {
+   "id": "site.support.008",
+   "kind": "site",
+   "section": "support",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.support.009",
+   "kind": "site",
+   "section": "support",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.support.010",
+   "kind": "site",
+   "section": "support",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.support.011",
+   "kind": "site",
+   "section": "support",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.support.012",
+   "kind": "site",
+   "section": "support",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.support.013",
+   "kind": "site",
+   "section": "support",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.support.014",
+   "kind": "site",
+   "section": "support",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.support.015",
+   "kind": "site",
+   "section": "support",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.support.016",
+   "kind": "site",
+   "section": "support",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.support.017",
+   "kind": "site",
+   "section": "support",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.support.018",
+   "kind": "site",
+   "section": "support",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.support.019",
+   "kind": "site",
+   "section": "support",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.support.020",
+   "kind": "site",
+   "section": "support",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.support.021",
+   "kind": "site",
+   "section": "support",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.support.022",
+   "kind": "site",
+   "section": "support",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.support.023",
+   "kind": "site",
+   "section": "support",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.support.024",
+   "kind": "site",
+   "section": "support",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.support.025",
+   "kind": "site",
+   "section": "support",
+   "en": "// Support",
+   "value": "// Supporto"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
+   "en": "How can we help?",
+   "value": "Come possiamo aiutarti?"
+  },
+  {
+   "id": "site.support.027",
+   "kind": "site",
+   "section": "support",
+   "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
+   "value": "Trova risposte alle domande comuni o contattaci direttamente. Generalmente rispondiamo entro 24 ore."
+  },
+  {
+   "id": "site.support.028",
+   "kind": "site",
+   "section": "support",
+   "en": "Get in Touch",
+   "value": "Mettiti in contatto"
+  },
+  {
+   "id": "site.support.029",
+   "kind": "site",
+   "section": "support",
+   "en": "Have a question, bug report, or feature request?",
+   "value": "Hai una domanda, una segnalazione di bug o una richiesta di funzionalità?"
+  },
+  {
+   "id": "site.support.030",
+   "kind": "site",
+   "section": "support",
+   "en": "We'd love to hear from you.",
+   "value": "Ci piacerebbe sentirti."
+  },
+  {
+   "id": "site.support.031",
+   "kind": "site",
+   "section": "support",
+   "en": "Chat with us",
+   "value": "Chatta con noi"
+  },
+  {
+   "id": "site.support.032",
+   "kind": "site",
+   "section": "support",
+   "en": "or email us at",
+   "value": "o inviaci un'email a"
+  },
+  {
+   "id": "site.support.033",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.034",
+   "kind": "site",
+   "section": "support",
+   "en": "Frequently Asked Questions",
+   "value": "Domande frequenti"
+  },
+  {
+   "id": "site.support.035",
+   "kind": "site",
+   "section": "support",
+   "en": "All",
+   "value": "Tutte"
+  },
+  {
+   "id": "site.support.036",
+   "kind": "site",
+   "section": "support",
+   "en": "Setup",
+   "value": "Configurazione"
+  },
+  {
+   "id": "site.support.037",
+   "kind": "site",
+   "section": "support",
+   "en": "Features",
+   "value": "Funzioni"
+  },
+  {
+   "id": "site.support.038",
+   "kind": "site",
+   "section": "support",
+   "en": "Troubleshooting",
+   "value": "Risoluzione problemi"
+  },
+  {
+   "id": "site.support.039",
+   "kind": "site",
+   "section": "support",
+   "en": "Do I need to connect my GitHub account?",
+   "value": "Devo collegare il mio account GitHub?"
+  },
+  {
+   "id": "site.support.040",
+   "kind": "site",
+   "section": "support",
+   "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
+   "value": "No! GitFocus ha bisogno solo del nome utente GitHub o dei nomi utente che scegli di tracciare. Leggiamo i grafici dei contributi pubblici (i quadrati verdi sui profili) per rilevare i commit. Nessun OAuth, nessun token, nessuna password richiesta."
+  },
+  {
+   "id": "site.support.041",
+   "kind": "site",
+   "section": "support",
+   "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
+   "value": "Puoi aggiungere più account GitHub e decidere quali contano per il rilevamento dei commit."
+  },
+  {
+   "id": "site.support.042",
+   "kind": "site",
+   "section": "support",
+   "en": "Why do you need Screen Time permissions?",
+   "value": "Perché avete bisogno delle autorizzazioni Tempo di utilizzo?"
+  },
+  {
+   "id": "site.support.043",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
+   "value": "GitFocus utilizza l'API Tempo di utilizzo di Apple per bloccare le app. Questo è lo stesso sistema sicuro che alimenta i controlli parentali integrati di Apple. Abbiamo bisogno dell'autorizzazione per applicare restrizioni alle app per tuo conto."
+  },
+  {
+   "id": "site.support.044",
+   "kind": "site",
+   "section": "support",
+   "en": "Does GitFocus work with private repositories?",
+   "value": "GitFocus funziona con repository privati?"
+  },
+  {
+   "id": "site.support.045",
+   "kind": "site",
+   "section": "support",
+   "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
+   "value": "Sì! GitHub conta tutti i commit (pubblici e privati) nel tuo grafico dei contributi per impostazione predefinita. Finché le tue impostazioni di contribuzione sono impostate per mostrare \"Contributi privati\", li vedremo."
+  },
+  {
+   "id": "site.support.046",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
+   "value": "Vai al tuo profilo GitHub → Impostazioni contributi → Seleziona \"Contributi privati\""
+  },
+  {
+   "id": "site.support.047",
+   "kind": "site",
+   "section": "support",
+   "en": "How much time does each commit earn?",
+   "value": "Quanto tempo guadagna ogni commit?"
+  },
+  {
+   "id": "site.support.048",
+   "kind": "site",
+   "section": "support",
+   "en": "Each commit earns you",
+   "value": "Ogni commit ti fa guadagnare"
+  },
+  {
+   "id": "site.support.049",
+   "kind": "site",
+   "section": "support",
+   "en": "5 minutes",
+   "value": "5 minuti"
+  },
+  {
+   "id": "site.support.050",
+   "kind": "site",
+   "section": "support",
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
+   "value": "di tempo di sblocco. Hai fatto push di 3 commit? Sono 15 minuti per scorrere Twitter senza sensi di colpa. 🎉"
+  },
+  {
+   "id": "site.support.051",
+   "kind": "site",
+   "section": "support",
+   "en": "What are \"Lives\" and how do they work?",
+   "value": "Cosa sono le \"Vite\" e come funzionano?"
+  },
+  {
+   "id": "site.support.052",
+   "kind": "site",
+   "section": "support",
+   "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
+   "value": "Le vite sono sblocchi di emergenza. Quando usi una vita, tutte le tue app bloccate vengono sbloccate fino a mezzanotte. Inizi con 1 vita gratuita e puoi guadagnarne altre attraverso le serie:"
+  },
+  {
+   "id": "site.support.053",
+   "kind": "site",
+   "section": "support",
+   "en": "14-day streak: +1 life",
+   "value": "Serie di 14 giorni: +1 vita"
+  },
+  {
+   "id": "site.support.054",
+   "kind": "site",
+   "section": "support",
+   "en": "Then +1 life every month you maintain the streak",
+   "value": "Poi +1 vita ogni mese che mantieni la serie"
+  },
+  {
+   "id": "site.support.055",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the \"Borrow Time\" feature?",
+   "value": "Cos'è la funzionalità \"Prendi in prestito tempo\"?"
+  },
+  {
+   "id": "site.support.056",
+   "kind": "site",
+   "section": "support",
+   "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
+   "value": "Hai bisogno di finire un messaggio veloce ma non hai tempo di sblocco? Puoi prendere in prestito fino a 5 minuti. Questo crea un \"debito\" che viene ripagato dai tuoi futuri guadagni da commit."
+  },
+  {
+   "id": "site.support.057",
+   "kind": "site",
+   "section": "support",
+   "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
+   "value": "Esempio: Prendi in prestito 3 minuti. Il tuo prossimo commit guadagna 5 minuti, ma 3 vanno a ripagare il debito, lasciandoti con 2 minuti."
+  },
+  {
+   "id": "site.support.058",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the Discipline Bank?",
+   "value": "Cos'è la Banca della disciplina?"
+  },
+  {
+   "id": "site.support.059",
+   "kind": "site",
+   "section": "support",
+   "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
+   "value": "La Banca della disciplina tiene traccia del tempo che hai guadagnato ma non hai usato. È una misura del tuo autocontrollo. Ogni minuto che guadagni ma non spendi in distrazioni va nella tua banca."
+  },
+  {
+   "id": "site.support.060",
+   "kind": "site",
+   "section": "support",
+   "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
+   "value": "Sfida te stesso: Quanti minuti puoi accumulare entro la fine dell'anno?"
+  },
+  {
+   "id": "site.support.061",
+   "kind": "site",
+   "section": "support",
+   "en": "What are the streak milestone rewards?",
+   "value": "Quali sono le ricompense dei traguardi delle serie?"
+  },
+  {
+   "id": "site.support.062",
+   "kind": "site",
+   "section": "support",
+   "en": "Building a streak unlocks permanent perks:",
+   "value": "Costruire una serie sblocca vantaggi permanenti:"
+  },
+  {
+   "id": "site.support.063",
+   "kind": "site",
+   "section": "support",
+   "en": "14 days:",
+   "value": "14 giorni:"
+  },
+  {
+   "id": "site.support.064",
+   "kind": "site",
+   "section": "support",
+   "en": "+1 extra life (then +1/month)",
+   "value": "+1 vita extra (poi +1/mese)"
+  },
+  {
+   "id": "site.support.065",
+   "kind": "site",
+   "section": "support",
+   "en": "30 days:",
+   "value": "30 giorni:"
+  },
+  {
+   "id": "site.support.066",
+   "kind": "site",
+   "section": "support",
+   "en": "Weekly time bank (unused time resets weekly instead of daily)",
+   "value": "Banca del tempo settimanale (il tempo non usato si resetta settimanalmente invece che giornalmente)"
+  },
+  {
+   "id": "site.support.067",
+   "kind": "site",
+   "section": "support",
+   "en": "90 days:",
+   "value": "90 giorni:"
+  },
+  {
+   "id": "site.support.068",
+   "kind": "site",
+   "section": "support",
+   "en": "Permanent time (earned time never expires)",
+   "value": "Tempo permanente (il tempo guadagnato non scade mai)"
+  },
+  {
+   "id": "site.support.069",
+   "kind": "site",
+   "section": "support",
+   "en": "My commits aren't being detected",
+   "value": "I miei commit non vengono rilevati"
+  },
+  {
+   "id": "site.support.070",
+   "kind": "site",
+   "section": "support",
+   "en": "Here are some things to check:",
+   "value": "Ecco alcune cose da controllare:"
+  },
+  {
+   "id": "site.support.071",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure your GitHub username is entered correctly",
+   "value": "Assicurati che il tuo nome utente GitHub sia inserito correttamente"
+  },
+  {
+   "id": "site.support.072",
+   "kind": "site",
+   "section": "support",
+   "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
+   "value": "Se usi più account, controlla che gli account giusti siano abilitati per il rilevamento dei commit"
+  },
+  {
+   "id": "site.support.073",
+   "kind": "site",
+   "section": "support",
+   "en": "Check that your commits show up on your GitHub profile's contribution graph",
+   "value": "Controlla che i tuoi commit appaiano nel grafico dei contributi del tuo profilo GitHub"
+  },
+  {
+   "id": "site.support.074",
+   "kind": "site",
+   "section": "support",
+   "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
+   "value": "Se usi repository privati, assicurati che \"Contributi privati\" sia abilitato nelle impostazioni GitHub"
+  },
+  {
+   "id": "site.support.075",
+   "kind": "site",
+   "section": "support",
+   "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
+   "value": "Aspetta qualche minuto — il grafico dei contributi di GitHub può impiegare del tempo per aggiornarsi"
+  },
+  {
+   "id": "site.support.076",
+   "kind": "site",
+   "section": "support",
+   "en": "Apps aren't being blocked",
+   "value": "Le app non vengono bloccate"
+  },
+  {
+   "id": "site.support.077",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you've:",
+   "value": "Assicurati di avere:"
+  },
+  {
+   "id": "site.support.078",
+   "kind": "site",
+   "section": "support",
+   "en": "Granted Screen Time permissions during setup",
+   "value": "Concesso le autorizzazioni Tempo di utilizzo durante la configurazione"
+  },
+  {
+   "id": "site.support.079",
+   "kind": "site",
+   "section": "support",
+   "en": "Selected at least one app or category to block",
+   "value": "Selezionato almeno un'app o categoria da bloccare"
+  },
+  {
+   "id": "site.support.080",
+   "kind": "site",
+   "section": "support",
+   "en": "Started a focus session from the main screen",
+   "value": "Avviato una sessione di concentrazione dalla schermata principale"
+  },
+  {
+   "id": "site.support.081",
+   "kind": "site",
+   "section": "support",
+   "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
+   "value": "Se i problemi persistono, prova ad andare in Impostazioni iOS → Tempo di utilizzo e assicurati che GitFocus abbia le autorizzazioni necessarie."
+  },
+  {
+   "id": "site.support.082",
+   "kind": "site",
+   "section": "support",
+   "en": "The app crashed or is behaving unexpectedly",
+   "value": "L'app è andata in crash o si comporta in modo inaspettato"
+  },
+  {
+   "id": "site.support.083",
+   "kind": "site",
+   "section": "support",
+   "en": "Try these steps:",
+   "value": "Prova questi passaggi:"
+  },
+  {
+   "id": "site.support.084",
+   "kind": "site",
+   "section": "support",
+   "en": "Force quit and reopen the app",
+   "value": "Forza la chiusura e riapri l'app"
+  },
+  {
+   "id": "site.support.085",
+   "kind": "site",
+   "section": "support",
+   "en": "Restart your device",
+   "value": "Riavvia il tuo dispositivo"
+  },
+  {
+   "id": "site.support.086",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you're on the latest version of GitFocus",
+   "value": "Assicurati di avere l'ultima versione di GitFocus"
+  },
+  {
+   "id": "site.support.087",
+   "kind": "site",
+   "section": "support",
+   "en": "If the issue persists, email us at",
+   "value": "Se il problema persiste, inviaci un'email a"
+  },
+  {
+   "id": "site.support.088",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.089",
+   "kind": "site",
+   "section": "support",
+   "en": "with details about what happened",
+   "value": "con i dettagli di cosa è successo"
+  },
+  {
+   "id": "site.support.090",
+   "kind": "site",
+   "section": "support",
+   "en": "How do I reset or start over?",
+   "value": "Come faccio a reimpostare o ricominciare?"
+  },
+  {
+   "id": "site.support.091",
+   "kind": "site",
+   "section": "support",
+   "en": "To completely reset GitFocus:",
+   "value": "Per reimpostare completamente GitFocus:"
+  },
+  {
+   "id": "site.support.092",
+   "kind": "site",
+   "section": "support",
+   "en": "Delete the app from your device",
+   "value": "Elimina l'app dal tuo dispositivo"
+  },
+  {
+   "id": "site.support.093",
+   "kind": "site",
+   "section": "support",
+   "en": "Reinstall from the App Store",
+   "value": "Reinstalla dall'App Store"
+  },
+  {
+   "id": "site.support.094",
+   "kind": "site",
+   "section": "support",
+   "en": "Go through the onboarding again",
+   "value": "Ripassa attraverso l'onboarding"
+  },
+  {
+   "id": "site.support.095",
+   "kind": "site",
+   "section": "support",
+   "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
+   "value": "Nota: Il tuo nome utente GitHub o l'elenco degli account è memorizzato in modo sicuro per comodità, quindi potrebbe essere precompilato quando reinstalli."
+  },
+  {
+   "id": "site.support.096",
+   "kind": "site",
+   "section": "support",
+   "en": "Quick Troubleshooting",
+   "value": "Risoluzione rapida dei problemi"
+  },
+  {
+   "id": "site.support.097",
+   "kind": "site",
+   "section": "support",
+   "en": "Force Refresh",
+   "value": "Forza l'aggiornamento"
+  },
+  {
+   "id": "site.support.098",
+   "kind": "site",
+   "section": "support",
+   "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
+   "value": "Trascina verso il basso nella schermata principale per aggiornare manualmente i tuoi dati di commit da GitHub."
+  },
+  {
+   "id": "site.support.099",
+   "kind": "site",
+   "section": "support",
+   "en": "Check Permissions",
+   "value": "Controlla le autorizzazioni"
+  },
+  {
+   "id": "site.support.100",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
+   "value": "Vai in Impostazioni iOS → Tempo di utilizzo → GitFocus per verificare che le autorizzazioni siano concesse."
+  },
+  {
+   "id": "site.support.101",
+   "kind": "site",
+   "section": "support",
+   "en": "Verify GitHub",
+   "value": "Verifica GitHub"
+  },
+  {
+   "id": "site.support.102",
+   "kind": "site",
+   "section": "support",
+   "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
+   "value": "Visita github.com/[tuo-nome-utente] e controlla che il tuo grafico dei contributi mostri i commit recenti."
+  },
+  {
+   "id": "site.support.103",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "Informativa sulla privacy"
+  },
+  {
+   "id": "site.support.104",
+   "kind": "site",
+   "section": "support",
+   "en": "Learn how we protect your data",
+   "value": "Scopri come proteggiamo i tuoi dati"
+  },
+  {
+   "id": "site.support.105",
+   "kind": "site",
+   "section": "support",
+   "en": "Report a Bug",
+   "value": "Segnala un bug"
+  },
+  {
+   "id": "site.support.106",
+   "kind": "site",
+   "section": "support",
+   "en": "Help us improve GitFocus",
+   "value": "Aiutaci a migliorare GitFocus"
+  },
+  {
+   "id": "site.support.107",
+   "kind": "site",
+   "section": "support",
+   "en": "Request a Feature",
+   "value": "Richiedi una funzionalità"
+  },
+  {
+   "id": "site.support.108",
+   "kind": "site",
+   "section": "support",
+   "en": "Tell us what you'd like to see",
+   "value": "Dicci cosa vorresti vedere"
+  },
+  {
+   "id": "site.support.109",
+   "kind": "site",
+   "section": "support",
+   "en": "Localization Feedback",
+   "value": "Feedback sulla traduzione"
+  },
+  {
+   "id": "site.support.110",
+   "kind": "site",
+   "section": "support",
+   "en": "Review the translations and suggest fixes",
+   "value": "Rivedi le traduzioni e suggerisci correzioni"
+  },
+  {
+   "id": "site.support.111",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "Home"
+  },
+  {
+   "id": "site.support.112",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "Informativa sulla privacy"
+  },
+  {
+   "id": "site.support.113",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.support.114",
+   "kind": "site",
+   "section": "support",
+   "en": "Accessibility",
+   "value": "Accessibilità"
+  },
+  {
+   "id": "site.support.115",
+   "kind": "site",
+   "section": "support",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.privacy.000",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy - GitFocus",
+   "value": "Informativa sulla privacy - GitFocus"
+  },
+  {
+   "id": "site.privacy.001",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device.",
+   "value": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device."
+  },
+  {
+   "id": "site.privacy.002",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Skip to main content",
+   "value": "Vai al contenuto principale"
+  },
+  {
+   "id": "site.privacy.003",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.privacy.004",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "Home"
+  },
+  {
+   "id": "site.privacy.005",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy",
+   "value": "Privacy"
+  },
+  {
+   "id": "site.privacy.006",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.privacy.007",
+   "kind": "site",
+   "section": "privacy",
+   "en": "🇬🇧 EN",
+   "value": "🇮🇹 IT"
+  },
+  {
+   "id": "site.privacy.008",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.privacy.009",
+   "kind": "site",
+   "section": "privacy",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.privacy.010",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.privacy.011",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.privacy.012",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.privacy.013",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.privacy.014",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.privacy.015",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.privacy.016",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.privacy.017",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.privacy.018",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.privacy.019",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.privacy.020",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.privacy.021",
+   "kind": "site",
+   "section": "privacy",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.privacy.022",
+   "kind": "site",
+   "section": "privacy",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.privacy.023",
+   "kind": "site",
+   "section": "privacy",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.privacy.024",
+   "kind": "site",
+   "section": "privacy",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.privacy.025",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// Privacy Policy",
+   "value": "// Informativa sulla privacy"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your data stays yours",
+   "value": "I tuoi dati rimangono tuoi"
+  },
+  {
+   "id": "site.privacy.027",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
+   "value": "Abbiamo costruito GitFocus con la privacy come principio fondamentale. Ecco esattamente cosa facciamo (e non facciamo) con le tue informazioni."
+  },
+  {
+   "id": "site.privacy.028",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Last updated: January 2026",
+   "value": "Ultimo aggiornamento: gennaio 2026"
+  },
+  {
+   "id": "site.privacy.029",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// TL;DR",
+   "value": "// In breve"
+  },
+  {
+   "id": "site.privacy.030",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We don't collect your data. Period.",
+   "value": "Non raccogliamo i tuoi dati. Punto."
+  },
+  {
+   "id": "site.privacy.031",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No accounts required",
+   "value": "Nessun account richiesto"
+  },
+  {
+   "id": "site.privacy.032",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything on-device",
+   "value": "Tutto sul dispositivo"
+  },
+  {
+   "id": "site.privacy.033",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No tracking or analytics",
+   "value": "Nessun tracciamento o analisi"
+  },
+  {
+   "id": "site.privacy.034",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Works offline",
+   "value": "Funziona offline"
+  },
+  {
+   "id": "site.privacy.035",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Data We Collect",
+   "value": "Dati che raccogliamo"
+  },
+  {
+   "id": "site.privacy.036",
+   "kind": "site",
+   "section": "privacy",
+   "en": "None.",
+   "value": "Nessuno."
+  },
+  {
+   "id": "site.privacy.037",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
+   "value": "GitFocus non raccoglie, memorizza o trasmette alcun dato personale ai nostri server perché non abbiamo server a cui inviarli."
+  },
+  {
+   "id": "site.privacy.038",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything the app needs to function is stored locally on your device:",
+   "value": "Tutto ciò di cui l'app ha bisogno per funzionare è memorizzato localmente sul tuo dispositivo:"
+  },
+  {
+   "id": "site.privacy.039",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub username or usernames (to check public commits)",
+   "value": "Il tuo nome utente GitHub o i tuoi nomi utente (per controllare i commit pubblici)"
+  },
+  {
+   "id": "site.privacy.040",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app selection preferences",
+   "value": "Le tue preferenze di selezione delle app"
+  },
+  {
+   "id": "site.privacy.041",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your focus session history",
+   "value": "La cronologia delle tue sessioni di concentrazione"
+  },
+  {
+   "id": "site.privacy.042",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your earned time and streak data",
+   "value": "Il tuo tempo guadagnato e i dati delle serie"
+  },
+  {
+   "id": "site.privacy.043",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitHub Integration",
+   "value": "Integrazione GitHub"
+  },
+  {
+   "id": "site.privacy.044",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
+   "value": "GitFocus legge i dati di contribuzione pubblici di GitHub per il nome utente o i nomi utente che aggiungi per determinare quando hai effettuato commit. Ecco come funziona:"
+  },
+  {
+   "id": "site.privacy.045",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Access",
+   "value": "A cosa accediamo"
+  },
+  {
+   "id": "site.privacy.046",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public GitHub profile page",
+   "value": "La tua pagina del profilo GitHub pubblico"
+  },
+  {
+   "id": "site.privacy.047",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public contribution graph (the green squares)",
+   "value": "Il tuo grafico dei contributi pubblici (i quadrati verdi)"
+  },
+  {
+   "id": "site.privacy.048",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit counts per day (not commit contents)",
+   "value": "Numero di commit per giorno (non il contenuto dei commit)"
+  },
+  {
+   "id": "site.privacy.049",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Don't Access",
+   "value": "A cosa non accediamo"
+  },
+  {
+   "id": "site.privacy.050",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Private repositories",
+   "value": "Repository privati"
+  },
+  {
+   "id": "site.privacy.051",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit messages or code",
+   "value": "Messaggi di commit o codice"
+  },
+  {
+   "id": "site.privacy.052",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub password or tokens",
+   "value": "La tua password GitHub o i tuoi token"
+  },
+  {
+   "id": "site.privacy.053",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any GitHub API with authentication",
+   "value": "Nessuna API GitHub con autenticazione"
+  },
+  {
+   "id": "site.privacy.054",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No OAuth Required",
+   "value": "✅ Nessun OAuth richiesto"
+  },
+  {
+   "id": "site.privacy.055",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
+   "value": "Abbiamo intenzionalmente progettato GitFocus per funzionare senza autenticazione GitHub. Puoi aggiungere uno o più nomi utente GitHub, e leggiamo solo informazioni pubblicamente disponibili che chiunque può vedere visitando quei profili GitHub."
+  },
+  {
+   "id": "site.privacy.056",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time & App Blocking",
+   "value": "Tempo di utilizzo e blocco app"
+  },
+  {
+   "id": "site.privacy.057",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
+   "value": "GitFocus utilizza l'API Tempo di utilizzo di Apple (framework Family Controls) per bloccare le app. Questo è lo stesso sistema sicuro che alimenta le funzionalità Tempo di utilizzo integrate di Apple."
+  },
+  {
+   "id": "site.privacy.058",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How It Works",
+   "value": "Come funziona"
+  },
+  {
+   "id": "site.privacy.059",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App blocking is handled entirely by iOS, not our code",
+   "value": "Il blocco delle app è gestito interamente da iOS, non dal nostro codice"
+  },
+  {
+   "id": "site.privacy.060",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We never see which apps you use or for how long",
+   "value": "Non vediamo mai quali app usi o per quanto tempo"
+  },
+  {
+   "id": "site.privacy.061",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Apple's privacy protections apply to all Screen Time data",
+   "value": "Le protezioni della privacy di Apple si applicano a tutti i dati Tempo di utilizzo"
+  },
+  {
+   "id": "site.privacy.062",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We only receive anonymized \"tokens\" that represent apps",
+   "value": "Riceviamo solo \"token\" anonimizzati che rappresentano le app"
+  },
+  {
+   "id": "site.privacy.063",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Can't See",
+   "value": "Cosa non possiamo vedere"
+  },
+  {
+   "id": "site.privacy.064",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app usage statistics",
+   "value": "Le tue statistiche di utilizzo delle app"
+  },
+  {
+   "id": "site.privacy.065",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you open or close apps",
+   "value": "Quando apri o chiudi le app"
+  },
+  {
+   "id": "site.privacy.066",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How long you spend in any app",
+   "value": "Quanto tempo trascorri in qualsiasi app"
+  },
+  {
+   "id": "site.privacy.067",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The actual names of apps you select (only tokens)",
+   "value": "I nomi effettivi delle app che selezioni (solo token)"
+  },
+  {
+   "id": "site.privacy.068",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Local Data Storage",
+   "value": "Archiviazione dati locale"
+  },
+  {
+   "id": "site.privacy.069",
+   "kind": "site",
+   "section": "privacy",
+   "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
+   "value": "Tutti i tuoi dati sono memorizzati sul tuo dispositivo utilizzando i meccanismi di archiviazione sicuri di Apple:"
+  },
+  {
+   "id": "site.privacy.070",
+   "kind": "site",
+   "section": "privacy",
+   "en": "UserDefaults",
+   "value": "UserDefaults"
+  },
+  {
+   "id": "site.privacy.071",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Settings and preferences",
+   "value": "— Impostazioni e preferenze"
+  },
+  {
+   "id": "site.privacy.072",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Keychain",
+   "value": "Keychain"
+  },
+  {
+   "id": "site.privacy.073",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your primary GitHub username (for persistence across reinstalls)",
+   "value": "— Il tuo nome utente GitHub principale (per la persistenza tra le reinstallazioni)"
+  },
+  {
+   "id": "site.privacy.074",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App Group",
+   "value": "App Group"
+  },
+  {
+   "id": "site.privacy.075",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Shared data between app and extensions",
+   "value": "— Dati condivisi tra app ed estensioni"
+  },
+  {
+   "id": "site.privacy.076",
+   "kind": "site",
+   "section": "privacy",
+   "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
+   "value": "Questi dati sono crittografati da iOS e protetti dal codice del tuo dispositivo. Se elimini l'app, anche i tuoi dati locali vengono eliminati."
+  },
+  {
+   "id": "site.privacy.077",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Third-Party Services",
+   "value": "Servizi di terze parti"
+  },
+  {
+   "id": "site.privacy.078",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
+   "value": "GitFocus non utilizza servizi di terze parti per analisi, segnalazione crash o pubblicità. Non ci integriamo con:"
+  },
+  {
+   "id": "site.privacy.079",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Google Analytics",
+   "value": "Google Analytics"
+  },
+  {
+   "id": "site.privacy.080",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Firebase",
+   "value": "Firebase"
+  },
+  {
+   "id": "site.privacy.081",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Crashlytics",
+   "value": "Crashlytics"
+  },
+  {
+   "id": "site.privacy.082",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Facebook SDK",
+   "value": "Facebook SDK"
+  },
+  {
+   "id": "site.privacy.083",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any advertising networks",
+   "value": "Reti pubblicitarie"
+  },
+  {
+   "id": "site.privacy.084",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any user tracking services",
+   "value": "Servizi di tracciamento utenti"
+  },
+  {
+   "id": "site.privacy.085",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
+   "value": "Gli unici servizi esterni con cui comunichiamo sono github.com per recuperare i tuoi dati di contribuzione pubblici e la nostra chat di supporto clienti opzionale (vedi sotto)."
+  },
+  {
+   "id": "site.privacy.086",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Customer Support & Live Chat",
+   "value": "Supporto clienti e chat live"
+  },
+  {
+   "id": "site.privacy.087",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
+   "value": "Contattare il supporto è del tutto opzionale e avviene solo quando scegli di chiedere aiuto."
+  },
+  {
+   "id": "site.privacy.088",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
+   "value": "GitFocus offre supporto clienti tramite chat live fornita da Chatwoot, una piattaforma di supporto clienti di terze parti. Questo è l'unico servizio di terze parti utilizzato da GitFocus (oltre a GitHub), ed è attivo solo quando scegli esplicitamente di contattarci per aiuto."
+  },
+  {
+   "id": "site.privacy.089",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How it works",
+   "value": "Come funziona"
+  },
+  {
+   "id": "site.privacy.090",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Session Persistence:",
+   "value": "Persistenza della sessione:"
+  },
+  {
+   "id": "site.privacy.091",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
+   "value": "Chatwoot utilizza i cookie per mantenere la tua sessione di chat tra le visite, così puoi continuare le conversazioni precedenti"
+  },
+  {
+   "id": "site.privacy.092",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Anonymous by Default:",
+   "value": "Anonimo per impostazione predefinita:"
+  },
+  {
+   "id": "site.privacy.093",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
+   "value": "Puoi chattare con il supporto senza fornire informazioni personali - la sessione viene tracciata solo tramite cookie del browser"
+  },
+  {
+   "id": "site.privacy.094",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Optional Email:",
+   "value": "Email opzionale:"
+  },
+  {
+   "id": "site.privacy.095",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You may optionally provide your email address if you want to receive follow-up responses",
+   "value": "Puoi facoltativamente fornire il tuo indirizzo email se desideri ricevere risposte di follow-up"
+  },
+  {
+   "id": "site.privacy.096",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What's Collected",
+   "value": "Cosa viene raccolto"
+  },
+  {
+   "id": "site.privacy.097",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you use the chat feature, Chatwoot may collect:",
+   "value": "Quando utilizzi la funzionalità di chat, Chatwoot può raccogliere:"
+  },
+  {
+   "id": "site.privacy.098",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your chat messages and conversation history",
+   "value": "I tuoi messaggi di chat e la cronologia delle conversazioni"
+  },
+  {
+   "id": "site.privacy.099",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Browser cookies for session persistence",
+   "value": "Cookie del browser per la persistenza della sessione"
+  },
+  {
+   "id": "site.privacy.100",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email address (only if you choose to provide it)",
+   "value": "Indirizzo email (solo se scegli di fornirlo)"
+  },
+  {
+   "id": "site.privacy.101",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Basic technical information (browser type, timestamp)",
+   "value": "Informazioni tecniche di base (tipo di browser, timestamp)"
+  },
+  {
+   "id": "site.privacy.102",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No Access to App Data",
+   "value": "✅ Nessun accesso ai dati dell'app"
+  },
+  {
+   "id": "site.privacy.103",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
+   "value": "La funzionalità di chat NON ha accesso ai tuoi dati GitHub, alla cronologia delle sessioni di concentrazione o a qualsiasi altro dato memorizzato nell'app GitFocus. Solo le informazioni che digiti esplicitamente nella chat vengono inviate al nostro sistema di supporto."
+  },
+  {
+   "id": "site.privacy.104",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
+   "value": "Chatwoot è conforme al GDPR e tratta i dati in conformità con le leggi applicabili sulla protezione dei dati. Per ulteriori informazioni, visita"
+  },
+  {
+   "id": "site.privacy.105",
+   "kind": "site",
+   "section": "privacy",
+   "en": "chatwoot.com/privacy-policy",
+   "value": "chatwoot.com/privacy-policy"
+  },
+  {
+   "id": "site.privacy.106",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
+   "value": "Puoi cancellare i cookie della chat in qualsiasi momento tramite le impostazioni del browser. Se non utilizzi mai la funzionalità di chat, nessun dato viene mai inviato a Chatwoot."
+  },
+  {
+   "id": "site.privacy.107",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your Rights",
+   "value": "I tuoi diritti"
+  },
+  {
+   "id": "site.privacy.108",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
+   "value": "Poiché non raccogliamo i tuoi dati, i diritti tradizionali sui dati (accesso, cancellazione, portabilità) non si applicano realmente. Ma ecco cosa puoi fare:"
+  },
+  {
+   "id": "site.privacy.109",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Delete all data",
+   "value": "Elimina tutti i dati"
+  },
+  {
+   "id": "site.privacy.110",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Simply delete the app from your device",
+   "value": "— Elimina semplicemente l'app dal tuo dispositivo"
+  },
+  {
+   "id": "site.privacy.111",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Export data",
+   "value": "Esporta dati"
+  },
+  {
+   "id": "site.privacy.112",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your data lives on your device; you own it",
+   "value": "— I tuoi dati risiedono sul tuo dispositivo; li possiedi"
+  },
+  {
+   "id": "site.privacy.113",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Change settings",
+   "value": "Modifica impostazioni"
+  },
+  {
+   "id": "site.privacy.114",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— All preferences can be modified in the app",
+   "value": "— Tutte le preferenze possono essere modificate nell'app"
+  },
+  {
+   "id": "site.privacy.115",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Children's Privacy & Age Rating",
+   "value": "Privacy dei bambini e classificazione per età"
+  },
+  {
+   "id": "site.privacy.116",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus is rated",
+   "value": "GitFocus è classificato"
+  },
+  {
+   "id": "site.privacy.117",
+   "kind": "site",
+   "section": "privacy",
+   "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
+   "value": "nell'App Store ed è adatto a utenti di tutte le età. L'app non contiene contenuti discutibili, acquisti in-app o funzionalità social."
+  },
+  {
+   "id": "site.privacy.118",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
+   "value": "Poiché non raccogliamo alcun dato personale, non ci sono preoccupazioni speciali sulla privacy per gli utenti più giovani. Tuttavia, raccomandiamo che i bambini sotto i 13 anni configurino l'app con la guida dei genitori, poiché:"
+  },
+  {
+   "id": "site.privacy.119",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Initial setup requires a GitHub username",
+   "value": "La configurazione iniziale richiede un nome utente GitHub"
+  },
+  {
+   "id": "site.privacy.120",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time permissions need to be granted by the device owner",
+   "value": "Le autorizzazioni Tempo di utilizzo devono essere concesse dal proprietario del dispositivo"
+  },
+  {
+   "id": "site.privacy.121",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Understanding the commit-based unlock system may need explanation",
+   "value": "La comprensione del sistema di sblocco basato sui commit potrebbe richiedere spiegazioni"
+  },
+  {
+   "id": "site.privacy.122",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
+   "value": "I genitori e i tutori possono utilizzare GitFocus come strumento per incoraggiare le abitudini di programmazione nei giovani sviluppatori."
+  },
+  {
+   "id": "site.privacy.123",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Changes to This Policy",
+   "value": "Modifiche a questa informativa"
+  },
+  {
+   "id": "site.privacy.124",
+   "kind": "site",
+   "section": "privacy",
+   "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
+   "value": "Se mai cambieremo le nostre pratiche sulla privacy, aggiorneremo questa pagina con una nuova data \"Ultimo aggiornamento\". Dato il nostro approccio di non raccolta dati, cambiamenti significativi sono improbabili."
+  },
+  {
+   "id": "site.privacy.125",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contact",
+   "value": "Contatti"
+  },
+  {
+   "id": "site.privacy.126",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Questions about privacy? We're happy to explain anything in more detail.",
+   "value": "Domande sulla privacy? Siamo felici di spiegare qualsiasi cosa più nel dettaglio."
+  },
+  {
+   "id": "site.privacy.127",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email:",
+   "value": "Email:"
+  },
+  {
+   "id": "site.privacy.128",
+   "kind": "site",
+   "section": "privacy",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.privacy.129",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "Home"
+  },
+  {
+   "id": "site.privacy.130",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy",
+   "value": "Informativa sulla privacy"
+  },
+  {
+   "id": "site.privacy.131",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.privacy.132",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Accessibility",
+   "value": "Accessibilità"
+  },
+  {
+   "id": "site.privacy.133",
+   "kind": "site",
+   "section": "privacy",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.accessibility.000",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility - GitFocus",
+   "value": "Accessibilità - GitFocus"
+  },
+  {
+   "id": "site.accessibility.001",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.",
+   "value": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more."
+  },
+  {
+   "id": "site.accessibility.002",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Skip to main content",
+   "value": "Vai al contenuto principale"
+  },
+  {
+   "id": "site.accessibility.003",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.accessibility.004",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "Home"
+  },
+  {
+   "id": "site.accessibility.005",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy",
+   "value": "Privacy"
+  },
+  {
+   "id": "site.accessibility.006",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.accessibility.007",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "🇬🇧 EN",
+   "value": "🇮🇹 IT"
+  },
+  {
+   "id": "site.accessibility.008",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.accessibility.009",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.accessibility.010",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.accessibility.011",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.accessibility.012",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.accessibility.013",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.accessibility.014",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.accessibility.015",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.accessibility.016",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.accessibility.017",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.accessibility.018",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.accessibility.019",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.accessibility.020",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.accessibility.021",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.accessibility.022",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.accessibility.023",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.accessibility.024",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.accessibility.025",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Accessibility",
+   "value": "// Accessibilità"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Built for everyone",
+   "value": "Costruito per tutti"
+  },
+  {
+   "id": "site.accessibility.027",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
+   "value": "GitFocus è progettato per le tecnologie assistive. Le dichiarazioni di accessibilità sono ricontrollate per ogni versione con test automatizzati e una checklist umana su dispositivo."
+  },
+  {
+   "id": "site.accessibility.028",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Features",
+   "value": "// Funzioni"
+  },
+  {
+   "id": "site.accessibility.029",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported Accessibility Features",
+   "value": "Funzionalità di accessibilità supportate"
+  },
+  {
+   "id": "site.accessibility.030",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver",
+   "value": "VoiceOver"
+  },
+  {
+   "id": "site.accessibility.031",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.032",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
+   "value": "Le rotte di rilascio chiave utilizzano etichette descrittive, tratti e un ordine di lettura logico. Il gate di rilascio registra le rotte testate e il dispositivo."
+  },
+  {
+   "id": "site.accessibility.033",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Voice Control",
+   "value": "Controllo vocale"
+  },
+  {
+   "id": "site.accessibility.034",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.035",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
+   "value": "I controlli interattivi utilizzano nomi accessibili. Una checklist su dispositivo fisico verifica il percorso di rilascio critico con il Controllo vocale."
+  },
+  {
+   "id": "site.accessibility.036",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Larger Text",
+   "value": "Testo più grande"
+  },
+  {
+   "id": "site.accessibility.037",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.038",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
+   "value": "Il testo dell'app utilizza Dynamic Type. È richiesta una copertura AX3 e AX5 automatizzata più un controllo umano della dimensione del testo al 200% prima che questa dichiarazione venga approvata."
+  },
+  {
+   "id": "site.accessibility.039",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Dark Interface",
+   "value": "Interfaccia scura"
+  },
+  {
+   "id": "site.accessibility.040",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.041",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
+   "value": "L'app supporta aspetti chiari e scuri. Entrambi sono inclusi negli screenshot e nei controlli di rilascio dell'accessibilità dell'app."
+  },
+  {
+   "id": "site.accessibility.042",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Differentiate Without Color",
+   "value": "Differenziazione senza colore"
+  },
+  {
+   "id": "site.accessibility.043",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.044",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
+   "value": "La revisione del rilascio verifica che gli stati importanti utilizzino etichette, forme o icone insieme al colore."
+  },
+  {
+   "id": "site.accessibility.045",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Sufficient Contrast",
+   "value": "Contrasto sufficiente"
+  },
+  {
+   "id": "site.accessibility.046",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.047",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
+   "value": "I controlli automatici del contrasto segnalano potenziali errori in modalità chiara e scura; un revisore verifica il testo, le icone e gli sfondi reali prima dell'approvazione."
+  },
+  {
+   "id": "site.accessibility.048",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reduced Motion",
+   "value": "Movimento ridotto"
+  },
+  {
+   "id": "site.accessibility.049",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.050",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
+   "value": "La checklist del rilascio verifica che i movimenti importanti rispettino la preferenza Riduci movimento o abbiano un'alternativa statica."
+  },
+  {
+   "id": "site.accessibility.051",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Full Keyboard Access",
+   "value": "Accesso completo da tastiera"
+  },
+  {
+   "id": "site.accessibility.052",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Supportato"
+  },
+  {
+   "id": "site.accessibility.053",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
+   "value": "I flussi supportati includono controlli accessibili da tastiera e alternative per azioni importanti solo tramite gesti."
+  },
+  {
+   "id": "site.accessibility.054",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Testing",
+   "value": "// Test"
+  },
+  {
+   "id": "site.accessibility.055",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated Accessibility Testing",
+   "value": "Test di accessibilità automatizzati"
+  },
+  {
+   "id": "site.accessibility.056",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Test Suites",
+   "value": "Suite di test"
+  },
+  {
+   "id": "site.accessibility.057",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Appearances",
+   "value": "Aspetti"
+  },
+  {
+   "id": "site.accessibility.058",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "AX Text Sizes",
+   "value": "Dimensioni testo AX"
+  },
+  {
+   "id": "site.accessibility.059",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release Gate",
+   "value": "Gate di rilascio"
+  },
+  {
+   "id": "site.accessibility.060",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Screen Accessibility Audits",
+   "value": "Audit di accessibilità schermo"
+  },
+  {
+   "id": "site.accessibility.061",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
+   "value": "Le rotte di rilascio dichiarate vengono lanciate in serie in modalità chiara e scura e controllate con audit di accessibilità nativi iOS. Le categorie di audit richieste fanno fallire il gate di rilascio."
+  },
+  {
+   "id": "site.accessibility.062",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "26 tests",
+   "value": "26 test"
+  },
+  {
+   "id": "site.accessibility.063",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility Size Tests",
+   "value": "Test di dimensione accessibilità"
+  },
+  {
+   "id": "site.accessibility.064",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
+   "value": "Le rotte dichiarate vengono renderizzate a AX3 e AX5 e controllate per rendering senza crash, elementi accessibili e completamento della rotta."
+  },
+  {
+   "id": "site.accessibility.065",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "50 tests",
+   "value": "50 test"
+  },
+  {
+   "id": "site.accessibility.066",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver Reading Order",
+   "value": "Ordine di lettura VoiceOver"
+  },
+  {
+   "id": "site.accessibility.067",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
+   "value": "Le schermate chiave vengono controllate per garantire che l'attraversamento VoiceOver segua un ordine logico dall'alto verso il basso, con tolleranza per gli elementi chrome del sistema."
+  },
+  {
+   "id": "site.accessibility.068",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "5 tests",
+   "value": "5 test"
+  },
+  {
+   "id": "site.accessibility.069",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Methodology",
+   "value": "// Metodologia"
+  },
+  {
+   "id": "site.accessibility.070",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "How We Test",
+   "value": "Come testiamo"
+  },
+  {
+   "id": "site.accessibility.071",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "iOS native audits",
+   "value": "Audit nativi iOS"
+  },
+  {
+   "id": "site.accessibility.072",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Apple's built-in",
+   "value": "— Integrato di Apple"
+  },
+  {
+   "id": "site.accessibility.073",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "performAccessibilityAudit",
+   "value": "performAccessibilityAudit"
+  },
+  {
+   "id": "site.accessibility.074",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
+   "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
+  },
+  {
+   "id": "site.accessibility.075",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Extreme size rendering",
+   "value": "Rendering di dimensione estrema"
+  },
+  {
+   "id": "site.accessibility.076",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
+   "value": "— Ogni schermata viene lanciata con dimensioni del testo di accessibilità AX3 e AX5 per verificare che nulla vada in crash, si tronchi in modo illeggibile o diventi irraggiungibile."
+  },
+  {
+   "id": "site.accessibility.077",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reading order validation",
+   "value": "Validazione ordine di lettura"
+  },
+  {
+   "id": "site.accessibility.078",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
+   "value": "— I test automatizzati verificano che VoiceOver attraversi gli elementi in ordine logico dall'alto verso il basso sulle schermate chiave."
+  },
+  {
+   "id": "site.accessibility.079",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Contrast verification",
+   "value": "Verifica del contrasto"
+  },
+  {
+   "id": "site.accessibility.080",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
+   "value": "— L'evidenza del contrasto WCAG viene generata dalle regioni semantiche di proprietà del renderer, quindi rivista rispetto all'artwork chiaro e scuro effettivo."
+  },
+  {
+   "id": "site.accessibility.081",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release integration",
+   "value": "Integrazione del rilascio"
+  },
+  {
+   "id": "site.accessibility.082",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
+   "value": "— Le suite di accessibilità vengono eseguite prima del caricamento di screenshot o metadati e conservano prove leggibili dalla macchina."
+  },
+  {
+   "id": "site.accessibility.083",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Standards We Follow",
+   "value": "Standard che seguiamo"
+  },
+  {
+   "id": "site.accessibility.084",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
+   "value": "Obiettivi di contrasto WCAG 2.1 Livello AA per testo ed elementi interattivi"
+  },
+  {
+   "id": "site.accessibility.085",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Apple Human Interface Guidelines for accessibility",
+   "value": "Linee guida Apple Human Interface per l'accessibilità"
+  },
+  {
+   "id": "site.accessibility.086",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Minimum 44pt touch-target checks for interactive controls",
+   "value": "Controlli di target tattile minimo di 44pt per controlli interattivi"
+  },
+  {
+   "id": "site.accessibility.087",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Semantic Dynamic Type coverage at accessibility text sizes",
+   "value": "Copertura semantica Dynamic Type alle dimensioni del testo di accessibilità"
+  },
+  {
+   "id": "site.accessibility.088",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver-compatible labels and traits on every interactive element",
+   "value": "Etichette e tratti compatibili con VoiceOver su ogni elemento interattivo"
+  },
+  {
+   "id": "site.accessibility.089",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Keyboard-accessible alternatives for all gesture-based interactions",
+   "value": "Alternative accessibili da tastiera per tutte le interazioni basate su gesti"
+  },
+  {
+   "id": "site.accessibility.090",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Feedback",
+   "value": "Feedback"
+  },
+  {
+   "id": "site.accessibility.091",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
+   "value": "Se incontri barriere di accessibilità durante l'utilizzo di GitFocus, vogliamo saperlo così possiamo risolverle."
+  },
+  {
+   "id": "site.accessibility.092",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Chat with us",
+   "value": "Chatta con noi"
+  },
+  {
+   "id": "site.accessibility.093",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "or email us at",
+   "value": "o inviaci un'email a"
+  },
+  {
+   "id": "site.accessibility.094",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.accessibility.095",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "Home"
+  },
+  {
+   "id": "site.accessibility.096",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy Policy",
+   "value": "Informativa sulla privacy"
+  },
+  {
+   "id": "site.accessibility.097",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "Supporto"
+  },
+  {
+   "id": "site.accessibility.098",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility",
+   "value": "Accessibilità"
+  },
+  {
+   "id": "site.accessibility.099",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  }
+ ]
+}

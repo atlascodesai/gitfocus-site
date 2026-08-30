@@ -1,0 +1,6945 @@
+{
+ "locale": "el",
+ "label": "Ελληνικά",
+ "generated": "2026-08-30T01:56:34Z",
+ "rows": [
+  {
+   "id": "deviceactivityreport.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "App Usage",
+   "value": "Χρήση εφαρμογής"
+  },
+  {
+   "id": "deviceactivityreport.clear.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Clear All",
+   "value": "Εκκαθάριση όλων"
+  },
+  {
+   "id": "deviceactivityreport.count.apps",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d apps",
+   "value": "%d εφαρμογές",
+   "comment": "App count label"
+  },
+  {
+   "id": "deviceactivityreport.count.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d device)",
+   "value": "(%d συσκευή)"
+  },
+  {
+   "id": "deviceactivityreport.count.devices",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d devices)",
+   "value": "(%d συσκευές)"
+  },
+  {
+   "id": "deviceactivityreport.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d pickups",
+   "value": "%d παραλαβές",
+   "comment": "Pickups count"
+  },
+  {
+   "id": "deviceactivityreport.double.tap.toggle.device.filter",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Double tap to toggle device filter",
+   "value": "Πατήστε δύο φορές για εναλλαγή του φίλτρου συσκευής"
+  },
+  {
+   "id": "deviceactivityreport.filter.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Filter by Device",
+   "value": "Φιλτράρισμα ανά συσκευή"
+  },
+  {
+   "id": "deviceactivityreport.no.app.usage.data.yet",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No app usage data yet",
+   "value": "Δεν υπάρχουν ακόμη δεδομένα χρήσης εφαρμογής"
+  },
+  {
+   "id": "deviceactivityreport.no.usage.data.available",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No usage data available",
+   "value": "Δεν υπάρχουν διαθέσιμα δεδομένα χρήσης"
+  },
+  {
+   "id": "deviceactivityreport.not.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Not selected",
+   "value": "Δεν έχει επιλεγεί"
+  },
+  {
+   "id": "deviceactivityreport.screen.time.data.collected.privately.your.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Screen time data is collected privately on your device",
+   "value": "Τα δεδομένα χρόνου οθόνης συλλέγονται ιδιωτικά στη συσκευή σας"
+  },
+  {
+   "id": "deviceactivityreport.select.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select All",
+   "value": "Επιλέξτε Όλα"
+  },
+  {
+   "id": "deviceactivityreport.select.device.view.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select a device to view app usage",
+   "value": "Επιλέξτε μια συσκευή για να δείτε τη χρήση της εφαρμογής"
+  },
+  {
+   "id": "deviceactivityreport.select.devices.view",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select devices to view",
+   "value": "Επιλέξτε συσκευές για προβολή"
+  },
+  {
+   "id": "deviceactivityreport.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Selected",
+   "value": "Επιλεγμένο"
+  },
+  {
+   "id": "deviceactivityreport.text.used.text.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%@, used for %@, %d pickups",
+   "value": "%@, χρησιμοποιείται για παραλαβές %@, %d",
+   "comment": "Accessibility: app usage summary"
+  },
+  {
+   "id": "deviceactivityreport.today",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today",
+   "value": "Σήμερα",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "deviceactivityreport.todays.activity",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today's Activity",
+   "value": "Η σημερινή Δραστηριότητα"
+  },
+  {
+   "id": "deviceactivityreport.total.screen.time",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Total Screen Time",
+   "value": "Συνολικός χρόνος οθόνης"
+  },
+  {
+   "id": "deviceactivityreport.under.one.minute",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "< 1m",
+   "value": "< 1μ",
+   "comment": "Less than one minute"
+  },
+  {
+   "id": "deviceactivityreport.usage.level.count.percent",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Usage level: %d%%",
+   "value": "Επίπεδο χρήσης: %d%%",
+   "comment": "Accessibility: usage percentage"
+  },
+  {
+   "id": "deviceactivityreport.use.some.apps.today.see.them.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use some apps today to see them here",
+   "value": "Χρησιμοποιήστε ορισμένες εφαρμογές σήμερα για να τις δείτε εδώ"
+  },
+  {
+   "id": "deviceactivityreport.use.your.selected.apps.see.screen.time.data.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use your selected apps to see screen time data here",
+   "value": "Χρησιμοποιήστε τις επιλεγμένες εφαρμογές σας για να δείτε εδώ δεδομένα χρόνου χρήσης"
+  },
+  {
+   "id": "deviceactivityreport.yesterday",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Yesterday",
+   "value": "Εχθές",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.about",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "About",
+   "value": "Για"
+  },
+  {
+   "id": "gitfocus.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Account",
+   "value": "Λογαριασμός"
+  },
+  {
+   "id": "gitfocus.achievements",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Achievements",
+   "value": "Επιτεύγματα"
+  },
+  {
+   "id": "gitfocus.active.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Active Days",
+   "value": "Ενεργές Ημέρες"
+  },
+  {
+   "id": "gitfocus.add.more.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Add More Apps",
+   "value": "Προσθήκη περισσότερων εφαρμογών"
+  },
+  {
+   "id": "gitfocus.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All",
+   "value": "Ολοι"
+  },
+  {
+   "id": "gitfocus.all.settings.data.stored.locally.your.device.nothing.transmitted.external.servers",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All settings and data are stored locally on your device. Nothing is transmitted to external servers.",
+   "value": "Όλες οι ρυθμίσεις και τα δεδομένα αποθηκεύονται τοπικά στη συσκευή σας. Τίποτα δεν μεταδίδεται σε εξωτερικούς διακομιστές."
+  },
+  {
+   "id": "gitfocus.also.sorry.takes.while",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(also, sorry this takes a while)",
+   "value": "(επίσης, συγγνώμη παίρνει λίγο)"
+  },
+  {
+   "id": "gitfocus.analytics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Analytics",
+   "value": "Στατιστικά"
+  },
+  {
+   "id": "gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App",
+   "value": "App",
+   "comment": "Fallback app name"
+  },
+  {
+   "id": "gitfocus.app.blocking.handled.entirely.ios.screen.time.we.dont.track.which.apps.you.use.how.long",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App blocking is handled entirely by iOS Screen Time. We don't track which apps you use or for how long.",
+   "value": "Ο αποκλεισμός εφαρμογών αντιμετωπίζεται εξ ολοκλήρου από iOS Screen Time. Δεν παρακολουθούμε ποιες εφαρμογές χρησιμοποιείτε ή για πόσο χρόνο."
+  },
+  {
+   "id": "gitfocus.app.launch",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Launch",
+   "value": "Εκκίνηση εφαρμογής",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.app.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Permissions",
+   "value": "Δικαιώματα εφαρμογής"
+  },
+  {
+   "id": "gitfocus.appearance",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Appearance",
+   "value": "Εμφάνιση"
+  },
+  {
+   "id": "gitfocus.apply.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apply Reset Times",
+   "value": "Εφαρμογή χρόνων επαναφοράς"
+  },
+  {
+   "id": "gitfocus.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps",
+   "value": "Εφαρμογές"
+  },
+  {
+   "id": "gitfocus.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Blocked",
+   "value": "Εφαρμογές αποκλεισμένες"
+  },
+  {
+   "id": "gitfocus.apps.currently.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps are currently unlocked",
+   "value": "Οι εφαρμογές είναι ξεκλείδωτες αυτήν τη στιγμή"
+  },
+  {
+   "id": "gitfocus.apps.hide.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps to Hide (%d)",
+   "value": "Εφαρμογές για απόκρυψη (%d)",
+   "comment": "Hidden apps section header with count"
+  },
+  {
+   "id": "gitfocus.apps.lock.times.daily",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps lock at these times daily",
+   "value": "Οι εφαρμογές κλειδώνουν αυτές τις ώρες καθημερινά"
+  },
+  {
+   "id": "gitfocus.apps.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked",
+   "value": "Οι εφαρμογές ξεκλειδώθηκαν"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked! 🔓",
+   "value": "Οι εφαρμογές ξεκλείδωσαν! 🔓"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps unlocked until midnight",
+   "value": "Οι εφαρμογές ξεκλειδώθηκαν μέχρι τα μεσάνυχτα"
+  },
+  {
+   "id": "gitfocus.arabic",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Arabic",
+   "value": "αραβικός"
+  },
+  {
+   "id": "gitfocus.atmospheric.background",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Atmospheric Background",
+   "value": "Ατμοσφαιρικό φόντο"
+  },
+  {
+   "id": "gitfocus.automatically.hide.all.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Automatically hide all apps that are blocked",
+   "value": "Αυτόματη απόκρυψη όλων των εφαρμογών που είναι αποκλεισμένες"
+  },
+  {
+   "id": "gitfocus.available.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Available life",
+   "value": "Διαθέσιμη ζωή"
+  },
+  {
+   "id": "gitfocus.available.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "available to unlock apps",
+   "value": "διαθέσιμο για ξεκλείδωμα εφαρμογών"
+  },
+  {
+   "id": "gitfocus.average.per.active.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Average per Active Day",
+   "value": "Μέσος όρος ανά Ενεργή Ημέρα"
+  },
+  {
+   "id": "gitfocus.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back",
+   "value": "Πίσω"
+  },
+  {
+   "id": "gitfocus.back.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back to Settings",
+   "value": "Επιστροφή στις Ρυθμίσεις"
+  },
+  {
+   "id": "gitfocus.bank.all.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank All %d Minutes",
+   "value": "Τράπεζα Όλα %d λεπτά",
+   "comment": "Bank all earned minutes button"
+  },
+  {
+   "id": "gitfocus.bank.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank 5 Minutes",
+   "value": "Τράπεζα 5 λεπτά"
+  },
+  {
+   "id": "gitfocus.before.you.delete.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Before you delete the app...",
+   "value": "Πριν διαγράψετε την εφαρμογή..."
+  },
+  {
+   "id": "gitfocus.block.distracting.apps.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Block distracting apps during focus sessions",
+   "value": "Αποκλεισμός εφαρμογών που αποσπούν την προσοχή κατά τη διάρκεια συνεδριών εστίασης"
+  },
+  {
+   "id": "gitfocus.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps",
+   "value": "Αποκλεισμένες εφαρμογές"
+  },
+  {
+   "id": "gitfocus.blocked.apps.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps Usage",
+   "value": "Αποκλεισμένη χρήση εφαρμογών"
+  },
+  {
+   "id": "gitfocus.blurred.glass.effect",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blurred glass effect",
+   "value": "Εφέ θολού γυαλιού"
+  },
+  {
+   "id": "gitfocus.borrow.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrow Time",
+   "value": "Χρόνος δανεισμού"
+  },
+  {
+   "id": "gitfocus.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "Δανεισμένο %d min. Πληρώστε το με δεσμεύσεις!"
+  },
+  {
+   "id": "gitfocus.borrowed.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed Time",
+   "value": "Δανεικός Χρόνος",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.borrowing.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing %d min",
+   "value": "Δανεισμός %d min",
+   "comment": "Status pill when borrowing time"
+  },
+  {
+   "id": "gitfocus.borrowing.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing time",
+   "value": "Χρόνος δανεισμού",
+   "comment": "Accessibility label for borrowing time indicator"
+  },
+  {
+   "id": "gitfocus.build.your.streak.unlock.rewards",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Build your streak to unlock rewards",
+   "value": "Δημιουργήστε το σερί σας για να ξεκλειδώσετε τις ανταμοιβές"
+  },
+  {
+   "id": "gitfocus.button.left.side.which.unusual",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "The button is on the left side which is unusual",
+   "value": "Το κουμπί βρίσκεται στην αριστερή πλευρά, κάτι που είναι ασυνήθιστο"
+  },
+  {
+   "id": "gitfocus.can.borrow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Can borrow",
+   "value": "Μπορεί να δανειστεί"
+  },
+  {
+   "id": "gitfocus.cancel",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Cancel",
+   "value": "Ματαίωση"
+  },
+  {
+   "id": "gitfocus.card.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Card Style",
+   "value": "Στυλ κάρτας"
+  },
+  {
+   "id": "gitfocus.cfbundledisplayname",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "CFBundleDisplayName",
+   "comment": "Bundle display name"
+  },
+  {
+   "id": "gitfocus.cfbundlename",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus",
+   "value": "CFBundleName",
+   "comment": "Bundle name"
+  },
+  {
+   "id": "gitfocus.change.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Change Username",
+   "value": "Αλλαγή ονόματος χρήστη"
+  },
+  {
+   "id": "gitfocus.check.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Username",
+   "value": "Ελέγξτε το όνομα χρήστη"
+  },
+  {
+   "id": "gitfocus.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "Ελέγξτε τις GitHub Δεσμεύσεις σας! 💻",
+   "comment": "Shield notifications"
+  },
+  {
+   "id": "gitfocus.checking.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Checking GitHub...",
+   "value": "Έλεγχος GitHub..."
+  },
+  {
+   "id": "gitfocus.chinese.simplified",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Chinese (Simplified)",
+   "value": "Κινέζικα (Απλοποιημένα)"
+  },
+  {
+   "id": "gitfocus.choose.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Choose Unlock Time",
+   "value": "Επιλέξτε Ώρα ξεκλειδώματος"
+  },
+  {
+   "id": "gitfocus.clear",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear",
+   "value": "Σαφής"
+  },
+  {
+   "id": "gitfocus.clear.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All",
+   "value": "Εκκαθάριση όλων"
+  },
+  {
+   "id": "gitfocus.clear.all.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History",
+   "value": "Εκκαθάριση όλης της ιστορίας"
+  },
+  {
+   "id": "gitfocus.clear.all.history.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History?",
+   "value": "Διαγραφή όλου του ιστορικού;"
+  },
+  {
+   "id": "gitfocus.clear.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear History",
+   "value": "Καθαρίστε το ιστορικό"
+  },
+  {
+   "id": "gitfocus.clear.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear Selection",
+   "value": "Εκκαθάριση επιλογής"
+  },
+  {
+   "id": "gitfocus.clear.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear username",
+   "value": "Διαγραφή ονόματος χρήστη",
+   "comment": "Accessibility label for clearing username"
+  },
+  {
+   "id": "gitfocus.close",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Close",
+   "value": "Κοντά",
+   "comment": "Accessibility label for close button"
+  },
+  {
+   "id": "gitfocus.code.more.scroll.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Code more. Scroll less.",
+   "value": "Κωδικοποιήστε περισσότερα. Κάντε κύλιση λιγότερο."
+  },
+  {
+   "id": "gitfocus.commit.detected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit Detected",
+   "value": "Εντοπίστηκε δέσμευση",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.commit.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.commit.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "commit%@",
+   "value": "δέσμευση%@"
+  },
+  {
+   "id": "gitfocus.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits",
+   "value": "Δεσμεύει"
+  },
+  {
+   "id": "gitfocus.commits.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits Required",
+   "value": "Απαιτούνται δεσμεύσεις"
+  },
+  {
+   "id": "gitfocus.complete.focus.timer.see.your.history.here",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a focus timer to see your history here.",
+   "value": "Συμπληρώστε ένα χρονόμετρο εστίασης για να δείτε το ιστορικό σας εδώ."
+  },
+  {
+   "id": "gitfocus.complete.timer.track.your.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a timer to track your focus time",
+   "value": "Ολοκληρώστε ένα χρονόμετρο για να παρακολουθείτε τον χρόνο εστίασής σας"
+  },
+  {
+   "id": "gitfocus.completed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Completed",
+   "value": "Ολοκληρώθηκε το"
+  },
+  {
+   "id": "gitfocus.contact.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contact Support",
+   "value": "Επικοινωνήστε με την Υποστήριξη"
+  },
+  {
+   "id": "gitfocus.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue",
+   "value": "Συνεχίζω"
+  },
+  {
+   "id": "gitfocus.continue.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue focusing",
+   "value": "Συνεχίστε την εστίαση"
+  },
+  {
+   "id": "gitfocus.continue.where.left.off",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": "Συνέχεια από εκεί που άφησα"
+  },
+  {
+   "id": "gitfocus.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution",
+   "value": "συνεισφορά"
+  },
+  {
+   "id": "gitfocus.contribution.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Activity",
+   "value": "Δραστηριότητα Συνεισφοράς"
+  },
+  {
+   "id": "gitfocus.contribution.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution%@",
+   "value": "συνεισφορά%@"
+  },
+  {
+   "id": "gitfocus.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contributions",
+   "value": "Συνεισφορές"
+  },
+  {
+   "id": "gitfocus.count.apps.categories.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d apps/categories blocked",
+   "value": "%d εφαρμογές/κατηγορίες αποκλεισμένες",
+   "comment": "Count of blocked apps and categories"
+  },
+  {
+   "id": "gitfocus.count.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%1$d commits",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.count.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution",
+   "value": "%d συνεισφορά",
+   "comment": "Contribution graph"
+  },
+  {
+   "id": "gitfocus.count.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution on %@",
+   "value": "%d συνεισφορά στις %@"
+  },
+  {
+   "id": "gitfocus.count.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions",
+   "value": "%d συνεισφορές"
+  },
+  {
+   "id": "gitfocus.count.contributions.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions on %@",
+   "value": "%d συνεισφορές σε %@"
+  },
+  {
+   "id": "gitfocus.count.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d of %d lives available",
+   "value": "%d από %d διαθέσιμες ζωές",
+   "comment": "Accessibility: lives available out of lives earned"
+  },
+  {
+   "id": "gitfocus.count.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d day streak",
+   "value": "%d σερί ημερών",
+   "comment": "Accessibility: current streak days\nCurrent streak days label\nStreak days label"
+  },
+  {
+   "id": "gitfocus.count.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days",
+   "value": "%d ημέρες",
+   "comment": "Current streak days label"
+  },
+  {
+   "id": "gitfocus.count.days.until.next.life.day.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days until next life (day %d)",
+   "value": "%d ημέρες μέχρι την επόμενη ζωή (ημέρα %d)",
+   "comment": "Days until next life"
+  },
+  {
+   "id": "gitfocus.count.life.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d life available",
+   "value": "%d ζωή διαθέσιμη",
+   "comment": "Lives UI"
+  },
+  {
+   "id": "gitfocus.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d lives available",
+   "value": "%d ζωές διαθέσιμες"
+  },
+  {
+   "id": "gitfocus.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min",
+   "value": "%d λεπτά",
+   "comment": "Available unlock minutes\nMinutes value\nPomodoro session duration (minutes)"
+  },
+  {
+   "id": "gitfocus.count.min.ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min ago",
+   "value": "Πριν από %d λεπτά",
+   "comment": "Relative time label in minutes"
+  },
+  {
+   "id": "gitfocus.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d minutes",
+   "value": "%d λεπτά",
+   "comment": "Debt minutes label\nEarned minutes label\nMinutes choice"
+  },
+  {
+   "id": "gitfocus.count.minutes.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "= %d minutes of unlock time",
+   "value": "= %d λεπτά χρόνου ξεκλειδώματος",
+   "comment": "First sync earned minutes explanation"
+  },
+  {
+   "id": "gitfocus.count.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+%d more",
+   "value": "+%d ακόμη",
+   "comment": "More apps indicator"
+  },
+  {
+   "id": "gitfocus.count.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d selected",
+   "value": "Επιλέχτηκε %d",
+   "comment": "Selected apps count"
+  },
+  {
+   "id": "gitfocus.current.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Debt",
+   "value": "Τρέχον Χρέος"
+  },
+  {
+   "id": "gitfocus.current.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Streak",
+   "value": "Τρέχον σερί"
+  },
+  {
+   "id": "gitfocus.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Custom duration",
+   "value": "Προσαρμοσμένη διάρκεια",
+   "comment": "Accessibility label for custom duration control"
+  },
+  {
+   "id": "gitfocus.daily.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset",
+   "value": "Ημερήσια επαναφορά",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.daily.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset Times",
+   "value": "Καθημερινοί χρόνοι επαναφοράς"
+  },
+  {
+   "id": "gitfocus.data.collection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Collection",
+   "value": "Συλλογή δεδομένων"
+  },
+  {
+   "id": "gitfocus.data.storage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Storage",
+   "value": "Αποθήκευση δεδομένων"
+  },
+  {
+   "id": "gitfocus.date",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Date",
+   "value": "Ημερομηνία"
+  },
+  {
+   "id": "gitfocus.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day",
+   "value": "Ημέρα"
+  },
+  {
+   "id": "gitfocus.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "day streak",
+   "value": "σερί ημέρας"
+  },
+  {
+   "id": "gitfocus.debt.borrowed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Borrowed",
+   "value": "Χρέος Δανεισμένο",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "Συμπληρώθηκε το όριο χρέους ⚠️"
+  },
+  {
+   "id": "gitfocus.debt.paid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Paid",
+   "value": "Χρέος Πληρωμένο",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debug.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Log",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Logs",
+   "value": "Αρχεία εντοπισμού σφαλμάτων"
+  },
+  {
+   "id": "gitfocus.delete.all.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Delete all sessions",
+   "value": "Διαγραφή όλων των συνεδριών",
+   "comment": "Accessibility label for deleting all sessions"
+  },
+  {
+   "id": "gitfocus.demo.mode",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo Mode",
+   "value": "Λειτουργία επίδειξης"
+  },
+  {
+   "id": "gitfocus.demo.mode.simulated.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo mode - simulated selection",
+   "value": "Λειτουργία επίδειξης - προσομοίωση επιλογής"
+  },
+  {
+   "id": "gitfocus.developer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Developer",
+   "value": "Προγραμματιστής"
+  },
+  {
+   "id": "gitfocus.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Disabled",
+   "value": "Ανάπηρος"
+  },
+  {
+   "id": "gitfocus.discipline.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Discipline Bank",
+   "value": "Τράπεζα πειθαρχίας"
+  },
+  {
+   "id": "gitfocus.discipline.bank.description",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use is a measure of your self-control",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.done",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Done",
+   "value": "Γινώμενος"
+  },
+  {
+   "id": "gitfocus.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Duration",
+   "value": "Διάρκεια"
+  },
+  {
+   "id": "gitfocus.each.commit.earns.unlock.time.no.time.question.borrow.some.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit earns unlock time • No time? Borrow some • Future commits pay it back",
+   "value": "Κάθε δέσμευση κερδίζει χρόνο ξεκλειδώματος • Δεν έχετε χρόνο; Δανειστείτε μερικά • Οι μελλοντικές δεσμεύονται να το επιστρέψουν"
+  },
+  {
+   "id": "gitfocus.each.commit.you.push.github.earns.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit you push to GitHub earns you",
+   "value": "Κάθε δέσμευση που πιέζετε για GitHub σας κερδίζει"
+  },
+  {
+   "id": "gitfocus.earn.more.lives.building.your.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn more lives by building your streak",
+   "value": "Κερδίστε περισσότερες ζωές χτίζοντας το σερί σας"
+  },
+  {
+   "id": "gitfocus.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn Time",
+   "value": "Κερδίστε Χρόνο"
+  },
+  {
+   "id": "gitfocus.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned",
+   "value": "Κερδηθείς"
+  },
+  {
+   "id": "gitfocus.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned Time",
+   "value": "Κερδισμένος χρόνος"
+  },
+  {
+   "id": "gitfocus.edit.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Edit Selection",
+   "value": "Επεξεργασία επιλογής"
+  },
+  {
+   "id": "gitfocus.emergency",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency",
+   "value": "Επείγον"
+  },
+  {
+   "id": "gitfocus.emergency.override",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override",
+   "value": "Παράκαμψη έκτακτης ανάγκης"
+  },
+  {
+   "id": "gitfocus.emergency.override.active",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override Active",
+   "value": "Ενεργή παράκαμψη έκτακτης ανάγκης"
+  },
+  {
+   "id": "gitfocus.emergency.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "Ξεκλείδωμα έκτακτης ανάγκης"
+  },
+  {
+   "id": "gitfocus.emergency.unlock.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "Ξεκλείδωμα έκτακτης ανάγκης",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.enable.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable borrowing",
+   "value": "Ενεργοποίηση δανεισμού"
+  },
+  {
+   "id": "gitfocus.enable.permissions.gitfocus.work.properly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable permissions for GitFocus to work properly",
+   "value": "Ενεργοποιήστε τα δικαιώματα για τη σωστή λειτουργία του GitFocus"
+  },
+  {
+   "id": "gitfocus.enable.screen.time.first",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable Screen Time First",
+   "value": "Ενεργοποιήστε πρώτα την ώρα οθόνης"
+  },
+  {
+   "id": "gitfocus.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enabled",
+   "value": "Ενεργοποιημένο"
+  },
+  {
+   "id": "gitfocus.end.override.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "End Override & Lock",
+   "value": "Τερματισμός παράκαμψης και κλειδώματος"
+  },
+  {
+   "id": "gitfocus.english",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "English",
+   "value": "αγγλικός"
+  },
+  {
+   "id": "gitfocus.enter.your.github.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enter Your GitHub Username",
+   "value": "Εισαγάγετε το GitHub Όνομα χρήστη σας"
+  },
+  {
+   "id": "gitfocus.estimated.based.usage.patterns",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Estimated based on usage patterns",
+   "value": "Εκτιμάται με βάση τα πρότυπα χρήσης"
+  },
+  {
+   "id": "gitfocus.event.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Event Log",
+   "value": "Μητρώο συμβάντων"
+  },
+  {
+   "id": "gitfocus.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "events",
+   "value": "εκδηλώσεις"
+  },
+  {
+   "id": "gitfocus.export.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Export logs",
+   "value": "Εξαγωγή αρχείων καταγραφής",
+   "comment": "Accessibility label for export logs action"
+  },
+  {
+   "id": "gitfocus.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Feedback",
+   "value": "Ανατροφοδότηση",
+   "comment": "Accessibility label for feedback button"
+  },
+  {
+   "id": "gitfocus.feedback.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tell us what to improve",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.feedback.prompt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How is GitFocus working for you?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.first.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "First Reset",
+   "value": "Πρώτη επαναφορά"
+  },
+  {
+   "id": "gitfocus.focus.rules",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Rules",
+   "value": "Κανόνες εστίασης"
+  },
+  {
+   "id": "gitfocus.focus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUS SCORE",
+   "value": "ΒΑΘΜΟΛΟΓΙΑ ΕΣΤΙΑΣΗΣ"
+  },
+  {
+   "id": "gitfocus.focus.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Stats",
+   "value": "Στατιστικά εστίασης"
+  },
+  {
+   "id": "gitfocus.focus.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Timer",
+   "value": "Χρονοδιακόπτης εστίασης"
+  },
+  {
+   "id": "gitfocus.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUSING",
+   "value": "Εστίαση"
+  },
+  {
+   "id": "gitfocus.frosted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Frosted",
+   "value": "Παγωμένος"
+  },
+  {
+   "id": "gitfocus.full.year.overview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Full Year Overview",
+   "value": "Επισκόπηση πλήρους έτους"
+  },
+  {
+   "id": "gitfocus.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future commits pay it back.",
+   "value": "Οι μελλοντικές δεσμεύσεις το επιστρέφουν."
+  },
+  {
+   "id": "gitfocus.future.milestone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future milestone",
+   "value": "Μελλοντικό ορόσημο"
+  },
+  {
+   "id": "gitfocus.get.alerts.check.commits.when.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get alerts to check commits when apps are blocked",
+   "value": "Λάβετε ειδοποιήσεις για να ελέγξετε τις δεσμεύσεις όταν οι εφαρμογές είναι αποκλεισμένες"
+  },
+  {
+   "id": "gitfocus.get.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get Started",
+   "value": "Ξεκινήστε"
+  },
+  {
+   "id": "gitfocus.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "gitfocus.gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus.app",
+   "value": "gitfocus.app"
+  },
+  {
+   "id": "gitfocus.gitfocus.app.icon",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus app icon",
+   "value": "GitFocus εικονίδιο εφαρμογής",
+   "comment": "Accessibility label for app icon"
+  },
+  {
+   "id": "gitfocus.gitfocus.blocks.distracting.apps.until.you.push.code.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub",
+   "value": "Το GitFocus αποκλείει εφαρμογές που αποσπούν την προσοχή μέχρι να ωθήσετε τον κώδικα στο GitHub"
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.collect.any.personal.data.your.github.username.stored.locally.your.device.using.ios.keychain.security",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not collect any personal data. Your GitHub username is stored locally on your device using iOS Keychain for security.",
+   "value": "Το GitFocus δεν συλλέγει προσωπικά δεδομένα. Το όνομα χρήστη GitHub σας αποθηκεύεται τοπικά στη συσκευή σας χρησιμοποιώντας iOS Keychain για ασφάλεια."
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.use.any.analytics.tracking.services.your.usage.remains.completely.private",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not use any analytics or tracking services. Your usage remains completely private.",
+   "value": "Το GitFocus δεν χρησιμοποιεί υπηρεσίες ανάλυσης ή παρακολούθησης. Η χρήση σας παραμένει εντελώς ιδιωτική."
+  },
+  {
+   "id": "gitfocus.gitfocus.open.source.you.can.review.our.code.github.verify.our.privacy.practices",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus is open source. You can review our code on GitHub to verify our privacy practices.",
+   "value": "Το GitFocus είναι ανοιχτού κώδικα. Μπορείτε να ελέγξετε τον κώδικά μας στο GitHub για να επαληθεύσετε τις πρακτικές απορρήτου μας."
+  },
+  {
+   "id": "gitfocus.gitfocus.reads.your.public.contribution.data.directly.githubs.website.no.authentication.needed.we.simply.check.same.information.thats.visible.your.profile.page.your.commits.already.public.so.we.can.track.them.without.accessing.your.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus reads your public contribution data directly from GitHub's website. No authentication needed - we simply check the same information that's visible on your profile page. Your commits are already public, so we can track them without accessing your account.",
+   "value": "Το GitFocus διαβάζει τα δεδομένα δημόσιας συνεισφοράς σας απευθείας από τον ιστότοπο του GitHub. Δεν απαιτείται έλεγχος ταυτότητας - απλώς ελέγχουμε τις ίδιες πληροφορίες που είναι ορατές στη σελίδα του προφίλ σας. Οι δεσμεύσεις σας είναι ήδη δημόσιες, επομένως μπορούμε να τις παρακολουθούμε χωρίς πρόσβαση στον λογαριασμό σας."
+  },
+  {
+   "id": "gitfocus.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub",
+   "value": "GitHub"
+  },
+  {
+   "id": "gitfocus.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Account",
+   "value": "GitHub Λογαριασμός"
+  },
+  {
+   "id": "gitfocus.github.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Activity",
+   "value": "GitHub Δραστηριότητα"
+  },
+  {
+   "id": "gitfocus.github.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub contribution graph",
+   "value": "GitHub γράφημα συνεισφοράς",
+   "comment": "Accessibility label for contribution graph"
+  },
+  {
+   "id": "gitfocus.github.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Contributions",
+   "value": "GitHub Συνεισφορές"
+  },
+  {
+   "id": "gitfocus.github.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Data",
+   "value": "GitHub Δεδομένα"
+  },
+  {
+   "id": "gitfocus.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile",
+   "value": "GitHub προφίλ"
+  },
+  {
+   "id": "gitfocus.github.profile.photo.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile photo for %@",
+   "value": "GitHub φωτογραφία προφίλ για %@",
+   "comment": "Accessibility: GitHub profile photo"
+  },
+  {
+   "id": "gitfocus.github.user.ready.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub user ready!",
+   "value": "GitHub χρήστης έτοιμος!"
+  },
+  {
+   "id": "gitfocus.glass.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Glass Style",
+   "value": "Στυλ γυαλιού"
+  },
+  {
+   "id": "gitfocus.got.it",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it",
+   "value": "Κατάλαβα"
+  },
+  {
+   "id": "gitfocus.got.it.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it!",
+   "value": "Κατάλαβα!"
+  },
+  {
+   "id": "gitfocus.great.choice.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Great Choice! 💪",
+   "value": "Μεγάλη Επιλογή! 💪"
+  },
+  {
+   "id": "gitfocus.group.as.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(group as 1)",
+   "value": "(ομάδα ως 1)"
+  },
+  {
+   "id": "gitfocus.grouped",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "grouped",
+   "value": "ομαδοποιημένα"
+  },
+  {
+   "id": "gitfocus.grouped.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouped",
+   "value": "Ομαδοποιημένα"
+  },
+  {
+   "id": "gitfocus.grouping.enabled.jumps.over.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouping enabled for jumps > 1",
+   "value": "Η ομαδοποίηση ενεργοποιήθηκε για άλματα > 1"
+  },
+  {
+   "id": "gitfocus.help.faq",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Help & FAQ",
+   "value": "Βοήθεια & FAQ"
+  },
+  {
+   "id": "gitfocus.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden Apps",
+   "value": "Κρυφές εφαρμογές"
+  },
+  {
+   "id": "gitfocus.hidden.apps.removed.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden apps are removed from your home screen during focus sessions. ",
+   "value": "Οι κρυφές εφαρμογές αφαιρούνται από την αρχική οθόνη σας κατά τη διάρκεια των συνεδριών εστίασης."
+  },
+  {
+   "id": "gitfocus.hide.all.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hide All Blocked Apps",
+   "value": "Απόκρυψη όλων των αποκλεισμένων εφαρμογών"
+  },
+  {
+   "id": "gitfocus.how.app.hiding.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How App Hiding Works",
+   "value": "Πώς λειτουργεί η απόκρυψη εφαρμογών"
+  },
+  {
+   "id": "gitfocus.how.it.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How it works",
+   "value": "Πώς λειτουργεί"
+  },
+  {
+   "id": "gitfocus.how.it.works.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How It Works",
+   "value": "Πώς λειτουργεί"
+  },
+  {
+   "id": "gitfocus.how.many.minutes.can.you.bank.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How many minutes can you bank?",
+   "value": "Πόσα λεπτά μπορείτε να κάνετε τράπεζα;"
+  },
+  {
+   "id": "gitfocus.how.strange",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How strange",
+   "value": "Πόσο περίεργο"
+  },
+  {
+   "id": "gitfocus.if.you.need.access.your.apps.right.now.were.about.uninstall.use.instead.wed.rather.you.stay.than.leave",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "If you need access to your apps right now and were about to uninstall, use this instead. We'd rather you stay than leave.",
+   "value": "Εάν χρειάζεστε πρόσβαση στις εφαρμογές σας αυτήν τη στιγμή και πρόκειται να απεγκαταστήσετε, χρησιμοποιήστε το. Προτιμούμε να μείνεις παρά να φύγεις."
+  },
+  {
+   "id": "gitfocus.initial",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(initial)",
+   "value": "(αρχικός)"
+  },
+  {
+   "id": "gitfocus.interrupted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Interrupted",
+   "value": "Διακόπηκε"
+  },
+  {
+   "id": "gitfocus.invalid.username.format",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Invalid username format",
+   "value": "Μη έγκυρη μορφή ονόματος χρήστη",
+   "comment": "GitHub username validation error when the input fails basic format checks"
+  },
+  {
+   "id": "gitfocus.just.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Just now",
+   "value": "Μόλις τώρα",
+   "comment": "Relative time label when under 1 minute"
+  },
+  {
+   "id": "gitfocus.language",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Language",
+   "value": "Γλώσσα",
+   "comment": "Language override (TestFlight/debug)"
+  },
+  {
+   "id": "gitfocus.last.updated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Last updated:",
+   "value": "Τελευταία ενημέρωση:"
+  },
+  {
+   "id": "gitfocus.lasted.text.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lasted %@ of %@",
+   "value": "Διήρκεσε %@ από %@",
+   "comment": "Pomodoro session actual duration of target duration"
+  },
+  {
+   "id": "gitfocus.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Less",
+   "value": "Μείον"
+  },
+  {
+   "id": "gitfocus.level",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level",
+   "value": "Επίπεδο"
+  },
+  {
+   "id": "gitfocus.level.reward.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.monthly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.up",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level Up",
+   "value": "Μετάβαση στο επόμενο επίπεδο."
+  },
+  {
+   "id": "gitfocus.lives",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives",
+   "value": "Ζωές"
+  },
+  {
+   "id": "gitfocus.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives\nAvailable",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.loading.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading app usage...",
+   "value": "Φόρτωση χρήσης εφαρμογής..."
+  },
+  {
+   "id": "gitfocus.loading.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contribution graph...",
+   "value": "Φόρτωση γραφήματος συνεισφοράς..."
+  },
+  {
+   "id": "gitfocus.loading.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contributions...",
+   "value": "Φόρτωση συνεισφορών..."
+  },
+  {
+   "id": "gitfocus.lock.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lock Now",
+   "value": "Κλείδωμα τώρα"
+  },
+  {
+   "id": "gitfocus.locked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Locked",
+   "value": "Κλειδωμένο",
+   "comment": "Accessibility label for locked status"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn time",
+   "value": "Δεσμευτείτε για να κερδίσετε χρόνο"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time",
+   "value": "Κάντε δεσμεύσεις για να κερδίσετε χρόνο ξεκλειδώματος"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time!",
+   "value": "Δεσμευτείτε για να κερδίσετε χρόνο ξεκλειδώματος!"
+  },
+  {
+   "id": "gitfocus.manage.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Blocked Apps",
+   "value": "Διαχείριση αποκλεισμένων εφαρμογών"
+  },
+  {
+   "id": "gitfocus.manage.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Hidden Apps",
+   "value": "Διαχείριση κρυφών εφαρμογών"
+  },
+  {
+   "id": "gitfocus.manual.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Lock",
+   "value": "Χειροκίνητο κλείδωμα",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.manual.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Unlock",
+   "value": "Χειροκίνητο ξεκλείδωμα",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.max.one.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Max in One Day",
+   "value": "Μέγιστο σε μία ημέρα"
+  },
+  {
+   "id": "gitfocus.maximum.lives.earned.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Maximum lives earned!",
+   "value": "Μέγιστες ζωές κερδισμένες!"
+  },
+  {
+   "id": "gitfocus.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "min",
+   "value": "ελάχ"
+  },
+  {
+   "id": "gitfocus.mins",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "mins",
+   "value": "λεπτά"
+  },
+  {
+   "id": "gitfocus.minute",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minute",
+   "value": "λεπτό"
+  },
+  {
+   "id": "gitfocus.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minutes",
+   "value": "πρακτικά"
+  },
+  {
+   "id": "gitfocus.minutes.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes",
+   "value": "Πρακτικά"
+  },
+  {
+   "id": "gitfocus.minutes.banked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes\nBanked",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More",
+   "value": "Περισσότερο"
+  },
+  {
+   "id": "gitfocus.more.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More options",
+   "value": "Περισσότερες επιλογές",
+   "comment": "Accessibility label for more options button"
+  },
+  {
+   "id": "gitfocus.nearly.invisible",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Nearly invisible",
+   "value": "Σχεδόν αόρατο"
+  },
+  {
+   "id": "gitfocus.need.emergency.access.question.use.life.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need emergency access?\nUse a life to unlock apps until midnight.",
+   "value": "Χρειάζεστε πρόσβαση έκτακτης ανάγκης;\nΧρησιμοποιήστε μια ζωή για να ξεκλειδώσετε εφαρμογές μέχρι τα μεσάνυχτα."
+  },
+  {
+   "id": "gitfocus.need.finish.message.question.borrow.up.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need to finish a message?\nBorrow up to 5 minutes.",
+   "value": "Θέλετε να ολοκληρώσετε ένα μήνυμα;\nΔανειστείτε έως και 5 λεπτά."
+  },
+  {
+   "id": "gitfocus.new.day.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "New day started",
+   "value": "Νέα μέρα ξεκίνησε"
+  },
+  {
+   "id": "gitfocus.no.account.needed.no.data.collection.works.offline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No account needed • No data collection • Works offline",
+   "value": "Δεν απαιτείται λογαριασμός • Δεν υπάρχει συλλογή δεδομένων • Λειτουργεί εκτός σύνδεσης"
+  },
+  {
+   "id": "gitfocus.no.apps.selected.blocking",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No apps selected for blocking",
+   "value": "Δεν έχουν επιλεγεί εφαρμογές για αποκλεισμό"
+  },
+  {
+   "id": "gitfocus.no.change",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No change",
+   "value": "Καμία αλλαγή"
+  },
+  {
+   "id": "gitfocus.no.commits.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No commits yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.contribution.data.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No contribution data available",
+   "value": "Δεν υπάρχουν διαθέσιμα στοιχεία συνεισφοράς"
+  },
+  {
+   "id": "gitfocus.no.data.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No data yet",
+   "value": "Δεν υπάρχουν ακόμη στοιχεία"
+  },
+  {
+   "id": "gitfocus.no.events.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events for this day",
+   "value": "Δεν υπάρχουν εκδηλώσεις για αυτήν την ημέρα"
+  },
+  {
+   "id": "gitfocus.no.events.recorded",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events recorded",
+   "value": "Δεν καταγράφηκαν συμβάντα"
+  },
+  {
+   "id": "gitfocus.no.focus.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No focus sessions yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No recent contributions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No sessions yet",
+   "value": "Δεν υπάρχουν ακόμη συνεδρίες"
+  },
+  {
+   "id": "gitfocus.no.sessions.yet.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sessions Yet",
+   "value": "Δεν υπάρχουν ακόμη συνεδρίες"
+  },
+  {
+   "id": "gitfocus.no.sign.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sign-In Required",
+   "value": "Δεν απαιτείται σύνδεση"
+  },
+  {
+   "id": "gitfocus.no.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No, stay focused",
+   "value": "Όχι, μείνε συγκεντρωμένος"
+  },
+  {
+   "id": "gitfocus.no.unlock.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No unlock options",
+   "value": "Δεν υπάρχουν επιλογές ξεκλειδώματος"
+  },
+  {
+   "id": "gitfocus.no.usage.recorded.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No usage recorded today",
+   "value": "Δεν καταγράφηκε χρήση σήμερα"
+  },
+  {
+   "id": "gitfocus.not.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not enabled",
+   "value": "Δεν είναι ενεργοποιημένο"
+  },
+  {
+   "id": "gitfocus.not.enough.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not Enough Time Available",
+   "value": "Δεν υπάρχει αρκετός διαθέσιμος χρόνος"
+  },
+  {
+   "id": "gitfocus.note.unlock.durations.track.active.app.usage.time.not.wall.clock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Note: Unlock durations track active app usage time, not wall clock time",
+   "value": "Σημείωση: Οι διάρκειες ξεκλειδώματος παρακολουθούν τον ενεργό χρόνο χρήσης της εφαρμογής και όχι την ώρα του ρολογιού τοίχου"
+  },
+  {
+   "id": "gitfocus.notifications",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications",
+   "value": "Ειδοποιήσεις"
+  },
+  {
+   "id": "gitfocus.notifications.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Disabled",
+   "value": "Οι ειδοποιήσεις είναι απενεργοποιημένες"
+  },
+  {
+   "id": "gitfocus.notifications.highly.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Highly Recommended",
+   "value": "Ειδοποιήσεις Συνιστάται ιδιαίτερα"
+  },
+  {
+   "id": "gitfocus.nsfamilycontrolsusagedescription",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus needs Screen Time access to block distracting apps while you code. This helps you stay focused and productive.",
+   "value": "NSFamilyControlsUsageDescription"
+  },
+  {
+   "id": "gitfocus.number.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": "+1 ζωή"
+  },
+  {
+   "id": "gitfocus.ok",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "OK",
+   "value": "ΕΝΤΑΞΕΙ"
+  },
+  {
+   "id": "gitfocus.only.apps.already.your.blocked.list.can.hidden",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Only apps that are already in your blocked list can be hidden.",
+   "value": "Μόνο οι εφαρμογές που βρίσκονται ήδη στη λίστα αποκλεισμένων σας μπορούν να κρυφτούν."
+  },
+  {
+   "id": "gitfocus.opaque.frosted.glass",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Opaque frosted glass",
+   "value": "Αδιαφανές παγωμένο γυαλί"
+  },
+  {
+   "id": "gitfocus.open.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus 📱",
+   "value": "Ανοίξτε GitFocus 📱"
+  },
+  {
+   "id": "gitfocus.open.gitfocus.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus",
+   "value": "Άνοιγμα GitFocus"
+  },
+  {
+   "id": "gitfocus.open.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Settings",
+   "value": "Άνοιγμα Ρυθμίσεων"
+  },
+  {
+   "id": "gitfocus.open.source",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Source",
+   "value": "Ανοιχτού κώδικα"
+  },
+  {
+   "id": "gitfocus.owed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Owed",
+   "value": "Οφείλει"
+  },
+  {
+   "id": "gitfocus.paid.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Paid Debt",
+   "value": "Πληρωμένο χρέος",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.pause.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pause timer",
+   "value": "Παύση χρονοδιακόπτη"
+  },
+  {
+   "id": "gitfocus.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": "Μόνιμος"
+  },
+  {
+   "id": "gitfocus.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permissions",
+   "value": "Άδειες"
+  },
+  {
+   "id": "gitfocus.pomodoro.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pomodoro History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.portuguese.brazil",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Portuguese (Brazil)",
+   "value": "Πορτογαλικά (Βραζιλία)"
+  },
+  {
+   "id": "gitfocus.preview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Preview",
+   "value": "Πρεμιέρα"
+  },
+  {
+   "id": "gitfocus.privacy.policy",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Privacy Policy",
+   "value": "Πολιτική Απορρήτου"
+  },
+  {
+   "id": "gitfocus.proceed.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Proceed Anyway",
+   "value": "Προχωρήστε πάντως"
+  },
+  {
+   "id": "gitfocus.quick.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Quick Settings",
+   "value": "Γρήγορες ρυθμίσεις"
+  },
+  {
+   "id": "gitfocus.ready.focus.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to focus?",
+   "value": "Έτοιμοι να εστιάσετε;"
+  },
+  {
+   "id": "gitfocus.ready.go",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to go",
+   "value": "Έτοιμος να πάει"
+  },
+  {
+   "id": "gitfocus.recent.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Activity",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Contributions",
+   "value": "Πρόσφατες συνεισφορές"
+  },
+  {
+   "id": "gitfocus.recent.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Sessions",
+   "value": "Πρόσφατες συνεδρίες"
+  },
+  {
+   "id": "gitfocus.recent.system.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent system events",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "RECOMMENDED",
+   "value": "ΣΥΝΙΣΤΕΙΤΑΙ"
+  },
+  {
+   "id": "gitfocus.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Refresh History",
+   "value": "Ανανέωση Ιστορίας"
+  },
+  {
+   "id": "gitfocus.relocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Relocked",
+   "value": "Ξανακλείδωσε",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.remove.app.hide.list",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Remove app from hide list",
+   "value": "Αφαιρέστε την εφαρμογή από τη λίστα απόκρυψης",
+   "comment": "Accessibility label for removing a hidden app"
+  },
+  {
+   "id": "gitfocus.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "REQUIRED",
+   "value": "ΥΠΟΧΡΕΟΥΜΑΙ"
+  },
+  {
+   "id": "gitfocus.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset",
+   "value": "Επαναφορά"
+  },
+  {
+   "id": "gitfocus.reset.all.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset All Settings",
+   "value": "Επαναφορά όλων των ρυθμίσεων"
+  },
+  {
+   "id": "gitfocus.reset.settings.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset Settings?",
+   "value": "Επαναφορά ρυθμίσεων;"
+  },
+  {
+   "id": "gitfocus.reset.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset timer",
+   "value": "Επαναφορά χρονοδιακόπτη",
+   "comment": "Accessibility label for reset timer button"
+  },
+  {
+   "id": "gitfocus.restart.app.apply.language.changes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart the app to apply language changes.",
+   "value": "Επανεκκινήστε την εφαρμογή για να εφαρμόσετε αλλαγές γλώσσας."
+  },
+  {
+   "id": "gitfocus.restart.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart Required",
+   "value": "Απαιτείται επανεκκίνηση"
+  },
+  {
+   "id": "gitfocus.restore.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restore Data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.found.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak and all saved progress.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.confirm",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.review",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review",
+   "value": "Κριτική"
+  },
+  {
+   "id": "gitfocus.review.onboarding",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review Onboarding",
+   "value": "Έλεγχος Ενσωμάτωσης"
+  },
+  {
+   "id": "gitfocus.review.your.settings.start.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review your settings and start focusing",
+   "value": "Ελέγξτε τις ρυθμίσεις σας και αρχίστε να εστιάζετε"
+  },
+  {
+   "id": "gitfocus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "score",
+   "value": "σκορ"
+  },
+  {
+   "id": "gitfocus.screen.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Screen Time",
+   "value": "Χρόνος οθόνης"
+  },
+  {
+   "id": "gitfocus.screen.time.bypassed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "• Screen Time bypassed",
+   "value": "• Παράκαμψη χρόνου οθόνης"
+  },
+  {
+   "id": "gitfocus.second.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Second Reset",
+   "value": "Δεύτερη επαναφορά"
+  },
+  {
+   "id": "gitfocus.see.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See all",
+   "value": "Δείτε όλα"
+  },
+  {
+   "id": "gitfocus.see.all.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See All",
+   "value": "Δείτε όλα"
+  },
+  {
+   "id": "gitfocus.see.its.right.side.now.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See, it's on the right side now!",
+   "value": "Βλέπετε, είναι στη σωστή πλευρά τώρα!"
+  },
+  {
+   "id": "gitfocus.select.apps.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Block",
+   "value": "Επιλέξτε Εφαρμογές για αποκλεισμό"
+  },
+  {
+   "id": "gitfocus.select.apps.block.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to block during focus sessions",
+   "value": "Επιλέξτε εφαρμογές για αποκλεισμό κατά τη διάρκεια των συνεδριών εστίασης"
+  },
+  {
+   "id": "gitfocus.select.apps.hide",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Hide",
+   "value": "Επιλέξτε Εφαρμογές για απόκρυψη"
+  },
+  {
+   "id": "gitfocus.select.apps.hide.home.screen",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to hide from home screen",
+   "value": "Επιλέξτε εφαρμογές για απόκρυψη από την αρχική οθόνη"
+  },
+  {
+   "id": "gitfocus.select.apps.you.want.block.while.focusing.youll.need.make.commits.unlock.them",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps that you want to block while focusing. You'll need to make commits to unlock them.",
+   "value": "Επιλέξτε εφαρμογές που θέλετε να αποκλείσετε κατά την εστίαση. Θα χρειαστεί να κάνετε δεσμεύσεις για να τα ξεκλειδώσετε."
+  },
+  {
+   "id": "gitfocus.select.demo.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Demo Apps",
+   "value": "Επιλέξτε Εφαρμογές επίδειξης"
+  },
+  {
+   "id": "gitfocus.select.least.one.app.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select at least one app to block",
+   "value": "Επιλέξτε τουλάχιστον μία εφαρμογή για αποκλεισμό"
+  },
+  {
+   "id": "gitfocus.select.specific.apps.your.blocked.list.hide.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select specific apps from your blocked list to hide during focus sessions.",
+   "value": "Επιλέξτε συγκεκριμένες εφαρμογές από τη λίστα αποκλεισμένων για απόκρυψη κατά τη διάρκεια των συνεδριών εστίασης."
+  },
+  {
+   "id": "gitfocus.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected",
+   "value": "Επιλεγμένο",
+   "comment": "Accessibility label for selected state"
+  },
+  {
+   "id": "gitfocus.selected.apps.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected Apps (%d)",
+   "value": "Επιλεγμένες εφαρμογές (%d)",
+   "comment": "Selected apps section title with count"
+  },
+  {
+   "id": "gitfocus.send.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Send Feedback",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.session.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Session History",
+   "value": "Ιστορικό συνεδρίας"
+  },
+  {
+   "id": "gitfocus.set.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Custom Duration",
+   "value": "Ορισμός προσαρμοσμένης διάρκειας"
+  },
+  {
+   "id": "gitfocus.set.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Duration",
+   "value": "Ορισμός Διάρκειας"
+  },
+  {
+   "id": "gitfocus.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Settings",
+   "value": "Ρυθμίσεις",
+   "comment": "Accessibility label for settings button"
+  },
+  {
+   "id": "gitfocus.setup.takes.less.than.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Setup takes less than 2 minutes",
+   "value": "Η εγκατάσταση διαρκεί λιγότερο από 2 λεπτά"
+  },
+  {
+   "id": "gitfocus.shield.shown",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Shield Shown",
+   "value": "Εμφανίζεται η ασπίδα",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.show.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Show less",
+   "value": "Δείξτε λιγότερα"
+  },
+  {
+   "id": "gitfocus.skip",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip",
+   "value": "Παραλείπω"
+  },
+  {
+   "id": "gitfocus.skip.notifications.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip Notifications Anyway",
+   "value": "Παράλειψη ειδοποιήσεων πάντως"
+  },
+  {
+   "id": "gitfocus.skip.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip for now",
+   "value": "Παράλειψη προς το παρόν"
+  },
+  {
+   "id": "gitfocus.slide.all.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide for all-day",
+   "value": "Σύρετε για όλη την ημέρα"
+  },
+  {
+   "id": "gitfocus.slide.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide to unlock",
+   "value": "Σύρετε για ξεκλείδωμα"
+  },
+  {
+   "id": "gitfocus.solid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Solid",
+   "value": "Στερεός"
+  },
+  {
+   "id": "gitfocus.spanish",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Spanish",
+   "value": "ισπανικά"
+  },
+  {
+   "id": "gitfocus.splash.tagline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit to unlock distractions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.start.focus.session",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Focus Session",
+   "value": "Έναρξη Συνεδρίας Εστίασης"
+  },
+  {
+   "id": "gitfocus.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": "Ξεκινήστε φρέσκα"
+  },
+  {
+   "id": "gitfocus.start.fresh.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh at 0",
+   "value": "Ξεκινήστε από το 0"
+  },
+  {
+   "id": "gitfocus.start.fresh.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": "Ξεκινήστε από νέα;"
+  },
+  {
+   "id": "gitfocus.start.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start timer",
+   "value": "Έναρξη χρονοδιακόπτη"
+  },
+  {
+   "id": "gitfocus.start.using.gitfocus.see.your.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start using GitFocus to see your stats",
+   "value": "Ξεκινήστε να χρησιμοποιείτε GitFocus για να δείτε τα στατιστικά σας"
+  },
+  {
+   "id": "gitfocus.started.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Started %@",
+   "value": "Ξεκίνησε %@",
+   "comment": "Pomodoro session start time label"
+  },
+  {
+   "id": "gitfocus.starting",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Starting...",
+   "value": "Εκκίνηση..."
+  },
+  {
+   "id": "gitfocus.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Statistics",
+   "value": "Στατιστική"
+  },
+  {
+   "id": "gitfocus.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stay Focused",
+   "value": "Μείνετε συγκεντρωμένοι"
+  },
+  {
+   "id": "gitfocus.stayed.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stayed Focused",
+   "value": "Έμεινε συγκεντρωμένος",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.staying.focused.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Staying Focused!",
+   "value": "Παραμένοντας συγκεντρωμένοι!"
+  },
+  {
+   "id": "gitfocus.stop.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stop timer",
+   "value": "Διακοπή χρονοδιακόπτη",
+   "comment": "Accessibility label for stop timer button"
+  },
+  {
+   "id": "gitfocus.stopped.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stopped %@",
+   "value": "Σταμάτησε %@",
+   "comment": "Pomodoro session stopped time label"
+  },
+  {
+   "id": "gitfocus.subtle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Subtle",
+   "value": "Λεπτός"
+  },
+  {
+   "id": "gitfocus.summary",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Summary",
+   "value": "Περίληψη"
+  },
+  {
+   "id": "gitfocus.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "gitfocus.system.default",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "System Default",
+   "value": "Προεπιλογή συστήματος"
+  },
+  {
+   "id": "gitfocus.tap.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to continue",
+   "value": "Πατήστε για να συνεχίσετε",
+   "comment": "Core onboarding / settings / shield (zh-Hans)"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "Πατήστε για να ανοίξετε GitFocus και ελέγξτε για νέες δεσμεύσεις για να κερδίσετε χρόνο ξεκλειδώματος"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "Πατήστε για να ανοίξετε GitFocus και να συγχρονίσετε τις δεσμεύσεις GitHub"
+  },
+  {
+   "id": "gitfocus.tap.view.detailed.contribution.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to view detailed contribution statistics",
+   "value": "Πατήστε για να δείτε αναλυτικά στατιστικά στοιχεία συνεισφοράς",
+   "comment": "Accessibility hint for viewing contribution statistics"
+  },
+  {
+   "id": "gitfocus.text.daily.avg",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%@ daily avg",
+   "value": "%@ ημερήσιος μέσος όρος",
+   "comment": "Average daily distraction time"
+  },
+  {
+   "id": "gitfocus.then.number.every.month",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": "μετά +1 κάθε μήνα"
+  },
+  {
+   "id": "gitfocus.time.balance.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Balance Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.balance.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn time with commits and spend it to unlock your apps.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Borrowing",
+   "value": "Χρονικός Δανεισμός"
+  },
+  {
+   "id": "gitfocus.time.code.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to code!",
+   "value": "Ώρα για κωδικοποίηση!"
+  },
+  {
+   "id": "gitfocus.time.days_left_percent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dd left · %d%%",
+   "value": "Απομένουν %dd · %d%%",
+   "comment": "Year grid footer: days remaining and percent complete"
+  },
+  {
+   "id": "gitfocus.time.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Earned",
+   "value": "Χρόνος Κερδισμένος",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.time.focus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to Focus!",
+   "value": "Ώρα για εστίαση!",
+   "comment": "Shield UI"
+  },
+  {
+   "id": "gitfocus.time.hours_ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d h ago",
+   "value": "%d ώρα πριν",
+   "comment": "Relative time label in hours"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "· %dm debt",
+   "value": "· Χρέος %dεκ",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm debt",
+   "value": "Χρέος %dεκ",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm duration",
+   "value": "%dm διάρκεια",
+   "comment": "Duration minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm earned",
+   "value": "Κέρδισε %dm",
+   "comment": "Earned minutes badge\nEarned minutes label"
+  },
+  {
+   "id": "gitfocus.time.never.expires",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time never expires",
+   "value": "ο χρόνος δεν λήγει ποτέ"
+  },
+  {
+   "id": "gitfocus.time.resets.weekly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time resets weekly",
+   "value": "ο χρόνος επαναφέρεται σε εβδομαδιαία βάση"
+  },
+  {
+   "id": "gitfocus.time.spent.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time spent today:",
+   "value": "Χρόνος που δαπανήθηκε σήμερα:"
+  },
+  {
+   "id": "gitfocus.time.spent.today.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Spent Today",
+   "value": "Χρόνος που ξοδεύτηκε σήμερα"
+  },
+  {
+   "id": "gitfocus.time.you.earn.but.dont.use.measure.your.self.control",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use\nis a measure of your self-control",
+   "value": "Ο χρόνος που κερδίζετε αλλά δεν χρησιμοποιείτε\nείναι ένα μέτρο του αυτοελέγχου σας"
+  },
+  {
+   "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tip: Select individual apps rather than entire categories",
+   "value": "Συμβουλή: Επιλέξτε μεμονωμένες εφαρμογές και όχι ολόκληρες κατηγορίες"
+  },
+  {
+   "id": "gitfocus.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today",
+   "value": "Σήμερα",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.todays.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's App Usage",
+   "value": "Η σημερινή χρήση της εφαρμογής"
+  },
+  {
+   "id": "gitfocus.todays.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Commits",
+   "value": "Οι σημερινές δεσμεύσεις"
+  },
+  {
+   "id": "gitfocus.todays.most.used.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Most Used Apps",
+   "value": "Οι πιο χρησιμοποιούμενες εφαρμογές σήμερα"
+  },
+  {
+   "id": "gitfocus.todays.usage.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Usage Statistics",
+   "value": "Σημερινά στατιστικά χρήσης"
+  },
+  {
+   "id": "gitfocus.total.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Commits",
+   "value": "Σύνολο δεσμεύσεων"
+  },
+  {
+   "id": "gitfocus.total.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Contributions",
+   "value": "Συνολικές Συνεισφορές"
+  },
+  {
+   "id": "gitfocus.total.refreshes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Refreshes",
+   "value": "Συνολικές ανανεώσεις"
+  },
+  {
+   "id": "gitfocus.total.today.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total today: %d minutes",
+   "value": "Σύνολο σήμερα: %d λεπτά",
+   "comment": "Total usage minutes today"
+  },
+  {
+   "id": "gitfocus.transparent.edge.glow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Transparent with edge glow",
+   "value": "Διαφανές με λάμψη άκρης"
+  },
+  {
+   "id": "gitfocus.turn.commits.into.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Turn Commits into Focus Time",
+   "value": "Μετατρέψτε τις δεσμεύσεις σε χρόνο εστίασης"
+  },
+  {
+   "id": "gitfocus.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock for:",
+   "value": "Ξεκλείδωμα για:"
+  },
+  {
+   "id": "gitfocus.unlock.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock App",
+   "value": "Ξεκλείδωμα εφαρμογής"
+  },
+  {
+   "id": "gitfocus.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock apps until midnight",
+   "value": "Ξεκλειδώστε τις εφαρμογές μέχρι τα μεσάνυχτα"
+  },
+  {
+   "id": "gitfocus.unlock.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Debt)",
+   "value": "Ξεκλείδωμα (Χρέος)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Earned)",
+   "value": "Ξεκλείδωμα (Κερδισμένο)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.failed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Failed",
+   "value": "Το ξεκλείδωμα απέτυχε",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 5 min",
+   "value": "Ξεκλείδωμα 5 λεπτά",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Mixed)",
+   "value": "Ξεκλείδωμα (Μικτό)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 1 min",
+   "value": "Ξεκλείδωμα 1 λεπτό",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock %@",
+   "value": "Ξεκλείδωμα %@",
+   "comment": "Unlock app button title"
+  },
+  {
+   "id": "gitfocus.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time",
+   "value": "Ώρα ξεκλειδώματος"
+  },
+  {
+   "id": "gitfocus.unlock.time.remaining",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time Remaining",
+   "value": "Ξεκλείδωμα Υπολειπόμενος Χρόνος"
+  },
+  {
+   "id": "gitfocus.unlock.time.your.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "of unlock time for your blocked apps",
+   "value": "του χρόνου ξεκλειδώματος για τις αποκλεισμένες εφαρμογές σας"
+  },
+  {
+   "id": "gitfocus.unlock.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Until Midnight",
+   "value": "Ξεκλείδωμα μέχρι τα μεσάνυχτα"
+  },
+  {
+   "id": "gitfocus.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked",
+   "value": "Ακλείδωτος"
+  },
+  {
+   "id": "gitfocus.unlocked.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked for %d min",
+   "value": "Ξεκλείδωτο για %d λεπτά",
+   "comment": "Remaining unlock time label"
+  },
+  {
+   "id": "gitfocus.unlocked.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Debt)",
+   "value": "Ξεκλείδωτο (Χρέος)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Earned)",
+   "value": "Ξεκλείδωτο (Κερδισμένο)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 5 min",
+   "value": "Ξεκλείδωτο 5 λεπτά",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Mixed)",
+   "value": "Ξεκλείδωτο (Μικτό)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 1 min",
+   "value": "Ξεκλείδωτο 1 λεπτό",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocks",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "unlocks",
+   "value": "ξεκλειδώνει"
+  },
+  {
+   "id": "gitfocus.until.apps.re.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "until apps re-lock",
+   "value": "μέχρι να κλειδώσουν ξανά οι εφαρμογές"
+  },
+  {
+   "id": "gitfocus.use.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Earned Time",
+   "value": "Χρησιμοποιήστε τον κερδισμένο χρόνο"
+  },
+  {
+   "id": "gitfocus.use.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Life",
+   "value": "Χρησιμοποιήστε τη ζωή"
+  },
+  {
+   "id": "gitfocus.use.number.your.count.heart.unlock.apps.until.midnight.your.count.day.streak.will.preserved",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use 1 of your %d ❤️ to unlock apps until midnight.\n\nYour %d day streak will be preserved.",
+   "value": "Χρησιμοποιήστε 1 από τις %d ❤️ σας για να ξεκλειδώσετε εφαρμογές μέχρι τα μεσάνυχτα.\n\nΗ σειρά σας %d ημερών θα διατηρηθεί.",
+   "comment": "Emergency override message when user has lives"
+  },
+  {
+   "id": "gitfocus.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "Χρησιμοποιήθηκε ο διαθέσιμος χρόνος και δανείστηκε επιπλέον. %d λεπτά συνολικά."
+  },
+  {
+   "id": "gitfocus.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "Χρησιμοποιήθηκαν %d λεπτά από το διαθέσιμο υπόλοιπο. Το χρονόμετρο ξεκίνησε!"
+  },
+  {
+   "id": "gitfocus.used.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used life",
+   "value": "Χρησιμοποιημένη ζωή"
+  },
+  {
+   "id": "gitfocus.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "username",
+   "value": "όνομα χρήστη"
+  },
+  {
+   "id": "gitfocus.username.cannot.empty",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username cannot be empty",
+   "value": "Το όνομα χρήστη δεν μπορεί να είναι κενό",
+   "comment": "GitHub username validation error when the input is empty"
+  },
+  {
+   "id": "gitfocus.username.validated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username validated",
+   "value": "Το όνομα χρήστη επικυρώθηκε",
+   "comment": "Accessibility label for username validated status"
+  },
+  {
+   "id": "gitfocus.username.verified.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username verified!",
+   "value": "Το όνομα χρήστη επαληθεύτηκε!"
+  },
+  {
+   "id": "gitfocus.uses.number.life.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Uses 1 life • Until midnight",
+   "value": "Χρησιμοποιεί 1 ζωή • Μέχρι τα μεσάνυχτα"
+  },
+  {
+   "id": "gitfocus.using.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Using earned time",
+   "value": "Χρήση του κερδισμένου χρόνου"
+  },
+  {
+   "id": "gitfocus.validate",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Validate",
+   "value": "Επικυρώνω"
+  },
+  {
+   "id": "gitfocus.verify.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Verify Username",
+   "value": "Επαλήθευση ονόματος χρήστη"
+  },
+  {
+   "id": "gitfocus.version",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Version",
+   "value": "Εκδοχή"
+  },
+  {
+   "id": "gitfocus.view.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View All",
+   "value": "Προβολή όλων"
+  },
+  {
+   "id": "gitfocus.view.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Debug Logs",
+   "value": "Προβολή αρχείων καταγραφής εντοπισμού σφαλμάτων"
+  },
+  {
+   "id": "gitfocus.view.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Refresh History",
+   "value": "Προβολή ιστορικού ανανέωσης"
+  },
+  {
+   "id": "gitfocus.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Warning",
+   "value": "Προειδοποίηση",
+   "comment": "Accessibility label for warning indicator"
+  },
+  {
+   "id": "gitfocus.we.found.your.existing.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your existing commits",
+   "value": "Βρήκαμε τις υπάρχουσες δεσμεύσεις σας"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account",
+   "value": "Βρήκαμε τον GitHub λογαριασμό σας"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account.before",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account from before",
+   "value": "Βρήκαμε τον λογαριασμό GitHub σας από πριν"
+  },
+  {
+   "id": "gitfocus.we.found.your.previous.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": "Βρήκαμε τα προηγούμενα δεδομένα σας"
+  },
+  {
+   "id": "gitfocus.we.only.access.publicly.available.contribution.data.github.no.authentication.private.data.access.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We only access publicly available contribution data from GitHub. No authentication or private data access is required.",
+   "value": "Έχουμε πρόσβαση μόνο σε δημόσια διαθέσιμα δεδομένα συνεισφοράς από GitHub. Δεν απαιτείται έλεγχος ταυτότητας ή πρόσβαση στα προσωπικά δεδομένα."
+  },
+  {
+   "id": "gitfocus.weekly.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Weekly bank",
+   "value": "Εβδομαδιαία τράπεζα"
+  },
+  {
+   "id": "gitfocus.welcome",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome",
+   "value": "Καλωσόρισμα"
+  },
+  {
+   "id": "gitfocus.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": "Καλώς ήρθατε πίσω!"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back!",
+   "value": "Καλώς ήρθες πίσω!"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation.your.github.data.ready",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back! Your GitHub data is ready.",
+   "value": "Καλώς ήρθες πίσω! Τα δεδομένα GitHub σας είναι έτοιμα."
+  },
+  {
+   "id": "gitfocus.welcome.gitfocus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome to GitFocus!",
+   "value": "Καλώς ήρθατε στο GitFocus!"
+  },
+  {
+   "id": "gitfocus.well.track.your.public.commits.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll track your public commits to unlock apps",
+   "value": "Θα παρακολουθούμε τις δημόσιες δεσμεύσεις σας για ξεκλείδωμα εφαρμογών"
+  },
+  {
+   "id": "gitfocus.well.use.track.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll use this to track your commits",
+   "value": "Θα το χρησιμοποιήσουμε για να παρακολουθήσουμε τις δεσμεύσεις σας"
+  },
+  {
+   "id": "gitfocus.when.enabled.all.blocked.apps.will.hidden.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "When enabled, all blocked apps will be hidden from your home screen during focus sessions.",
+   "value": "Όταν είναι ενεργοποιημένη, όλες οι αποκλεισμένες εφαρμογές θα είναι κρυφές από την αρχική οθόνη σας κατά τη διάρκεια των συνεδριών εστίασης."
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which Apps Distract You?",
+   "value": "Ποιες εφαρμογές σας αποσπούν την προσοχή;"
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which apps distract you?",
+   "value": "Ποιες εφαρμογές σας αποσπούν την προσοχή;"
+  },
+  {
+   "id": "gitfocus.why.no.sign.required.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Why no sign in required?",
+   "value": "Γιατί δεν απαιτείται σύνδεση;"
+  },
+  {
+   "id": "gitfocus.will.clear.your.streak.count.days.earned.time.all.saved.progress.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak (%d days), earned time, and all saved progress. This cannot be undone.",
+   "value": "Αυτό θα διαγράψει το σερί σας (%d ημέρες), τον χρόνο που έχετε κερδίσει και όλη την αποθηκευμένη πρόοδο. Αυτό δεν μπορεί να αναιρεθεί.",
+   "comment": "Start fresh confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.count.session.records",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all %d session records.",
+   "value": "Αυτό θα διαγράψει οριστικά όλες τις εγγραφές περιόδου λειτουργίας %d.",
+   "comment": "Clear history confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.refresh.history.action.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all refresh history. This action cannot be undone.",
+   "value": "Αυτό θα διαγράψει οριστικά όλο το ιστορικό ανανέωσης. Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
+  },
+  {
+   "id": "gitfocus.will.reset.all.settings.defaults.clear.your.github.username.youll.need.set.up.app.again",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will reset all settings to defaults and clear your GitHub username. You'll need to set up the app again.",
+   "value": "Αυτό θα επαναφέρει όλες τις ρυθμίσεις στις προεπιλογές και θα διαγράψει το GitHub όνομα χρήστη σας. Θα χρειαστεί να ρυθμίσετε ξανά την εφαρμογή."
+  },
+  {
+   "id": "gitfocus.will.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will unlock apps until midnight.",
+   "value": "Αυτό θα ξεκλειδώσει τις εφαρμογές μέχρι τα μεσάνυχτα."
+  },
+  {
+   "id": "gitfocus.without.notifications.youll.need.manually.open.app.check.commits.when.requesting.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Without notifications, you'll need to manually open the app to check commits when requesting an unlock.",
+   "value": "Χωρίς ειδοποιήσεις, θα χρειαστεί να ανοίξετε μη αυτόματα την εφαρμογή για να ελέγξετε τις δεσμεύσεις όταν ζητάτε ξεκλείδωμα."
+  },
+  {
+   "id": "gitfocus.year",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "this year",
+   "value": "φέτος"
+  },
+  {
+   "id": "gitfocus.year.end.challenge",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year-End Challenge",
+   "value": "Πρόκληση τέλους έτους"
+  },
+  {
+   "id": "gitfocus.year.pixels",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year in Pixels",
+   "value": "Έτος σε Pixels"
+  },
+  {
+   "id": "gitfocus.yes.need.more.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, I need more time",
+   "value": "Ναι, χρειάζομαι περισσότερο χρόνο"
+  },
+  {
+   "id": "gitfocus.yes.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": "Ναι, Ξεκινήστε από νέα"
+  },
+  {
+   "id": "gitfocus.yesterday",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yesterday",
+   "value": "Εχθές",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.you.dont.have.any.earned.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You don't have any earned time available.",
+   "value": "Δεν έχετε διαθέσιμο κερδισμένο χρόνο."
+  },
+  {
+   "id": "gitfocus.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d min of usage time.",
+   "value": "Έχετε %d λεπτά χρόνου χρήσης."
+  },
+  {
+   "id": "gitfocus.you.have.count.minutes.earned.time.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d minutes of earned time from your commits.",
+   "value": "Έχετε %d λεπτά κερδισμένου χρόνου από τις δεσμεύσεις σας.",
+   "comment": "Earned time available message"
+  },
+  {
+   "id": "gitfocus.you.previously.denied.notifications.open.settings.enable.them.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You previously denied notifications. Open Settings to enable them for GitFocus.",
+   "value": "Απορρίψατε προηγουμένως τις ειδοποιήσεις. Ανοίξτε τις Ρυθμίσεις για να τις ενεργοποιήσετε για το GitFocus."
+  },
+  {
+   "id": "gitfocus.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "Ζητήσατε %d λεπτά, αλλά έχετε μόνο %d λεπτά διαθέσιμα."
+  },
+  {
+   "id": "gitfocus.you.start.number.free.life.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You start with 1 free life!",
+   "value": "Ξεκινάς με 1 δωρεάν ζωή!"
+  },
+  {
+   "id": "gitfocus.your.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitHub Profile",
+   "value": "Το προφίλ σας GitHub"
+  },
+  {
+   "id": "gitfocus.your.privacy.matters",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your Privacy Matters",
+   "value": "Το απόρρητό σας έχει σημασία"
+  },
+  {
+   "id": "gitfocus.youre.all.set.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're All Set!",
+   "value": "Είστε έτοιμοι!"
+  },
+  {
+   "id": "gitfocus.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "Μένεις συγκεντρωμένος. Συνεχίστε την εξαιρετική δουλειά!"
+  },
+  {
+   "id": "gitfocus.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "Προσπαθείτε να ανοίξετε μια αποκλεισμένη εφαρμογή.\nΧρειάζεστε περισσότερο χρόνο για να εργαστείτε σε αυτό;"
+  },
+  {
+   "id": "gitfocus.youve.already.made.commits.today.would.you.like.start.time.begin.fresh.zero.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've already made commits today. Would you like to start with this time, or begin fresh at zero?",
+   "value": "Έχετε ήδη αναλάβει δεσμεύσεις σήμερα. Θα θέλατε να ξεκινήσετε με αυτή τη φορά ή να ξεκινήσετε από το μηδέν;"
+  },
+  {
+   "id": "gitfocus.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "Έχετε εξαντλήσει το χρέος σας (-5 λεπτά). Κάντε δεσμεύσεις στο GitHub για να κερδίσετε χρόνο ξεκλειδώματος!"
+  },
+  {
+   "id": "gitfocus.youve.used.all.count.lives.will.still.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've used all %d lives.\n\nThis will still unlock apps until midnight.",
+   "value": "Έχετε χρησιμοποιήσει όλες τις ζωές %d.\n\nΑυτό θα ξεκλειδώσει τις εφαρμογές μέχρι τα μεσάνυχτα.",
+   "comment": "Emergency override message when user has no lives"
+  },
+  {
+   "id": "pomodorowidget.count.min",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "%d min",
+   "value": "%d λεπτά",
+   "comment": "Total focus duration in minutes"
+  },
+  {
+   "id": "pomodorowidget.focus",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus",
+   "value": "Εστία",
+   "comment": "PomodoroWidget (zh-Hans)"
+  },
+  {
+   "id": "pomodorowidget.focus.timer",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus Timer",
+   "value": "Χρονοδιακόπτης εστίασης"
+  },
+  {
+   "id": "shieldaction.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Apps Unlocked! 🔓",
+   "value": "Οι εφαρμογές ξεκλείδωσαν! 🔓"
+  },
+  {
+   "id": "shieldaction.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "Δανεισμένο %d min. Πληρώστε το με δεσμεύσεις!",
+   "comment": "Unlock notification body (debt)"
+  },
+  {
+   "id": "shieldaction.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "Ελέγξτε τις GitHub Δεσμεύσεις σας! 💻"
+  },
+  {
+   "id": "shieldaction.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "Συμπληρώθηκε το όριο χρέους ⚠️"
+  },
+  {
+   "id": "shieldaction.great.choice.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Great Choice! 💪",
+   "value": "Μεγάλη Επιλογή! 💪"
+  },
+  {
+   "id": "shieldaction.not.enough.time.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Not Enough Time Available",
+   "value": "Δεν υπάρχει αρκετός διαθέσιμος χρόνος"
+  },
+  {
+   "id": "shieldaction.open.gitfocus",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Open GitFocus 📱",
+   "value": "Ανοίξτε GitFocus 📱"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "Πατήστε για να ανοίξετε GitFocus και ελέγξτε για νέες δεσμεύσεις για να κερδίσετε χρόνο ξεκλειδώματος"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "Πατήστε για να ανοίξετε GitFocus και να συγχρονίσετε τις δεσμεύσεις GitHub"
+  },
+  {
+   "id": "shieldaction.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "Χρησιμοποιήθηκε ο διαθέσιμος χρόνος και δανείστηκε επιπλέον. %d λεπτά συνολικά.",
+   "comment": "Unlock notification body (mixed)"
+  },
+  {
+   "id": "shieldaction.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "Χρησιμοποιήθηκαν %d λεπτά από το διαθέσιμο υπόλοιπο. Το χρονόμετρο ξεκίνησε!",
+   "comment": "Unlock notification body (earned)"
+  },
+  {
+   "id": "shieldaction.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You have %d min of usage time.",
+   "value": "Έχετε %d λεπτά χρόνου χρήσης.",
+   "comment": "Unlock notification body (generic)"
+  },
+  {
+   "id": "shieldaction.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "Ζητήσατε %d λεπτά, αλλά έχετε μόνο %d λεπτά διαθέσιμα.",
+   "comment": "Insufficient time notification body"
+  },
+  {
+   "id": "shieldaction.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "Μένεις συγκεντρωμένος. Συνεχίστε την εξαιρετική δουλειά!"
+  },
+  {
+   "id": "shieldaction.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "Έχετε εξαντλήσει το χρέος σας (-5 λεπτά). Κάντε δεσμεύσεις στο GitHub για να κερδίσετε χρόνο ξεκλειδώματος!"
+  },
+  {
+   "id": "shieldconfiguration.choose.unlock.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Choose Unlock Time",
+   "value": "Επιλέξτε Ώρα ξεκλειδώματος"
+  },
+  {
+   "id": "shieldconfiguration.continue.focusing",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Continue focusing",
+   "value": "Συνεχίστε την εστίαση"
+  },
+  {
+   "id": "shieldconfiguration.no.stay.focused",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "No, stay focused",
+   "value": "Όχι, μείνε συγκεντρωμένος"
+  },
+  {
+   "id": "shieldconfiguration.open.gitfocus",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Open GitFocus",
+   "value": "Άνοιγμα GitFocus"
+  },
+  {
+   "id": "shieldconfiguration.staying.focused.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Staying Focused!",
+   "value": "Παραμένοντας συγκεντρωμένοι!"
+  },
+  {
+   "id": "shieldconfiguration.time.focus.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Time to Focus!",
+   "value": "Ώρα για εστίαση!"
+  },
+  {
+   "id": "shieldconfiguration.yes.need.more.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Yes, I need more time",
+   "value": "Ναι, χρειάζομαι περισσότερο χρόνο"
+  },
+  {
+   "id": "shieldconfiguration.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "Προσπαθείτε να ανοίξετε μια αποκλεισμένη εφαρμογή.\nΧρειάζεστε περισσότερο χρόνο για να εργαστείτε σε αυτό;"
+  },
+  {
+   "id": "asc.name",
+   "kind": "asc",
+   "section": "name",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "asc.subtitle",
+   "kind": "asc",
+   "section": "subtitle",
+   "en": "Turn Commits into Focus Time",
+   "value": "Commits σε χρόνο εστίασης"
+  },
+  {
+   "id": "asc.promotional_text",
+   "kind": "asc",
+   "section": "promotional text",
+   "en": "Block distractions until you code. Track one or more GitHub accounts, and every new contribution earns unlock time.",
+   "value": "Αποκλείστε περισπασμούς μέχρι να γράψετε κώδικα. Παρακολουθήστε έναν ή περισσότερους λογαριασμούς GitHub και κερδίστε χρόνο."
+  },
+  {
+   "id": "asc.description",
+   "kind": "asc",
+   "section": "description",
+   "en": "GitFocus helps developers stay productive by rewarding coding with app access. Block distracting apps until you commit code to GitHub.\n\nHOW IT WORKS\n• Add one or more GitHub accounts (no sign-in required)\n• Select apps to block during focus sessions\n• Each new GitHub contribution earns you 5 minutes of unlock time\n• Need emergency access? Use a life to unlock until midnight\n\nKEY FEATURES\n\nCommit-Based Rewards\nEvery time your GitHub contribution graph increases, you earn unlock time for your blocked apps. The more you code, the more time you earn.\n\nSmart App Blocking\nUses iOS Screen Time to block apps you choose. No workarounds - the apps are truly blocked until you earn time or use a life.\n\nLives System\nStart with 1 free life. Use it for emergency access when you need to check something urgent. Earn more lives by building your coding streak.\n\nTime Borrowing\nNeed to quickly finish a message? Borrow up to 5 minutes. Your future commits will pay it back automatically.\n\nContribution Graph\nSee your GitHub activity at a glance. Watch your coding streak grow as you stay focused and productive.\n\nPrivacy First\nWe only read your public contribution graph (no access to your repositories or code). Your data is stored on your device, with optional iCloud sync for certain settings/statistics if iCloud is enabled.\n\nPERFECT FOR\n• Developers who want to reduce social media time\n• Students learning to code\n• Anyone building a coding habit\n• Teams doing focus sprints\n\nBreak the doom-scrolling cycle. Start coding, start earning.\n\nNote: Requires a public GitHub profile with visible contributions.",
+   "value": "Το GitFocus βοηθά τους προγραμματιστές να παραμένουν παραγωγικοί επιβραβεύοντας την κωδικοποίηση με πρόσβαση σε εφαρμογές. Αποκλείστε εφαρμογές που αποσπούν την προσοχή μέχρι να κάνετε commit στο GitHub.\n\nΠΩΣ ΛΕΙΤΟΥΡΓΕΙ\n• Προσθέστε έναν ή περισσότερους λογαριασμούς GitHub (δεν απαιτείται σύνδεση)\n• Επιλέξτε εφαρμογές για αποκλεισμό κατά τη διάρκεια συνεδριών εστίασης\n• Κάθε νέα συνεισφορά GitHub κερδίζει 5 λεπτά χρόνου ξεκλειδώματος\n• Χρειάζεστε επείγουσα πρόσβαση; Χρησιμοποιήστε μια ζωή για ξεκλείδωμα έως τα μεσάνυχτα\n\nΒΑΣΙΚΕΣ ΛΕΙΤΟΥΡΓΙΕΣ\n\nΑνταμοιβές βάσει commits\nΚάθε φορά που αυξάνεται το γράφημα συνεισφορών GitHub, κερδίζετε χρόνο ξεκλειδώματος για τις αποκλεισμένες εφαρμογές σας. Όσο περισσότερο κωδικοποιείτε, τόσο περισσότερο χρόνο κερδίζετε.\n\nΈξυπνος αποκλεισμός εφαρμογών\nΧρησιμοποιεί το iOS Screen Time για να αποκλείει τις εφαρμογές που επιλέγετε. Δεν υπάρχουν παρακάμψεις - οι εφαρμογές μένουν πραγματικά αποκλεισμένες μέχρι να κερδίσετε χρόνο ή να χρησιμοποιήσετε μια ζωή.\n\nΓράφημα συνεισφορών\nΔείτε τη δραστηριότητά σας στο GitHub με μια ματιά και φιλτράρετε ανά λογαριασμό ή έτος.\n\nΑπόρρητο πρώτα\nΔιαβάζουμε μόνο το δημόσιο γράφημα συνεισφορών σας. Δεν έχουμε πρόσβαση στα αποθετήρια ή στον κώδικά σας.\n\nΣημείωση: Απαιτείται δημόσιο προφίλ GitHub με ορατές συνεισφορές."
+  },
+  {
+   "id": "asc.keywords",
+   "kind": "asc",
+   "section": "keywords",
+   "en": "timer,productivity,github,coding,developer,screen time,app blocker,habit,streak,pomodoro,deep work",
+   "value": "εστία,παραγωγικότητα,github,κωδικοποίηση,χρόνος οθόνης"
+  },
+  {
+   "id": "asc.release_notes",
+   "kind": "asc",
+   "section": "release notes",
+   "en": "What's New in 1.1.0:\n\nGitHub Accounts\n• Track multiple public GitHub accounts at once\n• Switch contribution views between all included accounts, one account, or a custom selection\n• Filter the contribution timeline by available years or show all years together\n\nRelease Prep\n• Updated App Store screenshots and website assets for the new multi-account flow\n• Localization coverage fixes for the new contribution filters",
+   "value": "Τι νέο υπάρχει στην 1.1.0:\n\nΛογαριασμοί GitHub\n• Παρακολουθήστε πολλούς δημόσιους λογαριασμούς GitHub ταυτόχρονα\n• Εναλλαγή προβολής ανάμεσα σε όλους τους λογαριασμούς, έναν λογαριασμό ή προσαρμοσμένη επιλογή\n• Φιλτράρετε το χρονολόγιο ανά διαθέσιμα έτη ή δείτε όλα τα έτη μαζί\n\nΠροετοιμασία έκδοσης\n• Ενημερωμένα στιγμιότυπα App Store και στοιχεία ιστότοπου για τη νέα ροή πολλών λογαριασμών\n• Διορθώσεις τοπικοποίησης για τα νέα φίλτρα συνεισφορών"
+  },
+  {
+   "id": "site.index.000",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus - Block Apps Until You Commit",
+   "value": "GitFocus — Εφαρμογές κλειδωμένες μέχρι το commit"
+  },
+  {
+   "id": "site.index.001",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS.",
+   "value": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS."
+  },
+  {
+   "id": "site.index.002",
+   "kind": "site",
+   "section": "index",
+   "en": "Skip to main content",
+   "value": "Μετάβαση στο κύριο περιεχόμενο"
+  },
+  {
+   "id": "site.index.003",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.index.004",
+   "kind": "site",
+   "section": "index",
+   "en": "Features",
+   "value": "Λειτουργίες"
+  },
+  {
+   "id": "site.index.005",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy",
+   "value": "Απόρρητο"
+  },
+  {
+   "id": "site.index.006",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.index.007",
+   "kind": "site",
+   "section": "index",
+   "en": "🇬🇧 EN",
+   "value": "🇬🇷 EL"
+  },
+  {
+   "id": "site.index.008",
+   "kind": "site",
+   "section": "index",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.index.009",
+   "kind": "site",
+   "section": "index",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.index.010",
+   "kind": "site",
+   "section": "index",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.index.011",
+   "kind": "site",
+   "section": "index",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.index.012",
+   "kind": "site",
+   "section": "index",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.index.013",
+   "kind": "site",
+   "section": "index",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.index.014",
+   "kind": "site",
+   "section": "index",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.index.015",
+   "kind": "site",
+   "section": "index",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.index.016",
+   "kind": "site",
+   "section": "index",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.index.017",
+   "kind": "site",
+   "section": "index",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.index.018",
+   "kind": "site",
+   "section": "index",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.index.019",
+   "kind": "site",
+   "section": "index",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.index.020",
+   "kind": "site",
+   "section": "index",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.index.021",
+   "kind": "site",
+   "section": "index",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.index.022",
+   "kind": "site",
+   "section": "index",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.index.023",
+   "kind": "site",
+   "section": "index",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.index.024",
+   "kind": "site",
+   "section": "index",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.index.025",
+   "kind": "site",
+   "section": "index",
+   "en": "Now on the App Store",
+   "value": "Τώρα στο App Store"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
+   "en": "Block apps until you",
+   "value": "Οι εφαρμογές μένουν κλειδωμένες μέχρι να κάνεις"
+  },
+  {
+   "id": "site.index.027",
+   "kind": "site",
+   "section": "index",
+   "en": "git push",
+   "value": "git push"
+  },
+  {
+   "id": "site.index.028",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
+   "value": "Το GitFocus μετατρέπει τις συνήθειες προγραμματισμού σε παιχνίδι. Κάνε commit από έναν ή περισσότερους λογαριασμούς GitHub και ξεκλείδωσε τις εφαρμογές που σε αποσπούν. Τόσο απλά."
+  },
+  {
+   "id": "site.index.029",
+   "kind": "site",
+   "section": "index",
+   "en": "See how it works",
+   "value": "Δες πώς λειτουργεί"
+  },
+  {
+   "id": "site.index.030",
+   "kind": "site",
+   "section": "index",
+   "en": "git commit -m \"unlock apps\"",
+   "value": "git commit -m \"unlock apps\""
+  },
+  {
+   "id": "site.index.031",
+   "kind": "site",
+   "section": "index",
+   "en": "Scroll to explore",
+   "value": "Κάνε κύλιση για να εξερευνήσεις"
+  },
+  {
+   "id": "site.index.032",
+   "kind": "site",
+   "section": "index",
+   "en": "// How it works",
+   "value": "// Πώς λειτουργεί"
+  },
+  {
+   "id": "site.index.033",
+   "kind": "site",
+   "section": "index",
+   "en": "Turn commits into freedom",
+   "value": "Μετάτρεψε τα commits σε ελεύθερο χρόνο"
+  },
+  {
+   "id": "site.index.034",
+   "kind": "site",
+   "section": "index",
+   "en": "Setup takes 2 minutes. Then let your code do the talking.",
+   "value": "Η ρύθμιση παίρνει 2 λεπτά. Μετά άσε τον κώδικά σου να μιλήσει."
+  },
+  {
+   "id": "site.index.035",
+   "kind": "site",
+   "section": "index",
+   "en": "Add GitHub accounts",
+   "value": "Πρόσθεσε λογαριασμούς GitHub"
+  },
+  {
+   "id": "site.index.036",
+   "kind": "site",
+   "section": "index",
+   "en": "Track one account or aggregate work, personal, and open-source profiles",
+   "value": "Παρακολούθησε έναν λογαριασμό ή συνδύασε επαγγελματικά, προσωπικά και open-source προφίλ"
+  },
+  {
+   "id": "site.index.037",
+   "kind": "site",
+   "section": "index",
+   "en": "Dashboard",
+   "value": "Πίνακας"
+  },
+  {
+   "id": "site.index.038",
+   "kind": "site",
+   "section": "index",
+   "en": "Track your streak, daily score, and app lock status at a glance",
+   "value": "Σερί, ημερήσιο σκορ και κατάσταση κλειδώματος με μια ματιά"
+  },
+  {
+   "id": "site.index.039",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Stats",
+   "value": "Στατιστικά συγκέντρωσης"
+  },
+  {
+   "id": "site.index.040",
+   "kind": "site",
+   "section": "index",
+   "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
+   "value": "Ξεκίνα κάθε μέρα στο 100 και δες τον χρόνο κλειδώματος και τα ξεκλειδώματα να το μειώνουν"
+  },
+  {
+   "id": "site.index.041",
+   "kind": "site",
+   "section": "index",
+   "en": "Contribution Stats",
+   "value": "Στατιστικά συνεισφορών"
+  },
+  {
+   "id": "site.index.042",
+   "kind": "site",
+   "section": "index",
+   "en": "Deep dive into your GitHub activity with detailed statistics",
+   "value": "Δες αναλυτικά τη δραστηριότητά σου στο GitHub"
+  },
+  {
+   "id": "site.index.043",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Timer",
+   "value": "Χρονόμετρο συγκέντρωσης"
+  },
+  {
+   "id": "site.index.044",
+   "kind": "site",
+   "section": "index",
+   "en": "Built-in Pomodoro timer to maximize your productivity sessions",
+   "value": "Ενσωματωμένο χρονόμετρο Pomodoro για πιο παραγωγικές συνεδρίες"
+  },
+  {
+   "id": "site.index.045",
+   "kind": "site",
+   "section": "index",
+   "en": "// Features",
+   "value": "// Λειτουργίες"
+  },
+  {
+   "id": "site.index.046",
+   "kind": "site",
+   "section": "index",
+   "en": "Everything you need to stay focused",
+   "value": "Όλα όσα χρειάζεσαι για να μένεις συγκεντρωμένος"
+  },
+  {
+   "id": "site.index.047",
+   "kind": "site",
+   "section": "index",
+   "en": "Not just another app blocker. GitFocus gamifies productivity.",
+   "value": "Δεν είναι άλλος ένας αποκλειστής εφαρμογών. Το GitFocus κάνει την παραγωγικότητα παιχνίδι."
+  },
+  {
+   "id": "site.index.048",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn Time",
+   "value": "Κέρδισε χρόνο"
+  },
+  {
+   "id": "site.index.049",
+   "kind": "site",
+   "section": "index",
+   "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
+   "value": "Κάθε commit από τους λογαριασμούς GitHub που έχεις επιλέξει κερδίζει χρόνο ξεκλειδώματος. Δουλειά, προσωπικά και open source μαζί."
+  },
+  {
+   "id": "site.index.050",
+   "kind": "site",
+   "section": "index",
+   "en": "mins unlocked",
+   "value": "λεπτά ξεκλειδωμένα"
+  },
+  {
+   "id": "site.index.051",
+   "kind": "site",
+   "section": "index",
+   "en": "Simulate commit",
+   "value": "Προσομοίωση commit"
+  },
+  {
+   "id": "site.index.052",
+   "kind": "site",
+   "section": "index",
+   "en": "Lives System",
+   "value": "Σύστημα ζωών"
+  },
+  {
+   "id": "site.index.053",
+   "kind": "site",
+   "section": "index",
+   "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
+   "value": "Χρειάζεσαι επείγουσα πρόσβαση; Χρησιμοποίησε μια ζωή για να ξεκλειδώσεις τις εφαρμογές μέχρι τα μεσάνυχτα. Ξεκινάς με 1 δωρεάν ζωή."
+  },
+  {
+   "id": "site.index.054",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn more through",
+   "value": "Κέρδισε περισσότερες με"
+  },
+  {
+   "id": "site.index.055",
+   "kind": "site",
+   "section": "index",
+   "en": "streaks",
+   "value": "σερί"
+  },
+  {
+   "id": "site.index.056",
+   "kind": "site",
+   "section": "index",
+   "en": "Borrow Time",
+   "value": "Δανείσου χρόνο"
+  },
+  {
+   "id": "site.index.057",
+   "kind": "site",
+   "section": "index",
+   "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
+   "value": "Θέλεις να τελειώσεις ένα μήνυμα; Δανείσου έως 5 λεπτά. Τα επόμενα commits θα τα επιστρέψουν."
+  },
+  {
+   "id": "site.index.058",
+   "kind": "site",
+   "section": "index",
+   "en": "Current debt:",
+   "value": "Τρέχον χρέος:"
+  },
+  {
+   "id": "site.index.059",
+   "kind": "site",
+   "section": "index",
+   "en": "0 min",
+   "value": "0 λεπτά"
+  },
+  {
+   "id": "site.index.060",
+   "kind": "site",
+   "section": "index",
+   "en": "Max borrow:",
+   "value": "Μέγιστος δανεισμός:"
+  },
+  {
+   "id": "site.index.061",
+   "kind": "site",
+   "section": "index",
+   "en": "5 min",
+   "value": "5 λεπτά"
+  },
+  {
+   "id": "site.index.062",
+   "kind": "site",
+   "section": "index",
+   "en": "Discipline Bank",
+   "value": "Τράπεζα πειθαρχίας"
+  },
+  {
+   "id": "site.index.063",
+   "kind": "site",
+   "section": "index",
+   "en": "(Coming Soon)",
+   "value": "(Σύντομα)"
+  },
+  {
+   "id": "site.index.064",
+   "kind": "site",
+   "section": "index",
+   "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
+   "value": "Ο χρόνος που κερδίζεις αλλά δεν χρησιμοποιείς αποθηκεύεται. Είναι μέτρο του αυτοελέγχου σου."
+  },
+  {
+   "id": "site.index.065",
+   "kind": "site",
+   "section": "index",
+   "en": "minutes banked",
+   "value": "λεπτά αποθηκευμένα"
+  },
+  {
+   "id": "site.index.066",
+   "kind": "site",
+   "section": "index",
+   "en": "Challenge: Bank",
+   "value": "Πρόκληση: αποθήκευσε"
+  },
+  {
+   "id": "site.index.067",
+   "kind": "site",
+   "section": "index",
+   "en": "1000 min",
+   "value": "1000 λεπτά"
+  },
+  {
+   "id": "site.index.068",
+   "kind": "site",
+   "section": "index",
+   "en": "this year",
+   "value": "φέτος"
+  },
+  {
+   "id": "site.index.069",
+   "kind": "site",
+   "section": "index",
+   "en": "Streak Milestones",
+   "value": "Ορόσημα σερί"
+  },
+  {
+   "id": "site.index.070",
+   "kind": "site",
+   "section": "index",
+   "en": "Build your streak to unlock permanent rewards.",
+   "value": "Χτίσε το σερί σου και ξεκλείδωσε μόνιμες ανταμοιβές."
+  },
+  {
+   "id": "site.index.071",
+   "kind": "site",
+   "section": "index",
+   "en": "14d",
+   "value": "14 ημ"
+  },
+  {
+   "id": "site.index.072",
+   "kind": "site",
+   "section": "index",
+   "en": "+1 extra life",
+   "value": "+1 επιπλέον ζωή"
+  },
+  {
+   "id": "site.index.073",
+   "kind": "site",
+   "section": "index",
+   "en": "30d",
+   "value": "30 ημ"
+  },
+  {
+   "id": "site.index.074",
+   "kind": "site",
+   "section": "index",
+   "en": "Weekly time bank",
+   "value": "Εβδομαδιαία τράπεζα χρόνου"
+  },
+  {
+   "id": "site.index.075",
+   "kind": "site",
+   "section": "index",
+   "en": "90d",
+   "value": "90 ημ"
+  },
+  {
+   "id": "site.index.076",
+   "kind": "site",
+   "section": "index",
+   "en": "Time never expires",
+   "value": "Ο χρόνος δεν λήγει ποτέ"
+  },
+  {
+   "id": "site.index.077",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy First",
+   "value": "Πρώτα το απόρρητο"
+  },
+  {
+   "id": "site.index.078",
+   "kind": "site",
+   "section": "index",
+   "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
+   "value": "Χωρίς λογαριασμό GitFocus. Χωρίς σύνδεση GitHub. Όλα μένουν στη συσκευή σου."
+  },
+  {
+   "id": "site.index.079",
+   "kind": "site",
+   "section": "index",
+   "en": "Works offline",
+   "value": "Λειτουργεί εκτός σύνδεσης"
+  },
+  {
+   "id": "site.index.080",
+   "kind": "site",
+   "section": "index",
+   "en": "No tracking",
+   "value": "Χωρίς παρακολούθηση"
+  },
+  {
+   "id": "site.index.081",
+   "kind": "site",
+   "section": "index",
+   "en": "Open source friendly",
+   "value": "Φιλικό προς το open source"
+  },
+  {
+   "id": "site.index.082",
+   "kind": "site",
+   "section": "index",
+   "en": "Ready to ship more code?",
+   "value": "Έτοιμος να γράψεις περισσότερο κώδικα;"
+  },
+  {
+   "id": "site.index.083",
+   "kind": "site",
+   "section": "index",
+   "en": "Join developers who've turned procrastination into productivity.",
+   "value": "Έλα μαζί με προγραμματιστές που μετέτρεψαν την αναβλητικότητα σε παραγωγικότητα."
+  },
+  {
+   "id": "site.index.084",
+   "kind": "site",
+   "section": "index",
+   "en": "Free to use. No subscription required.",
+   "value": "Δωρεάν. Χωρίς συνδρομή."
+  },
+  {
+   "id": "site.index.085",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy Policy",
+   "value": "Πολιτική Απορρήτου"
+  },
+  {
+   "id": "site.index.086",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.index.087",
+   "kind": "site",
+   "section": "index",
+   "en": "Accessibility",
+   "value": "Προσβασιμότητα"
+  },
+  {
+   "id": "site.index.088",
+   "kind": "site",
+   "section": "index",
+   "en": "Contact",
+   "value": "Επικοινωνία"
+  },
+  {
+   "id": "site.index.089",
+   "kind": "site",
+   "section": "index",
+   "en": "© 2026 GitFocus. Made with git and focus.",
+   "value": "© 2026 GitFocus. Φτιαγμένο με git και συγκέντρωση."
+  },
+  {
+   "id": "site.support.000",
+   "kind": "site",
+   "section": "support",
+   "en": "Support - GitFocus",
+   "value": "Υποστήριξη - GitFocus"
+  },
+  {
+   "id": "site.support.001",
+   "kind": "site",
+   "section": "support",
+   "en": "Get help with GitFocus. FAQs, troubleshooting, and contact information.",
+   "value": "Get help with GitFocus. FAQs, troubleshooting, and contact information."
+  },
+  {
+   "id": "site.support.002",
+   "kind": "site",
+   "section": "support",
+   "en": "Skip to main content",
+   "value": "Μετάβαση στο κύριο περιεχόμενο"
+  },
+  {
+   "id": "site.support.003",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.support.004",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "Αρχική"
+  },
+  {
+   "id": "site.support.005",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy",
+   "value": "Απόρρητο"
+  },
+  {
+   "id": "site.support.006",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.support.007",
+   "kind": "site",
+   "section": "support",
+   "en": "🇬🇧 EN",
+   "value": "🇬🇷 EL"
+  },
+  {
+   "id": "site.support.008",
+   "kind": "site",
+   "section": "support",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.support.009",
+   "kind": "site",
+   "section": "support",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.support.010",
+   "kind": "site",
+   "section": "support",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.support.011",
+   "kind": "site",
+   "section": "support",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.support.012",
+   "kind": "site",
+   "section": "support",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.support.013",
+   "kind": "site",
+   "section": "support",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.support.014",
+   "kind": "site",
+   "section": "support",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.support.015",
+   "kind": "site",
+   "section": "support",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.support.016",
+   "kind": "site",
+   "section": "support",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.support.017",
+   "kind": "site",
+   "section": "support",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.support.018",
+   "kind": "site",
+   "section": "support",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.support.019",
+   "kind": "site",
+   "section": "support",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.support.020",
+   "kind": "site",
+   "section": "support",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.support.021",
+   "kind": "site",
+   "section": "support",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.support.022",
+   "kind": "site",
+   "section": "support",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.support.023",
+   "kind": "site",
+   "section": "support",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.support.024",
+   "kind": "site",
+   "section": "support",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.support.025",
+   "kind": "site",
+   "section": "support",
+   "en": "// Support",
+   "value": "// Υποστήριξη"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
+   "en": "How can we help?",
+   "value": "Πώς μπορούμε να βοηθήσουμε;"
+  },
+  {
+   "id": "site.support.027",
+   "kind": "site",
+   "section": "support",
+   "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
+   "value": "Βρείτε απαντήσεις σε συχνές ερωτήσεις ή επικοινωνήστε απευθείας. Συνήθως απαντάμε εντός 24 ωρών."
+  },
+  {
+   "id": "site.support.028",
+   "kind": "site",
+   "section": "support",
+   "en": "Get in Touch",
+   "value": "Επικοινωνήστε"
+  },
+  {
+   "id": "site.support.029",
+   "kind": "site",
+   "section": "support",
+   "en": "Have a question, bug report, or feature request?",
+   "value": "Έχετε κάποια ερώτηση, αναφορά σφάλματος ή αίτημα λειτουργίας;"
+  },
+  {
+   "id": "site.support.030",
+   "kind": "site",
+   "section": "support",
+   "en": "We'd love to hear from you.",
+   "value": "Θα χαιρόμαστε να ακούσουμε από εσάς."
+  },
+  {
+   "id": "site.support.031",
+   "kind": "site",
+   "section": "support",
+   "en": "Chat with us",
+   "value": "Συνομιλήστε μαζί μας"
+  },
+  {
+   "id": "site.support.032",
+   "kind": "site",
+   "section": "support",
+   "en": "or email us at",
+   "value": "ή στείλτε μας email στο"
+  },
+  {
+   "id": "site.support.033",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.034",
+   "kind": "site",
+   "section": "support",
+   "en": "Frequently Asked Questions",
+   "value": "Συχνές Ερωτήσεις"
+  },
+  {
+   "id": "site.support.035",
+   "kind": "site",
+   "section": "support",
+   "en": "All",
+   "value": "Όλες"
+  },
+  {
+   "id": "site.support.036",
+   "kind": "site",
+   "section": "support",
+   "en": "Setup",
+   "value": "Ρύθμιση"
+  },
+  {
+   "id": "site.support.037",
+   "kind": "site",
+   "section": "support",
+   "en": "Features",
+   "value": "Λειτουργίες"
+  },
+  {
+   "id": "site.support.038",
+   "kind": "site",
+   "section": "support",
+   "en": "Troubleshooting",
+   "value": "Αντιμετώπιση Προβλημάτων"
+  },
+  {
+   "id": "site.support.039",
+   "kind": "site",
+   "section": "support",
+   "en": "Do I need to connect my GitHub account?",
+   "value": "Χρειάζεται να συνδέσω τον λογαριασμό GitHub μου;"
+  },
+  {
+   "id": "site.support.040",
+   "kind": "site",
+   "section": "support",
+   "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
+   "value": "Όχι! Το GitFocus χρειάζεται μόνο το όνομα ή τα ονόματα χρήστη GitHub που επιλέγετε να παρακολουθείτε. Διαβάζουμε δημόσια γραφήματα συνεισφορών (τα πράσινα τετράγωνα στα προφίλ) για να ανιχνεύσουμε commits. Δεν απαιτείται OAuth, tokens ή κωδικοί πρόσβασης."
+  },
+  {
+   "id": "site.support.041",
+   "kind": "site",
+   "section": "support",
+   "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
+   "value": "Μπορείτε να προσθέσετε πολλαπλούς λογαριασμούς GitHub και να αποφασίσετε ποιοι μετράνε για την ανίχνευση commits."
+  },
+  {
+   "id": "site.support.042",
+   "kind": "site",
+   "section": "support",
+   "en": "Why do you need Screen Time permissions?",
+   "value": "Γιατί χρειάζεστε άδειες Screen Time;"
+  },
+  {
+   "id": "site.support.043",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
+   "value": "Το GitFocus χρησιμοποιεί το Screen Time API της Apple για τον αποκλεισμό εφαρμογών. Είναι το ίδιο ασφαλές σύστημα που τροφοδοτεί τους ενσωματωμένους γονικούς ελέγχους της Apple. Χρειαζόμαστε άδεια για να εφαρμόσουμε περιορισμούς εφαρμογών εκ μέρους σας."
+  },
+  {
+   "id": "site.support.044",
+   "kind": "site",
+   "section": "support",
+   "en": "Does GitFocus work with private repositories?",
+   "value": "Το GitFocus λειτουργεί με ιδιωτικά αποθετήρια;"
+  },
+  {
+   "id": "site.support.045",
+   "kind": "site",
+   "section": "support",
+   "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
+   "value": "Ναι! Το GitHub μετρά όλα τα commits (δημόσια και ιδιωτικά) στο γράφημα συνεισφορών σας από προεπιλογή. Εφόσον οι ρυθμίσεις συνεισφορών σας είναι ρυθμισμένες να εμφανίζουν «Ιδιωτικές συνεισφορές», θα τις δούμε."
+  },
+  {
+   "id": "site.support.046",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
+   "value": "Μεταβείτε στο προφίλ GitHub σας → Ρυθμίσεις συνεισφορών → Επιλέξτε «Ιδιωτικές συνεισφορές»"
+  },
+  {
+   "id": "site.support.047",
+   "kind": "site",
+   "section": "support",
+   "en": "How much time does each commit earn?",
+   "value": "Πόσο χρόνο κερδίζει κάθε commit;"
+  },
+  {
+   "id": "site.support.048",
+   "kind": "site",
+   "section": "support",
+   "en": "Each commit earns you",
+   "value": "Κάθε commit σας κερδίζει"
+  },
+  {
+   "id": "site.support.049",
+   "kind": "site",
+   "section": "support",
+   "en": "5 minutes",
+   "value": "5 λεπτά"
+  },
+  {
+   "id": "site.support.050",
+   "kind": "site",
+   "section": "support",
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
+   "value": "χρόνου ξεκλειδώματος. Ανεβάζετε 3 commits; Αυτά είναι 15 λεπτά για να κάνετε scroll στο Twitter χωρίς ενοχές. 🎉"
+  },
+  {
+   "id": "site.support.051",
+   "kind": "site",
+   "section": "support",
+   "en": "What are \"Lives\" and how do they work?",
+   "value": "Τι είναι οι «Ζωές» και πώς λειτουργούν;"
+  },
+  {
+   "id": "site.support.052",
+   "kind": "site",
+   "section": "support",
+   "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
+   "value": "Οι ζωές είναι ξεκλειδώματα έκτακτης ανάγκης. Όταν χρησιμοποιείτε μια ζωή, όλες οι αποκλεισμένες εφαρμογές σας ξεκλειδώνονται μέχρι τα μεσάνυχτα. Ξεκινάτε με 1 δωρεάν ζωή και μπορείτε να κερδίσετε περισσότερες μέσω σειρών:"
+  },
+  {
+   "id": "site.support.053",
+   "kind": "site",
+   "section": "support",
+   "en": "14-day streak: +1 life",
+   "value": "Σειρά 14 ημερών: +1 ζωή"
+  },
+  {
+   "id": "site.support.054",
+   "kind": "site",
+   "section": "support",
+   "en": "Then +1 life every month you maintain the streak",
+   "value": "Μετά +1 ζωή κάθε μήνα που διατηρείτε τη σειρά"
+  },
+  {
+   "id": "site.support.055",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the \"Borrow Time\" feature?",
+   "value": "Τι είναι η λειτουργία «Δανεισμός Χρόνου»;"
+  },
+  {
+   "id": "site.support.056",
+   "kind": "site",
+   "section": "support",
+   "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
+   "value": "Χρειάζεστε να ολοκληρώσετε ένα γρήγορο μήνυμα αλλά δεν έχετε χρόνο ξεκλειδώματος; Μπορείτε να δανειστείτε έως 5 λεπτά. Αυτό δημιουργεί «χρέος» που εξοφλείται από τα μελλοντικά σας κέρδη από commits."
+  },
+  {
+   "id": "site.support.057",
+   "kind": "site",
+   "section": "support",
+   "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
+   "value": "Παράδειγμα: Δανείζεστε 3 λεπτά. Το επόμενο commit σας κερδίζει 5 λεπτά, αλλά 3 πηγαίνουν για εξόφληση του χρέους, αφήνοντάς σας με 2 λεπτά."
+  },
+  {
+   "id": "site.support.058",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the Discipline Bank?",
+   "value": "Τι είναι η Τράπεζα Πειθαρχίας;"
+  },
+  {
+   "id": "site.support.059",
+   "kind": "site",
+   "section": "support",
+   "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
+   "value": "Η Τράπεζα Πειθαρχίας παρακολουθεί τον χρόνο που έχετε κερδίσει αλλά δεν έχετε χρησιμοποιήσει. Είναι ένα μέτρο του αυτοελέγχου σας. Κάθε λεπτό που κερδίζετε αλλά δεν ξοδεύετε σε περισπασμούς πηγαίνει στην τράπεζά σας."
+  },
+  {
+   "id": "site.support.060",
+   "kind": "site",
+   "section": "support",
+   "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
+   "value": "Προκλήστε τον εαυτό σας: Πόσα λεπτά μπορείτε να συγκεντρώσετε μέχρι το τέλος του χρόνου;"
+  },
+  {
+   "id": "site.support.061",
+   "kind": "site",
+   "section": "support",
+   "en": "What are the streak milestone rewards?",
+   "value": "Ποιες είναι οι ανταμοιβές ορόσημων σειρών;"
+  },
+  {
+   "id": "site.support.062",
+   "kind": "site",
+   "section": "support",
+   "en": "Building a streak unlocks permanent perks:",
+   "value": "Η δημιουργία σειράς ξεκλειδώνει μόνιμα προνόμια:"
+  },
+  {
+   "id": "site.support.063",
+   "kind": "site",
+   "section": "support",
+   "en": "14 days:",
+   "value": "14 ημέρες:"
+  },
+  {
+   "id": "site.support.064",
+   "kind": "site",
+   "section": "support",
+   "en": "+1 extra life (then +1/month)",
+   "value": "+1 επιπλέον ζωή (μετά +1/μήνα)"
+  },
+  {
+   "id": "site.support.065",
+   "kind": "site",
+   "section": "support",
+   "en": "30 days:",
+   "value": "30 ημέρες:"
+  },
+  {
+   "id": "site.support.066",
+   "kind": "site",
+   "section": "support",
+   "en": "Weekly time bank (unused time resets weekly instead of daily)",
+   "value": "Εβδομαδιαία τράπεζα χρόνου (ο αχρησιμοποίητος χρόνος επαναφέρεται εβδομαδιαίως αντί ημερησίως)"
+  },
+  {
+   "id": "site.support.067",
+   "kind": "site",
+   "section": "support",
+   "en": "90 days:",
+   "value": "90 ημέρες:"
+  },
+  {
+   "id": "site.support.068",
+   "kind": "site",
+   "section": "support",
+   "en": "Permanent time (earned time never expires)",
+   "value": "Μόνιμος χρόνος (ο κερδισμένος χρόνος δεν λήγει ποτέ)"
+  },
+  {
+   "id": "site.support.069",
+   "kind": "site",
+   "section": "support",
+   "en": "My commits aren't being detected",
+   "value": "Τα commits μου δεν ανιχνεύονται"
+  },
+  {
+   "id": "site.support.070",
+   "kind": "site",
+   "section": "support",
+   "en": "Here are some things to check:",
+   "value": "Εδώ είναι μερικά πράγματα να ελέγξετε:"
+  },
+  {
+   "id": "site.support.071",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure your GitHub username is entered correctly",
+   "value": "Βεβαιωθείτε ότι το όνομα χρήστη GitHub σας έχει εισαχθεί σωστά"
+  },
+  {
+   "id": "site.support.072",
+   "kind": "site",
+   "section": "support",
+   "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
+   "value": "Εάν χρησιμοποιείτε πολλαπλούς λογαριασμούς, ελέγξτε ότι οι σωστοί λογαριασμοί είναι ενεργοποιημένοι για ανίχνευση commits"
+  },
+  {
+   "id": "site.support.073",
+   "kind": "site",
+   "section": "support",
+   "en": "Check that your commits show up on your GitHub profile's contribution graph",
+   "value": "Ελέγξτε ότι τα commits σας εμφανίζονται στο γράφημα συνεισφορών του προφίλ GitHub σας"
+  },
+  {
+   "id": "site.support.074",
+   "kind": "site",
+   "section": "support",
+   "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
+   "value": "Εάν χρησιμοποιείτε ιδιωτικά repos, βεβαιωθείτε ότι οι «Ιδιωτικές συνεισφορές» είναι ενεργοποιημένες στις ρυθμίσεις GitHub"
+  },
+  {
+   "id": "site.support.075",
+   "kind": "site",
+   "section": "support",
+   "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
+   "value": "Περιμένετε λίγα λεπτά — το γράφημα συνεισφορών του GitHub μπορεί να χρειαστεί χρόνο για ενημέρωση"
+  },
+  {
+   "id": "site.support.076",
+   "kind": "site",
+   "section": "support",
+   "en": "Apps aren't being blocked",
+   "value": "Οι εφαρμογές δεν αποκλείονται"
+  },
+  {
+   "id": "site.support.077",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you've:",
+   "value": "Βεβαιωθείτε ότι έχετε:"
+  },
+  {
+   "id": "site.support.078",
+   "kind": "site",
+   "section": "support",
+   "en": "Granted Screen Time permissions during setup",
+   "value": "Χορηγήσει άδειες Screen Time κατά τη ρύθμιση"
+  },
+  {
+   "id": "site.support.079",
+   "kind": "site",
+   "section": "support",
+   "en": "Selected at least one app or category to block",
+   "value": "Επιλέξει τουλάχιστον μία εφαρμογή ή κατηγορία για αποκλεισμό"
+  },
+  {
+   "id": "site.support.080",
+   "kind": "site",
+   "section": "support",
+   "en": "Started a focus session from the main screen",
+   "value": "Ξεκινήσει συνεδρία εστίασης από την κύρια οθόνη"
+  },
+  {
+   "id": "site.support.081",
+   "kind": "site",
+   "section": "support",
+   "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
+   "value": "Εάν τα προβλήματα παραμένουν, δοκιμάστε να μεταβείτε στις Ρυθμίσεις iOS → Screen Time και βεβαιωθείτε ότι το GitFocus έχει τις απαραίτητες άδειες."
+  },
+  {
+   "id": "site.support.082",
+   "kind": "site",
+   "section": "support",
+   "en": "The app crashed or is behaving unexpectedly",
+   "value": "Η εφαρμογή κατέρρευσε ή συμπεριφέρεται απροσδόκητα"
+  },
+  {
+   "id": "site.support.083",
+   "kind": "site",
+   "section": "support",
+   "en": "Try these steps:",
+   "value": "Δοκιμάστε αυτά τα βήματα:"
+  },
+  {
+   "id": "site.support.084",
+   "kind": "site",
+   "section": "support",
+   "en": "Force quit and reopen the app",
+   "value": "Εξαναγκασμένο κλείσιμο και επανάνοιγμα της εφαρμογής"
+  },
+  {
+   "id": "site.support.085",
+   "kind": "site",
+   "section": "support",
+   "en": "Restart your device",
+   "value": "Επανεκκίνηση της συσκευής σας"
+  },
+  {
+   "id": "site.support.086",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you're on the latest version of GitFocus",
+   "value": "Βεβαιωθείτε ότι είστε στην τελευταία έκδοση του GitFocus"
+  },
+  {
+   "id": "site.support.087",
+   "kind": "site",
+   "section": "support",
+   "en": "If the issue persists, email us at",
+   "value": "Εάν το πρόβλημα παραμένει, στείλτε μας email στο"
+  },
+  {
+   "id": "site.support.088",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.089",
+   "kind": "site",
+   "section": "support",
+   "en": "with details about what happened",
+   "value": "με λεπτομέρειες για το τι συνέβη"
+  },
+  {
+   "id": "site.support.090",
+   "kind": "site",
+   "section": "support",
+   "en": "How do I reset or start over?",
+   "value": "Πώς επαναφέρω ή ξεκινώ από την αρχή;"
+  },
+  {
+   "id": "site.support.091",
+   "kind": "site",
+   "section": "support",
+   "en": "To completely reset GitFocus:",
+   "value": "Για πλήρη επαναφορά του GitFocus:"
+  },
+  {
+   "id": "site.support.092",
+   "kind": "site",
+   "section": "support",
+   "en": "Delete the app from your device",
+   "value": "Διαγράψτε την εφαρμογή από τη συσκευή σας"
+  },
+  {
+   "id": "site.support.093",
+   "kind": "site",
+   "section": "support",
+   "en": "Reinstall from the App Store",
+   "value": "Επανεγκαταστήστε από το App Store"
+  },
+  {
+   "id": "site.support.094",
+   "kind": "site",
+   "section": "support",
+   "en": "Go through the onboarding again",
+   "value": "Περάστε ξανά από την αρχική ρύθμιση"
+  },
+  {
+   "id": "site.support.095",
+   "kind": "site",
+   "section": "support",
+   "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
+   "value": "Σημείωση: Το όνομα χρήστη ή η λίστα λογαριασμών GitHub σας αποθηκεύεται με ασφάλεια για ευκολία, οπότε μπορεί να είναι προσυμπληρωμένο όταν επανεγκαταστήσετε."
+  },
+  {
+   "id": "site.support.096",
+   "kind": "site",
+   "section": "support",
+   "en": "Quick Troubleshooting",
+   "value": "Γρήγορη Αντιμετώπιση Προβλημάτων"
+  },
+  {
+   "id": "site.support.097",
+   "kind": "site",
+   "section": "support",
+   "en": "Force Refresh",
+   "value": "Εξαναγκασμένη Ανανέωση"
+  },
+  {
+   "id": "site.support.098",
+   "kind": "site",
+   "section": "support",
+   "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
+   "value": "Τραβήξτε προς τα κάτω στην κύρια οθόνη για να ανανεώσετε χειροκίνητα τα δεδομένα commits σας από το GitHub."
+  },
+  {
+   "id": "site.support.099",
+   "kind": "site",
+   "section": "support",
+   "en": "Check Permissions",
+   "value": "Έλεγχος Αδειών"
+  },
+  {
+   "id": "site.support.100",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
+   "value": "Μεταβείτε στις Ρυθμίσεις iOS → Screen Time → GitFocus για να επαληθεύσετε ότι οι άδειες έχουν χορηγηθεί."
+  },
+  {
+   "id": "site.support.101",
+   "kind": "site",
+   "section": "support",
+   "en": "Verify GitHub",
+   "value": "Επαλήθευση GitHub"
+  },
+  {
+   "id": "site.support.102",
+   "kind": "site",
+   "section": "support",
+   "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
+   "value": "Επισκεφτείτε το github.com/[το-όνομα-χρήστη-σας] και ελέγξτε ότι το γράφημα συνεισφορών σας εμφανίζει πρόσφατα commits."
+  },
+  {
+   "id": "site.support.103",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "Πολιτική Απορρήτου"
+  },
+  {
+   "id": "site.support.104",
+   "kind": "site",
+   "section": "support",
+   "en": "Learn how we protect your data",
+   "value": "Μάθετε πώς προστατεύουμε τα δεδομένα σας"
+  },
+  {
+   "id": "site.support.105",
+   "kind": "site",
+   "section": "support",
+   "en": "Report a Bug",
+   "value": "Αναφορά Σφάλματος"
+  },
+  {
+   "id": "site.support.106",
+   "kind": "site",
+   "section": "support",
+   "en": "Help us improve GitFocus",
+   "value": "Βοηθήστε μας να βελτιώσουμε το GitFocus"
+  },
+  {
+   "id": "site.support.107",
+   "kind": "site",
+   "section": "support",
+   "en": "Request a Feature",
+   "value": "Αίτημα Λειτουργίας"
+  },
+  {
+   "id": "site.support.108",
+   "kind": "site",
+   "section": "support",
+   "en": "Tell us what you'd like to see",
+   "value": "Πείτε μας τι θα θέλατε να δείτε"
+  },
+  {
+   "id": "site.support.109",
+   "kind": "site",
+   "section": "support",
+   "en": "Localization Feedback",
+   "value": "Σχόλια μετάφρασης"
+  },
+  {
+   "id": "site.support.110",
+   "kind": "site",
+   "section": "support",
+   "en": "Review the translations and suggest fixes",
+   "value": "Έλεγξε τις μεταφράσεις και πρότεινε διορθώσεις"
+  },
+  {
+   "id": "site.support.111",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "Αρχική"
+  },
+  {
+   "id": "site.support.112",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "Πολιτική Απορρήτου"
+  },
+  {
+   "id": "site.support.113",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.support.114",
+   "kind": "site",
+   "section": "support",
+   "en": "Accessibility",
+   "value": "Προσβασιμότητα"
+  },
+  {
+   "id": "site.support.115",
+   "kind": "site",
+   "section": "support",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.privacy.000",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy - GitFocus",
+   "value": "Πολιτική Απορρήτου - GitFocus"
+  },
+  {
+   "id": "site.privacy.001",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device.",
+   "value": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device."
+  },
+  {
+   "id": "site.privacy.002",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Skip to main content",
+   "value": "Μετάβαση στο κύριο περιεχόμενο"
+  },
+  {
+   "id": "site.privacy.003",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.privacy.004",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "Αρχική"
+  },
+  {
+   "id": "site.privacy.005",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy",
+   "value": "Απόρρητο"
+  },
+  {
+   "id": "site.privacy.006",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.privacy.007",
+   "kind": "site",
+   "section": "privacy",
+   "en": "🇬🇧 EN",
+   "value": "🇬🇷 EL"
+  },
+  {
+   "id": "site.privacy.008",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.privacy.009",
+   "kind": "site",
+   "section": "privacy",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.privacy.010",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.privacy.011",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.privacy.012",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.privacy.013",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.privacy.014",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.privacy.015",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.privacy.016",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.privacy.017",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.privacy.018",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.privacy.019",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.privacy.020",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.privacy.021",
+   "kind": "site",
+   "section": "privacy",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.privacy.022",
+   "kind": "site",
+   "section": "privacy",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.privacy.023",
+   "kind": "site",
+   "section": "privacy",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.privacy.024",
+   "kind": "site",
+   "section": "privacy",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.privacy.025",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// Privacy Policy",
+   "value": "// Πολιτική Απορρήτου"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your data stays yours",
+   "value": "Τα δεδομένα σας παραμένουν δικά σας"
+  },
+  {
+   "id": "site.privacy.027",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
+   "value": "Δημιουργήσαμε το GitFocus με το απόρρητο ως βασική αρχή. Εδώ είναι ακριβώς τι κάνουμε (και τι δεν κάνουμε) με τις πληροφορίες σας."
+  },
+  {
+   "id": "site.privacy.028",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Last updated: January 2026",
+   "value": "Τελευταία ενημέρωση: Ιανουάριος 2026"
+  },
+  {
+   "id": "site.privacy.029",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// TL;DR",
+   "value": "// Περίληψη"
+  },
+  {
+   "id": "site.privacy.030",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We don't collect your data. Period.",
+   "value": "Δεν συλλέγουμε τα δεδομένα σας. Τελεία και παύλα."
+  },
+  {
+   "id": "site.privacy.031",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No accounts required",
+   "value": "Δεν απαιτούνται λογαριασμοί"
+  },
+  {
+   "id": "site.privacy.032",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything on-device",
+   "value": "Όλα στη συσκευή"
+  },
+  {
+   "id": "site.privacy.033",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No tracking or analytics",
+   "value": "Χωρίς παρακολούθηση ή αναλυτικά"
+  },
+  {
+   "id": "site.privacy.034",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Works offline",
+   "value": "Λειτουργεί εκτός σύνδεσης"
+  },
+  {
+   "id": "site.privacy.035",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Data We Collect",
+   "value": "Δεδομένα που Συλλέγουμε"
+  },
+  {
+   "id": "site.privacy.036",
+   "kind": "site",
+   "section": "privacy",
+   "en": "None.",
+   "value": "Κανένα."
+  },
+  {
+   "id": "site.privacy.037",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
+   "value": "Το GitFocus δεν συλλέγει, αποθηκεύει ή μεταδίδει προσωπικά δεδομένα στους διακομιστές μας επειδή δεν έχουμε διακομιστές για να τα στείλουμε."
+  },
+  {
+   "id": "site.privacy.038",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything the app needs to function is stored locally on your device:",
+   "value": "Όλα όσα χρειάζεται η εφαρμογή για να λειτουργήσει αποθηκεύονται τοπικά στη συσκευή σας:"
+  },
+  {
+   "id": "site.privacy.039",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub username or usernames (to check public commits)",
+   "value": "Το όνομα χρήστη ή τα ονόματα χρήστη GitHub (για έλεγχο δημόσιων commits)"
+  },
+  {
+   "id": "site.privacy.040",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app selection preferences",
+   "value": "Οι προτιμήσεις επιλογής εφαρμογών σας"
+  },
+  {
+   "id": "site.privacy.041",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your focus session history",
+   "value": "Το ιστορικό συνεδριών εστίασής σας"
+  },
+  {
+   "id": "site.privacy.042",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your earned time and streak data",
+   "value": "Τα δεδομένα κερδισμένου χρόνου και σειράς σας"
+  },
+  {
+   "id": "site.privacy.043",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitHub Integration",
+   "value": "Ενσωμάτωση GitHub"
+  },
+  {
+   "id": "site.privacy.044",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
+   "value": "Το GitFocus διαβάζει δημόσια δεδομένα συνεισφορών GitHub για το όνομα ή τα ονόματα χρήστη που προσθέτετε, για να προσδιορίσει πότε έχετε κάνει commits. Δείτε πώς λειτουργεί:"
+  },
+  {
+   "id": "site.privacy.045",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Access",
+   "value": "Τι Έχουμε Πρόσβαση"
+  },
+  {
+   "id": "site.privacy.046",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public GitHub profile page",
+   "value": "Τη δημόσια σελίδα προφίλ GitHub σας"
+  },
+  {
+   "id": "site.privacy.047",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public contribution graph (the green squares)",
+   "value": "Το δημόσιο γράφημα συνεισφορών σας (τα πράσινα τετράγωνα)"
+  },
+  {
+   "id": "site.privacy.048",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit counts per day (not commit contents)",
+   "value": "Μετρήσεις commits ανά ημέρα (όχι το περιεχόμενο των commits)"
+  },
+  {
+   "id": "site.privacy.049",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Don't Access",
+   "value": "Τι Δεν Έχουμε Πρόσβαση"
+  },
+  {
+   "id": "site.privacy.050",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Private repositories",
+   "value": "Ιδιωτικά αποθετήρια"
+  },
+  {
+   "id": "site.privacy.051",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit messages or code",
+   "value": "Μηνύματα commit ή κώδικα"
+  },
+  {
+   "id": "site.privacy.052",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub password or tokens",
+   "value": "Τον κωδικό πρόσβασης ή τα tokens GitHub σας"
+  },
+  {
+   "id": "site.privacy.053",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any GitHub API with authentication",
+   "value": "Οποιοδήποτε GitHub API με έλεγχο ταυτότητας"
+  },
+  {
+   "id": "site.privacy.054",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No OAuth Required",
+   "value": "✅ Δεν Απαιτείται OAuth"
+  },
+  {
+   "id": "site.privacy.055",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
+   "value": "Σχεδιάσαμε σκόπιμα το GitFocus να λειτουργεί χωρίς έλεγχο ταυτότητας GitHub. Μπορείτε να προσθέσετε ένα ή περισσότερα ονόματα χρήστη GitHub, και διαβάζουμε μόνο δημόσια διαθέσιμες πληροφορίες που μπορεί να δει οποιοσδήποτε επισκεπτόμενος αυτά τα προφίλ GitHub."
+  },
+  {
+   "id": "site.privacy.056",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time & App Blocking",
+   "value": "Χρόνος Οθόνης & Αποκλεισμός Εφαρμογών"
+  },
+  {
+   "id": "site.privacy.057",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
+   "value": "Το GitFocus χρησιμοποιεί το Screen Time API της Apple (πλαίσιο Family Controls) για τον αποκλεισμό εφαρμογών. Είναι το ίδιο ασφαλές σύστημα που τροφοδοτεί τις ενσωματωμένες λειτουργίες Screen Time της Apple."
+  },
+  {
+   "id": "site.privacy.058",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How It Works",
+   "value": "Πώς Λειτουργεί"
+  },
+  {
+   "id": "site.privacy.059",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App blocking is handled entirely by iOS, not our code",
+   "value": "Ο αποκλεισμός εφαρμογών διαχειρίζεται εξ ολοκλήρου από το iOS, όχι από τον κώδικά μας"
+  },
+  {
+   "id": "site.privacy.060",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We never see which apps you use or for how long",
+   "value": "Δεν βλέπουμε ποτέ ποιες εφαρμογές χρησιμοποιείτε ή για πόσο χρόνο"
+  },
+  {
+   "id": "site.privacy.061",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Apple's privacy protections apply to all Screen Time data",
+   "value": "Οι προστασίες απορρήτου της Apple ισχύουν για όλα τα δεδομένα Screen Time"
+  },
+  {
+   "id": "site.privacy.062",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We only receive anonymized \"tokens\" that represent apps",
+   "value": "Λαμβάνουμε μόνο ανώνυμα \"tokens\" που αντιπροσωπεύουν εφαρμογές"
+  },
+  {
+   "id": "site.privacy.063",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Can't See",
+   "value": "Τι Δεν Μπορούμε να Δούμε"
+  },
+  {
+   "id": "site.privacy.064",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app usage statistics",
+   "value": "Τα στατιστικά χρήσης εφαρμογών σας"
+  },
+  {
+   "id": "site.privacy.065",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you open or close apps",
+   "value": "Πότε ανοίγετε ή κλείνετε εφαρμογές"
+  },
+  {
+   "id": "site.privacy.066",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How long you spend in any app",
+   "value": "Πόσο χρόνο περνάτε σε κάθε εφαρμογή"
+  },
+  {
+   "id": "site.privacy.067",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The actual names of apps you select (only tokens)",
+   "value": "Τα πραγματικά ονόματα των εφαρμογών που επιλέγετε (μόνο tokens)"
+  },
+  {
+   "id": "site.privacy.068",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Local Data Storage",
+   "value": "Τοπική Αποθήκευση Δεδομένων"
+  },
+  {
+   "id": "site.privacy.069",
+   "kind": "site",
+   "section": "privacy",
+   "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
+   "value": "Όλα τα δεδομένα σας αποθηκεύονται στη συσκευή σας χρησιμοποιώντας τους ασφαλείς μηχανισμούς αποθήκευσης της Apple:"
+  },
+  {
+   "id": "site.privacy.070",
+   "kind": "site",
+   "section": "privacy",
+   "en": "UserDefaults",
+   "value": "UserDefaults"
+  },
+  {
+   "id": "site.privacy.071",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Settings and preferences",
+   "value": "— Ρυθμίσεις και προτιμήσεις"
+  },
+  {
+   "id": "site.privacy.072",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Keychain",
+   "value": "Keychain"
+  },
+  {
+   "id": "site.privacy.073",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your primary GitHub username (for persistence across reinstalls)",
+   "value": "— Το κύριο όνομα χρήστη GitHub σας (για διατήρηση μεταξύ επανεγκαταστάσεων)"
+  },
+  {
+   "id": "site.privacy.074",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App Group",
+   "value": "App Group"
+  },
+  {
+   "id": "site.privacy.075",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Shared data between app and extensions",
+   "value": "— Κοινά δεδομένα μεταξύ εφαρμογής και επεκτάσεων"
+  },
+  {
+   "id": "site.privacy.076",
+   "kind": "site",
+   "section": "privacy",
+   "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
+   "value": "Αυτά τα δεδομένα κρυπτογραφούνται από το iOS και προστατεύονται από τον κωδικό πρόσβασης της συσκευής σας. Εάν διαγράψετε την εφαρμογή, τα τοπικά σας δεδομένα διαγράφονται επίσης."
+  },
+  {
+   "id": "site.privacy.077",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Third-Party Services",
+   "value": "Υπηρεσίες Τρίτων"
+  },
+  {
+   "id": "site.privacy.078",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
+   "value": "Το GitFocus δεν χρησιμοποιεί υπηρεσίες αναλυτικών, αναφοράς σφαλμάτων ή διαφήμισης τρίτων. Δεν ενσωματώνουμε:"
+  },
+  {
+   "id": "site.privacy.079",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Google Analytics",
+   "value": "Google Analytics"
+  },
+  {
+   "id": "site.privacy.080",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Firebase",
+   "value": "Firebase"
+  },
+  {
+   "id": "site.privacy.081",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Crashlytics",
+   "value": "Crashlytics"
+  },
+  {
+   "id": "site.privacy.082",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Facebook SDK",
+   "value": "Facebook SDK"
+  },
+  {
+   "id": "site.privacy.083",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any advertising networks",
+   "value": "Οποιοδήποτε διαφημιστικό δίκτυο"
+  },
+  {
+   "id": "site.privacy.084",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any user tracking services",
+   "value": "Οποιαδήποτε υπηρεσία παρακολούθησης χρηστών"
+  },
+  {
+   "id": "site.privacy.085",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
+   "value": "Οι μόνες εξωτερικές υπηρεσίες με τις οποίες επικοινωνούμε είναι το github.com για να λάβουμε τα δημόσια δεδομένα συνεισφορών σας, και η προαιρετική συνομιλία υποστήριξης πελατών μας (δείτε παρακάτω)."
+  },
+  {
+   "id": "site.privacy.086",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Customer Support & Live Chat",
+   "value": "Υποστήριξη Πελατών & Ζωντανή Συνομιλία"
+  },
+  {
+   "id": "site.privacy.087",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
+   "value": "Η επικοινωνία με την υποστήριξη είναι εντελώς προαιρετική και συμβαίνει μόνο όταν επιλέγετε να επικοινωνήσετε για βοήθεια."
+  },
+  {
+   "id": "site.privacy.088",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
+   "value": "Το GitFocus προσφέρει υποστήριξη πελατών μέσω ζωντανής συνομιλίας που παρέχεται από το Chatwoot, μια πλατφόρμα υποστήριξης πελατών τρίτων. Αυτή είναι η μόνη υπηρεσία τρίτων που χρησιμοποιείται από το GitFocus (εκτός από το GitHub), και είναι ενεργή μόνο όταν επιλέγετε ρητά να επικοινωνήσετε μαζί μας για βοήθεια."
+  },
+  {
+   "id": "site.privacy.089",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How it works",
+   "value": "Πώς λειτουργεί"
+  },
+  {
+   "id": "site.privacy.090",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Session Persistence:",
+   "value": "Διατήρηση συνεδρίας:"
+  },
+  {
+   "id": "site.privacy.091",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
+   "value": "Το Chatwoot χρησιμοποιεί cookies για να διατηρήσει τη συνεδρία συνομιλίας σας μεταξύ επισκέψεων, ώστε να μπορείτε να συνεχίσετε προηγούμενες συνομιλίες"
+  },
+  {
+   "id": "site.privacy.092",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Anonymous by Default:",
+   "value": "Ανώνυμο από προεπιλογή:"
+  },
+  {
+   "id": "site.privacy.093",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
+   "value": "Μπορείτε να συνομιλήσετε με την υποστήριξη χωρίς να παρέχετε προσωπικές πληροφορίες - η συνεδρία παρακολουθείται μόνο μέσω cookies του προγράμματος περιήγησης"
+  },
+  {
+   "id": "site.privacy.094",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Optional Email:",
+   "value": "Προαιρετικό email:"
+  },
+  {
+   "id": "site.privacy.095",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You may optionally provide your email address if you want to receive follow-up responses",
+   "value": "Μπορείτε προαιρετικά να δώσετε τη διεύθυνση email σας εάν θέλετε να λαμβάνετε απαντήσεις παρακολούθησης"
+  },
+  {
+   "id": "site.privacy.096",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What's Collected",
+   "value": "Τι Συλλέγεται"
+  },
+  {
+   "id": "site.privacy.097",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you use the chat feature, Chatwoot may collect:",
+   "value": "Όταν χρησιμοποιείτε τη λειτουργία συνομιλίας, το Chatwoot μπορεί να συλλέξει:"
+  },
+  {
+   "id": "site.privacy.098",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your chat messages and conversation history",
+   "value": "Τα μηνύματα συνομιλίας και το ιστορικό συνομιλιών σας"
+  },
+  {
+   "id": "site.privacy.099",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Browser cookies for session persistence",
+   "value": "Cookies προγράμματος περιήγησης για διατήρηση συνεδρίας"
+  },
+  {
+   "id": "site.privacy.100",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email address (only if you choose to provide it)",
+   "value": "Διεύθυνση email (μόνο εάν επιλέξετε να την παρέχετε)"
+  },
+  {
+   "id": "site.privacy.101",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Basic technical information (browser type, timestamp)",
+   "value": "Βασικές τεχνικές πληροφορίες (τύπος προγράμματος περιήγησης, χρονοσήμανση)"
+  },
+  {
+   "id": "site.privacy.102",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No Access to App Data",
+   "value": "✅ Δεν Υπάρχει Πρόσβαση στα Δεδομένα της Εφαρμογής"
+  },
+  {
+   "id": "site.privacy.103",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
+   "value": "Η λειτουργία συνομιλίας ΔΕΝ έχει πρόσβαση στα δεδομένα GitHub σας, το ιστορικό συνεδριών εστίασης ή οποιαδήποτε άλλα δεδομένα αποθηκευμένα στην εφαρμογή GitFocus. Μόνο οι πληροφορίες που πληκτρολογείτε ρητά στη συνομιλία αποστέλλονται στο σύστημα υποστήριξής μας."
+  },
+  {
+   "id": "site.privacy.104",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
+   "value": "Το Chatwoot συμμορφώνεται με το GDPR και επεξεργάζεται δεδομένα σύμφωνα με τους ισχύοντες νόμους προστασίας δεδομένων. Για περισσότερες πληροφορίες, επισκεφτείτε"
+  },
+  {
+   "id": "site.privacy.105",
+   "kind": "site",
+   "section": "privacy",
+   "en": "chatwoot.com/privacy-policy",
+   "value": "chatwoot.com/privacy-policy"
+  },
+  {
+   "id": "site.privacy.106",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
+   "value": "Μπορείτε να διαγράψετε τα cookies συνομιλίας ανά πάσα στιγμή μέσω των ρυθμίσεων του προγράμματος περιήγησής σας. Εάν δεν χρησιμοποιήσετε ποτέ τη λειτουργία συνομιλίας, δεν αποστέλλονται ποτέ δεδομένα στο Chatwoot."
+  },
+  {
+   "id": "site.privacy.107",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your Rights",
+   "value": "Τα Δικαιώματά Σας"
+  },
+  {
+   "id": "site.privacy.108",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
+   "value": "Εφόσον δεν συλλέγουμε τα δεδομένα σας, τα παραδοσιακά δικαιώματα δεδομένων (πρόσβαση, διαγραφή, φορητότητα) δεν ισχύουν πραγματικά. Αλλά εδώ είναι τι μπορείτε να κάνετε:"
+  },
+  {
+   "id": "site.privacy.109",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Delete all data",
+   "value": "Διαγραφή όλων των δεδομένων"
+  },
+  {
+   "id": "site.privacy.110",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Simply delete the app from your device",
+   "value": "— Απλά διαγράψτε την εφαρμογή από τη συσκευή σας"
+  },
+  {
+   "id": "site.privacy.111",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Export data",
+   "value": "Εξαγωγή δεδομένων"
+  },
+  {
+   "id": "site.privacy.112",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your data lives on your device; you own it",
+   "value": "— Τα δεδομένα σας βρίσκονται στη συσκευή σας· είναι δικά σας"
+  },
+  {
+   "id": "site.privacy.113",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Change settings",
+   "value": "Αλλαγή ρυθμίσεων"
+  },
+  {
+   "id": "site.privacy.114",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— All preferences can be modified in the app",
+   "value": "— Όλες οι προτιμήσεις μπορούν να τροποποιηθούν στην εφαρμογή"
+  },
+  {
+   "id": "site.privacy.115",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Children's Privacy & Age Rating",
+   "value": "Απόρρητο Παιδιών & Βαθμολογία Ηλικίας"
+  },
+  {
+   "id": "site.privacy.116",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus is rated",
+   "value": "Το GitFocus έχει βαθμολογία"
+  },
+  {
+   "id": "site.privacy.117",
+   "kind": "site",
+   "section": "privacy",
+   "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
+   "value": "στο App Store και είναι κατάλληλο για χρήστες όλων των ηλικιών. Η εφαρμογή δεν περιέχει ανάρμοστο περιεχόμενο, αγορές εντός εφαρμογής ή κοινωνικές λειτουργίες."
+  },
+  {
+   "id": "site.privacy.118",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
+   "value": "Εφόσον δεν συλλέγουμε προσωπικά δεδομένα, δεν υπάρχουν ειδικές ανησυχίες απορρήτου για νεότερους χρήστες. Ωστόσο, συνιστούμε τα παιδιά κάτω των 13 ετών να ρυθμίσουν την εφαρμογή με γονική καθοδήγηση, καθώς:"
+  },
+  {
+   "id": "site.privacy.119",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Initial setup requires a GitHub username",
+   "value": "Η αρχική ρύθμιση απαιτεί όνομα χρήστη GitHub"
+  },
+  {
+   "id": "site.privacy.120",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time permissions need to be granted by the device owner",
+   "value": "Οι άδειες Screen Time πρέπει να χορηγηθούν από τον κάτοχο της συσκευής"
+  },
+  {
+   "id": "site.privacy.121",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Understanding the commit-based unlock system may need explanation",
+   "value": "Η κατανόηση του συστήματος ξεκλειδώματος βάσει commits μπορεί να χρειάζεται επεξήγηση"
+  },
+  {
+   "id": "site.privacy.122",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
+   "value": "Οι γονείς και κηδεμόνες μπορούν να χρησιμοποιήσουν το GitFocus ως εργαλείο για να ενθαρρύνουν συνήθειες προγραμματισμού σε νέους προγραμματιστές."
+  },
+  {
+   "id": "site.privacy.123",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Changes to This Policy",
+   "value": "Αλλαγές σε Αυτή την Πολιτική"
+  },
+  {
+   "id": "site.privacy.124",
+   "kind": "site",
+   "section": "privacy",
+   "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
+   "value": "Εάν αλλάξουμε ποτέ τις πρακτικές απορρήτου μας, θα ενημερώσουμε αυτή τη σελίδα με νέα ημερομηνία «Τελευταίας ενημέρωσης». Δεδομένης της προσέγγισής μας χωρίς συλλογή δεδομένων, σημαντικές αλλαγές είναι απίθανες."
+  },
+  {
+   "id": "site.privacy.125",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contact",
+   "value": "Επικοινωνία"
+  },
+  {
+   "id": "site.privacy.126",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Questions about privacy? We're happy to explain anything in more detail.",
+   "value": "Ερωτήσεις σχετικά με το απόρρητο; Χαιρόμαστε να εξηγήσουμε οτιδήποτε με περισσότερες λεπτομέρειες."
+  },
+  {
+   "id": "site.privacy.127",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email:",
+   "value": "Email:"
+  },
+  {
+   "id": "site.privacy.128",
+   "kind": "site",
+   "section": "privacy",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.privacy.129",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "Αρχική"
+  },
+  {
+   "id": "site.privacy.130",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy",
+   "value": "Πολιτική Απορρήτου"
+  },
+  {
+   "id": "site.privacy.131",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.privacy.132",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Accessibility",
+   "value": "Προσβασιμότητα"
+  },
+  {
+   "id": "site.privacy.133",
+   "kind": "site",
+   "section": "privacy",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.accessibility.000",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility - GitFocus",
+   "value": "Προσβασιμότητα - GitFocus"
+  },
+  {
+   "id": "site.accessibility.001",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.",
+   "value": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more."
+  },
+  {
+   "id": "site.accessibility.002",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Skip to main content",
+   "value": "Μετάβαση στο κύριο περιεχόμενο"
+  },
+  {
+   "id": "site.accessibility.003",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.accessibility.004",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "Αρχική"
+  },
+  {
+   "id": "site.accessibility.005",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy",
+   "value": "Απόρρητο"
+  },
+  {
+   "id": "site.accessibility.006",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.accessibility.007",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "🇬🇧 EN",
+   "value": "🇬🇷 EL"
+  },
+  {
+   "id": "site.accessibility.008",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.accessibility.009",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.accessibility.010",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.accessibility.011",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.accessibility.012",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.accessibility.013",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.accessibility.014",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.accessibility.015",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.accessibility.016",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.accessibility.017",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.accessibility.018",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.accessibility.019",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.accessibility.020",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.accessibility.021",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.accessibility.022",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.accessibility.023",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.accessibility.024",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.accessibility.025",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Accessibility",
+   "value": "// Προσβασιμότητα"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Built for everyone",
+   "value": "Φτιαγμένο για όλους"
+  },
+  {
+   "id": "site.accessibility.027",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
+   "value": "Το GitFocus είναι σχεδιασμένο για βοηθητικές τεχνολογίες. Οι ισχυρισμοί προσβασιμότητας επανελέγχονται για κάθε έκδοση με αυτοματοποιημένες δοκιμές και λίστα ελέγχου ανθρώπινης συσκευής."
+  },
+  {
+   "id": "site.accessibility.028",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Features",
+   "value": "// Λειτουργίες"
+  },
+  {
+   "id": "site.accessibility.029",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported Accessibility Features",
+   "value": "Υποστηριζόμενες Λειτουργίες Προσβασιμότητας"
+  },
+  {
+   "id": "site.accessibility.030",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver",
+   "value": "VoiceOver"
+  },
+  {
+   "id": "site.accessibility.031",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.032",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
+   "value": "Οι βασικές διαδρομές έκδοσης χρησιμοποιούν περιγραφικές ετικέτες, χαρακτηριστικά και λογική σειρά ανάγνωσης. Η πύλη έκδοσης καταγράφει τις δοκιμασμένες διαδρομές και τη συσκευή."
+  },
+  {
+   "id": "site.accessibility.033",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Voice Control",
+   "value": "Έλεγχος με Φωνή"
+  },
+  {
+   "id": "site.accessibility.034",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.035",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
+   "value": "Τα διαδραστικά στοιχεία ελέγχου χρησιμοποιούν προσβάσιμα ονόματα. Μια λίστα ελέγχου φυσικής συσκευής επαληθεύει το κρίσιμο ταξίδι έκδοσης με Έλεγχο με Φωνή."
+  },
+  {
+   "id": "site.accessibility.036",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Larger Text",
+   "value": "Μεγαλύτερο Κείμενο"
+  },
+  {
+   "id": "site.accessibility.037",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.038",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
+   "value": "Το κείμενο της εφαρμογής χρησιμοποιεί Δυναμικό Τύπο. Απαιτείται αυτοματοποιημένη κάλυψη AX3 και AX5 συν έλεγχος ανθρώπινου μεγέθους κειμένου 200% πριν εγκριθεί αυτός ο ισχυρισμός."
+  },
+  {
+   "id": "site.accessibility.039",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Dark Interface",
+   "value": "Σκοτεινή Διεπαφή"
+  },
+  {
+   "id": "site.accessibility.040",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.041",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
+   "value": "Η εφαρμογή υποστηρίζει φωτεινές και σκοτεινές εμφανίσεις. Και οι δύο περιλαμβάνονται στους ελέγχους έκδοσης προσβασιμότητας στιγμιότυπων οθόνης και εφαρμογής."
+  },
+  {
+   "id": "site.accessibility.042",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Differentiate Without Color",
+   "value": "Διαφοροποίηση Χωρίς Χρώμα"
+  },
+  {
+   "id": "site.accessibility.043",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.044",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
+   "value": "Η αναθεώρηση έκδοσης ελέγχει ότι οι σημαντικές καταστάσεις χρησιμοποιούν ετικέτες, σχήματα ή εικονίδια μαζί με το χρώμα."
+  },
+  {
+   "id": "site.accessibility.045",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Sufficient Contrast",
+   "value": "Επαρκής Αντίθεση"
+  },
+  {
+   "id": "site.accessibility.046",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.047",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
+   "value": "Οι αυτοματοποιημένοι έλεγχοι αντίθεσης επισημαίνουν υποψήφιες αποτυχίες σε φωτεινή και σκοτεινή λειτουργία· ένας αναθεωρητής επαληθεύει το πραγματικό κείμενο, τα εικονίδια και τα φόντα πριν την έγκριση."
+  },
+  {
+   "id": "site.accessibility.048",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reduced Motion",
+   "value": "Μειωμένη Κίνηση"
+  },
+  {
+   "id": "site.accessibility.049",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.050",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
+   "value": "Η λίστα ελέγχου έκδοσης επαληθεύει ότι η σημαντική κίνηση σέβεται την προτίμηση Μειωμένης Κίνησης ή έχει στατική εναλλακτική."
+  },
+  {
+   "id": "site.accessibility.051",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Full Keyboard Access",
+   "value": "Πλήρης Πρόσβαση Πληκτρολογίου"
+  },
+  {
+   "id": "site.accessibility.052",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "Υποστηρίζεται"
+  },
+  {
+   "id": "site.accessibility.053",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
+   "value": "Οι υποστηριζόμενες ροές περιλαμβάνουν στοιχεία ελέγχου προσβάσιμα από πληκτρολόγιο και εναλλακτικές για σημαντικές ενέργειες μόνο με χειρονομίες."
+  },
+  {
+   "id": "site.accessibility.054",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Testing",
+   "value": "// Δοκιμές"
+  },
+  {
+   "id": "site.accessibility.055",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated Accessibility Testing",
+   "value": "Αυτοματοποιημένες Δοκιμές Προσβασιμότητας"
+  },
+  {
+   "id": "site.accessibility.056",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Test Suites",
+   "value": "Σύνολα Δοκιμών"
+  },
+  {
+   "id": "site.accessibility.057",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Appearances",
+   "value": "Εμφανίσεις"
+  },
+  {
+   "id": "site.accessibility.058",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "AX Text Sizes",
+   "value": "Μεγέθη Κειμένου AX"
+  },
+  {
+   "id": "site.accessibility.059",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release Gate",
+   "value": "Πύλη Έκδοσης"
+  },
+  {
+   "id": "site.accessibility.060",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Screen Accessibility Audits",
+   "value": "Έλεγχοι Προσβασιμότητας Οθόνης"
+  },
+  {
+   "id": "site.accessibility.061",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
+   "value": "Οι δηλωμένες διαδρομές έκδοσης εκκινούνται σειριακά σε φωτεινή και σκοτεινή λειτουργία και ελέγχονται με εγγενείς ελέγχους προσβασιμότητας iOS. Οι απαιτούμενες κατηγορίες ελέγχου αποτυγχάνουν την πύλη έκδοσης."
+  },
+  {
+   "id": "site.accessibility.062",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "26 tests",
+   "value": "26 δοκιμές"
+  },
+  {
+   "id": "site.accessibility.063",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility Size Tests",
+   "value": "Δοκιμές Μεγέθους Προσβασιμότητας"
+  },
+  {
+   "id": "site.accessibility.064",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
+   "value": "Οι δηλωμένες διαδρομές αποδίδονται σε AX3 και AX5 και ελέγχονται για απόδοση χωρίς κατάρρευση, προσβάσιμα στοιχεία και ολοκλήρωση διαδρομής."
+  },
+  {
+   "id": "site.accessibility.065",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "50 tests",
+   "value": "50 δοκιμές"
+  },
+  {
+   "id": "site.accessibility.066",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver Reading Order",
+   "value": "Σειρά Ανάγνωσης VoiceOver"
+  },
+  {
+   "id": "site.accessibility.067",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
+   "value": "Οι βασικές οθόνες ελέγχονται για να διασφαλιστεί ότι η διέλευση VoiceOver ακολουθεί λογική σειρά από πάνω προς τα κάτω, με ανοχή για στοιχεία συστήματος."
+  },
+  {
+   "id": "site.accessibility.068",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "5 tests",
+   "value": "5 δοκιμές"
+  },
+  {
+   "id": "site.accessibility.069",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Methodology",
+   "value": "// Μεθοδολογία"
+  },
+  {
+   "id": "site.accessibility.070",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "How We Test",
+   "value": "Πώς Δοκιμάζουμε"
+  },
+  {
+   "id": "site.accessibility.071",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "iOS native audits",
+   "value": "Εγγενείς έλεγχοι iOS"
+  },
+  {
+   "id": "site.accessibility.072",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Apple's built-in",
+   "value": "— Ενσωματωμένοι της Apple"
+  },
+  {
+   "id": "site.accessibility.073",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "performAccessibilityAudit",
+   "value": "performAccessibilityAudit"
+  },
+  {
+   "id": "site.accessibility.074",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
+   "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
+  },
+  {
+   "id": "site.accessibility.075",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Extreme size rendering",
+   "value": "Απόδοση ακραίου μεγέθους"
+  },
+  {
+   "id": "site.accessibility.076",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
+   "value": "— Κάθε οθόνη εκκινείται σε μεγέθη κειμένου προσβασιμότητας AX3 και AX5 για να επαληθευτεί ότι τίποτα δεν καταρρέει, κόβεται αναγνώσιμα ή γίνεται απρόσιτο."
+  },
+  {
+   "id": "site.accessibility.077",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reading order validation",
+   "value": "Επικύρωση σειράς ανάγνωσης"
+  },
+  {
+   "id": "site.accessibility.078",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
+   "value": "— Οι αυτοματοποιημένες δοκιμές επαληθεύουν ότι το VoiceOver διασχίζει στοιχεία με λογική σειρά από πάνω προς τα κάτω σε βασικές οθόνες."
+  },
+  {
+   "id": "site.accessibility.079",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Contrast verification",
+   "value": "Επαλήθευση αντίθεσης"
+  },
+  {
+   "id": "site.accessibility.080",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
+   "value": "— Παράγονται αποδείξεις αντίθεσης WCAG από σημασιολογικές περιοχές του renderer, στη συνέχεια αναθεωρούνται έναντι του πραγματικού φωτεινού και σκοτεινού έργου."
+  },
+  {
+   "id": "site.accessibility.081",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release integration",
+   "value": "Ενσωμάτωση έκδοσης"
+  },
+  {
+   "id": "site.accessibility.082",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
+   "value": "— Τα σύνολα προσβασιμότητας εκτελούνται πριν από τη μεταφόρτωση στιγμιότυπων οθόνης ή μεταδεδομένων και διατηρούν αποδείξεις αναγνώσιμες από μηχανή."
+  },
+  {
+   "id": "site.accessibility.083",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Standards We Follow",
+   "value": "Πρότυπα που Ακολουθούμε"
+  },
+  {
+   "id": "site.accessibility.084",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
+   "value": "Στόχοι αντίθεσης WCAG 2.1 Επιπέδου AA για κείμενο και διαδραστικά στοιχεία"
+  },
+  {
+   "id": "site.accessibility.085",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Apple Human Interface Guidelines for accessibility",
+   "value": "Οδηγίες Ανθρώπινης Διεπαφής της Apple για προσβασιμότητα"
+  },
+  {
+   "id": "site.accessibility.086",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Minimum 44pt touch-target checks for interactive controls",
+   "value": "Έλεγχοι ελάχιστου στόχου αφής 44pt για διαδραστικά στοιχεία ελέγχου"
+  },
+  {
+   "id": "site.accessibility.087",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Semantic Dynamic Type coverage at accessibility text sizes",
+   "value": "Κάλυψη Σημασιολογικού Δυναμικού Τύπου σε μεγέθη κειμένου προσβασιμότητας"
+  },
+  {
+   "id": "site.accessibility.088",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver-compatible labels and traits on every interactive element",
+   "value": "Ετικέτες και χαρακτηριστικά συμβατά με VoiceOver σε κάθε διαδραστικό στοιχείο"
+  },
+  {
+   "id": "site.accessibility.089",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Keyboard-accessible alternatives for all gesture-based interactions",
+   "value": "Εναλλακτικές προσβάσιμες από πληκτρολόγιο για όλες τις αλληλεπιδράσεις βασισμένες σε χειρονομίες"
+  },
+  {
+   "id": "site.accessibility.090",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Feedback",
+   "value": "Σχόλια"
+  },
+  {
+   "id": "site.accessibility.091",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
+   "value": "Εάν αντιμετωπίσετε οποιαδήποτε εμπόδια προσβασιμότητας κατά τη χρήση του GitFocus, θέλουμε να το μάθουμε ώστε να το διορθώσουμε."
+  },
+  {
+   "id": "site.accessibility.092",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Chat with us",
+   "value": "Συνομιλήστε μαζί μας"
+  },
+  {
+   "id": "site.accessibility.093",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "or email us at",
+   "value": "ή στείλτε μας email στο"
+  },
+  {
+   "id": "site.accessibility.094",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.accessibility.095",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "Αρχική"
+  },
+  {
+   "id": "site.accessibility.096",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy Policy",
+   "value": "Πολιτική Απορρήτου"
+  },
+  {
+   "id": "site.accessibility.097",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "Υποστήριξη"
+  },
+  {
+   "id": "site.accessibility.098",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility",
+   "value": "Προσβασιμότητα"
+  },
+  {
+   "id": "site.accessibility.099",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  }
+ ]
+}

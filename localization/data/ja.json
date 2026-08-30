@@ -1,0 +1,6945 @@
+{
+ "locale": "ja",
+ "label": "日本語",
+ "generated": "2026-08-30T01:56:34Z",
+ "rows": [
+  {
+   "id": "deviceactivityreport.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "App Usage",
+   "value": "アプリの使用状況"
+  },
+  {
+   "id": "deviceactivityreport.clear.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Clear All",
+   "value": "すべてクリア"
+  },
+  {
+   "id": "deviceactivityreport.count.apps",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d apps",
+   "value": "%d アプリ",
+   "comment": "App count label"
+  },
+  {
+   "id": "deviceactivityreport.count.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d device)",
+   "value": "(%d デバイス)"
+  },
+  {
+   "id": "deviceactivityreport.count.devices",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d devices)",
+   "value": "(%d デバイス)"
+  },
+  {
+   "id": "deviceactivityreport.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d pickups",
+   "value": "%d ピックアップ",
+   "comment": "Pickups count"
+  },
+  {
+   "id": "deviceactivityreport.double.tap.toggle.device.filter",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Double tap to toggle device filter",
+   "value": "ダブルタップしてデバイスフィルターを切り替えます"
+  },
+  {
+   "id": "deviceactivityreport.filter.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Filter by Device",
+   "value": "デバイスでフィルタリングする"
+  },
+  {
+   "id": "deviceactivityreport.no.app.usage.data.yet",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No app usage data yet",
+   "value": "アプリの使用状況データはまだありません"
+  },
+  {
+   "id": "deviceactivityreport.no.usage.data.available",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No usage data available",
+   "value": "利用可能な使用状況データがありません"
+  },
+  {
+   "id": "deviceactivityreport.not.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Not selected",
+   "value": "未選択"
+  },
+  {
+   "id": "deviceactivityreport.screen.time.data.collected.privately.your.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Screen time data is collected privately on your device",
+   "value": "利用時間データはデバイス上で非公開で収集されます"
+  },
+  {
+   "id": "deviceactivityreport.select.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select All",
+   "value": "すべて選択"
+  },
+  {
+   "id": "deviceactivityreport.select.device.view.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select a device to view app usage",
+   "value": "アプリの使用状況を表示するにはデバイスを選択してください"
+  },
+  {
+   "id": "deviceactivityreport.select.devices.view",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select devices to view",
+   "value": "表示するデバイスを選択してください"
+  },
+  {
+   "id": "deviceactivityreport.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Selected",
+   "value": "選択済み"
+  },
+  {
+   "id": "deviceactivityreport.text.used.text.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%@, used for %@, %d pickups",
+   "value": "%@、%@、%d ピックアップに使用",
+   "comment": "Accessibility: app usage summary"
+  },
+  {
+   "id": "deviceactivityreport.today",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today",
+   "value": "今日",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "deviceactivityreport.todays.activity",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today's Activity",
+   "value": "今日の活動"
+  },
+  {
+   "id": "deviceactivityreport.total.screen.time",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Total Screen Time",
+   "value": "合計スクリーン時間"
+  },
+  {
+   "id": "deviceactivityreport.under.one.minute",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "< 1m",
+   "value": "< 1m",
+   "comment": "Less than one minute"
+  },
+  {
+   "id": "deviceactivityreport.usage.level.count.percent",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Usage level: %d%%",
+   "value": "使用レベル: %d%%",
+   "comment": "Accessibility: usage percentage"
+  },
+  {
+   "id": "deviceactivityreport.use.some.apps.today.see.them.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use some apps today to see them here",
+   "value": "今すぐいくつかのアプリを使用してここで確認してください"
+  },
+  {
+   "id": "deviceactivityreport.use.your.selected.apps.see.screen.time.data.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use your selected apps to see screen time data here",
+   "value": "選択したアプリを使用して、ここで利用時間データを確認します"
+  },
+  {
+   "id": "deviceactivityreport.yesterday",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Yesterday",
+   "value": "昨日",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.about",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "About",
+   "value": "について"
+  },
+  {
+   "id": "gitfocus.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Account",
+   "value": "アカウント"
+  },
+  {
+   "id": "gitfocus.achievements",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Achievements",
+   "value": "業績"
+  },
+  {
+   "id": "gitfocus.active.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Active Days",
+   "value": "アクティブな日"
+  },
+  {
+   "id": "gitfocus.add.more.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Add More Apps",
+   "value": "さらにアプリを追加する"
+  },
+  {
+   "id": "gitfocus.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All",
+   "value": "全て"
+  },
+  {
+   "id": "gitfocus.all.settings.data.stored.locally.your.device.nothing.transmitted.external.servers",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All settings and data are stored locally on your device. Nothing is transmitted to external servers.",
+   "value": "すべての設定とデータはデバイス上にローカルに保存されます。外部サーバーには何も送信されません。"
+  },
+  {
+   "id": "gitfocus.also.sorry.takes.while",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(also, sorry this takes a while)",
+   "value": "（また、少し時間がかかりますが、ごめんなさい）"
+  },
+  {
+   "id": "gitfocus.analytics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Analytics",
+   "value": "分析"
+  },
+  {
+   "id": "gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App",
+   "value": "アプリ",
+   "comment": "Fallback app name"
+  },
+  {
+   "id": "gitfocus.app.blocking.handled.entirely.ios.screen.time.we.dont.track.which.apps.you.use.how.long",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App blocking is handled entirely by iOS Screen Time. We don't track which apps you use or for how long.",
+   "value": "アプリのブロックは、iOS スクリーンタイムによって完全に処理されます。私たちは、お客様がどのアプリをどのくらいの時間使用したかを追跡しません。"
+  },
+  {
+   "id": "gitfocus.app.launch",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Launch",
+   "value": "アプリの起動",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.app.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Permissions",
+   "value": "アプリの権限"
+  },
+  {
+   "id": "gitfocus.appearance",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Appearance",
+   "value": "外観"
+  },
+  {
+   "id": "gitfocus.apply.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apply Reset Times",
+   "value": "リセット時間を適用する"
+  },
+  {
+   "id": "gitfocus.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps",
+   "value": "アプリ"
+  },
+  {
+   "id": "gitfocus.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Blocked",
+   "value": "ブロックされたアプリ"
+  },
+  {
+   "id": "gitfocus.apps.currently.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps are currently unlocked",
+   "value": "アプリは現在ロック解除されています"
+  },
+  {
+   "id": "gitfocus.apps.hide.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps to Hide (%d)",
+   "value": "非表示にするアプリ (%d)",
+   "comment": "Hidden apps section header with count"
+  },
+  {
+   "id": "gitfocus.apps.lock.times.daily",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps lock at these times daily",
+   "value": "アプリは毎日この時間にロックされます"
+  },
+  {
+   "id": "gitfocus.apps.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked",
+   "value": "アプリのロックが解除されました"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked! 🔓",
+   "value": "アプリのロックが解除されました! 🔓"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps unlocked until midnight",
+   "value": "アプリは深夜までロック解除可能"
+  },
+  {
+   "id": "gitfocus.arabic",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Arabic",
+   "value": "アラビア語"
+  },
+  {
+   "id": "gitfocus.atmospheric.background",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Atmospheric Background",
+   "value": "大気の背景"
+  },
+  {
+   "id": "gitfocus.automatically.hide.all.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Automatically hide all apps that are blocked",
+   "value": "ブロックされているすべてのアプリを自動的に非表示にする"
+  },
+  {
+   "id": "gitfocus.available.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Available life",
+   "value": "使用可能寿命"
+  },
+  {
+   "id": "gitfocus.available.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "available to unlock apps",
+   "value": "アプリのロックを解除できる"
+  },
+  {
+   "id": "gitfocus.average.per.active.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Average per Active Day",
+   "value": "アクティブな日あたりの平均"
+  },
+  {
+   "id": "gitfocus.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back",
+   "value": "戻る"
+  },
+  {
+   "id": "gitfocus.back.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back to Settings",
+   "value": "設定に戻る"
+  },
+  {
+   "id": "gitfocus.bank.all.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank All %d Minutes",
+   "value": "%d 分すべてを銀行に預ける",
+   "comment": "Bank all earned minutes button"
+  },
+  {
+   "id": "gitfocus.bank.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank 5 Minutes",
+   "value": "バンク 5 ミニッツ"
+  },
+  {
+   "id": "gitfocus.before.you.delete.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Before you delete the app...",
+   "value": "アプリを削除する前に…"
+  },
+  {
+   "id": "gitfocus.block.distracting.apps.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Block distracting apps during focus sessions",
+   "value": "集中セッション中に気が散るアプリをブロックする"
+  },
+  {
+   "id": "gitfocus.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps",
+   "value": "ブロックされたアプリ"
+  },
+  {
+   "id": "gitfocus.blocked.apps.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps Usage",
+   "value": "ブロックされたアプリの使用状況"
+  },
+  {
+   "id": "gitfocus.blurred.glass.effect",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blurred glass effect",
+   "value": "ぼやけたガラス効果"
+  },
+  {
+   "id": "gitfocus.borrow.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrow Time",
+   "value": "時間を借りる"
+  },
+  {
+   "id": "gitfocus.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "%d分借りました。コミットで返済してください!"
+  },
+  {
+   "id": "gitfocus.borrowed.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed Time",
+   "value": "借りた時間",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.borrowing.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing %d min",
+   "value": "%d分借りています",
+   "comment": "Status pill when borrowing time"
+  },
+  {
+   "id": "gitfocus.borrowing.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing time",
+   "value": "貸出時間",
+   "comment": "Accessibility label for borrowing time indicator"
+  },
+  {
+   "id": "gitfocus.build.your.streak.unlock.rewards",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Build your streak to unlock rewards",
+   "value": "連続記録を達成して報酬を獲得しましょう"
+  },
+  {
+   "id": "gitfocus.button.left.side.which.unusual",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "The button is on the left side which is unusual",
+   "value": "ボタンが左側にあるのが珍しいですね"
+  },
+  {
+   "id": "gitfocus.can.borrow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Can borrow",
+   "value": "借りられる"
+  },
+  {
+   "id": "gitfocus.cancel",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Cancel",
+   "value": "キャンセル"
+  },
+  {
+   "id": "gitfocus.card.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Card Style",
+   "value": "カードスタイル"
+  },
+  {
+   "id": "gitfocus.cfbundledisplayname",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "CFBundleDisplayName",
+   "comment": "Bundle display name"
+  },
+  {
+   "id": "gitfocus.cfbundlename",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus",
+   "value": "CFBバンドル名",
+   "comment": "Bundle name"
+  },
+  {
+   "id": "gitfocus.change.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Change Username",
+   "value": "ユーザー名の変更"
+  },
+  {
+   "id": "gitfocus.check.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Username",
+   "value": "ユーザー名を確認する"
+  },
+  {
+   "id": "gitfocus.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "GitHub コミットを確認してください。 💻",
+   "comment": "Shield notifications"
+  },
+  {
+   "id": "gitfocus.checking.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Checking GitHub...",
+   "value": "GitHub をチェックしています..."
+  },
+  {
+   "id": "gitfocus.chinese.simplified",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Chinese (Simplified)",
+   "value": "中国語（簡体字）"
+  },
+  {
+   "id": "gitfocus.choose.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Choose Unlock Time",
+   "value": "ロック解除時間を選択してください"
+  },
+  {
+   "id": "gitfocus.clear",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear",
+   "value": "クリア"
+  },
+  {
+   "id": "gitfocus.clear.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All",
+   "value": "すべてクリア"
+  },
+  {
+   "id": "gitfocus.clear.all.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History",
+   "value": "すべての履歴をクリア"
+  },
+  {
+   "id": "gitfocus.clear.all.history.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History?",
+   "value": "すべての履歴をクリアしますか?"
+  },
+  {
+   "id": "gitfocus.clear.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear History",
+   "value": "履歴をクリアする"
+  },
+  {
+   "id": "gitfocus.clear.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear Selection",
+   "value": "選択をクリア"
+  },
+  {
+   "id": "gitfocus.clear.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear username",
+   "value": "ユーザー名のクリア",
+   "comment": "Accessibility label for clearing username"
+  },
+  {
+   "id": "gitfocus.close",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Close",
+   "value": "近い",
+   "comment": "Accessibility label for close button"
+  },
+  {
+   "id": "gitfocus.code.more.scroll.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Code more. Scroll less.",
+   "value": "もっとコーディングしてください。スクロールを減らします。"
+  },
+  {
+   "id": "gitfocus.commit.detected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit Detected",
+   "value": "コミットが検出されました",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.commit.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.commit.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "commit%@",
+   "value": "commit%@"
+  },
+  {
+   "id": "gitfocus.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits",
+   "value": "コミット"
+  },
+  {
+   "id": "gitfocus.commits.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits Required",
+   "value": "コミットが必要です"
+  },
+  {
+   "id": "gitfocus.complete.focus.timer.see.your.history.here",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a focus timer to see your history here.",
+   "value": "フォーカス タイマーを完了すると、ここで履歴が表示されます。"
+  },
+  {
+   "id": "gitfocus.complete.timer.track.your.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a timer to track your focus time",
+   "value": "タイマーを完了して集中時間を追跡する"
+  },
+  {
+   "id": "gitfocus.completed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Completed",
+   "value": "完了しました"
+  },
+  {
+   "id": "gitfocus.contact.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contact Support",
+   "value": "サポートに連絡する"
+  },
+  {
+   "id": "gitfocus.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue",
+   "value": "続く"
+  },
+  {
+   "id": "gitfocus.continue.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue focusing",
+   "value": "焦点を合わせ続ける"
+  },
+  {
+   "id": "gitfocus.continue.where.left.off",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": "中断したところから続行"
+  },
+  {
+   "id": "gitfocus.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution",
+   "value": "貢献"
+  },
+  {
+   "id": "gitfocus.contribution.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Activity",
+   "value": "貢献活動"
+  },
+  {
+   "id": "gitfocus.contribution.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution%@",
+   "value": "貢献%@"
+  },
+  {
+   "id": "gitfocus.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contributions",
+   "value": "貢献"
+  },
+  {
+   "id": "gitfocus.count.apps.categories.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d apps/categories blocked",
+   "value": "%d アプリ/カテゴリがブロックされました",
+   "comment": "Count of blocked apps and categories"
+  },
+  {
+   "id": "gitfocus.count.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%1$d commits",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.count.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution",
+   "value": "%d さんの投稿",
+   "comment": "Contribution graph"
+  },
+  {
+   "id": "gitfocus.count.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution on %@",
+   "value": "%d による %@ への貢献"
+  },
+  {
+   "id": "gitfocus.count.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions",
+   "value": "%d さんの貢献"
+  },
+  {
+   "id": "gitfocus.count.contributions.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions on %@",
+   "value": "%d による %@ への貢献"
+  },
+  {
+   "id": "gitfocus.count.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d of %d lives available",
+   "value": "%d 件中 %d 件のライブが利用可能です",
+   "comment": "Accessibility: lives available out of lives earned"
+  },
+  {
+   "id": "gitfocus.count.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d day streak",
+   "value": "%d 日連続",
+   "comment": "Accessibility: current streak days\nCurrent streak days label\nStreak days label"
+  },
+  {
+   "id": "gitfocus.count.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days",
+   "value": "%d日",
+   "comment": "Current streak days label"
+  },
+  {
+   "id": "gitfocus.count.days.until.next.life.day.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days until next life (day %d)",
+   "value": "次の人生（%d日）まで%d日",
+   "comment": "Days until next life"
+  },
+  {
+   "id": "gitfocus.count.life.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d life available",
+   "value": "%d 寿命あり",
+   "comment": "Lives UI"
+  },
+  {
+   "id": "gitfocus.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d lives available",
+   "value": "%d のライブが利用可能"
+  },
+  {
+   "id": "gitfocus.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min",
+   "value": "%d分",
+   "comment": "Available unlock minutes\nMinutes value\nPomodoro session duration (minutes)"
+  },
+  {
+   "id": "gitfocus.count.min.ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min ago",
+   "value": "%d分前",
+   "comment": "Relative time label in minutes"
+  },
+  {
+   "id": "gitfocus.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d minutes",
+   "value": "%d分",
+   "comment": "Debt minutes label\nEarned minutes label\nMinutes choice"
+  },
+  {
+   "id": "gitfocus.count.minutes.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "= %d minutes of unlock time",
+   "value": "= %d 分のロック解除時間",
+   "comment": "First sync earned minutes explanation"
+  },
+  {
+   "id": "gitfocus.count.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+%d more",
+   "value": "+%d 詳細",
+   "comment": "More apps indicator"
+  },
+  {
+   "id": "gitfocus.count.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d selected",
+   "value": "%d が選択されました",
+   "comment": "Selected apps count"
+  },
+  {
+   "id": "gitfocus.current.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Debt",
+   "value": "現在の借金"
+  },
+  {
+   "id": "gitfocus.current.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Streak",
+   "value": "現在の連続数"
+  },
+  {
+   "id": "gitfocus.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Custom duration",
+   "value": "カスタム期間",
+   "comment": "Accessibility label for custom duration control"
+  },
+  {
+   "id": "gitfocus.daily.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset",
+   "value": "デイリーリセット",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.daily.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset Times",
+   "value": "毎日のリセット時間"
+  },
+  {
+   "id": "gitfocus.data.collection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Collection",
+   "value": "データ収集"
+  },
+  {
+   "id": "gitfocus.data.storage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Storage",
+   "value": "データストレージ"
+  },
+  {
+   "id": "gitfocus.date",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Date",
+   "value": "日付"
+  },
+  {
+   "id": "gitfocus.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day",
+   "value": "日"
+  },
+  {
+   "id": "gitfocus.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "day streak",
+   "value": "一日連続"
+  },
+  {
+   "id": "gitfocus.debt.borrowed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Borrowed",
+   "value": "借りた借金",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "借金限度額に達しました ⚠️"
+  },
+  {
+   "id": "gitfocus.debt.paid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Paid",
+   "value": "借金の支払い",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debug.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Log",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Logs",
+   "value": "デバッグログ"
+  },
+  {
+   "id": "gitfocus.delete.all.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Delete all sessions",
+   "value": "すべてのセッションを削除する",
+   "comment": "Accessibility label for deleting all sessions"
+  },
+  {
+   "id": "gitfocus.demo.mode",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo Mode",
+   "value": "デモモード"
+  },
+  {
+   "id": "gitfocus.demo.mode.simulated.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo mode - simulated selection",
+   "value": "デモモード - シミュレートされた選択"
+  },
+  {
+   "id": "gitfocus.developer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Developer",
+   "value": "開発者"
+  },
+  {
+   "id": "gitfocus.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Disabled",
+   "value": "無効"
+  },
+  {
+   "id": "gitfocus.discipline.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Discipline Bank",
+   "value": "規律バンク"
+  },
+  {
+   "id": "gitfocus.discipline.bank.description",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use is a measure of your self-control",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.done",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Done",
+   "value": "終わり"
+  },
+  {
+   "id": "gitfocus.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Duration",
+   "value": "間隔"
+  },
+  {
+   "id": "gitfocus.each.commit.earns.unlock.time.no.time.question.borrow.some.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit earns unlock time • No time? Borrow some • Future commits pay it back",
+   "value": "コミットごとにロック解除時間が得られます。 • 時間がありませんか?一部を借りる • 将来のコミットメントで返済する"
+  },
+  {
+   "id": "gitfocus.each.commit.you.push.github.earns.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit you push to GitHub earns you",
+   "value": "GitHub にプッシュするコミットごとに収益が得られます"
+  },
+  {
+   "id": "gitfocus.earn.more.lives.building.your.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn more lives by building your streak",
+   "value": "連勝記録を伸ばしてより多くのライフを獲得しましょう"
+  },
+  {
+   "id": "gitfocus.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn Time",
+   "value": "時間を稼ぐ"
+  },
+  {
+   "id": "gitfocus.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned",
+   "value": "獲得した"
+  },
+  {
+   "id": "gitfocus.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned Time",
+   "value": "獲得時間"
+  },
+  {
+   "id": "gitfocus.edit.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Edit Selection",
+   "value": "選択範囲を編集"
+  },
+  {
+   "id": "gitfocus.emergency",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency",
+   "value": "緊急"
+  },
+  {
+   "id": "gitfocus.emergency.override",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override",
+   "value": "緊急オーバーライド"
+  },
+  {
+   "id": "gitfocus.emergency.override.active",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override Active",
+   "value": "緊急オーバーライドがアクティブです"
+  },
+  {
+   "id": "gitfocus.emergency.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "緊急ロック解除"
+  },
+  {
+   "id": "gitfocus.emergency.unlock.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "緊急ロック解除",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.enable.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable borrowing",
+   "value": "借用を有効にする"
+  },
+  {
+   "id": "gitfocus.enable.permissions.gitfocus.work.properly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable permissions for GitFocus to work properly",
+   "value": "GitFocus が適切に機能するように権限を有効にします"
+  },
+  {
+   "id": "gitfocus.enable.screen.time.first",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable Screen Time First",
+   "value": "最初にスクリーンタイムを有効にする"
+  },
+  {
+   "id": "gitfocus.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enabled",
+   "value": "有効"
+  },
+  {
+   "id": "gitfocus.end.override.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "End Override & Lock",
+   "value": "オーバーライドとロックの終了"
+  },
+  {
+   "id": "gitfocus.english",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "English",
+   "value": "英語"
+  },
+  {
+   "id": "gitfocus.enter.your.github.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enter Your GitHub Username",
+   "value": "GitHub ユーザー名を入力してください"
+  },
+  {
+   "id": "gitfocus.estimated.based.usage.patterns",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Estimated based on usage patterns",
+   "value": "使用パターンに基づいて推定"
+  },
+  {
+   "id": "gitfocus.event.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Event Log",
+   "value": "イベントログ"
+  },
+  {
+   "id": "gitfocus.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "events",
+   "value": "イベント"
+  },
+  {
+   "id": "gitfocus.export.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Export logs",
+   "value": "ログのエクスポート",
+   "comment": "Accessibility label for export logs action"
+  },
+  {
+   "id": "gitfocus.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Feedback",
+   "value": "フィードバック",
+   "comment": "Accessibility label for feedback button"
+  },
+  {
+   "id": "gitfocus.feedback.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tell us what to improve",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.feedback.prompt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How is GitFocus working for you?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.first.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "First Reset",
+   "value": "ファーストリセット"
+  },
+  {
+   "id": "gitfocus.focus.rules",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Rules",
+   "value": "フォーカスルール"
+  },
+  {
+   "id": "gitfocus.focus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUS SCORE",
+   "value": "フォーカススコア"
+  },
+  {
+   "id": "gitfocus.focus.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Stats",
+   "value": "フォーカス統計"
+  },
+  {
+   "id": "gitfocus.focus.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Timer",
+   "value": "フォーカスタイマー"
+  },
+  {
+   "id": "gitfocus.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUSING",
+   "value": "焦点を合わせる"
+  },
+  {
+   "id": "gitfocus.frosted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Frosted",
+   "value": "つや消し"
+  },
+  {
+   "id": "gitfocus.full.year.overview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Full Year Overview",
+   "value": "通期の概要"
+  },
+  {
+   "id": "gitfocus.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future commits pay it back.",
+   "value": "今後のコミットによってその分が返されます。"
+  },
+  {
+   "id": "gitfocus.future.milestone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future milestone",
+   "value": "将来のマイルストーン"
+  },
+  {
+   "id": "gitfocus.get.alerts.check.commits.when.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get alerts to check commits when apps are blocked",
+   "value": "アプリがブロックされているときにアラートを取得してコミットを確認する"
+  },
+  {
+   "id": "gitfocus.get.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get Started",
+   "value": "始めましょう"
+  },
+  {
+   "id": "gitfocus.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "gitfocus.gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus.app",
+   "value": "gitfocus.app"
+  },
+  {
+   "id": "gitfocus.gitfocus.app.icon",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus app icon",
+   "value": "GitFocus アプリのアイコン",
+   "comment": "Accessibility label for app icon"
+  },
+  {
+   "id": "gitfocus.gitfocus.blocks.distracting.apps.until.you.push.code.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub",
+   "value": "GitFocus はコードを GitHub にプッシュするまで気が散るアプリをブロックします"
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.collect.any.personal.data.your.github.username.stored.locally.your.device.using.ios.keychain.security",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not collect any personal data. Your GitHub username is stored locally on your device using iOS Keychain for security.",
+   "value": "GitFocus は個人データを収集しません。 GitHub ユーザー名は、セキュリティのために iOS キーチェーンを使用してデバイス上にローカルに保存されます。"
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.use.any.analytics.tracking.services.your.usage.remains.completely.private",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not use any analytics or tracking services. Your usage remains completely private.",
+   "value": "GitFocus は分析サービスや追跡サービスを使用しません。あなたの使用は完全に非公開のままです。"
+  },
+  {
+   "id": "gitfocus.gitfocus.open.source.you.can.review.our.code.github.verify.our.privacy.practices",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus is open source. You can review our code on GitHub to verify our privacy practices.",
+   "value": "GitFocus はオープンソースです。 GitHub のコードを確認して、プライバシー慣行を確認してください。"
+  },
+  {
+   "id": "gitfocus.gitfocus.reads.your.public.contribution.data.directly.githubs.website.no.authentication.needed.we.simply.check.same.information.thats.visible.your.profile.page.your.commits.already.public.so.we.can.track.them.without.accessing.your.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus reads your public contribution data directly from GitHub's website. No authentication needed - we simply check the same information that's visible on your profile page. Your commits are already public, so we can track them without accessing your account.",
+   "value": "GitFocus は、GitHub の Web サイトから直接あなたの公共貢献データを読み取ります。認証は必要ありません。プロフィール ページに表示されているのと同じ情報をチェックするだけです。コミットはすでに公開されているため、アカウントにアクセスせずにコミットを追跡できます。"
+  },
+  {
+   "id": "gitfocus.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub",
+   "value": "GitHub"
+  },
+  {
+   "id": "gitfocus.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Account",
+   "value": "GitHub アカウント"
+  },
+  {
+   "id": "gitfocus.github.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Activity",
+   "value": "GitHub アクティビティ"
+  },
+  {
+   "id": "gitfocus.github.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub contribution graph",
+   "value": "GitHub 貢献グラフ",
+   "comment": "Accessibility label for contribution graph"
+  },
+  {
+   "id": "gitfocus.github.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Contributions",
+   "value": "GitHub 貢献"
+  },
+  {
+   "id": "gitfocus.github.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Data",
+   "value": "GitHub データ"
+  },
+  {
+   "id": "gitfocus.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile",
+   "value": "GitHub プロフィール"
+  },
+  {
+   "id": "gitfocus.github.profile.photo.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile photo for %@",
+   "value": "GitHub プロフィール写真 (%@)",
+   "comment": "Accessibility: GitHub profile photo"
+  },
+  {
+   "id": "gitfocus.github.user.ready.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub user ready!",
+   "value": "GitHub ユーザーの準備は完了です!"
+  },
+  {
+   "id": "gitfocus.glass.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Glass Style",
+   "value": "ガラスのスタイル"
+  },
+  {
+   "id": "gitfocus.got.it",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it",
+   "value": "わかった"
+  },
+  {
+   "id": "gitfocus.got.it.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it!",
+   "value": "わかった！"
+  },
+  {
+   "id": "gitfocus.great.choice.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Great Choice! 💪",
+   "value": "素晴らしい選択です！ 💪"
+  },
+  {
+   "id": "gitfocus.group.as.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(group as 1)",
+   "value": "(1としてグループ化)"
+  },
+  {
+   "id": "gitfocus.grouped",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "grouped",
+   "value": "グループ化された"
+  },
+  {
+   "id": "gitfocus.grouped.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouped",
+   "value": "グループ化された"
+  },
+  {
+   "id": "gitfocus.grouping.enabled.jumps.over.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouping enabled for jumps > 1",
+   "value": "ジャンプでグループ化が有効 > 1"
+  },
+  {
+   "id": "gitfocus.help.faq",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Help & FAQ",
+   "value": "ヘルプとよくある質問"
+  },
+  {
+   "id": "gitfocus.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden Apps",
+   "value": "隠しアプリ"
+  },
+  {
+   "id": "gitfocus.hidden.apps.removed.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden apps are removed from your home screen during focus sessions. ",
+   "value": "非表示のアプリは、フォーカス セッション中にホーム画面から削除されます。"
+  },
+  {
+   "id": "gitfocus.hide.all.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hide All Blocked Apps",
+   "value": "ブロックされたアプリをすべて非表示にする"
+  },
+  {
+   "id": "gitfocus.how.app.hiding.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How App Hiding Works",
+   "value": "アプリの非表示の仕組み"
+  },
+  {
+   "id": "gitfocus.how.it.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How it works",
+   "value": "仕組み"
+  },
+  {
+   "id": "gitfocus.how.it.works.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How It Works",
+   "value": "仕組み"
+  },
+  {
+   "id": "gitfocus.how.many.minutes.can.you.bank.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How many minutes can you bank?",
+   "value": "何分まで入金できますか？"
+  },
+  {
+   "id": "gitfocus.how.strange",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How strange",
+   "value": "なんと奇妙なことだろう"
+  },
+  {
+   "id": "gitfocus.if.you.need.access.your.apps.right.now.were.about.uninstall.use.instead.wed.rather.you.stay.than.leave",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "If you need access to your apps right now and were about to uninstall, use this instead. We'd rather you stay than leave.",
+   "value": "今すぐアプリにアクセスする必要があり、アンインストールしようとしていた場合は、代わりにこれを使用してください。私たちはあなたが去るよりはむしろ残ってほしいと思っています。"
+  },
+  {
+   "id": "gitfocus.initial",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(initial)",
+   "value": "（イニシャル）"
+  },
+  {
+   "id": "gitfocus.interrupted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Interrupted",
+   "value": "中断されました"
+  },
+  {
+   "id": "gitfocus.invalid.username.format",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Invalid username format",
+   "value": "無効なユーザー名の形式",
+   "comment": "GitHub username validation error when the input fails basic format checks"
+  },
+  {
+   "id": "gitfocus.just.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Just now",
+   "value": "ちょうど今",
+   "comment": "Relative time label when under 1 minute"
+  },
+  {
+   "id": "gitfocus.language",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Language",
+   "value": "言語",
+   "comment": "Language override (TestFlight/debug)"
+  },
+  {
+   "id": "gitfocus.last.updated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Last updated:",
+   "value": "最終更新日:"
+  },
+  {
+   "id": "gitfocus.lasted.text.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lasted %@ of %@",
+   "value": "%@中%@まで続きました",
+   "comment": "Pomodoro session actual duration of target duration"
+  },
+  {
+   "id": "gitfocus.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Less",
+   "value": "少ない"
+  },
+  {
+   "id": "gitfocus.level",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level",
+   "value": "レベル"
+  },
+  {
+   "id": "gitfocus.level.reward.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.monthly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.up",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level Up",
+   "value": "レベルアップ"
+  },
+  {
+   "id": "gitfocus.lives",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives",
+   "value": "生きる"
+  },
+  {
+   "id": "gitfocus.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives\nAvailable",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.loading.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading app usage...",
+   "value": "アプリの使用状況を読み込んでいます..."
+  },
+  {
+   "id": "gitfocus.loading.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contribution graph...",
+   "value": "貢献度グラフを読み込んでいます..."
+  },
+  {
+   "id": "gitfocus.loading.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contributions...",
+   "value": "投稿を読み込んでいます..."
+  },
+  {
+   "id": "gitfocus.lock.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lock Now",
+   "value": "今すぐロック"
+  },
+  {
+   "id": "gitfocus.locked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Locked",
+   "value": "ロックされています",
+   "comment": "Accessibility label for locked status"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn time",
+   "value": "時間を稼ぐためにコミットする"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time",
+   "value": "コミットしてロック解除時間を稼ぎましょう"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time!",
+   "value": "コミットしてロック解除時間を稼ぎましょう!"
+  },
+  {
+   "id": "gitfocus.manage.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Blocked Apps",
+   "value": "ブロックされたアプリを管理する"
+  },
+  {
+   "id": "gitfocus.manage.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Hidden Apps",
+   "value": "隠しアプリの管理"
+  },
+  {
+   "id": "gitfocus.manual.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Lock",
+   "value": "手動ロック",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.manual.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Unlock",
+   "value": "手動ロック解除",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.max.one.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Max in One Day",
+   "value": "1日の最大値"
+  },
+  {
+   "id": "gitfocus.maximum.lives.earned.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Maximum lives earned!",
+   "value": "最大ライフ獲得！"
+  },
+  {
+   "id": "gitfocus.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "min",
+   "value": "分"
+  },
+  {
+   "id": "gitfocus.mins",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "mins",
+   "value": "分"
+  },
+  {
+   "id": "gitfocus.minute",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minute",
+   "value": "分"
+  },
+  {
+   "id": "gitfocus.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minutes",
+   "value": "分"
+  },
+  {
+   "id": "gitfocus.minutes.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes",
+   "value": "分"
+  },
+  {
+   "id": "gitfocus.minutes.banked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes\nBanked",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More",
+   "value": "もっと"
+  },
+  {
+   "id": "gitfocus.more.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More options",
+   "value": "その他のオプション",
+   "comment": "Accessibility label for more options button"
+  },
+  {
+   "id": "gitfocus.nearly.invisible",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Nearly invisible",
+   "value": "ほとんど見えない"
+  },
+  {
+   "id": "gitfocus.need.emergency.access.question.use.life.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need emergency access?\nUse a life to unlock apps until midnight.",
+   "value": "緊急アクセスが必要ですか?\n真夜中までライフを使ってアプリのロックを解除します。"
+  },
+  {
+   "id": "gitfocus.need.finish.message.question.borrow.up.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need to finish a message?\nBorrow up to 5 minutes.",
+   "value": "メッセージを完了する必要がありますか?\n最大 5 分間借りることができます。"
+  },
+  {
+   "id": "gitfocus.new.day.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "New day started",
+   "value": "新しい一日が始まりました"
+  },
+  {
+   "id": "gitfocus.no.account.needed.no.data.collection.works.offline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No account needed • No data collection • Works offline",
+   "value": "アカウント不要 • データ収集なし • オフラインで動作"
+  },
+  {
+   "id": "gitfocus.no.apps.selected.blocking",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No apps selected for blocking",
+   "value": "ブロックするアプリが選択されていません"
+  },
+  {
+   "id": "gitfocus.no.change",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No change",
+   "value": "変化なし"
+  },
+  {
+   "id": "gitfocus.no.commits.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No commits yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.contribution.data.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No contribution data available",
+   "value": "利用可能な貢献データはありません"
+  },
+  {
+   "id": "gitfocus.no.data.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No data yet",
+   "value": "まだデータがありません"
+  },
+  {
+   "id": "gitfocus.no.events.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events for this day",
+   "value": "この日のイベントはありません"
+  },
+  {
+   "id": "gitfocus.no.events.recorded",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events recorded",
+   "value": "イベントは記録されていません"
+  },
+  {
+   "id": "gitfocus.no.focus.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No focus sessions yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No recent contributions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No sessions yet",
+   "value": "まだセッションはありません"
+  },
+  {
+   "id": "gitfocus.no.sessions.yet.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sessions Yet",
+   "value": "まだセッションはありません"
+  },
+  {
+   "id": "gitfocus.no.sign.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sign-In Required",
+   "value": "サインインは不要です"
+  },
+  {
+   "id": "gitfocus.no.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No, stay focused",
+   "value": "いいえ、集中してください"
+  },
+  {
+   "id": "gitfocus.no.unlock.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No unlock options",
+   "value": "ロック解除オプションはありません"
+  },
+  {
+   "id": "gitfocus.no.usage.recorded.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No usage recorded today",
+   "value": "今日の使用量は記録されませんでした"
+  },
+  {
+   "id": "gitfocus.not.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not enabled",
+   "value": "有効になっていません"
+  },
+  {
+   "id": "gitfocus.not.enough.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not Enough Time Available",
+   "value": "時間が足りない"
+  },
+  {
+   "id": "gitfocus.note.unlock.durations.track.active.app.usage.time.not.wall.clock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Note: Unlock durations track active app usage time, not wall clock time",
+   "value": "注: ロック解除期間は、実時間ではなく、アクティブなアプリの使用時間を追跡します。"
+  },
+  {
+   "id": "gitfocus.notifications",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications",
+   "value": "通知"
+  },
+  {
+   "id": "gitfocus.notifications.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Disabled",
+   "value": "通知が無効です"
+  },
+  {
+   "id": "gitfocus.notifications.highly.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Highly Recommended",
+   "value": "強く推奨される通知"
+  },
+  {
+   "id": "gitfocus.nsfamilycontrolsusagedescription",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus needs Screen Time access to block distracting apps while you code. This helps you stay focused and productive.",
+   "value": "NSファミリーコントロールの使用法説明"
+  },
+  {
+   "id": "gitfocus.number.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": "+1ライフ"
+  },
+  {
+   "id": "gitfocus.ok",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "OK",
+   "value": "わかりました"
+  },
+  {
+   "id": "gitfocus.only.apps.already.your.blocked.list.can.hidden",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Only apps that are already in your blocked list can be hidden.",
+   "value": "すでにブロックリストに含まれているアプリのみを非表示にできます。"
+  },
+  {
+   "id": "gitfocus.opaque.frosted.glass",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Opaque frosted glass",
+   "value": "不透明なすりガラス"
+  },
+  {
+   "id": "gitfocus.open.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus 📱",
+   "value": "GitFocus を開きます 📱"
+  },
+  {
+   "id": "gitfocus.open.gitfocus.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus",
+   "value": "GitFocus を開く"
+  },
+  {
+   "id": "gitfocus.open.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Settings",
+   "value": "設定を開く"
+  },
+  {
+   "id": "gitfocus.open.source",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Source",
+   "value": "オープンソース"
+  },
+  {
+   "id": "gitfocus.owed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Owed",
+   "value": "借りがある"
+  },
+  {
+   "id": "gitfocus.paid.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Paid Debt",
+   "value": "支払った借金",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.pause.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pause timer",
+   "value": "一時停止タイマー"
+  },
+  {
+   "id": "gitfocus.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": "永続"
+  },
+  {
+   "id": "gitfocus.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permissions",
+   "value": "権限"
+  },
+  {
+   "id": "gitfocus.pomodoro.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pomodoro History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.portuguese.brazil",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Portuguese (Brazil)",
+   "value": "ポルトガル語 (ブラジル)"
+  },
+  {
+   "id": "gitfocus.preview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Preview",
+   "value": "プレビュー"
+  },
+  {
+   "id": "gitfocus.privacy.policy",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Privacy Policy",
+   "value": "プライバシーポリシー"
+  },
+  {
+   "id": "gitfocus.proceed.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Proceed Anyway",
+   "value": "とにかく続行"
+  },
+  {
+   "id": "gitfocus.quick.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Quick Settings",
+   "value": "クイック設定"
+  },
+  {
+   "id": "gitfocus.ready.focus.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to focus?",
+   "value": "集中する準備はできていますか?"
+  },
+  {
+   "id": "gitfocus.ready.go",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to go",
+   "value": "準備完了"
+  },
+  {
+   "id": "gitfocus.recent.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Activity",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Contributions",
+   "value": "最近の投稿"
+  },
+  {
+   "id": "gitfocus.recent.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Sessions",
+   "value": "最近のセッション"
+  },
+  {
+   "id": "gitfocus.recent.system.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent system events",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "RECOMMENDED",
+   "value": "推奨"
+  },
+  {
+   "id": "gitfocus.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Refresh History",
+   "value": "履歴を更新"
+  },
+  {
+   "id": "gitfocus.relocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Relocked",
+   "value": "再ロックされました",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.remove.app.hide.list",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Remove app from hide list",
+   "value": "非表示リストからアプリを削除",
+   "comment": "Accessibility label for removing a hidden app"
+  },
+  {
+   "id": "gitfocus.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "REQUIRED",
+   "value": "必須"
+  },
+  {
+   "id": "gitfocus.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset",
+   "value": "リセット"
+  },
+  {
+   "id": "gitfocus.reset.all.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset All Settings",
+   "value": "すべての設定をリセット"
+  },
+  {
+   "id": "gitfocus.reset.settings.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset Settings?",
+   "value": "設定をリセットしますか?"
+  },
+  {
+   "id": "gitfocus.reset.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset timer",
+   "value": "タイマーをリセットする",
+   "comment": "Accessibility label for reset timer button"
+  },
+  {
+   "id": "gitfocus.restart.app.apply.language.changes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart the app to apply language changes.",
+   "value": "言語の変更を適用するには、アプリを再起動します。"
+  },
+  {
+   "id": "gitfocus.restart.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart Required",
+   "value": "再起動が必要です"
+  },
+  {
+   "id": "gitfocus.restore.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restore Data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.found.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak and all saved progress.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.confirm",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.review",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review",
+   "value": "レビュー"
+  },
+  {
+   "id": "gitfocus.review.onboarding",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review Onboarding",
+   "value": "オンボーディングの確認"
+  },
+  {
+   "id": "gitfocus.review.your.settings.start.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review your settings and start focusing",
+   "value": "設定を見直して集中力を高めましょう"
+  },
+  {
+   "id": "gitfocus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "score",
+   "value": "スコア"
+  },
+  {
+   "id": "gitfocus.screen.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Screen Time",
+   "value": "スクリーンタイム"
+  },
+  {
+   "id": "gitfocus.screen.time.bypassed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "• Screen Time bypassed",
+   "value": "• スクリーンタイムのバイパス"
+  },
+  {
+   "id": "gitfocus.second.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Second Reset",
+   "value": "セカンドリセット"
+  },
+  {
+   "id": "gitfocus.see.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See all",
+   "value": "全て見る"
+  },
+  {
+   "id": "gitfocus.see.all.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See All",
+   "value": "すべて見る"
+  },
+  {
+   "id": "gitfocus.see.its.right.side.now.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See, it's on the right side now!",
+   "value": "ほら、今は右側にあります！"
+  },
+  {
+   "id": "gitfocus.select.apps.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Block",
+   "value": "ブロックするアプリの選択"
+  },
+  {
+   "id": "gitfocus.select.apps.block.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to block during focus sessions",
+   "value": "フォーカスセッション中にブロックするアプリを選択してください"
+  },
+  {
+   "id": "gitfocus.select.apps.hide",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Hide",
+   "value": "非表示にするアプリを選択してください"
+  },
+  {
+   "id": "gitfocus.select.apps.hide.home.screen",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to hide from home screen",
+   "value": "ホーム画面から非表示にするアプリを選択してください"
+  },
+  {
+   "id": "gitfocus.select.apps.you.want.block.while.focusing.youll.need.make.commits.unlock.them",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps that you want to block while focusing. You'll need to make commits to unlock them.",
+   "value": "集中中にブロックしたいアプリを選択します。ロックを解除するにはコミットを行う必要があります。"
+  },
+  {
+   "id": "gitfocus.select.demo.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Demo Apps",
+   "value": "デモアプリの選択"
+  },
+  {
+   "id": "gitfocus.select.least.one.app.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select at least one app to block",
+   "value": "ブロックするアプリを少なくとも 1 つ選択してください"
+  },
+  {
+   "id": "gitfocus.select.specific.apps.your.blocked.list.hide.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select specific apps from your blocked list to hide during focus sessions.",
+   "value": "フォーカス セッション中に非表示にする特定のアプリをブロック リストから選択します。"
+  },
+  {
+   "id": "gitfocus.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected",
+   "value": "選択済み",
+   "comment": "Accessibility label for selected state"
+  },
+  {
+   "id": "gitfocus.selected.apps.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected Apps (%d)",
+   "value": "選択したアプリ (%d)",
+   "comment": "Selected apps section title with count"
+  },
+  {
+   "id": "gitfocus.send.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Send Feedback",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.session.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Session History",
+   "value": "セッション履歴"
+  },
+  {
+   "id": "gitfocus.set.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Custom Duration",
+   "value": "カスタム期間の設定"
+  },
+  {
+   "id": "gitfocus.set.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Duration",
+   "value": "期間を設定する"
+  },
+  {
+   "id": "gitfocus.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Settings",
+   "value": "設定",
+   "comment": "Accessibility label for settings button"
+  },
+  {
+   "id": "gitfocus.setup.takes.less.than.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Setup takes less than 2 minutes",
+   "value": "セットアップには 2 分もかかりません"
+  },
+  {
+   "id": "gitfocus.shield.shown",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Shield Shown",
+   "value": "シールドを表示",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.show.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Show less",
+   "value": "表示を少なくする"
+  },
+  {
+   "id": "gitfocus.skip",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip",
+   "value": "スキップ"
+  },
+  {
+   "id": "gitfocus.skip.notifications.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip Notifications Anyway",
+   "value": "とにかく通知をスキップする"
+  },
+  {
+   "id": "gitfocus.skip.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip for now",
+   "value": "今のところスキップしてください"
+  },
+  {
+   "id": "gitfocus.slide.all.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide for all-day",
+   "value": "一日中楽しめる滑り台"
+  },
+  {
+   "id": "gitfocus.slide.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide to unlock",
+   "value": "スライドしてロックを解除します"
+  },
+  {
+   "id": "gitfocus.solid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Solid",
+   "value": "固体"
+  },
+  {
+   "id": "gitfocus.spanish",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Spanish",
+   "value": "スペイン語"
+  },
+  {
+   "id": "gitfocus.splash.tagline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit to unlock distractions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.start.focus.session",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Focus Session",
+   "value": "フォーカスセッションの開始"
+  },
+  {
+   "id": "gitfocus.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": "新たに始める"
+  },
+  {
+   "id": "gitfocus.start.fresh.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh at 0",
+   "value": "0から新しく始める"
+  },
+  {
+   "id": "gitfocus.start.fresh.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": "新しく始めますか?"
+  },
+  {
+   "id": "gitfocus.start.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start timer",
+   "value": "タイマーを開始します"
+  },
+  {
+   "id": "gitfocus.start.using.gitfocus.see.your.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start using GitFocus to see your stats",
+   "value": "GitFocus の使用を開始して統計を確認してください"
+  },
+  {
+   "id": "gitfocus.started.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Started %@",
+   "value": "%@ を開始しました",
+   "comment": "Pomodoro session start time label"
+  },
+  {
+   "id": "gitfocus.starting",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Starting...",
+   "value": "起動..."
+  },
+  {
+   "id": "gitfocus.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Statistics",
+   "value": "統計"
+  },
+  {
+   "id": "gitfocus.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stay Focused",
+   "value": "集中力を保つ"
+  },
+  {
+   "id": "gitfocus.stayed.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stayed Focused",
+   "value": "集中力を維持",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.staying.focused.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Staying Focused!",
+   "value": "集中力を維持しましょう！"
+  },
+  {
+   "id": "gitfocus.stop.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stop timer",
+   "value": "タイマーを停止する",
+   "comment": "Accessibility label for stop timer button"
+  },
+  {
+   "id": "gitfocus.stopped.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stopped %@",
+   "value": "%@ 停止しました",
+   "comment": "Pomodoro session stopped time label"
+  },
+  {
+   "id": "gitfocus.subtle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Subtle",
+   "value": "微妙"
+  },
+  {
+   "id": "gitfocus.summary",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Summary",
+   "value": "まとめ"
+  },
+  {
+   "id": "gitfocus.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "gitfocus.system.default",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "System Default",
+   "value": "システムのデフォルト"
+  },
+  {
+   "id": "gitfocus.tap.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to continue",
+   "value": "タップして続行します",
+   "comment": "Core onboarding / settings / shield (zh-Hans)"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "タップして GitFocus を開き、新しいコミットを確認してロック解除時間を獲得します"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "タップして GitFocus を開き、GitHub コミットを同期します"
+  },
+  {
+   "id": "gitfocus.tap.view.detailed.contribution.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to view detailed contribution statistics",
+   "value": "タップして詳細な貢献統計を表示します",
+   "comment": "Accessibility hint for viewing contribution statistics"
+  },
+  {
+   "id": "gitfocus.text.daily.avg",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%@ daily avg",
+   "value": "%@ 日平均",
+   "comment": "Average daily distraction time"
+  },
+  {
+   "id": "gitfocus.then.number.every.month",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": "その後は毎月 +1"
+  },
+  {
+   "id": "gitfocus.time.balance.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Balance Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.balance.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn time with commits and spend it to unlock your apps.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Borrowing",
+   "value": "時間を借りる"
+  },
+  {
+   "id": "gitfocus.time.code.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to code!",
+   "value": "コードを書く時間です!"
+  },
+  {
+   "id": "gitfocus.time.days_left_percent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dd left · %d%%",
+   "value": "%d日残り · %d%%",
+   "comment": "Year grid footer: days remaining and percent complete"
+  },
+  {
+   "id": "gitfocus.time.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Earned",
+   "value": "獲得時間",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.time.focus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to Focus!",
+   "value": "集中する時間です！",
+   "comment": "Shield UI"
+  },
+  {
+   "id": "gitfocus.time.hours_ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d h ago",
+   "value": "%d 時間前",
+   "comment": "Relative time label in hours"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "· %dm debt",
+   "value": "· %dmの借金",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm debt",
+   "value": "%d万の借金",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm duration",
+   "value": "%d分持続時間",
+   "comment": "Duration minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm earned",
+   "value": "%d万円を獲得しました",
+   "comment": "Earned minutes badge\nEarned minutes label"
+  },
+  {
+   "id": "gitfocus.time.never.expires",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time never expires",
+   "value": "時間は決して期限切れになりません"
+  },
+  {
+   "id": "gitfocus.time.resets.weekly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time resets weekly",
+   "value": "時間は毎週リセットされます"
+  },
+  {
+   "id": "gitfocus.time.spent.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time spent today:",
+   "value": "今日の所要時間:"
+  },
+  {
+   "id": "gitfocus.time.spent.today.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Spent Today",
+   "value": "今日の過ごし時間"
+  },
+  {
+   "id": "gitfocus.time.you.earn.but.dont.use.measure.your.self.control",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use\nis a measure of your self-control",
+   "value": "稼いだのに使わなかった時間\n は自制心の尺度です"
+  },
+  {
+   "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tip: Select individual apps rather than entire categories",
+   "value": "ヒント: カテゴリ全体ではなく、個々のアプリを選択してください"
+  },
+  {
+   "id": "gitfocus.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today",
+   "value": "今日",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.todays.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's App Usage",
+   "value": "今日のアプリの使用状況"
+  },
+  {
+   "id": "gitfocus.todays.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Commits",
+   "value": "今日のコミット"
+  },
+  {
+   "id": "gitfocus.todays.most.used.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Most Used Apps",
+   "value": "今日最も使用されているアプリ"
+  },
+  {
+   "id": "gitfocus.todays.usage.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Usage Statistics",
+   "value": "今日の使用統計"
+  },
+  {
+   "id": "gitfocus.total.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Commits",
+   "value": "合計コミット数"
+  },
+  {
+   "id": "gitfocus.total.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Contributions",
+   "value": "寄付総額"
+  },
+  {
+   "id": "gitfocus.total.refreshes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Refreshes",
+   "value": "総リフレッシュ数"
+  },
+  {
+   "id": "gitfocus.total.today.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total today: %d minutes",
+   "value": "今日の合計時間: %d 分",
+   "comment": "Total usage minutes today"
+  },
+  {
+   "id": "gitfocus.transparent.edge.glow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Transparent with edge glow",
+   "value": "透明でエッジグローあり"
+  },
+  {
+   "id": "gitfocus.turn.commits.into.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Turn Commits into Focus Time",
+   "value": "コミットを集中時間に変える"
+  },
+  {
+   "id": "gitfocus.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock for:",
+   "value": "ロックを解除する:"
+  },
+  {
+   "id": "gitfocus.unlock.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock App",
+   "value": "アプリのロックを解除する"
+  },
+  {
+   "id": "gitfocus.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock apps until midnight",
+   "value": "深夜までアプリのロックを解除する"
+  },
+  {
+   "id": "gitfocus.unlock.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Debt)",
+   "value": "ロック解除（借金）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Earned)",
+   "value": "ロック解除(獲得)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.failed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Failed",
+   "value": "ロック解除に失敗しました",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 5 min",
+   "value": "ロック解除 5 分",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Mixed)",
+   "value": "ロック解除 (混合)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 1 min",
+   "value": "1分でロックを解除",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock %@",
+   "value": "%@のロックを解除する",
+   "comment": "Unlock app button title"
+  },
+  {
+   "id": "gitfocus.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time",
+   "value": "ロック解除時間"
+  },
+  {
+   "id": "gitfocus.unlock.time.remaining",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time Remaining",
+   "value": "残りロック解除時間"
+  },
+  {
+   "id": "gitfocus.unlock.time.your.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "of unlock time for your blocked apps",
+   "value": "ブロックされたアプリのロック解除にかかる時間"
+  },
+  {
+   "id": "gitfocus.unlock.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Until Midnight",
+   "value": "真夜中までロック解除"
+  },
+  {
+   "id": "gitfocus.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked",
+   "value": "ロック解除済み"
+  },
+  {
+   "id": "gitfocus.unlocked.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked for %d min",
+   "value": "%d分間ロック解除されました",
+   "comment": "Remaining unlock time label"
+  },
+  {
+   "id": "gitfocus.unlocked.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Debt)",
+   "value": "ロック解除（借金）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Earned)",
+   "value": "ロック解除（獲得）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 5 min",
+   "value": "ロック解除 5 分",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Mixed)",
+   "value": "ロック解除済み (混合)",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 1 min",
+   "value": "ロック解除 1 分",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocks",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "unlocks",
+   "value": "ロックを解除する"
+  },
+  {
+   "id": "gitfocus.until.apps.re.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "until apps re-lock",
+   "value": "アプリが再度ロックされるまで"
+  },
+  {
+   "id": "gitfocus.use.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Earned Time",
+   "value": "稼いだ時間を使用する"
+  },
+  {
+   "id": "gitfocus.use.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Life",
+   "value": "使用寿命"
+  },
+  {
+   "id": "gitfocus.use.number.your.count.heart.unlock.apps.until.midnight.your.count.day.streak.will.preserved",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use 1 of your %d ❤️ to unlock apps until midnight.\n\nYour %d day streak will be preserved.",
+   "value": "%d ❤️ を 1 つ使用すると、午前 0 時までアプリのロックを解除できます。\n\n%d 日の連続記録は保持されます。",
+   "comment": "Emergency override message when user has lives"
+  },
+  {
+   "id": "gitfocus.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "利用可能な時間を使い、追加で借りました。合計 %d 分。"
+  },
+  {
+   "id": "gitfocus.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "利用可能な残高から%d分を使用しました。タイマーがスタートしました！"
+  },
+  {
+   "id": "gitfocus.used.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used life",
+   "value": "使用寿命"
+  },
+  {
+   "id": "gitfocus.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "username",
+   "value": "ユーザー名"
+  },
+  {
+   "id": "gitfocus.username.cannot.empty",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username cannot be empty",
+   "value": "ユーザー名を空にすることはできません",
+   "comment": "GitHub username validation error when the input is empty"
+  },
+  {
+   "id": "gitfocus.username.validated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username validated",
+   "value": "ユーザー名が検証されました",
+   "comment": "Accessibility label for username validated status"
+  },
+  {
+   "id": "gitfocus.username.verified.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username verified!",
+   "value": "ユーザー名が確認されました!"
+  },
+  {
+   "id": "gitfocus.uses.number.life.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Uses 1 life • Until midnight",
+   "value": "ライフを 1 つ使用します • 午前 0 時まで"
+  },
+  {
+   "id": "gitfocus.using.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Using earned time",
+   "value": "稼いだ時間を使って"
+  },
+  {
+   "id": "gitfocus.validate",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Validate",
+   "value": "検証する"
+  },
+  {
+   "id": "gitfocus.verify.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Verify Username",
+   "value": "ユーザー名の確認"
+  },
+  {
+   "id": "gitfocus.version",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Version",
+   "value": "バージョン"
+  },
+  {
+   "id": "gitfocus.view.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View All",
+   "value": "すべて見る"
+  },
+  {
+   "id": "gitfocus.view.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Debug Logs",
+   "value": "デバッグログの表示"
+  },
+  {
+   "id": "gitfocus.view.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Refresh History",
+   "value": "更新履歴の表示"
+  },
+  {
+   "id": "gitfocus.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Warning",
+   "value": "警告",
+   "comment": "Accessibility label for warning indicator"
+  },
+  {
+   "id": "gitfocus.we.found.your.existing.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your existing commits",
+   "value": "既存のコミットが見つかりました"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account",
+   "value": "あなたの GitHub アカウントが見つかりました"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account.before",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account from before",
+   "value": "以前の GitHub アカウントが見つかりました"
+  },
+  {
+   "id": "gitfocus.we.found.your.previous.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": "以前のデータが見つかりました"
+  },
+  {
+   "id": "gitfocus.we.only.access.publicly.available.contribution.data.github.no.authentication.private.data.access.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We only access publicly available contribution data from GitHub. No authentication or private data access is required.",
+   "value": "当社は、GitHub からの公開されている投稿データのみにアクセスします。認証や個人データへのアクセスは必要ありません。"
+  },
+  {
+   "id": "gitfocus.weekly.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Weekly bank",
+   "value": "ウィークリーバンク"
+  },
+  {
+   "id": "gitfocus.welcome",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome",
+   "value": "いらっしゃいませ"
+  },
+  {
+   "id": "gitfocus.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": "おかえり！"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back!",
+   "value": "おかえり！"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation.your.github.data.ready",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back! Your GitHub data is ready.",
+   "value": "おかえり！ GitHub データの準備ができました。"
+  },
+  {
+   "id": "gitfocus.welcome.gitfocus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome to GitFocus!",
+   "value": "GitFocus へようこそ!"
+  },
+  {
+   "id": "gitfocus.well.track.your.public.commits.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll track your public commits to unlock apps",
+   "value": "アプリのロックを解除するためのパブリック コミットを追跡します"
+  },
+  {
+   "id": "gitfocus.well.use.track.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll use this to track your commits",
+   "value": "これを使用してコミットを追跡します"
+  },
+  {
+   "id": "gitfocus.when.enabled.all.blocked.apps.will.hidden.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "When enabled, all blocked apps will be hidden from your home screen during focus sessions.",
+   "value": "有効にすると、ブロックされたすべてのアプリがフォーカス セッション中にホーム画面から非表示になります。"
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which Apps Distract You?",
+   "value": "どのアプリが気を紛らわせますか?"
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which apps distract you?",
+   "value": "どのアプリが気を紛らわせますか?"
+  },
+  {
+   "id": "gitfocus.why.no.sign.required.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Why no sign in required?",
+   "value": "サインインが必要ないのはなぜですか?"
+  },
+  {
+   "id": "gitfocus.will.clear.your.streak.count.days.earned.time.all.saved.progress.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak (%d days), earned time, and all saved progress. This cannot be undone.",
+   "value": "これにより、連続記録 (%d 日)、獲得時間、および保存されたすべての進行状況がクリアされます。これを元に戻すことはできません。",
+   "comment": "Start fresh confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.count.session.records",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all %d session records.",
+   "value": "これにより、すべての %d セッション レコードが完全に削除されます。",
+   "comment": "Clear history confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.refresh.history.action.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all refresh history. This action cannot be undone.",
+   "value": "これにより、すべての更新履歴が完全に削除されます。この操作は元に戻すことができません。"
+  },
+  {
+   "id": "gitfocus.will.reset.all.settings.defaults.clear.your.github.username.youll.need.set.up.app.again",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will reset all settings to defaults and clear your GitHub username. You'll need to set up the app again.",
+   "value": "これにより、すべての設定がデフォルトにリセットされ、GitHub ユーザー名が消去されます。アプリを再度セットアップする必要があります。"
+  },
+  {
+   "id": "gitfocus.will.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will unlock apps until midnight.",
+   "value": "これにより、深夜までアプリのロックが解除されます。"
+  },
+  {
+   "id": "gitfocus.without.notifications.youll.need.manually.open.app.check.commits.when.requesting.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Without notifications, you'll need to manually open the app to check commits when requesting an unlock.",
+   "value": "通知がない場合、ロック解除をリクエストするときにアプリを手動で開いてコミットを確認する必要があります。"
+  },
+  {
+   "id": "gitfocus.year",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "this year",
+   "value": "今年"
+  },
+  {
+   "id": "gitfocus.year.end.challenge",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year-End Challenge",
+   "value": "年末チャレンジ"
+  },
+  {
+   "id": "gitfocus.year.pixels",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year in Pixels",
+   "value": "ピクセル単位の年"
+  },
+  {
+   "id": "gitfocus.yes.need.more.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, I need more time",
+   "value": "はい、もっと時間が必要です"
+  },
+  {
+   "id": "gitfocus.yes.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": "はい、新たに始めましょう"
+  },
+  {
+   "id": "gitfocus.yesterday",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yesterday",
+   "value": "昨日",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.you.dont.have.any.earned.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You don't have any earned time available.",
+   "value": "獲得できる時間がありません。"
+  },
+  {
+   "id": "gitfocus.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d min of usage time.",
+   "value": "%d 分の使用時間があります。"
+  },
+  {
+   "id": "gitfocus.you.have.count.minutes.earned.time.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d minutes of earned time from your commits.",
+   "value": "コミットによって獲得した時間は %d 分です。",
+   "comment": "Earned time available message"
+  },
+  {
+   "id": "gitfocus.you.previously.denied.notifications.open.settings.enable.them.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You previously denied notifications. Open Settings to enable them for GitFocus.",
+   "value": "以前通知を拒否しました。設定を開いて GitFocus の通知を有効にしてください。"
+  },
+  {
+   "id": "gitfocus.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "%d 分をリクエストしましたが、%d 分しか利用できません。"
+  },
+  {
+   "id": "gitfocus.you.start.number.free.life.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You start with 1 free life!",
+   "value": "1 つの無料ライフから始めましょう!"
+  },
+  {
+   "id": "gitfocus.your.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitHub Profile",
+   "value": "あなたのGitHubプロフィール"
+  },
+  {
+   "id": "gitfocus.your.privacy.matters",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your Privacy Matters",
+   "value": "あなたのプライバシーは重要です"
+  },
+  {
+   "id": "gitfocus.youre.all.set.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're All Set!",
+   "value": "準備は完了です!"
+  },
+  {
+   "id": "gitfocus.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "集中力を保っていますね。これからも素晴らしい仕事を続けてください！"
+  },
+  {
+   "id": "gitfocus.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "ブロックされたアプリを開こうとしています。\nこれに取り組むにはもっと時間が必要ですか?"
+  },
+  {
+   "id": "gitfocus.youve.already.made.commits.today.would.you.like.start.time.begin.fresh.zero.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've already made commits today. Would you like to start with this time, or begin fresh at zero?",
+   "value": "今日はすでにコミットを行っています。この時間から始めますか、それともゼロから新たに始めますか?"
+  },
+  {
+   "id": "gitfocus.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "借金が上限に達しました (-5 分)。 GitHub にコミットしてロック解除時間を稼ぎましょう!"
+  },
+  {
+   "id": "gitfocus.youve.used.all.count.lives.will.still.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've used all %d lives.\n\nThis will still unlock apps until midnight.",
+   "value": "%d のライフをすべて使い果たしました。\n\nこれにより、真夜中までアプリのロックが解除されます。",
+   "comment": "Emergency override message when user has no lives"
+  },
+  {
+   "id": "pomodorowidget.count.min",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "%d min",
+   "value": "%d分",
+   "comment": "Total focus duration in minutes"
+  },
+  {
+   "id": "pomodorowidget.focus",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus",
+   "value": "集中",
+   "comment": "PomodoroWidget (zh-Hans)"
+  },
+  {
+   "id": "pomodorowidget.focus.timer",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus Timer",
+   "value": "フォーカスタイマー"
+  },
+  {
+   "id": "shieldaction.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Apps Unlocked! 🔓",
+   "value": "アプリのロックが解除されました! 🔓"
+  },
+  {
+   "id": "shieldaction.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "%d分借りました。コミットで返済してください!",
+   "comment": "Unlock notification body (debt)"
+  },
+  {
+   "id": "shieldaction.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "GitHub コミットを確認してください。 💻"
+  },
+  {
+   "id": "shieldaction.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "借金限度額に達しました ⚠️"
+  },
+  {
+   "id": "shieldaction.great.choice.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Great Choice! 💪",
+   "value": "素晴らしい選択です！ 💪"
+  },
+  {
+   "id": "shieldaction.not.enough.time.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Not Enough Time Available",
+   "value": "時間が足りない"
+  },
+  {
+   "id": "shieldaction.open.gitfocus",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Open GitFocus 📱",
+   "value": "GitFocus を開きます 📱"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "タップして GitFocus を開き、新しいコミットを確認してロック解除時間を獲得します"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "タップして GitFocus を開き、GitHub コミットを同期します"
+  },
+  {
+   "id": "shieldaction.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "利用可能な時間を使い、追加で借りました。合計 %d 分。",
+   "comment": "Unlock notification body (mixed)"
+  },
+  {
+   "id": "shieldaction.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "利用可能な残高から%d分を使用しました。タイマーがスタートしました！",
+   "comment": "Unlock notification body (earned)"
+  },
+  {
+   "id": "shieldaction.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You have %d min of usage time.",
+   "value": "%d 分の使用時間があります。",
+   "comment": "Unlock notification body (generic)"
+  },
+  {
+   "id": "shieldaction.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "%d 分をリクエストしましたが、%d 分しか利用できません。",
+   "comment": "Insufficient time notification body"
+  },
+  {
+   "id": "shieldaction.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "集中力を保っていますね。これからも素晴らしい仕事を続けてください！"
+  },
+  {
+   "id": "shieldaction.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "借金が上限に達しました (-5 分)。 GitHub にコミットしてロック解除時間を稼ぎましょう!"
+  },
+  {
+   "id": "shieldconfiguration.choose.unlock.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Choose Unlock Time",
+   "value": "ロック解除時間を選択してください"
+  },
+  {
+   "id": "shieldconfiguration.continue.focusing",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Continue focusing",
+   "value": "焦点を合わせ続ける"
+  },
+  {
+   "id": "shieldconfiguration.no.stay.focused",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "No, stay focused",
+   "value": "いいえ、集中してください"
+  },
+  {
+   "id": "shieldconfiguration.open.gitfocus",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Open GitFocus",
+   "value": "GitFocus を開く"
+  },
+  {
+   "id": "shieldconfiguration.staying.focused.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Staying Focused!",
+   "value": "集中力を維持しましょう！"
+  },
+  {
+   "id": "shieldconfiguration.time.focus.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Time to Focus!",
+   "value": "集中する時間です！"
+  },
+  {
+   "id": "shieldconfiguration.yes.need.more.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Yes, I need more time",
+   "value": "はい、もっと時間が必要です"
+  },
+  {
+   "id": "shieldconfiguration.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "ブロックされたアプリを開こうとしています。\nこれに取り組むにはもっと時間が必要ですか?"
+  },
+  {
+   "id": "asc.name",
+   "kind": "asc",
+   "section": "name",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "asc.subtitle",
+   "kind": "asc",
+   "section": "subtitle",
+   "en": "Turn Commits into Focus Time",
+   "value": "コミットを集中時間に変える"
+  },
+  {
+   "id": "asc.promotional_text",
+   "kind": "asc",
+   "section": "promotional text",
+   "en": "Block distractions until you code. Track one or more GitHub accounts, and every new contribution earns unlock time.",
+   "value": "コードを書くまで気が散るアプリをブロック。1つ以上の GitHub アカウントを追跡し、貢献ごとに時間を獲得。"
+  },
+  {
+   "id": "asc.description",
+   "kind": "asc",
+   "section": "description",
+   "en": "GitFocus helps developers stay productive by rewarding coding with app access. Block distracting apps until you commit code to GitHub.\n\nHOW IT WORKS\n• Add one or more GitHub accounts (no sign-in required)\n• Select apps to block during focus sessions\n• Each new GitHub contribution earns you 5 minutes of unlock time\n• Need emergency access? Use a life to unlock until midnight\n\nKEY FEATURES\n\nCommit-Based Rewards\nEvery time your GitHub contribution graph increases, you earn unlock time for your blocked apps. The more you code, the more time you earn.\n\nSmart App Blocking\nUses iOS Screen Time to block apps you choose. No workarounds - the apps are truly blocked until you earn time or use a life.\n\nLives System\nStart with 1 free life. Use it for emergency access when you need to check something urgent. Earn more lives by building your coding streak.\n\nTime Borrowing\nNeed to quickly finish a message? Borrow up to 5 minutes. Your future commits will pay it back automatically.\n\nContribution Graph\nSee your GitHub activity at a glance. Watch your coding streak grow as you stay focused and productive.\n\nPrivacy First\nWe only read your public contribution graph (no access to your repositories or code). Your data is stored on your device, with optional iCloud sync for certain settings/statistics if iCloud is enabled.\n\nPERFECT FOR\n• Developers who want to reduce social media time\n• Students learning to code\n• Anyone building a coding habit\n• Teams doing focus sprints\n\nBreak the doom-scrolling cycle. Start coding, start earning.\n\nNote: Requires a public GitHub profile with visible contributions.",
+   "value": "GitFocus は、アプリへのアクセスによってコーディングに報酬を与えることで、開発者の生産性を維持するのに役立ちます。 GitHub にコードをコミットするまで、気が散るアプリをブロックします。\n\n仕組み\n• 1つ以上の GitHub アカウントを追加します (サインイン不要)\n• フォーカス セッション中にブロックするアプリを選択\n• 新しい GitHub を投稿するたびに、5 分間のロック解除時間が得られます\n• 緊急アクセスが必要ですか?ライフを使って真夜中までロックを解除\n\n主な機能\n\nコミットベースの報酬\nGitHub 貢献グラフが増加するたびに、ブロックされたアプリのロック解除時間を獲得できます。コードを作成すればするほど、より多くの時間を獲得できます。\n\nスマート アプリ ブロック\niOS Screen Time を使用して、選択したアプリをブロックします。回避策はありません - 時間を稼ぐかライフを使用するまで、アプリは実際にブロックされます。\n\nライブ システム\n無料のライフを 1 つから始めます。緊急の確認が必要な場合の緊急アクセスに使用します。コーディング ストリークを構築して、より多くのライフを獲得しましょう。\n\n時間の借入\nメッセージをすぐに終わらせる必要がありますか? 5分まで借りることができます。今後のコミットメントによって自動的に返済されます。\n\n貢献度グラフ\nGitHub アクティビティが一目でわかります。集中力と生産性を維持しながら、コーディングの回数が増えていくのを観察してください。\n\nプライバシー第一\n私たちはあなたのパブリックコントリビューショングラフのみを読み取ります (あなたのリポジトリやコードにはアクセスできません)。データはデバイスに保存され、iCloud が有効な場合、特定の設定/統計についてはオプションの iCloud 同期が行われます。\n\nPERFECT FOR\n• ソーシャル メディアの時間を削減したい開発者\n• コーディングを学習している学生\n• コーディングの習慣を身につけている人\n• フォーカス スプリントを行っているチーム\n\n運命をスクロールするサイクルを断ち切りましょう。コーディングを始めて、稼ぎ始めましょう。\n\n注: 貢献が見える公開 GitHub プロフィールが必要です。"
+  },
+  {
+   "id": "asc.keywords",
+   "kind": "asc",
+   "section": "keywords",
+   "en": "timer,productivity,github,coding,developer,screen time,app blocker,habit,streak,pomodoro,deep work",
+   "value": "集中,生産性,ギットハブ,コーディング,開発者,スクリーンタイム,癖,縞模様"
+  },
+  {
+   "id": "asc.release_notes",
+   "kind": "asc",
+   "section": "release notes",
+   "en": "What's New in 1.1.0:\n\nGitHub Accounts\n• Track multiple public GitHub accounts at once\n• Switch contribution views between all included accounts, one account, or a custom selection\n• Filter the contribution timeline by available years or show all years together\n\nRelease Prep\n• Updated App Store screenshots and website assets for the new multi-account flow\n• Localization coverage fixes for the new contribution filters",
+   "value": "1.1.0 の新機能:\n\nGitHub アカウント\n• 複数の公開 GitHub アカウントを同時に追跡\n• すべての対象アカウント、単一アカウント、カスタム選択で表示を切り替え\n• 利用可能な年で貢献タイムラインを絞り込み、またはすべての年をまとめて表示\n\nリリース準備\n• 新しいマルチアカウントフローに合わせて App Store スクリーンショットとサイト素材を更新\n• 新しい貢献フィルターのローカライズを修正"
+  },
+  {
+   "id": "site.index.000",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus - Block Apps Until You Commit",
+   "value": "GitFocus — コミットするまでアプリをロック"
+  },
+  {
+   "id": "site.index.001",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS.",
+   "value": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS."
+  },
+  {
+   "id": "site.index.002",
+   "kind": "site",
+   "section": "index",
+   "en": "Skip to main content",
+   "value": "メインコンテンツへスキップ"
+  },
+  {
+   "id": "site.index.003",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.index.004",
+   "kind": "site",
+   "section": "index",
+   "en": "Features",
+   "value": "機能"
+  },
+  {
+   "id": "site.index.005",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy",
+   "value": "プライバシー"
+  },
+  {
+   "id": "site.index.006",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.index.007",
+   "kind": "site",
+   "section": "index",
+   "en": "🇬🇧 EN",
+   "value": "🇯🇵 JA"
+  },
+  {
+   "id": "site.index.008",
+   "kind": "site",
+   "section": "index",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.index.009",
+   "kind": "site",
+   "section": "index",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.index.010",
+   "kind": "site",
+   "section": "index",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.index.011",
+   "kind": "site",
+   "section": "index",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.index.012",
+   "kind": "site",
+   "section": "index",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.index.013",
+   "kind": "site",
+   "section": "index",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.index.014",
+   "kind": "site",
+   "section": "index",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.index.015",
+   "kind": "site",
+   "section": "index",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.index.016",
+   "kind": "site",
+   "section": "index",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.index.017",
+   "kind": "site",
+   "section": "index",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.index.018",
+   "kind": "site",
+   "section": "index",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.index.019",
+   "kind": "site",
+   "section": "index",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.index.020",
+   "kind": "site",
+   "section": "index",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.index.021",
+   "kind": "site",
+   "section": "index",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.index.022",
+   "kind": "site",
+   "section": "index",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.index.023",
+   "kind": "site",
+   "section": "index",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.index.024",
+   "kind": "site",
+   "section": "index",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.index.025",
+   "kind": "site",
+   "section": "index",
+   "en": "Now on the App Store",
+   "value": "App Storeで公開中"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
+   "en": "Block apps until you",
+   "value": "アプリをロック、解除は"
+  },
+  {
+   "id": "site.index.027",
+   "kind": "site",
+   "section": "index",
+   "en": "git push",
+   "value": "git push"
+  },
+  {
+   "id": "site.index.028",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
+   "value": "GitFocusはコーディングの習慣をゲームに変えます。ひとつ、あるいは複数のGitHubアカウントからコミットすれば、気を散らすアプリのロックが解除されます。それだけです。"
+  },
+  {
+   "id": "site.index.029",
+   "kind": "site",
+   "section": "index",
+   "en": "See how it works",
+   "value": "仕組みを見る"
+  },
+  {
+   "id": "site.index.030",
+   "kind": "site",
+   "section": "index",
+   "en": "git commit -m \"unlock apps\"",
+   "value": "git commit -m \"unlock apps\""
+  },
+  {
+   "id": "site.index.031",
+   "kind": "site",
+   "section": "index",
+   "en": "Scroll to explore",
+   "value": "スクロールして見る"
+  },
+  {
+   "id": "site.index.032",
+   "kind": "site",
+   "section": "index",
+   "en": "// How it works",
+   "value": "// 仕組み"
+  },
+  {
+   "id": "site.index.033",
+   "kind": "site",
+   "section": "index",
+   "en": "Turn commits into freedom",
+   "value": "コミットを自由な時間に"
+  },
+  {
+   "id": "site.index.034",
+   "kind": "site",
+   "section": "index",
+   "en": "Setup takes 2 minutes. Then let your code do the talking.",
+   "value": "設定は2分。あとはコードに語らせましょう。"
+  },
+  {
+   "id": "site.index.035",
+   "kind": "site",
+   "section": "index",
+   "en": "Add GitHub accounts",
+   "value": "GitHubアカウントを追加"
+  },
+  {
+   "id": "site.index.036",
+   "kind": "site",
+   "section": "index",
+   "en": "Track one account or aggregate work, personal, and open-source profiles",
+   "value": "ひとつのアカウントでも、仕事・個人・OSSのプロフィールをまとめても記録できます"
+  },
+  {
+   "id": "site.index.037",
+   "kind": "site",
+   "section": "index",
+   "en": "Dashboard",
+   "value": "ダッシュボード"
+  },
+  {
+   "id": "site.index.038",
+   "kind": "site",
+   "section": "index",
+   "en": "Track your streak, daily score, and app lock status at a glance",
+   "value": "連続記録、1日のスコア、ロック状況をひと目で確認"
+  },
+  {
+   "id": "site.index.039",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Stats",
+   "value": "フォーカス統計"
+  },
+  {
+   "id": "site.index.040",
+   "kind": "site",
+   "section": "index",
+   "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
+   "value": "毎日100から開始。ロック時間と解除がスコアを削っていく様子がわかります"
+  },
+  {
+   "id": "site.index.041",
+   "kind": "site",
+   "section": "index",
+   "en": "Contribution Stats",
+   "value": "コントリビューション統計"
+  },
+  {
+   "id": "site.index.042",
+   "kind": "site",
+   "section": "index",
+   "en": "Deep dive into your GitHub activity with detailed statistics",
+   "value": "詳細な統計でGitHubの活動を深く掘り下げる"
+  },
+  {
+   "id": "site.index.043",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Timer",
+   "value": "フォーカスタイマー"
+  },
+  {
+   "id": "site.index.044",
+   "kind": "site",
+   "section": "index",
+   "en": "Built-in Pomodoro timer to maximize your productivity sessions",
+   "value": "内蔵のポモドーロタイマーで集中時間を最大化"
+  },
+  {
+   "id": "site.index.045",
+   "kind": "site",
+   "section": "index",
+   "en": "// Features",
+   "value": "// 機能"
+  },
+  {
+   "id": "site.index.046",
+   "kind": "site",
+   "section": "index",
+   "en": "Everything you need to stay focused",
+   "value": "集中を保つために必要なすべて"
+  },
+  {
+   "id": "site.index.047",
+   "kind": "site",
+   "section": "index",
+   "en": "Not just another app blocker. GitFocus gamifies productivity.",
+   "value": "ただのアプリブロッカーではありません。GitFocusは生産性をゲームに変えます。"
+  },
+  {
+   "id": "site.index.048",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn Time",
+   "value": "時間を稼ぐ"
+  },
+  {
+   "id": "site.index.049",
+   "kind": "site",
+   "section": "index",
+   "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
+   "value": "対象のGitHubアカウントからのコミットごとに解除時間が貯まります。 仕事も個人もOSSも、まとめて記録。"
+  },
+  {
+   "id": "site.index.050",
+   "kind": "site",
+   "section": "index",
+   "en": "mins unlocked",
+   "value": "分 解除済み"
+  },
+  {
+   "id": "site.index.051",
+   "kind": "site",
+   "section": "index",
+   "en": "Simulate commit",
+   "value": "コミットを試す"
+  },
+  {
+   "id": "site.index.052",
+   "kind": "site",
+   "section": "index",
+   "en": "Lives System",
+   "value": "ライフ制"
+  },
+  {
+   "id": "site.index.053",
+   "kind": "site",
+   "section": "index",
+   "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
+   "value": "どうしても必要なときは、ライフを1つ使えば深夜0時までロックを解除できます。 最初に1つ無料で持っています。"
+  },
+  {
+   "id": "site.index.054",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn more through",
+   "value": "さらに増やすには"
+  },
+  {
+   "id": "site.index.055",
+   "kind": "site",
+   "section": "index",
+   "en": "streaks",
+   "value": "連続記録"
+  },
+  {
+   "id": "site.index.056",
+   "kind": "site",
+   "section": "index",
+   "en": "Borrow Time",
+   "value": "時間を借りる"
+  },
+  {
+   "id": "site.index.057",
+   "kind": "site",
+   "section": "index",
+   "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
+   "value": "メッセージを書き終えたい？ 最大5分まで借りられます。 これからのコミットが返済します。"
+  },
+  {
+   "id": "site.index.058",
+   "kind": "site",
+   "section": "index",
+   "en": "Current debt:",
+   "value": "現在の借り:"
+  },
+  {
+   "id": "site.index.059",
+   "kind": "site",
+   "section": "index",
+   "en": "0 min",
+   "value": "0分"
+  },
+  {
+   "id": "site.index.060",
+   "kind": "site",
+   "section": "index",
+   "en": "Max borrow:",
+   "value": "借入上限:"
+  },
+  {
+   "id": "site.index.061",
+   "kind": "site",
+   "section": "index",
+   "en": "5 min",
+   "value": "5分"
+  },
+  {
+   "id": "site.index.062",
+   "kind": "site",
+   "section": "index",
+   "en": "Discipline Bank",
+   "value": "自制バンク"
+  },
+  {
+   "id": "site.index.063",
+   "kind": "site",
+   "section": "index",
+   "en": "(Coming Soon)",
+   "value": "（近日公開）"
+  },
+  {
+   "id": "site.index.064",
+   "kind": "site",
+   "section": "index",
+   "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
+   "value": "稼いでも使わなかった時間は貯まります。あなたの自制心の指標です。"
+  },
+  {
+   "id": "site.index.065",
+   "kind": "site",
+   "section": "index",
+   "en": "minutes banked",
+   "value": "分 貯金"
+  },
+  {
+   "id": "site.index.066",
+   "kind": "site",
+   "section": "index",
+   "en": "Challenge: Bank",
+   "value": "チャレンジ: 貯金"
+  },
+  {
+   "id": "site.index.067",
+   "kind": "site",
+   "section": "index",
+   "en": "1000 min",
+   "value": "1000分"
+  },
+  {
+   "id": "site.index.068",
+   "kind": "site",
+   "section": "index",
+   "en": "this year",
+   "value": "今年"
+  },
+  {
+   "id": "site.index.069",
+   "kind": "site",
+   "section": "index",
+   "en": "Streak Milestones",
+   "value": "連続記録のマイルストーン"
+  },
+  {
+   "id": "site.index.070",
+   "kind": "site",
+   "section": "index",
+   "en": "Build your streak to unlock permanent rewards.",
+   "value": "連続記録を伸ばして、永続的な特典を解除しましょう。"
+  },
+  {
+   "id": "site.index.071",
+   "kind": "site",
+   "section": "index",
+   "en": "14d",
+   "value": "14日"
+  },
+  {
+   "id": "site.index.072",
+   "kind": "site",
+   "section": "index",
+   "en": "+1 extra life",
+   "value": "ライフ+1"
+  },
+  {
+   "id": "site.index.073",
+   "kind": "site",
+   "section": "index",
+   "en": "30d",
+   "value": "30日"
+  },
+  {
+   "id": "site.index.074",
+   "kind": "site",
+   "section": "index",
+   "en": "Weekly time bank",
+   "value": "週ごとの時間バンク"
+  },
+  {
+   "id": "site.index.075",
+   "kind": "site",
+   "section": "index",
+   "en": "90d",
+   "value": "90日"
+  },
+  {
+   "id": "site.index.076",
+   "kind": "site",
+   "section": "index",
+   "en": "Time never expires",
+   "value": "時間が失効しない"
+  },
+  {
+   "id": "site.index.077",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy First",
+   "value": "プライバシー第一"
+  },
+  {
+   "id": "site.index.078",
+   "kind": "site",
+   "section": "index",
+   "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
+   "value": "GitFocusのアカウント不要。GitHubログインも不要。すべて端末内に留まります。"
+  },
+  {
+   "id": "site.index.079",
+   "kind": "site",
+   "section": "index",
+   "en": "Works offline",
+   "value": "オフラインで動作"
+  },
+  {
+   "id": "site.index.080",
+   "kind": "site",
+   "section": "index",
+   "en": "No tracking",
+   "value": "トラッキングなし"
+  },
+  {
+   "id": "site.index.081",
+   "kind": "site",
+   "section": "index",
+   "en": "Open source friendly",
+   "value": "オープンソースにやさしい"
+  },
+  {
+   "id": "site.index.082",
+   "kind": "site",
+   "section": "index",
+   "en": "Ready to ship more code?",
+   "value": "もっとコードを届けませんか？"
+  },
+  {
+   "id": "site.index.083",
+   "kind": "site",
+   "section": "index",
+   "en": "Join developers who've turned procrastination into productivity.",
+   "value": "先延ばしを生産性に変えた開発者たちに加わりましょう。"
+  },
+  {
+   "id": "site.index.084",
+   "kind": "site",
+   "section": "index",
+   "en": "Free to use. No subscription required.",
+   "value": "無料で使えます。サブスクリプションは不要です。"
+  },
+  {
+   "id": "site.index.085",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy Policy",
+   "value": "プライバシーポリシー"
+  },
+  {
+   "id": "site.index.086",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.index.087",
+   "kind": "site",
+   "section": "index",
+   "en": "Accessibility",
+   "value": "アクセシビリティ"
+  },
+  {
+   "id": "site.index.088",
+   "kind": "site",
+   "section": "index",
+   "en": "Contact",
+   "value": "お問い合わせ"
+  },
+  {
+   "id": "site.index.089",
+   "kind": "site",
+   "section": "index",
+   "en": "© 2026 GitFocus. Made with git and focus.",
+   "value": "© 2026 GitFocus. git と集中でつくりました。"
+  },
+  {
+   "id": "site.support.000",
+   "kind": "site",
+   "section": "support",
+   "en": "Support - GitFocus",
+   "value": "サポート - GitFocus"
+  },
+  {
+   "id": "site.support.001",
+   "kind": "site",
+   "section": "support",
+   "en": "Get help with GitFocus. FAQs, troubleshooting, and contact information.",
+   "value": "Get help with GitFocus. FAQs, troubleshooting, and contact information."
+  },
+  {
+   "id": "site.support.002",
+   "kind": "site",
+   "section": "support",
+   "en": "Skip to main content",
+   "value": "メインコンテンツへスキップ"
+  },
+  {
+   "id": "site.support.003",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.support.004",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "ホーム"
+  },
+  {
+   "id": "site.support.005",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy",
+   "value": "プライバシー"
+  },
+  {
+   "id": "site.support.006",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.support.007",
+   "kind": "site",
+   "section": "support",
+   "en": "🇬🇧 EN",
+   "value": "🇯🇵 JA"
+  },
+  {
+   "id": "site.support.008",
+   "kind": "site",
+   "section": "support",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.support.009",
+   "kind": "site",
+   "section": "support",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.support.010",
+   "kind": "site",
+   "section": "support",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.support.011",
+   "kind": "site",
+   "section": "support",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.support.012",
+   "kind": "site",
+   "section": "support",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.support.013",
+   "kind": "site",
+   "section": "support",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.support.014",
+   "kind": "site",
+   "section": "support",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.support.015",
+   "kind": "site",
+   "section": "support",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.support.016",
+   "kind": "site",
+   "section": "support",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.support.017",
+   "kind": "site",
+   "section": "support",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.support.018",
+   "kind": "site",
+   "section": "support",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.support.019",
+   "kind": "site",
+   "section": "support",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.support.020",
+   "kind": "site",
+   "section": "support",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.support.021",
+   "kind": "site",
+   "section": "support",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.support.022",
+   "kind": "site",
+   "section": "support",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.support.023",
+   "kind": "site",
+   "section": "support",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.support.024",
+   "kind": "site",
+   "section": "support",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.support.025",
+   "kind": "site",
+   "section": "support",
+   "en": "// Support",
+   "value": "// サポート"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
+   "en": "How can we help?",
+   "value": "どのようにお手伝いできますか？"
+  },
+  {
+   "id": "site.support.027",
+   "kind": "site",
+   "section": "support",
+   "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
+   "value": "よくある質問への回答を確認するか、直接お問い合わせください。 通常24時間以内にご返信いたします。"
+  },
+  {
+   "id": "site.support.028",
+   "kind": "site",
+   "section": "support",
+   "en": "Get in Touch",
+   "value": "お問い合わせ"
+  },
+  {
+   "id": "site.support.029",
+   "kind": "site",
+   "section": "support",
+   "en": "Have a question, bug report, or feature request?",
+   "value": "ご質問、バグ報告、機能リクエストがありますか？"
+  },
+  {
+   "id": "site.support.030",
+   "kind": "site",
+   "section": "support",
+   "en": "We'd love to hear from you.",
+   "value": "お気軽にご連絡ください。"
+  },
+  {
+   "id": "site.support.031",
+   "kind": "site",
+   "section": "support",
+   "en": "Chat with us",
+   "value": "チャットで問い合わせ"
+  },
+  {
+   "id": "site.support.032",
+   "kind": "site",
+   "section": "support",
+   "en": "or email us at",
+   "value": "またはメールでお問い合わせ"
+  },
+  {
+   "id": "site.support.033",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.034",
+   "kind": "site",
+   "section": "support",
+   "en": "Frequently Asked Questions",
+   "value": "よくある質問"
+  },
+  {
+   "id": "site.support.035",
+   "kind": "site",
+   "section": "support",
+   "en": "All",
+   "value": "すべて"
+  },
+  {
+   "id": "site.support.036",
+   "kind": "site",
+   "section": "support",
+   "en": "Setup",
+   "value": "セットアップ"
+  },
+  {
+   "id": "site.support.037",
+   "kind": "site",
+   "section": "support",
+   "en": "Features",
+   "value": "機能"
+  },
+  {
+   "id": "site.support.038",
+   "kind": "site",
+   "section": "support",
+   "en": "Troubleshooting",
+   "value": "トラブルシューティング"
+  },
+  {
+   "id": "site.support.039",
+   "kind": "site",
+   "section": "support",
+   "en": "Do I need to connect my GitHub account?",
+   "value": "GitHubアカウントの接続は必要ですか？"
+  },
+  {
+   "id": "site.support.040",
+   "kind": "site",
+   "section": "support",
+   "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
+   "value": "いいえ！GitFocusは追跡したいGitHubユーザー名のみが必要です。公開コントリビューショングラフ（プロフィールの緑の四角）を読み取ってコミットを検出します。OAuth、トークン、パスワードは一切不要です。"
+  },
+  {
+   "id": "site.support.041",
+   "kind": "site",
+   "section": "support",
+   "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
+   "value": "複数のGitHubアカウントを追加し、どのアカウントをコミット検出の対象にするかを決定できます。"
+  },
+  {
+   "id": "site.support.042",
+   "kind": "site",
+   "section": "support",
+   "en": "Why do you need Screen Time permissions?",
+   "value": "Screen Timeの許可が必要な理由は？"
+  },
+  {
+   "id": "site.support.043",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
+   "value": "GitFocusはAppleのScreen Time APIを使用してアプリをブロックします。これはApple標準のペアレンタルコントロールと同じセキュアなシステムです。お客様に代わってアプリの制限を適用するには許可が必要です。"
+  },
+  {
+   "id": "site.support.044",
+   "kind": "site",
+   "section": "support",
+   "en": "Does GitFocus work with private repositories?",
+   "value": "GitFocusはプライベートリポジトリで機能しますか？"
+  },
+  {
+   "id": "site.support.045",
+   "kind": "site",
+   "section": "support",
+   "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
+   "value": "はい！GitHubはデフォルトで、コントリビューショングラフにすべてのコミット（公開とプライベート）をカウントします。コントリビューション設定で「プライベートコントリビューション」の表示が有効になっていれば、それらを確認できます。"
+  },
+  {
+   "id": "site.support.046",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
+   "value": "GitHubプロフィール → コントリビューション設定 → 「プライベートコントリビューション」にチェック"
+  },
+  {
+   "id": "site.support.047",
+   "kind": "site",
+   "section": "support",
+   "en": "How much time does each commit earn?",
+   "value": "各コミットでどれだけの時間を獲得できますか？"
+  },
+  {
+   "id": "site.support.048",
+   "kind": "site",
+   "section": "support",
+   "en": "Each commit earns you",
+   "value": "各コミットで獲得できるのは"
+  },
+  {
+   "id": "site.support.049",
+   "kind": "site",
+   "section": "support",
+   "en": "5 minutes",
+   "value": "5分"
+  },
+  {
+   "id": "site.support.050",
+   "kind": "site",
+   "section": "support",
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
+   "value": "のロック解除時間です。3つのコミットをプッシュすると？Twitterを15分間、罪悪感なくスクロールできます。🎉"
+  },
+  {
+   "id": "site.support.051",
+   "kind": "site",
+   "section": "support",
+   "en": "What are \"Lives\" and how do they work?",
+   "value": "「ライフ」とは何ですか？どのように機能しますか？"
+  },
+  {
+   "id": "site.support.052",
+   "kind": "site",
+   "section": "support",
+   "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
+   "value": "ライフは緊急ロック解除です。ライフを使用すると、ブロックされたすべてのアプリが深夜までロック解除されます。1つの無料ライフから始まり、ストリークを通じてさらに獲得できます:"
+  },
+  {
+   "id": "site.support.053",
+   "kind": "site",
+   "section": "support",
+   "en": "14-day streak: +1 life",
+   "value": "14日ストリーク: ライフ+1"
+  },
+  {
+   "id": "site.support.054",
+   "kind": "site",
+   "section": "support",
+   "en": "Then +1 life every month you maintain the streak",
+   "value": "その後、ストリークを維持するごとに毎月ライフ+1"
+  },
+  {
+   "id": "site.support.055",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the \"Borrow Time\" feature?",
+   "value": "「時間借用」機能とは何ですか？"
+  },
+  {
+   "id": "site.support.056",
+   "kind": "site",
+   "section": "support",
+   "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
+   "value": "短いメッセージを送る必要があるのにロック解除時間がない？最大5分まで借用できます。これにより「負債」が発生し、今後のコミット獲得時間から返済されます。"
+  },
+  {
+   "id": "site.support.057",
+   "kind": "site",
+   "section": "support",
+   "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
+   "value": "例: 3分借用します。次のコミットで5分獲得しますが、3分が負債返済に充てられ、残り2分となります。"
+  },
+  {
+   "id": "site.support.058",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the Discipline Bank?",
+   "value": "Discipline Bankとは何ですか？"
+  },
+  {
+   "id": "site.support.059",
+   "kind": "site",
+   "section": "support",
+   "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
+   "value": "Discipline Bankは獲得したが使用していない時間を追跡します。これは自制心の尺度です。獲得したが気晴らしに使わなかった各分が銀行に預けられます。"
+  },
+  {
+   "id": "site.support.060",
+   "kind": "site",
+   "section": "support",
+   "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
+   "value": "チャレンジしてみましょう: 年末までに何分貯められますか？"
+  },
+  {
+   "id": "site.support.061",
+   "kind": "site",
+   "section": "support",
+   "en": "What are the streak milestone rewards?",
+   "value": "ストリークマイルストーン報酬とは何ですか？"
+  },
+  {
+   "id": "site.support.062",
+   "kind": "site",
+   "section": "support",
+   "en": "Building a streak unlocks permanent perks:",
+   "value": "ストリークを構築すると、永続的な特典がアンロックされます:"
+  },
+  {
+   "id": "site.support.063",
+   "kind": "site",
+   "section": "support",
+   "en": "14 days:",
+   "value": "14日:"
+  },
+  {
+   "id": "site.support.064",
+   "kind": "site",
+   "section": "support",
+   "en": "+1 extra life (then +1/month)",
+   "value": "追加ライフ+1（その後毎月+1）"
+  },
+  {
+   "id": "site.support.065",
+   "kind": "site",
+   "section": "support",
+   "en": "30 days:",
+   "value": "30日:"
+  },
+  {
+   "id": "site.support.066",
+   "kind": "site",
+   "section": "support",
+   "en": "Weekly time bank (unused time resets weekly instead of daily)",
+   "value": "週次タイムバンク（未使用時間が毎日ではなく毎週リセット）"
+  },
+  {
+   "id": "site.support.067",
+   "kind": "site",
+   "section": "support",
+   "en": "90 days:",
+   "value": "90日:"
+  },
+  {
+   "id": "site.support.068",
+   "kind": "site",
+   "section": "support",
+   "en": "Permanent time (earned time never expires)",
+   "value": "永続時間（獲得時間が期限切れにならない）"
+  },
+  {
+   "id": "site.support.069",
+   "kind": "site",
+   "section": "support",
+   "en": "My commits aren't being detected",
+   "value": "コミットが検出されません"
+  },
+  {
+   "id": "site.support.070",
+   "kind": "site",
+   "section": "support",
+   "en": "Here are some things to check:",
+   "value": "確認すべき点:"
+  },
+  {
+   "id": "site.support.071",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure your GitHub username is entered correctly",
+   "value": "GitHubユーザー名が正しく入力されているか確認してください"
+  },
+  {
+   "id": "site.support.072",
+   "kind": "site",
+   "section": "support",
+   "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
+   "value": "複数のアカウントを使用している場合、コミット検出に正しいアカウントが有効になっているか確認してください"
+  },
+  {
+   "id": "site.support.073",
+   "kind": "site",
+   "section": "support",
+   "en": "Check that your commits show up on your GitHub profile's contribution graph",
+   "value": "GitHubプロフィールのコントリビューショングラフにコミットが表示されているか確認してください"
+  },
+  {
+   "id": "site.support.074",
+   "kind": "site",
+   "section": "support",
+   "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
+   "value": "プライベートリポジトリを使用している場合、GitHub設定で「プライベートコントリビューション」が有効になっているか確認してください"
+  },
+  {
+   "id": "site.support.075",
+   "kind": "site",
+   "section": "support",
+   "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
+   "value": "数分待ってください — GitHubのコントリビューショングラフの更新には時間がかかることがあります"
+  },
+  {
+   "id": "site.support.076",
+   "kind": "site",
+   "section": "support",
+   "en": "Apps aren't being blocked",
+   "value": "アプリがブロックされません"
+  },
+  {
+   "id": "site.support.077",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you've:",
+   "value": "以下を確認してください:"
+  },
+  {
+   "id": "site.support.078",
+   "kind": "site",
+   "section": "support",
+   "en": "Granted Screen Time permissions during setup",
+   "value": "セットアップ時にScreen Timeの許可を付与した"
+  },
+  {
+   "id": "site.support.079",
+   "kind": "site",
+   "section": "support",
+   "en": "Selected at least one app or category to block",
+   "value": "ブロックするアプリまたはカテゴリを少なくとも1つ選択した"
+  },
+  {
+   "id": "site.support.080",
+   "kind": "site",
+   "section": "support",
+   "en": "Started a focus session from the main screen",
+   "value": "メイン画面から集中セッションを開始した"
+  },
+  {
+   "id": "site.support.081",
+   "kind": "site",
+   "section": "support",
+   "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
+   "value": "問題が続く場合は、iOS設定 → Screen Timeに移動し、GitFocusに必要な許可があることを確認してください。"
+  },
+  {
+   "id": "site.support.082",
+   "kind": "site",
+   "section": "support",
+   "en": "The app crashed or is behaving unexpectedly",
+   "value": "アプリがクラッシュする、または予期しない動作をします"
+  },
+  {
+   "id": "site.support.083",
+   "kind": "site",
+   "section": "support",
+   "en": "Try these steps:",
+   "value": "以下の手順を試してください:"
+  },
+  {
+   "id": "site.support.084",
+   "kind": "site",
+   "section": "support",
+   "en": "Force quit and reopen the app",
+   "value": "アプリを強制終了して再起動"
+  },
+  {
+   "id": "site.support.085",
+   "kind": "site",
+   "section": "support",
+   "en": "Restart your device",
+   "value": "デバイスを再起動"
+  },
+  {
+   "id": "site.support.086",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you're on the latest version of GitFocus",
+   "value": "GitFocusの最新バージョンを使用しているか確認"
+  },
+  {
+   "id": "site.support.087",
+   "kind": "site",
+   "section": "support",
+   "en": "If the issue persists, email us at",
+   "value": "問題が続く場合は、以下のメールアドレスにお問い合わせください"
+  },
+  {
+   "id": "site.support.088",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.089",
+   "kind": "site",
+   "section": "support",
+   "en": "with details about what happened",
+   "value": "何が起こったかの詳細とともに"
+  },
+  {
+   "id": "site.support.090",
+   "kind": "site",
+   "section": "support",
+   "en": "How do I reset or start over?",
+   "value": "リセットまたはやり直すにはどうすればよいですか？"
+  },
+  {
+   "id": "site.support.091",
+   "kind": "site",
+   "section": "support",
+   "en": "To completely reset GitFocus:",
+   "value": "GitFocusを完全にリセットするには:"
+  },
+  {
+   "id": "site.support.092",
+   "kind": "site",
+   "section": "support",
+   "en": "Delete the app from your device",
+   "value": "デバイスからアプリを削除"
+  },
+  {
+   "id": "site.support.093",
+   "kind": "site",
+   "section": "support",
+   "en": "Reinstall from the App Store",
+   "value": "App Storeから再インストール"
+  },
+  {
+   "id": "site.support.094",
+   "kind": "site",
+   "section": "support",
+   "en": "Go through the onboarding again",
+   "value": "オンボーディングを再度実行"
+  },
+  {
+   "id": "site.support.095",
+   "kind": "site",
+   "section": "support",
+   "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
+   "value": "注: GitHubユーザー名またはアカウントリストは利便性のためセキュアに保存されているため、再インストール時に事前入力される場合があります。"
+  },
+  {
+   "id": "site.support.096",
+   "kind": "site",
+   "section": "support",
+   "en": "Quick Troubleshooting",
+   "value": "クイックトラブルシューティング"
+  },
+  {
+   "id": "site.support.097",
+   "kind": "site",
+   "section": "support",
+   "en": "Force Refresh",
+   "value": "強制更新"
+  },
+  {
+   "id": "site.support.098",
+   "kind": "site",
+   "section": "support",
+   "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
+   "value": "メイン画面で下にプルして、GitHubからコミットデータを手動で更新します。"
+  },
+  {
+   "id": "site.support.099",
+   "kind": "site",
+   "section": "support",
+   "en": "Check Permissions",
+   "value": "許可の確認"
+  },
+  {
+   "id": "site.support.100",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
+   "value": "iOS設定 → Screen Time → GitFocusに移動し、許可が付与されていることを確認します。"
+  },
+  {
+   "id": "site.support.101",
+   "kind": "site",
+   "section": "support",
+   "en": "Verify GitHub",
+   "value": "GitHubの確認"
+  },
+  {
+   "id": "site.support.102",
+   "kind": "site",
+   "section": "support",
+   "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
+   "value": "github.com/[あなたのユーザー名]にアクセスし、コントリビューショングラフに最近のコミットが表示されていることを確認します。"
+  },
+  {
+   "id": "site.support.103",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "プライバシーポリシー"
+  },
+  {
+   "id": "site.support.104",
+   "kind": "site",
+   "section": "support",
+   "en": "Learn how we protect your data",
+   "value": "データ保護の詳細を確認"
+  },
+  {
+   "id": "site.support.105",
+   "kind": "site",
+   "section": "support",
+   "en": "Report a Bug",
+   "value": "バグを報告"
+  },
+  {
+   "id": "site.support.106",
+   "kind": "site",
+   "section": "support",
+   "en": "Help us improve GitFocus",
+   "value": "GitFocusの改善にご協力ください"
+  },
+  {
+   "id": "site.support.107",
+   "kind": "site",
+   "section": "support",
+   "en": "Request a Feature",
+   "value": "機能をリクエスト"
+  },
+  {
+   "id": "site.support.108",
+   "kind": "site",
+   "section": "support",
+   "en": "Tell us what you'd like to see",
+   "value": "実装してほしい機能をお聞かせください"
+  },
+  {
+   "id": "site.support.109",
+   "kind": "site",
+   "section": "support",
+   "en": "Localization Feedback",
+   "value": "翻訳フィードバック"
+  },
+  {
+   "id": "site.support.110",
+   "kind": "site",
+   "section": "support",
+   "en": "Review the translations and suggest fixes",
+   "value": "翻訳を確認して修正を提案"
+  },
+  {
+   "id": "site.support.111",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "ホーム"
+  },
+  {
+   "id": "site.support.112",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "プライバシーポリシー"
+  },
+  {
+   "id": "site.support.113",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.support.114",
+   "kind": "site",
+   "section": "support",
+   "en": "Accessibility",
+   "value": "アクセシビリティ"
+  },
+  {
+   "id": "site.support.115",
+   "kind": "site",
+   "section": "support",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.privacy.000",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy - GitFocus",
+   "value": "プライバシーポリシー - GitFocus"
+  },
+  {
+   "id": "site.privacy.001",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device.",
+   "value": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device."
+  },
+  {
+   "id": "site.privacy.002",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Skip to main content",
+   "value": "メインコンテンツへスキップ"
+  },
+  {
+   "id": "site.privacy.003",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.privacy.004",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "ホーム"
+  },
+  {
+   "id": "site.privacy.005",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy",
+   "value": "プライバシー"
+  },
+  {
+   "id": "site.privacy.006",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.privacy.007",
+   "kind": "site",
+   "section": "privacy",
+   "en": "🇬🇧 EN",
+   "value": "🇯🇵 JA"
+  },
+  {
+   "id": "site.privacy.008",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.privacy.009",
+   "kind": "site",
+   "section": "privacy",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.privacy.010",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.privacy.011",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.privacy.012",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.privacy.013",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.privacy.014",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.privacy.015",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.privacy.016",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.privacy.017",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.privacy.018",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.privacy.019",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.privacy.020",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.privacy.021",
+   "kind": "site",
+   "section": "privacy",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.privacy.022",
+   "kind": "site",
+   "section": "privacy",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.privacy.023",
+   "kind": "site",
+   "section": "privacy",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.privacy.024",
+   "kind": "site",
+   "section": "privacy",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.privacy.025",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// Privacy Policy",
+   "value": "// プライバシーポリシー"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your data stays yours",
+   "value": "あなたのデータはあなたのものです"
+  },
+  {
+   "id": "site.privacy.027",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
+   "value": "GitFocusはプライバシーを最優先に設計されています。あなたの情報をどのように扱い、また扱わないかをご説明します。"
+  },
+  {
+   "id": "site.privacy.028",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Last updated: January 2026",
+   "value": "最終更新日: January 2026"
+  },
+  {
+   "id": "site.privacy.029",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// TL;DR",
+   "value": "// 要約"
+  },
+  {
+   "id": "site.privacy.030",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We don't collect your data. Period.",
+   "value": "私たちはあなたのデータを一切収集しません。以上です。"
+  },
+  {
+   "id": "site.privacy.031",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No accounts required",
+   "value": "アカウント不要"
+  },
+  {
+   "id": "site.privacy.032",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything on-device",
+   "value": "すべてデバイス上で完結"
+  },
+  {
+   "id": "site.privacy.033",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No tracking or analytics",
+   "value": "トラッキングや分析なし"
+  },
+  {
+   "id": "site.privacy.034",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Works offline",
+   "value": "オフラインで動作"
+  },
+  {
+   "id": "site.privacy.035",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Data We Collect",
+   "value": "収集するデータ"
+  },
+  {
+   "id": "site.privacy.036",
+   "kind": "site",
+   "section": "privacy",
+   "en": "None.",
+   "value": "なし。"
+  },
+  {
+   "id": "site.privacy.037",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
+   "value": "GitFocusは個人データを一切収集、保存、送信しません。そもそも送信先となるサーバーを持っていないためです。"
+  },
+  {
+   "id": "site.privacy.038",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything the app needs to function is stored locally on your device:",
+   "value": "アプリの動作に必要なすべてのデータは、お使いのデバイスにローカルに保存されます:"
+  },
+  {
+   "id": "site.privacy.039",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub username or usernames (to check public commits)",
+   "value": "GitHubユーザー名（公開コミットの確認のため）"
+  },
+  {
+   "id": "site.privacy.040",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app selection preferences",
+   "value": "アプリ選択設定"
+  },
+  {
+   "id": "site.privacy.041",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your focus session history",
+   "value": "集中セッション履歴"
+  },
+  {
+   "id": "site.privacy.042",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your earned time and streak data",
+   "value": "獲得時間とストリークデータ"
+  },
+  {
+   "id": "site.privacy.043",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitHub Integration",
+   "value": "GitHub連携"
+  },
+  {
+   "id": "site.privacy.044",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
+   "value": "GitFocusは、追加されたGitHubユーザー名の公開コントリビューションデータを読み取り、コミットの有無を判定します。その仕組みは以下の通りです:"
+  },
+  {
+   "id": "site.privacy.045",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Access",
+   "value": "アクセスする情報"
+  },
+  {
+   "id": "site.privacy.046",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public GitHub profile page",
+   "value": "公開GitHubプロフィールページ"
+  },
+  {
+   "id": "site.privacy.047",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public contribution graph (the green squares)",
+   "value": "公開コントリビューショングラフ（緑の四角）"
+  },
+  {
+   "id": "site.privacy.048",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit counts per day (not commit contents)",
+   "value": "1日あたりのコミット数（コミット内容は含まない）"
+  },
+  {
+   "id": "site.privacy.049",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Don't Access",
+   "value": "アクセスしない情報"
+  },
+  {
+   "id": "site.privacy.050",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Private repositories",
+   "value": "プライベートリポジトリ"
+  },
+  {
+   "id": "site.privacy.051",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit messages or code",
+   "value": "コミットメッセージやコード"
+  },
+  {
+   "id": "site.privacy.052",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub password or tokens",
+   "value": "GitHubパスワードやトークン"
+  },
+  {
+   "id": "site.privacy.053",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any GitHub API with authentication",
+   "value": "認証が必要なGitHub API"
+  },
+  {
+   "id": "site.privacy.054",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No OAuth Required",
+   "value": "✅ OAuth不要"
+  },
+  {
+   "id": "site.privacy.055",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
+   "value": "GitFocusはGitHub認証なしで動作するよう意図的に設計されています。1つまたは複数のGitHubユーザー名を追加でき、誰でもプロフィールにアクセスして閲覧できる公開情報のみを読み取ります。"
+  },
+  {
+   "id": "site.privacy.056",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time & App Blocking",
+   "value": "Screen Timeとアプリブロック"
+  },
+  {
+   "id": "site.privacy.057",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
+   "value": "GitFocusはAppleのScreen Time API（Family Controlsフレームワーク）を使用してアプリをブロックします。これはApple標準のScreen Time機能と同じセキュアなシステムです。"
+  },
+  {
+   "id": "site.privacy.058",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How It Works",
+   "value": "仕組み"
+  },
+  {
+   "id": "site.privacy.059",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App blocking is handled entirely by iOS, not our code",
+   "value": "アプリのブロックはiOSが完全に処理し、私たちのコードは関与しません"
+  },
+  {
+   "id": "site.privacy.060",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We never see which apps you use or for how long",
+   "value": "どのアプリをどれだけ使用したかは一切把握しません"
+  },
+  {
+   "id": "site.privacy.061",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Apple's privacy protections apply to all Screen Time data",
+   "value": "Screen Timeデータにはすべて、Appleのプライバシー保護が適用されます"
+  },
+  {
+   "id": "site.privacy.062",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We only receive anonymized \"tokens\" that represent apps",
+   "value": "アプリを表す匿名の「トークン」のみを受け取ります"
+  },
+  {
+   "id": "site.privacy.063",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Can't See",
+   "value": "見えない情報"
+  },
+  {
+   "id": "site.privacy.064",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app usage statistics",
+   "value": "アプリ使用統計"
+  },
+  {
+   "id": "site.privacy.065",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you open or close apps",
+   "value": "アプリの起動・終了時刻"
+  },
+  {
+   "id": "site.privacy.066",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How long you spend in any app",
+   "value": "各アプリの使用時間"
+  },
+  {
+   "id": "site.privacy.067",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The actual names of apps you select (only tokens)",
+   "value": "選択したアプリの実際の名前（トークンのみ）"
+  },
+  {
+   "id": "site.privacy.068",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Local Data Storage",
+   "value": "ローカルデータ保存"
+  },
+  {
+   "id": "site.privacy.069",
+   "kind": "site",
+   "section": "privacy",
+   "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
+   "value": "すべてのデータは、Appleのセキュアなストレージ機構を使用してデバイスに保存されます:"
+  },
+  {
+   "id": "site.privacy.070",
+   "kind": "site",
+   "section": "privacy",
+   "en": "UserDefaults",
+   "value": "UserDefaults"
+  },
+  {
+   "id": "site.privacy.071",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Settings and preferences",
+   "value": "— 設定と環境設定"
+  },
+  {
+   "id": "site.privacy.072",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Keychain",
+   "value": "Keychain"
+  },
+  {
+   "id": "site.privacy.073",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your primary GitHub username (for persistence across reinstalls)",
+   "value": "— 主要GitHubユーザー名（再インストール時の保持のため）"
+  },
+  {
+   "id": "site.privacy.074",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App Group",
+   "value": "App Group"
+  },
+  {
+   "id": "site.privacy.075",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Shared data between app and extensions",
+   "value": "— アプリと拡張機能間の共有データ"
+  },
+  {
+   "id": "site.privacy.076",
+   "kind": "site",
+   "section": "privacy",
+   "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
+   "value": "このデータはiOSにより暗号化され、デバイスのパスコードで保護されます。アプリを削除すると、ローカルデータも削除されます。"
+  },
+  {
+   "id": "site.privacy.077",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Third-Party Services",
+   "value": "サードパーティサービス"
+  },
+  {
+   "id": "site.privacy.078",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
+   "value": "GitFocusは、サードパーティの分析、クラッシュレポート、広告サービスを一切使用しません。以下との連携もありません:"
+  },
+  {
+   "id": "site.privacy.079",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Google Analytics",
+   "value": "Google Analytics"
+  },
+  {
+   "id": "site.privacy.080",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Firebase",
+   "value": "Firebase"
+  },
+  {
+   "id": "site.privacy.081",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Crashlytics",
+   "value": "Crashlytics"
+  },
+  {
+   "id": "site.privacy.082",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Facebook SDK",
+   "value": "Facebook SDK"
+  },
+  {
+   "id": "site.privacy.083",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any advertising networks",
+   "value": "広告ネットワーク全般"
+  },
+  {
+   "id": "site.privacy.084",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any user tracking services",
+   "value": "ユーザートラッキングサービス全般"
+  },
+  {
+   "id": "site.privacy.085",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
+   "value": "通信する外部サービスは、公開コントリビューションデータを取得するためのgithub.comと、オプションのカスタマーサポートチャット（後述）のみです。"
+  },
+  {
+   "id": "site.privacy.086",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Customer Support & Live Chat",
+   "value": "カスタマーサポートとライブチャット"
+  },
+  {
+   "id": "site.privacy.087",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
+   "value": "サポートへの連絡は完全に任意であり、お客様がサポートを求めた場合にのみ発生します。"
+  },
+  {
+   "id": "site.privacy.088",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
+   "value": "GitFocusは、サードパーティのカスタマーサポートプラットフォームであるChatwootを利用したライブチャットサポートを提供しています。これはGitHubを除き、GitFocusが使用する唯一のサードパーティサービスであり、お客様が明示的にサポートに連絡した場合にのみ有効になります。"
+  },
+  {
+   "id": "site.privacy.089",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How it works",
+   "value": "仕組み"
+  },
+  {
+   "id": "site.privacy.090",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Session Persistence:",
+   "value": "セッションの永続化:"
+  },
+  {
+   "id": "site.privacy.091",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
+   "value": "Chatwootはクッキーを使用してチャットセッションを保持し、前回の会話を継続できるようにします"
+  },
+  {
+   "id": "site.privacy.092",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Anonymous by Default:",
+   "value": "デフォルトで匿名:"
+  },
+  {
+   "id": "site.privacy.093",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
+   "value": "個人情報を提供せずにサポートとチャットできます - セッションはブラウザのクッキーのみで追跡されます"
+  },
+  {
+   "id": "site.privacy.094",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Optional Email:",
+   "value": "任意のメールアドレス:"
+  },
+  {
+   "id": "site.privacy.095",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You may optionally provide your email address if you want to receive follow-up responses",
+   "value": "フォローアップの返信を受け取りたい場合は、任意でメールアドレスを提供できます"
+  },
+  {
+   "id": "site.privacy.096",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What's Collected",
+   "value": "収集される情報"
+  },
+  {
+   "id": "site.privacy.097",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you use the chat feature, Chatwoot may collect:",
+   "value": "チャット機能を使用すると、Chatwootは以下を収集する場合があります:"
+  },
+  {
+   "id": "site.privacy.098",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your chat messages and conversation history",
+   "value": "チャットメッセージと会話履歴"
+  },
+  {
+   "id": "site.privacy.099",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Browser cookies for session persistence",
+   "value": "セッション保持のためのブラウザクッキー"
+  },
+  {
+   "id": "site.privacy.100",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email address (only if you choose to provide it)",
+   "value": "メールアドレス（提供した場合のみ）"
+  },
+  {
+   "id": "site.privacy.101",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Basic technical information (browser type, timestamp)",
+   "value": "基本的な技術情報（ブラウザの種類、タイムスタンプ）"
+  },
+  {
+   "id": "site.privacy.102",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No Access to App Data",
+   "value": "✅ アプリデータへのアクセスなし"
+  },
+  {
+   "id": "site.privacy.103",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
+   "value": "チャット機能は、GitHubデータ、集中セッション履歴、その他GitFocusアプリに保存されているデータにアクセスできません。チャットに明示的に入力した情報のみがサポートシステムに送信されます。"
+  },
+  {
+   "id": "site.privacy.104",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
+   "value": "ChatwootはGDPRに準拠しており、適用されるデータ保護法に従ってデータを処理します。詳細については、以下をご覧ください"
+  },
+  {
+   "id": "site.privacy.105",
+   "kind": "site",
+   "section": "privacy",
+   "en": "chatwoot.com/privacy-policy",
+   "value": "chatwoot.com/privacy-policy"
+  },
+  {
+   "id": "site.privacy.106",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
+   "value": "ブラウザの設定からいつでもチャットクッキーをクリアできます。チャット機能を一度も使用しない場合、Chatwootにデータが送信されることはありません。"
+  },
+  {
+   "id": "site.privacy.107",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your Rights",
+   "value": "お客様の権利"
+  },
+  {
+   "id": "site.privacy.108",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
+   "value": "私たちはお客様のデータを収集しないため、従来のデータ権（アクセス、削除、移植性）は実質的に適用されません。しかし、以下のことが可能です:"
+  },
+  {
+   "id": "site.privacy.109",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Delete all data",
+   "value": "すべてのデータを削除"
+  },
+  {
+   "id": "site.privacy.110",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Simply delete the app from your device",
+   "value": "— デバイスからアプリを削除するだけです"
+  },
+  {
+   "id": "site.privacy.111",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Export data",
+   "value": "データのエクスポート"
+  },
+  {
+   "id": "site.privacy.112",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your data lives on your device; you own it",
+   "value": "— データはデバイスに保存されており、お客様のものです"
+  },
+  {
+   "id": "site.privacy.113",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Change settings",
+   "value": "設定の変更"
+  },
+  {
+   "id": "site.privacy.114",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— All preferences can be modified in the app",
+   "value": "— すべての設定はアプリ内で変更できます"
+  },
+  {
+   "id": "site.privacy.115",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Children's Privacy & Age Rating",
+   "value": "子どものプライバシーと年齢制限"
+  },
+  {
+   "id": "site.privacy.116",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus is rated",
+   "value": "GitFocusのレーティングは"
+  },
+  {
+   "id": "site.privacy.117",
+   "kind": "site",
+   "section": "privacy",
+   "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
+   "value": "であり、すべての年齢のユーザーに適しています。アプリには不適切なコンテンツ、アプリ内課金、ソーシャル機能は含まれていません。"
+  },
+  {
+   "id": "site.privacy.118",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
+   "value": "個人データを一切収集しないため、若年ユーザーに特別なプライバシー上の懸念はありません。ただし、13歳未満のお子様には保護者の監督のもとでアプリを設定することをお勧めします:"
+  },
+  {
+   "id": "site.privacy.119",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Initial setup requires a GitHub username",
+   "value": "初期設定にはGitHubユーザー名が必要です"
+  },
+  {
+   "id": "site.privacy.120",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time permissions need to be granted by the device owner",
+   "value": "Screen Timeの許可はデバイス所有者が付与する必要があります"
+  },
+  {
+   "id": "site.privacy.121",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Understanding the commit-based unlock system may need explanation",
+   "value": "コミットベースのロック解除システムの理解には説明が必要な場合があります"
+  },
+  {
+   "id": "site.privacy.122",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
+   "value": "保護者はGitFocusを若い開発者のコーディング習慣を奨励するツールとして利用できます。"
+  },
+  {
+   "id": "site.privacy.123",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Changes to This Policy",
+   "value": "本ポリシーの変更"
+  },
+  {
+   "id": "site.privacy.124",
+   "kind": "site",
+   "section": "privacy",
+   "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
+   "value": "プライバシー慣行を変更する場合は、このページを新しい「最終更新日」とともに更新します。データ非収集のアプローチを考えると、大幅な変更は想定されていません。"
+  },
+  {
+   "id": "site.privacy.125",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contact",
+   "value": "お問い合わせ"
+  },
+  {
+   "id": "site.privacy.126",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Questions about privacy? We're happy to explain anything in more detail.",
+   "value": "プライバシーについてご質問がありますか？詳細についてご説明いたします。"
+  },
+  {
+   "id": "site.privacy.127",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email:",
+   "value": "メール:"
+  },
+  {
+   "id": "site.privacy.128",
+   "kind": "site",
+   "section": "privacy",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.privacy.129",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "ホーム"
+  },
+  {
+   "id": "site.privacy.130",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy",
+   "value": "プライバシーポリシー"
+  },
+  {
+   "id": "site.privacy.131",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.privacy.132",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Accessibility",
+   "value": "アクセシビリティ"
+  },
+  {
+   "id": "site.privacy.133",
+   "kind": "site",
+   "section": "privacy",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.accessibility.000",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility - GitFocus",
+   "value": "アクセシビリティ - GitFocus"
+  },
+  {
+   "id": "site.accessibility.001",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.",
+   "value": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more."
+  },
+  {
+   "id": "site.accessibility.002",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Skip to main content",
+   "value": "メインコンテンツへスキップ"
+  },
+  {
+   "id": "site.accessibility.003",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.accessibility.004",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "ホーム"
+  },
+  {
+   "id": "site.accessibility.005",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy",
+   "value": "プライバシー"
+  },
+  {
+   "id": "site.accessibility.006",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.007",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "🇬🇧 EN",
+   "value": "🇯🇵 JA"
+  },
+  {
+   "id": "site.accessibility.008",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.accessibility.009",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.accessibility.010",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.accessibility.011",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.accessibility.012",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.accessibility.013",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.accessibility.014",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.accessibility.015",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.accessibility.016",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.accessibility.017",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.accessibility.018",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.accessibility.019",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.accessibility.020",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.accessibility.021",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.accessibility.022",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.accessibility.023",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.accessibility.024",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.accessibility.025",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Accessibility",
+   "value": "// アクセシビリティ"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Built for everyone",
+   "value": "すべての人のために設計"
+  },
+  {
+   "id": "site.accessibility.027",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
+   "value": "GitFocusは支援技術のために設計されています。アクセシビリティの主張は 各リリースごとに自動テストと人間によるデバイスチェックリストで再確認されます。"
+  },
+  {
+   "id": "site.accessibility.028",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Features",
+   "value": "// 機能"
+  },
+  {
+   "id": "site.accessibility.029",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported Accessibility Features",
+   "value": "サポートされるアクセシビリティ機能"
+  },
+  {
+   "id": "site.accessibility.030",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver",
+   "value": "VoiceOver"
+  },
+  {
+   "id": "site.accessibility.031",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.032",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
+   "value": "主要なリリースルートは、説明的なラベル、特性、論理的な読み上げ順序を使用します。リリースゲートはテストされたルートとデバイスを記録します。"
+  },
+  {
+   "id": "site.accessibility.033",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Voice Control",
+   "value": "Voice Control"
+  },
+  {
+   "id": "site.accessibility.034",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.035",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
+   "value": "インタラクティブなコントロールはアクセス可能な名前を使用します。物理デバイスチェックリストがVoice Controlを使った重要なリリースジャーニーを検証します。"
+  },
+  {
+   "id": "site.accessibility.036",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Larger Text",
+   "value": "より大きなテキスト"
+  },
+  {
+   "id": "site.accessibility.037",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.038",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
+   "value": "アプリのテキストはDynamic Typeを使用します。この主張が承認される前に、自動AX3およびAX5カバレッジに加えて、人間による200%テキストサイズチェックが必要です。"
+  },
+  {
+   "id": "site.accessibility.039",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Dark Interface",
+   "value": "ダークインターフェース"
+  },
+  {
+   "id": "site.accessibility.040",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.041",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
+   "value": "アプリはライトおよびダークの外観をサポートします。両方がスクリーンショットおよびアプリアクセシビリティリリースチェックに含まれます。"
+  },
+  {
+   "id": "site.accessibility.042",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Differentiate Without Color",
+   "value": "色によらない識別"
+  },
+  {
+   "id": "site.accessibility.043",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.044",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
+   "value": "リリースレビューは、重要な状態が色と並んでラベル、形状、またはアイコンを使用していることを確認します。"
+  },
+  {
+   "id": "site.accessibility.045",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Sufficient Contrast",
+   "value": "十分なコントラスト"
+  },
+  {
+   "id": "site.accessibility.046",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.047",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
+   "value": "自動コントラストチェックはライトモードとダークモードで候補となる失敗にフラグを立てます。レビュアーは承認前に実際のテキスト、アイコン、背景を検証します。"
+  },
+  {
+   "id": "site.accessibility.048",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reduced Motion",
+   "value": "視差効果を減らす"
+  },
+  {
+   "id": "site.accessibility.049",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.050",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
+   "value": "リリースチェックリストは、重要なモーションが視差効果を減らす設定を尊重するか、静的な代替手段を持つことを検証します。"
+  },
+  {
+   "id": "site.accessibility.051",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Full Keyboard Access",
+   "value": "フルキーボードアクセス"
+  },
+  {
+   "id": "site.accessibility.052",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.053",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
+   "value": "サポートされるフローには、キーボードアクセス可能なコントロールと、重要なジェスチャーのみのアクションの代替手段が含まれます。"
+  },
+  {
+   "id": "site.accessibility.054",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Testing",
+   "value": "// テスト"
+  },
+  {
+   "id": "site.accessibility.055",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated Accessibility Testing",
+   "value": "自動アクセシビリティテスト"
+  },
+  {
+   "id": "site.accessibility.056",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Test Suites",
+   "value": "テストスイート"
+  },
+  {
+   "id": "site.accessibility.057",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Appearances",
+   "value": "外観"
+  },
+  {
+   "id": "site.accessibility.058",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "AX Text Sizes",
+   "value": "AXテキストサイズ"
+  },
+  {
+   "id": "site.accessibility.059",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release Gate",
+   "value": "リリースゲート"
+  },
+  {
+   "id": "site.accessibility.060",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Screen Accessibility Audits",
+   "value": "画面アクセシビリティ監査"
+  },
+  {
+   "id": "site.accessibility.061",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
+   "value": "宣言されたリリースルートはライトモードとダークモードで順次起動され、iOSネイティブアクセシビリティ監査でチェックされます。必須の監査カテゴリがリリースゲートを失敗させます。"
+  },
+  {
+   "id": "site.accessibility.062",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "26 tests",
+   "value": "26テスト"
+  },
+  {
+   "id": "site.accessibility.063",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility Size Tests",
+   "value": "アクセシビリティサイズテスト"
+  },
+  {
+   "id": "site.accessibility.064",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
+   "value": "宣言されたルートはAX3およびAX5でレンダリングされ、クラッシュフリーのレンダリング、アクセス可能な要素、ルート完了がチェックされます。"
+  },
+  {
+   "id": "site.accessibility.065",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "50 tests",
+   "value": "50テスト"
+  },
+  {
+   "id": "site.accessibility.066",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver Reading Order",
+   "value": "VoiceOver読み上げ順序"
+  },
+  {
+   "id": "site.accessibility.067",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
+   "value": "主要な画面は、VoiceOverのトラバーサルがシステムクロム要素の許容範囲を持つ論理的な上から下への順序に従うことを確認するためにチェックされます。"
+  },
+  {
+   "id": "site.accessibility.068",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "5 tests",
+   "value": "5テスト"
+  },
+  {
+   "id": "site.accessibility.069",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Methodology",
+   "value": "// 方法論"
+  },
+  {
+   "id": "site.accessibility.070",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "How We Test",
+   "value": "テスト方法"
+  },
+  {
+   "id": "site.accessibility.071",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "iOS native audits",
+   "value": "iOSネイティブ監査"
+  },
+  {
+   "id": "site.accessibility.072",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Apple's built-in",
+   "value": "— Appleの組み込み"
+  },
+  {
+   "id": "site.accessibility.073",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "performAccessibilityAudit",
+   "value": "performAccessibilityAudit"
+  },
+  {
+   "id": "site.accessibility.074",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
+   "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
+  },
+  {
+   "id": "site.accessibility.075",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Extreme size rendering",
+   "value": "極端なサイズのレンダリング"
+  },
+  {
+   "id": "site.accessibility.076",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
+   "value": "— 各画面はアクセシビリティテキストサイズAX3およびAX5で起動され、クラッシュ、読めない切り捨て、到達不可能にならないことが検証されます。"
+  },
+  {
+   "id": "site.accessibility.077",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reading order validation",
+   "value": "読み上げ順序の検証"
+  },
+  {
+   "id": "site.accessibility.078",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
+   "value": "— 自動テストは、VoiceOverが主要な画面で論理的な上から下への順序で要素をトラバースすることを検証します。"
+  },
+  {
+   "id": "site.accessibility.079",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Contrast verification",
+   "value": "コントラスト検証"
+  },
+  {
+   "id": "site.accessibility.080",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
+   "value": "— WCAGコントラストエビデンスはレンダラー所有のセマンティック領域から生成され、実際のライトおよびダークアートワークに対してレビューされます。"
+  },
+  {
+   "id": "site.accessibility.081",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release integration",
+   "value": "リリース統合"
+  },
+  {
+   "id": "site.accessibility.082",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
+   "value": "— アクセシビリティスイートはスクリーンショットまたはメタデータのアップロード前に実行され、機械可読なエビデンスを保持します。"
+  },
+  {
+   "id": "site.accessibility.083",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Standards We Follow",
+   "value": "準拠する標準"
+  },
+  {
+   "id": "site.accessibility.084",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
+   "value": "テキストおよびインタラクティブ要素のWCAG 2.1レベルAAコントラスト目標"
+  },
+  {
+   "id": "site.accessibility.085",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Apple Human Interface Guidelines for accessibility",
+   "value": "アクセシビリティのためのApple Human Interface Guidelines"
+  },
+  {
+   "id": "site.accessibility.086",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Minimum 44pt touch-target checks for interactive controls",
+   "value": "インタラクティブコントロールの最小44ptタッチターゲットチェック"
+  },
+  {
+   "id": "site.accessibility.087",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Semantic Dynamic Type coverage at accessibility text sizes",
+   "value": "アクセシビリティテキストサイズでのセマンティックDynamic Typeカバレッジ"
+  },
+  {
+   "id": "site.accessibility.088",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver-compatible labels and traits on every interactive element",
+   "value": "すべてのインタラクティブ要素でのVoiceOver互換ラベルと特性"
+  },
+  {
+   "id": "site.accessibility.089",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Keyboard-accessible alternatives for all gesture-based interactions",
+   "value": "すべてのジェスチャーベースのインタラクションのキーボードアクセス可能な代替手段"
+  },
+  {
+   "id": "site.accessibility.090",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Feedback",
+   "value": "フィードバック"
+  },
+  {
+   "id": "site.accessibility.091",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
+   "value": "GitFocusの使用中にアクセシビリティの障壁に遭遇した場合は、 修正できるようお知らせください。"
+  },
+  {
+   "id": "site.accessibility.092",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Chat with us",
+   "value": "チャットで問い合わせ"
+  },
+  {
+   "id": "site.accessibility.093",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "or email us at",
+   "value": "またはメールでお問い合わせ"
+  },
+  {
+   "id": "site.accessibility.094",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.accessibility.095",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "ホーム"
+  },
+  {
+   "id": "site.accessibility.096",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy Policy",
+   "value": "プライバシーポリシー"
+  },
+  {
+   "id": "site.accessibility.097",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "サポート"
+  },
+  {
+   "id": "site.accessibility.098",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility",
+   "value": "アクセシビリティ"
+  },
+  {
+   "id": "site.accessibility.099",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  }
+ ]
+}

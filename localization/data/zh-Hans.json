@@ -1,0 +1,6945 @@
+{
+ "locale": "zh-Hans",
+ "label": "简体中文",
+ "generated": "2026-08-30T01:56:34Z",
+ "rows": [
+  {
+   "id": "deviceactivityreport.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "App Usage",
+   "value": "应用使用情况"
+  },
+  {
+   "id": "deviceactivityreport.clear.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Clear All",
+   "value": "全部清除"
+  },
+  {
+   "id": "deviceactivityreport.count.apps",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d apps",
+   "value": "%d 个应用",
+   "comment": "App count label"
+  },
+  {
+   "id": "deviceactivityreport.count.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d device)",
+   "value": "（%d 台设备）"
+  },
+  {
+   "id": "deviceactivityreport.count.devices",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "(%d devices)",
+   "value": "（%d 台设备）"
+  },
+  {
+   "id": "deviceactivityreport.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%d pickups",
+   "value": "%d 次拿起",
+   "comment": "Pickups count"
+  },
+  {
+   "id": "deviceactivityreport.double.tap.toggle.device.filter",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Double tap to toggle device filter",
+   "value": "双击切换设备筛选"
+  },
+  {
+   "id": "deviceactivityreport.filter.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Filter by Device",
+   "value": "按设备筛选"
+  },
+  {
+   "id": "deviceactivityreport.no.app.usage.data.yet",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No app usage data yet",
+   "value": "尚无应用使用数据"
+  },
+  {
+   "id": "deviceactivityreport.no.usage.data.available",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "No usage data available",
+   "value": "暂无可用的使用数据"
+  },
+  {
+   "id": "deviceactivityreport.not.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Not selected",
+   "value": "未选择"
+  },
+  {
+   "id": "deviceactivityreport.screen.time.data.collected.privately.your.device",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Screen time data is collected privately on your device",
+   "value": "屏幕时间数据仅在你的设备上私密收集"
+  },
+  {
+   "id": "deviceactivityreport.select.all",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select All",
+   "value": "选择全部"
+  },
+  {
+   "id": "deviceactivityreport.select.device.view.app.usage",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select a device to view app usage",
+   "value": "选择设备查看应用使用情况"
+  },
+  {
+   "id": "deviceactivityreport.select.devices.view",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Select devices to view",
+   "value": "选择要查看的设备"
+  },
+  {
+   "id": "deviceactivityreport.selected",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Selected",
+   "value": "已选择"
+  },
+  {
+   "id": "deviceactivityreport.text.used.text.count.pickups",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "%@, used for %@, %d pickups",
+   "value": "%@，使用 %@，%d 次拿起",
+   "comment": "Accessibility: app usage summary"
+  },
+  {
+   "id": "deviceactivityreport.today",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today",
+   "value": "今天",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "deviceactivityreport.todays.activity",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Today's Activity",
+   "value": "今天的活动"
+  },
+  {
+   "id": "deviceactivityreport.total.screen.time",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Total Screen Time",
+   "value": "总屏幕时间"
+  },
+  {
+   "id": "deviceactivityreport.under.one.minute",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "< 1m",
+   "value": "< 1 分钟",
+   "comment": "Less than one minute"
+  },
+  {
+   "id": "deviceactivityreport.usage.level.count.percent",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Usage level: %d%%",
+   "value": "使用级别：%d%%",
+   "comment": "Accessibility: usage percentage"
+  },
+  {
+   "id": "deviceactivityreport.use.some.apps.today.see.them.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use some apps today to see them here",
+   "value": "今天用一些应用即可在这里看到它们"
+  },
+  {
+   "id": "deviceactivityreport.use.your.selected.apps.see.screen.time.data.here",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Use your selected apps to see screen time data here",
+   "value": "使用你选择的应用即可在此查看屏幕时间数据"
+  },
+  {
+   "id": "deviceactivityreport.yesterday",
+   "kind": "app",
+   "section": "deviceactivityreport",
+   "en": "Yesterday",
+   "value": "昨天",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.about",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "About",
+   "value": "关于"
+  },
+  {
+   "id": "gitfocus.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Account",
+   "value": "账号"
+  },
+  {
+   "id": "gitfocus.achievements",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Achievements",
+   "value": "成就"
+  },
+  {
+   "id": "gitfocus.active.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Active Days",
+   "value": "活跃天数"
+  },
+  {
+   "id": "gitfocus.add.more.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Add More Apps",
+   "value": "添加更多应用"
+  },
+  {
+   "id": "gitfocus.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All",
+   "value": "全部"
+  },
+  {
+   "id": "gitfocus.all.settings.data.stored.locally.your.device.nothing.transmitted.external.servers",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "All settings and data are stored locally on your device. Nothing is transmitted to external servers.",
+   "value": "所有设置和数据都存储在你的设备上，不会传输到外部服务器。"
+  },
+  {
+   "id": "gitfocus.also.sorry.takes.while",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(also, sorry this takes a while)",
+   "value": "（另外，抱歉，这需要一点时间）"
+  },
+  {
+   "id": "gitfocus.analytics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Analytics",
+   "value": "分析"
+  },
+  {
+   "id": "gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App",
+   "value": "应用",
+   "comment": "Fallback app name"
+  },
+  {
+   "id": "gitfocus.app.blocking.handled.entirely.ios.screen.time.we.dont.track.which.apps.you.use.how.long",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App blocking is handled entirely by iOS Screen Time. We don't track which apps you use or for how long.",
+   "value": "应用屏蔽完全由 iOS 屏幕使用时间处理。我们不会跟踪你使用了哪些应用或使用时长。"
+  },
+  {
+   "id": "gitfocus.app.launch",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Launch",
+   "value": "应用启动",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.app.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "App Permissions",
+   "value": "应用权限"
+  },
+  {
+   "id": "gitfocus.appearance",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Appearance",
+   "value": "外观"
+  },
+  {
+   "id": "gitfocus.apply.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apply Reset Times",
+   "value": "应用重置时间"
+  },
+  {
+   "id": "gitfocus.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps",
+   "value": "应用"
+  },
+  {
+   "id": "gitfocus.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Blocked",
+   "value": "已屏蔽应用"
+  },
+  {
+   "id": "gitfocus.apps.currently.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps are currently unlocked",
+   "value": "应用当前已解锁"
+  },
+  {
+   "id": "gitfocus.apps.hide.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps to Hide (%d)",
+   "value": "要隐藏的应用（%d）",
+   "comment": "Hidden apps section header with count"
+  },
+  {
+   "id": "gitfocus.apps.lock.times.daily",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps lock at these times daily",
+   "value": "应用每天在这些时间锁定"
+  },
+  {
+   "id": "gitfocus.apps.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked",
+   "value": "已解锁应用"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps Unlocked! 🔓",
+   "value": "应用已解锁！🔓"
+  },
+  {
+   "id": "gitfocus.apps.unlocked.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Apps unlocked until midnight",
+   "value": "应用已解锁至午夜"
+  },
+  {
+   "id": "gitfocus.arabic",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Arabic",
+   "value": "阿拉伯语"
+  },
+  {
+   "id": "gitfocus.atmospheric.background",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Atmospheric Background",
+   "value": "氛围背景"
+  },
+  {
+   "id": "gitfocus.automatically.hide.all.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Automatically hide all apps that are blocked",
+   "value": "自动隐藏所有被屏蔽的应用"
+  },
+  {
+   "id": "gitfocus.available.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Available life",
+   "value": "可用生命"
+  },
+  {
+   "id": "gitfocus.available.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "available to unlock apps",
+   "value": "可用于解锁应用"
+  },
+  {
+   "id": "gitfocus.average.per.active.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Average per Active Day",
+   "value": "活跃日平均"
+  },
+  {
+   "id": "gitfocus.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back",
+   "value": "返回"
+  },
+  {
+   "id": "gitfocus.back.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Back to Settings",
+   "value": "返回设置"
+  },
+  {
+   "id": "gitfocus.bank.all.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank All %d Minutes",
+   "value": "存入全部 %d 分钟",
+   "comment": "Bank all earned minutes button"
+  },
+  {
+   "id": "gitfocus.bank.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Bank 5 Minutes",
+   "value": "存入 5 分钟"
+  },
+  {
+   "id": "gitfocus.before.you.delete.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Before you delete the app...",
+   "value": "在你删除应用之前…"
+  },
+  {
+   "id": "gitfocus.block.distracting.apps.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Block distracting apps during focus sessions",
+   "value": "专注期间屏蔽分心应用"
+  },
+  {
+   "id": "gitfocus.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps",
+   "value": "已屏蔽应用"
+  },
+  {
+   "id": "gitfocus.blocked.apps.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blocked Apps Usage",
+   "value": "已屏蔽应用使用情况"
+  },
+  {
+   "id": "gitfocus.blurred.glass.effect",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Blurred glass effect",
+   "value": "模糊玻璃效果"
+  },
+  {
+   "id": "gitfocus.borrow.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrow Time",
+   "value": "借用时间"
+  },
+  {
+   "id": "gitfocus.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "已借用 %d 分钟。用提交来偿还！"
+  },
+  {
+   "id": "gitfocus.borrowed.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowed Time",
+   "value": "已借时间",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.borrowing.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing %d min",
+   "value": "借用 %d 分钟",
+   "comment": "Status pill when borrowing time"
+  },
+  {
+   "id": "gitfocus.borrowing.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Borrowing time",
+   "value": "正在借用时间",
+   "comment": "Accessibility label for borrowing time indicator"
+  },
+  {
+   "id": "gitfocus.build.your.streak.unlock.rewards",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Build your streak to unlock rewards",
+   "value": "通过连续打卡解锁奖励"
+  },
+  {
+   "id": "gitfocus.button.left.side.which.unusual",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "The button is on the left side which is unusual",
+   "value": "按钮在左侧，这很少见"
+  },
+  {
+   "id": "gitfocus.can.borrow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Can borrow",
+   "value": "可借用"
+  },
+  {
+   "id": "gitfocus.cancel",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Cancel",
+   "value": "取消"
+  },
+  {
+   "id": "gitfocus.card.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Card Style",
+   "value": "卡片样式"
+  },
+  {
+   "id": "gitfocus.cfbundledisplayname",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "GitFocus",
+   "comment": "Bundle display name"
+  },
+  {
+   "id": "gitfocus.cfbundlename",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus",
+   "value": "gitfocus",
+   "comment": "Bundle name"
+  },
+  {
+   "id": "gitfocus.change.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Change Username",
+   "value": "更改用户名"
+  },
+  {
+   "id": "gitfocus.check.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Username",
+   "value": "检查用户名"
+  },
+  {
+   "id": "gitfocus.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "检查你的 GitHub 提交！💻",
+   "comment": "Shield notifications"
+  },
+  {
+   "id": "gitfocus.checking.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Checking GitHub...",
+   "value": "正在检查 GitHub..."
+  },
+  {
+   "id": "gitfocus.chinese.simplified",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Chinese (Simplified)",
+   "value": "中文（简体）"
+  },
+  {
+   "id": "gitfocus.choose.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Choose Unlock Time",
+   "value": "选择解锁时间"
+  },
+  {
+   "id": "gitfocus.clear",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear",
+   "value": "透明"
+  },
+  {
+   "id": "gitfocus.clear.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All",
+   "value": "全部清除"
+  },
+  {
+   "id": "gitfocus.clear.all.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History",
+   "value": "清除全部历史"
+  },
+  {
+   "id": "gitfocus.clear.all.history.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear All History?",
+   "value": "清除全部历史？"
+  },
+  {
+   "id": "gitfocus.clear.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear History",
+   "value": "清除历史"
+  },
+  {
+   "id": "gitfocus.clear.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear Selection",
+   "value": "清除选择"
+  },
+  {
+   "id": "gitfocus.clear.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Clear username",
+   "value": "清除用户名",
+   "comment": "Accessibility label for clearing username"
+  },
+  {
+   "id": "gitfocus.close",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Close",
+   "value": "关闭",
+   "comment": "Accessibility label for close button"
+  },
+  {
+   "id": "gitfocus.code.more.scroll.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Code more. Scroll less.",
+   "value": "多写代码，少刷屏。"
+  },
+  {
+   "id": "gitfocus.commit.detected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit Detected",
+   "value": "检测到提交",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.commit.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.commit.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "commit%@",
+   "value": "提交%@"
+  },
+  {
+   "id": "gitfocus.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits",
+   "value": "提交"
+  },
+  {
+   "id": "gitfocus.commits.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commits Required",
+   "value": "所需提交数"
+  },
+  {
+   "id": "gitfocus.complete.focus.timer.see.your.history.here",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a focus timer to see your history here.",
+   "value": "完成一次专注计时后在此查看历史。"
+  },
+  {
+   "id": "gitfocus.complete.timer.track.your.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Complete a timer to track your focus time",
+   "value": "完成计时以记录专注时间"
+  },
+  {
+   "id": "gitfocus.completed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Completed",
+   "value": "已完成"
+  },
+  {
+   "id": "gitfocus.contact.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contact Support",
+   "value": "联系支持"
+  },
+  {
+   "id": "gitfocus.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue",
+   "value": "继续"
+  },
+  {
+   "id": "gitfocus.continue.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue focusing",
+   "value": "继续专注"
+  },
+  {
+   "id": "gitfocus.continue.where.left.off",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": "继续上次的位置"
+  },
+  {
+   "id": "gitfocus.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution",
+   "value": "贡献"
+  },
+  {
+   "id": "gitfocus.contribution.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Activity",
+   "value": "贡献活动"
+  },
+  {
+   "id": "gitfocus.contribution.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contribution Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "contribution%@",
+   "value": "贡献%@"
+  },
+  {
+   "id": "gitfocus.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Contributions",
+   "value": "贡献"
+  },
+  {
+   "id": "gitfocus.count.apps.categories.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d apps/categories blocked",
+   "value": "已屏蔽 %d 个应用/类别",
+   "comment": "Count of blocked apps and categories"
+  },
+  {
+   "id": "gitfocus.count.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%1$d commits",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.count.contribution",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution",
+   "value": "%d 次贡献",
+   "comment": "Contribution graph"
+  },
+  {
+   "id": "gitfocus.count.contribution.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contribution on %@",
+   "value": "%@ 发生 %d 次贡献"
+  },
+  {
+   "id": "gitfocus.count.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions",
+   "value": "%d 次贡献"
+  },
+  {
+   "id": "gitfocus.count.contributions.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d contributions on %@",
+   "value": "%@ 发生 %d 次贡献"
+  },
+  {
+   "id": "gitfocus.count.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d of %d lives available",
+   "value": "%d / %d 条生命可用",
+   "comment": "Accessibility: lives available out of lives earned"
+  },
+  {
+   "id": "gitfocus.count.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d day streak",
+   "value": "%d 天连胜",
+   "comment": "Accessibility: current streak days\nCurrent streak days label\nStreak days label"
+  },
+  {
+   "id": "gitfocus.count.days",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days",
+   "value": "%d 天",
+   "comment": "Current streak days label"
+  },
+  {
+   "id": "gitfocus.count.days.until.next.life.day.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d days until next life (day %d)",
+   "value": "距离下一条生命还有 %d 天（第 %d 天）",
+   "comment": "Days until next life"
+  },
+  {
+   "id": "gitfocus.count.life.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d life available",
+   "value": "可用生命 %d 条",
+   "comment": "Lives UI"
+  },
+  {
+   "id": "gitfocus.count.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d lives available",
+   "value": "可用生命 %d 条"
+  },
+  {
+   "id": "gitfocus.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min",
+   "value": "%d 分钟",
+   "comment": "Available unlock minutes\nMinutes value\nPomodoro session duration (minutes)"
+  },
+  {
+   "id": "gitfocus.count.min.ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d min ago",
+   "value": "%d 分钟前",
+   "comment": "Relative time label in minutes"
+  },
+  {
+   "id": "gitfocus.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d minutes",
+   "value": "%d 分钟",
+   "comment": "Debt minutes label\nEarned minutes label\nMinutes choice"
+  },
+  {
+   "id": "gitfocus.count.minutes.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "= %d minutes of unlock time",
+   "value": "= %d 分钟解锁时间",
+   "comment": "First sync earned minutes explanation"
+  },
+  {
+   "id": "gitfocus.count.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+%d more",
+   "value": "再 +%d",
+   "comment": "More apps indicator"
+  },
+  {
+   "id": "gitfocus.count.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d selected",
+   "value": "已选择 %d 个",
+   "comment": "Selected apps count"
+  },
+  {
+   "id": "gitfocus.current.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Debt",
+   "value": "当前债务"
+  },
+  {
+   "id": "gitfocus.current.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Current Streak",
+   "value": "当前连胜"
+  },
+  {
+   "id": "gitfocus.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Custom duration",
+   "value": "自定义时长",
+   "comment": "Accessibility label for custom duration control"
+  },
+  {
+   "id": "gitfocus.daily.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset",
+   "value": "每日重置",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.daily.reset.times",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Daily Reset Times",
+   "value": "每日重置时间"
+  },
+  {
+   "id": "gitfocus.data.collection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Collection",
+   "value": "数据收集"
+  },
+  {
+   "id": "gitfocus.data.storage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Data Storage",
+   "value": "数据存储"
+  },
+  {
+   "id": "gitfocus.date",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Date",
+   "value": "日期"
+  },
+  {
+   "id": "gitfocus.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day",
+   "value": "天"
+  },
+  {
+   "id": "gitfocus.day.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "day streak",
+   "value": "天连胜"
+  },
+  {
+   "id": "gitfocus.debt.borrowed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Borrowed",
+   "value": "已借债务",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "已达到债务上限 ⚠️"
+  },
+  {
+   "id": "gitfocus.debt.paid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debt Paid",
+   "value": "已还债务",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.debug.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Log",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Debug Logs",
+   "value": "调试日志"
+  },
+  {
+   "id": "gitfocus.delete.all.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Delete all sessions",
+   "value": "删除所有会话",
+   "comment": "Accessibility label for deleting all sessions"
+  },
+  {
+   "id": "gitfocus.demo.mode",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo Mode",
+   "value": "演示模式"
+  },
+  {
+   "id": "gitfocus.demo.mode.simulated.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Demo mode - simulated selection",
+   "value": "演示模式 - 模拟选择"
+  },
+  {
+   "id": "gitfocus.developer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Developer",
+   "value": "开发者"
+  },
+  {
+   "id": "gitfocus.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Disabled",
+   "value": "已停用"
+  },
+  {
+   "id": "gitfocus.discipline.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Discipline Bank",
+   "value": "自律存款"
+  },
+  {
+   "id": "gitfocus.discipline.bank.description",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use is a measure of your self-control",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.done",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Done",
+   "value": "完成"
+  },
+  {
+   "id": "gitfocus.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Duration",
+   "value": "时长"
+  },
+  {
+   "id": "gitfocus.each.commit.earns.unlock.time.no.time.question.borrow.some.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit earns unlock time • No time? Borrow some • Future commits pay it back",
+   "value": "每次提交可获得解锁时间 • 没时间？可借用 • 以后提交会偿还"
+  },
+  {
+   "id": "gitfocus.each.commit.you.push.github.earns.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Each commit you push to GitHub earns you",
+   "value": "每次推送到 GitHub 的提交都会为你带来"
+  },
+  {
+   "id": "gitfocus.earn.more.lives.building.your.streak",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn more lives by building your streak",
+   "value": "通过保持连胜获得更多生命"
+  },
+  {
+   "id": "gitfocus.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn Time",
+   "value": "赚取时间"
+  },
+  {
+   "id": "gitfocus.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned",
+   "value": "已赚"
+  },
+  {
+   "id": "gitfocus.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earned Time",
+   "value": "已赚时间"
+  },
+  {
+   "id": "gitfocus.edit.selection",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Edit Selection",
+   "value": "编辑选择"
+  },
+  {
+   "id": "gitfocus.emergency",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency",
+   "value": "紧急"
+  },
+  {
+   "id": "gitfocus.emergency.override",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override",
+   "value": "紧急解除"
+  },
+  {
+   "id": "gitfocus.emergency.override.active",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Override Active",
+   "value": "紧急解除已启用"
+  },
+  {
+   "id": "gitfocus.emergency.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "紧急解锁"
+  },
+  {
+   "id": "gitfocus.emergency.unlock.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Emergency Unlock",
+   "value": "紧急解锁",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.enable.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable borrowing",
+   "value": "启用借用"
+  },
+  {
+   "id": "gitfocus.enable.permissions.gitfocus.work.properly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable permissions for GitFocus to work properly",
+   "value": "启用权限以使 GitFocus 正常工作"
+  },
+  {
+   "id": "gitfocus.enable.screen.time.first",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enable Screen Time First",
+   "value": "先启用屏幕使用时间"
+  },
+  {
+   "id": "gitfocus.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enabled",
+   "value": "已启用"
+  },
+  {
+   "id": "gitfocus.end.override.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "End Override & Lock",
+   "value": "结束解除并锁定"
+  },
+  {
+   "id": "gitfocus.english",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "English",
+   "value": "英语"
+  },
+  {
+   "id": "gitfocus.enter.your.github.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Enter Your GitHub Username",
+   "value": "输入你的 GitHub 用户名"
+  },
+  {
+   "id": "gitfocus.estimated.based.usage.patterns",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Estimated based on usage patterns",
+   "value": "基于使用模式估算"
+  },
+  {
+   "id": "gitfocus.event.log",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Event Log",
+   "value": "事件日志"
+  },
+  {
+   "id": "gitfocus.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "events",
+   "value": "事件"
+  },
+  {
+   "id": "gitfocus.export.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Export logs",
+   "value": "导出日志",
+   "comment": "Accessibility label for export logs action"
+  },
+  {
+   "id": "gitfocus.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Feedback",
+   "value": "反馈",
+   "comment": "Accessibility label for feedback button"
+  },
+  {
+   "id": "gitfocus.feedback.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tell us what to improve",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.feedback.prompt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How is GitFocus working for you?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.first.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "First Reset",
+   "value": "第一次重置"
+  },
+  {
+   "id": "gitfocus.focus.rules",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Rules",
+   "value": "专注规则"
+  },
+  {
+   "id": "gitfocus.focus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUS SCORE",
+   "value": "专注得分"
+  },
+  {
+   "id": "gitfocus.focus.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Stats",
+   "value": "专注统计"
+  },
+  {
+   "id": "gitfocus.focus.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Focus Timer",
+   "value": "专注计时器"
+  },
+  {
+   "id": "gitfocus.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "FOCUSING",
+   "value": "专注中"
+  },
+  {
+   "id": "gitfocus.frosted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Frosted",
+   "value": "磨砂"
+  },
+  {
+   "id": "gitfocus.full.year.overview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Full Year Overview",
+   "value": "全年概览"
+  },
+  {
+   "id": "gitfocus.future.commits.pay.it.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future commits pay it back.",
+   "value": "以后提交会自动偿还。"
+  },
+  {
+   "id": "gitfocus.future.milestone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Future milestone",
+   "value": "未来里程碑"
+  },
+  {
+   "id": "gitfocus.get.alerts.check.commits.when.apps.blocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get alerts to check commits when apps are blocked",
+   "value": "应用被屏蔽时接收提醒以检查提交"
+  },
+  {
+   "id": "gitfocus.get.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Get Started",
+   "value": "开始"
+  },
+  {
+   "id": "gitfocus.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "gitfocus.gitfocus.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "gitfocus.app",
+   "value": "gitfocus.app"
+  },
+  {
+   "id": "gitfocus.gitfocus.app.icon",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus app icon",
+   "value": "GitFocus 应用图标",
+   "comment": "Accessibility label for app icon"
+  },
+  {
+   "id": "gitfocus.gitfocus.blocks.distracting.apps.until.you.push.code.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub",
+   "value": "GitFocus 会屏蔽分心应用，直到你向 GitHub 推送代码"
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.collect.any.personal.data.your.github.username.stored.locally.your.device.using.ios.keychain.security",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not collect any personal data. Your GitHub username is stored locally on your device using iOS Keychain for security.",
+   "value": "GitFocus 不收集任何个人数据。你的 GitHub 用户名使用 iOS 钥匙串安全地存储在本地。"
+  },
+  {
+   "id": "gitfocus.gitfocus.does.not.use.any.analytics.tracking.services.your.usage.remains.completely.private",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus does not use any analytics or tracking services. Your usage remains completely private.",
+   "value": "GitFocus 不使用任何分析或追踪服务。你的使用情况完全私密。"
+  },
+  {
+   "id": "gitfocus.gitfocus.open.source.you.can.review.our.code.github.verify.our.privacy.practices",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus is open source. You can review our code on GitHub to verify our privacy practices.",
+   "value": "GitFocus 是开源的。你可以在 GitHub 上查看代码以验证我们的隐私实践。"
+  },
+  {
+   "id": "gitfocus.gitfocus.reads.your.public.contribution.data.directly.githubs.website.no.authentication.needed.we.simply.check.same.information.thats.visible.your.profile.page.your.commits.already.public.so.we.can.track.them.without.accessing.your.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus reads your public contribution data directly from GitHub's website. No authentication needed - we simply check the same information that's visible on your profile page. Your commits are already public, so we can track them without accessing your account.",
+   "value": "GitFocus 直接从 GitHub 的网站读取您的公共贡献数据。无需身份验证 - 我们只需检查您的个人资料页面上可见的相同信息即可。您的提交已经公开，因此我们可以在不访问您的帐户的情况下跟踪它们。"
+  },
+  {
+   "id": "gitfocus.github",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub",
+   "value": "GitHub"
+  },
+  {
+   "id": "gitfocus.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Account",
+   "value": "GitHub 账号"
+  },
+  {
+   "id": "gitfocus.github.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Activity",
+   "value": "GitHub 活动"
+  },
+  {
+   "id": "gitfocus.github.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub contribution graph",
+   "value": "GitHub 贡献图",
+   "comment": "Accessibility label for contribution graph"
+  },
+  {
+   "id": "gitfocus.github.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Contributions",
+   "value": "GitHub 贡献"
+  },
+  {
+   "id": "gitfocus.github.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub Data",
+   "value": "GitHub 数据"
+  },
+  {
+   "id": "gitfocus.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile",
+   "value": "GitHub 个人资料"
+  },
+  {
+   "id": "gitfocus.github.profile.photo.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub profile photo for %@",
+   "value": "%@ 的 GitHub 头像",
+   "comment": "Accessibility: GitHub profile photo"
+  },
+  {
+   "id": "gitfocus.github.user.ready.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitHub user ready!",
+   "value": "GitHub 用户已就绪！"
+  },
+  {
+   "id": "gitfocus.glass.style",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Glass Style",
+   "value": "玻璃样式"
+  },
+  {
+   "id": "gitfocus.got.it",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it",
+   "value": "知道了"
+  },
+  {
+   "id": "gitfocus.got.it.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Got it!",
+   "value": "知道了！"
+  },
+  {
+   "id": "gitfocus.great.choice.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Great Choice! 💪",
+   "value": "好选择！💪"
+  },
+  {
+   "id": "gitfocus.group.as.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(group as 1)",
+   "value": "（合并为 1）"
+  },
+  {
+   "id": "gitfocus.grouped",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "grouped",
+   "value": "已分组"
+  },
+  {
+   "id": "gitfocus.grouped.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouped",
+   "value": "已分组"
+  },
+  {
+   "id": "gitfocus.grouping.enabled.jumps.over.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Grouping enabled for jumps > 1",
+   "value": "当跳跃 > 1 时启用分组"
+  },
+  {
+   "id": "gitfocus.help.faq",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Help & FAQ",
+   "value": "帮助与常见问题"
+  },
+  {
+   "id": "gitfocus.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden Apps",
+   "value": "隐藏应用"
+  },
+  {
+   "id": "gitfocus.hidden.apps.removed.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hidden apps are removed from your home screen during focus sessions. ",
+   "value": "专注期间隐藏应用将从主屏幕移除。"
+  },
+  {
+   "id": "gitfocus.hide.all.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Hide All Blocked Apps",
+   "value": "隐藏所有被屏蔽应用"
+  },
+  {
+   "id": "gitfocus.how.app.hiding.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How App Hiding Works",
+   "value": "应用隐藏如何工作"
+  },
+  {
+   "id": "gitfocus.how.it.works",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How it works",
+   "value": "工作原理"
+  },
+  {
+   "id": "gitfocus.how.it.works.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How It Works",
+   "value": "工作原理"
+  },
+  {
+   "id": "gitfocus.how.many.minutes.can.you.bank.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How many minutes can you bank?",
+   "value": "你能存下多少分钟？"
+  },
+  {
+   "id": "gitfocus.how.strange",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "How strange",
+   "value": "真奇怪"
+  },
+  {
+   "id": "gitfocus.if.you.need.access.your.apps.right.now.were.about.uninstall.use.instead.wed.rather.you.stay.than.leave",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "If you need access to your apps right now and were about to uninstall, use this instead. We'd rather you stay than leave.",
+   "value": "如果你现在需要使用应用并正准备卸载，请使用此选项。我们更希望你留下。"
+  },
+  {
+   "id": "gitfocus.initial",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "(initial)",
+   "value": "（初始）"
+  },
+  {
+   "id": "gitfocus.interrupted",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Interrupted",
+   "value": "已中断"
+  },
+  {
+   "id": "gitfocus.invalid.username.format",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Invalid username format",
+   "value": "用户名格式无效",
+   "comment": "GitHub username validation error when the input fails basic format checks"
+  },
+  {
+   "id": "gitfocus.just.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Just now",
+   "value": "刚刚",
+   "comment": "Relative time label when under 1 minute"
+  },
+  {
+   "id": "gitfocus.language",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Language",
+   "value": "语言",
+   "comment": "Language override (TestFlight/debug)"
+  },
+  {
+   "id": "gitfocus.last.updated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Last updated:",
+   "value": "上次更新："
+  },
+  {
+   "id": "gitfocus.lasted.text.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lasted %@ of %@",
+   "value": "持续了 %@ / %@",
+   "comment": "Pomodoro session actual duration of target duration"
+  },
+  {
+   "id": "gitfocus.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Less",
+   "value": "更少"
+  },
+  {
+   "id": "gitfocus.level",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level",
+   "value": "级别"
+  },
+  {
+   "id": "gitfocus.level.reward.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.monthly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.reward.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.level.up",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Level Up",
+   "value": "升级"
+  },
+  {
+   "id": "gitfocus.lives",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives",
+   "value": "生命"
+  },
+  {
+   "id": "gitfocus.lives.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lives\nAvailable",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.loading.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading app usage...",
+   "value": "正在加载应用使用情况..."
+  },
+  {
+   "id": "gitfocus.loading.contribution.graph",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contribution graph...",
+   "value": "正在加载贡献图..."
+  },
+  {
+   "id": "gitfocus.loading.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Loading contributions...",
+   "value": "正在加载贡献..."
+  },
+  {
+   "id": "gitfocus.lock.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Lock Now",
+   "value": "立即锁定"
+  },
+  {
+   "id": "gitfocus.locked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Locked",
+   "value": "已锁定",
+   "comment": "Accessibility label for locked status"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn time",
+   "value": "提交以赚取时间"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time",
+   "value": "提交以赚取解锁时间"
+  },
+  {
+   "id": "gitfocus.make.commits.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Make commits to earn unlock time!",
+   "value": "提交以赚取解锁时间！"
+  },
+  {
+   "id": "gitfocus.manage.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Blocked Apps",
+   "value": "管理已屏蔽应用"
+  },
+  {
+   "id": "gitfocus.manage.hidden.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manage Hidden Apps",
+   "value": "管理隐藏应用"
+  },
+  {
+   "id": "gitfocus.manual.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Lock",
+   "value": "手动锁定",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.manual.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Manual Unlock",
+   "value": "手动解锁",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.max.one.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Max in One Day",
+   "value": "单日最高"
+  },
+  {
+   "id": "gitfocus.maximum.lives.earned.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Maximum lives earned!",
+   "value": "已获得最大生命数！"
+  },
+  {
+   "id": "gitfocus.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "min",
+   "value": "分钟"
+  },
+  {
+   "id": "gitfocus.mins",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "mins",
+   "value": "分钟"
+  },
+  {
+   "id": "gitfocus.minute",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minute",
+   "value": "分钟"
+  },
+  {
+   "id": "gitfocus.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "minutes",
+   "value": "分钟"
+  },
+  {
+   "id": "gitfocus.minutes.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes",
+   "value": "分钟"
+  },
+  {
+   "id": "gitfocus.minutes.banked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Minutes\nBanked",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.more",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More",
+   "value": "更多"
+  },
+  {
+   "id": "gitfocus.more.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "More options",
+   "value": "更多选项",
+   "comment": "Accessibility label for more options button"
+  },
+  {
+   "id": "gitfocus.nearly.invisible",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Nearly invisible",
+   "value": "几乎不可见"
+  },
+  {
+   "id": "gitfocus.need.emergency.access.question.use.life.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need emergency access?\nUse a life to unlock apps until midnight.",
+   "value": "需要紧急访问？\n使用一条生命解锁应用直到午夜。"
+  },
+  {
+   "id": "gitfocus.need.finish.message.question.borrow.up.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Need to finish a message?\nBorrow up to 5 minutes.",
+   "value": "需要把消息发完？\n最多可借用 5 分钟。"
+  },
+  {
+   "id": "gitfocus.new.day.started",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "New day started",
+   "value": "新的一天开始了"
+  },
+  {
+   "id": "gitfocus.no.account.needed.no.data.collection.works.offline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No account needed • No data collection • Works offline",
+   "value": "无需账号 • 不收集数据 • 可离线使用"
+  },
+  {
+   "id": "gitfocus.no.apps.selected.blocking",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No apps selected for blocking",
+   "value": "未选择要屏蔽的应用"
+  },
+  {
+   "id": "gitfocus.no.change",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No change",
+   "value": "无变化"
+  },
+  {
+   "id": "gitfocus.no.commits.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No commits yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.contribution.data.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No contribution data available",
+   "value": "没有可用的贡献数据"
+  },
+  {
+   "id": "gitfocus.no.data.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No data yet",
+   "value": "暂无数据"
+  },
+  {
+   "id": "gitfocus.no.events.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events for this day",
+   "value": "这一天没有事件"
+  },
+  {
+   "id": "gitfocus.no.events.recorded",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No events recorded",
+   "value": "没有记录事件"
+  },
+  {
+   "id": "gitfocus.no.focus.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No focus sessions yet",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No recent contributions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.no.sessions.yet",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No sessions yet",
+   "value": "暂无会话"
+  },
+  {
+   "id": "gitfocus.no.sessions.yet.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sessions Yet",
+   "value": "暂无会话"
+  },
+  {
+   "id": "gitfocus.no.sign.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No Sign-In Required",
+   "value": "无需登录"
+  },
+  {
+   "id": "gitfocus.no.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No, stay focused",
+   "value": "不，保持专注"
+  },
+  {
+   "id": "gitfocus.no.unlock.options",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No unlock options",
+   "value": "没有解锁选项"
+  },
+  {
+   "id": "gitfocus.no.usage.recorded.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "No usage recorded today",
+   "value": "今天没有记录使用情况"
+  },
+  {
+   "id": "gitfocus.not.enabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not enabled",
+   "value": "未启用"
+  },
+  {
+   "id": "gitfocus.not.enough.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Not Enough Time Available",
+   "value": "可用时间不足"
+  },
+  {
+   "id": "gitfocus.note.unlock.durations.track.active.app.usage.time.not.wall.clock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Note: Unlock durations track active app usage time, not wall clock time",
+   "value": "注意：解锁时长记录的是应用的实际使用时间，而非自然时间。"
+  },
+  {
+   "id": "gitfocus.notifications",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications",
+   "value": "通知"
+  },
+  {
+   "id": "gitfocus.notifications.disabled",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Disabled",
+   "value": "通知已关闭"
+  },
+  {
+   "id": "gitfocus.notifications.highly.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Notifications Highly Recommended",
+   "value": "强烈建议开启通知"
+  },
+  {
+   "id": "gitfocus.nsfamilycontrolsusagedescription",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "GitFocus needs Screen Time access to block distracting apps while you code. This helps you stay focused and productive.",
+   "value": "GitFocus 需要访问“屏幕使用时间”来在你编程时屏蔽分心应用。这有助于你保持专注和高效。"
+  },
+  {
+   "id": "gitfocus.number.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "+1 life",
+   "value": "+1 条生命"
+  },
+  {
+   "id": "gitfocus.ok",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "OK",
+   "value": "确定"
+  },
+  {
+   "id": "gitfocus.only.apps.already.your.blocked.list.can.hidden",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Only apps that are already in your blocked list can be hidden.",
+   "value": "只有已在屏蔽列表中的应用才能被隐藏。"
+  },
+  {
+   "id": "gitfocus.opaque.frosted.glass",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Opaque frosted glass",
+   "value": "不透明磨砂玻璃"
+  },
+  {
+   "id": "gitfocus.open.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus 📱",
+   "value": "打开 GitFocus 📱"
+  },
+  {
+   "id": "gitfocus.open.gitfocus.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open GitFocus",
+   "value": "打开 GitFocus"
+  },
+  {
+   "id": "gitfocus.open.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Settings",
+   "value": "打开设置"
+  },
+  {
+   "id": "gitfocus.open.source",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Open Source",
+   "value": "开源"
+  },
+  {
+   "id": "gitfocus.owed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Owed",
+   "value": "欠款"
+  },
+  {
+   "id": "gitfocus.paid.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Paid Debt",
+   "value": "已还债务",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.pause.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pause timer",
+   "value": "暂停定时器"
+  },
+  {
+   "id": "gitfocus.permanent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permanent",
+   "value": "永久"
+  },
+  {
+   "id": "gitfocus.permissions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Permissions",
+   "value": "权限"
+  },
+  {
+   "id": "gitfocus.pomodoro.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Pomodoro History",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.portuguese.brazil",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Portuguese (Brazil)",
+   "value": "葡萄牙语（巴西）"
+  },
+  {
+   "id": "gitfocus.preview",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Preview",
+   "value": "预览"
+  },
+  {
+   "id": "gitfocus.privacy.policy",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Privacy Policy",
+   "value": "隐私政策"
+  },
+  {
+   "id": "gitfocus.proceed.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Proceed Anyway",
+   "value": "仍然继续"
+  },
+  {
+   "id": "gitfocus.quick.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Quick Settings",
+   "value": "快速设置"
+  },
+  {
+   "id": "gitfocus.ready.focus.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to focus?",
+   "value": "准备专注了吗？"
+  },
+  {
+   "id": "gitfocus.ready.go",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Ready to go",
+   "value": "准备就绪"
+  },
+  {
+   "id": "gitfocus.recent.activity",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Activity",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recent.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Contributions",
+   "value": "近期贡献"
+  },
+  {
+   "id": "gitfocus.recent.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent Sessions",
+   "value": "最近的会话"
+  },
+  {
+   "id": "gitfocus.recent.system.events",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Recent system events",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.recommended",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "RECOMMENDED",
+   "value": "推荐"
+  },
+  {
+   "id": "gitfocus.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Refresh History",
+   "value": "刷新历史"
+  },
+  {
+   "id": "gitfocus.relocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Relocked",
+   "value": "重新锁定",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.remove.app.hide.list",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Remove app from hide list",
+   "value": "从隐藏列表移除应用",
+   "comment": "Accessibility label for removing a hidden app"
+  },
+  {
+   "id": "gitfocus.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "REQUIRED",
+   "value": "必需"
+  },
+  {
+   "id": "gitfocus.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset",
+   "value": "重置"
+  },
+  {
+   "id": "gitfocus.reset.all.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset All Settings",
+   "value": "重置所有设置"
+  },
+  {
+   "id": "gitfocus.reset.settings.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset Settings?",
+   "value": "重置设置？"
+  },
+  {
+   "id": "gitfocus.reset.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Reset timer",
+   "value": "重置计时器",
+   "comment": "Accessibility label for reset timer button"
+  },
+  {
+   "id": "gitfocus.restart.app.apply.language.changes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart the app to apply language changes.",
+   "value": "重启应用以应用语言更改。"
+  },
+  {
+   "id": "gitfocus.restart.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restart Required",
+   "value": "需要重启"
+  },
+  {
+   "id": "gitfocus.restore.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Continue Where I Left Off",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Restore Data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.found.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak and all saved progress.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.confirm",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.start.fresh.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.restore.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.review",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review",
+   "value": "检查"
+  },
+  {
+   "id": "gitfocus.review.onboarding",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review Onboarding",
+   "value": "回顾引导"
+  },
+  {
+   "id": "gitfocus.review.your.settings.start.focusing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Review your settings and start focusing",
+   "value": "检查你的设置并开始专注"
+  },
+  {
+   "id": "gitfocus.score",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "score",
+   "value": "得分"
+  },
+  {
+   "id": "gitfocus.screen.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Screen Time",
+   "value": "屏幕使用时间"
+  },
+  {
+   "id": "gitfocus.screen.time.bypassed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "• Screen Time bypassed",
+   "value": "• 已绕过屏幕使用时间"
+  },
+  {
+   "id": "gitfocus.second.reset",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Second Reset",
+   "value": "第二次重置"
+  },
+  {
+   "id": "gitfocus.see.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See all",
+   "value": "查看全部"
+  },
+  {
+   "id": "gitfocus.see.all.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See All",
+   "value": "查看全部"
+  },
+  {
+   "id": "gitfocus.see.its.right.side.now.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "See, it's on the right side now!",
+   "value": "看，现在在右侧了！"
+  },
+  {
+   "id": "gitfocus.select.apps.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Block",
+   "value": "选择要屏蔽的应用"
+  },
+  {
+   "id": "gitfocus.select.apps.block.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to block during focus sessions",
+   "value": "选择专注期间要屏蔽的应用"
+  },
+  {
+   "id": "gitfocus.select.apps.hide",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Apps to Hide",
+   "value": "选择要隐藏的应用"
+  },
+  {
+   "id": "gitfocus.select.apps.hide.home.screen",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps to hide from home screen",
+   "value": "选择要从主屏幕隐藏的应用"
+  },
+  {
+   "id": "gitfocus.select.apps.you.want.block.while.focusing.youll.need.make.commits.unlock.them",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select apps that you want to block while focusing. You'll need to make commits to unlock them.",
+   "value": "选择专注时要屏蔽的应用。你需要提交来解锁它们。"
+  },
+  {
+   "id": "gitfocus.select.demo.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select Demo Apps",
+   "value": "选择演示应用"
+  },
+  {
+   "id": "gitfocus.select.least.one.app.block",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select at least one app to block",
+   "value": "至少选择一个要屏蔽的应用"
+  },
+  {
+   "id": "gitfocus.select.specific.apps.your.blocked.list.hide.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Select specific apps from your blocked list to hide during focus sessions.",
+   "value": "从已屏蔽列表中选择要在专注期间隐藏的应用。"
+  },
+  {
+   "id": "gitfocus.selected",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected",
+   "value": "已选择",
+   "comment": "Accessibility label for selected state"
+  },
+  {
+   "id": "gitfocus.selected.apps.count",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Selected Apps (%d)",
+   "value": "已选应用（%d）",
+   "comment": "Selected apps section title with count"
+  },
+  {
+   "id": "gitfocus.send.feedback",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Send Feedback",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.session.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Session History",
+   "value": "会话历史"
+  },
+  {
+   "id": "gitfocus.set.custom.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Custom Duration",
+   "value": "设置自定义时长"
+  },
+  {
+   "id": "gitfocus.set.duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Set Duration",
+   "value": "设置时长"
+  },
+  {
+   "id": "gitfocus.settings",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Settings",
+   "value": "设置",
+   "comment": "Accessibility label for settings button"
+  },
+  {
+   "id": "gitfocus.setup.takes.less.than.number.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Setup takes less than 2 minutes",
+   "value": "设置不到 2 分钟"
+  },
+  {
+   "id": "gitfocus.shield.shown",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Shield Shown",
+   "value": "已显示屏蔽界面",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.show.less",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Show less",
+   "value": "显示较少"
+  },
+  {
+   "id": "gitfocus.skip",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip",
+   "value": "跳过"
+  },
+  {
+   "id": "gitfocus.skip.notifications.anyway",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip Notifications Anyway",
+   "value": "仍然跳过通知"
+  },
+  {
+   "id": "gitfocus.skip.now",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Skip for now",
+   "value": "暂时跳过"
+  },
+  {
+   "id": "gitfocus.slide.all.day",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide for all-day",
+   "value": "滑动解锁全天"
+  },
+  {
+   "id": "gitfocus.slide.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Slide to unlock",
+   "value": "滑动解锁"
+  },
+  {
+   "id": "gitfocus.solid",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Solid",
+   "value": "实心"
+  },
+  {
+   "id": "gitfocus.spanish",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Spanish",
+   "value": "西班牙语"
+  },
+  {
+   "id": "gitfocus.splash.tagline",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Commit to unlock distractions",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.start.focus.session",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Focus Session",
+   "value": "开始专注会话"
+  },
+  {
+   "id": "gitfocus.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh",
+   "value": "重新开始"
+  },
+  {
+   "id": "gitfocus.start.fresh.number",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh at 0",
+   "value": "从 0 开始"
+  },
+  {
+   "id": "gitfocus.start.fresh.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start Fresh?",
+   "value": "重新开始？"
+  },
+  {
+   "id": "gitfocus.start.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start timer",
+   "value": "启动定时器"
+  },
+  {
+   "id": "gitfocus.start.using.gitfocus.see.your.stats",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Start using GitFocus to see your stats",
+   "value": "开始使用 GitFocus 以查看统计"
+  },
+  {
+   "id": "gitfocus.started.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Started %@",
+   "value": "开始于 %@",
+   "comment": "Pomodoro session start time label"
+  },
+  {
+   "id": "gitfocus.starting",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Starting...",
+   "value": "正在开始..."
+  },
+  {
+   "id": "gitfocus.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Statistics",
+   "value": "统计"
+  },
+  {
+   "id": "gitfocus.stay.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stay Focused",
+   "value": "保持专注"
+  },
+  {
+   "id": "gitfocus.stayed.focused",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stayed Focused",
+   "value": "保持专注",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.staying.focused.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Staying Focused!",
+   "value": "保持专注！"
+  },
+  {
+   "id": "gitfocus.stop.timer",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stop timer",
+   "value": "停止计时器",
+   "comment": "Accessibility label for stop timer button"
+  },
+  {
+   "id": "gitfocus.stopped.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Stopped %@",
+   "value": "停止于 %@",
+   "comment": "Pomodoro session stopped time label"
+  },
+  {
+   "id": "gitfocus.subtle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Subtle",
+   "value": "轻微"
+  },
+  {
+   "id": "gitfocus.summary",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Summary",
+   "value": "摘要"
+  },
+  {
+   "id": "gitfocus.support",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "gitfocus.system.default",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "System Default",
+   "value": "系统默认"
+  },
+  {
+   "id": "gitfocus.tap.continue",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to continue",
+   "value": "点按继续",
+   "comment": "Core onboarding / settings / shield (zh-Hans)"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "点按打开 GitFocus，检查新提交以获得解锁时间"
+  },
+  {
+   "id": "gitfocus.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "点按打开 GitFocus 并同步你的 GitHub 提交"
+  },
+  {
+   "id": "gitfocus.tap.view.detailed.contribution.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tap to view detailed contribution statistics",
+   "value": "点按查看详细贡献统计",
+   "comment": "Accessibility hint for viewing contribution statistics"
+  },
+  {
+   "id": "gitfocus.text.daily.avg",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%@ daily avg",
+   "value": "%@ 日均",
+   "comment": "Average daily distraction time"
+  },
+  {
+   "id": "gitfocus.then.number.every.month",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "then +1 every month",
+   "value": "之后每月 +1"
+  },
+  {
+   "id": "gitfocus.time.balance.details",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Balance Details",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.balance.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Earn time with commits and spend it to unlock your apps.",
+   "value": ""
+  },
+  {
+   "id": "gitfocus.time.borrowing",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Borrowing",
+   "value": "时间借用"
+  },
+  {
+   "id": "gitfocus.time.code.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to code!",
+   "value": "该写代码了！"
+  },
+  {
+   "id": "gitfocus.time.days_left_percent",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dd left · %d%%",
+   "value": "剩余 %dd · %d%%",
+   "comment": "Year grid footer: days remaining and percent complete"
+  },
+  {
+   "id": "gitfocus.time.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Earned",
+   "value": "已赚时间",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.time.focus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time to Focus!",
+   "value": "该专注了！",
+   "comment": "Shield UI"
+  },
+  {
+   "id": "gitfocus.time.hours_ago",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%d h ago",
+   "value": "%d 小时前",
+   "comment": "Relative time label in hours"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "· %dm debt",
+   "value": "· %d 分钟债务",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_debt.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm debt",
+   "value": "%d 分钟债务",
+   "comment": "Debt minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_duration",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm duration",
+   "value": "%d 分钟时长",
+   "comment": "Duration minutes label"
+  },
+  {
+   "id": "gitfocus.time.minutes_earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "%dm earned",
+   "value": "已赚取 %d 分钟",
+   "comment": "Earned minutes badge\nEarned minutes label"
+  },
+  {
+   "id": "gitfocus.time.never.expires",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time never expires",
+   "value": "时间永不过期"
+  },
+  {
+   "id": "gitfocus.time.resets.weekly",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "time resets weekly",
+   "value": "时间每周重置"
+  },
+  {
+   "id": "gitfocus.time.spent.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time spent today:",
+   "value": "今日已用时间："
+  },
+  {
+   "id": "gitfocus.time.spent.today.alt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time Spent Today",
+   "value": "今日已用时间"
+  },
+  {
+   "id": "gitfocus.time.you.earn.but.dont.use.measure.your.self.control",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time you earn but don't use\nis a measure of your self-control",
+   "value": "你赚到但未使用的时间\n是自控力的体现"
+  },
+  {
+   "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Tip: Select individual apps rather than entire categories",
+   "value": "提示：请选择具体应用而不是整个分类"
+  },
+  {
+   "id": "gitfocus.today",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today",
+   "value": "今天",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.todays.app.usage",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's App Usage",
+   "value": "今日应用使用情况"
+  },
+  {
+   "id": "gitfocus.todays.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Commits",
+   "value": "今日提交"
+  },
+  {
+   "id": "gitfocus.todays.most.used.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Most Used Apps",
+   "value": "今日最常用应用"
+  },
+  {
+   "id": "gitfocus.todays.usage.statistics",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Today's Usage Statistics",
+   "value": "今日使用统计"
+  },
+  {
+   "id": "gitfocus.total.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Commits",
+   "value": "提交总数"
+  },
+  {
+   "id": "gitfocus.total.contributions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Contributions",
+   "value": "总贡献数"
+  },
+  {
+   "id": "gitfocus.total.refreshes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total Refreshes",
+   "value": "刷新总次数"
+  },
+  {
+   "id": "gitfocus.total.today.count.minutes",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Total today: %d minutes",
+   "value": "今日总计：%d 分钟",
+   "comment": "Total usage minutes today"
+  },
+  {
+   "id": "gitfocus.transparent.edge.glow",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Transparent with edge glow",
+   "value": "透明并带边缘光晕"
+  },
+  {
+   "id": "gitfocus.turn.commits.into.focus.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Turn Commits into Focus Time",
+   "value": "把提交变成专注时间"
+  },
+  {
+   "id": "gitfocus.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock for:",
+   "value": "解锁时长："
+  },
+  {
+   "id": "gitfocus.unlock.app",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock App",
+   "value": "解锁应用"
+  },
+  {
+   "id": "gitfocus.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock apps until midnight",
+   "value": "直到午夜解锁应用程序"
+  },
+  {
+   "id": "gitfocus.unlock.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Debt)",
+   "value": "解锁（债务）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Earned)",
+   "value": "解锁（已赚）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.failed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Failed",
+   "value": "解锁失败",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 5 min",
+   "value": "解锁 5 分钟",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock (Mixed)",
+   "value": "解锁（混合）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock 1 min",
+   "value": "解锁 1 分钟",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlock.text",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock %@",
+   "value": "解锁 %@",
+   "comment": "Unlock app button title"
+  },
+  {
+   "id": "gitfocus.unlock.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time",
+   "value": "解锁时间"
+  },
+  {
+   "id": "gitfocus.unlock.time.remaining",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Time Remaining",
+   "value": "剩余解锁时间"
+  },
+  {
+   "id": "gitfocus.unlock.time.your.blocked.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "of unlock time for your blocked apps",
+   "value": "的解锁时间，用于你被屏蔽的应用"
+  },
+  {
+   "id": "gitfocus.unlock.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlock Until Midnight",
+   "value": "解锁至午夜"
+  },
+  {
+   "id": "gitfocus.unlocked",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked",
+   "value": "解锁"
+  },
+  {
+   "id": "gitfocus.unlocked.count.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked for %d min",
+   "value": "已解锁 %d 分钟",
+   "comment": "Remaining unlock time label"
+  },
+  {
+   "id": "gitfocus.unlocked.debt",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Debt)",
+   "value": "已解锁（债务）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.earned",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Earned)",
+   "value": "已解锁（已赚）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.five.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 5 min",
+   "value": "已解锁 5 分钟",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.mixed",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked (Mixed)",
+   "value": "已解锁（混合）",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocked.number.min",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Unlocked 1 min",
+   "value": "已解锁 1 分钟",
+   "comment": "Event label"
+  },
+  {
+   "id": "gitfocus.unlocks",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "unlocks",
+   "value": "解锁"
+  },
+  {
+   "id": "gitfocus.until.apps.re.lock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "until apps re-lock",
+   "value": "直到应用重新锁定"
+  },
+  {
+   "id": "gitfocus.use.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Earned Time",
+   "value": "使用已赚时间"
+  },
+  {
+   "id": "gitfocus.use.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use Life",
+   "value": "使用生命"
+  },
+  {
+   "id": "gitfocus.use.number.your.count.heart.unlock.apps.until.midnight.your.count.day.streak.will.preserved",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Use 1 of your %d ❤️ to unlock apps until midnight.\n\nYour %d day streak will be preserved.",
+   "value": "使用你 %d 条 ❤️ 中的一条解锁应用直到午夜。\n\n你的 %d 天连胜将被保留。",
+   "comment": "Emergency override message when user has lives"
+  },
+  {
+   "id": "gitfocus.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "使用了可用时间并额外借用。共 %d 分钟。"
+  },
+  {
+   "id": "gitfocus.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "已从可用余额中使用 %d 分钟。计时开始！"
+  },
+  {
+   "id": "gitfocus.used.life",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Used life",
+   "value": "已用生命"
+  },
+  {
+   "id": "gitfocus.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "username",
+   "value": "用户名"
+  },
+  {
+   "id": "gitfocus.username.cannot.empty",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username cannot be empty",
+   "value": "用户名不能为空",
+   "comment": "GitHub username validation error when the input is empty"
+  },
+  {
+   "id": "gitfocus.username.validated",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username validated",
+   "value": "用户名已验证",
+   "comment": "Accessibility label for username validated status"
+  },
+  {
+   "id": "gitfocus.username.verified.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Username verified!",
+   "value": "用户名已验证！"
+  },
+  {
+   "id": "gitfocus.uses.number.life.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Uses 1 life • Until midnight",
+   "value": "使用 1 条生命 • 直到午夜"
+  },
+  {
+   "id": "gitfocus.using.earned.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Using earned time",
+   "value": "使用已赚时间"
+  },
+  {
+   "id": "gitfocus.validate",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Validate",
+   "value": "证实"
+  },
+  {
+   "id": "gitfocus.verify.username",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Verify Username",
+   "value": "验证用户名"
+  },
+  {
+   "id": "gitfocus.version",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Version",
+   "value": "版本"
+  },
+  {
+   "id": "gitfocus.view.all",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View All",
+   "value": "查看全部"
+  },
+  {
+   "id": "gitfocus.view.debug.logs",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Debug Logs",
+   "value": "查看调试日志"
+  },
+  {
+   "id": "gitfocus.view.refresh.history",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "View Refresh History",
+   "value": "查看刷新历史"
+  },
+  {
+   "id": "gitfocus.warning",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Warning",
+   "value": "警告",
+   "comment": "Accessibility label for warning indicator"
+  },
+  {
+   "id": "gitfocus.we.found.your.existing.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your existing commits",
+   "value": "已找到你已有的提交"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account",
+   "value": "已找到你的 GitHub 账号"
+  },
+  {
+   "id": "gitfocus.we.found.your.github.account.before",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your GitHub account from before",
+   "value": "找到了你之前的 GitHub 账号"
+  },
+  {
+   "id": "gitfocus.we.found.your.previous.data",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We found your previous data",
+   "value": "已找到你之前的数据"
+  },
+  {
+   "id": "gitfocus.we.only.access.publicly.available.contribution.data.github.no.authentication.private.data.access.required",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We only access publicly available contribution data from GitHub. No authentication or private data access is required.",
+   "value": "我们只访问 GitHub 公开的贡献数据，不需要认证或访问私有数据。"
+  },
+  {
+   "id": "gitfocus.weekly.bank",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Weekly bank",
+   "value": "每周存储"
+  },
+  {
+   "id": "gitfocus.welcome",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome",
+   "value": "欢迎"
+  },
+  {
+   "id": "gitfocus.welcome.back",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome Back!",
+   "value": "欢迎回来！"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back!",
+   "value": "欢迎回来！"
+  },
+  {
+   "id": "gitfocus.welcome.back.exclamation.your.github.data.ready",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome back! Your GitHub data is ready.",
+   "value": "欢迎回来！你的 GitHub 数据已准备好。"
+  },
+  {
+   "id": "gitfocus.welcome.gitfocus.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Welcome to GitFocus!",
+   "value": "欢迎使用 GitFocus！"
+  },
+  {
+   "id": "gitfocus.well.track.your.public.commits.unlock.apps",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll track your public commits to unlock apps",
+   "value": "我们将跟踪你的公开提交以解锁应用"
+  },
+  {
+   "id": "gitfocus.well.use.track.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "We'll use this to track your commits",
+   "value": "我们将用它来跟踪你的提交"
+  },
+  {
+   "id": "gitfocus.when.enabled.all.blocked.apps.will.hidden.your.home.screen.during.focus.sessions",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "When enabled, all blocked apps will be hidden from your home screen during focus sessions.",
+   "value": "启用后，专注期间所有被屏蔽的应用都会从主屏幕隐藏。"
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which Apps Distract You?",
+   "value": "哪些应用让你分心？"
+  },
+  {
+   "id": "gitfocus.which.apps.distract.you.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Which apps distract you?",
+   "value": "哪些应用让你分心？"
+  },
+  {
+   "id": "gitfocus.why.no.sign.required.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Why no sign in required?",
+   "value": "为什么不需要登录？"
+  },
+  {
+   "id": "gitfocus.will.clear.your.streak.count.days.earned.time.all.saved.progress.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will clear your streak (%d days), earned time, and all saved progress. This cannot be undone.",
+   "value": "这将清除你的连胜（%d 天）、已赚时间及所有保存的进度，且无法撤销。",
+   "comment": "Start fresh confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.count.session.records",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all %d session records.",
+   "value": "这将永久删除所有 %d 条会话记录。",
+   "comment": "Clear history confirmation message"
+  },
+  {
+   "id": "gitfocus.will.permanently.delete.all.refresh.history.action.cannot.undone",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will permanently delete all refresh history. This action cannot be undone.",
+   "value": "这将永久删除所有刷新历史，此操作无法撤销。"
+  },
+  {
+   "id": "gitfocus.will.reset.all.settings.defaults.clear.your.github.username.youll.need.set.up.app.again",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will reset all settings to defaults and clear your GitHub username. You'll need to set up the app again.",
+   "value": "这将把所有设置重置为默认值并清除你的 GitHub 用户名。你需要重新设置应用。"
+  },
+  {
+   "id": "gitfocus.will.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "This will unlock apps until midnight.",
+   "value": "这将解锁应用直到午夜。"
+  },
+  {
+   "id": "gitfocus.without.notifications.youll.need.manually.open.app.check.commits.when.requesting.unlock",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Without notifications, you'll need to manually open the app to check commits when requesting an unlock.",
+   "value": "没有通知时，你需要在请求解锁时手动打开应用检查提交。"
+  },
+  {
+   "id": "gitfocus.year",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "this year",
+   "value": "今年"
+  },
+  {
+   "id": "gitfocus.year.end.challenge",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year-End Challenge",
+   "value": "年末挑战"
+  },
+  {
+   "id": "gitfocus.year.pixels",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Year in Pixels",
+   "value": "像素年表"
+  },
+  {
+   "id": "gitfocus.yes.need.more.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, I need more time",
+   "value": "是的，我需要更多时间"
+  },
+  {
+   "id": "gitfocus.yes.start.fresh",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yes, Start Fresh",
+   "value": "是的，从头开始"
+  },
+  {
+   "id": "gitfocus.yesterday",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Yesterday",
+   "value": "昨天",
+   "comment": "Relative date label"
+  },
+  {
+   "id": "gitfocus.you.dont.have.any.earned.time.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You don't have any earned time available.",
+   "value": "你没有可用的已赚时间。"
+  },
+  {
+   "id": "gitfocus.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d min of usage time.",
+   "value": "你有 %d 分钟的使用时间。"
+  },
+  {
+   "id": "gitfocus.you.have.count.minutes.earned.time.your.commits",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You have %d minutes of earned time from your commits.",
+   "value": "你有 %d 分钟来自提交的已赚时间。",
+   "comment": "Earned time available message"
+  },
+  {
+   "id": "gitfocus.you.previously.denied.notifications.open.settings.enable.them.gitfocus",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You previously denied notifications. Open Settings to enable them for GitFocus.",
+   "value": "你之前拒绝了通知。请打开“设置”以为 GitFocus 启用通知。"
+  },
+  {
+   "id": "gitfocus.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "你请求了 %d 分钟，但只有 %d 分钟可用。"
+  },
+  {
+   "id": "gitfocus.you.start.number.free.life.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You start with 1 free life!",
+   "value": "你将获得 1 条免费生命！"
+  },
+  {
+   "id": "gitfocus.your.github.profile",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitHub Profile",
+   "value": "你的 GitHub 资料"
+  },
+  {
+   "id": "gitfocus.your.privacy.matters",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your Privacy Matters",
+   "value": "重视你的隐私"
+  },
+  {
+   "id": "gitfocus.youre.all.set.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're All Set!",
+   "value": "都设置好了！"
+  },
+  {
+   "id": "gitfocus.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "你在保持专注。继续加油！"
+  },
+  {
+   "id": "gitfocus.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "你正在打开被屏蔽的应用。\n需要更多时间吗？"
+  },
+  {
+   "id": "gitfocus.youve.already.made.commits.today.would.you.like.start.time.begin.fresh.zero.question",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've already made commits today. Would you like to start with this time, or begin fresh at zero?",
+   "value": "你今天已经提交过。要使用这些时间开始，还是从零开始？"
+  },
+  {
+   "id": "gitfocus.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "你的债务已达到上限（-5 分钟）。在 GitHub 提交以获得解锁时间！"
+  },
+  {
+   "id": "gitfocus.youve.used.all.count.lives.will.still.unlock.apps.until.midnight",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "You've used all %d lives.\n\nThis will still unlock apps until midnight.",
+   "value": "你已用完 %d 条生命。\n\n仍会解锁应用直到午夜。",
+   "comment": "Emergency override message when user has no lives"
+  },
+  {
+   "id": "pomodorowidget.count.min",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "%d min",
+   "value": "%d 分钟",
+   "comment": "Total focus duration in minutes"
+  },
+  {
+   "id": "pomodorowidget.focus",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus",
+   "value": "专注",
+   "comment": "PomodoroWidget (zh-Hans)"
+  },
+  {
+   "id": "pomodorowidget.focus.timer",
+   "kind": "app",
+   "section": "pomodorowidget",
+   "en": "Focus Timer",
+   "value": "专注计时器"
+  },
+  {
+   "id": "shieldaction.apps.unlocked.exclamation.unlock",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Apps Unlocked! 🔓",
+   "value": "应用已解锁！🔓"
+  },
+  {
+   "id": "shieldaction.borrowed.count.min.pay.it.back.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Borrowed %d min. Pay it back with commits!",
+   "value": "已借用 %d 分钟。用提交来偿还！",
+   "comment": "Unlock notification body (debt)"
+  },
+  {
+   "id": "shieldaction.check.your.github.commits.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Check Your GitHub Commits! 💻",
+   "value": "检查你的 GitHub 提交！💻"
+  },
+  {
+   "id": "shieldaction.debt.limit.reached.warning",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Debt Limit Reached ⚠️",
+   "value": "已达到债务上限 ⚠️"
+  },
+  {
+   "id": "shieldaction.great.choice.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Great Choice! 💪",
+   "value": "好选择！💪"
+  },
+  {
+   "id": "shieldaction.not.enough.time.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Not Enough Time Available",
+   "value": "可用时间不足"
+  },
+  {
+   "id": "shieldaction.open.gitfocus",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Open GitFocus 📱",
+   "value": "打开 GitFocus 📱"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.check.new.commits.earn.unlock.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and check for new commits to earn unlock time",
+   "value": "点按打开 GitFocus，检查新提交以获得解锁时间"
+  },
+  {
+   "id": "shieldaction.tap.open.gitfocus.sync.your.github.commits",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Tap to open GitFocus and sync your GitHub commits",
+   "value": "点按打开 GitFocus 并同步你的 GitHub 提交"
+  },
+  {
+   "id": "shieldaction.used.available.time.borrowed.extra.count.min.total",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used available time and borrowed extra. %d min total.",
+   "value": "使用了可用时间并额外借用。共 %d 分钟。",
+   "comment": "Unlock notification body (mixed)"
+  },
+  {
+   "id": "shieldaction.used.count.min.available.balance.timer.started.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "Used %d min from available balance. Timer started!",
+   "value": "已从可用余额中使用 %d 分钟。计时开始！",
+   "comment": "Unlock notification body (earned)"
+  },
+  {
+   "id": "shieldaction.you.have.count.min.usage.time",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You have %d min of usage time.",
+   "value": "你有 %d 分钟的使用时间。",
+   "comment": "Unlock notification body (generic)"
+  },
+  {
+   "id": "shieldaction.you.requested.count.min.but.only.have.count.min.available",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You requested %d min but only have %d min available.",
+   "value": "你请求了 %d 分钟，但只有 %d 分钟可用。",
+   "comment": "Insufficient time notification body"
+  },
+  {
+   "id": "shieldaction.youre.staying.focused.keep.up.great.work.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You're staying focused. Keep up the great work!",
+   "value": "你在保持专注。继续加油！"
+  },
+  {
+   "id": "shieldaction.youve.maxed.out.your.debt.number.min.make.commits.github.earn.unlock.time.exclamation",
+   "kind": "app",
+   "section": "shieldaction",
+   "en": "You've maxed out your debt (-5 min). Make commits on GitHub to earn unlock time!",
+   "value": "你的债务已达到上限（-5 分钟）。在 GitHub 提交以获得解锁时间！"
+  },
+  {
+   "id": "shieldconfiguration.choose.unlock.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Choose Unlock Time",
+   "value": "选择解锁时间"
+  },
+  {
+   "id": "shieldconfiguration.continue.focusing",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Continue focusing",
+   "value": "继续专注"
+  },
+  {
+   "id": "shieldconfiguration.no.stay.focused",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "No, stay focused",
+   "value": "不，保持专注"
+  },
+  {
+   "id": "shieldconfiguration.open.gitfocus",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Open GitFocus",
+   "value": "打开 GitFocus"
+  },
+  {
+   "id": "shieldconfiguration.staying.focused.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Staying Focused!",
+   "value": "保持专注！"
+  },
+  {
+   "id": "shieldconfiguration.time.focus.exclamation",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Time to Focus!",
+   "value": "该专注了！"
+  },
+  {
+   "id": "shieldconfiguration.yes.need.more.time",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "Yes, I need more time",
+   "value": "是的，我需要更多时间"
+  },
+  {
+   "id": "shieldconfiguration.youre.trying.open.blocked.app.need.more.time.work.question",
+   "kind": "app",
+   "section": "shieldconfiguration",
+   "en": "You're trying to open a blocked app.\nNeed more time to work on this?",
+   "value": "你正在打开被屏蔽的应用。\n需要更多时间吗？"
+  },
+  {
+   "id": "asc.name",
+   "kind": "asc",
+   "section": "name",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "asc.subtitle",
+   "kind": "asc",
+   "section": "subtitle",
+   "en": "Turn Commits into Focus Time",
+   "value": "把提交变成专注时间"
+  },
+  {
+   "id": "asc.promotional_text",
+   "kind": "asc",
+   "section": "promotional text",
+   "en": "Block distractions until you code. Track one or more GitHub accounts, and every new contribution earns unlock time.",
+   "value": "编码前屏蔽干扰。跟踪一个或多个 GitHub 账号，每次新贡献都可赢得解锁时间。"
+  },
+  {
+   "id": "asc.description",
+   "kind": "asc",
+   "section": "description",
+   "en": "GitFocus helps developers stay productive by rewarding coding with app access. Block distracting apps until you commit code to GitHub.\n\nHOW IT WORKS\n• Add one or more GitHub accounts (no sign-in required)\n• Select apps to block during focus sessions\n• Each new GitHub contribution earns you 5 minutes of unlock time\n• Need emergency access? Use a life to unlock until midnight\n\nKEY FEATURES\n\nCommit-Based Rewards\nEvery time your GitHub contribution graph increases, you earn unlock time for your blocked apps. The more you code, the more time you earn.\n\nSmart App Blocking\nUses iOS Screen Time to block apps you choose. No workarounds - the apps are truly blocked until you earn time or use a life.\n\nLives System\nStart with 1 free life. Use it for emergency access when you need to check something urgent. Earn more lives by building your coding streak.\n\nTime Borrowing\nNeed to quickly finish a message? Borrow up to 5 minutes. Your future commits will pay it back automatically.\n\nContribution Graph\nSee your GitHub activity at a glance. Watch your coding streak grow as you stay focused and productive.\n\nPrivacy First\nWe only read your public contribution graph (no access to your repositories or code). Your data is stored on your device, with optional iCloud sync for certain settings/statistics if iCloud is enabled.\n\nPERFECT FOR\n• Developers who want to reduce social media time\n• Students learning to code\n• Anyone building a coding habit\n• Teams doing focus sprints\n\nBreak the doom-scrolling cycle. Start coding, start earning.\n\nNote: Requires a public GitHub profile with visible contributions.",
+   "value": "GitFocus 通过用应用访问奖励编程，帮助开发者保持高效。在你向 GitHub 提交代码之前，会屏蔽分心应用。\n\n工作方式\n• 添加一个或多个 GitHub 账号（无需登录）\n• 选择专注时要屏蔽的应用\n• 每次新的 GitHub 贡献可获得 5 分钟解锁时间\n• 需要紧急访问？使用一条生命解锁到午夜\n\n核心功能\n\n基于提交的奖励\n每当你的 GitHub 贡献图增加时，你的被屏蔽应用都会获得解锁时间。写得越多，时间越多。\n\n智能应用屏蔽\n使用 iOS 屏幕使用时间屏蔽你选择的应用。没有绕过方式——在你赚到时间或使用生命之前，应用会真正被屏蔽。\n\n生命系统\n初始有 1 条免费生命。当你需要紧急查看时使用它解锁。通过保持编码连胜获得更多生命。\n\n时间借用\n需要快速完成一条消息？最多可借用 5 分钟。未来的提交会自动偿还。\n\n贡献图\n一眼查看你的 GitHub 活动。保持专注与高效，看着你的连胜增长。\n\n隐私优先\n我们只读取公开的贡献图（不会访问你的仓库或代码）。数据保存在你的设备上，若开启 iCloud，可对部分设置/统计进行同步。\n\n适合人群\n• 想减少社交媒体时间的开发者\n• 学习编程的学生\n• 正在养成编码习惯的任何人\n• 进行专注冲刺的团队\n\n打破无尽刷屏。开始编码，开始赚取。\n\n注：需要公开的 GitHub 个人资料并显示贡献。"
+  },
+  {
+   "id": "asc.keywords",
+   "kind": "asc",
+   "section": "keywords",
+   "en": "timer,productivity,github,coding,developer,screen time,app blocker,habit,streak,pomodoro,deep work",
+   "value": "专注,效率,github,编程,开发者,屏幕使用时间,应用屏蔽,习惯,连胜,提交,番茄钟"
+  },
+  {
+   "id": "asc.release_notes",
+   "kind": "asc",
+   "section": "release notes",
+   "en": "What's New in 1.1.0:\n\nGitHub Accounts\n• Track multiple public GitHub accounts at once\n• Switch contribution views between all included accounts, one account, or a custom selection\n• Filter the contribution timeline by available years or show all years together\n\nRelease Prep\n• Updated App Store screenshots and website assets for the new multi-account flow\n• Localization coverage fixes for the new contribution filters",
+   "value": "1.1.0 新功能：\n\nGitHub 账号\n• 同时跟踪多个公开 GitHub 账号\n• 在所有已包含账号、单个账号或自定义选择之间切换贡献视图\n• 按可用年份筛选贡献时间线，或一起显示所有年份\n\n发布准备\n• 为新的多账号流程更新了 App Store 截图和网站资源\n• 修复了新贡献筛选器的本地化覆盖"
+  },
+  {
+   "id": "site.index.000",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus - Block Apps Until You Commit",
+   "value": "GitFocus — 提交前锁定应用"
+  },
+  {
+   "id": "site.index.001",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS.",
+   "value": "GitFocus blocks distracting apps until you push code to GitHub. Track one or multiple GitHub accounts and turn commits into focus time. Available for iOS."
+  },
+  {
+   "id": "site.index.002",
+   "kind": "site",
+   "section": "index",
+   "en": "Skip to main content",
+   "value": "跳到主要内容"
+  },
+  {
+   "id": "site.index.003",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.index.004",
+   "kind": "site",
+   "section": "index",
+   "en": "Features",
+   "value": "功能"
+  },
+  {
+   "id": "site.index.005",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy",
+   "value": "隐私"
+  },
+  {
+   "id": "site.index.006",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.index.007",
+   "kind": "site",
+   "section": "index",
+   "en": "🇬🇧 EN",
+   "value": "🇨🇳 ZH"
+  },
+  {
+   "id": "site.index.008",
+   "kind": "site",
+   "section": "index",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.index.009",
+   "kind": "site",
+   "section": "index",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.index.010",
+   "kind": "site",
+   "section": "index",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.index.011",
+   "kind": "site",
+   "section": "index",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.index.012",
+   "kind": "site",
+   "section": "index",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.index.013",
+   "kind": "site",
+   "section": "index",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.index.014",
+   "kind": "site",
+   "section": "index",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.index.015",
+   "kind": "site",
+   "section": "index",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.index.016",
+   "kind": "site",
+   "section": "index",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.index.017",
+   "kind": "site",
+   "section": "index",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.index.018",
+   "kind": "site",
+   "section": "index",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.index.019",
+   "kind": "site",
+   "section": "index",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.index.020",
+   "kind": "site",
+   "section": "index",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.index.021",
+   "kind": "site",
+   "section": "index",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.index.022",
+   "kind": "site",
+   "section": "index",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.index.023",
+   "kind": "site",
+   "section": "index",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.index.024",
+   "kind": "site",
+   "section": "index",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.index.025",
+   "kind": "site",
+   "section": "index",
+   "en": "Now on the App Store",
+   "value": "已上架 App Store"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
+   "en": "Block apps until you",
+   "value": "应用保持锁定，直到你"
+  },
+  {
+   "id": "site.index.027",
+   "kind": "site",
+   "section": "index",
+   "en": "git push",
+   "value": "git push"
+  },
+  {
+   "id": "site.index.028",
+   "kind": "site",
+   "section": "index",
+   "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
+   "value": "GitFocus 把你的编码习惯变成一场游戏。从一个或多个 GitHub 账号提交，就能解锁那些让你分心的应用。就这么简单。"
+  },
+  {
+   "id": "site.index.029",
+   "kind": "site",
+   "section": "index",
+   "en": "See how it works",
+   "value": "看看怎么用"
+  },
+  {
+   "id": "site.index.030",
+   "kind": "site",
+   "section": "index",
+   "en": "git commit -m \"unlock apps\"",
+   "value": "git commit -m \"unlock apps\""
+  },
+  {
+   "id": "site.index.031",
+   "kind": "site",
+   "section": "index",
+   "en": "Scroll to explore",
+   "value": "滚动了解更多"
+  },
+  {
+   "id": "site.index.032",
+   "kind": "site",
+   "section": "index",
+   "en": "// How it works",
+   "value": "// 工作原理"
+  },
+  {
+   "id": "site.index.033",
+   "kind": "site",
+   "section": "index",
+   "en": "Turn commits into freedom",
+   "value": "把提交变成自由时间"
+  },
+  {
+   "id": "site.index.034",
+   "kind": "site",
+   "section": "index",
+   "en": "Setup takes 2 minutes. Then let your code do the talking.",
+   "value": "设置只需 2 分钟，之后就让代码替你说话。"
+  },
+  {
+   "id": "site.index.035",
+   "kind": "site",
+   "section": "index",
+   "en": "Add GitHub accounts",
+   "value": "添加 GitHub 账号"
+  },
+  {
+   "id": "site.index.036",
+   "kind": "site",
+   "section": "index",
+   "en": "Track one account or aggregate work, personal, and open-source profiles",
+   "value": "可以只跟踪一个账号，也可以把工作、个人和开源资料整合在一起"
+  },
+  {
+   "id": "site.index.037",
+   "kind": "site",
+   "section": "index",
+   "en": "Dashboard",
+   "value": "仪表盘"
+  },
+  {
+   "id": "site.index.038",
+   "kind": "site",
+   "section": "index",
+   "en": "Track your streak, daily score, and app lock status at a glance",
+   "value": "一眼看清连续记录、当日得分和锁定状态"
+  },
+  {
+   "id": "site.index.039",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Stats",
+   "value": "专注统计"
+  },
+  {
+   "id": "site.index.040",
+   "kind": "site",
+   "section": "index",
+   "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
+   "value": "每天从 100 开始，看着锁定时长和解锁一点点消耗它"
+  },
+  {
+   "id": "site.index.041",
+   "kind": "site",
+   "section": "index",
+   "en": "Contribution Stats",
+   "value": "贡献统计"
+  },
+  {
+   "id": "site.index.042",
+   "kind": "site",
+   "section": "index",
+   "en": "Deep dive into your GitHub activity with detailed statistics",
+   "value": "用详细的统计深入了解你的 GitHub 活动"
+  },
+  {
+   "id": "site.index.043",
+   "kind": "site",
+   "section": "index",
+   "en": "Focus Timer",
+   "value": "专注计时器"
+  },
+  {
+   "id": "site.index.044",
+   "kind": "site",
+   "section": "index",
+   "en": "Built-in Pomodoro timer to maximize your productivity sessions",
+   "value": "内置番茄钟，让每一段专注时间都更高效"
+  },
+  {
+   "id": "site.index.045",
+   "kind": "site",
+   "section": "index",
+   "en": "// Features",
+   "value": "// 功能"
+  },
+  {
+   "id": "site.index.046",
+   "kind": "site",
+   "section": "index",
+   "en": "Everything you need to stay focused",
+   "value": "保持专注所需的一切"
+  },
+  {
+   "id": "site.index.047",
+   "kind": "site",
+   "section": "index",
+   "en": "Not just another app blocker. GitFocus gamifies productivity.",
+   "value": "不只是又一个应用拦截器。GitFocus 把生产力变成游戏。"
+  },
+  {
+   "id": "site.index.048",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn Time",
+   "value": "赚取时间"
+  },
+  {
+   "id": "site.index.049",
+   "kind": "site",
+   "section": "index",
+   "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
+   "value": "来自所选 GitHub 账号的每一次提交都会累积解锁时间。工作、个人和开源，一起记录。"
+  },
+  {
+   "id": "site.index.050",
+   "kind": "site",
+   "section": "index",
+   "en": "mins unlocked",
+   "value": "分钟已解锁"
+  },
+  {
+   "id": "site.index.051",
+   "kind": "site",
+   "section": "index",
+   "en": "Simulate commit",
+   "value": "模拟一次提交"
+  },
+  {
+   "id": "site.index.052",
+   "kind": "site",
+   "section": "index",
+   "en": "Lives System",
+   "value": "生命值系统"
+  },
+  {
+   "id": "site.index.053",
+   "kind": "site",
+   "section": "index",
+   "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
+   "value": "需要紧急使用？用掉一条命即可解锁应用直到午夜。你有 1 条免费的命。"
+  },
+  {
+   "id": "site.index.054",
+   "kind": "site",
+   "section": "index",
+   "en": "Earn more through",
+   "value": "更多可通过"
+  },
+  {
+   "id": "site.index.055",
+   "kind": "site",
+   "section": "index",
+   "en": "streaks",
+   "value": "连续记录"
+  },
+  {
+   "id": "site.index.056",
+   "kind": "site",
+   "section": "index",
+   "en": "Borrow Time",
+   "value": "借用时间"
+  },
+  {
+   "id": "site.index.057",
+   "kind": "site",
+   "section": "index",
+   "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
+   "value": "还有一条消息没写完？最多可借 5 分钟，之后的提交会还上。"
+  },
+  {
+   "id": "site.index.058",
+   "kind": "site",
+   "section": "index",
+   "en": "Current debt:",
+   "value": "当前欠额："
+  },
+  {
+   "id": "site.index.059",
+   "kind": "site",
+   "section": "index",
+   "en": "0 min",
+   "value": "0 分钟"
+  },
+  {
+   "id": "site.index.060",
+   "kind": "site",
+   "section": "index",
+   "en": "Max borrow:",
+   "value": "最多可借："
+  },
+  {
+   "id": "site.index.061",
+   "kind": "site",
+   "section": "index",
+   "en": "5 min",
+   "value": "5 分钟"
+  },
+  {
+   "id": "site.index.062",
+   "kind": "site",
+   "section": "index",
+   "en": "Discipline Bank",
+   "value": "自律银行"
+  },
+  {
+   "id": "site.index.063",
+   "kind": "site",
+   "section": "index",
+   "en": "(Coming Soon)",
+   "value": "（即将推出）"
+  },
+  {
+   "id": "site.index.064",
+   "kind": "site",
+   "section": "index",
+   "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
+   "value": "赚到却没用掉的时间会存起来，这是衡量自制力的方式。"
+  },
+  {
+   "id": "site.index.065",
+   "kind": "site",
+   "section": "index",
+   "en": "minutes banked",
+   "value": "分钟已存入"
+  },
+  {
+   "id": "site.index.066",
+   "kind": "site",
+   "section": "index",
+   "en": "Challenge: Bank",
+   "value": "挑战：存满"
+  },
+  {
+   "id": "site.index.067",
+   "kind": "site",
+   "section": "index",
+   "en": "1000 min",
+   "value": "1000 分钟"
+  },
+  {
+   "id": "site.index.068",
+   "kind": "site",
+   "section": "index",
+   "en": "this year",
+   "value": "今年"
+  },
+  {
+   "id": "site.index.069",
+   "kind": "site",
+   "section": "index",
+   "en": "Streak Milestones",
+   "value": "连续记录里程碑"
+  },
+  {
+   "id": "site.index.070",
+   "kind": "site",
+   "section": "index",
+   "en": "Build your streak to unlock permanent rewards.",
+   "value": "延长连续记录，解锁永久奖励。"
+  },
+  {
+   "id": "site.index.071",
+   "kind": "site",
+   "section": "index",
+   "en": "14d",
+   "value": "14 天"
+  },
+  {
+   "id": "site.index.072",
+   "kind": "site",
+   "section": "index",
+   "en": "+1 extra life",
+   "value": "+1 条命"
+  },
+  {
+   "id": "site.index.073",
+   "kind": "site",
+   "section": "index",
+   "en": "30d",
+   "value": "30 天"
+  },
+  {
+   "id": "site.index.074",
+   "kind": "site",
+   "section": "index",
+   "en": "Weekly time bank",
+   "value": "每周时间银行"
+  },
+  {
+   "id": "site.index.075",
+   "kind": "site",
+   "section": "index",
+   "en": "90d",
+   "value": "90 天"
+  },
+  {
+   "id": "site.index.076",
+   "kind": "site",
+   "section": "index",
+   "en": "Time never expires",
+   "value": "时间永不过期"
+  },
+  {
+   "id": "site.index.077",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy First",
+   "value": "隐私优先"
+  },
+  {
+   "id": "site.index.078",
+   "kind": "site",
+   "section": "index",
+   "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
+   "value": "无需 GitFocus 账号，无需登录 GitHub，一切都留在你的设备上。"
+  },
+  {
+   "id": "site.index.079",
+   "kind": "site",
+   "section": "index",
+   "en": "Works offline",
+   "value": "离线可用"
+  },
+  {
+   "id": "site.index.080",
+   "kind": "site",
+   "section": "index",
+   "en": "No tracking",
+   "value": "不做追踪"
+  },
+  {
+   "id": "site.index.081",
+   "kind": "site",
+   "section": "index",
+   "en": "Open source friendly",
+   "value": "对开源友好"
+  },
+  {
+   "id": "site.index.082",
+   "kind": "site",
+   "section": "index",
+   "en": "Ready to ship more code?",
+   "value": "准备好交付更多代码了吗？"
+  },
+  {
+   "id": "site.index.083",
+   "kind": "site",
+   "section": "index",
+   "en": "Join developers who've turned procrastination into productivity.",
+   "value": "加入那些把拖延变成生产力的开发者。"
+  },
+  {
+   "id": "site.index.084",
+   "kind": "site",
+   "section": "index",
+   "en": "Free to use. No subscription required.",
+   "value": "免费使用，无需订阅。"
+  },
+  {
+   "id": "site.index.085",
+   "kind": "site",
+   "section": "index",
+   "en": "Privacy Policy",
+   "value": "隐私政策"
+  },
+  {
+   "id": "site.index.086",
+   "kind": "site",
+   "section": "index",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.index.087",
+   "kind": "site",
+   "section": "index",
+   "en": "Accessibility",
+   "value": "无障碍"
+  },
+  {
+   "id": "site.index.088",
+   "kind": "site",
+   "section": "index",
+   "en": "Contact",
+   "value": "联系我们"
+  },
+  {
+   "id": "site.index.089",
+   "kind": "site",
+   "section": "index",
+   "en": "© 2026 GitFocus. Made with git and focus.",
+   "value": "© 2026 GitFocus. 用 git 和专注打造。"
+  },
+  {
+   "id": "site.support.000",
+   "kind": "site",
+   "section": "support",
+   "en": "Support - GitFocus",
+   "value": "支持 - GitFocus"
+  },
+  {
+   "id": "site.support.001",
+   "kind": "site",
+   "section": "support",
+   "en": "Get help with GitFocus. FAQs, troubleshooting, and contact information.",
+   "value": "Get help with GitFocus. FAQs, troubleshooting, and contact information."
+  },
+  {
+   "id": "site.support.002",
+   "kind": "site",
+   "section": "support",
+   "en": "Skip to main content",
+   "value": "跳到主要内容"
+  },
+  {
+   "id": "site.support.003",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.support.004",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "首页"
+  },
+  {
+   "id": "site.support.005",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy",
+   "value": "隐私"
+  },
+  {
+   "id": "site.support.006",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.support.007",
+   "kind": "site",
+   "section": "support",
+   "en": "🇬🇧 EN",
+   "value": "🇨🇳 ZH"
+  },
+  {
+   "id": "site.support.008",
+   "kind": "site",
+   "section": "support",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.support.009",
+   "kind": "site",
+   "section": "support",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.support.010",
+   "kind": "site",
+   "section": "support",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.support.011",
+   "kind": "site",
+   "section": "support",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.support.012",
+   "kind": "site",
+   "section": "support",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.support.013",
+   "kind": "site",
+   "section": "support",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.support.014",
+   "kind": "site",
+   "section": "support",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.support.015",
+   "kind": "site",
+   "section": "support",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.support.016",
+   "kind": "site",
+   "section": "support",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.support.017",
+   "kind": "site",
+   "section": "support",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.support.018",
+   "kind": "site",
+   "section": "support",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.support.019",
+   "kind": "site",
+   "section": "support",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.support.020",
+   "kind": "site",
+   "section": "support",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.support.021",
+   "kind": "site",
+   "section": "support",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.support.022",
+   "kind": "site",
+   "section": "support",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.support.023",
+   "kind": "site",
+   "section": "support",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.support.024",
+   "kind": "site",
+   "section": "support",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.support.025",
+   "kind": "site",
+   "section": "support",
+   "en": "// Support",
+   "value": "// 支持"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
+   "en": "How can we help?",
+   "value": "我们能为您提供什么帮助？"
+  },
+  {
+   "id": "site.support.027",
+   "kind": "site",
+   "section": "support",
+   "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
+   "value": "查找常见问题的答案或直接联系我们。 我们通常在24小时内回复。"
+  },
+  {
+   "id": "site.support.028",
+   "kind": "site",
+   "section": "support",
+   "en": "Get in Touch",
+   "value": "联系我们"
+  },
+  {
+   "id": "site.support.029",
+   "kind": "site",
+   "section": "support",
+   "en": "Have a question, bug report, or feature request?",
+   "value": "有问题、错误报告或功能请求？"
+  },
+  {
+   "id": "site.support.030",
+   "kind": "site",
+   "section": "support",
+   "en": "We'd love to hear from you.",
+   "value": "我们很乐意倾听您的意见。"
+  },
+  {
+   "id": "site.support.031",
+   "kind": "site",
+   "section": "support",
+   "en": "Chat with us",
+   "value": "与我们聊天"
+  },
+  {
+   "id": "site.support.032",
+   "kind": "site",
+   "section": "support",
+   "en": "or email us at",
+   "value": "或发送电子邮件至"
+  },
+  {
+   "id": "site.support.033",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.034",
+   "kind": "site",
+   "section": "support",
+   "en": "Frequently Asked Questions",
+   "value": "常见问题"
+  },
+  {
+   "id": "site.support.035",
+   "kind": "site",
+   "section": "support",
+   "en": "All",
+   "value": "全部"
+  },
+  {
+   "id": "site.support.036",
+   "kind": "site",
+   "section": "support",
+   "en": "Setup",
+   "value": "设置"
+  },
+  {
+   "id": "site.support.037",
+   "kind": "site",
+   "section": "support",
+   "en": "Features",
+   "value": "功能"
+  },
+  {
+   "id": "site.support.038",
+   "kind": "site",
+   "section": "support",
+   "en": "Troubleshooting",
+   "value": "故障排除"
+  },
+  {
+   "id": "site.support.039",
+   "kind": "site",
+   "section": "support",
+   "en": "Do I need to connect my GitHub account?",
+   "value": "我需要连接我的 GitHub 账户吗？"
+  },
+  {
+   "id": "site.support.040",
+   "kind": "site",
+   "section": "support",
+   "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
+   "value": "不需要！GitFocus 只需要您选择跟踪的 GitHub 用户名。我们读取公开贡献图（个人资料上的绿色方块）以检测提交。无需 OAuth、令牌或密码。"
+  },
+  {
+   "id": "site.support.041",
+   "kind": "site",
+   "section": "support",
+   "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
+   "value": "您可以添加多个 GitHub 账户并决定哪些账户计入提交检测。"
+  },
+  {
+   "id": "site.support.042",
+   "kind": "site",
+   "section": "support",
+   "en": "Why do you need Screen Time permissions?",
+   "value": "为什么需要屏幕使用时间权限？"
+  },
+  {
+   "id": "site.support.043",
+   "kind": "site",
+   "section": "support",
+   "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
+   "value": "GitFocus 使用 Apple 的 Screen Time API 来屏蔽应用程序。这与为 Apple 内置家长控制功能提供支持的安全系统相同。我们需要权限来代表您应用应用程序限制。"
+  },
+  {
+   "id": "site.support.044",
+   "kind": "site",
+   "section": "support",
+   "en": "Does GitFocus work with private repositories?",
+   "value": "GitFocus 是否适用于私有仓库？"
+  },
+  {
+   "id": "site.support.045",
+   "kind": "site",
+   "section": "support",
+   "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
+   "value": "是的！默认情况下，GitHub 在您的贡献图中计算所有提交（公开和私有）。只要您的贡献设置设为显示\"私有贡献\"，我们就能看到它们。"
+  },
+  {
+   "id": "site.support.046",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
+   "value": "前往您的 GitHub 个人资料 → 贡献设置 → 勾选\"私有贡献\""
+  },
+  {
+   "id": "site.support.047",
+   "kind": "site",
+   "section": "support",
+   "en": "How much time does each commit earn?",
+   "value": "每次提交可获得多少时间？"
+  },
+  {
+   "id": "site.support.048",
+   "kind": "site",
+   "section": "support",
+   "en": "Each commit earns you",
+   "value": "每次提交为您赚取"
+  },
+  {
+   "id": "site.support.049",
+   "kind": "site",
+   "section": "support",
+   "en": "5 minutes",
+   "value": "5分钟"
+  },
+  {
+   "id": "site.support.050",
+   "kind": "site",
+   "section": "support",
+   "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free. 🎉",
+   "value": "的解锁时间。推送3次提交？那就是15分钟无负罪感地浏览 Twitter。🎉"
+  },
+  {
+   "id": "site.support.051",
+   "kind": "site",
+   "section": "support",
+   "en": "What are \"Lives\" and how do they work?",
+   "value": "什么是\"生命\"以及它们如何运作？"
+  },
+  {
+   "id": "site.support.052",
+   "kind": "site",
+   "section": "support",
+   "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
+   "value": "生命是紧急解锁。当您使用一次生命时，您所有被屏蔽的应用程序都会解锁直到午夜。您从1次免费生命开始，并可以通过连续记录获得更多："
+  },
+  {
+   "id": "site.support.053",
+   "kind": "site",
+   "section": "support",
+   "en": "14-day streak: +1 life",
+   "value": "14天连续：+1次生命"
+  },
+  {
+   "id": "site.support.054",
+   "kind": "site",
+   "section": "support",
+   "en": "Then +1 life every month you maintain the streak",
+   "value": "然后每维持连续一个月获得+1次生命"
+  },
+  {
+   "id": "site.support.055",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the \"Borrow Time\" feature?",
+   "value": "什么是\"借用时间\"功能？"
+  },
+  {
+   "id": "site.support.056",
+   "kind": "site",
+   "section": "support",
+   "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
+   "value": "需要完成一条快速消息但没有解锁时间？您可以借用最多5分钟。这会产生\"债务\"，从您未来的提交收益中偿还。"
+  },
+  {
+   "id": "site.support.057",
+   "kind": "site",
+   "section": "support",
+   "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
+   "value": "示例：您借用3分钟。您的下一次提交赚取5分钟，但3分钟用于偿还债务，剩下2分钟。"
+  },
+  {
+   "id": "site.support.058",
+   "kind": "site",
+   "section": "support",
+   "en": "What is the Discipline Bank?",
+   "value": "什么是自律银行？"
+  },
+  {
+   "id": "site.support.059",
+   "kind": "site",
+   "section": "support",
+   "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
+   "value": "自律银行追踪您赚取但未使用的时间。这是您自我控制能力的衡量标准。您赚取但未花费在分心事物上的每一分钟都会存入您的银行。"
+  },
+  {
+   "id": "site.support.060",
+   "kind": "site",
+   "section": "support",
+   "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
+   "value": "挑战自己：到年底您能存入多少分钟？"
+  },
+  {
+   "id": "site.support.061",
+   "kind": "site",
+   "section": "support",
+   "en": "What are the streak milestone rewards?",
+   "value": "连续里程碑奖励是什么？"
+  },
+  {
+   "id": "site.support.062",
+   "kind": "site",
+   "section": "support",
+   "en": "Building a streak unlocks permanent perks:",
+   "value": "建立连续记录可解锁永久奖励："
+  },
+  {
+   "id": "site.support.063",
+   "kind": "site",
+   "section": "support",
+   "en": "14 days:",
+   "value": "14天："
+  },
+  {
+   "id": "site.support.064",
+   "kind": "site",
+   "section": "support",
+   "en": "+1 extra life (then +1/month)",
+   "value": "+1次额外生命（然后每月+1次）"
+  },
+  {
+   "id": "site.support.065",
+   "kind": "site",
+   "section": "support",
+   "en": "30 days:",
+   "value": "30天："
+  },
+  {
+   "id": "site.support.066",
+   "kind": "site",
+   "section": "support",
+   "en": "Weekly time bank (unused time resets weekly instead of daily)",
+   "value": "每周时间银行（未使用的时间每周重置而非每日）"
+  },
+  {
+   "id": "site.support.067",
+   "kind": "site",
+   "section": "support",
+   "en": "90 days:",
+   "value": "90天："
+  },
+  {
+   "id": "site.support.068",
+   "kind": "site",
+   "section": "support",
+   "en": "Permanent time (earned time never expires)",
+   "value": "永久时间（赚取的时间永不过期）"
+  },
+  {
+   "id": "site.support.069",
+   "kind": "site",
+   "section": "support",
+   "en": "My commits aren't being detected",
+   "value": "我的提交未被检测到"
+  },
+  {
+   "id": "site.support.070",
+   "kind": "site",
+   "section": "support",
+   "en": "Here are some things to check:",
+   "value": "以下是需要检查的一些事项："
+  },
+  {
+   "id": "site.support.071",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure your GitHub username is entered correctly",
+   "value": "确保您的 GitHub 用户名输入正确"
+  },
+  {
+   "id": "site.support.072",
+   "kind": "site",
+   "section": "support",
+   "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
+   "value": "如果您使用多个账户，请检查是否为提交检测启用了正确的账户"
+  },
+  {
+   "id": "site.support.073",
+   "kind": "site",
+   "section": "support",
+   "en": "Check that your commits show up on your GitHub profile's contribution graph",
+   "value": "检查您的提交是否显示在您的 GitHub 个人资料的贡献图上"
+  },
+  {
+   "id": "site.support.074",
+   "kind": "site",
+   "section": "support",
+   "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
+   "value": "如果使用私有仓库，请确保在 GitHub 设置中启用了\"私有贡献\""
+  },
+  {
+   "id": "site.support.075",
+   "kind": "site",
+   "section": "support",
+   "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
+   "value": "等待几分钟 — GitHub 的贡献图可能需要一些时间更新"
+  },
+  {
+   "id": "site.support.076",
+   "kind": "site",
+   "section": "support",
+   "en": "Apps aren't being blocked",
+   "value": "应用程序未被屏蔽"
+  },
+  {
+   "id": "site.support.077",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you've:",
+   "value": "请确保您已："
+  },
+  {
+   "id": "site.support.078",
+   "kind": "site",
+   "section": "support",
+   "en": "Granted Screen Time permissions during setup",
+   "value": "在设置期间授予了屏幕使用时间权限"
+  },
+  {
+   "id": "site.support.079",
+   "kind": "site",
+   "section": "support",
+   "en": "Selected at least one app or category to block",
+   "value": "选择了至少一个要屏蔽的应用程序或类别"
+  },
+  {
+   "id": "site.support.080",
+   "kind": "site",
+   "section": "support",
+   "en": "Started a focus session from the main screen",
+   "value": "从主屏幕开始了专注会话"
+  },
+  {
+   "id": "site.support.081",
+   "kind": "site",
+   "section": "support",
+   "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
+   "value": "如果问题仍然存在，请尝试前往 iOS 设置 → 屏幕使用时间，并确保 GitFocus 具有必要的权限。"
+  },
+  {
+   "id": "site.support.082",
+   "kind": "site",
+   "section": "support",
+   "en": "The app crashed or is behaving unexpectedly",
+   "value": "应用程序崩溃或行为异常"
+  },
+  {
+   "id": "site.support.083",
+   "kind": "site",
+   "section": "support",
+   "en": "Try these steps:",
+   "value": "尝试以下步骤："
+  },
+  {
+   "id": "site.support.084",
+   "kind": "site",
+   "section": "support",
+   "en": "Force quit and reopen the app",
+   "value": "强制退出并重新打开应用程序"
+  },
+  {
+   "id": "site.support.085",
+   "kind": "site",
+   "section": "support",
+   "en": "Restart your device",
+   "value": "重启您的设备"
+  },
+  {
+   "id": "site.support.086",
+   "kind": "site",
+   "section": "support",
+   "en": "Make sure you're on the latest version of GitFocus",
+   "value": "确保您使用的是最新版本的 GitFocus"
+  },
+  {
+   "id": "site.support.087",
+   "kind": "site",
+   "section": "support",
+   "en": "If the issue persists, email us at",
+   "value": "如果问题仍然存在，请发送电子邮件至"
+  },
+  {
+   "id": "site.support.088",
+   "kind": "site",
+   "section": "support",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.support.089",
+   "kind": "site",
+   "section": "support",
+   "en": "with details about what happened",
+   "value": "并提供发生情况的详细信息"
+  },
+  {
+   "id": "site.support.090",
+   "kind": "site",
+   "section": "support",
+   "en": "How do I reset or start over?",
+   "value": "如何重置或重新开始？"
+  },
+  {
+   "id": "site.support.091",
+   "kind": "site",
+   "section": "support",
+   "en": "To completely reset GitFocus:",
+   "value": "要完全重置 GitFocus："
+  },
+  {
+   "id": "site.support.092",
+   "kind": "site",
+   "section": "support",
+   "en": "Delete the app from your device",
+   "value": "从您的设备中删除应用程序"
+  },
+  {
+   "id": "site.support.093",
+   "kind": "site",
+   "section": "support",
+   "en": "Reinstall from the App Store",
+   "value": "从 App Store 重新安装"
+  },
+  {
+   "id": "site.support.094",
+   "kind": "site",
+   "section": "support",
+   "en": "Go through the onboarding again",
+   "value": "再次完成入门流程"
+  },
+  {
+   "id": "site.support.095",
+   "kind": "site",
+   "section": "support",
+   "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
+   "value": "注意：为方便起见，您的 GitHub 用户名或账户列表会被安全存储，因此在重新安装时可能会预填充。"
+  },
+  {
+   "id": "site.support.096",
+   "kind": "site",
+   "section": "support",
+   "en": "Quick Troubleshooting",
+   "value": "快速故障排除"
+  },
+  {
+   "id": "site.support.097",
+   "kind": "site",
+   "section": "support",
+   "en": "Force Refresh",
+   "value": "强制刷新"
+  },
+  {
+   "id": "site.support.098",
+   "kind": "site",
+   "section": "support",
+   "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
+   "value": "在主屏幕上向下拉动以手动刷新来自 GitHub 的提交数据。"
+  },
+  {
+   "id": "site.support.099",
+   "kind": "site",
+   "section": "support",
+   "en": "Check Permissions",
+   "value": "检查权限"
+  },
+  {
+   "id": "site.support.100",
+   "kind": "site",
+   "section": "support",
+   "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
+   "value": "前往 iOS 设置 → 屏幕使用时间 → GitFocus 以验证权限已授予。"
+  },
+  {
+   "id": "site.support.101",
+   "kind": "site",
+   "section": "support",
+   "en": "Verify GitHub",
+   "value": "验证 GitHub"
+  },
+  {
+   "id": "site.support.102",
+   "kind": "site",
+   "section": "support",
+   "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
+   "value": "访问 github.com/[your-username] 并检查您的贡献图是否显示最近的提交。"
+  },
+  {
+   "id": "site.support.103",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "隐私政策"
+  },
+  {
+   "id": "site.support.104",
+   "kind": "site",
+   "section": "support",
+   "en": "Learn how we protect your data",
+   "value": "了解我们如何保护您的数据"
+  },
+  {
+   "id": "site.support.105",
+   "kind": "site",
+   "section": "support",
+   "en": "Report a Bug",
+   "value": "报告错误"
+  },
+  {
+   "id": "site.support.106",
+   "kind": "site",
+   "section": "support",
+   "en": "Help us improve GitFocus",
+   "value": "帮助我们改进 GitFocus"
+  },
+  {
+   "id": "site.support.107",
+   "kind": "site",
+   "section": "support",
+   "en": "Request a Feature",
+   "value": "请求功能"
+  },
+  {
+   "id": "site.support.108",
+   "kind": "site",
+   "section": "support",
+   "en": "Tell us what you'd like to see",
+   "value": "告诉我们您想看到什么"
+  },
+  {
+   "id": "site.support.109",
+   "kind": "site",
+   "section": "support",
+   "en": "Localization Feedback",
+   "value": "翻译反馈"
+  },
+  {
+   "id": "site.support.110",
+   "kind": "site",
+   "section": "support",
+   "en": "Review the translations and suggest fixes",
+   "value": "检查翻译并提出修改建议"
+  },
+  {
+   "id": "site.support.111",
+   "kind": "site",
+   "section": "support",
+   "en": "Home",
+   "value": "首页"
+  },
+  {
+   "id": "site.support.112",
+   "kind": "site",
+   "section": "support",
+   "en": "Privacy Policy",
+   "value": "隐私政策"
+  },
+  {
+   "id": "site.support.113",
+   "kind": "site",
+   "section": "support",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.support.114",
+   "kind": "site",
+   "section": "support",
+   "en": "Accessibility",
+   "value": "无障碍"
+  },
+  {
+   "id": "site.support.115",
+   "kind": "site",
+   "section": "support",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.privacy.000",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy - GitFocus",
+   "value": "隐私政策 - GitFocus"
+  },
+  {
+   "id": "site.privacy.001",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device.",
+   "value": "GitFocus Privacy Policy. We don't collect your data. Everything stays on your device."
+  },
+  {
+   "id": "site.privacy.002",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Skip to main content",
+   "value": "跳到主要内容"
+  },
+  {
+   "id": "site.privacy.003",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.privacy.004",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "首页"
+  },
+  {
+   "id": "site.privacy.005",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy",
+   "value": "隐私"
+  },
+  {
+   "id": "site.privacy.006",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.privacy.007",
+   "kind": "site",
+   "section": "privacy",
+   "en": "🇬🇧 EN",
+   "value": "🇨🇳 ZH"
+  },
+  {
+   "id": "site.privacy.008",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.privacy.009",
+   "kind": "site",
+   "section": "privacy",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.privacy.010",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.privacy.011",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.privacy.012",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.privacy.013",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.privacy.014",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.privacy.015",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.privacy.016",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.privacy.017",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.privacy.018",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.privacy.019",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.privacy.020",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.privacy.021",
+   "kind": "site",
+   "section": "privacy",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.privacy.022",
+   "kind": "site",
+   "section": "privacy",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.privacy.023",
+   "kind": "site",
+   "section": "privacy",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.privacy.024",
+   "kind": "site",
+   "section": "privacy",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.privacy.025",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// Privacy Policy",
+   "value": "// 隐私政策"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your data stays yours",
+   "value": "您的数据归您所有"
+  },
+  {
+   "id": "site.privacy.027",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
+   "value": "我们在构建 GitFocus 时将隐私作为核心原则。以下是我们如何处理（以及不处理）您的信息的详细说明。"
+  },
+  {
+   "id": "site.privacy.028",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Last updated: January 2026",
+   "value": "最后更新：2026年1月"
+  },
+  {
+   "id": "site.privacy.029",
+   "kind": "site",
+   "section": "privacy",
+   "en": "// TL;DR",
+   "value": "// 简而言之"
+  },
+  {
+   "id": "site.privacy.030",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We don't collect your data. Period.",
+   "value": "我们不收集您的数据。就这么简单。"
+  },
+  {
+   "id": "site.privacy.031",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No accounts required",
+   "value": "无需账户"
+  },
+  {
+   "id": "site.privacy.032",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything on-device",
+   "value": "一切都在设备本地"
+  },
+  {
+   "id": "site.privacy.033",
+   "kind": "site",
+   "section": "privacy",
+   "en": "No tracking or analytics",
+   "value": "无追踪或分析"
+  },
+  {
+   "id": "site.privacy.034",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Works offline",
+   "value": "离线可用"
+  },
+  {
+   "id": "site.privacy.035",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Data We Collect",
+   "value": "我们收集的数据"
+  },
+  {
+   "id": "site.privacy.036",
+   "kind": "site",
+   "section": "privacy",
+   "en": "None.",
+   "value": "无。"
+  },
+  {
+   "id": "site.privacy.037",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
+   "value": "GitFocus 不收集、存储或向我们的服务器传输任何个人数据，因为我们根本没有服务器。"
+  },
+  {
+   "id": "site.privacy.038",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Everything the app needs to function is stored locally on your device:",
+   "value": "应用程序运行所需的所有内容都存储在您的设备本地："
+  },
+  {
+   "id": "site.privacy.039",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub username or usernames (to check public commits)",
+   "value": "您的 GitHub 用户名（用于检查公开提交）"
+  },
+  {
+   "id": "site.privacy.040",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app selection preferences",
+   "value": "您的应用程序选择偏好"
+  },
+  {
+   "id": "site.privacy.041",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your focus session history",
+   "value": "您的专注会话历史"
+  },
+  {
+   "id": "site.privacy.042",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your earned time and streak data",
+   "value": "您获得的时间和连续记录数据"
+  },
+  {
+   "id": "site.privacy.043",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitHub Integration",
+   "value": "GitHub 集成"
+  },
+  {
+   "id": "site.privacy.044",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
+   "value": "GitFocus 读取您添加的用户名的公开 GitHub 贡献数据，以确定您何时进行了提交。其工作原理如下："
+  },
+  {
+   "id": "site.privacy.045",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Access",
+   "value": "我们访问的内容"
+  },
+  {
+   "id": "site.privacy.046",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public GitHub profile page",
+   "value": "您的公开 GitHub 个人资料页面"
+  },
+  {
+   "id": "site.privacy.047",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your public contribution graph (the green squares)",
+   "value": "您的公开贡献图（绿色方块）"
+  },
+  {
+   "id": "site.privacy.048",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit counts per day (not commit contents)",
+   "value": "每日提交次数（而非提交内容）"
+  },
+  {
+   "id": "site.privacy.049",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Don't Access",
+   "value": "我们不访问的内容"
+  },
+  {
+   "id": "site.privacy.050",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Private repositories",
+   "value": "私有仓库"
+  },
+  {
+   "id": "site.privacy.051",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Commit messages or code",
+   "value": "提交消息或代码"
+  },
+  {
+   "id": "site.privacy.052",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your GitHub password or tokens",
+   "value": "您的 GitHub 密码或令牌"
+  },
+  {
+   "id": "site.privacy.053",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any GitHub API with authentication",
+   "value": "任何需要身份验证的 GitHub API"
+  },
+  {
+   "id": "site.privacy.054",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No OAuth Required",
+   "value": "✅ 无需 OAuth"
+  },
+  {
+   "id": "site.privacy.055",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
+   "value": "我们特意将 GitFocus 设计为无需 GitHub 身份验证即可工作。您可以添加一个或多个 GitHub 用户名，我们只读取任何人访问这些 GitHub 个人资料时都能看到的公开信息。"
+  },
+  {
+   "id": "site.privacy.056",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time & App Blocking",
+   "value": "屏幕使用时间与应用程序屏蔽"
+  },
+  {
+   "id": "site.privacy.057",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
+   "value": "GitFocus 使用 Apple 的 Screen Time API（Family Controls 框架）来屏蔽应用程序。这与为 Apple 内置屏幕使用时间功能提供支持的安全系统相同。"
+  },
+  {
+   "id": "site.privacy.058",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How It Works",
+   "value": "工作原理"
+  },
+  {
+   "id": "site.privacy.059",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App blocking is handled entirely by iOS, not our code",
+   "value": "应用程序屏蔽完全由 iOS 处理，而非我们的代码"
+  },
+  {
+   "id": "site.privacy.060",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We never see which apps you use or for how long",
+   "value": "我们永远不会看到您使用了哪些应用程序或使用时长"
+  },
+  {
+   "id": "site.privacy.061",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Apple's privacy protections apply to all Screen Time data",
+   "value": "Apple 的隐私保护适用于所有屏幕使用时间数据"
+  },
+  {
+   "id": "site.privacy.062",
+   "kind": "site",
+   "section": "privacy",
+   "en": "We only receive anonymized \"tokens\" that represent apps",
+   "value": "我们只接收代表应用程序的匿名\"令牌\""
+  },
+  {
+   "id": "site.privacy.063",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What We Can't See",
+   "value": "我们看不到的内容"
+  },
+  {
+   "id": "site.privacy.064",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your app usage statistics",
+   "value": "您的应用程序使用统计"
+  },
+  {
+   "id": "site.privacy.065",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you open or close apps",
+   "value": "您何时打开或关闭应用程序"
+  },
+  {
+   "id": "site.privacy.066",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How long you spend in any app",
+   "value": "您在任何应用程序中花费的时间"
+  },
+  {
+   "id": "site.privacy.067",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The actual names of apps you select (only tokens)",
+   "value": "您选择的应用程序的实际名称（仅有令牌）"
+  },
+  {
+   "id": "site.privacy.068",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Local Data Storage",
+   "value": "本地数据存储"
+  },
+  {
+   "id": "site.privacy.069",
+   "kind": "site",
+   "section": "privacy",
+   "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
+   "value": "您的所有数据都使用 Apple 的安全存储机制存储在您的设备上："
+  },
+  {
+   "id": "site.privacy.070",
+   "kind": "site",
+   "section": "privacy",
+   "en": "UserDefaults",
+   "value": "UserDefaults"
+  },
+  {
+   "id": "site.privacy.071",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Settings and preferences",
+   "value": "— 设置和偏好"
+  },
+  {
+   "id": "site.privacy.072",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Keychain",
+   "value": "Keychain"
+  },
+  {
+   "id": "site.privacy.073",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your primary GitHub username (for persistence across reinstalls)",
+   "value": "— 您的主要 GitHub 用户名（用于在重新安装时保持）"
+  },
+  {
+   "id": "site.privacy.074",
+   "kind": "site",
+   "section": "privacy",
+   "en": "App Group",
+   "value": "App Group"
+  },
+  {
+   "id": "site.privacy.075",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Shared data between app and extensions",
+   "value": "— 应用程序和扩展之间共享的数据"
+  },
+  {
+   "id": "site.privacy.076",
+   "kind": "site",
+   "section": "privacy",
+   "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
+   "value": "这些数据由 iOS 加密并受您的设备密码保护。如果您删除应用程序，您的本地数据也会被删除。"
+  },
+  {
+   "id": "site.privacy.077",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Third-Party Services",
+   "value": "第三方服务"
+  },
+  {
+   "id": "site.privacy.078",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
+   "value": "GitFocus 不使用任何第三方分析、崩溃报告或广告服务。我们不集成："
+  },
+  {
+   "id": "site.privacy.079",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Google Analytics",
+   "value": "Google Analytics"
+  },
+  {
+   "id": "site.privacy.080",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Firebase",
+   "value": "Firebase"
+  },
+  {
+   "id": "site.privacy.081",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Crashlytics",
+   "value": "Crashlytics"
+  },
+  {
+   "id": "site.privacy.082",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Facebook SDK",
+   "value": "Facebook SDK"
+  },
+  {
+   "id": "site.privacy.083",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any advertising networks",
+   "value": "任何广告网络"
+  },
+  {
+   "id": "site.privacy.084",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Any user tracking services",
+   "value": "任何用户追踪服务"
+  },
+  {
+   "id": "site.privacy.085",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
+   "value": "我们唯一通信的外部服务是 github.com（用于获取您的公开贡献数据）和我们的可选客户支持聊天（见下文）。"
+  },
+  {
+   "id": "site.privacy.086",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Customer Support & Live Chat",
+   "value": "客户支持与在线聊天"
+  },
+  {
+   "id": "site.privacy.087",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
+   "value": "联系支持完全是可选的，仅在您选择寻求帮助时才会发生。"
+  },
+  {
+   "id": "site.privacy.088",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
+   "value": "GitFocus 通过由第三方客户支持平台 Chatwoot 提供支持的在线聊天提供客户支持。这是 GitFocus 使用的唯一第三方服务（除 GitHub 外），并且仅在您明确选择联系我们寻求帮助时才会激活。"
+  },
+  {
+   "id": "site.privacy.089",
+   "kind": "site",
+   "section": "privacy",
+   "en": "How it works",
+   "value": "工作原理"
+  },
+  {
+   "id": "site.privacy.090",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Session Persistence:",
+   "value": "会话持久性："
+  },
+  {
+   "id": "site.privacy.091",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
+   "value": "Chatwoot 使用 cookie 在访问之间维护您的聊天会话，以便您可以继续之前的对话"
+  },
+  {
+   "id": "site.privacy.092",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Anonymous by Default:",
+   "value": "默认匿名："
+  },
+  {
+   "id": "site.privacy.093",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
+   "value": "您可以在不提供任何个人信息的情况下与支持聊天 - 会话仅通过浏览器 cookie 进行跟踪"
+  },
+  {
+   "id": "site.privacy.094",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Optional Email:",
+   "value": "可选电子邮件："
+  },
+  {
+   "id": "site.privacy.095",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You may optionally provide your email address if you want to receive follow-up responses",
+   "value": "如果您希望接收后续回复，可以选择提供您的电子邮件地址"
+  },
+  {
+   "id": "site.privacy.096",
+   "kind": "site",
+   "section": "privacy",
+   "en": "What's Collected",
+   "value": "收集的内容"
+  },
+  {
+   "id": "site.privacy.097",
+   "kind": "site",
+   "section": "privacy",
+   "en": "When you use the chat feature, Chatwoot may collect:",
+   "value": "当您使用聊天功能时，Chatwoot 可能会收集："
+  },
+  {
+   "id": "site.privacy.098",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your chat messages and conversation history",
+   "value": "您的聊天消息和对话历史"
+  },
+  {
+   "id": "site.privacy.099",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Browser cookies for session persistence",
+   "value": "用于会话持久性的浏览器 cookie"
+  },
+  {
+   "id": "site.privacy.100",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email address (only if you choose to provide it)",
+   "value": "电子邮件地址（仅当您选择提供时）"
+  },
+  {
+   "id": "site.privacy.101",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Basic technical information (browser type, timestamp)",
+   "value": "基本技术信息（浏览器类型、时间戳）"
+  },
+  {
+   "id": "site.privacy.102",
+   "kind": "site",
+   "section": "privacy",
+   "en": "✅ No Access to App Data",
+   "value": "✅ 无法访问应用程序数据"
+  },
+  {
+   "id": "site.privacy.103",
+   "kind": "site",
+   "section": "privacy",
+   "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
+   "value": "聊天功能无法访问您的 GitHub 数据、专注会话历史或存储在 GitFocus 应用程序中的任何其他数据。只有您在聊天中明确输入的信息才会发送到我们的支持系统。"
+  },
+  {
+   "id": "site.privacy.104",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
+   "value": "Chatwoot 符合 GDPR 并根据适用的数据保护法律处理数据。欲了解更多信息，请访问"
+  },
+  {
+   "id": "site.privacy.105",
+   "kind": "site",
+   "section": "privacy",
+   "en": "chatwoot.com/privacy-policy",
+   "value": "chatwoot.com/privacy-policy"
+  },
+  {
+   "id": "site.privacy.106",
+   "kind": "site",
+   "section": "privacy",
+   "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
+   "value": "您可以随时通过浏览器设置清除聊天 cookie。如果您从未使用过聊天功能，则不会向 Chatwoot 发送任何数据。"
+  },
+  {
+   "id": "site.privacy.107",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Your Rights",
+   "value": "您的权利"
+  },
+  {
+   "id": "site.privacy.108",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
+   "value": "由于我们不收集您的数据，传统的数据权利（访问、删除、可移植性）并不真正适用。但您可以做到以下几点："
+  },
+  {
+   "id": "site.privacy.109",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Delete all data",
+   "value": "删除所有数据"
+  },
+  {
+   "id": "site.privacy.110",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Simply delete the app from your device",
+   "value": "— 只需从您的设备中删除应用程序"
+  },
+  {
+   "id": "site.privacy.111",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Export data",
+   "value": "导出数据"
+  },
+  {
+   "id": "site.privacy.112",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— Your data lives on your device; you own it",
+   "value": "— 您的数据存储在您的设备上；您拥有它"
+  },
+  {
+   "id": "site.privacy.113",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Change settings",
+   "value": "更改设置"
+  },
+  {
+   "id": "site.privacy.114",
+   "kind": "site",
+   "section": "privacy",
+   "en": "— All preferences can be modified in the app",
+   "value": "— 所有偏好都可以在应用程序中修改"
+  },
+  {
+   "id": "site.privacy.115",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Children's Privacy & Age Rating",
+   "value": "儿童隐私与年龄分级"
+  },
+  {
+   "id": "site.privacy.116",
+   "kind": "site",
+   "section": "privacy",
+   "en": "GitFocus is rated",
+   "value": "GitFocus 的评级为"
+  },
+  {
+   "id": "site.privacy.117",
+   "kind": "site",
+   "section": "privacy",
+   "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
+   "value": "在 App Store 上，适合所有年龄段的用户。该应用程序不包含不良内容、应用内购买或社交功能。"
+  },
+  {
+   "id": "site.privacy.118",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
+   "value": "由于我们不收集任何个人数据，因此对年轻用户没有特殊的隐私顾虑。但是，我们建议13岁以下的儿童在父母指导下设置应用程序，因为："
+  },
+  {
+   "id": "site.privacy.119",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Initial setup requires a GitHub username",
+   "value": "初始设置需要 GitHub 用户名"
+  },
+  {
+   "id": "site.privacy.120",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Screen Time permissions need to be granted by the device owner",
+   "value": "屏幕使用时间权限需要由设备所有者授予"
+  },
+  {
+   "id": "site.privacy.121",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Understanding the commit-based unlock system may need explanation",
+   "value": "理解基于提交的解锁系统可能需要解释"
+  },
+  {
+   "id": "site.privacy.122",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
+   "value": "家长和监护人可以使用 GitFocus 作为鼓励年轻开发者养成编码习惯的工具。"
+  },
+  {
+   "id": "site.privacy.123",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Changes to This Policy",
+   "value": "本政策的变更"
+  },
+  {
+   "id": "site.privacy.124",
+   "kind": "site",
+   "section": "privacy",
+   "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
+   "value": "如果我们改变隐私做法，我们将更新此页面并标注新的\"最后更新\"日期。鉴于我们不收集数据的方法，重大变更不太可能发生。"
+  },
+  {
+   "id": "site.privacy.125",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Contact",
+   "value": "联系我们"
+  },
+  {
+   "id": "site.privacy.126",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Questions about privacy? We're happy to explain anything in more detail.",
+   "value": "对隐私有疑问？我们很乐意更详细地解释任何内容。"
+  },
+  {
+   "id": "site.privacy.127",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Email:",
+   "value": "电子邮件："
+  },
+  {
+   "id": "site.privacy.128",
+   "kind": "site",
+   "section": "privacy",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.privacy.129",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Home",
+   "value": "首页"
+  },
+  {
+   "id": "site.privacy.130",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Privacy Policy",
+   "value": "隐私政策"
+  },
+  {
+   "id": "site.privacy.131",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.privacy.132",
+   "kind": "site",
+   "section": "privacy",
+   "en": "Accessibility",
+   "value": "无障碍"
+  },
+  {
+   "id": "site.privacy.133",
+   "kind": "site",
+   "section": "privacy",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  },
+  {
+   "id": "site.accessibility.000",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility - GitFocus",
+   "value": "无障碍功能 - GitFocus"
+  },
+  {
+   "id": "site.accessibility.001",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more.",
+   "value": "GitFocus accessibility commitment. VoiceOver, Dynamic Type, Dark Mode, Reduce Motion, and more."
+  },
+  {
+   "id": "site.accessibility.002",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Skip to main content",
+   "value": "跳到主要内容"
+  },
+  {
+   "id": "site.accessibility.003",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus",
+   "value": "GitFocus"
+  },
+  {
+   "id": "site.accessibility.004",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "首页"
+  },
+  {
+   "id": "site.accessibility.005",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy",
+   "value": "隐私"
+  },
+  {
+   "id": "site.accessibility.006",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.007",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "🇬🇧 EN",
+   "value": "🇨🇳 ZH"
+  },
+  {
+   "id": "site.accessibility.008",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Deutsch",
+   "value": "Deutsch"
+  },
+  {
+   "id": "site.accessibility.009",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "English",
+   "value": "English"
+  },
+  {
+   "id": "site.accessibility.010",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Español",
+   "value": "Español"
+  },
+  {
+   "id": "site.accessibility.011",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Français",
+   "value": "Français"
+  },
+  {
+   "id": "site.accessibility.012",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Italiano",
+   "value": "Italiano"
+  },
+  {
+   "id": "site.accessibility.013",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Nederlands",
+   "value": "Nederlands"
+  },
+  {
+   "id": "site.accessibility.014",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Português (Brasil)",
+   "value": "Português (Brasil)"
+  },
+  {
+   "id": "site.accessibility.015",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Slovenčina",
+   "value": "Slovenčina"
+  },
+  {
+   "id": "site.accessibility.016",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Srpski",
+   "value": "Srpski"
+  },
+  {
+   "id": "site.accessibility.017",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Ελληνικά",
+   "value": "Ελληνικά"
+  },
+  {
+   "id": "site.accessibility.018",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Русский",
+   "value": "Русский"
+  },
+  {
+   "id": "site.accessibility.019",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Српски",
+   "value": "Српски"
+  },
+  {
+   "id": "site.accessibility.020",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Українська",
+   "value": "Українська"
+  },
+  {
+   "id": "site.accessibility.021",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "العربية",
+   "value": "العربية"
+  },
+  {
+   "id": "site.accessibility.022",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "日本語",
+   "value": "日本語"
+  },
+  {
+   "id": "site.accessibility.023",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "简体中文",
+   "value": "简体中文"
+  },
+  {
+   "id": "site.accessibility.024",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "한국어",
+   "value": "한국어"
+  },
+  {
+   "id": "site.accessibility.025",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Accessibility",
+   "value": "// 无障碍功能"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Built for everyone",
+   "value": "为所有人打造"
+  },
+  {
+   "id": "site.accessibility.027",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
+   "value": "GitFocus 专为辅助技术而设计。无障碍功能声明在每次发布时都会通过自动化测试和人工设备检查清单重新检查。"
+  },
+  {
+   "id": "site.accessibility.028",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Features",
+   "value": "// 功能"
+  },
+  {
+   "id": "site.accessibility.029",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported Accessibility Features",
+   "value": "支持的无障碍功能"
+  },
+  {
+   "id": "site.accessibility.030",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver",
+   "value": "VoiceOver"
+  },
+  {
+   "id": "site.accessibility.031",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.032",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
+   "value": "关键发布路径使用描述性标签、特征和逻辑阅读顺序。发布门记录了测试的路径和设备。"
+  },
+  {
+   "id": "site.accessibility.033",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Voice Control",
+   "value": "语音控制"
+  },
+  {
+   "id": "site.accessibility.034",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.035",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
+   "value": "交互控件使用可访问的名称。物理设备检查清单验证了使用语音控制的关键发布流程。"
+  },
+  {
+   "id": "site.accessibility.036",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Larger Text",
+   "value": "更大文本"
+  },
+  {
+   "id": "site.accessibility.037",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.038",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
+   "value": "应用程序文本使用 Dynamic Type。在批准此声明之前，需要自动化 AX3 和 AX5 覆盖以及人工 200% 文本大小检查。"
+  },
+  {
+   "id": "site.accessibility.039",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Dark Interface",
+   "value": "深色界面"
+  },
+  {
+   "id": "site.accessibility.040",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.041",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
+   "value": "应用程序支持浅色和深色外观。两者都包含在屏幕截图和应用程序无障碍功能发布检查中。"
+  },
+  {
+   "id": "site.accessibility.042",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Differentiate Without Color",
+   "value": "区分而不依赖颜色"
+  },
+  {
+   "id": "site.accessibility.043",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.044",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
+   "value": "发布审查检查重要状态是否使用标签、形状或图标以及颜色。"
+  },
+  {
+   "id": "site.accessibility.045",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Sufficient Contrast",
+   "value": "充足对比度"
+  },
+  {
+   "id": "site.accessibility.046",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.047",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
+   "value": "自动对比度检查标记浅色和深色模式下的候选失败；审查员在批准前验证实际文本、图标和背景。"
+  },
+  {
+   "id": "site.accessibility.048",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reduced Motion",
+   "value": "减少动态效果"
+  },
+  {
+   "id": "site.accessibility.049",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.050",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
+   "value": "发布检查清单验证重要动作是否尊重减少动态效果偏好或具有静态替代方案。"
+  },
+  {
+   "id": "site.accessibility.051",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Full Keyboard Access",
+   "value": "完全键盘访问"
+  },
+  {
+   "id": "site.accessibility.052",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.053",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
+   "value": "支持的流程包括键盘可访问的控件和重要仅手势操作的替代方案。"
+  },
+  {
+   "id": "site.accessibility.054",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Testing",
+   "value": "// 测试"
+  },
+  {
+   "id": "site.accessibility.055",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Automated Accessibility Testing",
+   "value": "自动化无障碍功能测试"
+  },
+  {
+   "id": "site.accessibility.056",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Test Suites",
+   "value": "测试套件"
+  },
+  {
+   "id": "site.accessibility.057",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Appearances",
+   "value": "外观"
+  },
+  {
+   "id": "site.accessibility.058",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "AX Text Sizes",
+   "value": "AX 文本大小"
+  },
+  {
+   "id": "site.accessibility.059",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release Gate",
+   "value": "发布门"
+  },
+  {
+   "id": "site.accessibility.060",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Screen Accessibility Audits",
+   "value": "屏幕无障碍功能审计"
+  },
+  {
+   "id": "site.accessibility.061",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
+   "value": "声明的发布路径在浅色和深色模式下串行启动，并通过 iOS 原生无障碍功能审计进行检查。必需的审计类别会导致发布门失败。"
+  },
+  {
+   "id": "site.accessibility.062",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "26 tests",
+   "value": "26项测试"
+  },
+  {
+   "id": "site.accessibility.063",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility Size Tests",
+   "value": "无障碍功能大小测试"
+  },
+  {
+   "id": "site.accessibility.064",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
+   "value": "声明的路径在 AX3 和 AX5 下渲染，并检查无崩溃渲染、可访问元素和路径完成。"
+  },
+  {
+   "id": "site.accessibility.065",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "50 tests",
+   "value": "50项测试"
+  },
+  {
+   "id": "site.accessibility.066",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver Reading Order",
+   "value": "VoiceOver 阅读顺序"
+  },
+  {
+   "id": "site.accessibility.067",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
+   "value": "检查关键屏幕以确保 VoiceOver 遍历遵循逻辑从上到下的顺序，对系统镶边元素具有容差。"
+  },
+  {
+   "id": "site.accessibility.068",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "5 tests",
+   "value": "5项测试"
+  },
+  {
+   "id": "site.accessibility.069",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "// Methodology",
+   "value": "// 方法论"
+  },
+  {
+   "id": "site.accessibility.070",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "How We Test",
+   "value": "我们如何测试"
+  },
+  {
+   "id": "site.accessibility.071",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "iOS native audits",
+   "value": "iOS 原生审计"
+  },
+  {
+   "id": "site.accessibility.072",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Apple's built-in",
+   "value": "— Apple 内置的"
+  },
+  {
+   "id": "site.accessibility.073",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "performAccessibilityAudit",
+   "value": "performAccessibilityAudit"
+  },
+  {
+   "id": "site.accessibility.074",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
+   "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
+  },
+  {
+   "id": "site.accessibility.075",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Extreme size rendering",
+   "value": "极端大小渲染"
+  },
+  {
+   "id": "site.accessibility.076",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
+   "value": "— 每个屏幕在无障碍功能文本大小 AX3 和 AX5 下启动，以验证没有崩溃、不可读的截断或变得无法访问的情况。"
+  },
+  {
+   "id": "site.accessibility.077",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Reading order validation",
+   "value": "阅读顺序验证"
+  },
+  {
+   "id": "site.accessibility.078",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
+   "value": "— 自动化测试验证 VoiceOver 在关键屏幕上按逻辑从上到下的顺序遍历元素。"
+  },
+  {
+   "id": "site.accessibility.079",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Contrast verification",
+   "value": "对比度验证"
+  },
+  {
+   "id": "site.accessibility.080",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
+   "value": "— WCAG 对比度证据从渲染器拥有的语义区域生成，然后对照实际的浅色和深色图稿进行审查。"
+  },
+  {
+   "id": "site.accessibility.081",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Release integration",
+   "value": "发布集成"
+  },
+  {
+   "id": "site.accessibility.082",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
+   "value": "— 无障碍功能套件在屏幕截图或元数据上传之前运行，并保留机器可读的证据。"
+  },
+  {
+   "id": "site.accessibility.083",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Standards We Follow",
+   "value": "我们遵循的标准"
+  },
+  {
+   "id": "site.accessibility.084",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
+   "value": "文本和交互元素的 WCAG 2.1 AA 级对比度目标"
+  },
+  {
+   "id": "site.accessibility.085",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Apple Human Interface Guidelines for accessibility",
+   "value": "Apple 人机界面指南的无障碍功能"
+  },
+  {
+   "id": "site.accessibility.086",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Minimum 44pt touch-target checks for interactive controls",
+   "value": "交互控件的最小 44pt 触摸目标检查"
+  },
+  {
+   "id": "site.accessibility.087",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Semantic Dynamic Type coverage at accessibility text sizes",
+   "value": "无障碍功能文本大小下的语义 Dynamic Type 覆盖"
+  },
+  {
+   "id": "site.accessibility.088",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "VoiceOver-compatible labels and traits on every interactive element",
+   "value": "每个交互元素上的 VoiceOver 兼容标签和特征"
+  },
+  {
+   "id": "site.accessibility.089",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Keyboard-accessible alternatives for all gesture-based interactions",
+   "value": "所有基于手势的交互的键盘可访问替代方案"
+  },
+  {
+   "id": "site.accessibility.090",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Feedback",
+   "value": "反馈"
+  },
+  {
+   "id": "site.accessibility.091",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
+   "value": "如果您在使用 GitFocus 时遇到任何无障碍功能障碍， 我们希望听到您的意见以便我们修复它。"
+  },
+  {
+   "id": "site.accessibility.092",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Chat with us",
+   "value": "与我们聊天"
+  },
+  {
+   "id": "site.accessibility.093",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "or email us at",
+   "value": "或发送电子邮件至"
+  },
+  {
+   "id": "site.accessibility.094",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "support@gitfocus.app",
+   "value": "support@gitfocus.app"
+  },
+  {
+   "id": "site.accessibility.095",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Home",
+   "value": "首页"
+  },
+  {
+   "id": "site.accessibility.096",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Privacy Policy",
+   "value": "隐私政策"
+  },
+  {
+   "id": "site.accessibility.097",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Support",
+   "value": "支持"
+  },
+  {
+   "id": "site.accessibility.098",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "Accessibility",
+   "value": "无障碍"
+  },
+  {
+   "id": "site.accessibility.099",
+   "kind": "site",
+   "section": "accessibility",
+   "en": "© 2026 GitFocus",
+   "value": "© 2026 GitFocus"
+  }
+ ]
+}
