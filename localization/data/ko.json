@@ -1,7 +1,7 @@
 {
  "locale": "ko",
  "label": "한국어",
- "generated": "2026-08-30T03:45:57Z",
+ "generated": "2026-08-30T05:23:23Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -2926,6 +2926,70 @@
    "section": "gitfocus",
    "en": "Time you earn but don't use\nis a measure of your self-control",
    "value": "__ PHNL __ 을 (를) 사용하지 않고 수입을 올리는 시간은 자기 통제의 척도입니다."
+  },
+  {
+   "id": "gitfocus.timezone.confirm.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Confirm or change your home time zone",
+   "value": "홈 시간대를 확인하거나 변경하세요",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.day.resets",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day resets at midnight",
+   "value": "하루는 자정에 초기화됩니다",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.follow.home.caption",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "While traveling, keep the day boundary at home midnight instead of local midnight.",
+   "value": "여행 중에도 하루의 경계를 현지 자정이 아닌 홈 자정으로 유지합니다.",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.follow.home.toggle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Resets follow home time zone",
+   "value": "초기화가 홈 시간대를 따름",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.home.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Home Time Zone",
+   "value": "홈 시간대",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.keep.home",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Keep home time",
+   "value": "홈 시간 유지",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.sheet.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitFocus day — and any unlock time you've earned — ends at midnight in your home time zone. When you travel, resets follow local midnight and the app shows a note; earned time still expires when it was always going to.",
+   "value": "GitFocus의 하루와 획득한 잠금 해제 시간은 홈 시간대의 자정에 끝납니다. 여행 중에는 초기화가 현지 자정을 따르며 앱에 알림이 표시됩니다. 획득한 시간은 원래 만료될 시각에 그대로 만료됩니다.",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.travel.banner",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time zone changed — your reset now happens at local midnight.",
+   "value": "시간대가 변경되었습니다 — 이제 현지 자정에 초기화됩니다.",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
   },
   {
    "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",

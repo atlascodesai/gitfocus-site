@@ -1,7 +1,7 @@
 {
  "locale": "zh-Hans",
  "label": "简体中文",
- "generated": "2026-08-30T03:45:57Z",
+ "generated": "2026-08-30T05:23:23Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -2926,6 +2926,70 @@
    "section": "gitfocus",
    "en": "Time you earn but don't use\nis a measure of your self-control",
    "value": "你赚到但未使用的时间\n是自控力的体现"
+  },
+  {
+   "id": "gitfocus.timezone.confirm.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Confirm or change your home time zone",
+   "value": "确认或更改你的常驻时区",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.day.resets",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day resets at midnight",
+   "value": "一天在午夜重置",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.follow.home.caption",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "While traveling, keep the day boundary at home midnight instead of local midnight.",
+   "value": "旅行时，一天的界限保持在常驻时区的午夜，而不是当地午夜。",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.follow.home.toggle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Resets follow home time zone",
+   "value": "按常驻时区重置",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.home.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Home Time Zone",
+   "value": "常驻时区",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.keep.home",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Keep home time",
+   "value": "保持常驻时区时间",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.sheet.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitFocus day — and any unlock time you've earned — ends at midnight in your home time zone. When you travel, resets follow local midnight and the app shows a note; earned time still expires when it was always going to.",
+   "value": "你的 GitFocus 一天——以及已赚取的解锁时间——在常驻时区的午夜结束。旅行时，重置跟随当地午夜，应用会显示提示；已赚取的时间仍会在原定时刻过期。",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.travel.banner",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time zone changed — your reset now happens at local midnight.",
+   "value": "时区已更改——重置现在在当地午夜进行。",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
   },
   {
    "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",

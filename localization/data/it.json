@@ -1,7 +1,7 @@
 {
  "locale": "it",
  "label": "Italiano",
- "generated": "2026-08-30T03:45:57Z",
+ "generated": "2026-08-30T05:23:23Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -2926,6 +2926,70 @@
    "section": "gitfocus",
    "en": "Time you earn but don't use\nis a measure of your self-control",
    "value": "Il tempo che guadagni ma non usi\nè una misura del tuo autocontrollo"
+  },
+  {
+   "id": "gitfocus.timezone.confirm.hint",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Confirm or change your home time zone",
+   "value": "Conferma o cambia il tuo fuso orario di casa",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.day.resets",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Day resets at midnight",
+   "value": "La giornata si azzera a mezzanotte",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.follow.home.caption",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "While traveling, keep the day boundary at home midnight instead of local midnight.",
+   "value": "In viaggio, mantieni la fine della giornata a mezzanotte nel fuso orario di casa.",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.follow.home.toggle",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Resets follow home time zone",
+   "value": "Gli azzeramenti seguono il fuso orario di casa",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.home.title",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Home Time Zone",
+   "value": "Fuso orario di casa",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.keep.home",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Keep home time",
+   "value": "Mantieni l'ora di casa",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.sheet.body",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Your GitFocus day — and any unlock time you've earned — ends at midnight in your home time zone. When you travel, resets follow local midnight and the app shows a note; earned time still expires when it was always going to.",
+   "value": "La tua giornata GitFocus — e il tempo di sblocco che hai guadagnato — termina a mezzanotte nel tuo fuso orario di casa. Quando viaggi, gli azzeramenti seguono la mezzanotte locale e l'app mostra un avviso; il tempo guadagnato scade comunque quando sarebbe scaduto.",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
+  },
+  {
+   "id": "gitfocus.timezone.travel.banner",
+   "kind": "app",
+   "section": "gitfocus",
+   "en": "Time zone changed — your reset now happens at local midnight.",
+   "value": "Fuso orario cambiato — l'azzeramento ora avviene alla mezzanotte locale.",
+   "comment": "Home time zone / day boundary feature (2026-08-30)"
   },
   {
    "id": "gitfocus.tip.select.individual.apps.rather.than.entire.categories",
