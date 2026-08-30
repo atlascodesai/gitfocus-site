@@ -563,6 +563,18 @@
         /* RTL locales flip the whole document; the menu follows via the logical
            inset above, and text alignment needs no override. */
         [dir="rtl"] .expresslane-lang-menu { text-align: right; }
+    
+        /* de-emoji icon set */
+        .gf-i { display: inline-block; vertical-align: -0.125em; }
+        .theme-icon .gf-sun { display: none; }
+        [data-theme="light"] .theme-icon .gf-moon { display: none; }
+        [data-theme="light"] .theme-icon .gf-sun { display: inline-block; }
+        .feature-icon.red { color: var(--red); }
+        .feature-icon.orange { color: var(--orange); }
+        .feature-icon.cyan { color: var(--cyan); }
+        .feature-icon.purple { color: var(--purple-light); }
+        .feature-icon.green { color: var(--green); }
+        .quick-link-icon, .trouble-icon, .contact-icon, .tldr-item .icon { color: var(--purple-light); }
     </style>
   <!-- expresslane:hreflang -->
     <link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/privacy.html">
@@ -601,7 +613,7 @@
                 <a href="privacy.html" class="active">Приватност</a>
                 <a href="support.html">Подршка</a>
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Промени тему">
-                    <span class="theme-icon">🌙</span>
+                    <span class="theme-icon"><svg class="gf-i gf-moon" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="gf-i gf-sun" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg></span>
                 </button>
                 <details class="expresslane-lang">
   <summary class="expresslane-lang-trigger" title="Српски" aria-label="Language: Српски">
@@ -647,19 +659,19 @@
             <p class="tldr-content">Не прикупљамо ваше податке. Тачка.</p>
             <div class="tldr-list">
                 <div class="tldr-item">
-                    <span class="icon">🚫</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>
                     <span>Налози нису потребни</span>
                 </div>
                 <div class="tldr-item">
-                    <span class="icon">📱</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18.5h2"/></svg></span>
                     <span>Све на уређају</span>
                 </div>
                 <div class="tldr-item">
-                    <span class="icon">🔒</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
                     <span>Без праћења и аналитике</span>
                 </div>
                 <div class="tldr-item">
-                    <span class="icon">📡</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="11" r="2"/><path d="M12 13v8"/><path d="M16.2 6.8a6 6 0 0 1 0 8.4M7.8 15.2a6 6 0 0 1 0-8.4"/><path d="M19.1 3.9a10 10 0 0 1 0 14.2M4.9 18.1a10 10 0 0 1 0-14.2"/></svg></span>
                     <span>Ради offline</span>
                 </div>
             </div>
@@ -705,7 +717,7 @@
             </ul>
 
             <div class="highlight-box green">
-                <h3>✅ OAuth није потребан</h3>
+                <h3><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5.5-6"/></svg> OAuth није потребан</h3>
                 <p>
                     Намерно смо дизајнирали GitFocus да ради без GitHub аутентификације. Можете додати једно или више GitHub корисничких имена, а ми читамо само јавно доступне информације које свако може видети посетом тих GitHub профила.
                 </p>
@@ -798,7 +810,7 @@
             </ul>
 
             <div class="highlight-box green">
-                <h3>✅ Без приступа подацима апликације</h3>
+                <h3><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5.5-6"/></svg> Без приступа подацима апликације</h3>
                 <p>
                     Функција чета НЕМА приступ вашим GitHub подацима, историји сесија фокусирања или било којим другим подацима похрањеним у GitFocus апликацији. Само информације које експлицитно укуцате у чет шаљу се нашем систему подршке.
                 </p>
@@ -901,14 +913,14 @@
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            document.querySelector('.theme-icon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+            /* theme icon swap handled in CSS */
             updateFavicon(newTheme);
         }
 
         const savedTheme = localStorage.getItem('theme') ||
             (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', savedTheme);
-        document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+        /* theme icon swap handled in CSS */
         updateFavicon(savedTheme);
     </script>
 

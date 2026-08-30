@@ -702,6 +702,18 @@
         /* RTL locales flip the whole document; the menu follows via the logical
            inset above, and text alignment needs no override. */
         [dir="rtl"] .expresslane-lang-menu { text-align: right; }
+    
+        /* de-emoji icon set */
+        .gf-i { display: inline-block; vertical-align: -0.125em; }
+        .theme-icon .gf-sun { display: none; }
+        [data-theme="light"] .theme-icon .gf-moon { display: none; }
+        [data-theme="light"] .theme-icon .gf-sun { display: inline-block; }
+        .feature-icon.red { color: var(--red); }
+        .feature-icon.orange { color: var(--orange); }
+        .feature-icon.cyan { color: var(--cyan); }
+        .feature-icon.purple { color: var(--purple-light); }
+        .feature-icon.green { color: var(--green); }
+        .quick-link-icon, .trouble-icon, .contact-icon, .tldr-item .icon { color: var(--purple-light); }
     </style>
   <!-- expresslane:hreflang -->
     <link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/support.html">
@@ -740,7 +752,7 @@
                 <a href="privacy.html">Confidentialité</a>
                 <a href="support.html" class="active">Assistance</a>
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="Changer le thème">
-                    <span class="theme-icon">🌙</span>
+                    <span class="theme-icon"><svg class="gf-i gf-moon" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="gf-i gf-sun" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg></span>
                 </button>
                 <details class="expresslane-lang">
   <summary class="expresslane-lang-trigger" title="Français" aria-label="Language: Français">
@@ -782,14 +794,14 @@
 
         <!-- Contact Card -->
         <div class="contact-card">
-            <div class="contact-icon">💬</div>
+            <div class="contact-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
             <h2 class="contact-title">Nous contacter</h2>
             <p class="contact-desc">
                 Tu as une question, un rapport de bug ou une demande de fonctionnalité ?<br>
                 Nous serions ravis d'avoir de tes nouvelles.
             </p>
             <button onclick="openChatSupport()" class="contact-email" style="cursor: pointer;">
-                <span>💬</span>
+                <span><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></span>
                 Chatte avec nous
             </button>
             <p style="margin-top: var(--space-md); font-size: 0.85rem; color: var(--text-secondary);">
@@ -856,7 +868,7 @@
                 </button>
                 <div class="faq-answer">
                     <div class="faq-answer-content">
-                        <p>Chaque commit te rapporte <strong>5 minutes</strong> de temps de déverrouillage. Pusher 3 commits ? C'est 15 minutes pour scroller Twitter sans culpabilité. 🎉</p>
+                        <p>Chaque commit te rapporte <strong>5 minutes</strong> de temps de déverrouillage. Pusher 3 commits ? C'est 15 minutes pour scroller Twitter sans culpabilité.</p>
                     </div>
                 </div>
             </div>
@@ -1000,7 +1012,7 @@
             <h2 class="section-title">Dépannage rapide</h2>
 
             <div class="trouble-item">
-                <div class="trouble-icon">🔄</div>
+                <div class="trouble-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.9-6.6"/><path d="M21 3v6h-6"/></svg></div>
                 <div class="trouble-content">
                     <h3>Forcer l'actualisation</h3>
                     <p>Tire vers le bas sur l'écran principal pour actualiser manuellement tes données de commit depuis GitHub.</p>
@@ -1008,7 +1020,7 @@
             </div>
 
             <div class="trouble-item">
-                <div class="trouble-icon">⚙️</div>
+                <div class="trouble-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></div>
                 <div class="trouble-content">
                     <h3>Vérifier les autorisations</h3>
                     <p>Va dans Réglages iOS → Temps d'écran → GitFocus pour vérifier que les autorisations sont accordées.</p>
@@ -1016,7 +1028,7 @@
             </div>
 
             <div class="trouble-item">
-                <div class="trouble-icon">🐙</div>
+                <div class="trouble-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.55v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.72-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.36.78 1.05.78 2.13v3.16c0 .3.2.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></div>
                 <div class="trouble-content">
                     <h3>Vérifier GitHub</h3>
                     <p>Visite github.com/[ton-nom-utilisateur] et vérifie que ton graphique de contributions affiche les commits récents.</p>
@@ -1027,22 +1039,22 @@
         <!-- Quick Links -->
         <div class="quick-links">
             <a href="privacy.html" class="quick-link">
-                <span class="quick-link-icon">🔒</span>
+                <span class="quick-link-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
                 <span class="quick-link-title">Politique de confidentialité</span>
                 <span class="quick-link-desc">Découvre comment nous protégeons tes données</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Bug Report" class="quick-link">
-                <span class="quick-link-icon">🐛</span>
+                <span class="quick-link-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 2 1.9 1.9M16 2l-1.9 1.9"/><path d="M9 7.5v-1a3 3 0 0 1 6 0v1"/><path d="M8 7.5h8a4 4 0 0 1 4 4V14a8 8 0 0 1-16 0v-2.5a4 4 0 0 1 4-4z"/><path d="M12 22v-9"/><path d="M4 13H1m3 5.5-2.5 2M4 8 2 6m18 7h3m-3 5.5 2.5 2M20 8l2-2"/></svg></span>
                 <span class="quick-link-title">Signaler un bug</span>
                 <span class="quick-link-desc">Aide-nous à améliorer GitFocus</span>
             </a>
             <a href="mailto:support@gitfocus.app?subject=Feature Request" class="quick-link">
-                <span class="quick-link-icon">💡</span>
+                <span class="quick-link-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4.1 12.7c.7.5 1.1 1.4 1.1 2.3v1h6v-1c0-.9.4-1.8 1.1-2.3A7 7 0 0 0 12 2z"/></svg></span>
                 <span class="quick-link-title">Demander une fonctionnalité</span>
                 <span class="quick-link-desc">Dis-nous ce que tu aimerais voir</span>
             </a>
             <a href="/localization/?lang=fr" class="quick-link">
-                <span class="quick-link-icon">🌐</span>
+                <span class="quick-link-icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13.5 13.5 0 0 1 0 18 13.5 13.5 0 0 1 0-18z"/></svg></span>
                 <span class="quick-link-title">Retour sur la traduction</span>
                 <span class="quick-link-desc">Relis les traductions et propose des corrections</span>
             </a>
@@ -1097,14 +1109,14 @@
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            document.querySelector('.theme-icon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+            /* theme icon swap handled in CSS */
             updateFavicon(newTheme);
         }
 
         const savedTheme = localStorage.getItem('theme') ||
             (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', savedTheme);
-        document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+        /* theme icon swap handled in CSS */
         updateFavicon(savedTheme);
 
         // FAQ Accordion

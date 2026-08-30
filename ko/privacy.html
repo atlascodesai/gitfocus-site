@@ -563,6 +563,18 @@
         /* RTL locales flip the whole document; the menu follows via the logical
            inset above, and text alignment needs no override. */
         [dir="rtl"] .expresslane-lang-menu { text-align: right; }
+    
+        /* de-emoji icon set */
+        .gf-i { display: inline-block; vertical-align: -0.125em; }
+        .theme-icon .gf-sun { display: none; }
+        [data-theme="light"] .theme-icon .gf-moon { display: none; }
+        [data-theme="light"] .theme-icon .gf-sun { display: inline-block; }
+        .feature-icon.red { color: var(--red); }
+        .feature-icon.orange { color: var(--orange); }
+        .feature-icon.cyan { color: var(--cyan); }
+        .feature-icon.purple { color: var(--purple-light); }
+        .feature-icon.green { color: var(--green); }
+        .quick-link-icon, .trouble-icon, .contact-icon, .tldr-item .icon { color: var(--purple-light); }
     </style>
   <!-- expresslane:hreflang -->
     <link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/privacy.html">
@@ -601,7 +613,7 @@
                 <a href="privacy.html" class="active">개인정보</a>
                 <a href="support.html">지원</a>
                 <button class="theme-toggle" onclick="toggleTheme()" aria-label="테마 전환">
-                    <span class="theme-icon">🌙</span>
+                    <span class="theme-icon"><svg class="gf-i gf-moon" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="gf-i gf-sun" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg></span>
                 </button>
                 <details class="expresslane-lang">
   <summary class="expresslane-lang-trigger" title="한국어" aria-label="Language: 한국어">
@@ -647,19 +659,19 @@
             <p class="tldr-content">저희는 귀하의 데이터를 수집하지 않습니다. 끝.</p>
             <div class="tldr-list">
                 <div class="tldr-item">
-                    <span class="icon">🚫</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>
                     <span>계정 불필요</span>
                 </div>
                 <div class="tldr-item">
-                    <span class="icon">📱</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18.5h2"/></svg></span>
                     <span>모든 것이 기기 내에서</span>
                 </div>
                 <div class="tldr-item">
-                    <span class="icon">🔒</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
                     <span>추적이나 분석 없음</span>
                 </div>
                 <div class="tldr-item">
-                    <span class="icon">📡</span>
+                    <span class="icon"><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="11" r="2"/><path d="M12 13v8"/><path d="M16.2 6.8a6 6 0 0 1 0 8.4M7.8 15.2a6 6 0 0 1 0-8.4"/><path d="M19.1 3.9a10 10 0 0 1 0 14.2M4.9 18.1a10 10 0 0 1 0-14.2"/></svg></span>
                     <span>오프라인 작동</span>
                 </div>
             </div>
@@ -705,7 +717,7 @@
             </ul>
 
             <div class="highlight-box green">
-                <h3>✅ OAuth 불필요</h3>
+                <h3><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5.5-6"/></svg> OAuth 불필요</h3>
                 <p>
                     GitFocus는 GitHub 인증 없이 작동하도록 의도적으로 설계되었습니다. 하나 또는 여러 개의 GitHub 사용자 이름을 추가할 수 있으며, 누구나 프로필을 방문하여 볼 수 있는 공개 정보만 읽습니다.
                 </p>
@@ -798,7 +810,7 @@
             </ul>
 
             <div class="highlight-box green">
-                <h3>✅ 앱 데이터 액세스 없음</h3>
+                <h3><svg class="gf-i" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 12.5 2.5 2.5 5.5-6"/></svg> 앱 데이터 액세스 없음</h3>
                 <p>
                     채팅 기능은 GitHub 데이터, 집중 세션 기록 또는 GitFocus 앱에 저장된 기타 데이터에 액세스할 수 없습니다. 채팅에 명시적으로 입력한 정보만 지원 시스템으로 전송됩니다.
                 </p>
@@ -901,14 +913,14 @@
             const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
             html.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            document.querySelector('.theme-icon').textContent = newTheme === 'dark' ? '🌙' : '☀️';
+            /* theme icon swap handled in CSS */
             updateFavicon(newTheme);
         }
 
         const savedTheme = localStorage.getItem('theme') ||
             (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
         document.documentElement.setAttribute('data-theme', savedTheme);
-        document.querySelector('.theme-icon').textContent = savedTheme === 'dark' ? '🌙' : '☀️';
+        /* theme icon swap handled in CSS */
         updateFavicon(savedTheme);
     </script>
 
