@@ -1,7 +1,7 @@
 {
  "locale": "sk",
  "label": "Slovenčina",
- "generated": "2026-08-30T02:43:01Z",
+ "generated": "2026-08-30T03:45:57Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -1957,7 +1957,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No focus sessions yet",
-   "value": "Zatiaľ žiadne sústredené sedenia"
+   "value": "Zatiaľ žiadne relácie sústredenia"
   },
   {
    "id": "gitfocus.no.recent.contributions",
@@ -4040,452 +4040,459 @@
    "id": "site.index.025",
    "kind": "site",
    "section": "index",
+   "en": "Translation wrong? Report it here",
+   "value": "Chybný preklad? Nahlás ho tu"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
    "en": "Now on the App Store",
    "value": "Už v App Store"
   },
   {
-   "id": "site.index.026",
+   "id": "site.index.027",
    "kind": "site",
    "section": "index",
    "en": "Block apps until you",
    "value": "Aplikácie zostávajú zamknuté, kým nespravíš"
   },
   {
-   "id": "site.index.027",
+   "id": "site.index.028",
    "kind": "site",
    "section": "index",
    "en": "git push",
    "value": "git push"
   },
   {
-   "id": "site.index.028",
+   "id": "site.index.029",
    "kind": "site",
    "section": "index",
    "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
    "value": "GitFocus mení tvoje programátorské návyky na hru. Commituj z jedného alebo viacerých GitHub účtov a odomkni si rušivé aplikácie. Také jednoduché to je."
   },
   {
-   "id": "site.index.029",
+   "id": "site.index.030",
    "kind": "site",
    "section": "index",
    "en": "See how it works",
    "value": "Pozri, ako to funguje"
   },
   {
-   "id": "site.index.030",
+   "id": "site.index.031",
    "kind": "site",
    "section": "index",
    "en": "git commit -m \"unlock apps\"",
    "value": "git commit -m \"unlock apps\""
   },
   {
-   "id": "site.index.031",
+   "id": "site.index.032",
    "kind": "site",
    "section": "index",
    "en": "Scroll to explore",
    "value": "Posuň sa a preskúmaj"
   },
   {
-   "id": "site.index.032",
+   "id": "site.index.033",
    "kind": "site",
    "section": "index",
    "en": "// How it works",
    "value": "// Ako to funguje"
   },
   {
-   "id": "site.index.033",
+   "id": "site.index.034",
    "kind": "site",
    "section": "index",
    "en": "Turn commits into freedom",
    "value": "Zmeň commity na voľný čas"
   },
   {
-   "id": "site.index.034",
+   "id": "site.index.035",
    "kind": "site",
    "section": "index",
    "en": "Setup takes 2 minutes. Then let your code do the talking.",
    "value": "Nastavenie trvá 2 minúty. Potom nechaj hovoriť svoj kód."
   },
   {
-   "id": "site.index.035",
+   "id": "site.index.036",
    "kind": "site",
    "section": "index",
    "en": "Add GitHub accounts",
    "value": "Pridať GitHub účty"
   },
   {
-   "id": "site.index.036",
+   "id": "site.index.037",
    "kind": "site",
    "section": "index",
    "en": "Track one account or aggregate work, personal, and open-source profiles",
    "value": "Sleduj jeden účet alebo spoj pracovné, osobné a open-source profily"
   },
   {
-   "id": "site.index.037",
+   "id": "site.index.038",
    "kind": "site",
    "section": "index",
    "en": "Dashboard",
    "value": "Prehľad"
   },
   {
-   "id": "site.index.038",
+   "id": "site.index.039",
    "kind": "site",
    "section": "index",
    "en": "Track your streak, daily score, and app lock status at a glance",
    "value": "Séria, denné skóre a stav zámku na jeden pohľad"
   },
   {
-   "id": "site.index.039",
+   "id": "site.index.040",
    "kind": "site",
    "section": "index",
    "en": "Focus Stats",
    "value": "Štatistiky sústredenia"
   },
   {
-   "id": "site.index.040",
+   "id": "site.index.041",
    "kind": "site",
    "section": "index",
    "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
    "value": "Začni každý deň na 100 a sleduj, ako to zamknutý čas a odomknutia míňajú"
   },
   {
-   "id": "site.index.041",
+   "id": "site.index.042",
    "kind": "site",
    "section": "index",
    "en": "Contribution Stats",
    "value": "Štatistiky príspevkov"
   },
   {
-   "id": "site.index.042",
+   "id": "site.index.043",
    "kind": "site",
    "section": "index",
    "en": "Deep dive into your GitHub activity with detailed statistics",
    "value": "Podrobné štatistiky tvojej aktivity na GitHube"
   },
   {
-   "id": "site.index.043",
+   "id": "site.index.044",
    "kind": "site",
    "section": "index",
    "en": "Focus Timer",
    "value": "Časovač sústredenia"
   },
   {
-   "id": "site.index.044",
+   "id": "site.index.045",
    "kind": "site",
    "section": "index",
    "en": "Built-in Pomodoro timer to maximize your productivity sessions",
    "value": "Zabudovaný Pomodoro časovač pre produktívne bloky práce"
   },
   {
-   "id": "site.index.045",
+   "id": "site.index.046",
    "kind": "site",
    "section": "index",
    "en": "// Features",
    "value": "// Funkcie"
   },
   {
-   "id": "site.index.046",
+   "id": "site.index.047",
    "kind": "site",
    "section": "index",
    "en": "Everything you need to stay focused",
    "value": "Všetko, čo potrebuješ, aby si zostal sústredený"
   },
   {
-   "id": "site.index.047",
+   "id": "site.index.048",
    "kind": "site",
    "section": "index",
    "en": "Not just another app blocker. GitFocus gamifies productivity.",
    "value": "Nie je to ďalší blokovač aplikácií. GitFocus robí z produktivity hru."
   },
   {
-   "id": "site.index.048",
+   "id": "site.index.049",
    "kind": "site",
    "section": "index",
    "en": "Earn Time",
    "value": "Zarábaj čas"
   },
   {
-   "id": "site.index.049",
+   "id": "site.index.050",
    "kind": "site",
    "section": "index",
    "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
    "value": "Každý commit z pripojených GitHub účtov ti pridá čas na odomknutie. Práca, osobné aj open source spolu."
   },
   {
-   "id": "site.index.050",
+   "id": "site.index.051",
    "kind": "site",
    "section": "index",
    "en": "mins unlocked",
    "value": "min odomknutých"
   },
   {
-   "id": "site.index.051",
+   "id": "site.index.052",
    "kind": "site",
    "section": "index",
    "en": "Simulate commit",
    "value": "Simulovať commit"
   },
   {
-   "id": "site.index.052",
+   "id": "site.index.053",
    "kind": "site",
    "section": "index",
    "en": "Lives System",
    "value": "Systém životov"
   },
   {
-   "id": "site.index.053",
+   "id": "site.index.054",
    "kind": "site",
    "section": "index",
    "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
    "value": "Potrebuješ núdzový prístup? Použi život a odomkni aplikácie do polnoci. Začínaš s 1 životom zadarmo."
   },
   {
-   "id": "site.index.054",
+   "id": "site.index.055",
    "kind": "site",
    "section": "index",
    "en": "Earn more through",
    "value": "Viac získaš cez"
   },
   {
-   "id": "site.index.055",
+   "id": "site.index.056",
    "kind": "site",
    "section": "index",
    "en": "streaks",
    "value": "série"
   },
   {
-   "id": "site.index.056",
+   "id": "site.index.057",
    "kind": "site",
    "section": "index",
    "en": "Borrow Time",
    "value": "Požičaj si čas"
   },
   {
-   "id": "site.index.057",
+   "id": "site.index.058",
    "kind": "site",
    "section": "index",
    "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
    "value": "Potrebuješ dopísať správu? Požičaj si až 5 minút. Ďalšie commity ich splatia."
   },
   {
-   "id": "site.index.058",
+   "id": "site.index.059",
    "kind": "site",
    "section": "index",
    "en": "Current debt:",
    "value": "Aktuálny dlh:"
   },
   {
-   "id": "site.index.059",
+   "id": "site.index.060",
    "kind": "site",
    "section": "index",
    "en": "0 min",
    "value": "0 min"
   },
   {
-   "id": "site.index.060",
+   "id": "site.index.061",
    "kind": "site",
    "section": "index",
    "en": "Max borrow:",
    "value": "Max. pôžička:"
   },
   {
-   "id": "site.index.061",
+   "id": "site.index.062",
    "kind": "site",
    "section": "index",
    "en": "5 min",
    "value": "5 min"
   },
   {
-   "id": "site.index.062",
+   "id": "site.index.063",
    "kind": "site",
    "section": "index",
    "en": "Discipline Bank",
    "value": "Banka disciplíny"
   },
   {
-   "id": "site.index.063",
+   "id": "site.index.064",
    "kind": "site",
    "section": "index",
    "en": "(Coming Soon)",
    "value": "(Čoskoro)"
   },
   {
-   "id": "site.index.064",
+   "id": "site.index.065",
    "kind": "site",
    "section": "index",
    "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
    "value": "Čas, ktorý zarobíš, ale nevyužiješ, sa ukladá. Je to miera tvojej sebadisciplíny."
   },
   {
-   "id": "site.index.065",
+   "id": "site.index.066",
    "kind": "site",
    "section": "index",
    "en": "minutes banked",
    "value": "minút uložených"
   },
   {
-   "id": "site.index.066",
+   "id": "site.index.067",
    "kind": "site",
    "section": "index",
    "en": "Challenge: Bank",
    "value": "Výzva: našetri"
   },
   {
-   "id": "site.index.067",
+   "id": "site.index.068",
    "kind": "site",
    "section": "index",
    "en": "1000 min",
    "value": "1000 min"
   },
   {
-   "id": "site.index.068",
+   "id": "site.index.069",
    "kind": "site",
    "section": "index",
    "en": "this year",
    "value": "tento rok"
   },
   {
-   "id": "site.index.069",
+   "id": "site.index.070",
    "kind": "site",
    "section": "index",
    "en": "Streak Milestones",
    "value": "Míľniky série"
   },
   {
-   "id": "site.index.070",
+   "id": "site.index.071",
    "kind": "site",
    "section": "index",
    "en": "Build your streak to unlock permanent rewards.",
    "value": "Buduj sériu a odomykaj trvalé odmeny."
   },
   {
-   "id": "site.index.071",
+   "id": "site.index.072",
    "kind": "site",
    "section": "index",
    "en": "14d",
    "value": "14 d"
   },
   {
-   "id": "site.index.072",
+   "id": "site.index.073",
    "kind": "site",
    "section": "index",
    "en": "+1 extra life",
    "value": "+1 život navyše"
   },
   {
-   "id": "site.index.073",
+   "id": "site.index.074",
    "kind": "site",
    "section": "index",
    "en": "30d",
    "value": "30 d"
   },
   {
-   "id": "site.index.074",
+   "id": "site.index.075",
    "kind": "site",
    "section": "index",
    "en": "Weekly time bank",
    "value": "Týždenná banka času"
   },
   {
-   "id": "site.index.075",
+   "id": "site.index.076",
    "kind": "site",
    "section": "index",
    "en": "90d",
    "value": "90 d"
   },
   {
-   "id": "site.index.076",
+   "id": "site.index.077",
    "kind": "site",
    "section": "index",
    "en": "Time never expires",
    "value": "Čas nikdy nevyprší"
   },
   {
-   "id": "site.index.077",
+   "id": "site.index.078",
    "kind": "site",
    "section": "index",
    "en": "Privacy First",
    "value": "Súkromie na prvom mieste"
   },
   {
-   "id": "site.index.078",
+   "id": "site.index.079",
    "kind": "site",
    "section": "index",
    "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
    "value": "Žiadny GitFocus účet. Žiadne prihlásenie cez GitHub. Všetko zostáva v tvojom zariadení."
   },
   {
-   "id": "site.index.079",
+   "id": "site.index.080",
    "kind": "site",
    "section": "index",
    "en": "Works offline",
    "value": "Funguje offline"
   },
   {
-   "id": "site.index.080",
+   "id": "site.index.081",
    "kind": "site",
    "section": "index",
    "en": "No tracking",
    "value": "Žiadne sledovanie"
   },
   {
-   "id": "site.index.081",
+   "id": "site.index.082",
    "kind": "site",
    "section": "index",
    "en": "Open source friendly",
    "value": "Priateľské k open source"
   },
   {
-   "id": "site.index.082",
+   "id": "site.index.083",
    "kind": "site",
    "section": "index",
    "en": "Ready to ship more code?",
    "value": "Pripravený dodať viac kódu?"
   },
   {
-   "id": "site.index.083",
+   "id": "site.index.084",
    "kind": "site",
    "section": "index",
    "en": "Join developers who've turned procrastination into productivity.",
    "value": "Pridaj sa k vývojárom, ktorí zmenili prokrastináciu na produktivitu."
   },
   {
-   "id": "site.index.084",
+   "id": "site.index.085",
    "kind": "site",
    "section": "index",
    "en": "Free to use. No subscription required.",
    "value": "Zadarmo. Bez predplatného."
   },
   {
-   "id": "site.index.085",
+   "id": "site.index.086",
    "kind": "site",
    "section": "index",
    "en": "Privacy Policy",
    "value": "Zásady ochrany súkromia"
   },
   {
-   "id": "site.index.086",
+   "id": "site.index.087",
    "kind": "site",
    "section": "index",
    "en": "Support",
    "value": "Podpora"
   },
   {
-   "id": "site.index.087",
+   "id": "site.index.088",
    "kind": "site",
    "section": "index",
    "en": "Accessibility",
    "value": "Prístupnosť"
   },
   {
-   "id": "site.index.088",
+   "id": "site.index.089",
    "kind": "site",
    "section": "index",
    "en": "Contact",
    "value": "Kontakt"
   },
   {
-   "id": "site.index.089",
+   "id": "site.index.090",
    "kind": "site",
    "section": "index",
    "en": "© 2026 GitFocus. Made with git and focus.",
@@ -4670,634 +4677,641 @@
    "id": "site.support.025",
    "kind": "site",
    "section": "support",
+   "en": "Translation wrong? Report it here",
+   "value": "Chybný preklad? Nahlás ho tu"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
    "en": "// Support",
    "value": "// Podpora\\"
   },
   {
-   "id": "site.support.026",
+   "id": "site.support.027",
    "kind": "site",
    "section": "support",
    "en": "How can we help?",
    "value": "Ako vám môžeme pomôcť?\\"
   },
   {
-   "id": "site.support.027",
+   "id": "site.support.028",
    "kind": "site",
    "section": "support",
    "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
    "value": "Nájdite odpovede na časté otázky alebo nás kontaktujte priamo. Zvyčajne odpovedáme do 24 hodín.\\"
   },
   {
-   "id": "site.support.028",
+   "id": "site.support.029",
    "kind": "site",
    "section": "support",
    "en": "Get in Touch",
    "value": "Kontaktujte nás\\"
   },
   {
-   "id": "site.support.029",
+   "id": "site.support.030",
    "kind": "site",
    "section": "support",
    "en": "Have a question, bug report, or feature request?",
    "value": "Máte otázku, hlásenie chyby alebo požiadavku na funkciu?\\"
   },
   {
-   "id": "site.support.030",
+   "id": "site.support.031",
    "kind": "site",
    "section": "support",
    "en": "We'd love to hear from you.",
    "value": "Radi sa od vás ozveme.\\"
   },
   {
-   "id": "site.support.031",
+   "id": "site.support.032",
    "kind": "site",
    "section": "support",
    "en": "Chat with us",
    "value": "Chatujte s nami\\"
   },
   {
-   "id": "site.support.032",
+   "id": "site.support.033",
    "kind": "site",
    "section": "support",
    "en": "or email us at",
    "value": "alebo nám napíšte na\\"
   },
   {
-   "id": "site.support.033",
+   "id": "site.support.034",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app\\"
   },
   {
-   "id": "site.support.034",
+   "id": "site.support.035",
    "kind": "site",
    "section": "support",
    "en": "Frequently Asked Questions",
    "value": "Často kladené otázky\\"
   },
   {
-   "id": "site.support.035",
+   "id": "site.support.036",
    "kind": "site",
    "section": "support",
    "en": "All",
    "value": "Všetky\\"
   },
   {
-   "id": "site.support.036",
+   "id": "site.support.037",
    "kind": "site",
    "section": "support",
    "en": "Setup",
    "value": "Nastavenie\\"
   },
   {
-   "id": "site.support.037",
+   "id": "site.support.038",
    "kind": "site",
    "section": "support",
    "en": "Features",
    "value": "Funkcie"
   },
   {
-   "id": "site.support.038",
+   "id": "site.support.039",
    "kind": "site",
    "section": "support",
    "en": "Troubleshooting",
    "value": "Riešenie problémov\\"
   },
   {
-   "id": "site.support.039",
+   "id": "site.support.040",
    "kind": "site",
    "section": "support",
    "en": "Do I need to connect my GitHub account?",
    "value": "Potrebujem pripojiť svoj GitHub účet?\\"
   },
   {
-   "id": "site.support.040",
+   "id": "site.support.041",
    "kind": "site",
    "section": "support",
    "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
    "value": "Nie! GitFocus potrebuje iba používateľské meno alebo mená GitHub, ktoré sa rozhodnete sledovať. Čítame verejné grafy príspevkov (zelené štvorce na profiloch) na zistenie commitov. Nie je potrebný OAuth, tokeny ani heslá.\\"
   },
   {
-   "id": "site.support.041",
+   "id": "site.support.042",
    "kind": "site",
    "section": "support",
    "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
    "value": "Môžete pridať viacero GitHub účtov a rozhodnúť, ktoré sa počítajú do zisťovania commitov.\\"
   },
   {
-   "id": "site.support.042",
+   "id": "site.support.043",
    "kind": "site",
    "section": "support",
    "en": "Why do you need Screen Time permissions?",
    "value": "Prečo potrebujete povolenia Screen Time?\\"
   },
   {
-   "id": "site.support.043",
+   "id": "site.support.044",
    "kind": "site",
    "section": "support",
    "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
    "value": "GitFocus používa Screen Time API spoločnosti Apple na blokovanie aplikácií. Je to ten istý bezpečný systém, ktorý poháňa vstavané rodičovské ovládanie spoločnosti Apple. Potrebujeme povolenie na použitie obmedzení aplikácií vo vašom mene.\\"
   },
   {
-   "id": "site.support.044",
+   "id": "site.support.045",
    "kind": "site",
    "section": "support",
    "en": "Does GitFocus work with private repositories?",
    "value": "Funguje GitFocus so súkromnými repozitármi?\\"
   },
   {
-   "id": "site.support.045",
+   "id": "site.support.046",
    "kind": "site",
    "section": "support",
    "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
    "value": "Áno! GitHub predvolene počíta všetky commity (verejné a súkromné) vo vašom grafe príspevkov. Pokiaľ sú vaše nastavenia príspevkov nastavené tak, aby zobrazovali \\\"Súkromné príspevky\\\", uvidíme ich.\\"
   },
   {
-   "id": "site.support.046",
+   "id": "site.support.047",
    "kind": "site",
    "section": "support",
    "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
    "value": "Prejdite do svojho GitHub profilu → Nastavenia príspevkov → Zaškrtnite \\\"Súkromné príspevky\\\"\\"
   },
   {
-   "id": "site.support.047",
+   "id": "site.support.048",
    "kind": "site",
    "section": "support",
    "en": "How much time does each commit earn?",
    "value": "Koľko času získa každý commit?\\"
   },
   {
-   "id": "site.support.048",
+   "id": "site.support.049",
    "kind": "site",
    "section": "support",
    "en": "Each commit earns you",
    "value": "Každý commit vám získa\\"
   },
   {
-   "id": "site.support.049",
+   "id": "site.support.050",
    "kind": "site",
    "section": "support",
    "en": "5 minutes",
    "value": "5 minút\\"
   },
   {
-   "id": "site.support.050",
+   "id": "site.support.051",
    "kind": "site",
    "section": "support",
    "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
    "value": "času odomknutia. Odošlete 3 commity? To je 15 minút na prechádzanie Twitteru bez výčitiek.\\"
   },
   {
-   "id": "site.support.051",
+   "id": "site.support.052",
    "kind": "site",
    "section": "support",
    "en": "What are \"Lives\" and how do they work?",
    "value": "Čo jsou \\\\\"Životy\\\\\" a ako fungujú?\\\\"
   },
   {
-   "id": "site.support.052",
+   "id": "site.support.053",
    "kind": "site",
    "section": "support",
    "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
    "value": "Životy sú núdzové odomknutia. Keď použijete život, všetky vaše zablokované aplikácie sa odomknú do polnoci. Začínate s 1 bezplatným životom a môžete získať viac prostredníctvom sérií:\\"
   },
   {
-   "id": "site.support.053",
+   "id": "site.support.054",
    "kind": "site",
    "section": "support",
    "en": "14-day streak: +1 life",
    "value": "14-dňová séria: +1 život\\"
   },
   {
-   "id": "site.support.054",
+   "id": "site.support.055",
    "kind": "site",
    "section": "support",
    "en": "Then +1 life every month you maintain the streak",
    "value": "Potom +1 život každý mesiac, keď udržíte sériu\\"
   },
   {
-   "id": "site.support.055",
+   "id": "site.support.056",
    "kind": "site",
    "section": "support",
    "en": "What is the \"Borrow Time\" feature?",
    "value": "Čo je funkcia \\\\\"Požičať čas\\\\\"?\\\\"
   },
   {
-   "id": "site.support.056",
+   "id": "site.support.057",
    "kind": "site",
    "section": "support",
    "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
    "value": "Potrebujete dokončiť rýchlu správu, ale nemáte čas na odomknutie? Môžete si požičať až 5 minút. Tým sa vytvorí \\\\\"dlh\\\\\", ktorý sa splatí z vašich budúcich zárobkov z commitov.\\\\"
   },
   {
-   "id": "site.support.057",
+   "id": "site.support.058",
    "kind": "site",
    "section": "support",
    "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
    "value": "Príklad: Požičiate si 3 minúty. Váš ďalší commit získa 5 minút, ale 3 idú na splatenie dlhu, takže vám ostanú 2 minúty.\\"
   },
   {
-   "id": "site.support.058",
+   "id": "site.support.059",
    "kind": "site",
    "section": "support",
    "en": "What is the Discipline Bank?",
    "value": "Čo je Disciplinárna banka?\\"
   },
   {
-   "id": "site.support.059",
+   "id": "site.support.060",
    "kind": "site",
    "section": "support",
    "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
    "value": "Disciplinárna banka sleduje čas, ktorý ste získali, ale nepoužili. Je to miera vašej sebakontroly. Každá minúta, ktorú získate, ale neutratíte na rozptyľovanie, ide do vašej banky.\\"
   },
   {
-   "id": "site.support.060",
+   "id": "site.support.061",
    "kind": "site",
    "section": "support",
    "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
    "value": "Vyzvite sa: Koľko minút môžete nasporíť do konca roka?\\"
   },
   {
-   "id": "site.support.061",
+   "id": "site.support.062",
    "kind": "site",
    "section": "support",
    "en": "What are the streak milestone rewards?",
    "value": "Aké sú odmeny za míľniky série?\\"
   },
   {
-   "id": "site.support.062",
+   "id": "site.support.063",
    "kind": "site",
    "section": "support",
    "en": "Building a streak unlocks permanent perks:",
    "value": "Budovanie série odomkne trvalé výhody:\\"
   },
   {
-   "id": "site.support.063",
+   "id": "site.support.064",
    "kind": "site",
    "section": "support",
    "en": "14 days:",
    "value": "14 dní:\\"
   },
   {
-   "id": "site.support.064",
+   "id": "site.support.065",
    "kind": "site",
    "section": "support",
    "en": "+1 extra life (then +1/month)",
    "value": "+1 extra život (potom +1/mesiac)\\"
   },
   {
-   "id": "site.support.065",
+   "id": "site.support.066",
    "kind": "site",
    "section": "support",
    "en": "30 days:",
    "value": "30 dní:\\"
   },
   {
-   "id": "site.support.066",
+   "id": "site.support.067",
    "kind": "site",
    "section": "support",
    "en": "Weekly time bank (unused time resets weekly instead of daily)",
    "value": "Týždenná časová banka (nevyužitý čas sa resetuje týždenne namiesto denne)\\"
   },
   {
-   "id": "site.support.067",
+   "id": "site.support.068",
    "kind": "site",
    "section": "support",
    "en": "90 days:",
    "value": "90 dní:\\"
   },
   {
-   "id": "site.support.068",
+   "id": "site.support.069",
    "kind": "site",
    "section": "support",
    "en": "Permanent time (earned time never expires)",
    "value": "Trvalý čas (získaný čas nikdy nevyprší)\\"
   },
   {
-   "id": "site.support.069",
+   "id": "site.support.070",
    "kind": "site",
    "section": "support",
    "en": "My commits aren't being detected",
    "value": "Moje commity sa nezisťujú\\"
   },
   {
-   "id": "site.support.070",
+   "id": "site.support.071",
    "kind": "site",
    "section": "support",
    "en": "Here are some things to check:",
    "value": "Tu je niekoľko vecí, ktoré treba skontrolovať:\\"
   },
   {
-   "id": "site.support.071",
+   "id": "site.support.072",
    "kind": "site",
    "section": "support",
    "en": "Make sure your GitHub username is entered correctly",
    "value": "Uistite sa, že je vaše používateľské meno GitHub zadané správne\\"
   },
   {
-   "id": "site.support.072",
+   "id": "site.support.073",
    "kind": "site",
    "section": "support",
    "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
    "value": "Ak používate viacero účtov, skontrolujte, či sú správne účty povolené na zisťovanie commitov\\"
   },
   {
-   "id": "site.support.073",
+   "id": "site.support.074",
    "kind": "site",
    "section": "support",
    "en": "Check that your commits show up on your GitHub profile's contribution graph",
    "value": "Skontrolujte, či sa vaše commity zobrazujú v grafe príspevkov vášho GitHub profilu\\"
   },
   {
-   "id": "site.support.074",
+   "id": "site.support.075",
    "kind": "site",
    "section": "support",
    "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
    "value": "Ak používate súkromné repos, uistite sa, že \\\\\"Súkromné príspevky\\\\\" sú povolené v nastaveniach GitHub\\\\"
   },
   {
-   "id": "site.support.075",
+   "id": "site.support.076",
    "kind": "site",
    "section": "support",
    "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
    "value": "Počkajte niekoľko minút — graf príspevkov GitHub môže trvať, kým sa aktualizuje\\"
   },
   {
-   "id": "site.support.076",
+   "id": "site.support.077",
    "kind": "site",
    "section": "support",
    "en": "Apps aren't being blocked",
    "value": "Aplikácie sa neblokujú\\"
   },
   {
-   "id": "site.support.077",
+   "id": "site.support.078",
    "kind": "site",
    "section": "support",
    "en": "Make sure you've:",
    "value": "Uistite sa, že ste:\\"
   },
   {
-   "id": "site.support.078",
+   "id": "site.support.079",
    "kind": "site",
    "section": "support",
    "en": "Granted Screen Time permissions during setup",
    "value": "Udelili povolenia Screen Time počas nastavovania\\"
   },
   {
-   "id": "site.support.079",
+   "id": "site.support.080",
    "kind": "site",
    "section": "support",
    "en": "Selected at least one app or category to block",
    "value": "Vybrali aspoň jednu aplikáciu alebo kategóriu na blokovanie\\"
   },
   {
-   "id": "site.support.080",
+   "id": "site.support.081",
    "kind": "site",
    "section": "support",
    "en": "Started a focus session from the main screen",
    "value": "Spustili reláciu zamerania z hlavnej obrazovky\\"
   },
   {
-   "id": "site.support.081",
+   "id": "site.support.082",
    "kind": "site",
    "section": "support",
    "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
    "value": "Ak problémy pretrvávajú, skúste prejsť do Nastavenia iOS → Screen Time a uistite sa, že GitFocus má potrebné povolenia.\\"
   },
   {
-   "id": "site.support.082",
+   "id": "site.support.083",
    "kind": "site",
    "section": "support",
    "en": "The app crashed or is behaving unexpectedly",
    "value": "Aplikácia spadla alebo sa správa neočakávane\\"
   },
   {
-   "id": "site.support.083",
+   "id": "site.support.084",
    "kind": "site",
    "section": "support",
    "en": "Try these steps:",
    "value": "Skúste tieto kroky:\\"
   },
   {
-   "id": "site.support.084",
+   "id": "site.support.085",
    "kind": "site",
    "section": "support",
    "en": "Force quit and reopen the app",
    "value": "Vynútené ukončenie a znovuotvorenie aplikácie\\"
   },
   {
-   "id": "site.support.085",
+   "id": "site.support.086",
    "kind": "site",
    "section": "support",
    "en": "Restart your device",
    "value": "Reštartujte zariadenie\\"
   },
   {
-   "id": "site.support.086",
+   "id": "site.support.087",
    "kind": "site",
    "section": "support",
    "en": "Make sure you're on the latest version of GitFocus",
    "value": "Uistite sa, že máte najnovšiu verziu GitFocus\\"
   },
   {
-   "id": "site.support.087",
+   "id": "site.support.088",
    "kind": "site",
    "section": "support",
    "en": "If the issue persists, email us at",
    "value": "Ak problém pretrváva, napíšte nám na\\"
   },
   {
-   "id": "site.support.088",
+   "id": "site.support.089",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app\\"
   },
   {
-   "id": "site.support.089",
+   "id": "site.support.090",
    "kind": "site",
    "section": "support",
    "en": "with details about what happened",
    "value": "s podrobnosťami o tom, čo sa stalo\\"
   },
   {
-   "id": "site.support.090",
+   "id": "site.support.091",
    "kind": "site",
    "section": "support",
    "en": "How do I reset or start over?",
    "value": "Ako resetujem alebo začnem odznova?\\"
   },
   {
-   "id": "site.support.091",
+   "id": "site.support.092",
    "kind": "site",
    "section": "support",
    "en": "To completely reset GitFocus:",
    "value": "Na úplné resetovanie GitFocus:\\"
   },
   {
-   "id": "site.support.092",
+   "id": "site.support.093",
    "kind": "site",
    "section": "support",
    "en": "Delete the app from your device",
    "value": "Zmažte aplikáciu zo zariadenia\\"
   },
   {
-   "id": "site.support.093",
+   "id": "site.support.094",
    "kind": "site",
    "section": "support",
    "en": "Reinstall from the App Store",
    "value": "Preinštalujte z App Store\\"
   },
   {
-   "id": "site.support.094",
+   "id": "site.support.095",
    "kind": "site",
    "section": "support",
    "en": "Go through the onboarding again",
    "value": "Prejdite znova úvodným nastavením\\"
   },
   {
-   "id": "site.support.095",
+   "id": "site.support.096",
    "kind": "site",
    "section": "support",
    "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
    "value": "Poznámka: Vaše používateľské meno GitHub alebo zoznam účtov je bezpečne uložený pre pohodlie, takže môže byť predvyplnený pri preinštalácii.\\"
   },
   {
-   "id": "site.support.096",
+   "id": "site.support.097",
    "kind": "site",
    "section": "support",
    "en": "Quick Troubleshooting",
    "value": "Rýchle riešenie problémov\\"
   },
   {
-   "id": "site.support.097",
+   "id": "site.support.098",
    "kind": "site",
    "section": "support",
    "en": "Force Refresh",
    "value": "Vynútené obnovenie\\"
   },
   {
-   "id": "site.support.098",
+   "id": "site.support.099",
    "kind": "site",
    "section": "support",
    "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
    "value": "Potiahnite nadol na hlavnej obrazovke na manuálne obnovenie údajov o commitoch z GitHub.\\"
   },
   {
-   "id": "site.support.099",
+   "id": "site.support.100",
    "kind": "site",
    "section": "support",
    "en": "Check Permissions",
    "value": "Skontrolovať povolenia\\"
   },
   {
-   "id": "site.support.100",
+   "id": "site.support.101",
    "kind": "site",
    "section": "support",
    "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
    "value": "Prejdite do Nastavenia iOS → Screen Time → GitFocus a overte, či sú povolenia udelené.\\"
   },
   {
-   "id": "site.support.101",
+   "id": "site.support.102",
    "kind": "site",
    "section": "support",
    "en": "Verify GitHub",
    "value": "Overiť GitHub\\"
   },
   {
-   "id": "site.support.102",
+   "id": "site.support.103",
    "kind": "site",
    "section": "support",
    "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
    "value": "Navštívte github.com/[vaše-používateľské-meno] a skontrolujte, či váš graf príspevkov zobrazuje nedávne commity.\\"
   },
   {
-   "id": "site.support.103",
+   "id": "site.support.104",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "Zásady ochrany súkromia"
   },
   {
-   "id": "site.support.104",
+   "id": "site.support.105",
    "kind": "site",
    "section": "support",
    "en": "Learn how we protect your data",
    "value": "Zistite, ako chránime vaše údaje\\"
   },
   {
-   "id": "site.support.105",
+   "id": "site.support.106",
    "kind": "site",
    "section": "support",
    "en": "Report a Bug",
    "value": "Nahlásiť chybu\\"
   },
   {
-   "id": "site.support.106",
+   "id": "site.support.107",
    "kind": "site",
    "section": "support",
    "en": "Help us improve GitFocus",
    "value": "Pomôžte nám zlepšiť GitFocus\\"
   },
   {
-   "id": "site.support.107",
+   "id": "site.support.108",
    "kind": "site",
    "section": "support",
    "en": "Request a Feature",
    "value": "Požiadať o funkciu\\"
   },
   {
-   "id": "site.support.108",
+   "id": "site.support.109",
    "kind": "site",
    "section": "support",
    "en": "Tell us what you'd like to see",
    "value": "Povedzte nám, čo by ste chceli vidieť\\"
   },
   {
-   "id": "site.support.109",
+   "id": "site.support.110",
    "kind": "site",
    "section": "support",
    "en": "Localization Feedback",
    "value": "Spätná väzba k prekladu"
   },
   {
-   "id": "site.support.110",
+   "id": "site.support.111",
    "kind": "site",
    "section": "support",
    "en": "Review the translations and suggest fixes",
    "value": "Skontroluj preklady a navrhni opravy"
   },
   {
-   "id": "site.support.111",
+   "id": "site.support.112",
    "kind": "site",
    "section": "support",
    "en": "Home",
    "value": "Domov\\"
   },
   {
-   "id": "site.support.112",
+   "id": "site.support.113",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "Zásady ochrany súkromia"
   },
   {
-   "id": "site.support.113",
+   "id": "site.support.114",
    "kind": "site",
    "section": "support",
    "en": "Support",
    "value": "Podpora"
   },
   {
-   "id": "site.support.114",
+   "id": "site.support.115",
    "kind": "site",
    "section": "support",
    "en": "Accessibility",
    "value": "Prístupnosť"
   },
   {
-   "id": "site.support.115",
+   "id": "site.support.116",
    "kind": "site",
    "section": "support",
    "en": "© 2026 GitFocus",
@@ -5482,760 +5496,767 @@
    "id": "site.privacy.025",
    "kind": "site",
    "section": "privacy",
+   "en": "Translation wrong? Report it here",
+   "value": "Chybný preklad? Nahlás ho tu"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
    "en": "// Privacy Policy",
    "value": "// Zásady ochrany osobných údajov\\"
   },
   {
-   "id": "site.privacy.026",
+   "id": "site.privacy.027",
    "kind": "site",
    "section": "privacy",
    "en": "Your data stays yours",
    "value": "Vaše dáta zostávajú vaše\\"
   },
   {
-   "id": "site.privacy.027",
+   "id": "site.privacy.028",
    "kind": "site",
    "section": "privacy",
    "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
    "value": "GitFocus sme vytvorili s ochranou súkromia ako základným princípom. Tu je presne to, čo robíme (a nerobíme) s vašimi informáciami.\\"
   },
   {
-   "id": "site.privacy.028",
+   "id": "site.privacy.029",
    "kind": "site",
    "section": "privacy",
    "en": "Last updated: January 2026",
    "value": "Posledná aktualizácia: január 2026\\"
   },
   {
-   "id": "site.privacy.029",
+   "id": "site.privacy.030",
    "kind": "site",
    "section": "privacy",
    "en": "// TL;DR",
    "value": "// Stručne\\"
   },
   {
-   "id": "site.privacy.030",
+   "id": "site.privacy.031",
    "kind": "site",
    "section": "privacy",
    "en": "We don't collect your data. Period.",
    "value": "Nezhromažďujeme vaše dáta. Bodka.\\"
   },
   {
-   "id": "site.privacy.031",
+   "id": "site.privacy.032",
    "kind": "site",
    "section": "privacy",
    "en": "No accounts required",
    "value": "Nie sú potrebné účty\\"
   },
   {
-   "id": "site.privacy.032",
+   "id": "site.privacy.033",
    "kind": "site",
    "section": "privacy",
    "en": "Everything on-device",
    "value": "Všetko na zariadení\\"
   },
   {
-   "id": "site.privacy.033",
+   "id": "site.privacy.034",
    "kind": "site",
    "section": "privacy",
    "en": "No tracking or analytics",
    "value": "Žiadne sledovanie ani analytika\\"
   },
   {
-   "id": "site.privacy.034",
+   "id": "site.privacy.035",
    "kind": "site",
    "section": "privacy",
    "en": "Works offline",
    "value": "Funguje offline"
   },
   {
-   "id": "site.privacy.035",
+   "id": "site.privacy.036",
    "kind": "site",
    "section": "privacy",
    "en": "Data We Collect",
    "value": "Údaje, ktoré zhromažďujeme\\"
   },
   {
-   "id": "site.privacy.036",
+   "id": "site.privacy.037",
    "kind": "site",
    "section": "privacy",
    "en": "None.",
    "value": "Žiadne.\\"
   },
   {
-   "id": "site.privacy.037",
+   "id": "site.privacy.038",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
    "value": "GitFocus nezhromažďuje, neukladá ani neprenáša žiadne osobné údaje na naše servery, pretože nemáme servery, kam by sme ich poslali.\\"
   },
   {
-   "id": "site.privacy.038",
+   "id": "site.privacy.039",
    "kind": "site",
    "section": "privacy",
    "en": "Everything the app needs to function is stored locally on your device:",
    "value": "Všetko, čo aplikácia potrebuje na fungovanie, je uložené lokálne na vašom zariadení:\\"
   },
   {
-   "id": "site.privacy.039",
+   "id": "site.privacy.040",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub username or usernames (to check public commits)",
    "value": "Vaše používateľské meno alebo používateľské mená GitHub (na kontrolu verejných commitov)\\"
   },
   {
-   "id": "site.privacy.040",
+   "id": "site.privacy.041",
    "kind": "site",
    "section": "privacy",
    "en": "Your app selection preferences",
    "value": "Vaše preferencie výberu aplikácií\\"
   },
   {
-   "id": "site.privacy.041",
+   "id": "site.privacy.042",
    "kind": "site",
    "section": "privacy",
    "en": "Your focus session history",
    "value": "Vaša história relácií zamerania\\"
   },
   {
-   "id": "site.privacy.042",
+   "id": "site.privacy.043",
    "kind": "site",
    "section": "privacy",
    "en": "Your earned time and streak data",
    "value": "Vaše údaje o získanom čase a sériách\\"
   },
   {
-   "id": "site.privacy.043",
+   "id": "site.privacy.044",
    "kind": "site",
    "section": "privacy",
    "en": "GitHub Integration",
    "value": "Integrácia GitHub\\"
   },
   {
-   "id": "site.privacy.044",
+   "id": "site.privacy.045",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
    "value": "GitFocus číta verejné údaje o príspevkoch GitHub pre používateľské meno alebo mená, ktoré pridáte, aby zistil, kedy ste urobili commity. Tu je, ako to funguje:\\"
   },
   {
-   "id": "site.privacy.045",
+   "id": "site.privacy.046",
    "kind": "site",
    "section": "privacy",
    "en": "What We Access",
    "value": "K čomu máme prístup\\"
   },
   {
-   "id": "site.privacy.046",
+   "id": "site.privacy.047",
    "kind": "site",
    "section": "privacy",
    "en": "Your public GitHub profile page",
    "value": "Vašu verejnú profilovú stránku GitHub\\"
   },
   {
-   "id": "site.privacy.047",
+   "id": "site.privacy.048",
    "kind": "site",
    "section": "privacy",
    "en": "Your public contribution graph (the green squares)",
    "value": "Váš verejný graf príspevkov (zelené štvorce)\\"
   },
   {
-   "id": "site.privacy.048",
+   "id": "site.privacy.049",
    "kind": "site",
    "section": "privacy",
    "en": "Commit counts per day (not commit contents)",
    "value": "Počty commitov za deň (nie obsah commitov)\\"
   },
   {
-   "id": "site.privacy.049",
+   "id": "site.privacy.050",
    "kind": "site",
    "section": "privacy",
    "en": "What We Don't Access",
    "value": "K čomu nemáme prístup\\"
   },
   {
-   "id": "site.privacy.050",
+   "id": "site.privacy.051",
    "kind": "site",
    "section": "privacy",
    "en": "Private repositories",
    "value": "Súkromné repozitáre\\"
   },
   {
-   "id": "site.privacy.051",
+   "id": "site.privacy.052",
    "kind": "site",
    "section": "privacy",
    "en": "Commit messages or code",
    "value": "Správy commitov alebo kód\\"
   },
   {
-   "id": "site.privacy.052",
+   "id": "site.privacy.053",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub password or tokens",
    "value": "Vaše heslo GitHub alebo tokeny\\"
   },
   {
-   "id": "site.privacy.053",
+   "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
    "en": "Any GitHub API with authentication",
    "value": "Žiadne GitHub API s autentifikáciou\\"
   },
   {
-   "id": "site.privacy.054",
+   "id": "site.privacy.055",
    "kind": "site",
    "section": "privacy",
    "en": "No OAuth Required",
    "value": "OAuth nie je potrebný\\"
   },
   {
-   "id": "site.privacy.055",
+   "id": "site.privacy.056",
    "kind": "site",
    "section": "privacy",
    "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
    "value": "Zámerne sme navrhli GitFocus tak, aby fungoval bez autentifikácie GitHub. Môžete pridať jedno alebo viacero používateľských mien GitHub a čítame iba verejne dostupné informácie, ktoré môže vidieť ktokoľvek návštevou týchto profilov GitHub.\\"
   },
   {
-   "id": "site.privacy.056",
+   "id": "site.privacy.057",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time & App Blocking",
    "value": "Čas obrazovky a blokovanie aplikácií\\"
   },
   {
-   "id": "site.privacy.057",
+   "id": "site.privacy.058",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
    "value": "GitFocus používa Screen Time API spoločnosti Apple (rámec Family Controls) na blokovanie aplikácií. Je to ten istý bezpečný systém, ktorý poháňa vstavané funkcie Screen Time spoločnosti Apple.\\"
   },
   {
-   "id": "site.privacy.058",
+   "id": "site.privacy.059",
    "kind": "site",
    "section": "privacy",
    "en": "How It Works",
    "value": "Ako to funguje\\"
   },
   {
-   "id": "site.privacy.059",
+   "id": "site.privacy.060",
    "kind": "site",
    "section": "privacy",
    "en": "App blocking is handled entirely by iOS, not our code",
    "value": "Blokovanie aplikácií je úplne riadené systémom iOS, nie naším kódom\\"
   },
   {
-   "id": "site.privacy.060",
+   "id": "site.privacy.061",
    "kind": "site",
    "section": "privacy",
    "en": "We never see which apps you use or for how long",
    "value": "Nikdy nevidíme, ktoré aplikácie používate ani ako dlho\\"
   },
   {
-   "id": "site.privacy.061",
+   "id": "site.privacy.062",
    "kind": "site",
    "section": "privacy",
    "en": "Apple's privacy protections apply to all Screen Time data",
    "value": "Ochrana súkromia spoločnosti Apple sa vzťahuje na všetky údaje Screen Time\\"
   },
   {
-   "id": "site.privacy.062",
+   "id": "site.privacy.063",
    "kind": "site",
    "section": "privacy",
    "en": "We only receive anonymized \"tokens\" that represent apps",
    "value": "Dostávame iba anonymizované \\\"tokeny\\\", ktoré predstavujú aplikácie\\"
   },
   {
-   "id": "site.privacy.063",
+   "id": "site.privacy.064",
    "kind": "site",
    "section": "privacy",
    "en": "What We Can't See",
    "value": "Čo nemôžeme vidieť\\"
   },
   {
-   "id": "site.privacy.064",
+   "id": "site.privacy.065",
    "kind": "site",
    "section": "privacy",
    "en": "Your app usage statistics",
    "value": "Vaše štatistiky používania aplikácií\\"
   },
   {
-   "id": "site.privacy.065",
+   "id": "site.privacy.066",
    "kind": "site",
    "section": "privacy",
    "en": "When you open or close apps",
    "value": "Kedy otvárate alebo zatvára aplikácie\\"
   },
   {
-   "id": "site.privacy.066",
+   "id": "site.privacy.067",
    "kind": "site",
    "section": "privacy",
    "en": "How long you spend in any app",
    "value": "Koľko času trávite v každej aplikácii\\"
   },
   {
-   "id": "site.privacy.067",
+   "id": "site.privacy.068",
    "kind": "site",
    "section": "privacy",
    "en": "The actual names of apps you select (only tokens)",
    "value": "Skutočné názvy aplikácií, ktoré vyberiete (iba tokeny)\\"
   },
   {
-   "id": "site.privacy.068",
+   "id": "site.privacy.069",
    "kind": "site",
    "section": "privacy",
    "en": "Local Data Storage",
    "value": "Lokálne úložisko údajov\\"
   },
   {
-   "id": "site.privacy.069",
+   "id": "site.privacy.070",
    "kind": "site",
    "section": "privacy",
    "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
    "value": "Všetky vaše údaje sú uložené na vašom zariadení pomocou bezpečných mechanizmov úložiska spoločnosti Apple:\\"
   },
   {
-   "id": "site.privacy.070",
+   "id": "site.privacy.071",
    "kind": "site",
    "section": "privacy",
    "en": "UserDefaults",
    "value": "UserDefaults\\"
   },
   {
-   "id": "site.privacy.071",
+   "id": "site.privacy.072",
    "kind": "site",
    "section": "privacy",
    "en": "— Settings and preferences",
    "value": "— Nastavenia a preferencie\\"
   },
   {
-   "id": "site.privacy.072",
+   "id": "site.privacy.073",
    "kind": "site",
    "section": "privacy",
    "en": "Keychain",
    "value": "Keychain\\"
   },
   {
-   "id": "site.privacy.073",
+   "id": "site.privacy.074",
    "kind": "site",
    "section": "privacy",
    "en": "— Your primary GitHub username (for persistence across reinstalls)",
    "value": "— Vaše primárne používateľské meno GitHub (pre zachovanie naprieč preinštaláciami)\\"
   },
   {
-   "id": "site.privacy.074",
+   "id": "site.privacy.075",
    "kind": "site",
    "section": "privacy",
    "en": "App Group",
    "value": "App Group\\"
   },
   {
-   "id": "site.privacy.075",
+   "id": "site.privacy.076",
    "kind": "site",
    "section": "privacy",
    "en": "— Shared data between app and extensions",
    "value": "— Zdieľané údaje medzi aplikáciou a rozšíreniami\\"
   },
   {
-   "id": "site.privacy.076",
+   "id": "site.privacy.077",
    "kind": "site",
    "section": "privacy",
    "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
    "value": "Tieto údaje sú šifrované systémom iOS a chránené heslom vášho zariadenia. Ak zmažete aplikáciu, vaše lokálne údaje sa tiež zmažú.\\"
   },
   {
-   "id": "site.privacy.077",
+   "id": "site.privacy.078",
    "kind": "site",
    "section": "privacy",
    "en": "Third-Party Services",
    "value": "Služby tretích strán\\"
   },
   {
-   "id": "site.privacy.078",
+   "id": "site.privacy.079",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
    "value": "GitFocus nepoužíva žiadne analytické služby, hlásenie chýb ani reklamné služby tretích strán. Neintegrujeme s:\\"
   },
   {
-   "id": "site.privacy.079",
+   "id": "site.privacy.080",
    "kind": "site",
    "section": "privacy",
    "en": "Google Analytics",
    "value": "Google Analytics\\"
   },
   {
-   "id": "site.privacy.080",
+   "id": "site.privacy.081",
    "kind": "site",
    "section": "privacy",
    "en": "Firebase",
    "value": "Firebase\\"
   },
   {
-   "id": "site.privacy.081",
+   "id": "site.privacy.082",
    "kind": "site",
    "section": "privacy",
    "en": "Crashlytics",
    "value": "Crashlytics\\"
   },
   {
-   "id": "site.privacy.082",
+   "id": "site.privacy.083",
    "kind": "site",
    "section": "privacy",
    "en": "Facebook SDK",
    "value": "Facebook SDK\\"
   },
   {
-   "id": "site.privacy.083",
+   "id": "site.privacy.084",
    "kind": "site",
    "section": "privacy",
    "en": "Any advertising networks",
    "value": "Žiadne reklamné siete\\"
   },
   {
-   "id": "site.privacy.084",
+   "id": "site.privacy.085",
    "kind": "site",
    "section": "privacy",
    "en": "Any user tracking services",
    "value": "Žiadne služby sledovania používateľov\\"
   },
   {
-   "id": "site.privacy.085",
+   "id": "site.privacy.086",
    "kind": "site",
    "section": "privacy",
    "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
    "value": "Jediné externé služby, s ktorými komunikujeme, sú github.com na získanie vašich verejných údajov o príspevkoch a náš voliteľný chat zákazníckej podpory (pozri nižšie).\\"
   },
   {
-   "id": "site.privacy.086",
+   "id": "site.privacy.087",
    "kind": "site",
    "section": "privacy",
    "en": "Customer Support & Live Chat",
    "value": "Zákaznícka podpora a živý chat\\"
   },
   {
-   "id": "site.privacy.087",
+   "id": "site.privacy.088",
    "kind": "site",
    "section": "privacy",
    "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
    "value": "Kontaktovanie podpory je úplne voliteľné a deje sa iba vtedy, keď sa rozhodnete požiadať o pomoc.\\"
   },
   {
-   "id": "site.privacy.088",
+   "id": "site.privacy.089",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
    "value": "GitFocus ponúka zákaznícku podporu prostredníctvom živého chatu poskytovaného Chatwoot, platformou zákazníckej podpory tretej strany. Toto je jediná služba tretej strany používaná GitFocus (okrem GitHub) a je aktívna iba vtedy, keď sa výslovne rozhodnete nás kontaktovať o pomoc.\\"
   },
   {
-   "id": "site.privacy.089",
+   "id": "site.privacy.090",
    "kind": "site",
    "section": "privacy",
    "en": "How it works",
    "value": "Ako to funguje\\"
   },
   {
-   "id": "site.privacy.090",
+   "id": "site.privacy.091",
    "kind": "site",
    "section": "privacy",
    "en": "Session Persistence:",
    "value": "Zachovanie relácie:\\"
   },
   {
-   "id": "site.privacy.091",
+   "id": "site.privacy.092",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
    "value": "Chatwoot používa cookies na udržanie vašej chatovacej relácie medzi návštevami, aby ste mohli pokračovať v predchádzajúcich konverzáciách\\"
   },
   {
-   "id": "site.privacy.092",
+   "id": "site.privacy.093",
    "kind": "site",
    "section": "privacy",
    "en": "Anonymous by Default:",
    "value": "Predvolene anonymné:\\"
   },
   {
-   "id": "site.privacy.093",
+   "id": "site.privacy.094",
    "kind": "site",
    "section": "privacy",
    "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
    "value": "Môžete chatovať s podporou bez poskytovania osobných informácií - relácia je sledovaná iba prostredníctvom cookies prehliadača\\"
   },
   {
-   "id": "site.privacy.094",
+   "id": "site.privacy.095",
    "kind": "site",
    "section": "privacy",
    "en": "Optional Email:",
    "value": "Voliteľný e-mail:\\"
   },
   {
-   "id": "site.privacy.095",
+   "id": "site.privacy.096",
    "kind": "site",
    "section": "privacy",
    "en": "You may optionally provide your email address if you want to receive follow-up responses",
    "value": "Môžete voliteľne poskytnúť svoju e-mailovú adresu, ak chcete dostávať následné odpovede\\"
   },
   {
-   "id": "site.privacy.096",
+   "id": "site.privacy.097",
    "kind": "site",
    "section": "privacy",
    "en": "What's Collected",
    "value": "Čo sa zhromažďuje\\"
   },
   {
-   "id": "site.privacy.097",
+   "id": "site.privacy.098",
    "kind": "site",
    "section": "privacy",
    "en": "When you use the chat feature, Chatwoot may collect:",
    "value": "Keď používate funkciu chatu, Chatwoot môže zhromažďovať:\\"
   },
   {
-   "id": "site.privacy.098",
+   "id": "site.privacy.099",
    "kind": "site",
    "section": "privacy",
    "en": "Your chat messages and conversation history",
    "value": "Vaše chatové správy a históriu konverzácií\\"
   },
   {
-   "id": "site.privacy.099",
+   "id": "site.privacy.100",
    "kind": "site",
    "section": "privacy",
    "en": "Browser cookies for session persistence",
    "value": "Cookies prehliadača na zachovanie relácie\\"
   },
   {
-   "id": "site.privacy.100",
+   "id": "site.privacy.101",
    "kind": "site",
    "section": "privacy",
    "en": "Email address (only if you choose to provide it)",
    "value": "E-mailovú adresu (iba ak sa rozhodnete ju poskytnúť)\\"
   },
   {
-   "id": "site.privacy.101",
+   "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
    "en": "Basic technical information (browser type, timestamp)",
    "value": "Základné technické informácie (typ prehliadača, časová pečiatka)\\"
   },
   {
-   "id": "site.privacy.102",
+   "id": "site.privacy.103",
    "kind": "site",
    "section": "privacy",
    "en": "No Access to App Data",
    "value": "Žiadny prístup k údajom aplikácie\\"
   },
   {
-   "id": "site.privacy.103",
+   "id": "site.privacy.104",
    "kind": "site",
    "section": "privacy",
    "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
    "value": "Funkcia chatu NEMÁ prístup k vašim údajom GitHub, histórii relácií zamerania ani žiadnym iným údajom uloženým v aplikácii GitFocus. Iba informácie, ktoré výslovne napíšete do chatu, sa odosielajú do nášho systému podpory.\\"
   },
   {
-   "id": "site.privacy.104",
+   "id": "site.privacy.105",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
    "value": "Chatwoot je v súlade s GDPR a spracováva údaje v súlade s platnými zákonmi o ochrane údajov. Pre viac informácií navštívte\\"
   },
   {
-   "id": "site.privacy.105",
+   "id": "site.privacy.106",
    "kind": "site",
    "section": "privacy",
    "en": "chatwoot.com/privacy-policy",
    "value": "chatwoot.com/privacy-policy\\"
   },
   {
-   "id": "site.privacy.106",
+   "id": "site.privacy.107",
    "kind": "site",
    "section": "privacy",
    "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
    "value": "Cookies chatu môžete kedykoľvek vymazať prostredníctvom nastavení prehliadača. Ak nikdy nepoužívate funkciu chatu, žiadne údaje sa nikdy neodosielajú do Chatwoot.\\"
   },
   {
-   "id": "site.privacy.107",
+   "id": "site.privacy.108",
    "kind": "site",
    "section": "privacy",
    "en": "Your Rights",
    "value": "Vaše práva\\"
   },
   {
-   "id": "site.privacy.108",
+   "id": "site.privacy.109",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
    "value": "Keďže nezhromažďujeme vaše údaje, tradičné práva týkajúce sa údajov (prístup, vymazanie, prenosnosť) sa skutočne nevzťahujú. Ale tu je, čo môžete urobiť:\\"
   },
   {
-   "id": "site.privacy.109",
+   "id": "site.privacy.110",
    "kind": "site",
    "section": "privacy",
    "en": "Delete all data",
    "value": "Vymazať všetky údaje\\"
   },
   {
-   "id": "site.privacy.110",
+   "id": "site.privacy.111",
    "kind": "site",
    "section": "privacy",
    "en": "— Simply delete the app from your device",
    "value": "— Jednoducho zmažte aplikáciu zo zariadenia\\"
   },
   {
-   "id": "site.privacy.111",
+   "id": "site.privacy.112",
    "kind": "site",
    "section": "privacy",
    "en": "Export data",
    "value": "Exportovať údaje\\"
   },
   {
-   "id": "site.privacy.112",
+   "id": "site.privacy.113",
    "kind": "site",
    "section": "privacy",
    "en": "— Your data lives on your device; you own it",
    "value": "— Vaše údaje sú na vašom zariadení; vlastníte ich\\"
   },
   {
-   "id": "site.privacy.113",
+   "id": "site.privacy.114",
    "kind": "site",
    "section": "privacy",
    "en": "Change settings",
    "value": "Zmeniť nastavenia\\"
   },
   {
-   "id": "site.privacy.114",
+   "id": "site.privacy.115",
    "kind": "site",
    "section": "privacy",
    "en": "— All preferences can be modified in the app",
    "value": "— Všetky preferencie možno upraviť v aplikácii\\"
   },
   {
-   "id": "site.privacy.115",
+   "id": "site.privacy.116",
    "kind": "site",
    "section": "privacy",
    "en": "Children's Privacy & Age Rating",
    "value": "Súkromie detí a vekové hodnotenie\\"
   },
   {
-   "id": "site.privacy.116",
+   "id": "site.privacy.117",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus is rated",
    "value": "GitFocus má hodnotenie\\"
   },
   {
-   "id": "site.privacy.117",
+   "id": "site.privacy.118",
    "kind": "site",
    "section": "privacy",
    "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
    "value": "v App Store a je vhodný pre používateľov všetkých vekových kategórií. Aplikácia neobsahuje nevhodný obsah, nákupy v aplikácii ani sociálne funkcie.\\"
   },
   {
-   "id": "site.privacy.118",
+   "id": "site.privacy.119",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
    "value": "Keďže nezhromažďujeme žiadne osobné údaje, neexistujú žiadne špeciálne obavy o súkromie pre mladších používateľov. Odporúčame však, aby deti mladšie ako 13 rokov nastavili aplikáciu s rodičovským dohľadom, pretože:\\"
   },
   {
-   "id": "site.privacy.119",
+   "id": "site.privacy.120",
    "kind": "site",
    "section": "privacy",
    "en": "Initial setup requires a GitHub username",
    "value": "Počiatočné nastavenie vyžaduje používateľské meno GitHub\\"
   },
   {
-   "id": "site.privacy.120",
+   "id": "site.privacy.121",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time permissions need to be granted by the device owner",
    "value": "Povolenia Screen Time musia byť udelené vlastníkom zariadenia\\"
   },
   {
-   "id": "site.privacy.121",
+   "id": "site.privacy.122",
    "kind": "site",
    "section": "privacy",
    "en": "Understanding the commit-based unlock system may need explanation",
    "value": "Pochopenie systému odomykania založeného na commitoch môže vyžadovať vysvetlenie\\"
   },
   {
-   "id": "site.privacy.122",
+   "id": "site.privacy.123",
    "kind": "site",
    "section": "privacy",
    "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
    "value": "Rodičia a opatrovníci môžu používať GitFocus ako nástroj na podporu programovacích návykov u mladých vývojárov.\\"
   },
   {
-   "id": "site.privacy.123",
+   "id": "site.privacy.124",
    "kind": "site",
    "section": "privacy",
    "en": "Changes to This Policy",
    "value": "Zmeny v týchto zásadách\\"
   },
   {
-   "id": "site.privacy.124",
+   "id": "site.privacy.125",
    "kind": "site",
    "section": "privacy",
    "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
    "value": "Ak niekedy zmeníme naše postupy ochrany súkromia, aktualizujeme túto stránku s novým dátumom \\\"Posledná aktualizácia\\\". Vzhľadom na náš prístup bez zhromažďovania údajov sú významné zmeny nepravdepodobné.\\"
   },
   {
-   "id": "site.privacy.125",
+   "id": "site.privacy.126",
    "kind": "site",
    "section": "privacy",
    "en": "Contact",
    "value": "Kontakt"
   },
   {
-   "id": "site.privacy.126",
+   "id": "site.privacy.127",
    "kind": "site",
    "section": "privacy",
    "en": "Questions about privacy? We're happy to explain anything in more detail.",
    "value": "Otázky o ochrane súkromia? Radi vám čokoľvek vysvetlíme podrobnejšie.\\"
   },
   {
-   "id": "site.privacy.127",
+   "id": "site.privacy.128",
    "kind": "site",
    "section": "privacy",
    "en": "Email:",
    "value": "E-mail:\\"
   },
   {
-   "id": "site.privacy.128",
+   "id": "site.privacy.129",
    "kind": "site",
    "section": "privacy",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app\\"
   },
   {
-   "id": "site.privacy.129",
+   "id": "site.privacy.130",
    "kind": "site",
    "section": "privacy",
    "en": "Home",
    "value": "Domov\\"
   },
   {
-   "id": "site.privacy.130",
+   "id": "site.privacy.131",
    "kind": "site",
    "section": "privacy",
    "en": "Privacy Policy",
    "value": "Zásady ochrany súkromia"
   },
   {
-   "id": "site.privacy.131",
+   "id": "site.privacy.132",
    "kind": "site",
    "section": "privacy",
    "en": "Support",
    "value": "Podpora"
   },
   {
-   "id": "site.privacy.132",
+   "id": "site.privacy.133",
    "kind": "site",
    "section": "privacy",
    "en": "Accessibility",
    "value": "Prístupnosť"
   },
   {
-   "id": "site.privacy.133",
+   "id": "site.privacy.134",
    "kind": "site",
    "section": "privacy",
    "en": "© 2026 GitFocus",
@@ -6420,522 +6441,529 @@
    "id": "site.accessibility.025",
    "kind": "site",
    "section": "accessibility",
+   "en": "Translation wrong? Report it here",
+   "value": "Chybný preklad? Nahlás ho tu"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
    "en": "// Accessibility",
    "value": "// Prístupnosť\\"
   },
   {
-   "id": "site.accessibility.026",
+   "id": "site.accessibility.027",
    "kind": "site",
    "section": "accessibility",
    "en": "Built for everyone",
    "value": "Vytvorené pre každého\\"
   },
   {
-   "id": "site.accessibility.027",
+   "id": "site.accessibility.028",
    "kind": "site",
    "section": "accessibility",
    "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
    "value": "GitFocus je navrhnutý pre asistenčné technológie. Tvrdenia o prístupnosti sa znovu kontrolujú pre každé vydanie pomocou automatizovaných testov a kontrolného zoznamu ľudského zariadenia.\\"
   },
   {
-   "id": "site.accessibility.028",
+   "id": "site.accessibility.029",
    "kind": "site",
    "section": "accessibility",
    "en": "// Features",
    "value": "// Funkcie"
   },
   {
-   "id": "site.accessibility.029",
+   "id": "site.accessibility.030",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported Accessibility Features",
    "value": "Podporované funkcie prístupnosti\\"
   },
   {
-   "id": "site.accessibility.030",
+   "id": "site.accessibility.031",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver",
    "value": "VoiceOver\\"
   },
   {
-   "id": "site.accessibility.031",
+   "id": "site.accessibility.032",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.032",
+   "id": "site.accessibility.033",
    "kind": "site",
    "section": "accessibility",
    "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
    "value": "Kľúčové trasy vydania používajú popisné štítky, vlastnosti a logické poradie čítania. Brána vydania zaznamenáva testované trasy a zariadenie.\\"
   },
   {
-   "id": "site.accessibility.033",
+   "id": "site.accessibility.034",
    "kind": "site",
    "section": "accessibility",
    "en": "Voice Control",
    "value": "Ovládanie hlasom\\"
   },
   {
-   "id": "site.accessibility.034",
+   "id": "site.accessibility.035",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.035",
+   "id": "site.accessibility.036",
    "kind": "site",
    "section": "accessibility",
    "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
    "value": "Interaktívne ovládacie prvky používajú prístupné názvy. Kontrolný zoznam fyzického zariadenia overuje kritickú cestu vydania s Ovládaním hlasom.\\"
   },
   {
-   "id": "site.accessibility.036",
+   "id": "site.accessibility.037",
    "kind": "site",
    "section": "accessibility",
    "en": "Larger Text",
    "value": "Väčší text\\"
   },
   {
-   "id": "site.accessibility.037",
+   "id": "site.accessibility.038",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.038",
+   "id": "site.accessibility.039",
    "kind": "site",
    "section": "accessibility",
    "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
    "value": "Text aplikácie používa Dynamický typ. Vyžaduje sa automatizované pokrytie AX3 a AX5 plus ľudská kontrola veľkosti textu 200% pred schválením tohto tvrdenia.\\"
   },
   {
-   "id": "site.accessibility.039",
+   "id": "site.accessibility.040",
    "kind": "site",
    "section": "accessibility",
    "en": "Dark Interface",
    "value": "Tmavé rozhranie\\"
   },
   {
-   "id": "site.accessibility.040",
+   "id": "site.accessibility.041",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.041",
+   "id": "site.accessibility.042",
    "kind": "site",
    "section": "accessibility",
    "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
    "value": "Aplikácia podporuje svetlé a tmavé vzhľady. Obe sú zahrnuté v kontrolách vydania prístupnosti snímok obrazovky a aplikácie.\\"
   },
   {
-   "id": "site.accessibility.042",
+   "id": "site.accessibility.043",
    "kind": "site",
    "section": "accessibility",
    "en": "Differentiate Without Color",
    "value": "Rozlíšiť bez farby\\"
   },
   {
-   "id": "site.accessibility.043",
+   "id": "site.accessibility.044",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.044",
+   "id": "site.accessibility.045",
    "kind": "site",
    "section": "accessibility",
    "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
    "value": "Kontrola vydania overuje, že dôležité stavy používajú štítky, tvary alebo ikony spolu s farbou.\\"
   },
   {
-   "id": "site.accessibility.045",
+   "id": "site.accessibility.046",
    "kind": "site",
    "section": "accessibility",
    "en": "Sufficient Contrast",
    "value": "Dostatočný kontrast\\"
   },
   {
-   "id": "site.accessibility.046",
+   "id": "site.accessibility.047",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.047",
+   "id": "site.accessibility.048",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
    "value": "Automatizované kontroly kontrastu označujú kandidátske zlyhania v svetlom a tmavom režime; recenzent overuje skutočný text, ikony a pozadie pred schválením.\\"
   },
   {
-   "id": "site.accessibility.048",
+   "id": "site.accessibility.049",
    "kind": "site",
    "section": "accessibility",
    "en": "Reduced Motion",
    "value": "Obmedzený pohyb\\"
   },
   {
-   "id": "site.accessibility.049",
+   "id": "site.accessibility.050",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.050",
+   "id": "site.accessibility.051",
    "kind": "site",
    "section": "accessibility",
    "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
    "value": "Kontrolný zoznam vydania overuje, že dôležitý pohyb rešpektuje predvoľbu Obmedziť pohyb alebo má statickú alternatívu.\\"
   },
   {
-   "id": "site.accessibility.051",
+   "id": "site.accessibility.052",
    "kind": "site",
    "section": "accessibility",
    "en": "Full Keyboard Access",
    "value": "Úplný prístup z klávesnice\\"
   },
   {
-   "id": "site.accessibility.052",
+   "id": "site.accessibility.053",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Podporované\\"
   },
   {
-   "id": "site.accessibility.053",
+   "id": "site.accessibility.054",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
    "value": "Podporované toky zahŕňajú ovládacie prvky prístupné z klávesnice a alternatívy pre dôležité akcie len gestami.\\"
   },
   {
-   "id": "site.accessibility.054",
+   "id": "site.accessibility.055",
    "kind": "site",
    "section": "accessibility",
    "en": "// Testing",
    "value": "// Testovanie\\"
   },
   {
-   "id": "site.accessibility.055",
+   "id": "site.accessibility.056",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated Accessibility Testing",
    "value": "Automatizované testovanie prístupnosti\\"
   },
   {
-   "id": "site.accessibility.056",
+   "id": "site.accessibility.057",
    "kind": "site",
    "section": "accessibility",
    "en": "Test Suites",
    "value": "Testovacie sady\\"
   },
   {
-   "id": "site.accessibility.057",
+   "id": "site.accessibility.058",
    "kind": "site",
    "section": "accessibility",
    "en": "Appearances",
    "value": "Vzhľady\\"
   },
   {
-   "id": "site.accessibility.058",
+   "id": "site.accessibility.059",
    "kind": "site",
    "section": "accessibility",
    "en": "AX Text Sizes",
    "value": "Veľkosti textu AX\\"
   },
   {
-   "id": "site.accessibility.059",
+   "id": "site.accessibility.060",
    "kind": "site",
    "section": "accessibility",
    "en": "Release Gate",
    "value": "Brána vydania\\"
   },
   {
-   "id": "site.accessibility.060",
+   "id": "site.accessibility.061",
    "kind": "site",
    "section": "accessibility",
    "en": "Screen Accessibility Audits",
    "value": "Audity prístupnosti obrazovky\\"
   },
   {
-   "id": "site.accessibility.061",
+   "id": "site.accessibility.062",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
    "value": "Deklarované trasy vydania sa spúšťajú sériovo v svetlom a tmavom režime a kontrolujú sa s natívnymi auditmi prístupnosti iOS. Požadované kategórie auditu zlyhajú bránu vydania.\\"
   },
   {
-   "id": "site.accessibility.062",
+   "id": "site.accessibility.063",
    "kind": "site",
    "section": "accessibility",
    "en": "26 tests",
    "value": "26 testov\\"
   },
   {
-   "id": "site.accessibility.063",
+   "id": "site.accessibility.064",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility Size Tests",
    "value": "Testy veľkosti prístupnosti\\"
   },
   {
-   "id": "site.accessibility.064",
+   "id": "site.accessibility.065",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
    "value": "Deklarované trasy sa vykresľujú v AX3 a AX5 a kontrolujú sa na vykreslenie bez pádu, prístupné prvky a dokončenie trasy.\\"
   },
   {
-   "id": "site.accessibility.065",
+   "id": "site.accessibility.066",
    "kind": "site",
    "section": "accessibility",
    "en": "50 tests",
    "value": "50 testov\\"
   },
   {
-   "id": "site.accessibility.066",
+   "id": "site.accessibility.067",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver Reading Order",
    "value": "Poradie čítania VoiceOver\\"
   },
   {
-   "id": "site.accessibility.067",
+   "id": "site.accessibility.068",
    "kind": "site",
    "section": "accessibility",
    "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
    "value": "Kľúčové obrazovky sa kontrolujú, aby sa zabezpečilo, že prechádzanie VoiceOver nasleduje logické poradie zhora nadol, s toleranciou pre systémové prvky chrome.\\"
   },
   {
-   "id": "site.accessibility.068",
+   "id": "site.accessibility.069",
    "kind": "site",
    "section": "accessibility",
    "en": "5 tests",
    "value": "5 testov\\"
   },
   {
-   "id": "site.accessibility.069",
+   "id": "site.accessibility.070",
    "kind": "site",
    "section": "accessibility",
    "en": "// Methodology",
    "value": "// Metodológia\\"
   },
   {
-   "id": "site.accessibility.070",
+   "id": "site.accessibility.071",
    "kind": "site",
    "section": "accessibility",
    "en": "How We Test",
    "value": "Ako testujeme\\"
   },
   {
-   "id": "site.accessibility.071",
+   "id": "site.accessibility.072",
    "kind": "site",
    "section": "accessibility",
    "en": "iOS native audits",
    "value": "Natívne audity iOS\\"
   },
   {
-   "id": "site.accessibility.072",
+   "id": "site.accessibility.073",
    "kind": "site",
    "section": "accessibility",
    "en": "— Apple's built-in",
    "value": "— Vstavané od Apple\\"
   },
   {
-   "id": "site.accessibility.073",
+   "id": "site.accessibility.074",
    "kind": "site",
    "section": "accessibility",
    "en": "performAccessibilityAudit",
    "value": "performAccessibilityAudit"
   },
   {
-   "id": "site.accessibility.074",
+   "id": "site.accessibility.075",
    "kind": "site",
    "section": "accessibility",
    "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
    "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
   },
   {
-   "id": "site.accessibility.075",
+   "id": "site.accessibility.076",
    "kind": "site",
    "section": "accessibility",
    "en": "Extreme size rendering",
    "value": "Vykreslenie extrémnej veľkosti\\"
   },
   {
-   "id": "site.accessibility.076",
+   "id": "site.accessibility.077",
    "kind": "site",
    "section": "accessibility",
    "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
    "value": "— Každá obrazovka sa spúšťa vo veľkostiach textu prístupnosti AX3 a AX5 na overenie, že nič nespadne, neusekne nečitateľne alebo sa nestane nedosiahnuteľným.\\"
   },
   {
-   "id": "site.accessibility.077",
+   "id": "site.accessibility.078",
    "kind": "site",
    "section": "accessibility",
    "en": "Reading order validation",
    "value": "Validácia poradia čítania\\"
   },
   {
-   "id": "site.accessibility.078",
+   "id": "site.accessibility.079",
    "kind": "site",
    "section": "accessibility",
    "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
    "value": "— Automatizované testy overujú, že VoiceOver prechádza prvkami v logickom poradí zhora nadol na kľúčových obrazovkách.\\"
   },
   {
-   "id": "site.accessibility.079",
+   "id": "site.accessibility.080",
    "kind": "site",
    "section": "accessibility",
    "en": "Contrast verification",
    "value": "Overenie kontrastu\\"
   },
   {
-   "id": "site.accessibility.080",
+   "id": "site.accessibility.081",
    "kind": "site",
    "section": "accessibility",
    "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
    "value": "— Dôkazy kontrastu WCAG sa generujú zo sémantických oblastí vlastnených rendererom, potom sa kontrolujú voči skutočnému svetlému a tmavému dielu.\\"
   },
   {
-   "id": "site.accessibility.081",
+   "id": "site.accessibility.082",
    "kind": "site",
    "section": "accessibility",
    "en": "Release integration",
    "value": "Integrácia vydania\\"
   },
   {
-   "id": "site.accessibility.082",
+   "id": "site.accessibility.083",
    "kind": "site",
    "section": "accessibility",
    "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
    "value": "— Sady prístupnosti sa spúšťajú pred nahratím snímok obrazovky alebo metadát a uchovávajú dôkazy čitateľné strojom.\\"
   },
   {
-   "id": "site.accessibility.083",
+   "id": "site.accessibility.084",
    "kind": "site",
    "section": "accessibility",
    "en": "Standards We Follow",
    "value": "Štandardy, ktoré dodržiavame\\"
   },
   {
-   "id": "site.accessibility.084",
+   "id": "site.accessibility.085",
    "kind": "site",
    "section": "accessibility",
    "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
    "value": "Ciele kontrastu WCAG 2.1 úrovne AA pre text a interaktívne prvky\\"
   },
   {
-   "id": "site.accessibility.085",
+   "id": "site.accessibility.086",
    "kind": "site",
    "section": "accessibility",
    "en": "Apple Human Interface Guidelines for accessibility",
    "value": "Usmernenia Apple Human Interface pre prístupnosť\\"
   },
   {
-   "id": "site.accessibility.086",
+   "id": "site.accessibility.087",
    "kind": "site",
    "section": "accessibility",
    "en": "Minimum 44pt touch-target checks for interactive controls",
    "value": "Kontroly minimálneho dotykového cieľa 44pt pre interaktívne ovládacie prvky\\"
   },
   {
-   "id": "site.accessibility.087",
+   "id": "site.accessibility.088",
    "kind": "site",
    "section": "accessibility",
    "en": "Semantic Dynamic Type coverage at accessibility text sizes",
    "value": "Pokrytie sémantického dynamického typu vo veľkostiach textu prístupnosti\\"
   },
   {
-   "id": "site.accessibility.088",
+   "id": "site.accessibility.089",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver-compatible labels and traits on every interactive element",
    "value": "Štítky a vlastnosti kompatibilné s VoiceOver na každom interaktívnom prvku\\"
   },
   {
-   "id": "site.accessibility.089",
+   "id": "site.accessibility.090",
    "kind": "site",
    "section": "accessibility",
    "en": "Keyboard-accessible alternatives for all gesture-based interactions",
    "value": "Alternatívy prístupné z klávesnice pre všetky interakcie založené na gestách\\"
   },
   {
-   "id": "site.accessibility.090",
+   "id": "site.accessibility.091",
    "kind": "site",
    "section": "accessibility",
    "en": "Feedback",
    "value": "Spätná väzba\\"
   },
   {
-   "id": "site.accessibility.091",
+   "id": "site.accessibility.092",
    "kind": "site",
    "section": "accessibility",
    "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
    "value": "Ak narazíte na akékoľvek prekážky prístupnosti pri používaní GitFocus, chceme o tom vedieť, aby sme to mohli opraviť.\\"
   },
   {
-   "id": "site.accessibility.092",
+   "id": "site.accessibility.093",
    "kind": "site",
    "section": "accessibility",
    "en": "Chat with us",
    "value": "Chatujte s nami\\"
   },
   {
-   "id": "site.accessibility.093",
+   "id": "site.accessibility.094",
    "kind": "site",
    "section": "accessibility",
    "en": "or email us at",
    "value": "alebo nám napíšte na\\"
   },
   {
-   "id": "site.accessibility.094",
+   "id": "site.accessibility.095",
    "kind": "site",
    "section": "accessibility",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app\\"
   },
   {
-   "id": "site.accessibility.095",
+   "id": "site.accessibility.096",
    "kind": "site",
    "section": "accessibility",
    "en": "Home",
    "value": "Domov\\"
   },
   {
-   "id": "site.accessibility.096",
+   "id": "site.accessibility.097",
    "kind": "site",
    "section": "accessibility",
    "en": "Privacy Policy",
    "value": "Zásady ochrany súkromia"
   },
   {
-   "id": "site.accessibility.097",
+   "id": "site.accessibility.098",
    "kind": "site",
    "section": "accessibility",
    "en": "Support",
    "value": "Podpora"
   },
   {
-   "id": "site.accessibility.098",
+   "id": "site.accessibility.099",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility",
    "value": "Prístupnosť"
   },
   {
-   "id": "site.accessibility.099",
+   "id": "site.accessibility.100",
    "kind": "site",
    "section": "accessibility",
    "en": "© 2026 GitFocus",

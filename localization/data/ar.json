@@ -1,7 +1,7 @@
 {
  "locale": "ar",
  "label": "العربية",
- "generated": "2026-08-30T02:43:01Z",
+ "generated": "2026-08-30T03:45:57Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -1708,7 +1708,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lives\nAvailable",
-   "value": "الأرواح\nالمتاحة"
+   "value": "الحيوات\nالمتاحة"
   },
   {
    "id": "gitfocus.loading.app.usage",
@@ -2623,7 +2623,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit to unlock distractions",
-   "value": "قم بالكوميت لفتح المشتتات"
+   "value": "نفّذ كوميتًا لفتح التطبيقات المشتِّتة"
   },
   {
    "id": "gitfocus.start.focus.session",
@@ -4040,452 +4040,459 @@
    "id": "site.index.025",
    "kind": "site",
    "section": "index",
+   "en": "Translation wrong? Report it here",
+   "value": "خطأ في الترجمة؟ أبلغ عنه هنا"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
    "en": "Now on the App Store",
    "value": "متوفر الآن على App Store"
   },
   {
-   "id": "site.index.026",
+   "id": "site.index.027",
    "kind": "site",
    "section": "index",
    "en": "Block apps until you",
    "value": "تبقى التطبيقات مقفلة حتى تنفّذ"
   },
   {
-   "id": "site.index.027",
+   "id": "site.index.028",
    "kind": "site",
    "section": "index",
    "en": "git push",
    "value": "git push"
   },
   {
-   "id": "site.index.028",
+   "id": "site.index.029",
    "kind": "site",
    "section": "index",
    "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
    "value": "يحوّل GitFocus عاداتك البرمجية إلى لعبة. نفّذ commit من حساب GitHub واحد أو أكثر، وافتح بذلك التطبيقات التي تشتّت انتباهك. بهذه البساطة."
   },
   {
-   "id": "site.index.029",
+   "id": "site.index.030",
    "kind": "site",
    "section": "index",
    "en": "See how it works",
    "value": "شاهد كيف يعمل"
   },
   {
-   "id": "site.index.030",
+   "id": "site.index.031",
    "kind": "site",
    "section": "index",
    "en": "git commit -m \"unlock apps\"",
    "value": "git commit -m \"unlock apps\""
   },
   {
-   "id": "site.index.031",
+   "id": "site.index.032",
    "kind": "site",
    "section": "index",
    "en": "Scroll to explore",
    "value": "مرّر للاستكشاف"
   },
   {
-   "id": "site.index.032",
+   "id": "site.index.033",
    "kind": "site",
    "section": "index",
    "en": "// How it works",
    "value": "// كيف يعمل"
   },
   {
-   "id": "site.index.033",
+   "id": "site.index.034",
    "kind": "site",
    "section": "index",
    "en": "Turn commits into freedom",
    "value": "حوّل الـ commits إلى وقت حر"
   },
   {
-   "id": "site.index.034",
+   "id": "site.index.035",
    "kind": "site",
    "section": "index",
    "en": "Setup takes 2 minutes. Then let your code do the talking.",
    "value": "الإعداد يستغرق دقيقتين، ثم دع شيفرتك تتحدث عنك."
   },
   {
-   "id": "site.index.035",
+   "id": "site.index.036",
    "kind": "site",
    "section": "index",
    "en": "Add GitHub accounts",
    "value": "أضف حسابات GitHub"
   },
   {
-   "id": "site.index.036",
+   "id": "site.index.037",
    "kind": "site",
    "section": "index",
    "en": "Track one account or aggregate work, personal, and open-source profiles",
    "value": "تابع حسابًا واحدًا أو اجمع ملفات العمل والحسابات الشخصية ومشاريع المصادر المفتوحة"
   },
   {
-   "id": "site.index.037",
+   "id": "site.index.038",
    "kind": "site",
    "section": "index",
    "en": "Dashboard",
    "value": "لوحة المعلومات"
   },
   {
-   "id": "site.index.038",
+   "id": "site.index.039",
    "kind": "site",
    "section": "index",
    "en": "Track your streak, daily score, and app lock status at a glance",
    "value": "تابع سلسلتك ونتيجتك اليومية وحالة القفل بنظرة واحدة"
   },
   {
-   "id": "site.index.039",
+   "id": "site.index.040",
    "kind": "site",
    "section": "index",
    "en": "Focus Stats",
    "value": "إحصاءات التركيز"
   },
   {
-   "id": "site.index.040",
+   "id": "site.index.041",
    "kind": "site",
    "section": "index",
    "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
    "value": "ابدأ كل يوم من 100 وشاهد وقت القفل ومرات الفتح وهي تستهلكها"
   },
   {
-   "id": "site.index.041",
+   "id": "site.index.042",
    "kind": "site",
    "section": "index",
    "en": "Contribution Stats",
    "value": "إحصاءات المساهمات"
   },
   {
-   "id": "site.index.042",
+   "id": "site.index.043",
    "kind": "site",
    "section": "index",
    "en": "Deep dive into your GitHub activity with detailed statistics",
    "value": "تعمّق في نشاطك على GitHub بإحصاءات تفصيلية"
   },
   {
-   "id": "site.index.043",
+   "id": "site.index.044",
    "kind": "site",
    "section": "index",
    "en": "Focus Timer",
    "value": "مؤقّت التركيز"
   },
   {
-   "id": "site.index.044",
+   "id": "site.index.045",
    "kind": "site",
    "section": "index",
    "en": "Built-in Pomodoro timer to maximize your productivity sessions",
    "value": "مؤقّت بومودورو مدمج للاستفادة القصوى من جلسات عملك"
   },
   {
-   "id": "site.index.045",
+   "id": "site.index.046",
    "kind": "site",
    "section": "index",
    "en": "// Features",
    "value": "// المزايا"
   },
   {
-   "id": "site.index.046",
+   "id": "site.index.047",
    "kind": "site",
    "section": "index",
    "en": "Everything you need to stay focused",
    "value": "كل ما تحتاجه للبقاء مركّزًا"
   },
   {
-   "id": "site.index.047",
+   "id": "site.index.048",
    "kind": "site",
    "section": "index",
    "en": "Not just another app blocker. GitFocus gamifies productivity.",
    "value": "ليس مجرد تطبيق آخر لحجب التطبيقات. GitFocus يحوّل الإنتاجية إلى لعبة."
   },
   {
-   "id": "site.index.048",
+   "id": "site.index.049",
    "kind": "site",
    "section": "index",
    "en": "Earn Time",
    "value": "اكسب وقتًا"
   },
   {
-   "id": "site.index.049",
+   "id": "site.index.050",
    "kind": "site",
    "section": "index",
    "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
    "value": "كل commit من حسابات GitHub المضمّنة يكسبك وقت فتح. اجمع العمل والحياة الشخصية والمصادر المفتوحة في مكان واحد."
   },
   {
-   "id": "site.index.050",
+   "id": "site.index.051",
    "kind": "site",
    "section": "index",
    "en": "mins unlocked",
    "value": "دقيقة مفتوحة"
   },
   {
-   "id": "site.index.051",
+   "id": "site.index.052",
    "kind": "site",
    "section": "index",
    "en": "Simulate commit",
    "value": "محاكاة commit"
   },
   {
-   "id": "site.index.052",
+   "id": "site.index.053",
    "kind": "site",
    "section": "index",
    "en": "Lives System",
    "value": "نظام المحاولات"
   },
   {
-   "id": "site.index.053",
+   "id": "site.index.054",
    "kind": "site",
    "section": "index",
    "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
    "value": "تحتاج وصولًا طارئًا؟ استخدم محاولة لفتح التطبيقات حتى منتصف الليل. تبدأ بمحاولة مجانية واحدة."
   },
   {
-   "id": "site.index.054",
+   "id": "site.index.055",
    "kind": "site",
    "section": "index",
    "en": "Earn more through",
    "value": "احصل على المزيد عبر"
   },
   {
-   "id": "site.index.055",
+   "id": "site.index.056",
    "kind": "site",
    "section": "index",
    "en": "streaks",
    "value": "السلاسل"
   },
   {
-   "id": "site.index.056",
+   "id": "site.index.057",
    "kind": "site",
    "section": "index",
    "en": "Borrow Time",
    "value": "استعر وقتًا"
   },
   {
-   "id": "site.index.057",
+   "id": "site.index.058",
    "kind": "site",
    "section": "index",
    "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
    "value": "تريد إنهاء رسالة؟ استعر حتى 5 دقائق، وستسددها الـ commits القادمة."
   },
   {
-   "id": "site.index.058",
+   "id": "site.index.059",
    "kind": "site",
    "section": "index",
    "en": "Current debt:",
    "value": "الدين الحالي:"
   },
   {
-   "id": "site.index.059",
+   "id": "site.index.060",
    "kind": "site",
    "section": "index",
    "en": "0 min",
    "value": "0 دقيقة"
   },
   {
-   "id": "site.index.060",
+   "id": "site.index.061",
    "kind": "site",
    "section": "index",
    "en": "Max borrow:",
    "value": "أقصى استعارة:"
   },
   {
-   "id": "site.index.061",
+   "id": "site.index.062",
    "kind": "site",
    "section": "index",
    "en": "5 min",
    "value": "5 دقائق"
   },
   {
-   "id": "site.index.062",
+   "id": "site.index.063",
    "kind": "site",
    "section": "index",
    "en": "Discipline Bank",
    "value": "بنك الانضباط"
   },
   {
-   "id": "site.index.063",
+   "id": "site.index.064",
    "kind": "site",
    "section": "index",
    "en": "(Coming Soon)",
    "value": "(قريبًا)"
   },
   {
-   "id": "site.index.064",
+   "id": "site.index.065",
    "kind": "site",
    "section": "index",
    "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
    "value": "الوقت الذي تكسبه ولا تستخدمه يُدَّخر. إنه مقياس لانضباطك الذاتي."
   },
   {
-   "id": "site.index.065",
+   "id": "site.index.066",
    "kind": "site",
    "section": "index",
    "en": "minutes banked",
    "value": "دقيقة مدّخرة"
   },
   {
-   "id": "site.index.066",
+   "id": "site.index.067",
    "kind": "site",
    "section": "index",
    "en": "Challenge: Bank",
    "value": "التحدي: ادّخر"
   },
   {
-   "id": "site.index.067",
+   "id": "site.index.068",
    "kind": "site",
    "section": "index",
    "en": "1000 min",
    "value": "1000 دقيقة"
   },
   {
-   "id": "site.index.068",
+   "id": "site.index.069",
    "kind": "site",
    "section": "index",
    "en": "this year",
    "value": "هذا العام"
   },
   {
-   "id": "site.index.069",
+   "id": "site.index.070",
    "kind": "site",
    "section": "index",
    "en": "Streak Milestones",
    "value": "محطات السلسلة"
   },
   {
-   "id": "site.index.070",
+   "id": "site.index.071",
    "kind": "site",
    "section": "index",
    "en": "Build your streak to unlock permanent rewards.",
    "value": "طوّل سلسلتك لتفتح مكافآت دائمة."
   },
   {
-   "id": "site.index.071",
+   "id": "site.index.072",
    "kind": "site",
    "section": "index",
    "en": "14d",
    "value": "14 يومًا"
   },
   {
-   "id": "site.index.072",
+   "id": "site.index.073",
    "kind": "site",
    "section": "index",
    "en": "+1 extra life",
    "value": "‎+1 محاولة إضافية"
   },
   {
-   "id": "site.index.073",
+   "id": "site.index.074",
    "kind": "site",
    "section": "index",
    "en": "30d",
    "value": "30 يومًا"
   },
   {
-   "id": "site.index.074",
+   "id": "site.index.075",
    "kind": "site",
    "section": "index",
    "en": "Weekly time bank",
    "value": "بنك وقت أسبوعي"
   },
   {
-   "id": "site.index.075",
+   "id": "site.index.076",
    "kind": "site",
    "section": "index",
    "en": "90d",
    "value": "90 يومًا"
   },
   {
-   "id": "site.index.076",
+   "id": "site.index.077",
    "kind": "site",
    "section": "index",
    "en": "Time never expires",
    "value": "الوقت لا ينتهي أبدًا"
   },
   {
-   "id": "site.index.077",
+   "id": "site.index.078",
    "kind": "site",
    "section": "index",
    "en": "Privacy First",
    "value": "الخصوصية أولًا"
   },
   {
-   "id": "site.index.078",
+   "id": "site.index.079",
    "kind": "site",
    "section": "index",
    "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
    "value": "لا حساب على GitFocus. لا تسجيل دخول عبر GitHub. كل شيء يبقى على جهازك."
   },
   {
-   "id": "site.index.079",
+   "id": "site.index.080",
    "kind": "site",
    "section": "index",
    "en": "Works offline",
    "value": "يعمل دون اتصال"
   },
   {
-   "id": "site.index.080",
+   "id": "site.index.081",
    "kind": "site",
    "section": "index",
    "en": "No tracking",
    "value": "بلا تتبّع"
   },
   {
-   "id": "site.index.081",
+   "id": "site.index.082",
    "kind": "site",
    "section": "index",
    "en": "Open source friendly",
    "value": "صديق للمصادر المفتوحة"
   },
   {
-   "id": "site.index.082",
+   "id": "site.index.083",
    "kind": "site",
    "section": "index",
    "en": "Ready to ship more code?",
    "value": "مستعد لكتابة المزيد من الشيفرة؟"
   },
   {
-   "id": "site.index.083",
+   "id": "site.index.084",
    "kind": "site",
    "section": "index",
    "en": "Join developers who've turned procrastination into productivity.",
    "value": "انضم إلى المطوّرين الذين حوّلوا التسويف إلى إنتاجية."
   },
   {
-   "id": "site.index.084",
+   "id": "site.index.085",
    "kind": "site",
    "section": "index",
    "en": "Free to use. No subscription required.",
    "value": "مجاني. بلا اشتراك."
   },
   {
-   "id": "site.index.085",
+   "id": "site.index.086",
    "kind": "site",
    "section": "index",
    "en": "Privacy Policy",
    "value": "سياسة الخصوصية"
   },
   {
-   "id": "site.index.086",
+   "id": "site.index.087",
    "kind": "site",
    "section": "index",
    "en": "Support",
    "value": "الدعم"
   },
   {
-   "id": "site.index.087",
+   "id": "site.index.088",
    "kind": "site",
    "section": "index",
    "en": "Accessibility",
    "value": "إمكانية الوصول"
   },
   {
-   "id": "site.index.088",
+   "id": "site.index.089",
    "kind": "site",
    "section": "index",
    "en": "Contact",
    "value": "تواصل معنا"
   },
   {
-   "id": "site.index.089",
+   "id": "site.index.090",
    "kind": "site",
    "section": "index",
    "en": "© 2026 GitFocus. Made with git and focus.",
@@ -4670,634 +4677,641 @@
    "id": "site.support.025",
    "kind": "site",
    "section": "support",
+   "en": "Translation wrong? Report it here",
+   "value": "خطأ في الترجمة؟ أبلغ عنه هنا"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
    "en": "// Support",
    "value": "// الدعم"
   },
   {
-   "id": "site.support.026",
+   "id": "site.support.027",
    "kind": "site",
    "section": "support",
    "en": "How can we help?",
    "value": "كيف يمكننا المساعدة؟"
   },
   {
-   "id": "site.support.027",
+   "id": "site.support.028",
    "kind": "site",
    "section": "support",
    "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
    "value": "اعثر على إجابات للأسئلة الشائعة أو تواصل مباشرة. نحن عادة نرد خلال 24 ساعة."
   },
   {
-   "id": "site.support.028",
+   "id": "site.support.029",
    "kind": "site",
    "section": "support",
    "en": "Get in Touch",
    "value": "تواصل معنا"
   },
   {
-   "id": "site.support.029",
+   "id": "site.support.030",
    "kind": "site",
    "section": "support",
    "en": "Have a question, bug report, or feature request?",
    "value": "لديك سؤال أو تقرير عن خلل أو طلب ميزة؟"
   },
   {
-   "id": "site.support.030",
+   "id": "site.support.031",
    "kind": "site",
    "section": "support",
    "en": "We'd love to hear from you.",
    "value": "يسعدنا سماع رأيك."
   },
   {
-   "id": "site.support.031",
+   "id": "site.support.032",
    "kind": "site",
    "section": "support",
    "en": "Chat with us",
    "value": "دردش معنا"
   },
   {
-   "id": "site.support.032",
+   "id": "site.support.033",
    "kind": "site",
    "section": "support",
    "en": "or email us at",
    "value": "أو راسلنا عبر البريد الإلكتروني على"
   },
   {
-   "id": "site.support.033",
+   "id": "site.support.034",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.support.034",
+   "id": "site.support.035",
    "kind": "site",
    "section": "support",
    "en": "Frequently Asked Questions",
    "value": "الأسئلة الشائعة"
   },
   {
-   "id": "site.support.035",
+   "id": "site.support.036",
    "kind": "site",
    "section": "support",
    "en": "All",
    "value": "الكل"
   },
   {
-   "id": "site.support.036",
+   "id": "site.support.037",
    "kind": "site",
    "section": "support",
    "en": "Setup",
    "value": "الإعداد"
   },
   {
-   "id": "site.support.037",
+   "id": "site.support.038",
    "kind": "site",
    "section": "support",
    "en": "Features",
    "value": "المزايا"
   },
   {
-   "id": "site.support.038",
+   "id": "site.support.039",
    "kind": "site",
    "section": "support",
    "en": "Troubleshooting",
    "value": "استكشاف الأخطاء وإصلاحها"
   },
   {
-   "id": "site.support.039",
+   "id": "site.support.040",
    "kind": "site",
    "section": "support",
    "en": "Do I need to connect my GitHub account?",
    "value": "هل أحتاج لربط حسابي على GitHub؟"
   },
   {
-   "id": "site.support.040",
+   "id": "site.support.041",
    "kind": "site",
    "section": "support",
    "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
    "value": "لا! GitFocus يحتاج فقط إلى اسم المستخدم أو أسماء المستخدمين على GitHub التي تختار تتبعها. نقرأ رسوم المساهمة العامة (المربعات الخضراء على الملفات الشخصية) للكشف عن الالتزامات. لا OAuth، لا رموز مميزة، لا كلمات مرور مطلوبة."
   },
   {
-   "id": "site.support.041",
+   "id": "site.support.042",
    "kind": "site",
    "section": "support",
    "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
    "value": "يمكنك إضافة حسابات GitHub متعددة وتحديد أيها يحتسب لاكتشاف الالتزامات."
   },
   {
-   "id": "site.support.042",
+   "id": "site.support.043",
    "kind": "site",
    "section": "support",
    "en": "Why do you need Screen Time permissions?",
    "value": "لماذا تحتاج إلى أذونات Screen Time؟"
   },
   {
-   "id": "site.support.043",
+   "id": "site.support.044",
    "kind": "site",
    "section": "support",
    "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
    "value": "يستخدم GitFocus واجهة Screen Time API من Apple لحظر التطبيقات. هذا هو نفس النظام الآمن الذي يشغل أدوات الرقابة الأبوية المدمجة من Apple. نحتاج إلى الإذن لتطبيق قيود التطبيقات نيابة عنك."
   },
   {
-   "id": "site.support.044",
+   "id": "site.support.045",
    "kind": "site",
    "section": "support",
    "en": "Does GitFocus work with private repositories?",
    "value": "هل يعمل GitFocus مع المستودعات الخاصة؟"
   },
   {
-   "id": "site.support.045",
+   "id": "site.support.046",
    "kind": "site",
    "section": "support",
    "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
    "value": "نعم! يحسب GitHub جميع الالتزامات (العامة والخاصة) في رسم المساهمة الخاص بك افتراضياً. طالما تم تعيين إعدادات المساهمة لديك لإظهار \"المساهمات الخاصة\"، سنراها."
   },
   {
-   "id": "site.support.046",
+   "id": "site.support.047",
    "kind": "site",
    "section": "support",
    "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
    "value": "انتقل إلى ملفك الشخصي على GitHub ← إعدادات المساهمة ← حدد \"المساهمات الخاصة\""
   },
   {
-   "id": "site.support.047",
+   "id": "site.support.048",
    "kind": "site",
    "section": "support",
    "en": "How much time does each commit earn?",
    "value": "كم من الوقت يكسب كل التزام؟"
   },
   {
-   "id": "site.support.048",
+   "id": "site.support.049",
    "kind": "site",
    "section": "support",
    "en": "Each commit earns you",
    "value": "كل التزام يكسبك"
   },
   {
-   "id": "site.support.049",
+   "id": "site.support.050",
    "kind": "site",
    "section": "support",
    "en": "5 minutes",
    "value": "5 دقائق"
   },
   {
-   "id": "site.support.050",
+   "id": "site.support.051",
    "kind": "site",
    "section": "support",
    "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
    "value": "من وقت إلغاء القفل. دفع 3 التزامات؟ هذا 15 دقيقة لتصفح Twitter بدون شعور بالذنب."
   },
   {
-   "id": "site.support.051",
+   "id": "site.support.052",
    "kind": "site",
    "section": "support",
    "en": "What are \"Lives\" and how do they work?",
    "value": "ما هي \"الأرواح\" وكيف تعمل؟"
   },
   {
-   "id": "site.support.052",
+   "id": "site.support.053",
    "kind": "site",
    "section": "support",
    "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
    "value": "الأرواح هي عمليات إلغاء قفل طارئة. عند استخدام روح، يتم إلغاء قفل جميع تطبيقاتك المحظورة حتى منتصف الليل. تبدأ بروح واحدة مجانية ويمكنك كسب المزيد من خلال السلاسل المتتالية:"
   },
   {
-   "id": "site.support.053",
+   "id": "site.support.054",
    "kind": "site",
    "section": "support",
    "en": "14-day streak: +1 life",
    "value": "سلسلة 14 يوماً: +1 روح"
   },
   {
-   "id": "site.support.054",
+   "id": "site.support.055",
    "kind": "site",
    "section": "support",
    "en": "Then +1 life every month you maintain the streak",
    "value": "ثم +1 روح كل شهر تحافظ فيه على السلسلة"
   },
   {
-   "id": "site.support.055",
+   "id": "site.support.056",
    "kind": "site",
    "section": "support",
    "en": "What is the \"Borrow Time\" feature?",
    "value": "ما هي ميزة \"استعارة الوقت\"؟"
   },
   {
-   "id": "site.support.056",
+   "id": "site.support.057",
    "kind": "site",
    "section": "support",
    "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
    "value": "بحاجة لإنهاء رسالة سريعة ولكن ليس لديك وقت لإلغاء القفل؟ يمكنك استعارة ما يصل إلى 5 دقائق. هذا يخلق \"ديناً\" يتم سداده من أرباح التزاماتك المستقبلية."
   },
   {
-   "id": "site.support.057",
+   "id": "site.support.058",
    "kind": "site",
    "section": "support",
    "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
    "value": "مثال: تستعير 3 دقائق. التزامك التالي يكسب 5 دقائق، ولكن 3 تذهب لسداد الدين، مما يتركك مع دقيقتين."
   },
   {
-   "id": "site.support.058",
+   "id": "site.support.059",
    "kind": "site",
    "section": "support",
    "en": "What is the Discipline Bank?",
    "value": "ما هو Discipline Bank؟"
   },
   {
-   "id": "site.support.059",
+   "id": "site.support.060",
    "kind": "site",
    "section": "support",
    "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
    "value": "يتتبع Discipline Bank الوقت الذي كسبته ولكن لم تستخدمه. إنه مقياس لضبط النفس لديك. كل دقيقة تكسبها ولا تنفقها على المشتتات تذهب إلى بنكك."
   },
   {
-   "id": "site.support.060",
+   "id": "site.support.061",
    "kind": "site",
    "section": "support",
    "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
    "value": "تحدى نفسك: كم دقيقة يمكنك توفيرها بحلول نهاية العام؟"
   },
   {
-   "id": "site.support.061",
+   "id": "site.support.062",
    "kind": "site",
    "section": "support",
    "en": "What are the streak milestone rewards?",
    "value": "ما هي مكافآت معالم السلسلة المتتالية؟"
   },
   {
-   "id": "site.support.062",
+   "id": "site.support.063",
    "kind": "site",
    "section": "support",
    "en": "Building a streak unlocks permanent perks:",
    "value": "بناء سلسلة متتالية يفتح مزايا دائمة:"
   },
   {
-   "id": "site.support.063",
+   "id": "site.support.064",
    "kind": "site",
    "section": "support",
    "en": "14 days:",
    "value": "14 يوماً:"
   },
   {
-   "id": "site.support.064",
+   "id": "site.support.065",
    "kind": "site",
    "section": "support",
    "en": "+1 extra life (then +1/month)",
    "value": "+1 روح إضافية (ثم +1/شهرياً)"
   },
   {
-   "id": "site.support.065",
+   "id": "site.support.066",
    "kind": "site",
    "section": "support",
    "en": "30 days:",
    "value": "30 يوماً:"
   },
   {
-   "id": "site.support.066",
+   "id": "site.support.067",
    "kind": "site",
    "section": "support",
    "en": "Weekly time bank (unused time resets weekly instead of daily)",
    "value": "بنك وقت أسبوعي (يعاد تعيين الوقت غير المستخدم أسبوعياً بدلاً من يومياً)"
   },
   {
-   "id": "site.support.067",
+   "id": "site.support.068",
    "kind": "site",
    "section": "support",
    "en": "90 days:",
    "value": "90 يوماً:"
   },
   {
-   "id": "site.support.068",
+   "id": "site.support.069",
    "kind": "site",
    "section": "support",
    "en": "Permanent time (earned time never expires)",
    "value": "وقت دائم (الوقت المكتسب لا ينتهي أبداً)"
   },
   {
-   "id": "site.support.069",
+   "id": "site.support.070",
    "kind": "site",
    "section": "support",
    "en": "My commits aren't being detected",
    "value": "التزاماتي لا يتم اكتشافها"
   },
   {
-   "id": "site.support.070",
+   "id": "site.support.071",
    "kind": "site",
    "section": "support",
    "en": "Here are some things to check:",
    "value": "إليك بعض الأشياء للتحقق منها:"
   },
   {
-   "id": "site.support.071",
+   "id": "site.support.072",
    "kind": "site",
    "section": "support",
    "en": "Make sure your GitHub username is entered correctly",
    "value": "تأكد من إدخال اسم المستخدم على GitHub بشكل صحيح"
   },
   {
-   "id": "site.support.072",
+   "id": "site.support.073",
    "kind": "site",
    "section": "support",
    "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
    "value": "إذا كنت تستخدم حسابات متعددة، تحقق من تمكين الحسابات الصحيحة لاكتشاف الالتزامات"
   },
   {
-   "id": "site.support.073",
+   "id": "site.support.074",
    "kind": "site",
    "section": "support",
    "en": "Check that your commits show up on your GitHub profile's contribution graph",
    "value": "تحقق من ظهور التزاماتك على رسم المساهمة في ملفك الشخصي على GitHub"
   },
   {
-   "id": "site.support.074",
+   "id": "site.support.075",
    "kind": "site",
    "section": "support",
    "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
    "value": "إذا كنت تستخدم مستودعات خاصة، تأكد من تمكين \"المساهمات الخاصة\" في إعدادات GitHub"
   },
   {
-   "id": "site.support.075",
+   "id": "site.support.076",
    "kind": "site",
    "section": "support",
    "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
    "value": "انتظر بضع دقائق — رسم المساهمة في GitHub قد يستغرق وقتاً للتحديث"
   },
   {
-   "id": "site.support.076",
+   "id": "site.support.077",
    "kind": "site",
    "section": "support",
    "en": "Apps aren't being blocked",
    "value": "التطبيقات لا يتم حظرها"
   },
   {
-   "id": "site.support.077",
+   "id": "site.support.078",
    "kind": "site",
    "section": "support",
    "en": "Make sure you've:",
    "value": "تأكد من أنك:"
   },
   {
-   "id": "site.support.078",
+   "id": "site.support.079",
    "kind": "site",
    "section": "support",
    "en": "Granted Screen Time permissions during setup",
    "value": "منحت أذونات Screen Time أثناء الإعداد"
   },
   {
-   "id": "site.support.079",
+   "id": "site.support.080",
    "kind": "site",
    "section": "support",
    "en": "Selected at least one app or category to block",
    "value": "حددت تطبيقاً واحداً على الأقل أو فئة للحظر"
   },
   {
-   "id": "site.support.080",
+   "id": "site.support.081",
    "kind": "site",
    "section": "support",
    "en": "Started a focus session from the main screen",
    "value": "بدأت جلسة تركيز من الشاشة الرئيسية"
   },
   {
-   "id": "site.support.081",
+   "id": "site.support.082",
    "kind": "site",
    "section": "support",
    "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
    "value": "إذا استمرت المشاكل، حاول الذهاب إلى إعدادات iOS ← Screen Time وتأكد من أن GitFocus لديه الأذونات اللازمة."
   },
   {
-   "id": "site.support.082",
+   "id": "site.support.083",
    "kind": "site",
    "section": "support",
    "en": "The app crashed or is behaving unexpectedly",
    "value": "تعطل التطبيق أو يتصرف بشكل غير متوقع"
   },
   {
-   "id": "site.support.083",
+   "id": "site.support.084",
    "kind": "site",
    "section": "support",
    "en": "Try these steps:",
    "value": "جرب هذه الخطوات:"
   },
   {
-   "id": "site.support.084",
+   "id": "site.support.085",
    "kind": "site",
    "section": "support",
    "en": "Force quit and reopen the app",
    "value": "أغلق التطبيق بالقوة وأعد فتحه"
   },
   {
-   "id": "site.support.085",
+   "id": "site.support.086",
    "kind": "site",
    "section": "support",
    "en": "Restart your device",
    "value": "أعد تشغيل جهازك"
   },
   {
-   "id": "site.support.086",
+   "id": "site.support.087",
    "kind": "site",
    "section": "support",
    "en": "Make sure you're on the latest version of GitFocus",
    "value": "تأكد من أنك على أحدث إصدار من GitFocus"
   },
   {
-   "id": "site.support.087",
+   "id": "site.support.088",
    "kind": "site",
    "section": "support",
    "en": "If the issue persists, email us at",
    "value": "إذا استمرت المشكلة، راسلنا عبر البريد الإلكتروني على"
   },
   {
-   "id": "site.support.088",
+   "id": "site.support.089",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.support.089",
+   "id": "site.support.090",
    "kind": "site",
    "section": "support",
    "en": "with details about what happened",
    "value": "مع تفاصيل حول ما حدث"
   },
   {
-   "id": "site.support.090",
+   "id": "site.support.091",
    "kind": "site",
    "section": "support",
    "en": "How do I reset or start over?",
    "value": "كيف أعيد الضبط أو أبدأ من جديد؟"
   },
   {
-   "id": "site.support.091",
+   "id": "site.support.092",
    "kind": "site",
    "section": "support",
    "en": "To completely reset GitFocus:",
    "value": "لإعادة ضبط GitFocus بالكامل:"
   },
   {
-   "id": "site.support.092",
+   "id": "site.support.093",
    "kind": "site",
    "section": "support",
    "en": "Delete the app from your device",
    "value": "احذف التطبيق من جهازك"
   },
   {
-   "id": "site.support.093",
+   "id": "site.support.094",
    "kind": "site",
    "section": "support",
    "en": "Reinstall from the App Store",
    "value": "أعد التثبيت من App Store"
   },
   {
-   "id": "site.support.094",
+   "id": "site.support.095",
    "kind": "site",
    "section": "support",
    "en": "Go through the onboarding again",
    "value": "مر عبر الإعداد الأولي مرة أخرى"
   },
   {
-   "id": "site.support.095",
+   "id": "site.support.096",
    "kind": "site",
    "section": "support",
    "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
    "value": "ملاحظة: يتم تخزين اسم المستخدم أو قائمة الحسابات على GitHub بشكل آمن للراحة، لذلك قد يتم ملؤها مسبقاً عند إعادة التثبيت."
   },
   {
-   "id": "site.support.096",
+   "id": "site.support.097",
    "kind": "site",
    "section": "support",
    "en": "Quick Troubleshooting",
    "value": "استكشاف الأخطاء السريع"
   },
   {
-   "id": "site.support.097",
+   "id": "site.support.098",
    "kind": "site",
    "section": "support",
    "en": "Force Refresh",
    "value": "إعادة تحميل قسري"
   },
   {
-   "id": "site.support.098",
+   "id": "site.support.099",
    "kind": "site",
    "section": "support",
    "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
    "value": "اسحب لأسفل على الشاشة الرئيسية لتحديث بيانات الالتزام يدوياً من GitHub."
   },
   {
-   "id": "site.support.099",
+   "id": "site.support.100",
    "kind": "site",
    "section": "support",
    "en": "Check Permissions",
    "value": "تحقق من الأذونات"
   },
   {
-   "id": "site.support.100",
+   "id": "site.support.101",
    "kind": "site",
    "section": "support",
    "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
    "value": "انتقل إلى إعدادات iOS ← Screen Time ← GitFocus للتحقق من منح الأذونات."
   },
   {
-   "id": "site.support.101",
+   "id": "site.support.102",
    "kind": "site",
    "section": "support",
    "en": "Verify GitHub",
    "value": "تحقق من GitHub"
   },
   {
-   "id": "site.support.102",
+   "id": "site.support.103",
    "kind": "site",
    "section": "support",
    "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
    "value": "قم بزيارة github.com/[اسم-المستخدم-الخاص-بك] وتحقق من أن رسم المساهمة يظهر الالتزامات الأخيرة."
   },
   {
-   "id": "site.support.103",
+   "id": "site.support.104",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "سياسة الخصوصية"
   },
   {
-   "id": "site.support.104",
+   "id": "site.support.105",
    "kind": "site",
    "section": "support",
    "en": "Learn how we protect your data",
    "value": "تعلم كيف نحمي بياناتك"
   },
   {
-   "id": "site.support.105",
+   "id": "site.support.106",
    "kind": "site",
    "section": "support",
    "en": "Report a Bug",
    "value": "الإبلاغ عن خلل"
   },
   {
-   "id": "site.support.106",
+   "id": "site.support.107",
    "kind": "site",
    "section": "support",
    "en": "Help us improve GitFocus",
    "value": "ساعدنا في تحسين GitFocus"
   },
   {
-   "id": "site.support.107",
+   "id": "site.support.108",
    "kind": "site",
    "section": "support",
    "en": "Request a Feature",
    "value": "طلب ميزة"
   },
   {
-   "id": "site.support.108",
+   "id": "site.support.109",
    "kind": "site",
    "section": "support",
    "en": "Tell us what you'd like to see",
    "value": "أخبرنا بما تود رؤيته"
   },
   {
-   "id": "site.support.109",
+   "id": "site.support.110",
    "kind": "site",
    "section": "support",
    "en": "Localization Feedback",
    "value": "ملاحظات الترجمة"
   },
   {
-   "id": "site.support.110",
+   "id": "site.support.111",
    "kind": "site",
    "section": "support",
    "en": "Review the translations and suggest fixes",
    "value": "راجع الترجمات واقترح تصحيحات"
   },
   {
-   "id": "site.support.111",
+   "id": "site.support.112",
    "kind": "site",
    "section": "support",
    "en": "Home",
    "value": "الرئيسية"
   },
   {
-   "id": "site.support.112",
+   "id": "site.support.113",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "سياسة الخصوصية"
   },
   {
-   "id": "site.support.113",
+   "id": "site.support.114",
    "kind": "site",
    "section": "support",
    "en": "Support",
    "value": "الدعم"
   },
   {
-   "id": "site.support.114",
+   "id": "site.support.115",
    "kind": "site",
    "section": "support",
    "en": "Accessibility",
    "value": "إمكانية الوصول"
   },
   {
-   "id": "site.support.115",
+   "id": "site.support.116",
    "kind": "site",
    "section": "support",
    "en": "© 2026 GitFocus",
@@ -5482,760 +5496,767 @@
    "id": "site.privacy.025",
    "kind": "site",
    "section": "privacy",
+   "en": "Translation wrong? Report it here",
+   "value": "خطأ في الترجمة؟ أبلغ عنه هنا"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
    "en": "// Privacy Policy",
    "value": "// سياسة الخصوصية"
   },
   {
-   "id": "site.privacy.026",
+   "id": "site.privacy.027",
    "kind": "site",
    "section": "privacy",
    "en": "Your data stays yours",
    "value": "بياناتك تبقى ملكك"
   },
   {
-   "id": "site.privacy.027",
+   "id": "site.privacy.028",
    "kind": "site",
    "section": "privacy",
    "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
    "value": "بنينا GitFocus مع الخصوصية كمبدأ أساسي. إليك بالضبط ما نفعله (وما لا نفعله) بمعلوماتك."
   },
   {
-   "id": "site.privacy.028",
+   "id": "site.privacy.029",
    "kind": "site",
    "section": "privacy",
    "en": "Last updated: January 2026",
    "value": "آخر تحديث: January 2026"
   },
   {
-   "id": "site.privacy.029",
+   "id": "site.privacy.030",
    "kind": "site",
    "section": "privacy",
    "en": "// TL;DR",
    "value": "// باختصار"
   },
   {
-   "id": "site.privacy.030",
+   "id": "site.privacy.031",
    "kind": "site",
    "section": "privacy",
    "en": "We don't collect your data. Period.",
    "value": "نحن لا نجمع بياناتك. انتهى الأمر."
   },
   {
-   "id": "site.privacy.031",
+   "id": "site.privacy.032",
    "kind": "site",
    "section": "privacy",
    "en": "No accounts required",
    "value": "لا حاجة لحسابات"
   },
   {
-   "id": "site.privacy.032",
+   "id": "site.privacy.033",
    "kind": "site",
    "section": "privacy",
    "en": "Everything on-device",
    "value": "كل شيء على الجهاز"
   },
   {
-   "id": "site.privacy.033",
+   "id": "site.privacy.034",
    "kind": "site",
    "section": "privacy",
    "en": "No tracking or analytics",
    "value": "لا تتبع أو تحليلات"
   },
   {
-   "id": "site.privacy.034",
+   "id": "site.privacy.035",
    "kind": "site",
    "section": "privacy",
    "en": "Works offline",
    "value": "يعمل دون اتصال"
   },
   {
-   "id": "site.privacy.035",
+   "id": "site.privacy.036",
    "kind": "site",
    "section": "privacy",
    "en": "Data We Collect",
    "value": "البيانات التي نجمعها"
   },
   {
-   "id": "site.privacy.036",
+   "id": "site.privacy.037",
    "kind": "site",
    "section": "privacy",
    "en": "None.",
    "value": "لا شيء."
   },
   {
-   "id": "site.privacy.037",
+   "id": "site.privacy.038",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
    "value": "لا يجمع GitFocus أو يخزن أو ينقل أي بيانات شخصية إلى خوادمنا لأننا لا نملك أي خوادم لإرسالها إليها."
   },
   {
-   "id": "site.privacy.038",
+   "id": "site.privacy.039",
    "kind": "site",
    "section": "privacy",
    "en": "Everything the app needs to function is stored locally on your device:",
    "value": "كل ما يحتاجه التطبيق ليعمل مخزن محلياً على جهازك:"
   },
   {
-   "id": "site.privacy.039",
+   "id": "site.privacy.040",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub username or usernames (to check public commits)",
    "value": "اسم المستخدم أو أسماء المستخدمين على GitHub (للتحقق من الالتزامات العامة)"
   },
   {
-   "id": "site.privacy.040",
+   "id": "site.privacy.041",
    "kind": "site",
    "section": "privacy",
    "en": "Your app selection preferences",
    "value": "تفضيلات اختيار التطبيقات"
   },
   {
-   "id": "site.privacy.041",
+   "id": "site.privacy.042",
    "kind": "site",
    "section": "privacy",
    "en": "Your focus session history",
    "value": "سجل جلسات التركيز"
   },
   {
-   "id": "site.privacy.042",
+   "id": "site.privacy.043",
    "kind": "site",
    "section": "privacy",
    "en": "Your earned time and streak data",
    "value": "الوقت المكتسب وبيانات السلسلة المتتالية"
   },
   {
-   "id": "site.privacy.043",
+   "id": "site.privacy.044",
    "kind": "site",
    "section": "privacy",
    "en": "GitHub Integration",
    "value": "التكامل مع GitHub"
   },
   {
-   "id": "site.privacy.044",
+   "id": "site.privacy.045",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
    "value": "يقرأ GitFocus بيانات المساهمة العامة على GitHub لاسم المستخدم أو أسماء المستخدمين التي تضيفها لتحديد متى قمت بعمل التزامات. إليك كيفية عمله:"
   },
   {
-   "id": "site.privacy.045",
+   "id": "site.privacy.046",
    "kind": "site",
    "section": "privacy",
    "en": "What We Access",
    "value": "ما نصل إليه"
   },
   {
-   "id": "site.privacy.046",
+   "id": "site.privacy.047",
    "kind": "site",
    "section": "privacy",
    "en": "Your public GitHub profile page",
    "value": "صفحة ملفك الشخصي العام على GitHub"
   },
   {
-   "id": "site.privacy.047",
+   "id": "site.privacy.048",
    "kind": "site",
    "section": "privacy",
    "en": "Your public contribution graph (the green squares)",
    "value": "رسم المساهمة العام (المربعات الخضراء)"
   },
   {
-   "id": "site.privacy.048",
+   "id": "site.privacy.049",
    "kind": "site",
    "section": "privacy",
    "en": "Commit counts per day (not commit contents)",
    "value": "عدد الالتزامات يومياً (وليس محتوى الالتزامات)"
   },
   {
-   "id": "site.privacy.049",
+   "id": "site.privacy.050",
    "kind": "site",
    "section": "privacy",
    "en": "What We Don't Access",
    "value": "ما لا نصل إليه"
   },
   {
-   "id": "site.privacy.050",
+   "id": "site.privacy.051",
    "kind": "site",
    "section": "privacy",
    "en": "Private repositories",
    "value": "المستودعات الخاصة"
   },
   {
-   "id": "site.privacy.051",
+   "id": "site.privacy.052",
    "kind": "site",
    "section": "privacy",
    "en": "Commit messages or code",
    "value": "رسائل الالتزام أو الكود"
   },
   {
-   "id": "site.privacy.052",
+   "id": "site.privacy.053",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub password or tokens",
    "value": "كلمة المرور أو الرموز المميزة على GitHub"
   },
   {
-   "id": "site.privacy.053",
+   "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
    "en": "Any GitHub API with authentication",
    "value": "أي GitHub API يتطلب مصادقة"
   },
   {
-   "id": "site.privacy.054",
+   "id": "site.privacy.055",
    "kind": "site",
    "section": "privacy",
    "en": "No OAuth Required",
    "value": "لا حاجة لـ OAuth"
   },
   {
-   "id": "site.privacy.055",
+   "id": "site.privacy.056",
    "kind": "site",
    "section": "privacy",
    "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
    "value": "صممنا GitFocus عمداً للعمل دون مصادقة GitHub. يمكنك إضافة اسم مستخدم واحد أو أسماء مستخدمين متعددة على GitHub، ونحن نقرأ فقط المعلومات المتاحة للعامة التي يمكن لأي شخص رؤيتها بزيارة ملفات GitHub هذه."
   },
   {
-   "id": "site.privacy.056",
+   "id": "site.privacy.057",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time & App Blocking",
    "value": "وقت الشاشة وحظر التطبيقات"
   },
   {
-   "id": "site.privacy.057",
+   "id": "site.privacy.058",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
    "value": "يستخدم GitFocus واجهة Screen Time API من Apple (إطار عمل Family Controls) لحظر التطبيقات. هذا هو نفس النظام الآمن الذي يشغل ميزات Screen Time المدمجة من Apple."
   },
   {
-   "id": "site.privacy.058",
+   "id": "site.privacy.059",
    "kind": "site",
    "section": "privacy",
    "en": "How It Works",
    "value": "كيف يعمل"
   },
   {
-   "id": "site.privacy.059",
+   "id": "site.privacy.060",
    "kind": "site",
    "section": "privacy",
    "en": "App blocking is handled entirely by iOS, not our code",
    "value": "يتم التعامل مع حظر التطبيقات بالكامل بواسطة iOS، وليس بواسطة كودنا"
   },
   {
-   "id": "site.privacy.060",
+   "id": "site.privacy.061",
    "kind": "site",
    "section": "privacy",
    "en": "We never see which apps you use or for how long",
    "value": "لا نرى أبداً التطبيقات التي تستخدمها أو لكم من الوقت"
   },
   {
-   "id": "site.privacy.061",
+   "id": "site.privacy.062",
    "kind": "site",
    "section": "privacy",
    "en": "Apple's privacy protections apply to all Screen Time data",
    "value": "تنطبق حماية خصوصية Apple على جميع بيانات Screen Time"
   },
   {
-   "id": "site.privacy.062",
+   "id": "site.privacy.063",
    "kind": "site",
    "section": "privacy",
    "en": "We only receive anonymized \"tokens\" that represent apps",
    "value": "نتلقى فقط \"رموزاً\" مجهولة المصدر تمثل التطبيقات"
   },
   {
-   "id": "site.privacy.063",
+   "id": "site.privacy.064",
    "kind": "site",
    "section": "privacy",
    "en": "What We Can't See",
    "value": "ما لا نستطيع رؤيته"
   },
   {
-   "id": "site.privacy.064",
+   "id": "site.privacy.065",
    "kind": "site",
    "section": "privacy",
    "en": "Your app usage statistics",
    "value": "إحصائيات استخدام التطبيقات"
   },
   {
-   "id": "site.privacy.065",
+   "id": "site.privacy.066",
    "kind": "site",
    "section": "privacy",
    "en": "When you open or close apps",
    "value": "وقت فتح أو إغلاق التطبيقات"
   },
   {
-   "id": "site.privacy.066",
+   "id": "site.privacy.067",
    "kind": "site",
    "section": "privacy",
    "en": "How long you spend in any app",
    "value": "المدة التي تقضيها في أي تطبيق"
   },
   {
-   "id": "site.privacy.067",
+   "id": "site.privacy.068",
    "kind": "site",
    "section": "privacy",
    "en": "The actual names of apps you select (only tokens)",
    "value": "الأسماء الفعلية للتطبيقات التي تحددها (رموز فقط)"
   },
   {
-   "id": "site.privacy.068",
+   "id": "site.privacy.069",
    "kind": "site",
    "section": "privacy",
    "en": "Local Data Storage",
    "value": "التخزين المحلي للبيانات"
   },
   {
-   "id": "site.privacy.069",
+   "id": "site.privacy.070",
    "kind": "site",
    "section": "privacy",
    "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
    "value": "يتم تخزين جميع بياناتك على جهازك باستخدام آليات التخزين الآمنة من Apple:"
   },
   {
-   "id": "site.privacy.070",
+   "id": "site.privacy.071",
    "kind": "site",
    "section": "privacy",
    "en": "UserDefaults",
    "value": "UserDefaults"
   },
   {
-   "id": "site.privacy.071",
+   "id": "site.privacy.072",
    "kind": "site",
    "section": "privacy",
    "en": "— Settings and preferences",
    "value": "— الإعدادات والتفضيلات"
   },
   {
-   "id": "site.privacy.072",
+   "id": "site.privacy.073",
    "kind": "site",
    "section": "privacy",
    "en": "Keychain",
    "value": "Keychain"
   },
   {
-   "id": "site.privacy.073",
+   "id": "site.privacy.074",
    "kind": "site",
    "section": "privacy",
    "en": "— Your primary GitHub username (for persistence across reinstalls)",
    "value": "— اسم المستخدم الأساسي على GitHub (للاستمرارية عبر عمليات إعادة التثبيت)"
   },
   {
-   "id": "site.privacy.074",
+   "id": "site.privacy.075",
    "kind": "site",
    "section": "privacy",
    "en": "App Group",
    "value": "App Group"
   },
   {
-   "id": "site.privacy.075",
+   "id": "site.privacy.076",
    "kind": "site",
    "section": "privacy",
    "en": "— Shared data between app and extensions",
    "value": "— البيانات المشتركة بين التطبيق والإضافات"
   },
   {
-   "id": "site.privacy.076",
+   "id": "site.privacy.077",
    "kind": "site",
    "section": "privacy",
    "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
    "value": "هذه البيانات مشفرة بواسطة iOS ومحمية برمز المرور الخاص بجهازك. إذا حذفت التطبيق، تُحذف بياناتك المحلية أيضاً."
   },
   {
-   "id": "site.privacy.077",
+   "id": "site.privacy.078",
    "kind": "site",
    "section": "privacy",
    "en": "Third-Party Services",
    "value": "خدمات الطرف الثالث"
   },
   {
-   "id": "site.privacy.078",
+   "id": "site.privacy.079",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
    "value": "لا يستخدم GitFocus أي خدمات تحليلات أو إبلاغ عن الأعطال أو إعلانات من طرف ثالث. نحن لا نتكامل مع:"
   },
   {
-   "id": "site.privacy.079",
+   "id": "site.privacy.080",
    "kind": "site",
    "section": "privacy",
    "en": "Google Analytics",
    "value": "Google Analytics"
   },
   {
-   "id": "site.privacy.080",
+   "id": "site.privacy.081",
    "kind": "site",
    "section": "privacy",
    "en": "Firebase",
    "value": "Firebase"
   },
   {
-   "id": "site.privacy.081",
+   "id": "site.privacy.082",
    "kind": "site",
    "section": "privacy",
    "en": "Crashlytics",
    "value": "Crashlytics"
   },
   {
-   "id": "site.privacy.082",
+   "id": "site.privacy.083",
    "kind": "site",
    "section": "privacy",
    "en": "Facebook SDK",
    "value": "Facebook SDK"
   },
   {
-   "id": "site.privacy.083",
+   "id": "site.privacy.084",
    "kind": "site",
    "section": "privacy",
    "en": "Any advertising networks",
    "value": "أي شبكات إعلانية"
   },
   {
-   "id": "site.privacy.084",
+   "id": "site.privacy.085",
    "kind": "site",
    "section": "privacy",
    "en": "Any user tracking services",
    "value": "أي خدمات تتبع المستخدمين"
   },
   {
-   "id": "site.privacy.085",
+   "id": "site.privacy.086",
    "kind": "site",
    "section": "privacy",
    "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
    "value": "الخدمات الخارجية الوحيدة التي نتواصل معها هي github.com لجلب بيانات المساهمة العامة الخاصة بك، والدردشة الاختيارية لدعم العملاء (انظر أدناه)."
   },
   {
-   "id": "site.privacy.086",
+   "id": "site.privacy.087",
    "kind": "site",
    "section": "privacy",
    "en": "Customer Support & Live Chat",
    "value": "دعم العملاء والدردشة المباشرة"
   },
   {
-   "id": "site.privacy.087",
+   "id": "site.privacy.088",
    "kind": "site",
    "section": "privacy",
    "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
    "value": "التواصل مع الدعم اختياري تماماً ويحدث فقط عندما تختار طلب المساعدة."
   },
   {
-   "id": "site.privacy.088",
+   "id": "site.privacy.089",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
    "value": "يقدم GitFocus دعم العملاء عبر الدردشة المباشرة التي يشغلها Chatwoot، وهي منصة دعم عملاء من طرف ثالث. هذه هي الخدمة الوحيدة من طرف ثالث التي يستخدمها GitFocus (بالإضافة إلى GitHub)، وهي نشطة فقط عندما تختار صراحة الاتصال بنا للمساعدة."
   },
   {
-   "id": "site.privacy.089",
+   "id": "site.privacy.090",
    "kind": "site",
    "section": "privacy",
    "en": "How it works",
    "value": "كيف يعمل"
   },
   {
-   "id": "site.privacy.090",
+   "id": "site.privacy.091",
    "kind": "site",
    "section": "privacy",
    "en": "Session Persistence:",
    "value": "استمرارية الجلسة:"
   },
   {
-   "id": "site.privacy.091",
+   "id": "site.privacy.092",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
    "value": "يستخدم Chatwoot ملفات تعريف الارتباط للحفاظ على جلسة الدردشة عبر الزيارات، حتى تتمكن من متابعة المحادثات السابقة"
   },
   {
-   "id": "site.privacy.092",
+   "id": "site.privacy.093",
    "kind": "site",
    "section": "privacy",
    "en": "Anonymous by Default:",
    "value": "مجهول افتراضياً:"
   },
   {
-   "id": "site.privacy.093",
+   "id": "site.privacy.094",
    "kind": "site",
    "section": "privacy",
    "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
    "value": "يمكنك الدردشة مع الدعم دون تقديم أي معلومات شخصية - يتم تتبع الجلسة عبر ملفات تعريف ارتباط المتصفح فقط"
   },
   {
-   "id": "site.privacy.094",
+   "id": "site.privacy.095",
    "kind": "site",
    "section": "privacy",
    "en": "Optional Email:",
    "value": "بريد إلكتروني اختياري:"
   },
   {
-   "id": "site.privacy.095",
+   "id": "site.privacy.096",
    "kind": "site",
    "section": "privacy",
    "en": "You may optionally provide your email address if you want to receive follow-up responses",
    "value": "يمكنك اختيارياً تقديم عنوان بريدك الإلكتروني إذا كنت تريد تلقي ردود متابعة"
   },
   {
-   "id": "site.privacy.096",
+   "id": "site.privacy.097",
    "kind": "site",
    "section": "privacy",
    "en": "What's Collected",
    "value": "ما يتم جمعه"
   },
   {
-   "id": "site.privacy.097",
+   "id": "site.privacy.098",
    "kind": "site",
    "section": "privacy",
    "en": "When you use the chat feature, Chatwoot may collect:",
    "value": "عند استخدام ميزة الدردشة، قد يجمع Chatwoot:"
   },
   {
-   "id": "site.privacy.098",
+   "id": "site.privacy.099",
    "kind": "site",
    "section": "privacy",
    "en": "Your chat messages and conversation history",
    "value": "رسائل الدردشة وسجل المحادثات"
   },
   {
-   "id": "site.privacy.099",
+   "id": "site.privacy.100",
    "kind": "site",
    "section": "privacy",
    "en": "Browser cookies for session persistence",
    "value": "ملفات تعريف ارتباط المتصفح لاستمرارية الجلسة"
   },
   {
-   "id": "site.privacy.100",
+   "id": "site.privacy.101",
    "kind": "site",
    "section": "privacy",
    "en": "Email address (only if you choose to provide it)",
    "value": "عنوان البريد الإلكتروني (فقط إذا اخترت تقديمه)"
   },
   {
-   "id": "site.privacy.101",
+   "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
    "en": "Basic technical information (browser type, timestamp)",
    "value": "معلومات تقنية أساسية (نوع المتصفح، الطابع الزمني)"
   },
   {
-   "id": "site.privacy.102",
+   "id": "site.privacy.103",
    "kind": "site",
    "section": "privacy",
    "en": "No Access to App Data",
    "value": "لا وصول لبيانات التطبيق"
   },
   {
-   "id": "site.privacy.103",
+   "id": "site.privacy.104",
    "kind": "site",
    "section": "privacy",
    "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
    "value": "ميزة الدردشة لا تملك وصولاً إلى بيانات GitHub الخاصة بك، أو سجل جلسات التركيز، أو أي بيانات أخرى مخزنة في تطبيق GitFocus. فقط المعلومات التي تكتبها صراحة في الدردشة يتم إرسالها إلى نظام الدعم لدينا."
   },
   {
-   "id": "site.privacy.104",
+   "id": "site.privacy.105",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
    "value": "Chatwoot متوافق مع GDPR ويعالج البيانات وفقاً لقوانين حماية البيانات المعمول بها. لمزيد من المعلومات، تفضل بزيارة"
   },
   {
-   "id": "site.privacy.105",
+   "id": "site.privacy.106",
    "kind": "site",
    "section": "privacy",
    "en": "chatwoot.com/privacy-policy",
    "value": "chatwoot.com/privacy-policy"
   },
   {
-   "id": "site.privacy.106",
+   "id": "site.privacy.107",
    "kind": "site",
    "section": "privacy",
    "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
    "value": "يمكنك مسح ملفات تعريف ارتباط الدردشة في أي وقت من خلال إعدادات متصفحك. إذا لم تستخدم ميزة الدردشة مطلقاً، فلن يتم إرسال أي بيانات إلى Chatwoot."
   },
   {
-   "id": "site.privacy.107",
+   "id": "site.privacy.108",
    "kind": "site",
    "section": "privacy",
    "en": "Your Rights",
    "value": "حقوقك"
   },
   {
-   "id": "site.privacy.108",
+   "id": "site.privacy.109",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
    "value": "بما أننا لا نجمع بياناتك، فإن حقوق البيانات التقليدية (الوصول، الحذف، قابلية النقل) لا تنطبق حقاً. لكن إليك ما يمكنك فعله:"
   },
   {
-   "id": "site.privacy.109",
+   "id": "site.privacy.110",
    "kind": "site",
    "section": "privacy",
    "en": "Delete all data",
    "value": "حذف جميع البيانات"
   },
   {
-   "id": "site.privacy.110",
+   "id": "site.privacy.111",
    "kind": "site",
    "section": "privacy",
    "en": "— Simply delete the app from your device",
    "value": "— ببساطة احذف التطبيق من جهازك"
   },
   {
-   "id": "site.privacy.111",
+   "id": "site.privacy.112",
    "kind": "site",
    "section": "privacy",
    "en": "Export data",
    "value": "تصدير البيانات"
   },
   {
-   "id": "site.privacy.112",
+   "id": "site.privacy.113",
    "kind": "site",
    "section": "privacy",
    "en": "— Your data lives on your device; you own it",
    "value": "— بياناتك موجودة على جهازك؛ أنت تملكها"
   },
   {
-   "id": "site.privacy.113",
+   "id": "site.privacy.114",
    "kind": "site",
    "section": "privacy",
    "en": "Change settings",
    "value": "تغيير الإعدادات"
   },
   {
-   "id": "site.privacy.114",
+   "id": "site.privacy.115",
    "kind": "site",
    "section": "privacy",
    "en": "— All preferences can be modified in the app",
    "value": "— يمكن تعديل جميع التفضيلات في التطبيق"
   },
   {
-   "id": "site.privacy.115",
+   "id": "site.privacy.116",
    "kind": "site",
    "section": "privacy",
    "en": "Children's Privacy & Age Rating",
    "value": "خصوصية الأطفال والتصنيف العمري"
   },
   {
-   "id": "site.privacy.116",
+   "id": "site.privacy.117",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus is rated",
    "value": "GitFocus مصنف"
   },
   {
-   "id": "site.privacy.117",
+   "id": "site.privacy.118",
    "kind": "site",
    "section": "privacy",
    "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
    "value": "على App Store ومناسب للمستخدمين من جميع الأعمار. لا يحتوي التطبيق على محتوى مرفوض أو مشتريات داخل التطبيق أو ميزات اجتماعية."
   },
   {
-   "id": "site.privacy.118",
+   "id": "site.privacy.119",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
    "value": "بما أننا لا نجمع أي بيانات شخصية، فلا توجد مخاوف خصوصية خاصة للمستخدمين الأصغر سناً. ومع ذلك، نوصي بأن يقوم الأطفال دون سن 13 بإعداد التطبيق بتوجيه من الوالدين، لأن:"
   },
   {
-   "id": "site.privacy.119",
+   "id": "site.privacy.120",
    "kind": "site",
    "section": "privacy",
    "en": "Initial setup requires a GitHub username",
    "value": "الإعداد الأولي يتطلب اسم مستخدم على GitHub"
   },
   {
-   "id": "site.privacy.120",
+   "id": "site.privacy.121",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time permissions need to be granted by the device owner",
    "value": "أذونات Screen Time يجب أن يمنحها مالك الجهاز"
   },
   {
-   "id": "site.privacy.121",
+   "id": "site.privacy.122",
    "kind": "site",
    "section": "privacy",
    "en": "Understanding the commit-based unlock system may need explanation",
    "value": "فهم نظام إلغاء القفل القائم على الالتزامات قد يحتاج إلى شرح"
   },
   {
-   "id": "site.privacy.122",
+   "id": "site.privacy.123",
    "kind": "site",
    "section": "privacy",
    "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
    "value": "يمكن للآباء والأوصياء استخدام GitFocus كأداة لتشجيع عادات البرمجة لدى المطورين الصغار."
   },
   {
-   "id": "site.privacy.123",
+   "id": "site.privacy.124",
    "kind": "site",
    "section": "privacy",
    "en": "Changes to This Policy",
    "value": "التغييرات على هذه السياسة"
   },
   {
-   "id": "site.privacy.124",
+   "id": "site.privacy.125",
    "kind": "site",
    "section": "privacy",
    "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
    "value": "إذا قمنا بتغيير ممارسات الخصوصية لدينا، سنقوم بتحديث هذه الصفحة بتاريخ \"آخر تحديث\" جديد. بالنظر إلى نهجنا بعدم جمع البيانات، فإن التغييرات الكبيرة غير محتملة."
   },
   {
-   "id": "site.privacy.125",
+   "id": "site.privacy.126",
    "kind": "site",
    "section": "privacy",
    "en": "Contact",
    "value": "تواصل معنا"
   },
   {
-   "id": "site.privacy.126",
+   "id": "site.privacy.127",
    "kind": "site",
    "section": "privacy",
    "en": "Questions about privacy? We're happy to explain anything in more detail.",
    "value": "أسئلة حول الخصوصية؟ يسعدنا شرح أي شيء بمزيد من التفصيل."
   },
   {
-   "id": "site.privacy.127",
+   "id": "site.privacy.128",
    "kind": "site",
    "section": "privacy",
    "en": "Email:",
    "value": "البريد الإلكتروني:"
   },
   {
-   "id": "site.privacy.128",
+   "id": "site.privacy.129",
    "kind": "site",
    "section": "privacy",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.privacy.129",
+   "id": "site.privacy.130",
    "kind": "site",
    "section": "privacy",
    "en": "Home",
    "value": "الرئيسية"
   },
   {
-   "id": "site.privacy.130",
+   "id": "site.privacy.131",
    "kind": "site",
    "section": "privacy",
    "en": "Privacy Policy",
    "value": "سياسة الخصوصية"
   },
   {
-   "id": "site.privacy.131",
+   "id": "site.privacy.132",
    "kind": "site",
    "section": "privacy",
    "en": "Support",
    "value": "الدعم"
   },
   {
-   "id": "site.privacy.132",
+   "id": "site.privacy.133",
    "kind": "site",
    "section": "privacy",
    "en": "Accessibility",
    "value": "إمكانية الوصول"
   },
   {
-   "id": "site.privacy.133",
+   "id": "site.privacy.134",
    "kind": "site",
    "section": "privacy",
    "en": "© 2026 GitFocus",
@@ -6420,522 +6441,529 @@
    "id": "site.accessibility.025",
    "kind": "site",
    "section": "accessibility",
+   "en": "Translation wrong? Report it here",
+   "value": "خطأ في الترجمة؟ أبلغ عنه هنا"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
    "en": "// Accessibility",
    "value": "// إمكانية الوصول"
   },
   {
-   "id": "site.accessibility.026",
+   "id": "site.accessibility.027",
    "kind": "site",
    "section": "accessibility",
    "en": "Built for everyone",
    "value": "مصمم للجميع"
   },
   {
-   "id": "site.accessibility.027",
+   "id": "site.accessibility.028",
    "kind": "site",
    "section": "accessibility",
    "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
    "value": "GitFocus مصمم لتقنيات المساعدة. يتم إعادة فحص ادعاءات إمكانية الوصول لكل إصدار باختبارات آلية وقائمة فحص الأجهزة البشرية."
   },
   {
-   "id": "site.accessibility.028",
+   "id": "site.accessibility.029",
    "kind": "site",
    "section": "accessibility",
    "en": "// Features",
    "value": "// المزايا"
   },
   {
-   "id": "site.accessibility.029",
+   "id": "site.accessibility.030",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported Accessibility Features",
    "value": "ميزات إمكانية الوصول المدعومة"
   },
   {
-   "id": "site.accessibility.030",
+   "id": "site.accessibility.031",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver",
    "value": "VoiceOver"
   },
   {
-   "id": "site.accessibility.031",
+   "id": "site.accessibility.032",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.032",
+   "id": "site.accessibility.033",
    "kind": "site",
    "section": "accessibility",
    "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
    "value": "تستخدم مسارات الإصدار الرئيسية تسميات وصفية وسمات وترتيب قراءة منطقي. تسجل بوابة الإصدار المسارات والجهاز المختبر."
   },
   {
-   "id": "site.accessibility.033",
+   "id": "site.accessibility.034",
    "kind": "site",
    "section": "accessibility",
    "en": "Voice Control",
    "value": "Voice Control"
   },
   {
-   "id": "site.accessibility.034",
+   "id": "site.accessibility.035",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.035",
+   "id": "site.accessibility.036",
    "kind": "site",
    "section": "accessibility",
    "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
    "value": "تستخدم عناصر التحكم التفاعلية أسماء يمكن الوصول إليها. تتحقق قائمة فحص الأجهزة الفعلية من رحلة الإصدار الحرجة باستخدام Voice Control."
   },
   {
-   "id": "site.accessibility.036",
+   "id": "site.accessibility.037",
    "kind": "site",
    "section": "accessibility",
    "en": "Larger Text",
    "value": "نص أكبر"
   },
   {
-   "id": "site.accessibility.037",
+   "id": "site.accessibility.038",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.038",
+   "id": "site.accessibility.039",
    "kind": "site",
    "section": "accessibility",
    "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
    "value": "يستخدم نص التطبيق Dynamic Type. يلزم تغطية AX3 وAX5 الآلية بالإضافة إلى فحص حجم نص بشري بنسبة 200٪ قبل الموافقة على هذا الادعاء."
   },
   {
-   "id": "site.accessibility.039",
+   "id": "site.accessibility.040",
    "kind": "site",
    "section": "accessibility",
    "en": "Dark Interface",
    "value": "واجهة داكنة"
   },
   {
-   "id": "site.accessibility.040",
+   "id": "site.accessibility.041",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.041",
+   "id": "site.accessibility.042",
    "kind": "site",
    "section": "accessibility",
    "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
    "value": "يدعم التطبيق المظهر الفاتح والداكن. كلاهما مدرج في لقطات الشاشة وفحوصات إصدار إمكانية الوصول للتطبيق."
   },
   {
-   "id": "site.accessibility.042",
+   "id": "site.accessibility.043",
    "kind": "site",
    "section": "accessibility",
    "en": "Differentiate Without Color",
    "value": "التمييز بدون لون"
   },
   {
-   "id": "site.accessibility.043",
+   "id": "site.accessibility.044",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.044",
+   "id": "site.accessibility.045",
    "kind": "site",
    "section": "accessibility",
    "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
    "value": "يتحقق مراجعة الإصدار من أن الحالات المهمة تستخدم التسميات أو الأشكال أو الأيقونات جنباً إلى جنب مع اللون."
   },
   {
-   "id": "site.accessibility.045",
+   "id": "site.accessibility.046",
    "kind": "site",
    "section": "accessibility",
    "en": "Sufficient Contrast",
    "value": "تباين كافٍ"
   },
   {
-   "id": "site.accessibility.046",
+   "id": "site.accessibility.047",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.047",
+   "id": "site.accessibility.048",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
    "value": "تضع فحوصات التباين الآلية علامة على الإخفاقات المحتملة في الوضع الفاتح والداكن؛ يتحقق المراجع من النص والأيقونات والخلفيات الحقيقية قبل الموافقة."
   },
   {
-   "id": "site.accessibility.048",
+   "id": "site.accessibility.049",
    "kind": "site",
    "section": "accessibility",
    "en": "Reduced Motion",
    "value": "حركة مخفضة"
   },
   {
-   "id": "site.accessibility.049",
+   "id": "site.accessibility.050",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.050",
+   "id": "site.accessibility.051",
    "kind": "site",
    "section": "accessibility",
    "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
    "value": "تتحقق قائمة فحص الإصدار من أن الحركة المهمة تحترم تفضيل تقليل الحركة أو لديها بديل ثابت."
   },
   {
-   "id": "site.accessibility.051",
+   "id": "site.accessibility.052",
    "kind": "site",
    "section": "accessibility",
    "en": "Full Keyboard Access",
    "value": "وصول كامل للوحة المفاتيح"
   },
   {
-   "id": "site.accessibility.052",
+   "id": "site.accessibility.053",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "مدعوم"
   },
   {
-   "id": "site.accessibility.053",
+   "id": "site.accessibility.054",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
    "value": "تتضمن التدفقات المدعومة عناصر تحكم يمكن الوصول إليها بلوحة المفاتيح وبدائل لإجراءات الإيماءات الهامة فقط."
   },
   {
-   "id": "site.accessibility.054",
+   "id": "site.accessibility.055",
    "kind": "site",
    "section": "accessibility",
    "en": "// Testing",
    "value": "// الاختبار"
   },
   {
-   "id": "site.accessibility.055",
+   "id": "site.accessibility.056",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated Accessibility Testing",
    "value": "اختبار إمكانية الوصول الآلي"
   },
   {
-   "id": "site.accessibility.056",
+   "id": "site.accessibility.057",
    "kind": "site",
    "section": "accessibility",
    "en": "Test Suites",
    "value": "مجموعات الاختبار"
   },
   {
-   "id": "site.accessibility.057",
+   "id": "site.accessibility.058",
    "kind": "site",
    "section": "accessibility",
    "en": "Appearances",
    "value": "المظاهر"
   },
   {
-   "id": "site.accessibility.058",
+   "id": "site.accessibility.059",
    "kind": "site",
    "section": "accessibility",
    "en": "AX Text Sizes",
    "value": "أحجام نص AX"
   },
   {
-   "id": "site.accessibility.059",
+   "id": "site.accessibility.060",
    "kind": "site",
    "section": "accessibility",
    "en": "Release Gate",
    "value": "بوابة الإصدار"
   },
   {
-   "id": "site.accessibility.060",
+   "id": "site.accessibility.061",
    "kind": "site",
    "section": "accessibility",
    "en": "Screen Accessibility Audits",
    "value": "عمليات تدقيق إمكانية وصول الشاشة"
   },
   {
-   "id": "site.accessibility.061",
+   "id": "site.accessibility.062",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
    "value": "يتم إطلاق مسارات الإصدار المعلنة بشكل متسلسل في الوضع الفاتح والداكن والتحقق منها بعمليات تدقيق إمكانية الوصول الأصلية لـ iOS. فئات التدقيق المطلوبة تفشل بوابة الإصدار."
   },
   {
-   "id": "site.accessibility.062",
+   "id": "site.accessibility.063",
    "kind": "site",
    "section": "accessibility",
    "en": "26 tests",
    "value": "26 اختباراً"
   },
   {
-   "id": "site.accessibility.063",
+   "id": "site.accessibility.064",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility Size Tests",
    "value": "اختبارات حجم إمكانية الوصول"
   },
   {
-   "id": "site.accessibility.064",
+   "id": "site.accessibility.065",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
    "value": "يتم عرض المسارات المعلنة في AX3 وAX5 والتحقق من العرض الخالي من الأعطال والعناصر القابلة للوصول واكتمال المسار."
   },
   {
-   "id": "site.accessibility.065",
+   "id": "site.accessibility.066",
    "kind": "site",
    "section": "accessibility",
    "en": "50 tests",
    "value": "50 اختباراً"
   },
   {
-   "id": "site.accessibility.066",
+   "id": "site.accessibility.067",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver Reading Order",
    "value": "ترتيب قراءة VoiceOver"
   },
   {
-   "id": "site.accessibility.067",
+   "id": "site.accessibility.068",
    "kind": "site",
    "section": "accessibility",
    "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
    "value": "يتم فحص الشاشات الرئيسية للتأكد من أن اجتياز VoiceOver يتبع ترتيباً منطقياً من أعلى إلى أسفل، مع التسامح مع عناصر chrome النظام."
   },
   {
-   "id": "site.accessibility.068",
+   "id": "site.accessibility.069",
    "kind": "site",
    "section": "accessibility",
    "en": "5 tests",
    "value": "5 اختبارات"
   },
   {
-   "id": "site.accessibility.069",
+   "id": "site.accessibility.070",
    "kind": "site",
    "section": "accessibility",
    "en": "// Methodology",
    "value": "// المنهجية"
   },
   {
-   "id": "site.accessibility.070",
+   "id": "site.accessibility.071",
    "kind": "site",
    "section": "accessibility",
    "en": "How We Test",
    "value": "كيف نختبر"
   },
   {
-   "id": "site.accessibility.071",
+   "id": "site.accessibility.072",
    "kind": "site",
    "section": "accessibility",
    "en": "iOS native audits",
    "value": "عمليات تدقيق iOS الأصلية"
   },
   {
-   "id": "site.accessibility.072",
+   "id": "site.accessibility.073",
    "kind": "site",
    "section": "accessibility",
    "en": "— Apple's built-in",
    "value": "— المدمجة من Apple"
   },
   {
-   "id": "site.accessibility.073",
+   "id": "site.accessibility.074",
    "kind": "site",
    "section": "accessibility",
    "en": "performAccessibilityAudit",
    "value": "performAccessibilityAudit"
   },
   {
-   "id": "site.accessibility.074",
+   "id": "site.accessibility.075",
    "kind": "site",
    "section": "accessibility",
    "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
    "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
   },
   {
-   "id": "site.accessibility.075",
+   "id": "site.accessibility.076",
    "kind": "site",
    "section": "accessibility",
    "en": "Extreme size rendering",
    "value": "عرض بحجم متطرف"
   },
   {
-   "id": "site.accessibility.076",
+   "id": "site.accessibility.077",
    "kind": "site",
    "section": "accessibility",
    "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
    "value": "— يتم إطلاق كل شاشة بأحجام نص إمكانية الوصول AX3 وAX5 للتحقق من عدم تعطل أي شيء أو اقتطاعه بشكل غير قابل للقراءة أو أن يصبح غير قابل للوصول."
   },
   {
-   "id": "site.accessibility.077",
+   "id": "site.accessibility.078",
    "kind": "site",
    "section": "accessibility",
    "en": "Reading order validation",
    "value": "التحقق من ترتيب القراءة"
   },
   {
-   "id": "site.accessibility.078",
+   "id": "site.accessibility.079",
    "kind": "site",
    "section": "accessibility",
    "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
    "value": "— تتحقق الاختبارات الآلية من أن VoiceOver يجتاز العناصر بترتيب منطقي من أعلى إلى أسفل على الشاشات الرئيسية."
   },
   {
-   "id": "site.accessibility.079",
+   "id": "site.accessibility.080",
    "kind": "site",
    "section": "accessibility",
    "en": "Contrast verification",
    "value": "التحقق من التباين"
   },
   {
-   "id": "site.accessibility.080",
+   "id": "site.accessibility.081",
    "kind": "site",
    "section": "accessibility",
    "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
    "value": "— يتم إنشاء أدلة تباين WCAG من المناطق الدلالية المملوكة للمعرض، ثم مراجعتها مقابل العمل الفني الفاتح والداكن الفعلي."
   },
   {
-   "id": "site.accessibility.081",
+   "id": "site.accessibility.082",
    "kind": "site",
    "section": "accessibility",
    "en": "Release integration",
    "value": "تكامل الإصدار"
   },
   {
-   "id": "site.accessibility.082",
+   "id": "site.accessibility.083",
    "kind": "site",
    "section": "accessibility",
    "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
    "value": "— تعمل مجموعات إمكانية الوصول قبل تحميل لقطة الشاشة أو البيانات الوصفية وتحتفظ بأدلة قابلة للقراءة آلياً."
   },
   {
-   "id": "site.accessibility.083",
+   "id": "site.accessibility.084",
    "kind": "site",
    "section": "accessibility",
    "en": "Standards We Follow",
    "value": "المعايير التي نتبعها"
   },
   {
-   "id": "site.accessibility.084",
+   "id": "site.accessibility.085",
    "kind": "site",
    "section": "accessibility",
    "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
    "value": "أهداف تباين WCAG 2.1 المستوى AA للنص والعناصر التفاعلية"
   },
   {
-   "id": "site.accessibility.085",
+   "id": "site.accessibility.086",
    "kind": "site",
    "section": "accessibility",
    "en": "Apple Human Interface Guidelines for accessibility",
    "value": "إرشادات واجهة Apple البشرية لإمكانية الوصول"
   },
   {
-   "id": "site.accessibility.086",
+   "id": "site.accessibility.087",
    "kind": "site",
    "section": "accessibility",
    "en": "Minimum 44pt touch-target checks for interactive controls",
    "value": "فحوصات هدف اللمس الأدنى 44pt لعناصر التحكم التفاعلية"
   },
   {
-   "id": "site.accessibility.087",
+   "id": "site.accessibility.088",
    "kind": "site",
    "section": "accessibility",
    "en": "Semantic Dynamic Type coverage at accessibility text sizes",
    "value": "تغطية Dynamic Type الدلالية بأحجام نص إمكانية الوصول"
   },
   {
-   "id": "site.accessibility.088",
+   "id": "site.accessibility.089",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver-compatible labels and traits on every interactive element",
    "value": "تسميات وسمات متوافقة مع VoiceOver على كل عنصر تفاعلي"
   },
   {
-   "id": "site.accessibility.089",
+   "id": "site.accessibility.090",
    "kind": "site",
    "section": "accessibility",
    "en": "Keyboard-accessible alternatives for all gesture-based interactions",
    "value": "بدائل يمكن الوصول إليها بلوحة المفاتيح لجميع التفاعلات القائمة على الإيماءات"
   },
   {
-   "id": "site.accessibility.090",
+   "id": "site.accessibility.091",
    "kind": "site",
    "section": "accessibility",
    "en": "Feedback",
    "value": "التغذية الراجعة"
   },
   {
-   "id": "site.accessibility.091",
+   "id": "site.accessibility.092",
    "kind": "site",
    "section": "accessibility",
    "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
    "value": "إذا واجهت أي عوائق في إمكانية الوصول أثناء استخدام GitFocus، نريد أن نسمع عنها حتى نتمكن من إصلاحها."
   },
   {
-   "id": "site.accessibility.092",
+   "id": "site.accessibility.093",
    "kind": "site",
    "section": "accessibility",
    "en": "Chat with us",
    "value": "دردش معنا"
   },
   {
-   "id": "site.accessibility.093",
+   "id": "site.accessibility.094",
    "kind": "site",
    "section": "accessibility",
    "en": "or email us at",
    "value": "أو راسلنا عبر البريد الإلكتروني على"
   },
   {
-   "id": "site.accessibility.094",
+   "id": "site.accessibility.095",
    "kind": "site",
    "section": "accessibility",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.accessibility.095",
+   "id": "site.accessibility.096",
    "kind": "site",
    "section": "accessibility",
    "en": "Home",
    "value": "الرئيسية"
   },
   {
-   "id": "site.accessibility.096",
+   "id": "site.accessibility.097",
    "kind": "site",
    "section": "accessibility",
    "en": "Privacy Policy",
    "value": "سياسة الخصوصية"
   },
   {
-   "id": "site.accessibility.097",
+   "id": "site.accessibility.098",
    "kind": "site",
    "section": "accessibility",
    "en": "Support",
    "value": "الدعم"
   },
   {
-   "id": "site.accessibility.098",
+   "id": "site.accessibility.099",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility",
    "value": "إمكانية الوصول"
   },
   {
-   "id": "site.accessibility.099",
+   "id": "site.accessibility.100",
    "kind": "site",
    "section": "accessibility",
    "en": "© 2026 GitFocus",

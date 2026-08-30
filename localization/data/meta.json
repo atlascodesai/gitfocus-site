@@ -1,123 +1,123 @@
 {
- "generated": "2026-08-30T02:43:01Z",
+ "generated": "2026-08-30T03:45:57Z",
  "locales": [
   {
    "code": "en",
    "label": "English",
    "site_dir": null,
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "ar",
    "label": "العربية",
    "site_dir": "ar",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "de",
    "label": "Deutsch",
    "site_dir": "de",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "el",
    "label": "Ελληνικά",
    "site_dir": "el",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "es",
    "label": "Español",
    "site_dir": "es",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "fr",
    "label": "Français",
    "site_dir": "fr",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "it",
    "label": "Italiano",
    "site_dir": "it",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "ja",
    "label": "日本語",
    "site_dir": "ja",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "ko",
    "label": "한국어",
    "site_dir": "ko",
-   "strings": 970,
+   "strings": 974,
    "missing": 0
   },
   {
    "code": "nl",
    "label": "Nederlands",
    "site_dir": "nl",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "pt-BR",
    "label": "Português (Brasil)",
    "site_dir": "pt-br",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "ru",
    "label": "Русский",
    "site_dir": "ru",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "sk",
    "label": "Slovenčina",
    "site_dir": "sk",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "sr",
    "label": "Српски",
    "site_dir": "sr",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "sr-Latn",
    "label": "Srpski (latinica)",
    "site_dir": "sr-latn",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "uk",
    "label": "Українська",
    "site_dir": "uk",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   },
   {
    "code": "zh-Hans",
    "label": "简体中文",
    "site_dir": "zh",
-   "strings": 976,
+   "strings": 980,
    "missing": 0
   }
  ]

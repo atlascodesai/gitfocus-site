@@ -1,7 +1,7 @@
 {
  "locale": "nl",
  "label": "Nederlands",
- "generated": "2026-08-30T02:43:01Z",
+ "generated": "2026-08-30T03:45:57Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4040,452 +4040,459 @@
    "id": "site.index.025",
    "kind": "site",
    "section": "index",
+   "en": "Translation wrong? Report it here",
+   "value": "Vertaling fout? Meld het hier"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
    "en": "Now on the App Store",
    "value": "Nu in de App Store"
   },
   {
-   "id": "site.index.026",
+   "id": "site.index.027",
    "kind": "site",
    "section": "index",
    "en": "Block apps until you",
    "value": "Apps blijven geblokkeerd tot je"
   },
   {
-   "id": "site.index.027",
+   "id": "site.index.028",
    "kind": "site",
    "section": "index",
    "en": "git push",
    "value": "git push"
   },
   {
-   "id": "site.index.028",
+   "id": "site.index.029",
    "kind": "site",
    "section": "index",
    "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
    "value": "GitFocus maakt een spel van je programmeergewoonten. Commit vanuit één of meerdere GitHub-accounts en ontgrendel zo je afleidende apps. Zo simpel is het."
   },
   {
-   "id": "site.index.029",
+   "id": "site.index.030",
    "kind": "site",
    "section": "index",
    "en": "See how it works",
    "value": "Bekijk hoe het werkt"
   },
   {
-   "id": "site.index.030",
+   "id": "site.index.031",
    "kind": "site",
    "section": "index",
    "en": "git commit -m \"unlock apps\"",
    "value": "git commit -m \"unlock apps\""
   },
   {
-   "id": "site.index.031",
+   "id": "site.index.032",
    "kind": "site",
    "section": "index",
    "en": "Scroll to explore",
    "value": "Scroll om te ontdekken"
   },
   {
-   "id": "site.index.032",
+   "id": "site.index.033",
    "kind": "site",
    "section": "index",
    "en": "// How it works",
    "value": "// Hoe het werkt"
   },
   {
-   "id": "site.index.033",
+   "id": "site.index.034",
    "kind": "site",
    "section": "index",
    "en": "Turn commits into freedom",
    "value": "Maak van commits vrije tijd"
   },
   {
-   "id": "site.index.034",
+   "id": "site.index.035",
    "kind": "site",
    "section": "index",
    "en": "Setup takes 2 minutes. Then let your code do the talking.",
    "value": "Instellen duurt 2 minuten. Daarna laat je je code het woord doen."
   },
   {
-   "id": "site.index.035",
+   "id": "site.index.036",
    "kind": "site",
    "section": "index",
    "en": "Add GitHub accounts",
    "value": "GitHub-accounts toevoegen"
   },
   {
-   "id": "site.index.036",
+   "id": "site.index.037",
    "kind": "site",
    "section": "index",
    "en": "Track one account or aggregate work, personal, and open-source profiles",
    "value": "Volg één account of combineer werk-, privé- en opensourceprofielen"
   },
   {
-   "id": "site.index.037",
+   "id": "site.index.038",
    "kind": "site",
    "section": "index",
    "en": "Dashboard",
    "value": "Dashboard"
   },
   {
-   "id": "site.index.038",
+   "id": "site.index.039",
    "kind": "site",
    "section": "index",
    "en": "Track your streak, daily score, and app lock status at a glance",
    "value": "Zie in één oogopslag je reeks, dagscore en blokkeerstatus"
   },
   {
-   "id": "site.index.039",
+   "id": "site.index.040",
    "kind": "site",
    "section": "index",
    "en": "Focus Stats",
    "value": "Focusstatistieken"
   },
   {
-   "id": "site.index.040",
+   "id": "site.index.041",
    "kind": "site",
    "section": "index",
    "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
    "value": "Begin elke dag op 100 en zie hoe blokkeertijd en ontgrendelingen eraan knagen"
   },
   {
-   "id": "site.index.041",
+   "id": "site.index.042",
    "kind": "site",
    "section": "index",
    "en": "Contribution Stats",
    "value": "Bijdragestatistieken"
   },
   {
-   "id": "site.index.042",
+   "id": "site.index.043",
    "kind": "site",
    "section": "index",
    "en": "Deep dive into your GitHub activity with detailed statistics",
    "value": "Duik diep in je GitHub-activiteit met gedetailleerde statistieken"
   },
   {
-   "id": "site.index.043",
+   "id": "site.index.044",
    "kind": "site",
    "section": "index",
    "en": "Focus Timer",
    "value": "Focustimer"
   },
   {
-   "id": "site.index.044",
+   "id": "site.index.045",
    "kind": "site",
    "section": "index",
    "en": "Built-in Pomodoro timer to maximize your productivity sessions",
    "value": "Ingebouwde pomodorotimer voor maximaal productieve sessies"
   },
   {
-   "id": "site.index.045",
+   "id": "site.index.046",
    "kind": "site",
    "section": "index",
    "en": "// Features",
    "value": "// Functies"
   },
   {
-   "id": "site.index.046",
+   "id": "site.index.047",
    "kind": "site",
    "section": "index",
    "en": "Everything you need to stay focused",
    "value": "Alles wat je nodig hebt om gefocust te blijven"
   },
   {
-   "id": "site.index.047",
+   "id": "site.index.048",
    "kind": "site",
    "section": "index",
    "en": "Not just another app blocker. GitFocus gamifies productivity.",
    "value": "Niet zomaar weer een app-blokkeerder. GitFocus maakt van productiviteit een spel."
   },
   {
-   "id": "site.index.048",
+   "id": "site.index.049",
    "kind": "site",
    "section": "index",
    "en": "Earn Time",
    "value": "Tijd verdienen"
   },
   {
-   "id": "site.index.049",
+   "id": "site.index.050",
    "kind": "site",
    "section": "index",
    "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
    "value": "Elke commit vanuit je opgenomen GitHub-accounts levert ontgrendeltijd op. Houd werk, privé en opensource bij elkaar."
   },
   {
-   "id": "site.index.050",
+   "id": "site.index.051",
    "kind": "site",
    "section": "index",
    "en": "mins unlocked",
    "value": "min ontgrendeld"
   },
   {
-   "id": "site.index.051",
+   "id": "site.index.052",
    "kind": "site",
    "section": "index",
    "en": "Simulate commit",
    "value": "Commit simuleren"
   },
   {
-   "id": "site.index.052",
+   "id": "site.index.053",
    "kind": "site",
    "section": "index",
    "en": "Lives System",
    "value": "Levenssysteem"
   },
   {
-   "id": "site.index.053",
+   "id": "site.index.054",
    "kind": "site",
    "section": "index",
    "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
    "value": "Nood aan toegang? Gebruik een leven om apps tot middernacht te ontgrendelen. Je begint met 1 gratis leven."
   },
   {
-   "id": "site.index.054",
+   "id": "site.index.055",
    "kind": "site",
    "section": "index",
    "en": "Earn more through",
    "value": "Verdien er meer met"
   },
   {
-   "id": "site.index.055",
+   "id": "site.index.056",
    "kind": "site",
    "section": "index",
    "en": "streaks",
    "value": "reeksen"
   },
   {
-   "id": "site.index.056",
+   "id": "site.index.057",
    "kind": "site",
    "section": "index",
    "en": "Borrow Time",
    "value": "Tijd lenen"
   },
   {
-   "id": "site.index.057",
+   "id": "site.index.058",
    "kind": "site",
    "section": "index",
    "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
    "value": "Nog een bericht af te maken? Leen tot 5 minuten. Toekomstige commits betalen het terug."
   },
   {
-   "id": "site.index.058",
+   "id": "site.index.059",
    "kind": "site",
    "section": "index",
    "en": "Current debt:",
    "value": "Huidige schuld:"
   },
   {
-   "id": "site.index.059",
+   "id": "site.index.060",
    "kind": "site",
    "section": "index",
    "en": "0 min",
    "value": "0 min"
   },
   {
-   "id": "site.index.060",
+   "id": "site.index.061",
    "kind": "site",
    "section": "index",
    "en": "Max borrow:",
    "value": "Max. lenen:"
   },
   {
-   "id": "site.index.061",
+   "id": "site.index.062",
    "kind": "site",
    "section": "index",
    "en": "5 min",
    "value": "5 min"
   },
   {
-   "id": "site.index.062",
+   "id": "site.index.063",
    "kind": "site",
    "section": "index",
    "en": "Discipline Bank",
    "value": "Discipline-bank"
   },
   {
-   "id": "site.index.063",
+   "id": "site.index.064",
    "kind": "site",
    "section": "index",
    "en": "(Coming Soon)",
    "value": "(Binnenkort)"
   },
   {
-   "id": "site.index.064",
+   "id": "site.index.065",
    "kind": "site",
    "section": "index",
    "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
    "value": "Tijd die je verdient maar niet gebruikt, wordt gespaard. Een maat voor je zelfbeheersing."
   },
   {
-   "id": "site.index.065",
+   "id": "site.index.066",
    "kind": "site",
    "section": "index",
    "en": "minutes banked",
    "value": "minuten gespaard"
   },
   {
-   "id": "site.index.066",
+   "id": "site.index.067",
    "kind": "site",
    "section": "index",
    "en": "Challenge: Bank",
    "value": "Uitdaging: spaar"
   },
   {
-   "id": "site.index.067",
+   "id": "site.index.068",
    "kind": "site",
    "section": "index",
    "en": "1000 min",
    "value": "1000 min"
   },
   {
-   "id": "site.index.068",
+   "id": "site.index.069",
    "kind": "site",
    "section": "index",
    "en": "this year",
    "value": "dit jaar"
   },
   {
-   "id": "site.index.069",
+   "id": "site.index.070",
    "kind": "site",
    "section": "index",
    "en": "Streak Milestones",
    "value": "Reeks-mijlpalen"
   },
   {
-   "id": "site.index.070",
+   "id": "site.index.071",
    "kind": "site",
    "section": "index",
    "en": "Build your streak to unlock permanent rewards.",
    "value": "Bouw je reeks op en ontgrendel blijvende beloningen."
   },
   {
-   "id": "site.index.071",
+   "id": "site.index.072",
    "kind": "site",
    "section": "index",
    "en": "14d",
    "value": "14 d"
   },
   {
-   "id": "site.index.072",
+   "id": "site.index.073",
    "kind": "site",
    "section": "index",
    "en": "+1 extra life",
    "value": "+1 extra leven"
   },
   {
-   "id": "site.index.073",
+   "id": "site.index.074",
    "kind": "site",
    "section": "index",
    "en": "30d",
    "value": "30 d"
   },
   {
-   "id": "site.index.074",
+   "id": "site.index.075",
    "kind": "site",
    "section": "index",
    "en": "Weekly time bank",
    "value": "Wekelijkse tijdbank"
   },
   {
-   "id": "site.index.075",
+   "id": "site.index.076",
    "kind": "site",
    "section": "index",
    "en": "90d",
    "value": "90 d"
   },
   {
-   "id": "site.index.076",
+   "id": "site.index.077",
    "kind": "site",
    "section": "index",
    "en": "Time never expires",
    "value": "Tijd verloopt nooit"
   },
   {
-   "id": "site.index.077",
+   "id": "site.index.078",
    "kind": "site",
    "section": "index",
    "en": "Privacy First",
    "value": "Privacy voorop"
   },
   {
-   "id": "site.index.078",
+   "id": "site.index.079",
    "kind": "site",
    "section": "index",
    "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
    "value": "Geen GitFocus-account. Geen GitHub-login. Alles blijft op je apparaat."
   },
   {
-   "id": "site.index.079",
+   "id": "site.index.080",
    "kind": "site",
    "section": "index",
    "en": "Works offline",
    "value": "Werkt offline"
   },
   {
-   "id": "site.index.080",
+   "id": "site.index.081",
    "kind": "site",
    "section": "index",
    "en": "No tracking",
    "value": "Geen tracking"
   },
   {
-   "id": "site.index.081",
+   "id": "site.index.082",
    "kind": "site",
    "section": "index",
    "en": "Open source friendly",
    "value": "Opensourcevriendelijk"
   },
   {
-   "id": "site.index.082",
+   "id": "site.index.083",
    "kind": "site",
    "section": "index",
    "en": "Ready to ship more code?",
    "value": "Klaar om meer code te shippen?"
   },
   {
-   "id": "site.index.083",
+   "id": "site.index.084",
    "kind": "site",
    "section": "index",
    "en": "Join developers who've turned procrastination into productivity.",
    "value": "Sluit je aan bij ontwikkelaars die uitstelgedrag in productiviteit hebben omgezet."
   },
   {
-   "id": "site.index.084",
+   "id": "site.index.085",
    "kind": "site",
    "section": "index",
    "en": "Free to use. No subscription required.",
    "value": "Gratis te gebruiken. Geen abonnement nodig."
   },
   {
-   "id": "site.index.085",
+   "id": "site.index.086",
    "kind": "site",
    "section": "index",
    "en": "Privacy Policy",
    "value": "Privacybeleid"
   },
   {
-   "id": "site.index.086",
+   "id": "site.index.087",
    "kind": "site",
    "section": "index",
    "en": "Support",
    "value": "Support"
   },
   {
-   "id": "site.index.087",
+   "id": "site.index.088",
    "kind": "site",
    "section": "index",
    "en": "Accessibility",
    "value": "Toegankelijkheid"
   },
   {
-   "id": "site.index.088",
+   "id": "site.index.089",
    "kind": "site",
    "section": "index",
    "en": "Contact",
    "value": "Contact"
   },
   {
-   "id": "site.index.089",
+   "id": "site.index.090",
    "kind": "site",
    "section": "index",
    "en": "© 2026 GitFocus. Made with git and focus.",
@@ -4670,634 +4677,641 @@
    "id": "site.support.025",
    "kind": "site",
    "section": "support",
+   "en": "Translation wrong? Report it here",
+   "value": "Vertaling fout? Meld het hier"
+  },
+  {
+   "id": "site.support.026",
+   "kind": "site",
+   "section": "support",
    "en": "// Support",
    "value": "// Ondersteuning"
   },
   {
-   "id": "site.support.026",
+   "id": "site.support.027",
    "kind": "site",
    "section": "support",
    "en": "How can we help?",
    "value": "Hoe kunnen we je helpen?"
   },
   {
-   "id": "site.support.027",
+   "id": "site.support.028",
    "kind": "site",
    "section": "support",
    "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
    "value": "Vind antwoorden op veelgestelde vragen of neem direct contact op. We reageren doorgaans binnen 24 uur."
   },
   {
-   "id": "site.support.028",
+   "id": "site.support.029",
    "kind": "site",
    "section": "support",
    "en": "Get in Touch",
    "value": "Neem contact op"
   },
   {
-   "id": "site.support.029",
+   "id": "site.support.030",
    "kind": "site",
    "section": "support",
    "en": "Have a question, bug report, or feature request?",
    "value": "Heb je een vraag, bugmelding of functieverzoek?"
   },
   {
-   "id": "site.support.030",
+   "id": "site.support.031",
    "kind": "site",
    "section": "support",
    "en": "We'd love to hear from you.",
    "value": "We horen graag van je."
   },
   {
-   "id": "site.support.031",
+   "id": "site.support.032",
    "kind": "site",
    "section": "support",
    "en": "Chat with us",
    "value": "Chat met ons"
   },
   {
-   "id": "site.support.032",
+   "id": "site.support.033",
    "kind": "site",
    "section": "support",
    "en": "or email us at",
    "value": "of mail ons op"
   },
   {
-   "id": "site.support.033",
+   "id": "site.support.034",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.support.034",
+   "id": "site.support.035",
    "kind": "site",
    "section": "support",
    "en": "Frequently Asked Questions",
    "value": "Veelgestelde vragen"
   },
   {
-   "id": "site.support.035",
+   "id": "site.support.036",
    "kind": "site",
    "section": "support",
    "en": "All",
    "value": "Alle"
   },
   {
-   "id": "site.support.036",
+   "id": "site.support.037",
    "kind": "site",
    "section": "support",
    "en": "Setup",
    "value": "Installatie"
   },
   {
-   "id": "site.support.037",
+   "id": "site.support.038",
    "kind": "site",
    "section": "support",
    "en": "Features",
    "value": "Functies"
   },
   {
-   "id": "site.support.038",
+   "id": "site.support.039",
    "kind": "site",
    "section": "support",
    "en": "Troubleshooting",
    "value": "Probleemoplossing"
   },
   {
-   "id": "site.support.039",
+   "id": "site.support.040",
    "kind": "site",
    "section": "support",
    "en": "Do I need to connect my GitHub account?",
    "value": "Moet ik mijn GitHub-account verbinden?"
   },
   {
-   "id": "site.support.040",
+   "id": "site.support.041",
    "kind": "site",
    "section": "support",
    "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
    "value": "Nee! GitFocus heeft alleen de GitHub-gebruikersnaam of gebruikersnamen nodig die je wilt volgen. We lezen openbare bijdragegrafieken (de groene vierkantjes op profielen) om commits te detecteren. Geen OAuth, geen tokens, geen wachtwoorden vereist."
   },
   {
-   "id": "site.support.041",
+   "id": "site.support.042",
    "kind": "site",
    "section": "support",
    "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
    "value": "Je kunt meerdere GitHub-accounts toevoegen en beslissen welke meetellen voor commitdetectie."
   },
   {
-   "id": "site.support.042",
+   "id": "site.support.043",
    "kind": "site",
    "section": "support",
    "en": "Why do you need Screen Time permissions?",
    "value": "Waarom hebben jullie Schermtijd-machtigingen nodig?"
   },
   {
-   "id": "site.support.043",
+   "id": "site.support.044",
    "kind": "site",
    "section": "support",
    "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
    "value": "GitFocus gebruikt Apple's Screen Time API om apps te blokkeren. Dit is hetzelfde veilige systeem dat Apple's ingebouwde ouderlijk toezicht aandrijft. We hebben toestemming nodig om app-beperkingen namens jou toe te passen."
   },
   {
-   "id": "site.support.044",
+   "id": "site.support.045",
    "kind": "site",
    "section": "support",
    "en": "Does GitFocus work with private repositories?",
    "value": "Werkt GitFocus met privérepository's?"
   },
   {
-   "id": "site.support.045",
+   "id": "site.support.046",
    "kind": "site",
    "section": "support",
    "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
    "value": "Ja! GitHub telt standaard alle commits (openbaar en privé) in jouw bijdragegrafiek. Zolang jouw bijdrage-instellingen zijn ingesteld om \"Privébijdragen\" te tonen, zullen we ze zien."
   },
   {
-   "id": "site.support.046",
+   "id": "site.support.047",
    "kind": "site",
    "section": "support",
    "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
    "value": "Ga naar je GitHub-profiel → Bijdrage-instellingen → Vink \"Privébijdragen\" aan"
   },
   {
-   "id": "site.support.047",
+   "id": "site.support.048",
    "kind": "site",
    "section": "support",
    "en": "How much time does each commit earn?",
    "value": "Hoeveel tijd levert elke commit op?"
   },
   {
-   "id": "site.support.048",
+   "id": "site.support.049",
    "kind": "site",
    "section": "support",
    "en": "Each commit earns you",
    "value": "Elke commit levert je"
   },
   {
-   "id": "site.support.049",
+   "id": "site.support.050",
    "kind": "site",
    "section": "support",
    "en": "5 minutes",
    "value": "5 minuten"
   },
   {
-   "id": "site.support.050",
+   "id": "site.support.051",
    "kind": "site",
    "section": "support",
    "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
    "value": "ontgrendeltijd op. 3 commits gepusht? Dat is 15 minuten schuldvrij Twitter scrollen."
   },
   {
-   "id": "site.support.051",
+   "id": "site.support.052",
    "kind": "site",
    "section": "support",
    "en": "What are \"Lives\" and how do they work?",
    "value": "Wat zijn \"Levens\" en hoe werken ze?"
   },
   {
-   "id": "site.support.052",
+   "id": "site.support.053",
    "kind": "site",
    "section": "support",
    "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
    "value": "Levens zijn noodontgrendelingen. Wanneer je een leven gebruikt, worden al jouw geblokkeerde apps ontgrendeld tot middernacht. Je begint met 1 gratis leven en kunt er meer verdienen door streaks:"
   },
   {
-   "id": "site.support.053",
+   "id": "site.support.054",
    "kind": "site",
    "section": "support",
    "en": "14-day streak: +1 life",
    "value": "14-daagse streak: +1 leven"
   },
   {
-   "id": "site.support.054",
+   "id": "site.support.055",
    "kind": "site",
    "section": "support",
    "en": "Then +1 life every month you maintain the streak",
    "value": "Daarna +1 leven elke maand dat je de streak behoudt"
   },
   {
-   "id": "site.support.055",
+   "id": "site.support.056",
    "kind": "site",
    "section": "support",
    "en": "What is the \"Borrow Time\" feature?",
    "value": "Wat is de \"Tijd lenen\"-functie?"
   },
   {
-   "id": "site.support.056",
+   "id": "site.support.057",
    "kind": "site",
    "section": "support",
    "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
    "value": "Moet je snel een bericht afmaken maar heb je geen ontgrendeltijd? Je kunt tot 5 minuten lenen. Dit creëert \"schuld\" die wordt terugbetaald uit jouw toekomstige commit-verdiensten."
   },
   {
-   "id": "site.support.057",
+   "id": "site.support.058",
    "kind": "site",
    "section": "support",
    "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
    "value": "Voorbeeld: Je leent 3 minuten. Je volgende commit levert 5 minuten op, maar 3 gaan naar het afbetalen van de schuld, wat je 2 minuten overlaat."
   },
   {
-   "id": "site.support.058",
+   "id": "site.support.059",
    "kind": "site",
    "section": "support",
    "en": "What is the Discipline Bank?",
    "value": "Wat is de Discipline Bank?"
   },
   {
-   "id": "site.support.059",
+   "id": "site.support.060",
    "kind": "site",
    "section": "support",
    "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
    "value": "De Discipline Bank houdt tijd bij die je hebt verdiend maar niet hebt gebruikt. Het is een maatstaf voor jouw zelfbeheersing. Elke minuut die je verdient maar niet besteedt aan afleidingen gaat in jouw bank."
   },
   {
-   "id": "site.support.060",
+   "id": "site.support.061",
    "kind": "site",
    "section": "support",
    "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
    "value": "Daag jezelf uit: Hoeveel minuten kun je sparen tegen het einde van het jaar?"
   },
   {
-   "id": "site.support.061",
+   "id": "site.support.062",
    "kind": "site",
    "section": "support",
    "en": "What are the streak milestone rewards?",
    "value": "Wat zijn de streak-mijlpaalbeloningen?"
   },
   {
-   "id": "site.support.062",
+   "id": "site.support.063",
    "kind": "site",
    "section": "support",
    "en": "Building a streak unlocks permanent perks:",
    "value": "Het opbouwen van een streak ontgrendelt permanente voordelen:"
   },
   {
-   "id": "site.support.063",
+   "id": "site.support.064",
    "kind": "site",
    "section": "support",
    "en": "14 days:",
    "value": "14 dagen:"
   },
   {
-   "id": "site.support.064",
+   "id": "site.support.065",
    "kind": "site",
    "section": "support",
    "en": "+1 extra life (then +1/month)",
    "value": "+1 extra leven (daarna +1/maand)"
   },
   {
-   "id": "site.support.065",
+   "id": "site.support.066",
    "kind": "site",
    "section": "support",
    "en": "30 days:",
    "value": "30 dagen:"
   },
   {
-   "id": "site.support.066",
+   "id": "site.support.067",
    "kind": "site",
    "section": "support",
    "en": "Weekly time bank (unused time resets weekly instead of daily)",
    "value": "Wekelijkse tijdbank (ongebruikte tijd wordt wekelijks gereset in plaats van dagelijks)"
   },
   {
-   "id": "site.support.067",
+   "id": "site.support.068",
    "kind": "site",
    "section": "support",
    "en": "90 days:",
    "value": "90 dagen:"
   },
   {
-   "id": "site.support.068",
+   "id": "site.support.069",
    "kind": "site",
    "section": "support",
    "en": "Permanent time (earned time never expires)",
    "value": "Permanente tijd (verdiende tijd verloopt nooit)"
   },
   {
-   "id": "site.support.069",
+   "id": "site.support.070",
    "kind": "site",
    "section": "support",
    "en": "My commits aren't being detected",
    "value": "Mijn commits worden niet gedetecteerd"
   },
   {
-   "id": "site.support.070",
+   "id": "site.support.071",
    "kind": "site",
    "section": "support",
    "en": "Here are some things to check:",
    "value": "Hier zijn enkele dingen om te controleren:"
   },
   {
-   "id": "site.support.071",
+   "id": "site.support.072",
    "kind": "site",
    "section": "support",
    "en": "Make sure your GitHub username is entered correctly",
    "value": "Zorg ervoor dat je GitHub-gebruikersnaam correct is ingevoerd"
   },
   {
-   "id": "site.support.072",
+   "id": "site.support.073",
    "kind": "site",
    "section": "support",
    "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
    "value": "Als je meerdere accounts gebruikt, controleer dan of de juiste accounts zijn ingeschakeld voor commitdetectie"
   },
   {
-   "id": "site.support.073",
+   "id": "site.support.074",
    "kind": "site",
    "section": "support",
    "en": "Check that your commits show up on your GitHub profile's contribution graph",
    "value": "Controleer of jouw commits verschijnen in de bijdragegrafiek van je GitHub-profiel"
   },
   {
-   "id": "site.support.074",
+   "id": "site.support.075",
    "kind": "site",
    "section": "support",
    "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
    "value": "Als je privérepository's gebruikt, zorg er dan voor dat \"Privébijdragen\" is ingeschakeld in de GitHub-instellingen"
   },
   {
-   "id": "site.support.075",
+   "id": "site.support.076",
    "kind": "site",
    "section": "support",
    "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
    "value": "Wacht een paar minuten — de bijdragegrafiek van GitHub kan tijd nodig hebben om bij te werken"
   },
   {
-   "id": "site.support.076",
+   "id": "site.support.077",
    "kind": "site",
    "section": "support",
    "en": "Apps aren't being blocked",
    "value": "Apps worden niet geblokkeerd"
   },
   {
-   "id": "site.support.077",
+   "id": "site.support.078",
    "kind": "site",
    "section": "support",
    "en": "Make sure you've:",
    "value": "Zorg ervoor dat je:"
   },
   {
-   "id": "site.support.078",
+   "id": "site.support.079",
    "kind": "site",
    "section": "support",
    "en": "Granted Screen Time permissions during setup",
    "value": "Schermtijd-machtigingen hebt verleend tijdens de installatie"
   },
   {
-   "id": "site.support.079",
+   "id": "site.support.080",
    "kind": "site",
    "section": "support",
    "en": "Selected at least one app or category to block",
    "value": "Minstens één app of categorie hebt geselecteerd om te blokkeren"
   },
   {
-   "id": "site.support.080",
+   "id": "site.support.081",
    "kind": "site",
    "section": "support",
    "en": "Started a focus session from the main screen",
    "value": "Een focussessie hebt gestart vanaf het hoofdscherm"
   },
   {
-   "id": "site.support.081",
+   "id": "site.support.082",
    "kind": "site",
    "section": "support",
    "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
    "value": "Als problemen aanhouden, probeer dan naar iOS-instellingen → Schermtijd te gaan en zorg ervoor dat GitFocus de benodigde machtigingen heeft."
   },
   {
-   "id": "site.support.082",
+   "id": "site.support.083",
    "kind": "site",
    "section": "support",
    "en": "The app crashed or is behaving unexpectedly",
    "value": "De app is gecrasht of gedraagt zich onverwacht"
   },
   {
-   "id": "site.support.083",
+   "id": "site.support.084",
    "kind": "site",
    "section": "support",
    "en": "Try these steps:",
    "value": "Probeer deze stappen:"
   },
   {
-   "id": "site.support.084",
+   "id": "site.support.085",
    "kind": "site",
    "section": "support",
    "en": "Force quit and reopen the app",
    "value": "Forceer afsluiten en heropen de app"
   },
   {
-   "id": "site.support.085",
+   "id": "site.support.086",
    "kind": "site",
    "section": "support",
    "en": "Restart your device",
    "value": "Herstart je apparaat"
   },
   {
-   "id": "site.support.086",
+   "id": "site.support.087",
    "kind": "site",
    "section": "support",
    "en": "Make sure you're on the latest version of GitFocus",
    "value": "Zorg ervoor dat je de nieuwste versie van GitFocus hebt"
   },
   {
-   "id": "site.support.087",
+   "id": "site.support.088",
    "kind": "site",
    "section": "support",
    "en": "If the issue persists, email us at",
    "value": "Als het probleem aanhoudt, mail ons dan op"
   },
   {
-   "id": "site.support.088",
+   "id": "site.support.089",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.support.089",
+   "id": "site.support.090",
    "kind": "site",
    "section": "support",
    "en": "with details about what happened",
    "value": "met details over wat er is gebeurd"
   },
   {
-   "id": "site.support.090",
+   "id": "site.support.091",
    "kind": "site",
    "section": "support",
    "en": "How do I reset or start over?",
    "value": "Hoe reset ik of begin ik opnieuw?"
   },
   {
-   "id": "site.support.091",
+   "id": "site.support.092",
    "kind": "site",
    "section": "support",
    "en": "To completely reset GitFocus:",
    "value": "Om GitFocus volledig te resetten:"
   },
   {
-   "id": "site.support.092",
+   "id": "site.support.093",
    "kind": "site",
    "section": "support",
    "en": "Delete the app from your device",
    "value": "Verwijder de app van je apparaat"
   },
   {
-   "id": "site.support.093",
+   "id": "site.support.094",
    "kind": "site",
    "section": "support",
    "en": "Reinstall from the App Store",
    "value": "Herinstalleer vanaf de App Store"
   },
   {
-   "id": "site.support.094",
+   "id": "site.support.095",
    "kind": "site",
    "section": "support",
    "en": "Go through the onboarding again",
    "value": "Doorloop het onboardingproces opnieuw"
   },
   {
-   "id": "site.support.095",
+   "id": "site.support.096",
    "kind": "site",
    "section": "support",
    "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
    "value": "Opmerking: Je GitHub-gebruikersnaam of accountlijst wordt veilig opgeslagen voor het gemak, dus deze kan vooraf zijn ingevuld wanneer je opnieuw installeert."
   },
   {
-   "id": "site.support.096",
+   "id": "site.support.097",
    "kind": "site",
    "section": "support",
    "en": "Quick Troubleshooting",
    "value": "Snelle probleemoplossing"
   },
   {
-   "id": "site.support.097",
+   "id": "site.support.098",
    "kind": "site",
    "section": "support",
    "en": "Force Refresh",
    "value": "Ververs geforceerd"
   },
   {
-   "id": "site.support.098",
+   "id": "site.support.099",
    "kind": "site",
    "section": "support",
    "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
    "value": "Trek naar beneden op het hoofdscherm om je commitgegevens van GitHub handmatig te vernieuwen."
   },
   {
-   "id": "site.support.099",
+   "id": "site.support.100",
    "kind": "site",
    "section": "support",
    "en": "Check Permissions",
    "value": "Controleer machtigingen"
   },
   {
-   "id": "site.support.100",
+   "id": "site.support.101",
    "kind": "site",
    "section": "support",
    "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
    "value": "Ga naar iOS-instellingen → Schermtijd → GitFocus om te controleren of machtigingen zijn verleend."
   },
   {
-   "id": "site.support.101",
+   "id": "site.support.102",
    "kind": "site",
    "section": "support",
    "en": "Verify GitHub",
    "value": "Verifieer GitHub"
   },
   {
-   "id": "site.support.102",
+   "id": "site.support.103",
    "kind": "site",
    "section": "support",
    "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
    "value": "Bezoek github.com/[jouw-gebruikersnaam] en controleer of je bijdragegrafiek recente commits toont."
   },
   {
-   "id": "site.support.103",
+   "id": "site.support.104",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "Privacybeleid"
   },
   {
-   "id": "site.support.104",
+   "id": "site.support.105",
    "kind": "site",
    "section": "support",
    "en": "Learn how we protect your data",
    "value": "Leer hoe we jouw gegevens beschermen"
   },
   {
-   "id": "site.support.105",
+   "id": "site.support.106",
    "kind": "site",
    "section": "support",
    "en": "Report a Bug",
    "value": "Meld een bug"
   },
   {
-   "id": "site.support.106",
+   "id": "site.support.107",
    "kind": "site",
    "section": "support",
    "en": "Help us improve GitFocus",
    "value": "Help ons GitFocus te verbeteren"
   },
   {
-   "id": "site.support.107",
+   "id": "site.support.108",
    "kind": "site",
    "section": "support",
    "en": "Request a Feature",
    "value": "Verzoek een functie"
   },
   {
-   "id": "site.support.108",
+   "id": "site.support.109",
    "kind": "site",
    "section": "support",
    "en": "Tell us what you'd like to see",
    "value": "Vertel ons wat je zou willen zien"
   },
   {
-   "id": "site.support.109",
+   "id": "site.support.110",
    "kind": "site",
    "section": "support",
    "en": "Localization Feedback",
    "value": "Vertaalfeedback"
   },
   {
-   "id": "site.support.110",
+   "id": "site.support.111",
    "kind": "site",
    "section": "support",
    "en": "Review the translations and suggest fixes",
    "value": "Bekijk de vertalingen en stel verbeteringen voor"
   },
   {
-   "id": "site.support.111",
+   "id": "site.support.112",
    "kind": "site",
    "section": "support",
    "en": "Home",
    "value": "Home"
   },
   {
-   "id": "site.support.112",
+   "id": "site.support.113",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "Privacybeleid"
   },
   {
-   "id": "site.support.113",
+   "id": "site.support.114",
    "kind": "site",
    "section": "support",
    "en": "Support",
    "value": "Support"
   },
   {
-   "id": "site.support.114",
+   "id": "site.support.115",
    "kind": "site",
    "section": "support",
    "en": "Accessibility",
    "value": "Toegankelijkheid"
   },
   {
-   "id": "site.support.115",
+   "id": "site.support.116",
    "kind": "site",
    "section": "support",
    "en": "© 2026 GitFocus",
@@ -5482,760 +5496,767 @@
    "id": "site.privacy.025",
    "kind": "site",
    "section": "privacy",
+   "en": "Translation wrong? Report it here",
+   "value": "Vertaling fout? Meld het hier"
+  },
+  {
+   "id": "site.privacy.026",
+   "kind": "site",
+   "section": "privacy",
    "en": "// Privacy Policy",
    "value": "// Privacybeleid"
   },
   {
-   "id": "site.privacy.026",
+   "id": "site.privacy.027",
    "kind": "site",
    "section": "privacy",
    "en": "Your data stays yours",
    "value": "Jouw gegevens blijven van jou"
   },
   {
-   "id": "site.privacy.027",
+   "id": "site.privacy.028",
    "kind": "site",
    "section": "privacy",
    "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
    "value": "We hebben GitFocus gebouwd met privacy als kernprincipe. Hier is precies wat we doen (en niet doen) met jouw informatie."
   },
   {
-   "id": "site.privacy.028",
+   "id": "site.privacy.029",
    "kind": "site",
    "section": "privacy",
    "en": "Last updated: January 2026",
    "value": "Laatst bijgewerkt: januari 2026"
   },
   {
-   "id": "site.privacy.029",
+   "id": "site.privacy.030",
    "kind": "site",
    "section": "privacy",
    "en": "// TL;DR",
    "value": "// Kort samengevat"
   },
   {
-   "id": "site.privacy.030",
+   "id": "site.privacy.031",
    "kind": "site",
    "section": "privacy",
    "en": "We don't collect your data. Period.",
    "value": "We verzamelen jouw gegevens niet. Punt."
   },
   {
-   "id": "site.privacy.031",
+   "id": "site.privacy.032",
    "kind": "site",
    "section": "privacy",
    "en": "No accounts required",
    "value": "Geen accounts vereist"
   },
   {
-   "id": "site.privacy.032",
+   "id": "site.privacy.033",
    "kind": "site",
    "section": "privacy",
    "en": "Everything on-device",
    "value": "Alles op je apparaat"
   },
   {
-   "id": "site.privacy.033",
+   "id": "site.privacy.034",
    "kind": "site",
    "section": "privacy",
    "en": "No tracking or analytics",
    "value": "Geen tracking of analytics"
   },
   {
-   "id": "site.privacy.034",
+   "id": "site.privacy.035",
    "kind": "site",
    "section": "privacy",
    "en": "Works offline",
    "value": "Werkt offline"
   },
   {
-   "id": "site.privacy.035",
+   "id": "site.privacy.036",
    "kind": "site",
    "section": "privacy",
    "en": "Data We Collect",
    "value": "Gegevens die we verzamelen"
   },
   {
-   "id": "site.privacy.036",
+   "id": "site.privacy.037",
    "kind": "site",
    "section": "privacy",
    "en": "None.",
    "value": "Geen."
   },
   {
-   "id": "site.privacy.037",
+   "id": "site.privacy.038",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
    "value": "GitFocus verzamelt, bewaart of verzendt geen persoonlijke gegevens naar onze servers omdat we geen servers hebben om ze naar te verzenden."
   },
   {
-   "id": "site.privacy.038",
+   "id": "site.privacy.039",
    "kind": "site",
    "section": "privacy",
    "en": "Everything the app needs to function is stored locally on your device:",
    "value": "Alles wat de app nodig heeft om te functioneren, wordt lokaal op je apparaat opgeslagen:"
   },
   {
-   "id": "site.privacy.039",
+   "id": "site.privacy.040",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub username or usernames (to check public commits)",
    "value": "Jouw GitHub-gebruikersnaam of gebruikersnamen (om openbare commits te controleren)"
   },
   {
-   "id": "site.privacy.040",
+   "id": "site.privacy.041",
    "kind": "site",
    "section": "privacy",
    "en": "Your app selection preferences",
    "value": "Jouw app-selectievoorkeuren"
   },
   {
-   "id": "site.privacy.041",
+   "id": "site.privacy.042",
    "kind": "site",
    "section": "privacy",
    "en": "Your focus session history",
    "value": "Jouw focussessiegeschiedenis"
   },
   {
-   "id": "site.privacy.042",
+   "id": "site.privacy.043",
    "kind": "site",
    "section": "privacy",
    "en": "Your earned time and streak data",
    "value": "Jouw verdiende tijd en streak-gegevens"
   },
   {
-   "id": "site.privacy.043",
+   "id": "site.privacy.044",
    "kind": "site",
    "section": "privacy",
    "en": "GitHub Integration",
    "value": "GitHub-integratie"
   },
   {
-   "id": "site.privacy.044",
+   "id": "site.privacy.045",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
    "value": "GitFocus leest openbare GitHub-bijdragegegevens voor de gebruikersnaam of gebruikersnamen die je toevoegt om te bepalen wanneer je commits hebt gemaakt. Zo werkt het:"
   },
   {
-   "id": "site.privacy.045",
+   "id": "site.privacy.046",
    "kind": "site",
    "section": "privacy",
    "en": "What We Access",
    "value": "Wat we benaderen"
   },
   {
-   "id": "site.privacy.046",
+   "id": "site.privacy.047",
    "kind": "site",
    "section": "privacy",
    "en": "Your public GitHub profile page",
    "value": "Jouw openbare GitHub-profielpagina"
   },
   {
-   "id": "site.privacy.047",
+   "id": "site.privacy.048",
    "kind": "site",
    "section": "privacy",
    "en": "Your public contribution graph (the green squares)",
    "value": "Jouw openbare bijdragegrafiek (de groene vierkantjes)"
   },
   {
-   "id": "site.privacy.048",
+   "id": "site.privacy.049",
    "kind": "site",
    "section": "privacy",
    "en": "Commit counts per day (not commit contents)",
    "value": "Aantal commits per dag (niet de commit-inhoud)"
   },
   {
-   "id": "site.privacy.049",
+   "id": "site.privacy.050",
    "kind": "site",
    "section": "privacy",
    "en": "What We Don't Access",
    "value": "Wat we niet benaderen"
   },
   {
-   "id": "site.privacy.050",
+   "id": "site.privacy.051",
    "kind": "site",
    "section": "privacy",
    "en": "Private repositories",
    "value": "Privérepository's"
   },
   {
-   "id": "site.privacy.051",
+   "id": "site.privacy.052",
    "kind": "site",
    "section": "privacy",
    "en": "Commit messages or code",
    "value": "Commit-berichten of code"
   },
   {
-   "id": "site.privacy.052",
+   "id": "site.privacy.053",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub password or tokens",
    "value": "Jouw GitHub-wachtwoord of tokens"
   },
   {
-   "id": "site.privacy.053",
+   "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
    "en": "Any GitHub API with authentication",
    "value": "Geen GitHub API met authenticatie"
   },
   {
-   "id": "site.privacy.054",
+   "id": "site.privacy.055",
    "kind": "site",
    "section": "privacy",
    "en": "No OAuth Required",
    "value": "Geen OAuth vereist"
   },
   {
-   "id": "site.privacy.055",
+   "id": "site.privacy.056",
    "kind": "site",
    "section": "privacy",
    "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
    "value": "We hebben GitFocus opzettelijk ontworpen om te werken zonder GitHub-authenticatie. Je kunt een of meerdere GitHub-gebruikersnamen toevoegen, en we lezen alleen openbaar beschikbare informatie die iedereen kan zien door die GitHub-profielen te bezoeken."
   },
   {
-   "id": "site.privacy.056",
+   "id": "site.privacy.057",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time & App Blocking",
    "value": "Schermtijd en app-blokkering"
   },
   {
-   "id": "site.privacy.057",
+   "id": "site.privacy.058",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
    "value": "GitFocus gebruikt Apple's Screen Time API (Family Controls framework) om apps te blokkeren. Dit is hetzelfde veilige systeem dat Apple's ingebouwde Schermtijd-functies aandrijft."
   },
   {
-   "id": "site.privacy.058",
+   "id": "site.privacy.059",
    "kind": "site",
    "section": "privacy",
    "en": "How It Works",
    "value": "Hoe het werkt"
   },
   {
-   "id": "site.privacy.059",
+   "id": "site.privacy.060",
    "kind": "site",
    "section": "privacy",
    "en": "App blocking is handled entirely by iOS, not our code",
    "value": "App-blokkering wordt volledig door iOS afgehandeld, niet door onze code"
   },
   {
-   "id": "site.privacy.060",
+   "id": "site.privacy.061",
    "kind": "site",
    "section": "privacy",
    "en": "We never see which apps you use or for how long",
    "value": "We zien nooit welke apps je gebruikt of hoe lang"
   },
   {
-   "id": "site.privacy.061",
+   "id": "site.privacy.062",
    "kind": "site",
    "section": "privacy",
    "en": "Apple's privacy protections apply to all Screen Time data",
    "value": "Apple's privacybescherming is van toepassing op alle Schermtijd-gegevens"
   },
   {
-   "id": "site.privacy.062",
+   "id": "site.privacy.063",
    "kind": "site",
    "section": "privacy",
    "en": "We only receive anonymized \"tokens\" that represent apps",
    "value": "We ontvangen alleen geanonimiseerde \"tokens\" die apps vertegenwoordigen"
   },
   {
-   "id": "site.privacy.063",
+   "id": "site.privacy.064",
    "kind": "site",
    "section": "privacy",
    "en": "What We Can't See",
    "value": "Wat we niet kunnen zien"
   },
   {
-   "id": "site.privacy.064",
+   "id": "site.privacy.065",
    "kind": "site",
    "section": "privacy",
    "en": "Your app usage statistics",
    "value": "Jouw app-gebruiksstatistieken"
   },
   {
-   "id": "site.privacy.065",
+   "id": "site.privacy.066",
    "kind": "site",
    "section": "privacy",
    "en": "When you open or close apps",
    "value": "Wanneer je apps opent of sluit"
   },
   {
-   "id": "site.privacy.066",
+   "id": "site.privacy.067",
    "kind": "site",
    "section": "privacy",
    "en": "How long you spend in any app",
    "value": "Hoe lang je in een app doorbrengt"
   },
   {
-   "id": "site.privacy.067",
+   "id": "site.privacy.068",
    "kind": "site",
    "section": "privacy",
    "en": "The actual names of apps you select (only tokens)",
    "value": "De daadwerkelijke namen van apps die je selecteert (alleen tokens)"
   },
   {
-   "id": "site.privacy.068",
+   "id": "site.privacy.069",
    "kind": "site",
    "section": "privacy",
    "en": "Local Data Storage",
    "value": "Lokale gegevensopslag"
   },
   {
-   "id": "site.privacy.069",
+   "id": "site.privacy.070",
    "kind": "site",
    "section": "privacy",
    "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
    "value": "Al jouw gegevens worden op je apparaat opgeslagen met behulp van Apple's veilige opslagmechanismen:"
   },
   {
-   "id": "site.privacy.070",
+   "id": "site.privacy.071",
    "kind": "site",
    "section": "privacy",
    "en": "UserDefaults",
    "value": "UserDefaults"
   },
   {
-   "id": "site.privacy.071",
+   "id": "site.privacy.072",
    "kind": "site",
    "section": "privacy",
    "en": "— Settings and preferences",
    "value": "— Instellingen en voorkeuren"
   },
   {
-   "id": "site.privacy.072",
+   "id": "site.privacy.073",
    "kind": "site",
    "section": "privacy",
    "en": "Keychain",
    "value": "Keychain"
   },
   {
-   "id": "site.privacy.073",
+   "id": "site.privacy.074",
    "kind": "site",
    "section": "privacy",
    "en": "— Your primary GitHub username (for persistence across reinstalls)",
    "value": "— Jouw primaire GitHub-gebruikersnaam (voor persistentie bij herinstallaties)"
   },
   {
-   "id": "site.privacy.074",
+   "id": "site.privacy.075",
    "kind": "site",
    "section": "privacy",
    "en": "App Group",
    "value": "App Group"
   },
   {
-   "id": "site.privacy.075",
+   "id": "site.privacy.076",
    "kind": "site",
    "section": "privacy",
    "en": "— Shared data between app and extensions",
    "value": "— Gedeelde gegevens tussen app en extensies"
   },
   {
-   "id": "site.privacy.076",
+   "id": "site.privacy.077",
    "kind": "site",
    "section": "privacy",
    "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
    "value": "Deze gegevens worden door iOS versleuteld en beschermd door jouw apparaatcode. Als je de app verwijdert, worden jouw lokale gegevens ook verwijderd."
   },
   {
-   "id": "site.privacy.077",
+   "id": "site.privacy.078",
    "kind": "site",
    "section": "privacy",
    "en": "Third-Party Services",
    "value": "Diensten van derden"
   },
   {
-   "id": "site.privacy.078",
+   "id": "site.privacy.079",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
    "value": "GitFocus gebruikt geen analytics, crashrapportage of advertentiediensten van derden. We integreren niet met:"
   },
   {
-   "id": "site.privacy.079",
+   "id": "site.privacy.080",
    "kind": "site",
    "section": "privacy",
    "en": "Google Analytics",
    "value": "Google Analytics"
   },
   {
-   "id": "site.privacy.080",
+   "id": "site.privacy.081",
    "kind": "site",
    "section": "privacy",
    "en": "Firebase",
    "value": "Firebase"
   },
   {
-   "id": "site.privacy.081",
+   "id": "site.privacy.082",
    "kind": "site",
    "section": "privacy",
    "en": "Crashlytics",
    "value": "Crashlytics"
   },
   {
-   "id": "site.privacy.082",
+   "id": "site.privacy.083",
    "kind": "site",
    "section": "privacy",
    "en": "Facebook SDK",
    "value": "Facebook SDK"
   },
   {
-   "id": "site.privacy.083",
+   "id": "site.privacy.084",
    "kind": "site",
    "section": "privacy",
    "en": "Any advertising networks",
    "value": "Advertentienetwerken"
   },
   {
-   "id": "site.privacy.084",
+   "id": "site.privacy.085",
    "kind": "site",
    "section": "privacy",
    "en": "Any user tracking services",
    "value": "Gebruikerstrackingdiensten"
   },
   {
-   "id": "site.privacy.085",
+   "id": "site.privacy.086",
    "kind": "site",
    "section": "privacy",
    "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
    "value": "De enige externe diensten waarmee we communiceren zijn github.com om jouw openbare bijdragegegevens op te halen, en onze optionele klantenservicechat (zie hieronder)."
   },
   {
-   "id": "site.privacy.086",
+   "id": "site.privacy.087",
    "kind": "site",
    "section": "privacy",
    "en": "Customer Support & Live Chat",
    "value": "Klantenservice en livechat"
   },
   {
-   "id": "site.privacy.087",
+   "id": "site.privacy.088",
    "kind": "site",
    "section": "privacy",
    "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
    "value": "Contact opnemen met de klantenservice is volledig optioneel en gebeurt alleen wanneer je ervoor kiest om hulp te vragen."
   },
   {
-   "id": "site.privacy.088",
+   "id": "site.privacy.089",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
    "value": "GitFocus biedt klantenservice via livechat aangedreven door Chatwoot, een klantenserviceplatform van derden. Dit is de enige dienst van derden die door GitFocus wordt gebruikt (naast GitHub), en deze is alleen actief wanneer je er expliciet voor kiest om contact met ons op te nemen voor hulp."
   },
   {
-   "id": "site.privacy.089",
+   "id": "site.privacy.090",
    "kind": "site",
    "section": "privacy",
    "en": "How it works",
    "value": "Hoe het werkt"
   },
   {
-   "id": "site.privacy.090",
+   "id": "site.privacy.091",
    "kind": "site",
    "section": "privacy",
    "en": "Session Persistence:",
    "value": "Sessiepersistentie:"
   },
   {
-   "id": "site.privacy.091",
+   "id": "site.privacy.092",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
    "value": "Chatwoot gebruikt cookies om jouw chatsessie tussen bezoeken te behouden, zodat je eerdere gesprekken kunt voortzetten"
   },
   {
-   "id": "site.privacy.092",
+   "id": "site.privacy.093",
    "kind": "site",
    "section": "privacy",
    "en": "Anonymous by Default:",
    "value": "Standaard anoniem:"
   },
   {
-   "id": "site.privacy.093",
+   "id": "site.privacy.094",
    "kind": "site",
    "section": "privacy",
    "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
    "value": "Je kunt chatten met de klantenservice zonder persoonlijke informatie te verstrekken - de sessie wordt alleen via browsercookies gevolgd"
   },
   {
-   "id": "site.privacy.094",
+   "id": "site.privacy.095",
    "kind": "site",
    "section": "privacy",
    "en": "Optional Email:",
    "value": "Optionele e-mail:"
   },
   {
-   "id": "site.privacy.095",
+   "id": "site.privacy.096",
    "kind": "site",
    "section": "privacy",
    "en": "You may optionally provide your email address if you want to receive follow-up responses",
    "value": "Je kunt optioneel jouw e-mailadres verstrekken als je vervolgantwoorden wilt ontvangen"
   },
   {
-   "id": "site.privacy.096",
+   "id": "site.privacy.097",
    "kind": "site",
    "section": "privacy",
    "en": "What's Collected",
    "value": "Wat wordt verzameld"
   },
   {
-   "id": "site.privacy.097",
+   "id": "site.privacy.098",
    "kind": "site",
    "section": "privacy",
    "en": "When you use the chat feature, Chatwoot may collect:",
    "value": "Wanneer je de chatfunctie gebruikt, kan Chatwoot verzamelen:"
   },
   {
-   "id": "site.privacy.098",
+   "id": "site.privacy.099",
    "kind": "site",
    "section": "privacy",
    "en": "Your chat messages and conversation history",
    "value": "Jouw chatberichten en gespreksgeschiedenis"
   },
   {
-   "id": "site.privacy.099",
+   "id": "site.privacy.100",
    "kind": "site",
    "section": "privacy",
    "en": "Browser cookies for session persistence",
    "value": "Browsercookies voor sessiepersistentie"
   },
   {
-   "id": "site.privacy.100",
+   "id": "site.privacy.101",
    "kind": "site",
    "section": "privacy",
    "en": "Email address (only if you choose to provide it)",
    "value": "E-mailadres (alleen als je ervoor kiest om het te verstrekken)"
   },
   {
-   "id": "site.privacy.101",
+   "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
    "en": "Basic technical information (browser type, timestamp)",
    "value": "Basisinformatie over technische gegevens (browsertype, tijdstempel)"
   },
   {
-   "id": "site.privacy.102",
+   "id": "site.privacy.103",
    "kind": "site",
    "section": "privacy",
    "en": "No Access to App Data",
    "value": "Geen toegang tot app-gegevens"
   },
   {
-   "id": "site.privacy.103",
+   "id": "site.privacy.104",
    "kind": "site",
    "section": "privacy",
    "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
    "value": "De chatfunctie heeft GEEN toegang tot jouw GitHub-gegevens, focussessiegeschiedenis of andere gegevens die in de GitFocus-app zijn opgeslagen. Alleen de informatie die je expliciet in de chat typt, wordt naar ons supportsysteem verzonden."
   },
   {
-   "id": "site.privacy.104",
+   "id": "site.privacy.105",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
    "value": "Chatwoot is AVG-compliant en verwerkt gegevens in overeenstemming met toepasselijke wetgeving inzake gegevensbescherming. Voor meer informatie, bezoek"
   },
   {
-   "id": "site.privacy.105",
+   "id": "site.privacy.106",
    "kind": "site",
    "section": "privacy",
    "en": "chatwoot.com/privacy-policy",
    "value": "chatwoot.com/privacy-policy"
   },
   {
-   "id": "site.privacy.106",
+   "id": "site.privacy.107",
    "kind": "site",
    "section": "privacy",
    "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
    "value": "Je kunt chatcookies op elk moment wissen via je browserinstellingen. Als je de chatfunctie nooit gebruikt, worden er nooit gegevens naar Chatwoot verzonden."
   },
   {
-   "id": "site.privacy.107",
+   "id": "site.privacy.108",
    "kind": "site",
    "section": "privacy",
    "en": "Your Rights",
    "value": "Jouw rechten"
   },
   {
-   "id": "site.privacy.108",
+   "id": "site.privacy.109",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
    "value": "Omdat we jouw gegevens niet verzamelen, zijn traditionele gegevensrechten (toegang, verwijdering, overdraagbaarheid) niet echt van toepassing. Maar dit kun je doen:"
   },
   {
-   "id": "site.privacy.109",
+   "id": "site.privacy.110",
    "kind": "site",
    "section": "privacy",
    "en": "Delete all data",
    "value": "Alle gegevens verwijderen"
   },
   {
-   "id": "site.privacy.110",
+   "id": "site.privacy.111",
    "kind": "site",
    "section": "privacy",
    "en": "— Simply delete the app from your device",
    "value": "— Verwijder gewoon de app van je apparaat"
   },
   {
-   "id": "site.privacy.111",
+   "id": "site.privacy.112",
    "kind": "site",
    "section": "privacy",
    "en": "Export data",
    "value": "Gegevens exporteren"
   },
   {
-   "id": "site.privacy.112",
+   "id": "site.privacy.113",
    "kind": "site",
    "section": "privacy",
    "en": "— Your data lives on your device; you own it",
    "value": "— Jouw gegevens bevinden zich op je apparaat; je bent er eigenaar van"
   },
   {
-   "id": "site.privacy.113",
+   "id": "site.privacy.114",
    "kind": "site",
    "section": "privacy",
    "en": "Change settings",
    "value": "Instellingen wijzigen"
   },
   {
-   "id": "site.privacy.114",
+   "id": "site.privacy.115",
    "kind": "site",
    "section": "privacy",
    "en": "— All preferences can be modified in the app",
    "value": "— Alle voorkeuren kunnen in de app worden gewijzigd"
   },
   {
-   "id": "site.privacy.115",
+   "id": "site.privacy.116",
    "kind": "site",
    "section": "privacy",
    "en": "Children's Privacy & Age Rating",
    "value": "Privacy van kinderen en leeftijdsclassificatie"
   },
   {
-   "id": "site.privacy.116",
+   "id": "site.privacy.117",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus is rated",
    "value": "GitFocus is geclassificeerd als"
   },
   {
-   "id": "site.privacy.117",
+   "id": "site.privacy.118",
    "kind": "site",
    "section": "privacy",
    "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
    "value": "in de App Store en is geschikt voor gebruikers van alle leeftijden. De app bevat geen aanstootgevende inhoud, in-app-aankopen of sociale functies."
   },
   {
-   "id": "site.privacy.118",
+   "id": "site.privacy.119",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
    "value": "Omdat we geen persoonlijke gegevens verzamelen, zijn er geen speciale privacyzorgen voor jongere gebruikers. We raden echter aan dat kinderen onder de 13 jaar de app instellen met ouderlijke begeleiding, omdat:"
   },
   {
-   "id": "site.privacy.119",
+   "id": "site.privacy.120",
    "kind": "site",
    "section": "privacy",
    "en": "Initial setup requires a GitHub username",
    "value": "De eerste configuratie een GitHub-gebruikersnaam vereist"
   },
   {
-   "id": "site.privacy.120",
+   "id": "site.privacy.121",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time permissions need to be granted by the device owner",
    "value": "Schermtijd-machtigingen moeten worden verleend door de eigenaar van het apparaat"
   },
   {
-   "id": "site.privacy.121",
+   "id": "site.privacy.122",
    "kind": "site",
    "section": "privacy",
    "en": "Understanding the commit-based unlock system may need explanation",
    "value": "Het begrijpen van het op commits gebaseerde ontgrendelsysteem mogelijk uitleg nodig heeft"
   },
   {
-   "id": "site.privacy.122",
+   "id": "site.privacy.123",
    "kind": "site",
    "section": "privacy",
    "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
    "value": "Ouders en voogden kunnen GitFocus gebruiken als hulpmiddel om codeergewoonten bij jonge ontwikkelaars aan te moedigen."
   },
   {
-   "id": "site.privacy.123",
+   "id": "site.privacy.124",
    "kind": "site",
    "section": "privacy",
    "en": "Changes to This Policy",
    "value": "Wijzigingen in dit beleid"
   },
   {
-   "id": "site.privacy.124",
+   "id": "site.privacy.125",
    "kind": "site",
    "section": "privacy",
    "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
    "value": "Als we ooit onze privacypraktijken wijzigen, zullen we deze pagina bijwerken met een nieuwe \"Laatst bijgewerkt\"-datum. Gezien onze aanpak van geen gegevensverzameling zijn significante wijzigingen onwaarschijnlijk."
   },
   {
-   "id": "site.privacy.125",
+   "id": "site.privacy.126",
    "kind": "site",
    "section": "privacy",
    "en": "Contact",
    "value": "Contact"
   },
   {
-   "id": "site.privacy.126",
+   "id": "site.privacy.127",
    "kind": "site",
    "section": "privacy",
    "en": "Questions about privacy? We're happy to explain anything in more detail.",
    "value": "Vragen over privacy? We leggen graag alles in meer detail uit."
   },
   {
-   "id": "site.privacy.127",
+   "id": "site.privacy.128",
    "kind": "site",
    "section": "privacy",
    "en": "Email:",
    "value": "E-mail:"
   },
   {
-   "id": "site.privacy.128",
+   "id": "site.privacy.129",
    "kind": "site",
    "section": "privacy",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.privacy.129",
+   "id": "site.privacy.130",
    "kind": "site",
    "section": "privacy",
    "en": "Home",
    "value": "Home"
   },
   {
-   "id": "site.privacy.130",
+   "id": "site.privacy.131",
    "kind": "site",
    "section": "privacy",
    "en": "Privacy Policy",
    "value": "Privacybeleid"
   },
   {
-   "id": "site.privacy.131",
+   "id": "site.privacy.132",
    "kind": "site",
    "section": "privacy",
    "en": "Support",
    "value": "Support"
   },
   {
-   "id": "site.privacy.132",
+   "id": "site.privacy.133",
    "kind": "site",
    "section": "privacy",
    "en": "Accessibility",
    "value": "Toegankelijkheid"
   },
   {
-   "id": "site.privacy.133",
+   "id": "site.privacy.134",
    "kind": "site",
    "section": "privacy",
    "en": "© 2026 GitFocus",
@@ -6420,522 +6441,529 @@
    "id": "site.accessibility.025",
    "kind": "site",
    "section": "accessibility",
+   "en": "Translation wrong? Report it here",
+   "value": "Vertaling fout? Meld het hier"
+  },
+  {
+   "id": "site.accessibility.026",
+   "kind": "site",
+   "section": "accessibility",
    "en": "// Accessibility",
    "value": "// Toegankelijkheid"
   },
   {
-   "id": "site.accessibility.026",
+   "id": "site.accessibility.027",
    "kind": "site",
    "section": "accessibility",
    "en": "Built for everyone",
    "value": "Gebouwd voor iedereen"
   },
   {
-   "id": "site.accessibility.027",
+   "id": "site.accessibility.028",
    "kind": "site",
    "section": "accessibility",
    "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
    "value": "GitFocus is ontworpen voor ondersteunende technologieën. Toegankelijkheidsclaims worden voor elke release opnieuw gecontroleerd met geautomatiseerde tests en een menselijke apparaatchecklist."
   },
   {
-   "id": "site.accessibility.028",
+   "id": "site.accessibility.029",
    "kind": "site",
    "section": "accessibility",
    "en": "// Features",
    "value": "// Functies"
   },
   {
-   "id": "site.accessibility.029",
+   "id": "site.accessibility.030",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported Accessibility Features",
    "value": "Ondersteunde toegankelijkheidsfuncties"
   },
   {
-   "id": "site.accessibility.030",
+   "id": "site.accessibility.031",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver",
    "value": "VoiceOver"
   },
   {
-   "id": "site.accessibility.031",
+   "id": "site.accessibility.032",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.032",
+   "id": "site.accessibility.033",
    "kind": "site",
    "section": "accessibility",
    "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
    "value": "Belangrijke releaseroutes gebruiken beschrijvende labels, kenmerken en een logische leesvolgorde. De release gate registreert de geteste routes en het apparaat."
   },
   {
-   "id": "site.accessibility.033",
+   "id": "site.accessibility.034",
    "kind": "site",
    "section": "accessibility",
    "en": "Voice Control",
    "value": "Spraakbesturing"
   },
   {
-   "id": "site.accessibility.034",
+   "id": "site.accessibility.035",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.035",
+   "id": "site.accessibility.036",
    "kind": "site",
    "section": "accessibility",
    "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
    "value": "Interactieve bedieningselementen gebruiken toegankelijke namen. Een fysiek apparaat checklist verifieert de kritieke release-reis met Spraakbesturing."
   },
   {
-   "id": "site.accessibility.036",
+   "id": "site.accessibility.037",
    "kind": "site",
    "section": "accessibility",
    "en": "Larger Text",
    "value": "Grotere tekst"
   },
   {
-   "id": "site.accessibility.037",
+   "id": "site.accessibility.038",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.038",
+   "id": "site.accessibility.039",
    "kind": "site",
    "section": "accessibility",
    "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
    "value": "App-tekst gebruikt Dynamic Type. Geautomatiseerde AX3- en AX5-dekking plus een menselijke 200% tekstgrootte-controle zijn vereist voordat deze claim wordt goedgekeurd."
   },
   {
-   "id": "site.accessibility.039",
+   "id": "site.accessibility.040",
    "kind": "site",
    "section": "accessibility",
    "en": "Dark Interface",
    "value": "Donkere interface"
   },
   {
-   "id": "site.accessibility.040",
+   "id": "site.accessibility.041",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.041",
+   "id": "site.accessibility.042",
    "kind": "site",
    "section": "accessibility",
    "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
    "value": "De app ondersteunt lichte en donkere weergaven. Beide zijn opgenomen in screenshot- en app-toegankelijkheidsreleasecontroles."
   },
   {
-   "id": "site.accessibility.042",
+   "id": "site.accessibility.043",
    "kind": "site",
    "section": "accessibility",
    "en": "Differentiate Without Color",
    "value": "Onderscheiden zonder kleur"
   },
   {
-   "id": "site.accessibility.043",
+   "id": "site.accessibility.044",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.044",
+   "id": "site.accessibility.045",
    "kind": "site",
    "section": "accessibility",
    "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
    "value": "Releasebeoordeling controleert dat belangrijke staten labels, vormen of pictogrammen gebruiken naast kleur."
   },
   {
-   "id": "site.accessibility.045",
+   "id": "site.accessibility.046",
    "kind": "site",
    "section": "accessibility",
    "en": "Sufficient Contrast",
    "value": "Voldoende contrast"
   },
   {
-   "id": "site.accessibility.046",
+   "id": "site.accessibility.047",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.047",
+   "id": "site.accessibility.048",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
    "value": "Geautomatiseerde contrastcontroles markeren mogelijke fouten in lichte en donkere modus; een beoordelaar verifieert de echte tekst, pictogrammen en achtergronden vóór goedkeuring."
   },
   {
-   "id": "site.accessibility.048",
+   "id": "site.accessibility.049",
    "kind": "site",
    "section": "accessibility",
    "en": "Reduced Motion",
    "value": "Verminderde beweging"
   },
   {
-   "id": "site.accessibility.049",
+   "id": "site.accessibility.050",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.050",
+   "id": "site.accessibility.051",
    "kind": "site",
    "section": "accessibility",
    "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
    "value": "De releasechecklist verifieert dat belangrijke beweging de voorkeur voor Verminderde beweging respecteert of een statisch alternatief heeft."
   },
   {
-   "id": "site.accessibility.051",
+   "id": "site.accessibility.052",
    "kind": "site",
    "section": "accessibility",
    "en": "Full Keyboard Access",
    "value": "Volledige toetsenbordtoegang"
   },
   {
-   "id": "site.accessibility.052",
+   "id": "site.accessibility.053",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "Ondersteund"
   },
   {
-   "id": "site.accessibility.053",
+   "id": "site.accessibility.054",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
    "value": "Ondersteunde stromen omvatten toetsenbord-toegankelijke bedieningselementen en alternatieven voor belangrijke alleen-gebaar-acties."
   },
   {
-   "id": "site.accessibility.054",
+   "id": "site.accessibility.055",
    "kind": "site",
    "section": "accessibility",
    "en": "// Testing",
    "value": "// Testen"
   },
   {
-   "id": "site.accessibility.055",
+   "id": "site.accessibility.056",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated Accessibility Testing",
    "value": "Geautomatiseerd toegankelijkheidstesten"
   },
   {
-   "id": "site.accessibility.056",
+   "id": "site.accessibility.057",
    "kind": "site",
    "section": "accessibility",
    "en": "Test Suites",
    "value": "Testsuites"
   },
   {
-   "id": "site.accessibility.057",
+   "id": "site.accessibility.058",
    "kind": "site",
    "section": "accessibility",
    "en": "Appearances",
    "value": "Weergaven"
   },
   {
-   "id": "site.accessibility.058",
+   "id": "site.accessibility.059",
    "kind": "site",
    "section": "accessibility",
    "en": "AX Text Sizes",
    "value": "AX-tekstgroottes"
   },
   {
-   "id": "site.accessibility.059",
+   "id": "site.accessibility.060",
    "kind": "site",
    "section": "accessibility",
    "en": "Release Gate",
    "value": "Release gate"
   },
   {
-   "id": "site.accessibility.060",
+   "id": "site.accessibility.061",
    "kind": "site",
    "section": "accessibility",
    "en": "Screen Accessibility Audits",
    "value": "Schermtoegankelijkheidsaudits"
   },
   {
-   "id": "site.accessibility.061",
+   "id": "site.accessibility.062",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
    "value": "Gedeclareerde releaseroutes worden serieel gestart in lichte en donkere modus en gecontroleerd met iOS-native toegankelijkheidsaudits. Vereiste auditcategorieën doen de release gate falen."
   },
   {
-   "id": "site.accessibility.062",
+   "id": "site.accessibility.063",
    "kind": "site",
    "section": "accessibility",
    "en": "26 tests",
    "value": "26 tests"
   },
   {
-   "id": "site.accessibility.063",
+   "id": "site.accessibility.064",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility Size Tests",
    "value": "Toegankelijkheidsgroottetests"
   },
   {
-   "id": "site.accessibility.064",
+   "id": "site.accessibility.065",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
    "value": "Gedeclareerde routes worden weergegeven bij AX3 en AX5 en gecontroleerd op crashvrije weergave, toegankelijke elementen en routevoltooiing."
   },
   {
-   "id": "site.accessibility.065",
+   "id": "site.accessibility.066",
    "kind": "site",
    "section": "accessibility",
    "en": "50 tests",
    "value": "50 tests"
   },
   {
-   "id": "site.accessibility.066",
+   "id": "site.accessibility.067",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver Reading Order",
    "value": "VoiceOver-leesvolgorde"
   },
   {
-   "id": "site.accessibility.067",
+   "id": "site.accessibility.068",
    "kind": "site",
    "section": "accessibility",
    "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
    "value": "Belangrijke schermen worden gecontroleerd om ervoor te zorgen dat VoiceOver-doorloop een logische van-boven-naar-beneden-volgorde volgt, met tolerantie voor systeemchrome-elementen."
   },
   {
-   "id": "site.accessibility.068",
+   "id": "site.accessibility.069",
    "kind": "site",
    "section": "accessibility",
    "en": "5 tests",
    "value": "5 tests"
   },
   {
-   "id": "site.accessibility.069",
+   "id": "site.accessibility.070",
    "kind": "site",
    "section": "accessibility",
    "en": "// Methodology",
    "value": "// Methodologie"
   },
   {
-   "id": "site.accessibility.070",
+   "id": "site.accessibility.071",
    "kind": "site",
    "section": "accessibility",
    "en": "How We Test",
    "value": "Hoe we testen"
   },
   {
-   "id": "site.accessibility.071",
+   "id": "site.accessibility.072",
    "kind": "site",
    "section": "accessibility",
    "en": "iOS native audits",
    "value": "iOS-native audits"
   },
   {
-   "id": "site.accessibility.072",
+   "id": "site.accessibility.073",
    "kind": "site",
    "section": "accessibility",
    "en": "— Apple's built-in",
    "value": "— Apple's ingebouwde"
   },
   {
-   "id": "site.accessibility.073",
+   "id": "site.accessibility.074",
    "kind": "site",
    "section": "accessibility",
    "en": "performAccessibilityAudit",
    "value": "performAccessibilityAudit"
   },
   {
-   "id": "site.accessibility.074",
+   "id": "site.accessibility.075",
    "kind": "site",
    "section": "accessibility",
    "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
    "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
   },
   {
-   "id": "site.accessibility.075",
+   "id": "site.accessibility.076",
    "kind": "site",
    "section": "accessibility",
    "en": "Extreme size rendering",
    "value": "Extreme grootte weergave"
   },
   {
-   "id": "site.accessibility.076",
+   "id": "site.accessibility.077",
    "kind": "site",
    "section": "accessibility",
    "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
    "value": "— Elk scherm wordt gestart bij toegankelijkheidstekstgroottes AX3 en AX5 om te verifiëren dat niets crasht, onleesbaar wordt afgekapt of onbereikbaar wordt."
   },
   {
-   "id": "site.accessibility.077",
+   "id": "site.accessibility.078",
    "kind": "site",
    "section": "accessibility",
    "en": "Reading order validation",
    "value": "Leesvolgorde-validatie"
   },
   {
-   "id": "site.accessibility.078",
+   "id": "site.accessibility.079",
    "kind": "site",
    "section": "accessibility",
    "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
    "value": "— Geautomatiseerde tests verifiëren dat VoiceOver elementen in logische van-boven-naar-beneden-volgorde doorloopt op belangrijke schermen."
   },
   {
-   "id": "site.accessibility.079",
+   "id": "site.accessibility.080",
    "kind": "site",
    "section": "accessibility",
    "en": "Contrast verification",
    "value": "Contrastverificatie"
   },
   {
-   "id": "site.accessibility.080",
+   "id": "site.accessibility.081",
    "kind": "site",
    "section": "accessibility",
    "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
    "value": "— WCAG-contrastbewijs wordt gegenereerd uit renderer-eigende semantische gebieden en vervolgens beoordeeld tegen het daadwerkelijke lichte en donkere artwork."
   },
   {
-   "id": "site.accessibility.081",
+   "id": "site.accessibility.082",
    "kind": "site",
    "section": "accessibility",
    "en": "Release integration",
    "value": "Release-integratie"
   },
   {
-   "id": "site.accessibility.082",
+   "id": "site.accessibility.083",
    "kind": "site",
    "section": "accessibility",
    "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
    "value": "— De toegankelijkheidssuites worden uitgevoerd vóór screenshot- of metadata-upload en behouden machine-leesbaar bewijs."
   },
   {
-   "id": "site.accessibility.083",
+   "id": "site.accessibility.084",
    "kind": "site",
    "section": "accessibility",
    "en": "Standards We Follow",
    "value": "Standaarden die we volgen"
   },
   {
-   "id": "site.accessibility.084",
+   "id": "site.accessibility.085",
    "kind": "site",
    "section": "accessibility",
    "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
    "value": "WCAG 2.1 Niveau AA contrastdoelen voor tekst en interactieve elementen"
   },
   {
-   "id": "site.accessibility.085",
+   "id": "site.accessibility.086",
    "kind": "site",
    "section": "accessibility",
    "en": "Apple Human Interface Guidelines for accessibility",
    "value": "Apple Human Interface Guidelines voor toegankelijkheid"
   },
   {
-   "id": "site.accessibility.086",
+   "id": "site.accessibility.087",
    "kind": "site",
    "section": "accessibility",
    "en": "Minimum 44pt touch-target checks for interactive controls",
    "value": "Minimaal 44pt aanraakdoel-controles voor interactieve bedieningselementen"
   },
   {
-   "id": "site.accessibility.087",
+   "id": "site.accessibility.088",
    "kind": "site",
    "section": "accessibility",
    "en": "Semantic Dynamic Type coverage at accessibility text sizes",
    "value": "Semantische Dynamic Type-dekking bij toegankelijkheidstekstgroottes"
   },
   {
-   "id": "site.accessibility.088",
+   "id": "site.accessibility.089",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver-compatible labels and traits on every interactive element",
    "value": "VoiceOver-compatibele labels en kenmerken op elk interactief element"
   },
   {
-   "id": "site.accessibility.089",
+   "id": "site.accessibility.090",
    "kind": "site",
    "section": "accessibility",
    "en": "Keyboard-accessible alternatives for all gesture-based interactions",
    "value": "Toetsenbord-toegankelijke alternatieven voor alle op gebaren gebaseerde interacties"
   },
   {
-   "id": "site.accessibility.090",
+   "id": "site.accessibility.091",
    "kind": "site",
    "section": "accessibility",
    "en": "Feedback",
    "value": "Feedback"
   },
   {
-   "id": "site.accessibility.091",
+   "id": "site.accessibility.092",
    "kind": "site",
    "section": "accessibility",
    "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
    "value": "Als je toegankelijkheidsbarrières tegenkomt tijdens het gebruik van GitFocus, willen we ervan horen zodat we het kunnen oplossen."
   },
   {
-   "id": "site.accessibility.092",
+   "id": "site.accessibility.093",
    "kind": "site",
    "section": "accessibility",
    "en": "Chat with us",
    "value": "Chat met ons"
   },
   {
-   "id": "site.accessibility.093",
+   "id": "site.accessibility.094",
    "kind": "site",
    "section": "accessibility",
    "en": "or email us at",
    "value": "of mail ons op"
   },
   {
-   "id": "site.accessibility.094",
+   "id": "site.accessibility.095",
    "kind": "site",
    "section": "accessibility",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.accessibility.095",
+   "id": "site.accessibility.096",
    "kind": "site",
    "section": "accessibility",
    "en": "Home",
    "value": "Home"
   },
   {
-   "id": "site.accessibility.096",
+   "id": "site.accessibility.097",
    "kind": "site",
    "section": "accessibility",
    "en": "Privacy Policy",
    "value": "Privacybeleid"
   },
   {
-   "id": "site.accessibility.097",
+   "id": "site.accessibility.098",
    "kind": "site",
    "section": "accessibility",
    "en": "Support",
    "value": "Support"
   },
   {
-   "id": "site.accessibility.098",
+   "id": "site.accessibility.099",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility",
    "value": "Toegankelijkheid"
   },
   {
-   "id": "site.accessibility.099",
+   "id": "site.accessibility.100",
    "kind": "site",
    "section": "accessibility",
    "en": "© 2026 GitFocus",

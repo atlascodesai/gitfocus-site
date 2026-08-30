@@ -708,6 +708,19 @@
         /* RTL locales flip the whole document; the menu follows via the logical
            inset above, and text alignment needs no override. */
         [dir="rtl"] .expresslane-lang-menu { text-align: right; }
+    
+        .expresslane-lang-menu a.expresslane-lang-report {
+            position: sticky;
+            bottom: -6px;
+            margin-top: 6px;
+            margin-bottom: -6px;
+            border-top: 1px solid var(--border);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 0.82em;
+            color: var(--text-tertiary);
+            background: rgba(16, 16, 22, 0.98);
+        }
     </style>
   <!-- expresslane:hreflang -->
     <link rel="alternate" hreflang="ar-SA" href="https://gitfocus.app/ar/accessibility">
@@ -770,6 +783,7 @@
     <a class="expresslane-lang-item" hreflang="ja" lang="ja" href="/ja/accessibility"><span aria-hidden="true">🇯🇵</span> 日本語</a>
     <a class="expresslane-lang-item" hreflang="zh-Hans" lang="zh-Hans" href="/zh/accessibility"><span aria-hidden="true">🇨🇳</span> 简体中文</a>
     <a class="expresslane-lang-item" hreflang="ko" lang="ko" href="/ko/accessibility"><span aria-hidden="true">🇰🇷</span> 한국어</a>
+    <a class="expresslane-lang-item expresslane-lang-report" href="/localization/?lang=nl">Vertaling fout? Meld het hier</a>
   </div>
 </details>
             </div>

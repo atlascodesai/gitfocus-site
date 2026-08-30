@@ -1,7 +1,7 @@
 {
  "locale": "ko",
  "label": "한국어",
- "generated": "2026-08-30T02:43:01Z",
+ "generated": "2026-08-30T03:45:57Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -4040,452 +4040,459 @@
    "id": "site.index.025",
    "kind": "site",
    "section": "index",
+   "en": "Translation wrong? Report it here",
+   "value": "번역 오류? 여기서 신고"
+  },
+  {
+   "id": "site.index.026",
+   "kind": "site",
+   "section": "index",
    "en": "Now on the App Store",
    "value": "App Store에 출시"
   },
   {
-   "id": "site.index.026",
+   "id": "site.index.027",
    "kind": "site",
    "section": "index",
    "en": "Block apps until you",
    "value": "앱은 잠긴 채로, 해제는"
   },
   {
-   "id": "site.index.027",
+   "id": "site.index.028",
    "kind": "site",
    "section": "index",
    "en": "git push",
    "value": "git push"
   },
   {
-   "id": "site.index.028",
+   "id": "site.index.029",
    "kind": "site",
    "section": "index",
    "en": "GitFocus gamifies your coding habits. Commit from one GitHub account or many, then unlock your distracting apps. It's that simple.",
    "value": "GitFocus는 코딩 습관을 게임으로 바꿉니다. 하나 또는 여러 GitHub 계정에서 커밋하면 주의를 뺏는 앱이 잠금 해제됩니다. 그게 전부입니다."
   },
   {
-   "id": "site.index.029",
+   "id": "site.index.030",
    "kind": "site",
    "section": "index",
    "en": "See how it works",
    "value": "작동 방식 보기"
   },
   {
-   "id": "site.index.030",
+   "id": "site.index.031",
    "kind": "site",
    "section": "index",
    "en": "git commit -m \"unlock apps\"",
    "value": "git commit -m \"unlock apps\""
   },
   {
-   "id": "site.index.031",
+   "id": "site.index.032",
    "kind": "site",
    "section": "index",
    "en": "Scroll to explore",
    "value": "스크롤해서 살펴보기"
   },
   {
-   "id": "site.index.032",
+   "id": "site.index.033",
    "kind": "site",
    "section": "index",
    "en": "// How it works",
    "value": "// 작동 방식"
   },
   {
-   "id": "site.index.033",
+   "id": "site.index.034",
    "kind": "site",
    "section": "index",
    "en": "Turn commits into freedom",
    "value": "커밋을 자유 시간으로"
   },
   {
-   "id": "site.index.034",
+   "id": "site.index.035",
    "kind": "site",
    "section": "index",
    "en": "Setup takes 2 minutes. Then let your code do the talking.",
    "value": "설정은 2분이면 끝. 그다음은 코드가 말하게 하세요."
   },
   {
-   "id": "site.index.035",
+   "id": "site.index.036",
    "kind": "site",
    "section": "index",
    "en": "Add GitHub accounts",
    "value": "GitHub 계정 추가"
   },
   {
-   "id": "site.index.036",
+   "id": "site.index.037",
    "kind": "site",
    "section": "index",
    "en": "Track one account or aggregate work, personal, and open-source profiles",
    "value": "계정 하나만 추적하거나 업무·개인·오픈소스 프로필을 함께 모을 수 있습니다"
   },
   {
-   "id": "site.index.037",
+   "id": "site.index.038",
    "kind": "site",
    "section": "index",
    "en": "Dashboard",
    "value": "대시보드"
   },
   {
-   "id": "site.index.038",
+   "id": "site.index.039",
    "kind": "site",
    "section": "index",
    "en": "Track your streak, daily score, and app lock status at a glance",
    "value": "연속 기록, 오늘의 점수, 잠금 상태를 한눈에"
   },
   {
-   "id": "site.index.039",
+   "id": "site.index.040",
    "kind": "site",
    "section": "index",
    "en": "Focus Stats",
    "value": "집중 통계"
   },
   {
-   "id": "site.index.040",
+   "id": "site.index.041",
    "kind": "site",
    "section": "index",
    "en": "Start at 100 each day and see blocked-app time and unlocks burn it down",
    "value": "매일 100에서 시작해 잠금 시간과 해제가 점수를 깎아내리는 것을 확인하세요"
   },
   {
-   "id": "site.index.041",
+   "id": "site.index.042",
    "kind": "site",
    "section": "index",
    "en": "Contribution Stats",
    "value": "기여 통계"
   },
   {
-   "id": "site.index.042",
+   "id": "site.index.043",
    "kind": "site",
    "section": "index",
    "en": "Deep dive into your GitHub activity with detailed statistics",
    "value": "상세한 통계로 GitHub 활동을 깊이 들여다보세요"
   },
   {
-   "id": "site.index.043",
+   "id": "site.index.044",
    "kind": "site",
    "section": "index",
    "en": "Focus Timer",
    "value": "집중 타이머"
   },
   {
-   "id": "site.index.044",
+   "id": "site.index.045",
    "kind": "site",
    "section": "index",
    "en": "Built-in Pomodoro timer to maximize your productivity sessions",
    "value": "내장 뽀모도로 타이머로 집중 시간을 최대한 활용하세요"
   },
   {
-   "id": "site.index.045",
+   "id": "site.index.046",
    "kind": "site",
    "section": "index",
    "en": "// Features",
    "value": "// 기능"
   },
   {
-   "id": "site.index.046",
+   "id": "site.index.047",
    "kind": "site",
    "section": "index",
    "en": "Everything you need to stay focused",
    "value": "집중을 유지하는 데 필요한 모든 것"
   },
   {
-   "id": "site.index.047",
+   "id": "site.index.048",
    "kind": "site",
    "section": "index",
    "en": "Not just another app blocker. GitFocus gamifies productivity.",
    "value": "그저 그런 앱 차단기가 아닙니다. GitFocus는 생산성을 게임으로 만듭니다."
   },
   {
-   "id": "site.index.048",
+   "id": "site.index.049",
    "kind": "site",
    "section": "index",
    "en": "Earn Time",
    "value": "시간 벌기"
   },
   {
-   "id": "site.index.049",
+   "id": "site.index.050",
    "kind": "site",
    "section": "index",
    "en": "Every commit from your included GitHub accounts earns unlock time. Keep work, personal, and open-source activity together.",
    "value": "포함된 GitHub 계정의 커밋마다 잠금 해제 시간이 쌓입니다. 업무와 개인, 오픈소스를 한곳에서."
   },
   {
-   "id": "site.index.050",
+   "id": "site.index.051",
    "kind": "site",
    "section": "index",
    "en": "mins unlocked",
    "value": "분 잠금 해제"
   },
   {
-   "id": "site.index.051",
+   "id": "site.index.052",
    "kind": "site",
    "section": "index",
    "en": "Simulate commit",
    "value": "커밋 시뮬레이션"
   },
   {
-   "id": "site.index.052",
+   "id": "site.index.053",
    "kind": "site",
    "section": "index",
    "en": "Lives System",
    "value": "생명 시스템"
   },
   {
-   "id": "site.index.053",
+   "id": "site.index.054",
    "kind": "site",
    "section": "index",
    "en": "Need emergency access? Use a life to unlock apps until midnight. You start with 1 free life.",
    "value": "급하게 써야 하나요? 생명 하나로 자정까지 앱을 열 수 있습니다. 무료 생명 1개로 시작합니다."
   },
   {
-   "id": "site.index.054",
+   "id": "site.index.055",
    "kind": "site",
    "section": "index",
    "en": "Earn more through",
    "value": "더 얻으려면"
   },
   {
-   "id": "site.index.055",
+   "id": "site.index.056",
    "kind": "site",
    "section": "index",
    "en": "streaks",
    "value": "연속 기록"
   },
   {
-   "id": "site.index.056",
+   "id": "site.index.057",
    "kind": "site",
    "section": "index",
    "en": "Borrow Time",
    "value": "시간 빌리기"
   },
   {
-   "id": "site.index.057",
+   "id": "site.index.058",
    "kind": "site",
    "section": "index",
    "en": "Need to finish a message? Borrow up to 5 minutes. Future commits will pay it back.",
    "value": "메시지를 마저 써야 하나요? 최대 5분까지 빌릴 수 있고, 이후 커밋으로 갚습니다."
   },
   {
-   "id": "site.index.058",
+   "id": "site.index.059",
    "kind": "site",
    "section": "index",
    "en": "Current debt:",
    "value": "현재 부채:"
   },
   {
-   "id": "site.index.059",
+   "id": "site.index.060",
    "kind": "site",
    "section": "index",
    "en": "0 min",
    "value": "0분"
   },
   {
-   "id": "site.index.060",
+   "id": "site.index.061",
    "kind": "site",
    "section": "index",
    "en": "Max borrow:",
    "value": "최대 대출:"
   },
   {
-   "id": "site.index.061",
+   "id": "site.index.062",
    "kind": "site",
    "section": "index",
    "en": "5 min",
    "value": "5분"
   },
   {
-   "id": "site.index.062",
+   "id": "site.index.063",
    "kind": "site",
    "section": "index",
    "en": "Discipline Bank",
    "value": "절제 은행"
   },
   {
-   "id": "site.index.063",
+   "id": "site.index.064",
    "kind": "site",
    "section": "index",
    "en": "(Coming Soon)",
    "value": "(출시 예정)"
   },
   {
-   "id": "site.index.064",
+   "id": "site.index.065",
    "kind": "site",
    "section": "index",
    "en": "Time you earn but don't use is saved. It's a measure of your self-control.",
    "value": "벌었지만 쓰지 않은 시간은 저축됩니다. 자제력의 척도입니다."
   },
   {
-   "id": "site.index.065",
+   "id": "site.index.066",
    "kind": "site",
    "section": "index",
    "en": "minutes banked",
    "value": "분 저축"
   },
   {
-   "id": "site.index.066",
+   "id": "site.index.067",
    "kind": "site",
    "section": "index",
    "en": "Challenge: Bank",
    "value": "도전: 저축"
   },
   {
-   "id": "site.index.067",
+   "id": "site.index.068",
    "kind": "site",
    "section": "index",
    "en": "1000 min",
    "value": "1000분"
   },
   {
-   "id": "site.index.068",
+   "id": "site.index.069",
    "kind": "site",
    "section": "index",
    "en": "this year",
    "value": "올해"
   },
   {
-   "id": "site.index.069",
+   "id": "site.index.070",
    "kind": "site",
    "section": "index",
    "en": "Streak Milestones",
    "value": "연속 기록 이정표"
   },
   {
-   "id": "site.index.070",
+   "id": "site.index.071",
    "kind": "site",
    "section": "index",
    "en": "Build your streak to unlock permanent rewards.",
    "value": "연속 기록을 늘려 영구 보상을 잠금 해제하세요."
   },
   {
-   "id": "site.index.071",
+   "id": "site.index.072",
    "kind": "site",
    "section": "index",
    "en": "14d",
    "value": "14일"
   },
   {
-   "id": "site.index.072",
+   "id": "site.index.073",
    "kind": "site",
    "section": "index",
    "en": "+1 extra life",
    "value": "+1 추가 생명"
   },
   {
-   "id": "site.index.073",
+   "id": "site.index.074",
    "kind": "site",
    "section": "index",
    "en": "30d",
    "value": "30일"
   },
   {
-   "id": "site.index.074",
+   "id": "site.index.075",
    "kind": "site",
    "section": "index",
    "en": "Weekly time bank",
    "value": "주간 시간 은행"
   },
   {
-   "id": "site.index.075",
+   "id": "site.index.076",
    "kind": "site",
    "section": "index",
    "en": "90d",
    "value": "90일"
   },
   {
-   "id": "site.index.076",
+   "id": "site.index.077",
    "kind": "site",
    "section": "index",
    "en": "Time never expires",
    "value": "시간은 만료되지 않습니다"
   },
   {
-   "id": "site.index.077",
+   "id": "site.index.078",
    "kind": "site",
    "section": "index",
    "en": "Privacy First",
    "value": "개인정보 우선"
   },
   {
-   "id": "site.index.078",
+   "id": "site.index.079",
    "kind": "site",
    "section": "index",
    "en": "No GitFocus account. No GitHub login. Everything stays on your device.",
    "value": "GitFocus 계정도, GitHub 로그인도 없습니다. 모든 것이 기기에 남습니다."
   },
   {
-   "id": "site.index.079",
+   "id": "site.index.080",
    "kind": "site",
    "section": "index",
    "en": "Works offline",
    "value": "오프라인 작동"
   },
   {
-   "id": "site.index.080",
+   "id": "site.index.081",
    "kind": "site",
    "section": "index",
    "en": "No tracking",
    "value": "추적 없음"
   },
   {
-   "id": "site.index.081",
+   "id": "site.index.082",
    "kind": "site",
    "section": "index",
    "en": "Open source friendly",
    "value": "오픈소스 친화적"
   },
   {
-   "id": "site.index.082",
+   "id": "site.index.083",
    "kind": "site",
    "section": "index",
    "en": "Ready to ship more code?",
    "value": "더 많은 코드를 배포할 준비가 되셨나요?"
   },
   {
-   "id": "site.index.083",
+   "id": "site.index.084",
    "kind": "site",
    "section": "index",
    "en": "Join developers who've turned procrastination into productivity.",
    "value": "미루는 습관을 생산성으로 바꾼 개발자들과 함께하세요."
   },
   {
-   "id": "site.index.084",
+   "id": "site.index.085",
    "kind": "site",
    "section": "index",
    "en": "Free to use. No subscription required.",
    "value": "무료로 사용하세요. 구독이 필요 없습니다."
   },
   {
-   "id": "site.index.085",
+   "id": "site.index.086",
    "kind": "site",
    "section": "index",
    "en": "Privacy Policy",
    "value": "개인정보 처리방침"
   },
   {
-   "id": "site.index.086",
+   "id": "site.index.087",
    "kind": "site",
    "section": "index",
    "en": "Support",
    "value": "지원"
   },
   {
-   "id": "site.index.087",
+   "id": "site.index.088",
    "kind": "site",
    "section": "index",
    "en": "Accessibility",
    "value": "접근성"
   },
   {
-   "id": "site.index.088",
+   "id": "site.index.089",
    "kind": "site",
    "section": "index",
    "en": "Contact",
    "value": "문의"
   },
   {
-   "id": "site.index.089",
+   "id": "site.index.090",
    "kind": "site",
    "section": "index",
    "en": "© 2026 GitFocus. Made with git and focus.",
@@ -4663,627 +4670,634 @@
    "id": "site.support.024",
    "kind": "site",
    "section": "support",
+   "en": "Translation wrong? Report it here",
+   "value": "번역 오류? 여기서 신고"
+  },
+  {
+   "id": "site.support.025",
+   "kind": "site",
+   "section": "support",
    "en": "// Support",
    "value": "// 지원"
   },
   {
-   "id": "site.support.025",
+   "id": "site.support.026",
    "kind": "site",
    "section": "support",
    "en": "How can we help?",
    "value": "어떻게 도와드릴까요?"
   },
   {
-   "id": "site.support.026",
+   "id": "site.support.027",
    "kind": "site",
    "section": "support",
    "en": "Find answers to common questions or reach out directly. We typically respond within 24 hours.",
    "value": "자주 묻는 질문에 대한 답변을 찾거나 직접 문의하세요. 일반적으로 24시간 이내에 응답합니다."
   },
   {
-   "id": "site.support.027",
+   "id": "site.support.028",
    "kind": "site",
    "section": "support",
    "en": "Get in Touch",
    "value": "문의하기"
   },
   {
-   "id": "site.support.028",
+   "id": "site.support.029",
    "kind": "site",
    "section": "support",
    "en": "Have a question, bug report, or feature request?",
    "value": "질문, 버그 보고 또는 기능 요청이 있으신가요?"
   },
   {
-   "id": "site.support.029",
+   "id": "site.support.030",
    "kind": "site",
    "section": "support",
    "en": "We'd love to hear from you.",
    "value": "언제든지 연락해 주세요."
   },
   {
-   "id": "site.support.030",
+   "id": "site.support.031",
    "kind": "site",
    "section": "support",
    "en": "Chat with us",
    "value": "채팅으로 문의"
   },
   {
-   "id": "site.support.031",
+   "id": "site.support.032",
    "kind": "site",
    "section": "support",
    "en": "or email us at",
    "value": "또는 이메일로 문의"
   },
   {
-   "id": "site.support.032",
+   "id": "site.support.033",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.support.033",
+   "id": "site.support.034",
    "kind": "site",
    "section": "support",
    "en": "Frequently Asked Questions",
    "value": "자주 묻는 질문"
   },
   {
-   "id": "site.support.034",
+   "id": "site.support.035",
    "kind": "site",
    "section": "support",
    "en": "All",
    "value": "전체"
   },
   {
-   "id": "site.support.035",
+   "id": "site.support.036",
    "kind": "site",
    "section": "support",
    "en": "Setup",
    "value": "설정"
   },
   {
-   "id": "site.support.036",
+   "id": "site.support.037",
    "kind": "site",
    "section": "support",
    "en": "Features",
    "value": "기능"
   },
   {
-   "id": "site.support.037",
+   "id": "site.support.038",
    "kind": "site",
    "section": "support",
    "en": "Troubleshooting",
    "value": "문제 해결"
   },
   {
-   "id": "site.support.038",
+   "id": "site.support.039",
    "kind": "site",
    "section": "support",
    "en": "Do I need to connect my GitHub account?",
    "value": "GitHub 계정을 연결해야 하나요?"
   },
   {
-   "id": "site.support.039",
+   "id": "site.support.040",
    "kind": "site",
    "section": "support",
    "en": "No! GitFocus only needs the GitHub username or usernames you choose to track. We read public contribution graphs (the green squares on profiles) to detect commits. No OAuth, no tokens, no passwords required.",
    "value": "아니요! GitFocus는 추적하려는 GitHub 사용자 이름만 필요합니다. 공개 기여 그래프 (프로필의 녹색 사각형)를 읽어 커밋을 감지합니다. OAuth, 토큰, 비밀번호가 필요하지 않습니다."
   },
   {
-   "id": "site.support.040",
+   "id": "site.support.041",
    "kind": "site",
    "section": "support",
    "en": "You can add multiple GitHub accounts and decide which ones count toward commit detection.",
    "value": "여러 GitHub 계정을 추가하고 커밋 감지에 포함할 계정을 결정할 수 있습니다."
   },
   {
-   "id": "site.support.041",
+   "id": "site.support.042",
    "kind": "site",
    "section": "support",
    "en": "Why do you need Screen Time permissions?",
    "value": "Screen Time 권한이 필요한 이유는 무엇인가요?"
   },
   {
-   "id": "site.support.042",
+   "id": "site.support.043",
    "kind": "site",
    "section": "support",
    "en": "GitFocus uses Apple's Screen Time API to block apps. This is the same secure system that powers Apple's built-in parental controls. We need permission to apply app restrictions on your behalf.",
    "value": "GitFocus는 Apple의 Screen Time API를 사용하여 앱을 차단합니다. 이는 Apple 기본 자녀 보호 기능과 동일한 보안 시스템입니다. 대신 앱 제한을 적용하려면 권한이 필요합니다."
   },
   {
-   "id": "site.support.043",
+   "id": "site.support.044",
    "kind": "site",
    "section": "support",
    "en": "Does GitFocus work with private repositories?",
    "value": "GitFocus는 비공개 저장소에서 작동하나요?"
   },
   {
-   "id": "site.support.044",
+   "id": "site.support.045",
    "kind": "site",
    "section": "support",
    "en": "Yes! GitHub counts all commits (public and private) in your contribution graph by default. As long as your contribution settings are set to show \"Private contributions,\" we'll see them.",
    "value": "네! GitHub는 기본적으로 기여 그래프에 모든 커밋 (공개 및 비공개)을 계산합니다. 기여 설정에서 \"비공개 기여\"를 표시하도록 설정되어 있으면 확인할 수 있습니다."
   },
   {
-   "id": "site.support.045",
+   "id": "site.support.046",
    "kind": "site",
    "section": "support",
    "en": "Go to your GitHub profile → Contribution settings → Check \"Private contributions\"",
    "value": "GitHub 프로필 → 기여 설정 → \"비공개 기여\"에 체크"
   },
   {
-   "id": "site.support.046",
+   "id": "site.support.047",
    "kind": "site",
    "section": "support",
    "en": "How much time does each commit earn?",
    "value": "각 커밋으로 얼마나 많은 시간을 얻을 수 있나요?"
   },
   {
-   "id": "site.support.047",
+   "id": "site.support.048",
    "kind": "site",
    "section": "support",
    "en": "Each commit earns you",
    "value": "각 커밋으로 얻는 것은"
   },
   {
-   "id": "site.support.048",
+   "id": "site.support.049",
    "kind": "site",
    "section": "support",
    "en": "5 minutes",
    "value": "5분"
   },
   {
-   "id": "site.support.049",
+   "id": "site.support.050",
    "kind": "site",
    "section": "support",
    "en": "of unlock time. Push 3 commits? That's 15 minutes to scroll Twitter guilt-free.",
    "value": "의 잠금 해제 시간입니다. 3개의 커밋을 푸시하면? 죄책감 없이 15분 동안 Twitter를 스크롤할 수 있습니다."
   },
   {
-   "id": "site.support.050",
+   "id": "site.support.051",
    "kind": "site",
    "section": "support",
    "en": "What are \"Lives\" and how do they work?",
    "value": "\"라이프\"란 무엇이며 어떻게 작동하나요?"
   },
   {
-   "id": "site.support.051",
+   "id": "site.support.052",
    "kind": "site",
    "section": "support",
    "en": "Lives are emergency unlocks. When you use a life, all your blocked apps are unlocked until midnight. You start with 1 free life and can earn more through streaks:",
    "value": "라이프는 긴급 잠금 해제입니다. 라이프를 사용하면 차단된 모든 앱이 자정까지 잠금 해제됩니다. 1개의 무료 라이프로 시작하며 연속 기록을 통해 더 많이 얻을 수 있습니다:"
   },
   {
-   "id": "site.support.052",
+   "id": "site.support.053",
    "kind": "site",
    "section": "support",
    "en": "14-day streak: +1 life",
    "value": "14일 연속: 라이프 +1"
   },
   {
-   "id": "site.support.053",
+   "id": "site.support.054",
    "kind": "site",
    "section": "support",
    "en": "Then +1 life every month you maintain the streak",
    "value": "그 후 연속 기록을 유지하면 매월 라이프 +1"
   },
   {
-   "id": "site.support.054",
+   "id": "site.support.055",
    "kind": "site",
    "section": "support",
    "en": "What is the \"Borrow Time\" feature?",
    "value": "\"시간 빌리기\" 기능이란 무엇인가요?"
   },
   {
-   "id": "site.support.055",
+   "id": "site.support.056",
    "kind": "site",
    "section": "support",
    "en": "Need to finish a quick message but don't have unlock time? You can borrow up to 5 minutes. This creates \"debt\" that gets paid back from your future commit earnings.",
    "value": "빠른 메시지를 마무리해야 하는데 잠금 해제 시간이 없나요? 최대 5분까지 빌릴 수 있습니다. 이는 향후 커밋 수익에서 상환되는 \"부채\"를 생성합니다."
   },
   {
-   "id": "site.support.056",
+   "id": "site.support.057",
    "kind": "site",
    "section": "support",
    "en": "Example: You borrow 3 minutes. Your next commit earns 5 minutes, but 3 go to pay off debt, leaving you with 2 minutes.",
    "value": "예: 3분을 빌립니다. 다음 커밋으로 5분을 얻지만 3분이 부채 상환에 사용되어 2분이 남습니다."
   },
   {
-   "id": "site.support.057",
+   "id": "site.support.058",
    "kind": "site",
    "section": "support",
    "en": "What is the Discipline Bank?",
    "value": "Discipline Bank란 무엇인가요?"
   },
   {
-   "id": "site.support.058",
+   "id": "site.support.059",
    "kind": "site",
    "section": "support",
    "en": "The Discipline Bank tracks time you've earned but haven't used. It's a measure of your self-control. Each minute you earn but don't spend on distractions goes into your bank.",
    "value": "Discipline Bank는 획득했지만 사용하지 않은 시간을 추적합니다. 이는 자제력의 척도입니다. 획득했지만 방해 요소에 소비하지 않은 각 분이 은행에 저축됩니다."
   },
   {
-   "id": "site.support.059",
+   "id": "site.support.060",
    "kind": "site",
    "section": "support",
    "en": "Challenge yourself: How many minutes can you bank by the end of the year?",
    "value": "도전해 보세요: 연말까지 몇 분을 저축할 수 있나요?"
   },
   {
-   "id": "site.support.060",
+   "id": "site.support.061",
    "kind": "site",
    "section": "support",
    "en": "What are the streak milestone rewards?",
    "value": "연속 기록 마일스톤 보상은 무엇인가요?"
   },
   {
-   "id": "site.support.061",
+   "id": "site.support.062",
    "kind": "site",
    "section": "support",
    "en": "Building a streak unlocks permanent perks:",
    "value": "연속 기록을 쌓으면 영구 혜택이 잠금 해제됩니다:"
   },
   {
-   "id": "site.support.062",
+   "id": "site.support.063",
    "kind": "site",
    "section": "support",
    "en": "14 days:",
    "value": "14일:"
   },
   {
-   "id": "site.support.063",
+   "id": "site.support.064",
    "kind": "site",
    "section": "support",
    "en": "+1 extra life (then +1/month)",
    "value": "추가 라이프 +1 (이후 매월 +1)"
   },
   {
-   "id": "site.support.064",
+   "id": "site.support.065",
    "kind": "site",
    "section": "support",
    "en": "30 days:",
    "value": "30일:"
   },
   {
-   "id": "site.support.065",
+   "id": "site.support.066",
    "kind": "site",
    "section": "support",
    "en": "Weekly time bank (unused time resets weekly instead of daily)",
    "value": "주간 타임 뱅크 (미사용 시간이 매일 대신 매주 리셋)"
   },
   {
-   "id": "site.support.066",
+   "id": "site.support.067",
    "kind": "site",
    "section": "support",
    "en": "90 days:",
    "value": "90일:"
   },
   {
-   "id": "site.support.067",
+   "id": "site.support.068",
    "kind": "site",
    "section": "support",
    "en": "Permanent time (earned time never expires)",
    "value": "영구 시간 (획득 시간이 만료되지 않음)"
   },
   {
-   "id": "site.support.068",
+   "id": "site.support.069",
    "kind": "site",
    "section": "support",
    "en": "My commits aren't being detected",
    "value": "커밋이 감지되지 않습니다"
   },
   {
-   "id": "site.support.069",
+   "id": "site.support.070",
    "kind": "site",
    "section": "support",
    "en": "Here are some things to check:",
    "value": "확인할 사항:"
   },
   {
-   "id": "site.support.070",
+   "id": "site.support.071",
    "kind": "site",
    "section": "support",
    "en": "Make sure your GitHub username is entered correctly",
    "value": "GitHub 사용자 이름이 올바르게 입력되었는지 확인하세요"
   },
   {
-   "id": "site.support.071",
+   "id": "site.support.072",
    "kind": "site",
    "section": "support",
    "en": "If you use multiple accounts, check that the right accounts are enabled for commit detection",
    "value": "여러 계정을 사용하는 경우 커밋 감지에 올바른 계정이 활성화되어 있는지 확인하세요"
   },
   {
-   "id": "site.support.072",
+   "id": "site.support.073",
    "kind": "site",
    "section": "support",
    "en": "Check that your commits show up on your GitHub profile's contribution graph",
    "value": "GitHub 프로필의 기여 그래프에 커밋이 표시되는지 확인하세요"
   },
   {
-   "id": "site.support.073",
+   "id": "site.support.074",
    "kind": "site",
    "section": "support",
    "en": "If using private repos, ensure \"Private contributions\" is enabled in GitHub settings",
    "value": "비공개 저장소를 사용하는 경우 GitHub 설정에서 \"비공개 기여\"가 활성화되어 있는지 확인하세요"
   },
   {
-   "id": "site.support.074",
+   "id": "site.support.075",
    "kind": "site",
    "section": "support",
    "en": "Wait a few minutes — GitHub's contribution graph can take time to update",
    "value": "몇 분 기다려 보세요 — GitHub의 기여 그래프는 업데이트하는 데 시간이 걸릴 수 있습니다"
   },
   {
-   "id": "site.support.075",
+   "id": "site.support.076",
    "kind": "site",
    "section": "support",
    "en": "Apps aren't being blocked",
    "value": "앱이 차단되지 않습니다"
   },
   {
-   "id": "site.support.076",
+   "id": "site.support.077",
    "kind": "site",
    "section": "support",
    "en": "Make sure you've:",
    "value": "다음을 확인하세요:"
   },
   {
-   "id": "site.support.077",
+   "id": "site.support.078",
    "kind": "site",
    "section": "support",
    "en": "Granted Screen Time permissions during setup",
    "value": "설정 중 Screen Time 권한을 부여했는지"
   },
   {
-   "id": "site.support.078",
+   "id": "site.support.079",
    "kind": "site",
    "section": "support",
    "en": "Selected at least one app or category to block",
    "value": "차단할 앱 또는 카테고리를 하나 이상 선택했는지"
   },
   {
-   "id": "site.support.079",
+   "id": "site.support.080",
    "kind": "site",
    "section": "support",
    "en": "Started a focus session from the main screen",
    "value": "메인 화면에서 집중 세션을 시작했는지"
   },
   {
-   "id": "site.support.080",
+   "id": "site.support.081",
    "kind": "site",
    "section": "support",
    "en": "If issues persist, try going to iOS Settings → Screen Time and ensure GitFocus has the necessary permissions.",
    "value": "문제가 계속되면 iOS 설정 → Screen Time으로 이동하여 GitFocus에 필요한 권한이 있는지 확인하세요."
   },
   {
-   "id": "site.support.081",
+   "id": "site.support.082",
    "kind": "site",
    "section": "support",
    "en": "The app crashed or is behaving unexpectedly",
    "value": "앱이 충돌하거나 예기치 않게 작동합니다"
   },
   {
-   "id": "site.support.082",
+   "id": "site.support.083",
    "kind": "site",
    "section": "support",
    "en": "Try these steps:",
    "value": "다음 단계를 시도하세요:"
   },
   {
-   "id": "site.support.083",
+   "id": "site.support.084",
    "kind": "site",
    "section": "support",
    "en": "Force quit and reopen the app",
    "value": "앱을 강제 종료하고 다시 열기"
   },
   {
-   "id": "site.support.084",
+   "id": "site.support.085",
    "kind": "site",
    "section": "support",
    "en": "Restart your device",
    "value": "기기 재시작"
   },
   {
-   "id": "site.support.085",
+   "id": "site.support.086",
    "kind": "site",
    "section": "support",
    "en": "Make sure you're on the latest version of GitFocus",
    "value": "GitFocus의 최신 버전을 사용하고 있는지 확인"
   },
   {
-   "id": "site.support.086",
+   "id": "site.support.087",
    "kind": "site",
    "section": "support",
    "en": "If the issue persists, email us at",
    "value": "문제가 계속되면 다음 이메일로 문의하세요"
   },
   {
-   "id": "site.support.087",
+   "id": "site.support.088",
    "kind": "site",
    "section": "support",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.support.088",
+   "id": "site.support.089",
    "kind": "site",
    "section": "support",
    "en": "with details about what happened",
    "value": "무슨 일이 있었는지 자세한 내용과 함께"
   },
   {
-   "id": "site.support.089",
+   "id": "site.support.090",
    "kind": "site",
    "section": "support",
    "en": "How do I reset or start over?",
    "value": "재설정하거나 처음부터 다시 시작하려면 어떻게 하나요?"
   },
   {
-   "id": "site.support.090",
+   "id": "site.support.091",
    "kind": "site",
    "section": "support",
    "en": "To completely reset GitFocus:",
    "value": "GitFocus를 완전히 재설정하려면:"
   },
   {
-   "id": "site.support.091",
+   "id": "site.support.092",
    "kind": "site",
    "section": "support",
    "en": "Delete the app from your device",
    "value": "기기에서 앱 삭제"
   },
   {
-   "id": "site.support.092",
+   "id": "site.support.093",
    "kind": "site",
    "section": "support",
    "en": "Reinstall from the App Store",
    "value": "App Store에서 재설치"
   },
   {
-   "id": "site.support.093",
+   "id": "site.support.094",
    "kind": "site",
    "section": "support",
    "en": "Go through the onboarding again",
    "value": "온보딩 다시 진행"
   },
   {
-   "id": "site.support.094",
+   "id": "site.support.095",
    "kind": "site",
    "section": "support",
    "en": "Note: Your GitHub username or account list is stored securely for convenience, so it may be pre-filled when you reinstall.",
    "value": "참고: GitHub 사용자 이름 또는 계정 목록은 편의를 위해 안전하게 저장되므로 재설치 시 미리 채워질 수 있습니다."
   },
   {
-   "id": "site.support.095",
+   "id": "site.support.096",
    "kind": "site",
    "section": "support",
    "en": "Quick Troubleshooting",
    "value": "빠른 문제 해결"
   },
   {
-   "id": "site.support.096",
+   "id": "site.support.097",
    "kind": "site",
    "section": "support",
    "en": "Force Refresh",
    "value": "강제 새로고침"
   },
   {
-   "id": "site.support.097",
+   "id": "site.support.098",
    "kind": "site",
    "section": "support",
    "en": "Pull down on the main screen to manually refresh your commit data from GitHub.",
    "value": "메인 화면에서 아래로 당겨 GitHub에서 커밋 데이터를 수동으로 새로고침합니다."
   },
   {
-   "id": "site.support.098",
+   "id": "site.support.099",
    "kind": "site",
    "section": "support",
    "en": "Check Permissions",
    "value": "권한 확인"
   },
   {
-   "id": "site.support.099",
+   "id": "site.support.100",
    "kind": "site",
    "section": "support",
    "en": "Go to iOS Settings → Screen Time → GitFocus to verify permissions are granted.",
    "value": "iOS 설정 → Screen Time → GitFocus로 이동하여 권한이 부여되었는지 확인합니다."
   },
   {
-   "id": "site.support.100",
+   "id": "site.support.101",
    "kind": "site",
    "section": "support",
    "en": "Verify GitHub",
    "value": "GitHub 확인"
   },
   {
-   "id": "site.support.101",
+   "id": "site.support.102",
    "kind": "site",
    "section": "support",
    "en": "Visit github.com/[your-username] and check that your contribution graph shows recent commits.",
    "value": "github.com/[귀하의-사용자이름]을 방문하여 기여 그래프에 최근 커밋이 표시되는지 확인합니다."
   },
   {
-   "id": "site.support.102",
+   "id": "site.support.103",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "개인정보 처리방침"
   },
   {
-   "id": "site.support.103",
+   "id": "site.support.104",
    "kind": "site",
    "section": "support",
    "en": "Learn how we protect your data",
    "value": "데이터 보호 방법 알아보기"
   },
   {
-   "id": "site.support.104",
+   "id": "site.support.105",
    "kind": "site",
    "section": "support",
    "en": "Report a Bug",
    "value": "버그 신고"
   },
   {
-   "id": "site.support.105",
+   "id": "site.support.106",
    "kind": "site",
    "section": "support",
    "en": "Help us improve GitFocus",
    "value": "GitFocus 개선에 도움주기"
   },
   {
-   "id": "site.support.106",
+   "id": "site.support.107",
    "kind": "site",
    "section": "support",
    "en": "Request a Feature",
    "value": "기능 요청"
   },
   {
-   "id": "site.support.107",
+   "id": "site.support.108",
    "kind": "site",
    "section": "support",
    "en": "Tell us what you'd like to see",
    "value": "원하는 기능 알려주기"
   },
   {
-   "id": "site.support.108",
+   "id": "site.support.109",
    "kind": "site",
    "section": "support",
    "en": "Localization Feedback",
    "value": "번역 피드백"
   },
   {
-   "id": "site.support.109",
+   "id": "site.support.110",
    "kind": "site",
    "section": "support",
    "en": "Review the translations and suggest fixes",
    "value": "번역을 검토하고 수정을 제안하세요"
   },
   {
-   "id": "site.support.110",
+   "id": "site.support.111",
    "kind": "site",
    "section": "support",
    "en": "Privacy Policy",
    "value": "개인정보 처리방침"
   },
   {
-   "id": "site.support.111",
+   "id": "site.support.112",
    "kind": "site",
    "section": "support",
    "en": "Support",
    "value": "지원"
   },
   {
-   "id": "site.support.112",
+   "id": "site.support.113",
    "kind": "site",
    "section": "support",
    "en": "Accessibility",
    "value": "접근성"
   },
   {
-   "id": "site.support.113",
+   "id": "site.support.114",
    "kind": "site",
    "section": "support",
    "en": "© 2026 GitFocus",
@@ -5461,753 +5475,760 @@
    "id": "site.privacy.024",
    "kind": "site",
    "section": "privacy",
+   "en": "Translation wrong? Report it here",
+   "value": "번역 오류? 여기서 신고"
+  },
+  {
+   "id": "site.privacy.025",
+   "kind": "site",
+   "section": "privacy",
    "en": "// Privacy Policy",
    "value": "// 개인정보 보호정책"
   },
   {
-   "id": "site.privacy.025",
+   "id": "site.privacy.026",
    "kind": "site",
    "section": "privacy",
    "en": "Your data stays yours",
    "value": "귀하의 데이터는 귀하의 것입니다"
   },
   {
-   "id": "site.privacy.026",
+   "id": "site.privacy.027",
    "kind": "site",
    "section": "privacy",
    "en": "We built GitFocus with privacy as a core principle. Here's exactly what we do (and don't do) with your information.",
    "value": "GitFocus는 개인정보 보호를 핵심 원칙으로 설계되었습니다. 귀하의 정보로 무엇을 하고 무엇을 하지 않는지 정확히 설명합니다."
   },
   {
-   "id": "site.privacy.027",
+   "id": "site.privacy.028",
    "kind": "site",
    "section": "privacy",
    "en": "Last updated: January 2026",
    "value": "최종 업데이트: January 2026"
   },
   {
-   "id": "site.privacy.028",
+   "id": "site.privacy.029",
    "kind": "site",
    "section": "privacy",
    "en": "// TL;DR",
    "value": "// 요약"
   },
   {
-   "id": "site.privacy.029",
+   "id": "site.privacy.030",
    "kind": "site",
    "section": "privacy",
    "en": "We don't collect your data. Period.",
    "value": "저희는 귀하의 데이터를 수집하지 않습니다. 끝."
   },
   {
-   "id": "site.privacy.030",
+   "id": "site.privacy.031",
    "kind": "site",
    "section": "privacy",
    "en": "No accounts required",
    "value": "계정 불필요"
   },
   {
-   "id": "site.privacy.031",
+   "id": "site.privacy.032",
    "kind": "site",
    "section": "privacy",
    "en": "Everything on-device",
    "value": "모든 것이 기기 내에서"
   },
   {
-   "id": "site.privacy.032",
+   "id": "site.privacy.033",
    "kind": "site",
    "section": "privacy",
    "en": "No tracking or analytics",
    "value": "추적이나 분석 없음"
   },
   {
-   "id": "site.privacy.033",
+   "id": "site.privacy.034",
    "kind": "site",
    "section": "privacy",
    "en": "Works offline",
    "value": "오프라인 작동"
   },
   {
-   "id": "site.privacy.034",
+   "id": "site.privacy.035",
    "kind": "site",
    "section": "privacy",
    "en": "Data We Collect",
    "value": "수집하는 데이터"
   },
   {
-   "id": "site.privacy.035",
+   "id": "site.privacy.036",
    "kind": "site",
    "section": "privacy",
    "en": "None.",
    "value": "없음."
   },
   {
-   "id": "site.privacy.036",
+   "id": "site.privacy.037",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not collect, store, or transmit any personal data to our servers because we don't have any servers to send it to.",
    "value": "GitFocus는 개인 데이터를 수집, 저장 또는 전송하지 않습니다. 전송할 서버 자체가 없기 때문입니다."
   },
   {
-   "id": "site.privacy.037",
+   "id": "site.privacy.038",
    "kind": "site",
    "section": "privacy",
    "en": "Everything the app needs to function is stored locally on your device:",
    "value": "앱의 작동에 필요한 모든 것은 기기에 로컬로 저장됩니다:"
   },
   {
-   "id": "site.privacy.038",
+   "id": "site.privacy.039",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub username or usernames (to check public commits)",
    "value": "GitHub 사용자 이름 (공개 커밋 확인용)"
   },
   {
-   "id": "site.privacy.039",
+   "id": "site.privacy.040",
    "kind": "site",
    "section": "privacy",
    "en": "Your app selection preferences",
    "value": "앱 선택 설정"
   },
   {
-   "id": "site.privacy.040",
+   "id": "site.privacy.041",
    "kind": "site",
    "section": "privacy",
    "en": "Your focus session history",
    "value": "집중 세션 기록"
   },
   {
-   "id": "site.privacy.041",
+   "id": "site.privacy.042",
    "kind": "site",
    "section": "privacy",
    "en": "Your earned time and streak data",
    "value": "획득 시간 및 연속 기록 데이터"
   },
   {
-   "id": "site.privacy.042",
+   "id": "site.privacy.043",
    "kind": "site",
    "section": "privacy",
    "en": "GitHub Integration",
    "value": "GitHub 통합"
   },
   {
-   "id": "site.privacy.043",
+   "id": "site.privacy.044",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus reads public GitHub contribution data for the username or usernames you add to determine when you've made commits. Here's how it works:",
    "value": "GitFocus는 추가한 GitHub 사용자 이름의 공개 기여 데이터를 읽어 커밋 여부를 판단합니다. 작동 방식은 다음과 같습니다:"
   },
   {
-   "id": "site.privacy.044",
+   "id": "site.privacy.045",
    "kind": "site",
    "section": "privacy",
    "en": "What We Access",
    "value": "액세스하는 정보"
   },
   {
-   "id": "site.privacy.045",
+   "id": "site.privacy.046",
    "kind": "site",
    "section": "privacy",
    "en": "Your public GitHub profile page",
    "value": "공개 GitHub 프로필 페이지"
   },
   {
-   "id": "site.privacy.046",
+   "id": "site.privacy.047",
    "kind": "site",
    "section": "privacy",
    "en": "Your public contribution graph (the green squares)",
    "value": "공개 기여 그래프 (녹색 사각형)"
   },
   {
-   "id": "site.privacy.047",
+   "id": "site.privacy.048",
    "kind": "site",
    "section": "privacy",
    "en": "Commit counts per day (not commit contents)",
    "value": "일일 커밋 수 (커밋 내용은 제외)"
   },
   {
-   "id": "site.privacy.048",
+   "id": "site.privacy.049",
    "kind": "site",
    "section": "privacy",
    "en": "What We Don't Access",
    "value": "액세스하지 않는 정보"
   },
   {
-   "id": "site.privacy.049",
+   "id": "site.privacy.050",
    "kind": "site",
    "section": "privacy",
    "en": "Private repositories",
    "value": "비공개 저장소"
   },
   {
-   "id": "site.privacy.050",
+   "id": "site.privacy.051",
    "kind": "site",
    "section": "privacy",
    "en": "Commit messages or code",
    "value": "커밋 메시지 또는 코드"
   },
   {
-   "id": "site.privacy.051",
+   "id": "site.privacy.052",
    "kind": "site",
    "section": "privacy",
    "en": "Your GitHub password or tokens",
    "value": "GitHub 비밀번호 또는 토큰"
   },
   {
-   "id": "site.privacy.052",
+   "id": "site.privacy.053",
    "kind": "site",
    "section": "privacy",
    "en": "Any GitHub API with authentication",
    "value": "인증이 필요한 GitHub API"
   },
   {
-   "id": "site.privacy.053",
+   "id": "site.privacy.054",
    "kind": "site",
    "section": "privacy",
    "en": "No OAuth Required",
    "value": "OAuth 불필요"
   },
   {
-   "id": "site.privacy.054",
+   "id": "site.privacy.055",
    "kind": "site",
    "section": "privacy",
    "en": "We intentionally designed GitFocus to work without GitHub authentication. You can add one or multiple GitHub usernames, and we only read publicly available information that anyone can see by visiting those GitHub profiles.",
    "value": "GitFocus는 GitHub 인증 없이 작동하도록 의도적으로 설계되었습니다. 하나 또는 여러 개의 GitHub 사용자 이름을 추가할 수 있으며, 누구나 프로필을 방문하여 볼 수 있는 공개 정보만 읽습니다."
   },
   {
-   "id": "site.privacy.055",
+   "id": "site.privacy.056",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time & App Blocking",
    "value": "Screen Time 및 앱 차단"
   },
   {
-   "id": "site.privacy.056",
+   "id": "site.privacy.057",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus uses Apple's Screen Time API (Family Controls framework) to block apps. This is the same secure system that powers Apple's built-in Screen Time features.",
    "value": "GitFocus는 Apple의 Screen Time API (Family Controls 프레임워크)를 사용하여 앱을 차단합니다. 이는 Apple 기본 Screen Time 기능과 동일한 보안 시스템입니다."
   },
   {
-   "id": "site.privacy.057",
+   "id": "site.privacy.058",
    "kind": "site",
    "section": "privacy",
    "en": "How It Works",
    "value": "작동 방식"
   },
   {
-   "id": "site.privacy.058",
+   "id": "site.privacy.059",
    "kind": "site",
    "section": "privacy",
    "en": "App blocking is handled entirely by iOS, not our code",
    "value": "앱 차단은 iOS가 전적으로 처리하며, 저희 코드는 관여하지 않습니다"
   },
   {
-   "id": "site.privacy.059",
+   "id": "site.privacy.060",
    "kind": "site",
    "section": "privacy",
    "en": "We never see which apps you use or for how long",
    "value": "어떤 앱을 얼마나 사용했는지는 절대 알 수 없습니다"
   },
   {
-   "id": "site.privacy.060",
+   "id": "site.privacy.061",
    "kind": "site",
    "section": "privacy",
    "en": "Apple's privacy protections apply to all Screen Time data",
    "value": "모든 Screen Time 데이터에는 Apple의 개인정보 보호가 적용됩니다"
   },
   {
-   "id": "site.privacy.061",
+   "id": "site.privacy.062",
    "kind": "site",
    "section": "privacy",
    "en": "We only receive anonymized \"tokens\" that represent apps",
    "value": "앱을 나타내는 익명의 \"토큰\"만 받습니다"
   },
   {
-   "id": "site.privacy.062",
+   "id": "site.privacy.063",
    "kind": "site",
    "section": "privacy",
    "en": "What We Can't See",
    "value": "볼 수 없는 정보"
   },
   {
-   "id": "site.privacy.063",
+   "id": "site.privacy.064",
    "kind": "site",
    "section": "privacy",
    "en": "Your app usage statistics",
    "value": "앱 사용 통계"
   },
   {
-   "id": "site.privacy.064",
+   "id": "site.privacy.065",
    "kind": "site",
    "section": "privacy",
    "en": "When you open or close apps",
    "value": "앱 시작 또는 종료 시간"
   },
   {
-   "id": "site.privacy.065",
+   "id": "site.privacy.066",
    "kind": "site",
    "section": "privacy",
    "en": "How long you spend in any app",
    "value": "각 앱에서 보낸 시간"
   },
   {
-   "id": "site.privacy.066",
+   "id": "site.privacy.067",
    "kind": "site",
    "section": "privacy",
    "en": "The actual names of apps you select (only tokens)",
    "value": "선택한 앱의 실제 이름 (토큰만)"
   },
   {
-   "id": "site.privacy.067",
+   "id": "site.privacy.068",
    "kind": "site",
    "section": "privacy",
    "en": "Local Data Storage",
    "value": "로컬 데이터 저장"
   },
   {
-   "id": "site.privacy.068",
+   "id": "site.privacy.069",
    "kind": "site",
    "section": "privacy",
    "en": "All your data is stored on your device using Apple's secure storage mechanisms:",
    "value": "모든 데이터는 Apple의 보안 저장 메커니즘을 사용하여 기기에 저장됩니다:"
   },
   {
-   "id": "site.privacy.069",
+   "id": "site.privacy.070",
    "kind": "site",
    "section": "privacy",
    "en": "UserDefaults",
    "value": "UserDefaults"
   },
   {
-   "id": "site.privacy.070",
+   "id": "site.privacy.071",
    "kind": "site",
    "section": "privacy",
    "en": "— Settings and preferences",
    "value": "— 설정 및 환경설정"
   },
   {
-   "id": "site.privacy.071",
+   "id": "site.privacy.072",
    "kind": "site",
    "section": "privacy",
    "en": "Keychain",
    "value": "Keychain"
   },
   {
-   "id": "site.privacy.072",
+   "id": "site.privacy.073",
    "kind": "site",
    "section": "privacy",
    "en": "— Your primary GitHub username (for persistence across reinstalls)",
    "value": "— 주요 GitHub 사용자 이름 (재설치 시 유지용)"
   },
   {
-   "id": "site.privacy.073",
+   "id": "site.privacy.074",
    "kind": "site",
    "section": "privacy",
    "en": "App Group",
    "value": "App Group"
   },
   {
-   "id": "site.privacy.074",
+   "id": "site.privacy.075",
    "kind": "site",
    "section": "privacy",
    "en": "— Shared data between app and extensions",
    "value": "— 앱과 확장 프로그램 간 공유 데이터"
   },
   {
-   "id": "site.privacy.075",
+   "id": "site.privacy.076",
    "kind": "site",
    "section": "privacy",
    "en": "This data is encrypted by iOS and protected by your device passcode. If you delete the app, your local data is deleted too.",
    "value": "이 데이터는 iOS에 의해 암호화되고 기기 암호로 보호됩니다. 앱을 삭제하면 로컬 데이터도 삭제됩니다."
   },
   {
-   "id": "site.privacy.076",
+   "id": "site.privacy.077",
    "kind": "site",
    "section": "privacy",
    "en": "Third-Party Services",
    "value": "타사 서비스"
   },
   {
-   "id": "site.privacy.077",
+   "id": "site.privacy.078",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus does not use any third-party analytics, crash reporting, or advertising services. We don't integrate with:",
    "value": "GitFocus는 타사 분석, 충돌 보고 또는 광고 서비스를 사용하지 않습니다. 다음과 통합하지 않습니다:"
   },
   {
-   "id": "site.privacy.078",
+   "id": "site.privacy.079",
    "kind": "site",
    "section": "privacy",
    "en": "Google Analytics",
    "value": "Google Analytics"
   },
   {
-   "id": "site.privacy.079",
+   "id": "site.privacy.080",
    "kind": "site",
    "section": "privacy",
    "en": "Firebase",
    "value": "Firebase"
   },
   {
-   "id": "site.privacy.080",
+   "id": "site.privacy.081",
    "kind": "site",
    "section": "privacy",
    "en": "Crashlytics",
    "value": "Crashlytics"
   },
   {
-   "id": "site.privacy.081",
+   "id": "site.privacy.082",
    "kind": "site",
    "section": "privacy",
    "en": "Facebook SDK",
    "value": "Facebook SDK"
   },
   {
-   "id": "site.privacy.082",
+   "id": "site.privacy.083",
    "kind": "site",
    "section": "privacy",
    "en": "Any advertising networks",
    "value": "모든 광고 네트워크"
   },
   {
-   "id": "site.privacy.083",
+   "id": "site.privacy.084",
    "kind": "site",
    "section": "privacy",
    "en": "Any user tracking services",
    "value": "모든 사용자 추적 서비스"
   },
   {
-   "id": "site.privacy.084",
+   "id": "site.privacy.085",
    "kind": "site",
    "section": "privacy",
    "en": "The only external services we communicate with are github.com to fetch your public contribution data, and our optional customer support chat (see below).",
    "value": "통신하는 유일한 외부 서비스는 공개 기여 데이터를 가져오기 위한 github.com과 선택적인 고객 지원 채팅입니다 (아래 참조)."
   },
   {
-   "id": "site.privacy.085",
+   "id": "site.privacy.086",
    "kind": "site",
    "section": "privacy",
    "en": "Customer Support & Live Chat",
    "value": "고객 지원 및 실시간 채팅"
   },
   {
-   "id": "site.privacy.086",
+   "id": "site.privacy.087",
    "kind": "site",
    "section": "privacy",
    "en": "Contacting support is entirely optional and only happens when you choose to reach out for help.",
    "value": "지원팀 연락은 전적으로 선택 사항이며, 고객이 도움을 요청할 때만 발생합니다."
   },
   {
-   "id": "site.privacy.087",
+   "id": "site.privacy.088",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus offers customer support via live chat powered by Chatwoot, a third-party customer support platform. This is the only third-party service used by GitFocus (besides GitHub), and it's only active when you explicitly choose to contact us for help.",
    "value": "GitFocus는 타사 고객 지원 플랫폼인 Chatwoot을 통해 실시간 채팅 지원을 제공합니다. 이는 GitHub를 제외하고 GitFocus가 사용하는 유일한 타사 서비스이며, 명시적으로 지원팀에 연락할 때만 활성화됩니다."
   },
   {
-   "id": "site.privacy.088",
+   "id": "site.privacy.089",
    "kind": "site",
    "section": "privacy",
    "en": "How it works",
    "value": "작동 방식"
   },
   {
-   "id": "site.privacy.089",
+   "id": "site.privacy.090",
    "kind": "site",
    "section": "privacy",
    "en": "Session Persistence:",
    "value": "세션 유지:"
   },
   {
-   "id": "site.privacy.090",
+   "id": "site.privacy.091",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot uses cookies to maintain your chat session across visits, so you can continue previous conversations",
    "value": "Chatwoot은 쿠키를 사용하여 방문 간 채팅 세션을 유지하므로 이전 대화를 계속할 수 있습니다"
   },
   {
-   "id": "site.privacy.091",
+   "id": "site.privacy.092",
    "kind": "site",
    "section": "privacy",
    "en": "Anonymous by Default:",
    "value": "기본적으로 익명:"
   },
   {
-   "id": "site.privacy.092",
+   "id": "site.privacy.093",
    "kind": "site",
    "section": "privacy",
    "en": "You can chat with support without providing any personal information - the session is tracked via browser cookies only",
    "value": "개인 정보를 제공하지 않고도 지원팀과 채팅할 수 있습니다 - 세션은 브라우저 쿠키만으로 추적됩니다"
   },
   {
-   "id": "site.privacy.093",
+   "id": "site.privacy.094",
    "kind": "site",
    "section": "privacy",
    "en": "Optional Email:",
    "value": "선택적 이메일:"
   },
   {
-   "id": "site.privacy.094",
+   "id": "site.privacy.095",
    "kind": "site",
    "section": "privacy",
    "en": "You may optionally provide your email address if you want to receive follow-up responses",
    "value": "후속 응답을 받고 싶다면 선택적으로 이메일 주소를 제공할 수 있습니다"
   },
   {
-   "id": "site.privacy.095",
+   "id": "site.privacy.096",
    "kind": "site",
    "section": "privacy",
    "en": "What's Collected",
    "value": "수집되는 정보"
   },
   {
-   "id": "site.privacy.096",
+   "id": "site.privacy.097",
    "kind": "site",
    "section": "privacy",
    "en": "When you use the chat feature, Chatwoot may collect:",
    "value": "채팅 기능을 사용하면 Chatwoot이 다음을 수집할 수 있습니다:"
   },
   {
-   "id": "site.privacy.097",
+   "id": "site.privacy.098",
    "kind": "site",
    "section": "privacy",
    "en": "Your chat messages and conversation history",
    "value": "채팅 메시지 및 대화 기록"
   },
   {
-   "id": "site.privacy.098",
+   "id": "site.privacy.099",
    "kind": "site",
    "section": "privacy",
    "en": "Browser cookies for session persistence",
    "value": "세션 유지를 위한 브라우저 쿠키"
   },
   {
-   "id": "site.privacy.099",
+   "id": "site.privacy.100",
    "kind": "site",
    "section": "privacy",
    "en": "Email address (only if you choose to provide it)",
    "value": "이메일 주소 (제공한 경우에만)"
   },
   {
-   "id": "site.privacy.100",
+   "id": "site.privacy.101",
    "kind": "site",
    "section": "privacy",
    "en": "Basic technical information (browser type, timestamp)",
    "value": "기본 기술 정보 (브라우저 유형, 타임스탬프)"
   },
   {
-   "id": "site.privacy.101",
+   "id": "site.privacy.102",
    "kind": "site",
    "section": "privacy",
    "en": "No Access to App Data",
    "value": "앱 데이터 액세스 없음"
   },
   {
-   "id": "site.privacy.102",
+   "id": "site.privacy.103",
    "kind": "site",
    "section": "privacy",
    "en": "The chat feature does NOT have access to your GitHub data, focus session history, or any other data stored in the GitFocus app. Only the information you explicitly type into the chat is sent to our support system.",
    "value": "채팅 기능은 GitHub 데이터, 집중 세션 기록 또는 GitFocus 앱에 저장된 기타 데이터에 액세스할 수 없습니다. 채팅에 명시적으로 입력한 정보만 지원 시스템으로 전송됩니다."
   },
   {
-   "id": "site.privacy.103",
+   "id": "site.privacy.104",
    "kind": "site",
    "section": "privacy",
    "en": "Chatwoot is GDPR-compliant and processes data in accordance with applicable data protection laws. For more information, visit",
    "value": "Chatwoot은 GDPR을 준수하며 해당 데이터 보호법에 따라 데이터를 처리합니다. 자세한 내용은 다음을 참조하세요"
   },
   {
-   "id": "site.privacy.104",
+   "id": "site.privacy.105",
    "kind": "site",
    "section": "privacy",
    "en": "chatwoot.com/privacy-policy",
    "value": "chatwoot.com/privacy-policy"
   },
   {
-   "id": "site.privacy.105",
+   "id": "site.privacy.106",
    "kind": "site",
    "section": "privacy",
    "en": "You can clear chat cookies at any time through your browser settings. If you never use the chat feature, no data is ever sent to Chatwoot.",
    "value": "브라우저 설정에서 언제든지 채팅 쿠키를 지울 수 있습니다. 채팅 기능을 사용하지 않으면 Chatwoot으로 데이터가 전송되지 않습니다."
   },
   {
-   "id": "site.privacy.106",
+   "id": "site.privacy.107",
    "kind": "site",
    "section": "privacy",
    "en": "Your Rights",
    "value": "귀하의 권리"
   },
   {
-   "id": "site.privacy.107",
+   "id": "site.privacy.108",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect your data, traditional data rights (access, deletion, portability) don't really apply. But here's what you can do:",
    "value": "저희는 귀하의 데이터를 수집하지 않으므로 전통적인 데이터 권리 (액세스, 삭제, 이동성)는 실제로 적용되지 않습니다. 하지만 다음을 수행할 수 있습니다:"
   },
   {
-   "id": "site.privacy.108",
+   "id": "site.privacy.109",
    "kind": "site",
    "section": "privacy",
    "en": "Delete all data",
    "value": "모든 데이터 삭제"
   },
   {
-   "id": "site.privacy.109",
+   "id": "site.privacy.110",
    "kind": "site",
    "section": "privacy",
    "en": "— Simply delete the app from your device",
    "value": "— 기기에서 앱을 삭제하기만 하면 됩니다"
   },
   {
-   "id": "site.privacy.110",
+   "id": "site.privacy.111",
    "kind": "site",
    "section": "privacy",
    "en": "Export data",
    "value": "데이터 내보내기"
   },
   {
-   "id": "site.privacy.111",
+   "id": "site.privacy.112",
    "kind": "site",
    "section": "privacy",
    "en": "— Your data lives on your device; you own it",
    "value": "— 데이터는 기기에 있으며 귀하의 소유입니다"
   },
   {
-   "id": "site.privacy.112",
+   "id": "site.privacy.113",
    "kind": "site",
    "section": "privacy",
    "en": "Change settings",
    "value": "설정 변경"
   },
   {
-   "id": "site.privacy.113",
+   "id": "site.privacy.114",
    "kind": "site",
    "section": "privacy",
    "en": "— All preferences can be modified in the app",
    "value": "— 모든 설정은 앱에서 수정할 수 있습니다"
   },
   {
-   "id": "site.privacy.114",
+   "id": "site.privacy.115",
    "kind": "site",
    "section": "privacy",
    "en": "Children's Privacy & Age Rating",
    "value": "어린이 개인정보 보호 및 연령 등급"
   },
   {
-   "id": "site.privacy.115",
+   "id": "site.privacy.116",
    "kind": "site",
    "section": "privacy",
    "en": "GitFocus is rated",
    "value": "GitFocus의 등급은"
   },
   {
-   "id": "site.privacy.116",
+   "id": "site.privacy.117",
    "kind": "site",
    "section": "privacy",
    "en": "on the App Store and is suitable for users of all ages. The app contains no objectionable content, in-app purchases, or social features.",
    "value": "이며 모든 연령의 사용자에게 적합합니다. 앱에는 부적절한 콘텐츠, 앱 내 구매 또는 소셜 기능이 포함되어 있지 않습니다."
   },
   {
-   "id": "site.privacy.117",
+   "id": "site.privacy.118",
    "kind": "site",
    "section": "privacy",
    "en": "Since we don't collect any personal data, there are no special privacy concerns for younger users. However, we recommend that children under 13 set up the app with parental guidance, as:",
    "value": "개인 데이터를 수집하지 않으므로 어린 사용자에 대한 특별한 개인정보 보호 우려는 없습니다. 그러나 13세 미만 어린이는 부모의 지도 하에 앱을 설정하는 것이 좋습니다:"
   },
   {
-   "id": "site.privacy.118",
+   "id": "site.privacy.119",
    "kind": "site",
    "section": "privacy",
    "en": "Initial setup requires a GitHub username",
    "value": "초기 설정에는 GitHub 사용자 이름이 필요합니다"
   },
   {
-   "id": "site.privacy.119",
+   "id": "site.privacy.120",
    "kind": "site",
    "section": "privacy",
    "en": "Screen Time permissions need to be granted by the device owner",
    "value": "Screen Time 권한은 기기 소유자가 부여해야 합니다"
   },
   {
-   "id": "site.privacy.120",
+   "id": "site.privacy.121",
    "kind": "site",
    "section": "privacy",
    "en": "Understanding the commit-based unlock system may need explanation",
    "value": "커밋 기반 잠금 해제 시스템을 이해하려면 설명이 필요할 수 있습니다"
   },
   {
-   "id": "site.privacy.121",
+   "id": "site.privacy.122",
    "kind": "site",
    "section": "privacy",
    "en": "Parents and guardians can use GitFocus as a tool to encourage coding habits in young developers.",
    "value": "부모와 보호자는 GitFocus를 젊은 개발자의 코딩 습관을 장려하는 도구로 사용할 수 있습니다."
   },
   {
-   "id": "site.privacy.122",
+   "id": "site.privacy.123",
    "kind": "site",
    "section": "privacy",
    "en": "Changes to This Policy",
    "value": "본 정책의 변경"
   },
   {
-   "id": "site.privacy.123",
+   "id": "site.privacy.124",
    "kind": "site",
    "section": "privacy",
    "en": "If we ever change our privacy practices, we'll update this page with a new \"Last Updated\" date. Given our no-data-collection approach, significant changes are unlikely.",
    "value": "개인정보 보호 관행을 변경하는 경우 이 페이지를 새로운 \"최종 업데이트\" 날짜로 업데이트합니다. 데이터 비수집 접근 방식을 고려할 때 중대한 변경은 가능성이 낮습니다."
   },
   {
-   "id": "site.privacy.124",
+   "id": "site.privacy.125",
    "kind": "site",
    "section": "privacy",
    "en": "Contact",
    "value": "문의"
   },
   {
-   "id": "site.privacy.125",
+   "id": "site.privacy.126",
    "kind": "site",
    "section": "privacy",
    "en": "Questions about privacy? We're happy to explain anything in more detail.",
    "value": "개인정보 보호에 대한 질문이 있으신가요? 자세한 설명을 제공해 드립니다."
   },
   {
-   "id": "site.privacy.126",
+   "id": "site.privacy.127",
    "kind": "site",
    "section": "privacy",
    "en": "Email:",
    "value": "이메일:"
   },
   {
-   "id": "site.privacy.127",
+   "id": "site.privacy.128",
    "kind": "site",
    "section": "privacy",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.privacy.128",
+   "id": "site.privacy.129",
    "kind": "site",
    "section": "privacy",
    "en": "Privacy Policy",
    "value": "개인정보 처리방침"
   },
   {
-   "id": "site.privacy.129",
+   "id": "site.privacy.130",
    "kind": "site",
    "section": "privacy",
    "en": "Support",
    "value": "지원"
   },
   {
-   "id": "site.privacy.130",
+   "id": "site.privacy.131",
    "kind": "site",
    "section": "privacy",
    "en": "Accessibility",
    "value": "접근성"
   },
   {
-   "id": "site.privacy.131",
+   "id": "site.privacy.132",
    "kind": "site",
    "section": "privacy",
    "en": "© 2026 GitFocus",
@@ -6385,515 +6406,522 @@
    "id": "site.accessibility.024",
    "kind": "site",
    "section": "accessibility",
+   "en": "Translation wrong? Report it here",
+   "value": "번역 오류? 여기서 신고"
+  },
+  {
+   "id": "site.accessibility.025",
+   "kind": "site",
+   "section": "accessibility",
    "en": "// Accessibility",
    "value": "// 접근성"
   },
   {
-   "id": "site.accessibility.025",
+   "id": "site.accessibility.026",
    "kind": "site",
    "section": "accessibility",
    "en": "Built for everyone",
    "value": "모두를 위한 설계"
   },
   {
-   "id": "site.accessibility.026",
+   "id": "site.accessibility.027",
    "kind": "site",
    "section": "accessibility",
    "en": "GitFocus is designed for assistive technologies. Accessibility claims are rechecked for each release with automated tests and a human device checklist.",
    "value": "GitFocus는 보조 기술을 위해 설계되었습니다. 접근성 주장은 각 릴리스마다 자동화된 테스트와 사람에 의한 기기 체크리스트로 재확인됩니다."
   },
   {
-   "id": "site.accessibility.027",
+   "id": "site.accessibility.028",
    "kind": "site",
    "section": "accessibility",
    "en": "// Features",
    "value": "// 기능"
   },
   {
-   "id": "site.accessibility.028",
+   "id": "site.accessibility.029",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported Accessibility Features",
    "value": "지원되는 접근성 기능"
   },
   {
-   "id": "site.accessibility.029",
+   "id": "site.accessibility.030",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver",
    "value": "VoiceOver"
   },
   {
-   "id": "site.accessibility.030",
+   "id": "site.accessibility.031",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.031",
+   "id": "site.accessibility.032",
    "kind": "site",
    "section": "accessibility",
    "en": "Key release routes use descriptive labels, traits, and a logical reading order. The release gate records the tested routes and device.",
    "value": "주요 릴리스 경로는 설명적인 레이블, 특성 및 논리적인 읽기 순서를 사용합니다. 릴리스 게이트는 테스트된 경로와 기기를 기록합니다."
   },
   {
-   "id": "site.accessibility.032",
+   "id": "site.accessibility.033",
    "kind": "site",
    "section": "accessibility",
    "en": "Voice Control",
    "value": "Voice Control"
   },
   {
-   "id": "site.accessibility.033",
+   "id": "site.accessibility.034",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.034",
+   "id": "site.accessibility.035",
    "kind": "site",
    "section": "accessibility",
    "en": "Interactive controls use accessible names. A physical-device checklist verifies the critical release journey with Voice Control.",
    "value": "대화형 컨트롤은 접근 가능한 이름을 사용합니다. 물리적 기기 체크리스트가 Voice Control을 사용한 중요한 릴리스 여정을 검증합니다."
   },
   {
-   "id": "site.accessibility.035",
+   "id": "site.accessibility.036",
    "kind": "site",
    "section": "accessibility",
    "en": "Larger Text",
    "value": "더 큰 텍스트"
   },
   {
-   "id": "site.accessibility.036",
+   "id": "site.accessibility.037",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.037",
+   "id": "site.accessibility.038",
    "kind": "site",
    "section": "accessibility",
    "en": "App text uses Dynamic Type. Automated AX3 and AX5 coverage plus a human 200% text-size check are required before this claim is approved.",
    "value": "앱 텍스트는 Dynamic Type을 사용합니다. 이 주장이 승인되기 전에 자동화된 AX3 및 AX5 적용 범위와 사람에 의한 200% 텍스트 크기 확인이 필요합니다."
   },
   {
-   "id": "site.accessibility.038",
+   "id": "site.accessibility.039",
    "kind": "site",
    "section": "accessibility",
    "en": "Dark Interface",
    "value": "다크 인터페이스"
   },
   {
-   "id": "site.accessibility.039",
+   "id": "site.accessibility.040",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.040",
+   "id": "site.accessibility.041",
    "kind": "site",
    "section": "accessibility",
    "en": "The app supports light and dark appearances. Both are included in screenshot and app accessibility release checks.",
    "value": "앱은 라이트 및 다크 모드를 지원합니다. 둘 다 스크린샷 및 앱 접근성 릴리스 확인에 포함됩니다."
   },
   {
-   "id": "site.accessibility.041",
+   "id": "site.accessibility.042",
    "kind": "site",
    "section": "accessibility",
    "en": "Differentiate Without Color",
    "value": "색상 없이 구분"
   },
   {
-   "id": "site.accessibility.042",
+   "id": "site.accessibility.043",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.043",
+   "id": "site.accessibility.044",
    "kind": "site",
    "section": "accessibility",
    "en": "Release review checks that important states use labels, shapes, or icons alongside color.",
    "value": "릴리스 검토는 중요한 상태가 색상과 함께 레이블, 모양 또는 아이콘을 사용하는지 확인합니다."
   },
   {
-   "id": "site.accessibility.044",
+   "id": "site.accessibility.045",
    "kind": "site",
    "section": "accessibility",
    "en": "Sufficient Contrast",
    "value": "충분한 대비"
   },
   {
-   "id": "site.accessibility.045",
+   "id": "site.accessibility.046",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.046",
+   "id": "site.accessibility.047",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated contrast checks flag candidate failures in light and dark mode; a reviewer verifies the real text, icons, and backgrounds before approval.",
    "value": "자동화된 대비 확인은 라이트 및 다크 모드에서 후보 실패에 플래그를 지정합니다. 검토자는 승인 전에 실제 텍스트, 아이콘 및 배경을 확인합니다."
   },
   {
-   "id": "site.accessibility.047",
+   "id": "site.accessibility.048",
    "kind": "site",
    "section": "accessibility",
    "en": "Reduced Motion",
    "value": "동작 줄이기"
   },
   {
-   "id": "site.accessibility.048",
+   "id": "site.accessibility.049",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.049",
+   "id": "site.accessibility.050",
    "kind": "site",
    "section": "accessibility",
    "en": "The release checklist verifies that important motion respects the Reduce Motion preference or has a static alternative.",
    "value": "릴리스 체크리스트는 중요한 동작이 동작 줄이기 설정을 존중하거나 정적 대안을 갖추고 있는지 확인합니다."
   },
   {
-   "id": "site.accessibility.050",
+   "id": "site.accessibility.051",
    "kind": "site",
    "section": "accessibility",
    "en": "Full Keyboard Access",
    "value": "전체 키보드 액세스"
   },
   {
-   "id": "site.accessibility.051",
+   "id": "site.accessibility.052",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported",
    "value": "지원됨"
   },
   {
-   "id": "site.accessibility.052",
+   "id": "site.accessibility.053",
    "kind": "site",
    "section": "accessibility",
    "en": "Supported flows include keyboard-accessible controls and alternatives for important gesture-only actions.",
    "value": "지원되는 흐름에는 키보드 액세스 가능한 컨트롤과 중요한 제스처 전용 작업에 대한 대안이 포함됩니다."
   },
   {
-   "id": "site.accessibility.053",
+   "id": "site.accessibility.054",
    "kind": "site",
    "section": "accessibility",
    "en": "// Testing",
    "value": "// 테스트"
   },
   {
-   "id": "site.accessibility.054",
+   "id": "site.accessibility.055",
    "kind": "site",
    "section": "accessibility",
    "en": "Automated Accessibility Testing",
    "value": "자동화된 접근성 테스트"
   },
   {
-   "id": "site.accessibility.055",
+   "id": "site.accessibility.056",
    "kind": "site",
    "section": "accessibility",
    "en": "Test Suites",
    "value": "테스트 스위트"
   },
   {
-   "id": "site.accessibility.056",
+   "id": "site.accessibility.057",
    "kind": "site",
    "section": "accessibility",
    "en": "Appearances",
    "value": "외관"
   },
   {
-   "id": "site.accessibility.057",
+   "id": "site.accessibility.058",
    "kind": "site",
    "section": "accessibility",
    "en": "AX Text Sizes",
    "value": "AX 텍스트 크기"
   },
   {
-   "id": "site.accessibility.058",
+   "id": "site.accessibility.059",
    "kind": "site",
    "section": "accessibility",
    "en": "Release Gate",
    "value": "릴리스 게이트"
   },
   {
-   "id": "site.accessibility.059",
+   "id": "site.accessibility.060",
    "kind": "site",
    "section": "accessibility",
    "en": "Screen Accessibility Audits",
    "value": "화면 접근성 감사"
   },
   {
-   "id": "site.accessibility.060",
+   "id": "site.accessibility.061",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared release routes are launched serially in light and dark mode and checked with iOS native accessibility audits. Required audit categories fail the release gate.",
    "value": "선언된 릴리스 경로는 라이트 및 다크 모드에서 순차적으로 시작되고 iOS 네이티브 접근성 감사로 확인됩니다. 필수 감사 카테고리가 릴리스 게이트를 실패시킵니다."
   },
   {
-   "id": "site.accessibility.061",
+   "id": "site.accessibility.062",
    "kind": "site",
    "section": "accessibility",
    "en": "26 tests",
    "value": "26개 테스트"
   },
   {
-   "id": "site.accessibility.062",
+   "id": "site.accessibility.063",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility Size Tests",
    "value": "접근성 크기 테스트"
   },
   {
-   "id": "site.accessibility.063",
+   "id": "site.accessibility.064",
    "kind": "site",
    "section": "accessibility",
    "en": "Declared routes are rendered at AX3 and AX5 and checked for crash-free rendering, accessible elements, and route completion.",
    "value": "선언된 경로는 AX3 및 AX5에서 렌더링되고 충돌 없는 렌더링, 접근 가능한 요소 및 경로 완료가 확인됩니다."
   },
   {
-   "id": "site.accessibility.064",
+   "id": "site.accessibility.065",
    "kind": "site",
    "section": "accessibility",
    "en": "50 tests",
    "value": "50개 테스트"
   },
   {
-   "id": "site.accessibility.065",
+   "id": "site.accessibility.066",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver Reading Order",
    "value": "VoiceOver 읽기 순서"
   },
   {
-   "id": "site.accessibility.066",
+   "id": "site.accessibility.067",
    "kind": "site",
    "section": "accessibility",
    "en": "Key screens are checked to ensure VoiceOver traversal follows a logical top-to-bottom order, with tolerance for system chrome elements.",
    "value": "주요 화면은 VoiceOver 순회가 시스템 크롬 요소에 대한 허용 오차를 갖춘 논리적인 위에서 아래로의 순서를 따르는지 확인됩니다."
   },
   {
-   "id": "site.accessibility.067",
+   "id": "site.accessibility.068",
    "kind": "site",
    "section": "accessibility",
    "en": "5 tests",
    "value": "5개 테스트"
   },
   {
-   "id": "site.accessibility.068",
+   "id": "site.accessibility.069",
    "kind": "site",
    "section": "accessibility",
    "en": "// Methodology",
    "value": "// 방법론"
   },
   {
-   "id": "site.accessibility.069",
+   "id": "site.accessibility.070",
    "kind": "site",
    "section": "accessibility",
    "en": "How We Test",
    "value": "테스트 방법"
   },
   {
-   "id": "site.accessibility.070",
+   "id": "site.accessibility.071",
    "kind": "site",
    "section": "accessibility",
    "en": "iOS native audits",
    "value": "iOS 네이티브 감사"
   },
   {
-   "id": "site.accessibility.071",
+   "id": "site.accessibility.072",
    "kind": "site",
    "section": "accessibility",
    "en": "— Apple's built-in",
    "value": "— Apple 기본 제공"
   },
   {
-   "id": "site.accessibility.072",
+   "id": "site.accessibility.073",
    "kind": "site",
    "section": "accessibility",
    "en": "performAccessibilityAudit",
    "value": "performAccessibilityAudit"
   },
   {
-   "id": "site.accessibility.073",
+   "id": "site.accessibility.074",
    "kind": "site",
    "section": "accessibility",
    "en": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues.",
    "value": "API checks declared release routes for missing labels, undersized touch targets, and Dynamic Type issues."
   },
   {
-   "id": "site.accessibility.074",
+   "id": "site.accessibility.075",
    "kind": "site",
    "section": "accessibility",
    "en": "Extreme size rendering",
    "value": "극단적 크기 렌더링"
   },
   {
-   "id": "site.accessibility.075",
+   "id": "site.accessibility.076",
    "kind": "site",
    "section": "accessibility",
    "en": "— Each screen is launched at accessibility text sizes AX3 and AX5 to verify nothing crashes, truncates unreadably, or becomes unreachable.",
    "value": "— 각 화면은 접근성 텍스트 크기 AX3 및 AX5에서 시작되어 충돌, 읽을 수 없게 잘림 또는 도달 불가능해지지 않는지 확인합니다."
   },
   {
-   "id": "site.accessibility.076",
+   "id": "site.accessibility.077",
    "kind": "site",
    "section": "accessibility",
    "en": "Reading order validation",
    "value": "읽기 순서 검증"
   },
   {
-   "id": "site.accessibility.077",
+   "id": "site.accessibility.078",
    "kind": "site",
    "section": "accessibility",
    "en": "— Automated tests verify that VoiceOver traverses elements in logical top-to-bottom order on key screens.",
    "value": "— 자동화된 테스트는 VoiceOver가 주요 화면에서 논리적인 위에서 아래로의 순서로 요소를 순회하는지 확인합니다."
   },
   {
-   "id": "site.accessibility.078",
+   "id": "site.accessibility.079",
    "kind": "site",
    "section": "accessibility",
    "en": "Contrast verification",
    "value": "대비 검증"
   },
   {
-   "id": "site.accessibility.079",
+   "id": "site.accessibility.080",
    "kind": "site",
    "section": "accessibility",
    "en": "— WCAG contrast evidence is generated from renderer-owned semantic regions, then reviewed against the actual light and dark artwork.",
    "value": "— WCAG 대비 증거는 렌더러 소유의 의미론적 영역에서 생성된 다음 실제 라이트 및 다크 아트워크와 비교하여 검토됩니다."
   },
   {
-   "id": "site.accessibility.080",
+   "id": "site.accessibility.081",
    "kind": "site",
    "section": "accessibility",
    "en": "Release integration",
    "value": "릴리스 통합"
   },
   {
-   "id": "site.accessibility.081",
+   "id": "site.accessibility.082",
    "kind": "site",
    "section": "accessibility",
    "en": "— The accessibility suites run before screenshot or metadata upload and retain machine-readable evidence.",
    "value": "— 접근성 스위트는 스크린샷 또는 메타데이터 업로드 전에 실행되고 기계 판독 가능한 증거를 유지합니다."
   },
   {
-   "id": "site.accessibility.082",
+   "id": "site.accessibility.083",
    "kind": "site",
    "section": "accessibility",
    "en": "Standards We Follow",
    "value": "준수하는 표준"
   },
   {
-   "id": "site.accessibility.083",
+   "id": "site.accessibility.084",
    "kind": "site",
    "section": "accessibility",
    "en": "WCAG 2.1 Level AA contrast targets for text and interactive elements",
    "value": "텍스트 및 대화형 요소에 대한 WCAG 2.1 레벨 AA 대비 목표"
   },
   {
-   "id": "site.accessibility.084",
+   "id": "site.accessibility.085",
    "kind": "site",
    "section": "accessibility",
    "en": "Apple Human Interface Guidelines for accessibility",
    "value": "접근성을 위한 Apple Human Interface Guidelines"
   },
   {
-   "id": "site.accessibility.085",
+   "id": "site.accessibility.086",
    "kind": "site",
    "section": "accessibility",
    "en": "Minimum 44pt touch-target checks for interactive controls",
    "value": "대화형 컨트롤에 대한 최소 44pt 터치 타겟 확인"
   },
   {
-   "id": "site.accessibility.086",
+   "id": "site.accessibility.087",
    "kind": "site",
    "section": "accessibility",
    "en": "Semantic Dynamic Type coverage at accessibility text sizes",
    "value": "접근성 텍스트 크기에서의 의미론적 Dynamic Type 적용 범위"
   },
   {
-   "id": "site.accessibility.087",
+   "id": "site.accessibility.088",
    "kind": "site",
    "section": "accessibility",
    "en": "VoiceOver-compatible labels and traits on every interactive element",
    "value": "모든 대화형 요소에 대한 VoiceOver 호환 레이블 및 특성"
   },
   {
-   "id": "site.accessibility.088",
+   "id": "site.accessibility.089",
    "kind": "site",
    "section": "accessibility",
    "en": "Keyboard-accessible alternatives for all gesture-based interactions",
    "value": "모든 제스처 기반 상호 작용에 대한 키보드 액세스 가능한 대안"
   },
   {
-   "id": "site.accessibility.089",
+   "id": "site.accessibility.090",
    "kind": "site",
    "section": "accessibility",
    "en": "Feedback",
    "value": "피드백"
   },
   {
-   "id": "site.accessibility.090",
+   "id": "site.accessibility.091",
    "kind": "site",
    "section": "accessibility",
    "en": "If you encounter any accessibility barriers while using GitFocus, we want to hear about it so we can fix it.",
    "value": "GitFocus 사용 중 접근성 장벽이 발생하면 해결할 수 있도록 알려주시기 바랍니다."
   },
   {
-   "id": "site.accessibility.091",
+   "id": "site.accessibility.092",
    "kind": "site",
    "section": "accessibility",
    "en": "Chat with us",
    "value": "채팅으로 문의"
   },
   {
-   "id": "site.accessibility.092",
+   "id": "site.accessibility.093",
    "kind": "site",
    "section": "accessibility",
    "en": "or email us at",
    "value": "또는 이메일로 문의"
   },
   {
-   "id": "site.accessibility.093",
+   "id": "site.accessibility.094",
    "kind": "site",
    "section": "accessibility",
    "en": "support@gitfocus.app",
    "value": "support@gitfocus.app"
   },
   {
-   "id": "site.accessibility.094",
+   "id": "site.accessibility.095",
    "kind": "site",
    "section": "accessibility",
    "en": "Privacy Policy",
    "value": "개인정보 처리방침"
   },
   {
-   "id": "site.accessibility.095",
+   "id": "site.accessibility.096",
    "kind": "site",
    "section": "accessibility",
    "en": "Support",
    "value": "지원"
   },
   {
-   "id": "site.accessibility.096",
+   "id": "site.accessibility.097",
    "kind": "site",
    "section": "accessibility",
    "en": "Accessibility",
    "value": "접근성"
   },
   {
-   "id": "site.accessibility.097",
+   "id": "site.accessibility.098",
    "kind": "site",
    "section": "accessibility",
    "en": "© 2026 GitFocus",

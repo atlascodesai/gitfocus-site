@@ -70,6 +70,10 @@
         header.top .crumbs a { color: var(--text-secondary); text-decoration: none; }
         header.top h1 { font-size: 1.35rem; font-weight: 700; }
         header.top p.sub { color: var(--text-secondary); font-size: .9rem; max-width: 60rem; margin-top: .25rem; }
+        header.top p.ai-note {
+            color: var(--text-tertiary); font-size: .8rem; max-width: 60rem;
+            margin-top: .5rem; padding-top: .5rem; border-top: 1px solid var(--border);
+        }
 
         .controls {
             position: sticky; top: 0; z-index: 50;
@@ -184,7 +188,11 @@
     <h1>Localization Review</h1>
     <p class="sub">Every GitFocus string — the iOS app, the App Store listing, and this
     website — side by side with its English source. Spot something off? Tick the rows,
-    add a note, and send them all as one GitHub issue.</p>
+    add a note, and send them all as one GitHub issue or email.</p>
+    <p class="ai-note">These translations are AI-generated: best effort, authored and
+    cross-reviewed by two different AI models for accuracy. We know that's no substitute
+    for a native speaker, and some strings won't be perfect — that's exactly what this
+    page is for.</p>
 </header>
 
 <div class="controls">
