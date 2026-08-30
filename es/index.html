@@ -445,6 +445,7 @@
         }
 
         .theme-toggle {
+            color: var(--text-primary);
             background: var(--bg-tertiary);
             border: 1px solid var(--border);
             border-radius: 20px;
@@ -2000,7 +2001,7 @@
                 <a href="/es/privacy">Política de privacidad</a>
                 <a href="/es/support">Soporte</a>
                 <a href="/es/accessibility">Accesibilidad</a>
-                <a href="mailto:support@gitfocus.app">Contacto</a>
+                <a href="mailto:support@gitfocus.app" onclick="if(window.$chatwoot){window.$chatwoot.toggle('open');return false}if(window.ChatwootConsent){window.ChatwootConsent.accept(true);return false}">Contacto</a>
             </div>
             <div class="footer-copy">
                 © 2026 GitFocus. Hecho con git y concentración.

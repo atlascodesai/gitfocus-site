@@ -445,6 +445,7 @@
         }
 
         .theme-toggle {
+            color: var(--text-primary);
             background: var(--bg-tertiary);
             border: 1px solid var(--border);
             border-radius: 20px;
@@ -2000,7 +2001,7 @@
                 <a href="/ko/privacy">개인정보 처리방침</a>
                 <a href="/ko/support">지원</a>
                 <a href="/ko/accessibility">접근성</a>
-                <a href="mailto:support@gitfocus.app">문의</a>
+                <a href="mailto:support@gitfocus.app" onclick="if(window.$chatwoot){window.$chatwoot.toggle('open');return false}if(window.ChatwootConsent){window.ChatwootConsent.accept(true);return false}">문의</a>
             </div>
             <div class="footer-copy">
                 © 2026 GitFocus. git과 집중으로 만들었습니다.
