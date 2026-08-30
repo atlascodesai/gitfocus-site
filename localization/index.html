@@ -154,6 +154,11 @@
         }
         .submitbar.show { transform: none; }
         .submitbar .n { font-family: var(--font-mono); font-size: .85rem; color: var(--text-secondary); }
+        .submitbar input[type="text"] {
+            background: var(--bg-card); color: var(--text-primary);
+            border: 1px solid var(--border); border-radius: 8px;
+            padding: .4rem .55rem; font-family: var(--font-display); font-size: .82rem;
+        }
         .submitbar .grow { flex: 1; }
         .submitbar button {
             font-family: var(--font-display); font-size: .88rem; font-weight: 600;
@@ -215,6 +220,11 @@
     <span class="publicnote">Submitting opens a public GitHub issue prefilled with the
     selected strings and your notes — nothing is sent until you post it there.</span>
     <span class="grow"></span>
+    <label class="toggle" for="creditMe">
+        <input type="checkbox" id="creditMe"> credit me
+    </label>
+    <input type="text" id="creditName" placeholder="name or @handle" hidden
+           aria-label="Name to credit" style="width:11rem">
     <button id="clearSel">Clear</button>
     <button id="submit">Submit on GitHub</button>
 </div>
@@ -415,8 +425,17 @@
             if (note) block += '\n' + note + '\n';
             parts.push(block);
         });
+        var credit = $('creditMe').checked;
+        var creditName = $('creditName').value.trim();
+        if (credit) {
+            parts.push('**Credit:** yes — credit '
+                + (creditName ? creditName : 'my GitHub username')
+                + ' next to these strings in the translation history.\n');
+        }
         parts.push('---\n<!-- expresslane:localization-feedback\nsite: gitfocus.app\nlocale: '
-            + state.locale + '\nstrings: ' + ids.join(', ') + '\n-->');
+            + state.locale + '\nstrings: ' + ids.join(', ')
+            + '\ncredit: ' + (credit ? (creditName || 'github-username') : 'no')
+            + '\n-->');
         return parts.join('\n');
     }
 
@@ -475,6 +494,10 @@
         qTimer = setTimeout(function () { state.q = e.target.value; render(); }, 150);
     });
     $('missingOnly').addEventListener('change', function (e) { state.missingOnly = e.target.checked; render(); });
+    $('creditMe').addEventListener('change', function (e) {
+        $('creditName').hidden = !e.target.checked;
+        if (e.target.checked) $('creditName').focus();
+    });
     $('clearSel').addEventListener('click', function () { state.sel = {}; render(); });
     $('submit').addEventListener('click', submit);
 })();
