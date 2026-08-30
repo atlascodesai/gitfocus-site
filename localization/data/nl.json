@@ -1,7 +1,7 @@
 {
  "locale": "nl",
  "label": "Nederlands",
- "generated": "2026-08-30T01:56:34Z",
+ "generated": "2026-08-30T02:24:44Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -665,7 +665,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit History",
-   "value": ""
+   "value": "Commitgeschiedenis"
   },
   {
    "id": "gitfocus.commit.text",
@@ -756,7 +756,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Contribution Details",
-   "value": ""
+   "value": "Bijdragedetails"
   },
   {
    "id": "gitfocus.contribution.text",
@@ -785,7 +785,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%1$d commits",
-   "value": ""
+   "value": "%1$d commits"
   },
   {
    "id": "gitfocus.count.contribution",
@@ -1011,7 +1011,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Debug Log",
-   "value": ""
+   "value": "Debuglogboek"
   },
   {
    "id": "gitfocus.debug.logs",
@@ -1068,7 +1068,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time you earn but don't use is a measure of your self-control",
-   "value": ""
+   "value": "Tijd die je verdient maar niet gebruikt, is een maat voor je zelfbeheersing"
   },
   {
    "id": "gitfocus.done",
@@ -1260,14 +1260,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Tell us what to improve",
-   "value": ""
+   "value": "Vertel ons wat we kunnen verbeteren"
   },
   {
    "id": "gitfocus.feedback.prompt",
    "kind": "app",
    "section": "gitfocus",
    "en": "How is GitFocus working for you?",
-   "value": ""
+   "value": "Hoe bevalt GitFocus je?"
   },
   {
    "id": "gitfocus.first.reset",
@@ -1673,21 +1673,21 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "+1 life",
-   "value": ""
+   "value": "+1 leven"
   },
   {
    "id": "gitfocus.level.reward.monthly",
    "kind": "app",
    "section": "gitfocus",
    "en": "then +1 every month",
-   "value": ""
+   "value": "daarna +1 elke maand"
   },
   {
    "id": "gitfocus.level.reward.permanent",
    "kind": "app",
    "section": "gitfocus",
    "en": "Permanent",
-   "value": ""
+   "value": "Permanent"
   },
   {
    "id": "gitfocus.level.up",
@@ -1708,7 +1708,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lives\nAvailable",
-   "value": ""
+   "value": "Levens\nbeschikbaar"
   },
   {
    "id": "gitfocus.loading.app.usage",
@@ -1851,7 +1851,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Minutes\nBanked",
-   "value": ""
+   "value": "Minuten\ngespaard"
   },
   {
    "id": "gitfocus.more",
@@ -1922,7 +1922,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No commits yet",
-   "value": ""
+   "value": "Nog geen commits"
   },
   {
    "id": "gitfocus.no.contribution.data.available",
@@ -1957,14 +1957,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No focus sessions yet",
-   "value": ""
+   "value": "Nog geen focussessies"
   },
   {
    "id": "gitfocus.no.recent.contributions",
    "kind": "app",
    "section": "gitfocus",
    "en": "No recent contributions",
-   "value": ""
+   "value": "Geen recente bijdragen"
   },
   {
    "id": "gitfocus.no.sessions.yet",
@@ -2154,7 +2154,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Pomodoro History",
-   "value": ""
+   "value": "Pomodorogeschiedenis"
   },
   {
    "id": "gitfocus.portuguese.brazil",
@@ -2210,7 +2210,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent Activity",
-   "value": ""
+   "value": "Recente activiteit"
   },
   {
    "id": "gitfocus.recent.contributions",
@@ -2231,7 +2231,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent system events",
-   "value": ""
+   "value": "Recente systeemgebeurtenissen"
   },
   {
    "id": "gitfocus.recommended",
@@ -2318,56 +2318,56 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Continue Where I Left Off",
-   "value": ""
+   "value": "Ga verder waar ik was gebleven"
   },
   {
    "id": "gitfocus.restore.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "Restore Data",
-   "value": ""
+   "value": "Gegevens herstellen"
   },
   {
    "id": "gitfocus.restore.found.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "We found your previous data",
-   "value": ""
+   "value": "We hebben uw eerdere gegevens gevonden"
   },
   {
    "id": "gitfocus.restore.start.fresh",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh",
-   "value": ""
+   "value": "Begin fris"
   },
   {
    "id": "gitfocus.restore.start.fresh.body",
    "kind": "app",
    "section": "gitfocus",
    "en": "This will clear your streak and all saved progress.",
-   "value": ""
+   "value": "Hiermee worden je reeks en alle opgeslagen voortgang gewist."
   },
   {
    "id": "gitfocus.restore.start.fresh.confirm",
    "kind": "app",
    "section": "gitfocus",
    "en": "Yes, Start Fresh",
-   "value": ""
+   "value": "Ja, begin opnieuw"
   },
   {
    "id": "gitfocus.restore.start.fresh.title",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh?",
-   "value": ""
+   "value": "Fris beginnen?"
   },
   {
    "id": "gitfocus.restore.welcome.back",
    "kind": "app",
    "section": "gitfocus",
    "en": "Welcome Back!",
-   "value": ""
+   "value": "Welkom terug!"
   },
   {
    "id": "gitfocus.review",
@@ -2516,7 +2516,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Send Feedback",
-   "value": ""
+   "value": "Feedback versturen"
   },
   {
    "id": "gitfocus.session.history",
@@ -2623,7 +2623,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit to unlock distractions",
-   "value": ""
+   "value": "Commit om afleidingen te ontgrendelen"
   },
   {
    "id": "gitfocus.start.focus.session",
@@ -2805,14 +2805,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time Balance Details",
-   "value": ""
+   "value": "Details tijdsaldo"
   },
   {
    "id": "gitfocus.time.balance.hint",
    "kind": "app",
    "section": "gitfocus",
    "en": "Earn time with commits and spend it to unlock your apps.",
-   "value": ""
+   "value": "Verdien tijd met commits en besteed die om je apps te ontgrendelen."
   },
   {
    "id": "gitfocus.time.borrowing",

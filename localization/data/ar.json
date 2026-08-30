@@ -1,7 +1,7 @@
 {
  "locale": "ar",
  "label": "العربية",
- "generated": "2026-08-30T01:56:34Z",
+ "generated": "2026-08-30T02:24:44Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -665,7 +665,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit History",
-   "value": ""
+   "value": "سجل الكوميتات"
   },
   {
    "id": "gitfocus.commit.text",
@@ -756,7 +756,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Contribution Details",
-   "value": ""
+   "value": "تفاصيل المساهمات"
   },
   {
    "id": "gitfocus.contribution.text",
@@ -785,7 +785,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%1$d commits",
-   "value": ""
+   "value": "%1$d كوميت"
   },
   {
    "id": "gitfocus.count.contribution",
@@ -1011,7 +1011,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Debug Log",
-   "value": ""
+   "value": "سجل التصحيح"
   },
   {
    "id": "gitfocus.debug.logs",
@@ -1068,7 +1068,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time you earn but don't use is a measure of your self-control",
-   "value": ""
+   "value": "الوقت الذي تكسبه ولا تستخدمه هو مقياس لضبط النفس لديك"
   },
   {
    "id": "gitfocus.done",
@@ -1260,14 +1260,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Tell us what to improve",
-   "value": ""
+   "value": "أخبرنا بما يمكننا تحسينه"
   },
   {
    "id": "gitfocus.feedback.prompt",
    "kind": "app",
    "section": "gitfocus",
    "en": "How is GitFocus working for you?",
-   "value": ""
+   "value": "كيف يعمل GitFocus معك؟"
   },
   {
    "id": "gitfocus.first.reset",
@@ -1673,21 +1673,21 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "+1 life",
-   "value": ""
+   "value": "+1 حياة"
   },
   {
    "id": "gitfocus.level.reward.monthly",
    "kind": "app",
    "section": "gitfocus",
    "en": "then +1 every month",
-   "value": ""
+   "value": "ثم +1 كل شهر"
   },
   {
    "id": "gitfocus.level.reward.permanent",
    "kind": "app",
    "section": "gitfocus",
    "en": "Permanent",
-   "value": ""
+   "value": "دائم"
   },
   {
    "id": "gitfocus.level.up",
@@ -1708,7 +1708,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lives\nAvailable",
-   "value": ""
+   "value": "الأرواح\nالمتاحة"
   },
   {
    "id": "gitfocus.loading.app.usage",
@@ -1851,7 +1851,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Minutes\nBanked",
-   "value": ""
+   "value": "الدقائق\nالمدخرة"
   },
   {
    "id": "gitfocus.more",
@@ -1922,7 +1922,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No commits yet",
-   "value": ""
+   "value": "لا توجد كوميتات بعد"
   },
   {
    "id": "gitfocus.no.contribution.data.available",
@@ -1957,14 +1957,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No focus sessions yet",
-   "value": ""
+   "value": "لا توجد جلسات تركيز بعد"
   },
   {
    "id": "gitfocus.no.recent.contributions",
    "kind": "app",
    "section": "gitfocus",
    "en": "No recent contributions",
-   "value": ""
+   "value": "لا توجد مساهمات حديثة"
   },
   {
    "id": "gitfocus.no.sessions.yet",
@@ -2154,7 +2154,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Pomodoro History",
-   "value": ""
+   "value": "سجل بومودورو"
   },
   {
    "id": "gitfocus.portuguese.brazil",
@@ -2210,7 +2210,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent Activity",
-   "value": ""
+   "value": "النشاط الأخير"
   },
   {
    "id": "gitfocus.recent.contributions",
@@ -2231,7 +2231,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent system events",
-   "value": ""
+   "value": "أحداث النظام الأخيرة"
   },
   {
    "id": "gitfocus.recommended",
@@ -2318,56 +2318,56 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Continue Where I Left Off",
-   "value": ""
+   "value": "تابع من حيث توقفت"
   },
   {
    "id": "gitfocus.restore.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "Restore Data",
-   "value": ""
+   "value": "استعادة البيانات"
   },
   {
    "id": "gitfocus.restore.found.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "We found your previous data",
-   "value": ""
+   "value": "وجدنا بياناتك السابقة"
   },
   {
    "id": "gitfocus.restore.start.fresh",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh",
-   "value": ""
+   "value": "ابدأ من جديد"
   },
   {
    "id": "gitfocus.restore.start.fresh.body",
    "kind": "app",
    "section": "gitfocus",
    "en": "This will clear your streak and all saved progress.",
-   "value": ""
+   "value": "سيؤدي هذا إلى مسح سلسلتك وكل التقدم المحفوظ."
   },
   {
    "id": "gitfocus.restore.start.fresh.confirm",
    "kind": "app",
    "section": "gitfocus",
    "en": "Yes, Start Fresh",
-   "value": ""
+   "value": "نعم، ابدأ من جديد"
   },
   {
    "id": "gitfocus.restore.start.fresh.title",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh?",
-   "value": ""
+   "value": "ابدأ من جديد؟"
   },
   {
    "id": "gitfocus.restore.welcome.back",
    "kind": "app",
    "section": "gitfocus",
    "en": "Welcome Back!",
-   "value": ""
+   "value": "مرحبًا بعودتك!"
   },
   {
    "id": "gitfocus.review",
@@ -2516,7 +2516,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Send Feedback",
-   "value": ""
+   "value": "إرسال الملاحظات"
   },
   {
    "id": "gitfocus.session.history",
@@ -2623,7 +2623,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit to unlock distractions",
-   "value": ""
+   "value": "قم بالكوميت لفتح المشتتات"
   },
   {
    "id": "gitfocus.start.focus.session",
@@ -2805,14 +2805,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time Balance Details",
-   "value": ""
+   "value": "تفاصيل رصيد الوقت"
   },
   {
    "id": "gitfocus.time.balance.hint",
    "kind": "app",
    "section": "gitfocus",
    "en": "Earn time with commits and spend it to unlock your apps.",
-   "value": ""
+   "value": "اكسب الوقت بالكوميتات وأنفقه لفتح تطبيقاتك."
   },
   {
    "id": "gitfocus.time.borrowing",

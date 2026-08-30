@@ -1,7 +1,7 @@
 {
  "locale": "ja",
  "label": "日本語",
- "generated": "2026-08-30T01:56:34Z",
+ "generated": "2026-08-30T02:24:44Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -665,7 +665,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit History",
-   "value": ""
+   "value": "コミット履歴"
   },
   {
    "id": "gitfocus.commit.text",
@@ -756,7 +756,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Contribution Details",
-   "value": ""
+   "value": "コントリビューションの詳細"
   },
   {
    "id": "gitfocus.contribution.text",
@@ -785,7 +785,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%1$d commits",
-   "value": ""
+   "value": "%1$d件のコミット"
   },
   {
    "id": "gitfocus.count.contribution",
@@ -1011,7 +1011,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Debug Log",
-   "value": ""
+   "value": "デバッグログ"
   },
   {
    "id": "gitfocus.debug.logs",
@@ -1068,7 +1068,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time you earn but don't use is a measure of your self-control",
-   "value": ""
+   "value": "獲得しても使わない時間は、セルフコントロールの証です"
   },
   {
    "id": "gitfocus.done",
@@ -1260,14 +1260,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Tell us what to improve",
-   "value": ""
+   "value": "改善してほしい点を教えてください"
   },
   {
    "id": "gitfocus.feedback.prompt",
    "kind": "app",
    "section": "gitfocus",
    "en": "How is GitFocus working for you?",
-   "value": ""
+   "value": "GitFocusの使い心地はいかがですか？"
   },
   {
    "id": "gitfocus.first.reset",
@@ -1673,21 +1673,21 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "+1 life",
-   "value": ""
+   "value": "+1ライフ"
   },
   {
    "id": "gitfocus.level.reward.monthly",
    "kind": "app",
    "section": "gitfocus",
    "en": "then +1 every month",
-   "value": ""
+   "value": "その後は毎月 +1"
   },
   {
    "id": "gitfocus.level.reward.permanent",
    "kind": "app",
    "section": "gitfocus",
    "en": "Permanent",
-   "value": ""
+   "value": "永続"
   },
   {
    "id": "gitfocus.level.up",
@@ -1708,7 +1708,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lives\nAvailable",
-   "value": ""
+   "value": "残り\nライフ"
   },
   {
    "id": "gitfocus.loading.app.usage",
@@ -1851,7 +1851,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Minutes\nBanked",
-   "value": ""
+   "value": "貯めた\n分数"
   },
   {
    "id": "gitfocus.more",
@@ -1922,7 +1922,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No commits yet",
-   "value": ""
+   "value": "まだコミットがありません"
   },
   {
    "id": "gitfocus.no.contribution.data.available",
@@ -1957,14 +1957,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No focus sessions yet",
-   "value": ""
+   "value": "まだフォーカスセッションがありません"
   },
   {
    "id": "gitfocus.no.recent.contributions",
    "kind": "app",
    "section": "gitfocus",
    "en": "No recent contributions",
-   "value": ""
+   "value": "最近のコントリビューションはありません"
   },
   {
    "id": "gitfocus.no.sessions.yet",
@@ -2154,7 +2154,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Pomodoro History",
-   "value": ""
+   "value": "ポモドーロ履歴"
   },
   {
    "id": "gitfocus.portuguese.brazil",
@@ -2210,7 +2210,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent Activity",
-   "value": ""
+   "value": "最近のアクティビティ"
   },
   {
    "id": "gitfocus.recent.contributions",
@@ -2231,7 +2231,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent system events",
-   "value": ""
+   "value": "最近のシステムイベント"
   },
   {
    "id": "gitfocus.recommended",
@@ -2318,56 +2318,56 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Continue Where I Left Off",
-   "value": ""
+   "value": "中断したところから続行"
   },
   {
    "id": "gitfocus.restore.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "Restore Data",
-   "value": ""
+   "value": "データを復元"
   },
   {
    "id": "gitfocus.restore.found.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "We found your previous data",
-   "value": ""
+   "value": "以前のデータが見つかりました"
   },
   {
    "id": "gitfocus.restore.start.fresh",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh",
-   "value": ""
+   "value": "新たに始める"
   },
   {
    "id": "gitfocus.restore.start.fresh.body",
    "kind": "app",
    "section": "gitfocus",
    "en": "This will clear your streak and all saved progress.",
-   "value": ""
+   "value": "ストリークと保存された進捗がすべて消去されます。"
   },
   {
    "id": "gitfocus.restore.start.fresh.confirm",
    "kind": "app",
    "section": "gitfocus",
    "en": "Yes, Start Fresh",
-   "value": ""
+   "value": "はい、新たに始めましょう"
   },
   {
    "id": "gitfocus.restore.start.fresh.title",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh?",
-   "value": ""
+   "value": "新しく始めますか?"
   },
   {
    "id": "gitfocus.restore.welcome.back",
    "kind": "app",
    "section": "gitfocus",
    "en": "Welcome Back!",
-   "value": ""
+   "value": "おかえり！"
   },
   {
    "id": "gitfocus.review",
@@ -2516,7 +2516,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Send Feedback",
-   "value": ""
+   "value": "フィードバックを送信"
   },
   {
    "id": "gitfocus.session.history",
@@ -2623,7 +2623,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit to unlock distractions",
-   "value": ""
+   "value": "コミットして誘惑をアンロック"
   },
   {
    "id": "gitfocus.start.focus.session",
@@ -2805,14 +2805,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time Balance Details",
-   "value": ""
+   "value": "タイムバランスの詳細"
   },
   {
    "id": "gitfocus.time.balance.hint",
    "kind": "app",
    "section": "gitfocus",
    "en": "Earn time with commits and spend it to unlock your apps.",
-   "value": ""
+   "value": "コミットで時間を稼ぎ、使ってアプリをアンロックしよう。"
   },
   {
    "id": "gitfocus.time.borrowing",

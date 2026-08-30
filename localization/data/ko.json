@@ -1,7 +1,7 @@
 {
  "locale": "ko",
  "label": "한국어",
- "generated": "2026-08-30T01:56:34Z",
+ "generated": "2026-08-30T02:24:44Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -22,7 +22,7 @@
    "kind": "app",
    "section": "deviceactivityreport",
    "en": "%d apps",
-   "value": "__ PH0 __ 앱",
+   "value": "%d 앱",
    "comment": "App count label"
   },
   {
@@ -30,21 +30,21 @@
    "kind": "app",
    "section": "deviceactivityreport",
    "en": "(%d device)",
-   "value": "(__ PH0 __ 장치)"
+   "value": "(%d 장치)"
   },
   {
    "id": "deviceactivityreport.count.devices",
    "kind": "app",
    "section": "deviceactivityreport",
    "en": "(%d devices)",
-   "value": "(__ PH0 __ 장치)"
+   "value": "(%d 장치)"
   },
   {
    "id": "deviceactivityreport.count.pickups",
    "kind": "app",
    "section": "deviceactivityreport",
    "en": "%d pickups",
-   "value": "__ PH0 __ 픽업",
+   "value": "%d 픽업",
    "comment": "Pickups count"
   },
   {
@@ -122,7 +122,7 @@
    "kind": "app",
    "section": "deviceactivityreport",
    "en": "%@, used for %@, %d pickups",
-   "value": "__ PH0 __, __ PH1 __, __ PH2 __ 픽업에 사용됨",
+   "value": "%@, %@, %d 픽업에 사용됨",
    "comment": "Accessibility: app usage summary"
   },
   {
@@ -160,7 +160,7 @@
    "kind": "app",
    "section": "deviceactivityreport",
    "en": "Usage level: %d%%",
-   "value": "사용 수준: __ PH0 ____ PH1 __",
+   "value": "사용 수준: %d_ PH1 __",
    "comment": "Accessibility: usage percentage"
   },
   {
@@ -318,7 +318,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Apps to Hide (%d)",
-   "value": "숨길 앱 (__ PH0 __)",
+   "value": "숨길 앱 (%d)",
    "comment": "Hidden apps section header with count"
   },
   {
@@ -410,7 +410,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Bank All %d Minutes",
-   "value": "은행 전체 __ PH0 __ 분",
+   "value": "은행 전체 %d 분",
    "comment": "Bank all earned minutes button"
   },
   {
@@ -467,7 +467,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Borrowed %d min. Pay it back with commits!",
-   "value": "__ PH0 __ 분 빌렸습니다. 커밋으로 갚으세요!"
+   "value": "%d 분 빌렸습니다. 커밋으로 갚으세요!"
   },
   {
    "id": "gitfocus.borrowed.time",
@@ -482,7 +482,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Borrowing %d min",
-   "value": "차입 __ PH0 __ 분",
+   "value": "차입 %d 분",
    "comment": "Status pill when borrowing time"
   },
   {
@@ -665,14 +665,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit History",
-   "value": ""
+   "value": "커밋 기록"
   },
   {
    "id": "gitfocus.commit.text",
    "kind": "app",
    "section": "gitfocus",
    "en": "commit%@",
-   "value": "커밋 __ PH0 __"
+   "value": "커밋 %@"
   },
   {
    "id": "gitfocus.commits",
@@ -756,14 +756,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Contribution Details",
-   "value": ""
+   "value": "기여 상세 정보"
   },
   {
    "id": "gitfocus.contribution.text",
    "kind": "app",
    "section": "gitfocus",
    "en": "contribution%@",
-   "value": "기여 __ PH0 __"
+   "value": "기여 %@"
   },
   {
    "id": "gitfocus.contributions",
@@ -785,7 +785,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%1$d commits",
-   "value": ""
+   "value": "커밋 %1$d개"
   },
   {
    "id": "gitfocus.count.contribution",
@@ -821,7 +821,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%d of %d lives available",
-   "value": "__ PH1 __ 명 중 __ PH0 __ 명 예약 가능",
+   "value": "%d 명 중 %d 명 예약 가능",
    "comment": "Accessibility: lives available out of lives earned"
   },
   {
@@ -876,7 +876,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%d min ago",
-   "value": "__ PH0 __ 분 전",
+   "value": "%d 분 전",
    "comment": "Relative time label in minutes"
   },
   {
@@ -892,7 +892,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "= %d minutes of unlock time",
-   "value": "= __ PH0 __ 분의 잠금 해제 시간",
+   "value": "= %d 분의 잠금 해제 시간",
    "comment": "First sync earned minutes explanation"
   },
   {
@@ -900,7 +900,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "+%d more",
-   "value": "+ __ PH0 __ 개 더 보기",
+   "value": "+ %d 개 더 보기",
    "comment": "More apps indicator"
   },
   {
@@ -908,7 +908,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%d selected",
-   "value": "__ PH0 __ 선택됨",
+   "value": "%d 선택됨",
    "comment": "Selected apps count"
   },
   {
@@ -1011,7 +1011,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Debug Log",
-   "value": ""
+   "value": "디버그 로그"
   },
   {
    "id": "gitfocus.debug.logs",
@@ -1068,7 +1068,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time you earn but don't use is a measure of your self-control",
-   "value": ""
+   "value": "얻고도 쓰지 않은 시간은 자제력의 척도입니다"
   },
   {
    "id": "gitfocus.done",
@@ -1260,14 +1260,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Tell us what to improve",
-   "value": ""
+   "value": "개선할 점을 알려주세요"
   },
   {
    "id": "gitfocus.feedback.prompt",
    "kind": "app",
    "section": "gitfocus",
    "en": "How is GitFocus working for you?",
-   "value": ""
+   "value": "GitFocus는 어떠신가요?"
   },
   {
    "id": "gitfocus.first.reset",
@@ -1465,7 +1465,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "GitHub profile photo for %@",
-   "value": "__ PH1 __ __ PH0 __ 님의 프로필 사진",
+   "value": "__ PH1 __ %@ 님의 프로필 사진",
    "comment": "Accessibility: GitHub profile photo"
   },
   {
@@ -1651,7 +1651,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lasted %@ of %@",
-   "value": "지속됨 __ PH0 __/__ PH1 __",
+   "value": "지속됨 %@/%@",
    "comment": "Pomodoro session actual duration of target duration"
   },
   {
@@ -1673,21 +1673,21 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "+1 life",
-   "value": ""
+   "value": "+1 라이프"
   },
   {
    "id": "gitfocus.level.reward.monthly",
    "kind": "app",
    "section": "gitfocus",
    "en": "then +1 every month",
-   "value": ""
+   "value": "이후 매월 +1"
   },
   {
    "id": "gitfocus.level.reward.permanent",
    "kind": "app",
    "section": "gitfocus",
    "en": "Permanent",
-   "value": ""
+   "value": "영구"
   },
   {
    "id": "gitfocus.level.up",
@@ -1708,7 +1708,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lives\nAvailable",
-   "value": ""
+   "value": "사용 가능한\n라이프"
   },
   {
    "id": "gitfocus.loading.app.usage",
@@ -1851,7 +1851,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Minutes\nBanked",
-   "value": ""
+   "value": "적립된\n분"
   },
   {
    "id": "gitfocus.more",
@@ -1922,7 +1922,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No commits yet",
-   "value": ""
+   "value": "아직 커밋이 없습니다"
   },
   {
    "id": "gitfocus.no.contribution.data.available",
@@ -1957,14 +1957,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No focus sessions yet",
-   "value": ""
+   "value": "아직 집중 세션이 없습니다"
   },
   {
    "id": "gitfocus.no.recent.contributions",
    "kind": "app",
    "section": "gitfocus",
    "en": "No recent contributions",
-   "value": ""
+   "value": "최근 기여가 없습니다"
   },
   {
    "id": "gitfocus.no.sessions.yet",
@@ -2154,7 +2154,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Pomodoro History",
-   "value": ""
+   "value": "뽀모도로 기록"
   },
   {
    "id": "gitfocus.portuguese.brazil",
@@ -2210,7 +2210,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent Activity",
-   "value": ""
+   "value": "최근 활동"
   },
   {
    "id": "gitfocus.recent.contributions",
@@ -2231,7 +2231,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent system events",
-   "value": ""
+   "value": "최근 시스템 이벤트"
   },
   {
    "id": "gitfocus.recommended",
@@ -2318,56 +2318,56 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Continue Where I Left Off",
-   "value": ""
+   "value": "이전에 하던 곳에서 계속"
   },
   {
    "id": "gitfocus.restore.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "Restore Data",
-   "value": ""
+   "value": "데이터 복원"
   },
   {
    "id": "gitfocus.restore.found.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "We found your previous data",
-   "value": ""
+   "value": "이전 데이터를 찾았습니다"
   },
   {
    "id": "gitfocus.restore.start.fresh",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh",
-   "value": ""
+   "value": "새로 시작"
   },
   {
    "id": "gitfocus.restore.start.fresh.body",
    "kind": "app",
    "section": "gitfocus",
    "en": "This will clear your streak and all saved progress.",
-   "value": ""
+   "value": "스트릭과 저장된 모든 진행 상황이 삭제됩니다."
   },
   {
    "id": "gitfocus.restore.start.fresh.confirm",
    "kind": "app",
    "section": "gitfocus",
    "en": "Yes, Start Fresh",
-   "value": ""
+   "value": "네, 새로 시작"
   },
   {
    "id": "gitfocus.restore.start.fresh.title",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh?",
-   "value": ""
+   "value": "새로 시작할까요?"
   },
   {
    "id": "gitfocus.restore.welcome.back",
    "kind": "app",
    "section": "gitfocus",
    "en": "Welcome Back!",
-   "value": ""
+   "value": "다시 오셨군요!"
   },
   {
    "id": "gitfocus.review",
@@ -2508,7 +2508,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Selected Apps (%d)",
-   "value": "선택한 앱 (__ PH0 __)",
+   "value": "선택한 앱 (%d)",
    "comment": "Selected apps section title with count"
   },
   {
@@ -2516,7 +2516,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Send Feedback",
-   "value": ""
+   "value": "피드백 보내기"
   },
   {
    "id": "gitfocus.session.history",
@@ -2623,7 +2623,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit to unlock distractions",
-   "value": ""
+   "value": "커밋하고 딴짓을 잠금 해제하세요"
   },
   {
    "id": "gitfocus.start.focus.session",
@@ -2672,7 +2672,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Started %@",
-   "value": "시작일: __ PH0 __",
+   "value": "시작일: %@",
    "comment": "Pomodoro session start time label"
   },
   {
@@ -2724,7 +2724,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Stopped %@",
-   "value": "중지됨 __ PH0 __",
+   "value": "중지됨 %@",
    "comment": "Pomodoro session stopped time label"
   },
   {
@@ -2805,14 +2805,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time Balance Details",
-   "value": ""
+   "value": "시간 잔액 상세 정보"
   },
   {
    "id": "gitfocus.time.balance.hint",
    "kind": "app",
    "section": "gitfocus",
    "en": "Earn time with commits and spend it to unlock your apps.",
-   "value": ""
+   "value": "커밋으로 시간을 모으고, 그 시간으로 앱을 잠금 해제하세요."
   },
   {
    "id": "gitfocus.time.borrowing",
@@ -2833,7 +2833,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%dd left · %d%%",
-   "value": "__ PH0 __ d 남음 · __ PH1 ____ PH2 __",
+   "value": "%d d 남음 · %d_ PH2 __",
    "comment": "Year grid footer: days remaining and percent complete"
   },
   {
@@ -2873,7 +2873,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%dm debt",
-   "value": "__ PH0 __ m 부채",
+   "value": "%d m 부채",
    "comment": "Debt minutes label"
   },
   {
@@ -2881,7 +2881,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%dm duration",
-   "value": "__ PH0 __ m 기간",
+   "value": "%d m 기간",
    "comment": "Duration minutes label"
   },
   {
@@ -2889,7 +2889,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%dm earned",
-   "value": "__ PH0 __ m 획득",
+   "value": "%d m 획득",
    "comment": "Earned minutes badge\nEarned minutes label"
   },
   {
@@ -2996,7 +2996,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Total today: %d minutes",
-   "value": "오늘의 총 시간: __ PH0 __ 분",
+   "value": "오늘의 총 시간: %d 분",
    "comment": "Total usage minutes today"
   },
   {
@@ -3087,7 +3087,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Unlock %@",
-   "value": "__ PH0 __ 잠금 해제",
+   "value": "%@ 잠금 해제",
    "comment": "Unlock app button title"
   },
   {
@@ -3130,7 +3130,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Unlocked for %d min",
-   "value": "__ PH0 __ 분 동안 잠금 해제됨",
+   "value": "%d 분 동안 잠금 해제됨",
    "comment": "Remaining unlock time label"
   },
   {
@@ -3206,7 +3206,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Use 1 of your %d ❤️ to unlock apps until midnight.\n\nYour %d day streak will be preserved.",
-   "value": "__ PH0 __ 중 1개를 사용하여 자정까지 ❤️ 앱을 잠금 해제하세요. __ PH1 __ 일 연속 앱은 그대로 유지됩니다.",
+   "value": "%d 중 1개를 사용하여 자정까지 ❤️ 앱을 잠금 해제하세요. %d 일 연속 앱은 그대로 유지됩니다.",
    "comment": "Emergency override message when user has lives"
   },
   {
@@ -3214,14 +3214,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Used available time and borrowed extra. %d min total.",
-   "value": "사용 가능한 시간을 사용하고 추가 비용을 빌렸습니다. 총 __ PH0 __ 분."
+   "value": "사용 가능한 시간을 사용하고 추가 비용을 빌렸습니다. 총 %d 분."
   },
   {
    "id": "gitfocus.used.count.min.available.balance.timer.started.exclamation",
    "kind": "app",
    "section": "gitfocus",
    "en": "Used %d min from available balance. Timer started!",
-   "value": "사용 가능한 잔액에서 __ PH0 __ 분 거리에 있습니다. 타이머가 시작되었습니다!"
+   "value": "사용 가능한 잔액에서 %d 분 거리에 있습니다. 타이머가 시작되었습니다!"
   },
   {
    "id": "gitfocus.used.life",
@@ -3448,7 +3448,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "This will clear your streak (%d days), earned time, and all saved progress. This cannot be undone.",
-   "value": "이렇게 하면 연속 기록 (__ PH0 __ 일), 획득한 시간 및 저장된 모든 진행 상황이 지워집니다. 이 작업은 취소할 수 없습니다.",
+   "value": "이렇게 하면 연속 기록 (%d 일), 획득한 시간 및 저장된 모든 진행 상황이 지워집니다. 이 작업은 취소할 수 없습니다.",
    "comment": "Start fresh confirmation message"
   },
   {
@@ -3456,7 +3456,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "This will permanently delete all %d session records.",
-   "value": "이렇게 하면 모든 __ PH0 __ 세션 레코드가 영구적으로 삭제됩니다.",
+   "value": "이렇게 하면 모든 %d 세션 레코드가 영구적으로 삭제됩니다.",
    "comment": "Clear history confirmation message"
   },
   {
@@ -3542,14 +3542,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "You have %d min of usage time.",
-   "value": "__ PH0 __ 분의 사용 시간이 있습니다."
+   "value": "%d 분의 사용 시간이 있습니다."
   },
   {
    "id": "gitfocus.you.have.count.minutes.earned.time.your.commits",
    "kind": "app",
    "section": "gitfocus",
    "en": "You have %d minutes of earned time from your commits.",
-   "value": "커밋한 시간은 __ PH0 __ 분입니다.",
+   "value": "커밋한 시간은 %d 분입니다.",
    "comment": "Earned time available message"
   },
   {
@@ -3564,7 +3564,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "You requested %d min but only have %d min available.",
-   "value": "__ PH0 __ 분을 요청하셨지만 __ PH1 __ 분만 예약할 수 있습니다."
+   "value": "%d 분을 요청하셨지만 %d 분만 예약할 수 있습니다."
   },
   {
    "id": "gitfocus.you.start.number.free.life.exclamation",
@@ -3627,7 +3627,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "You've used all %d lives.\n\nThis will still unlock apps until midnight.",
-   "value": "모든 __ PH0 __ LIVES.\n\n 을 (를) 사용하셨습니다. 이 경우 자정까지 앱이 잠금 해제됩니다.",
+   "value": "모든 %d LIVES.\n\n 을 (를) 사용하셨습니다. 이 경우 자정까지 앱이 잠금 해제됩니다.",
    "comment": "Emergency override message when user has no lives"
   },
   {
@@ -3635,7 +3635,7 @@
    "kind": "app",
    "section": "pomodorowidget",
    "en": "%d min",
-   "value": "__ PH0 __ 분",
+   "value": "%d 분",
    "comment": "Total focus duration in minutes"
   },
   {
@@ -3665,7 +3665,7 @@
    "kind": "app",
    "section": "shieldaction",
    "en": "Borrowed %d min. Pay it back with commits!",
-   "value": "__ PH0 __ 분 빌렸습니다. 커밋으로 갚으세요!",
+   "value": "%d 분 빌렸습니다. 커밋으로 갚으세요!",
    "comment": "Unlock notification body (debt)"
   },
   {
@@ -3722,7 +3722,7 @@
    "kind": "app",
    "section": "shieldaction",
    "en": "Used available time and borrowed extra. %d min total.",
-   "value": "사용 가능한 시간을 사용하고 추가 비용을 빌렸습니다. 총 __ PH0 __ 분.",
+   "value": "사용 가능한 시간을 사용하고 추가 비용을 빌렸습니다. 총 %d 분.",
    "comment": "Unlock notification body (mixed)"
   },
   {
@@ -3730,7 +3730,7 @@
    "kind": "app",
    "section": "shieldaction",
    "en": "Used %d min from available balance. Timer started!",
-   "value": "사용 가능한 잔액에서 __ PH0 __ 분 거리에 있습니다. 타이머가 시작되었습니다!",
+   "value": "사용 가능한 잔액에서 %d 분 거리에 있습니다. 타이머가 시작되었습니다!",
    "comment": "Unlock notification body (earned)"
   },
   {
@@ -3738,7 +3738,7 @@
    "kind": "app",
    "section": "shieldaction",
    "en": "You have %d min of usage time.",
-   "value": "__ PH0 __ 분의 사용 시간이 있습니다.",
+   "value": "%d 분의 사용 시간이 있습니다.",
    "comment": "Unlock notification body (generic)"
   },
   {
@@ -3746,7 +3746,7 @@
    "kind": "app",
    "section": "shieldaction",
    "en": "You requested %d min but only have %d min available.",
-   "value": "__ PH0 __ 분을 요청하셨지만 __ PH1 __ 분만 예약할 수 있습니다.",
+   "value": "%d 분을 요청하셨지만 %d 분만 예약할 수 있습니다.",
    "comment": "Insufficient time notification body"
   },
   {

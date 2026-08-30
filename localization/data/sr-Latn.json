@@ -1,7 +1,7 @@
 {
  "locale": "sr-Latn",
  "label": "Srpski (latinica)",
- "generated": "2026-08-30T01:56:34Z",
+ "generated": "2026-08-30T02:24:44Z",
  "rows": [
   {
    "id": "deviceactivityreport.app.usage",
@@ -665,7 +665,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit History",
-   "value": ""
+   "value": "Istorija komitova"
   },
   {
    "id": "gitfocus.commit.text",
@@ -756,7 +756,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Contribution Details",
-   "value": ""
+   "value": "Detalji doprinosa"
   },
   {
    "id": "gitfocus.contribution.text",
@@ -785,7 +785,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "%1$d commits",
-   "value": ""
+   "value": "%1$d komitova"
   },
   {
    "id": "gitfocus.count.contribution",
@@ -1011,7 +1011,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Debug Log",
-   "value": ""
+   "value": "Dnevnik otklanjanja grešaka"
   },
   {
    "id": "gitfocus.debug.logs",
@@ -1068,7 +1068,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time you earn but don't use is a measure of your self-control",
-   "value": ""
+   "value": "Vreme koje zaradiš, a ne iskoristiš, mera je tvoje samokontrole"
   },
   {
    "id": "gitfocus.done",
@@ -1260,14 +1260,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Tell us what to improve",
-   "value": ""
+   "value": "Reci nam šta da poboljšamo"
   },
   {
    "id": "gitfocus.feedback.prompt",
    "kind": "app",
    "section": "gitfocus",
    "en": "How is GitFocus working for you?",
-   "value": ""
+   "value": "Kako ti se sviđa GitFocus?"
   },
   {
    "id": "gitfocus.first.reset",
@@ -1673,21 +1673,21 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "+1 life",
-   "value": ""
+   "value": "+1 život"
   },
   {
    "id": "gitfocus.level.reward.monthly",
    "kind": "app",
    "section": "gitfocus",
    "en": "then +1 every month",
-   "value": ""
+   "value": "zatim +1 svakog meseca"
   },
   {
    "id": "gitfocus.level.reward.permanent",
    "kind": "app",
    "section": "gitfocus",
    "en": "Permanent",
-   "value": ""
+   "value": "Permanentno"
   },
   {
    "id": "gitfocus.level.up",
@@ -1708,7 +1708,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Lives\nAvailable",
-   "value": ""
+   "value": "Životi\ndostupno"
   },
   {
    "id": "gitfocus.loading.app.usage",
@@ -1851,7 +1851,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Minutes\nBanked",
-   "value": ""
+   "value": "Minuti\nušteđeno"
   },
   {
    "id": "gitfocus.more",
@@ -1922,7 +1922,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No commits yet",
-   "value": ""
+   "value": "Još nema komitova"
   },
   {
    "id": "gitfocus.no.contribution.data.available",
@@ -1957,14 +1957,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "No focus sessions yet",
-   "value": ""
+   "value": "Još nema sesija fokusa"
   },
   {
    "id": "gitfocus.no.recent.contributions",
    "kind": "app",
    "section": "gitfocus",
    "en": "No recent contributions",
-   "value": ""
+   "value": "Nema nedavnih doprinosa"
   },
   {
    "id": "gitfocus.no.sessions.yet",
@@ -2154,7 +2154,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Pomodoro History",
-   "value": ""
+   "value": "Istorija pomodora"
   },
   {
    "id": "gitfocus.portuguese.brazil",
@@ -2210,7 +2210,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent Activity",
-   "value": ""
+   "value": "Nedavna aktivnost"
   },
   {
    "id": "gitfocus.recent.contributions",
@@ -2231,7 +2231,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Recent system events",
-   "value": ""
+   "value": "Nedavni sistemski događaji"
   },
   {
    "id": "gitfocus.recommended",
@@ -2318,56 +2318,56 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Continue Where I Left Off",
-   "value": ""
+   "value": "Nastavi tamo gde sam stao"
   },
   {
    "id": "gitfocus.restore.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "Restore Data",
-   "value": ""
+   "value": "Vrati podatke"
   },
   {
    "id": "gitfocus.restore.found.data",
    "kind": "app",
    "section": "gitfocus",
    "en": "We found your previous data",
-   "value": ""
+   "value": "Pronašli smo vaše prethodne podatke"
   },
   {
    "id": "gitfocus.restore.start.fresh",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh",
-   "value": ""
+   "value": "Počni iznova"
   },
   {
    "id": "gitfocus.restore.start.fresh.body",
    "kind": "app",
    "section": "gitfocus",
    "en": "This will clear your streak and all saved progress.",
-   "value": ""
+   "value": "Ovo će obrisati tvoj niz i sav sačuvani napredak."
   },
   {
    "id": "gitfocus.restore.start.fresh.confirm",
    "kind": "app",
    "section": "gitfocus",
    "en": "Yes, Start Fresh",
-   "value": ""
+   "value": "Da, počni iznova"
   },
   {
    "id": "gitfocus.restore.start.fresh.title",
    "kind": "app",
    "section": "gitfocus",
    "en": "Start Fresh?",
-   "value": ""
+   "value": "Početi iznova?"
   },
   {
    "id": "gitfocus.restore.welcome.back",
    "kind": "app",
    "section": "gitfocus",
    "en": "Welcome Back!",
-   "value": ""
+   "value": "Dobrodošli nazad!"
   },
   {
    "id": "gitfocus.review",
@@ -2516,7 +2516,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Send Feedback",
-   "value": ""
+   "value": "Pošalji povratne informacije"
   },
   {
    "id": "gitfocus.session.history",
@@ -2623,7 +2623,7 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Commit to unlock distractions",
-   "value": ""
+   "value": "Komituj da otključaš ometanja"
   },
   {
    "id": "gitfocus.start.focus.session",
@@ -2805,14 +2805,14 @@
    "kind": "app",
    "section": "gitfocus",
    "en": "Time Balance Details",
-   "value": ""
+   "value": "Detalji vremenskog salda"
   },
   {
    "id": "gitfocus.time.balance.hint",
    "kind": "app",
    "section": "gitfocus",
    "en": "Earn time with commits and spend it to unlock your apps.",
-   "value": ""
+   "value": "Zarađuj vreme komitovima i troši ga da otključaš svoje aplikacije."
   },
   {
    "id": "gitfocus.time.borrowing",
