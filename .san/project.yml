@@ -12,6 +12,8 @@ integrations:
   copy: []
   analytics:
     provider: goatcounter
+    domain: gitfocus.app
+    searchConsoleProperty: sc-domain:gitfocus.app
     siteId: gitfocus
     publicDashboard: https://gitfocus.goatcounter.com
     searchConsole: pending
