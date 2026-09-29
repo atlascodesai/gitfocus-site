@@ -1,0 +1,19 @@
+schemaVersion: 1
+id: gitfocus-site
+name: GitFocus site
+kind: webApplication
+summary: "static marketing, support, privacy and localized changelog site for gitfocus.app."
+capabilities: []
+platforms: []
+repository:
+  canonicalRemotes:
+    - https://github.com/atlascodesai/gitfocus-site.git
+integrations:
+  copy: []
+  analytics:
+    provider: goatcounter
+    domain: gitfocus.app
+    searchConsoleProperty: sc-domain:gitfocus.app
+    siteId: gitfocus
+    publicDashboard: https://gitfocus.goatcounter.com
+    searchConsole: pending
