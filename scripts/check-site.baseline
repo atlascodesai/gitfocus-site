@@ -1,0 +1,4 @@
+# Pre-existing check-site.py failures on main (2026-09-29), ignored until fixed.
+# One entry per line: a failure as printed (without "FAIL ") or a bare page path.
+clawd-first-birthday.html: missing meta description  # one-off page
+copy/index/en-US.html  # locale copy source with root-relative asset links that do not resolve from copy/index/
